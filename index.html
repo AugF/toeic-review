@@ -291,6 +291,10 @@
       grid-template-columns: minmax(0, 1fr);
     }
 
+    .card-main.part2-image-left {
+      grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+    }
+
     .card-head {
       display: flex;
       flex-wrap: wrap;
@@ -818,7 +822,8 @@
       .summary-strip {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
-      .card-main {
+      .card-main,
+      .card-main.part2-image-left {
         grid-template-columns: 1fr;
       }
       .image-wrap img {
@@ -1517,29 +1522,32 @@
         const reviewBadge = record.reviewTime ? '<span class="badge meta">看表 ' + escapeHtml(record.reviewTime) + 's</span>' : "";
         const prepBadge = record.preparationTime ? '<span class="badge meta">准备 ' + escapeHtml(record.preparationTime) + 's</span>' : "";
         const answerBadge = record.answerTime ? '<span class="badge meta">作答 ' + escapeHtml(record.answerTime) + 's</span>' : "";
+        const imageOnLeft = record.part === 2 && Boolean(image);
+        const cardContent = '<div>' +
+          '<div class="card-head">' +
+            '<span class="badge ' + record.priority.toLowerCase() + '">' + record.priority + '</span>' +
+            '<span class="badge meta">#' + (index + 1) + '</span>' +
+            '<span class="badge meta">' + escapeHtml(record.sourceFile) + '</span>' +
+            questionBadge +
+            reviewBadge +
+            prepBadge +
+            answerBadge +
+          '</div>' +
+          '<h3 class="card-topic">' + escapeHtml(record.topic || record.partName) + '</h3>' +
+          material +
+          questionContent +
+          answer +
+          '<div class="card-actions">' +
+            '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? (isGrouped ? "隐藏整组答案" : "隐藏答案") : (isGrouped ? "显示整组答案" : "显示答案")) + '</button>' +
+            '<button class="tool-button done-toggle ' + (isDone ? "done" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isDone ? "已练" : "标记已练") + '</button>' +
+            '<button class="tool-button personalize-toggle ' + (isPersonalized ? "personalized" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isPersonalized ? "已个性化" : "标记个性化") + '</button>' +
+          '</div>' +
+        '</div>';
         return '<article class="question-card" data-uid="' + escapeAttr(record.uid) + '">' +
-          '<div class="card-main ' + (image ? "" : "no-image") + '">' +
-            '<div>' +
-              '<div class="card-head">' +
-                '<span class="badge ' + record.priority.toLowerCase() + '">' + record.priority + '</span>' +
-                '<span class="badge meta">#' + (index + 1) + '</span>' +
-                '<span class="badge meta">' + escapeHtml(record.sourceFile) + '</span>' +
-                questionBadge +
-                reviewBadge +
-                prepBadge +
-                answerBadge +
-              '</div>' +
-              '<h3 class="card-topic">' + escapeHtml(record.topic || record.partName) + '</h3>' +
-              material +
-              questionContent +
-              answer +
-              '<div class="card-actions">' +
-                '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? (isGrouped ? "隐藏整组答案" : "隐藏答案") : (isGrouped ? "显示整组答案" : "显示答案")) + '</button>' +
-                '<button class="tool-button done-toggle ' + (isDone ? "done" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isDone ? "已练" : "标记已练") + '</button>' +
-                '<button class="tool-button personalize-toggle ' + (isPersonalized ? "personalized" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isPersonalized ? "已个性化" : "标记个性化") + '</button>' +
-              '</div>' +
-            '</div>' +
-            image +
+          '<div class="card-main ' + (image ? "" : "no-image") + (imageOnLeft ? " part2-image-left" : "") + '">' +
+            (imageOnLeft ? image : "") +
+            cardContent +
+            (imageOnLeft ? "" : image) +
           '</div>' +
           '<div class="reason">' + escapeHtml(record.reason) + '</div>' +
         '</article>';
