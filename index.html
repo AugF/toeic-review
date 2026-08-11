@@ -241,6 +241,69 @@
       font-size: 13px;
     }
 
+    .countdown-control {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .countdown-toggle {
+      appearance: none;
+      gap: 4px;
+      cursor: pointer;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .countdown-toggle:hover {
+      border-color: #9aabb5;
+      background: #edf1f4;
+    }
+
+    .countdown-toggle.running {
+      border-color: var(--teal);
+      background: var(--green-soft);
+      color: var(--teal-dark);
+    }
+
+    .countdown-control.answer .countdown-toggle.running {
+      border-color: var(--amber);
+      background: var(--amber-soft);
+      color: #8a5200;
+    }
+
+    .countdown-toggle.expired {
+      border-color: #e7aaa4;
+      background: var(--coral-soft);
+      color: var(--coral);
+    }
+
+    .countdown-icon {
+      min-width: 9px;
+      font-size: 10px;
+      line-height: 1;
+      text-align: center;
+    }
+
+    .countdown-reset {
+      display: inline-grid;
+      place-items: center;
+      width: 26px;
+      height: 26px;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: #fbfcfd;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .countdown-reset:hover {
+      border-color: #9aabb5;
+      color: var(--text);
+    }
+
     .summary-strip {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -929,6 +992,7 @@
     const searchInput = $("searchInput");
     const cardList = $("cardList");
     const summaryStrip = $("summaryStrip");
+    const countdownTimers = new Map();
     const readingFocusTerms = [
       "please", "welcome", "attention", "announce", "announcement", "reservation",
       "schedule", "meeting", "conference", "workshop", "registration", "deadline",
@@ -948,6 +1012,7 @@
     let speechUtterance = null;
     let speechKeepAliveTimer = 0;
     let voicesReadyPromise = null;
+    let countdownAudioContext = null;
 
     function saveDone() {
       localStorage.setItem("toeic-review-done", JSON.stringify([...state.done]));
@@ -955,6 +1020,146 @@
 
     function savePersonalized() {
       localStorage.setItem("toeic-review-personalized", JSON.stringify([...state.personalized]));
+    }
+
+    function ensureCountdownTimer(key, durationSeconds, type) {
+      const normalizedDuration = Math.max(1, Math.round(Number(durationSeconds) || 1));
+      if (!countdownTimers.has(key)) {
+        countdownTimers.set(key, {
+          durationSeconds: normalizedDuration,
+          remainingMs: normalizedDuration * 1000,
+          endAt: 0,
+          running: false,
+          alerted: false,
+          type,
+        });
+      }
+      return countdownTimers.get(key);
+    }
+
+    function prepareCountdownAudio() {
+      const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextClass) return;
+      if (!countdownAudioContext || countdownAudioContext.state === "closed") {
+        countdownAudioContext = new AudioContextClass();
+      }
+      if (countdownAudioContext.state === "suspended") countdownAudioContext.resume().catch(() => {});
+    }
+
+    function playCountdownAlert(type) {
+      if (!countdownAudioContext || countdownAudioContext.state === "closed") return;
+      if (countdownAudioContext.state === "suspended") countdownAudioContext.resume().catch(() => {});
+      const startAt = countdownAudioContext.currentTime;
+      const frequency = type === "answer" ? 880 : 660;
+      [0, 0.22, 0.44].forEach((offset) => {
+        const oscillator = countdownAudioContext.createOscillator();
+        const gain = countdownAudioContext.createGain();
+        oscillator.type = "sine";
+        oscillator.frequency.value = frequency;
+        gain.gain.setValueAtTime(0.0001, startAt + offset);
+        gain.gain.exponentialRampToValueAtTime(0.14, startAt + offset + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.0001, startAt + offset + 0.16);
+        oscillator.connect(gain);
+        gain.connect(countdownAudioContext.destination);
+        oscillator.start(startAt + offset);
+        oscillator.stop(startAt + offset + 0.17);
+      });
+      document.documentElement.dataset.countdownAlert = (type || "timer") + "-" + Date.now();
+    }
+
+    function syncCountdownTimer(timer, now = Date.now()) {
+      if (!timer.running) return;
+      timer.remainingMs = Math.max(0, timer.endAt - now);
+      if (timer.remainingMs === 0) {
+        timer.running = false;
+        timer.endAt = 0;
+        if (!timer.alerted) {
+          timer.alerted = true;
+          playCountdownAlert(timer.type);
+        }
+      }
+    }
+
+    function countdownSeconds(timer) {
+      return Math.max(0, Math.ceil(timer.remainingMs / 1000));
+    }
+
+    function countdownAction(timer, label) {
+      if (timer.running) return "暂停" + label + "倒计时";
+      if (timer.remainingMs <= 0) return "重新开始" + label + "倒计时";
+      if (timer.remainingMs < timer.durationSeconds * 1000) return "继续" + label + "倒计时";
+      return "开始" + label + "倒计时";
+    }
+
+    function renderCountdown(durationSeconds, key, label, type) {
+      const timer = ensureCountdownTimer(key, durationSeconds, type);
+      syncCountdownTimer(timer);
+      const expired = timer.remainingMs <= 0;
+      const stateClass = timer.running ? " running" : expired ? " expired" : "";
+      const icon = timer.running ? "Ⅱ" : expired ? "↻" : "▶";
+      const action = countdownAction(timer, label);
+      return '<span class="countdown-control ' + escapeAttr(type) + '">' +
+        '<button class="badge meta countdown-toggle' + stateClass + '" type="button" data-countdown-toggle="' + escapeAttr(key) + '" data-countdown-label="' + escapeAttr(label) + '" title="' + escapeAttr(action) + '" aria-label="' + escapeAttr(action) + '">' +
+          '<span>' + escapeHtml(label) + ' </span>' +
+          '<span data-countdown-value>' + countdownSeconds(timer) + 's</span>' +
+          '<span class="countdown-icon" data-countdown-icon>' + icon + '</span>' +
+        '</button>' +
+        '<button class="countdown-reset" type="button" data-countdown-reset="' + escapeAttr(key) + '" data-countdown-label="' + escapeAttr(label) + '" title="重置' + escapeAttr(label) + '倒计时" aria-label="重置' + escapeAttr(label) + '倒计时">↻</button>' +
+      '</span>';
+    }
+
+    function updateCountdownDisplay(key) {
+      const timer = countdownTimers.get(key);
+      if (!timer) return;
+      const expired = timer.remainingMs <= 0;
+      document.querySelectorAll("[data-countdown-toggle]").forEach((button) => {
+        if (button.dataset.countdownToggle !== key) return;
+        const label = button.dataset.countdownLabel || "计时";
+        const value = button.querySelector("[data-countdown-value]");
+        const icon = button.querySelector("[data-countdown-icon]");
+        if (value) value.textContent = countdownSeconds(timer) + "s";
+        if (icon) icon.textContent = timer.running ? "Ⅱ" : expired ? "↻" : "▶";
+        button.classList.toggle("running", timer.running);
+        button.classList.toggle("expired", expired);
+        const action = countdownAction(timer, label);
+        button.title = action;
+        button.setAttribute("aria-label", action);
+      });
+    }
+
+    function updateAllCountdowns() {
+      const now = Date.now();
+      countdownTimers.forEach((timer, key) => {
+        syncCountdownTimer(timer, now);
+        updateCountdownDisplay(key);
+      });
+    }
+
+    function toggleCountdown(key) {
+      const timer = countdownTimers.get(key);
+      if (!timer) return;
+      syncCountdownTimer(timer);
+      if (timer.running) {
+        timer.running = false;
+        timer.endAt = 0;
+      } else {
+        prepareCountdownAudio();
+        if (timer.remainingMs <= 0) timer.remainingMs = timer.durationSeconds * 1000;
+        timer.alerted = false;
+        timer.running = true;
+        timer.endAt = Date.now() + timer.remainingMs;
+      }
+      updateCountdownDisplay(key);
+    }
+
+    function resetCountdown(key) {
+      const timer = countdownTimers.get(key);
+      if (!timer) return;
+      timer.running = false;
+      timer.endAt = 0;
+      timer.remainingMs = timer.durationSeconds * 1000;
+      timer.alerted = false;
+      updateCountdownDisplay(key);
     }
 
     function normalize(value) {
@@ -1444,11 +1649,12 @@
 
     function renderGroupedQuestions(record, answerVisible) {
       return '<div class="question-group" aria-label="整组三题">' + record.questions.map((question) => {
+        const timerKey = question.uid || record.uid + "::question-" + question.questionId;
         const prepBadge = question.preparationTime
-          ? '<span class="badge meta">准备 ' + escapeHtml(question.preparationTime) + 's</span>'
+          ? renderCountdown(question.preparationTime, timerKey + "::prep", "准备", "prep")
           : '';
         const answerBadge = question.answerTime
-          ? '<span class="badge meta">作答 ' + escapeHtml(question.answerTime) + 's</span>'
+          ? renderCountdown(question.answerTime, timerKey + "::answer", "作答", "answer")
           : '';
         const answer = answerVisible
           ? question.answerSectionsEn && question.answerSectionsZh
@@ -1520,8 +1726,8 @@
           ? '<span class="badge meta">' + record.questions.length + ' 题一组</span>'
           : '<span class="badge meta">题' + escapeHtml(record.questionId) + '</span>';
         const reviewBadge = record.reviewTime ? '<span class="badge meta">看表 ' + escapeHtml(record.reviewTime) + 's</span>' : "";
-        const prepBadge = record.preparationTime ? '<span class="badge meta">准备 ' + escapeHtml(record.preparationTime) + 's</span>' : "";
-        const answerBadge = record.answerTime ? '<span class="badge meta">作答 ' + escapeHtml(record.answerTime) + 's</span>' : "";
+        const prepBadge = record.preparationTime ? renderCountdown(record.preparationTime, record.uid + "::prep", "准备", "prep") : "";
+        const answerBadge = record.answerTime ? renderCountdown(record.answerTime, record.uid + "::answer", "作答", "answer") : "";
         const imageOnLeft = record.part === 2 && Boolean(image);
         const cardContent = '<div>' +
           '<div class="card-head">' +
@@ -1631,6 +1837,16 @@
     });
 
     cardList.addEventListener("click", (event) => {
+      const countdownToggle = event.target.closest("[data-countdown-toggle]");
+      if (countdownToggle) {
+        toggleCountdown(countdownToggle.dataset.countdownToggle);
+        return;
+      }
+      const countdownReset = event.target.closest("[data-countdown-reset]");
+      if (countdownReset) {
+        resetCountdown(countdownReset.dataset.countdownReset);
+        return;
+      }
       const checkSpeechButton = event.target.closest("[data-check-speech]");
       if (checkSpeechButton) {
         checkSpeech(checkSpeechButton.dataset.checkSpeech);
@@ -1734,6 +1950,8 @@
     }
 
     render();
+    updateAllCountdowns();
+    window.setInterval(updateAllCountdowns, 200);
   </script>
 </body>
 </html>
