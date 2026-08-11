@@ -334,12 +334,68 @@
       color: #354650;
     }
 
-    .material-text {
-      margin: 0;
-      padding: 0 12px 12px;
-      color: #33434d;
-      font-size: 13px;
+    .material-scroll {
+      border-top: 1px solid var(--line);
       overflow-x: auto;
+    }
+
+    .material-table {
+      width: max-content;
+      min-width: 100%;
+      border-collapse: collapse;
+      color: #273942;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .material-table th,
+    .material-table td {
+      min-width: 112px;
+      max-width: 260px;
+      padding: 9px 10px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      word-break: normal;
+      overflow-wrap: anywhere;
+    }
+
+    .material-table th {
+      background: #eaf3f2;
+      color: #29413f;
+      font-size: 12px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .material-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .material-table th:last-child,
+    .material-table td:last-child {
+      border-right: 0;
+    }
+
+    .material-table tr.changed td {
+      color: #7a3730;
+      background: #fff2f0;
+    }
+
+    .material-notes {
+      margin: 0;
+      padding: 9px 12px;
+      border-top: 1px solid var(--line);
+      color: #475a64;
+      font-size: 12px;
+    }
+
+    .material-missing {
+      padding: 11px 12px;
+      color: #7a4b00;
+      background: #fff8e8;
+      font-size: 13px;
     }
 
     .answer-panel {
@@ -370,6 +426,136 @@
     }
 
     .answer-text {
+      margin: 0;
+      color: #18343a;
+      font-size: 14px;
+    }
+
+    .part2-answer-panel {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .part2-answer-heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid #cde6e1;
+    }
+
+    .part2-answer-heading .answer-title {
+      margin: 0;
+    }
+
+    .part2-answer-row {
+      display: grid;
+      grid-template-columns: 82px minmax(0, 1fr);
+      gap: 10px;
+      padding: 9px 12px;
+      background: #ffffff;
+    }
+
+    .part2-answer-row + .part2-answer-row {
+      border-top: 1px solid #dcebe8;
+    }
+
+    .part2-answer-row.detail {
+      background: #f7fafb;
+    }
+
+    .part2-step-label {
+      color: var(--teal-dark);
+      font-size: 12px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .part2-step-text {
+      margin: 0;
+      color: #18343a;
+      font-size: 14px;
+    }
+
+    .part5-answer-panel {
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .part5-answer-heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid #cde6e1;
+    }
+
+    .part5-answer-heading .answer-title {
+      margin: 0;
+    }
+
+    .answer-pattern {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 3px 8px;
+      border: 1px solid #9ed8cf;
+      border-radius: 999px;
+      background: #ffffff;
+      color: var(--teal-dark);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .part5-language + .part5-language {
+      border-top: 1px solid #cde6e1;
+      background: #fbfcfd;
+    }
+
+    .part5-language-title {
+      margin: 0;
+      padding: 10px 12px 6px;
+      color: #344750;
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .part5-language-heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 12px 4px;
+    }
+
+    .part5-language-heading .part5-language-title {
+      padding: 0;
+    }
+
+    .part5-answer-row {
+      display: grid;
+      grid-template-columns: 62px minmax(0, 1fr);
+      gap: 10px;
+      padding: 8px 12px;
+    }
+
+    .part5-answer-row + .part5-answer-row {
+      border-top: 1px solid rgba(205, 230, 225, 0.72);
+    }
+
+    .part5-step-label {
+      color: var(--teal-dark);
+      font-size: 12px;
+      font-weight: 850;
+      white-space: nowrap;
+    }
+
+    .part5-step-text {
       margin: 0;
       color: #18343a;
       font-size: 14px;
@@ -427,6 +613,21 @@
 
     .speech-controls .tool-button {
       background: #ffffff;
+    }
+
+    .compact-speech-controls {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 7px;
+    }
+
+    .compact-speech-controls .tool-button {
+      min-height: 30px;
+      padding: 4px 9px;
+      background: #ffffff;
+      color: var(--teal-dark);
     }
 
     .speech-status {
@@ -676,6 +877,7 @@
           record.topic,
           record.prompt,
           record.answer,
+          record.answerZh,
           record.sourceFile,
           record.bankName,
           record.instructions,
@@ -702,8 +904,20 @@
 
     function renderAnswer(record) {
       const answerText = record.answer || "题库未提供参考答案。";
+      if (record.part === 2 && record.part2Answer) {
+        return renderPart2Answer(record);
+      }
+      if (record.part === 5 && record.answerSectionsEn && record.answerSectionsZh) {
+        return renderPart5Answer(record);
+      }
       if (record.part !== 1) {
-        return '<div class="answer-panel"><p class="answer-title">参考答案</p><p class="answer-text">' + escapeHtml(answerText) + '</p></div>';
+        return '<div class="answer-panel">' +
+          '<div class="answer-heading">' +
+            '<p class="answer-title">英文参考答案</p>' +
+            renderCompactSpeechControl(record) +
+          '</div>' +
+          '<p class="answer-text">' + escapeHtml(answerText) + '</p>' +
+        '</div>';
       }
       return '<div class="answer-panel part1-answer-panel">' +
         '<div class="answer-heading">' +
@@ -718,6 +932,69 @@
           '<button class="tool-button speech-pause-button" type="button" data-pause-speech="' + escapeAttr(record.uid) + '">暂停/继续</button>' +
           '<button class="tool-button speech-stop-button" type="button" data-stop-speech="' + escapeAttr(record.uid) + '">停止</button>' +
         '</div>' +
+      '</div>';
+    }
+
+    function renderPart2Answer(record) {
+      const detailRows = record.part2Answer.details.map((sentence, index) =>
+        '<div class="part2-answer-row detail">' +
+          '<span class="part2-step-label">分 · 细节 ' + (index + 1) + '</span>' +
+          '<p class="part2-step-text">' + escapeHtml(sentence) + '</p>' +
+        '</div>'
+      ).join("");
+      return '<div class="answer-panel part2-answer-panel">' +
+        '<div class="part2-answer-heading">' +
+          '<p class="answer-title">英文参考答案 · 总—分—总</p>' +
+          renderCompactSpeechControl(record) +
+        '</div>' +
+        '<div class="part2-answer-row">' +
+          '<span class="part2-step-label">总 · 概述</span>' +
+          '<p class="part2-step-text">' + escapeHtml(record.part2Answer.opening) + '</p>' +
+        '</div>' +
+        detailRows +
+        '<div class="part2-answer-row">' +
+          '<span class="part2-step-label">总 · 总结</span>' +
+          '<p class="part2-step-text">' + escapeHtml(record.part2Answer.conclusion) + '</p>' +
+        '</div>' +
+      '</div>';
+    }
+
+    function renderCompactSpeechControl(record) {
+      return '<div class="compact-speech-controls">' +
+        '<span class="speech-status" data-speech-status="' + escapeAttr(record.uid) + '">检测中</span>' +
+        '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '" title="播放英文参考答案" aria-label="播放英文参考答案">播放答案</button>' +
+      '</div>';
+    }
+
+    function renderPart5Answer(record) {
+      const labels = record.answerPattern === "2R1E"
+        ? ["观点", "理由 1", "理由 2", "例子", "总结"]
+        : ["观点", "理由 1", "理由 2", "理由 3", "总结"];
+      const patternText = record.answerPattern === "2R1E"
+        ? "观点 + 2 个理由 + 1 个例子 + 总结"
+        : "观点 + 3 个理由 + 总结";
+      const renderRows = (sections) => sections.map((section, index) =>
+        '<div class="part5-answer-row">' +
+          '<span class="part5-step-label">' + escapeHtml(labels[index] || "要点") + '</span>' +
+          '<p class="part5-step-text">' + escapeHtml(section) + '</p>' +
+        '</div>'
+      ).join("");
+      return '<div class="answer-panel part5-answer-panel">' +
+        '<div class="part5-answer-heading">' +
+          '<p class="answer-title">Part 5 双语参考答案</p>' +
+          '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
+        '</div>' +
+        '<section class="part5-language" aria-label="中文参考答案">' +
+          '<p class="part5-language-title">中文参考答案</p>' +
+          renderRows(record.answerSectionsZh) +
+        '</section>' +
+        '<section class="part5-language" aria-label="英文参考答案">' +
+          '<div class="part5-language-heading">' +
+            '<p class="part5-language-title">英文参考答案</p>' +
+            renderCompactSpeechControl(record) +
+          '</div>' +
+          renderRows(record.answerSectionsEn) +
+        '</section>' +
       '</div>';
     }
 
@@ -1012,6 +1289,28 @@
       ).join("");
     }
 
+    function renderMaterial(record) {
+      if (record.part !== 4 || !record.material) return "";
+      if (record.material.missing) {
+        return '<div class="material material-missing">原始题库未收录本题资料表。</div>';
+      }
+      const head = '<thead><tr>' + record.material.headers.map((header) =>
+        '<th scope="col">' + escapeHtml(header) + '</th>'
+      ).join("") + '</tr></thead>';
+      const body = '<tbody>' + record.material.rows.map((row) =>
+        '<tr class="' + escapeAttr(row.status || "") + '">' + row.cells.map((cell) =>
+          '<td>' + escapeHtml(cell) + '</td>'
+        ).join("") + '</tr>'
+      ).join("") + '</tbody>';
+      const notes = record.material.notes?.length
+        ? '<p class="material-notes">补充信息：' + escapeHtml(record.material.notes.join("；")) + '</p>'
+        : "";
+      return '<details class="material"><summary>资料表</summary>' +
+        '<div class="material-scroll"><table class="material-table">' + head + body + '</table></div>' +
+        notes +
+      '</details>';
+    }
+
     function renderCards(records) {
       if (!records.length) {
         cardList.innerHTML = '<div class="empty">没有匹配的题目。</div>';
@@ -1020,9 +1319,7 @@
       cardList.innerHTML = records.map((record, index) => {
         const answerVisible = state.showAllAnswers || state.answerOpen.has(record.uid);
         const isDone = state.done.has(record.uid);
-        const material = record.part === 4 && record.instructions
-          ? '<details class="material"><summary>资料表</summary><pre class="material-text">' + escapeHtml(record.instructions) + '</pre></details>'
-          : "";
+        const material = renderMaterial(record);
         const image = record.imagePath
           ? '<div class="image-wrap"><img src="' + escapeAttr(record.imagePath) + '" alt="' + escapeAttr(record.topic || "Part2 图片") + '" loading="lazy" /></div>'
           : "";
