@@ -1,5 +1,5 @@
 window.TOEIC_REVIEW_DATA = {
-  "generatedAt": "2026-08-11T09:46:39.617Z",
+  "generatedAt": "2026-08-11T10:05:03.831Z",
   "parts": [
     {
       "part": 1,
@@ -4290,7 +4290,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "健身房经历 · 健身房习惯 · 健身房偏好",
       "prompt": "Question 1: 你上次去健身房是什么时候？\nQuestion 2: 你一般什么时候去健身房，为什么？\nQuestion 3: 你喜欢健身房设备多更好还是课程多更好，为什么？",
-      "answer": "The last time I went to the gym was two days ago after work. I usually go to the gym in the evening because it helps me relax after a long day. I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
+      "answer": "The last time I went to the gym was two days ago after work. I usually go to the gym in the evening because it helps me relax after a long day. I prefer a gym with more equipment. First, I can choose different machines for my workout goals. Second, I do not have to wait too long. So, a well-equipped gym is more convenient for me.",
+      "answerZh": "我更喜欢设备多的健身房。第一，我可以根据训练目标选择不同的器械。第二，器械多时，我不需要排队等太久。所以，设备多的健身房对我更方便。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4329,11 +4330,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "健身房偏好",
           "prompt": "Question 3: 你喜欢健身房设备多更好还是课程多更好，为什么？",
-          "answer": "I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
+          "answer": "I prefer a gym with more equipment. First, I can choose different machines for my workout goals. Second, I do not have to wait too long. So, a well-equipped gym is more convenient for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "prefer gyms equipment choose different"
+          "keywords": "prefer gyms equipment choose different",
+          "answerZh": "我更喜欢设备多的健身房。第一，我可以根据训练目标选择不同的器械。第二，器械多时，我不需要排队等太久。所以，设备多的健身房对我更方便。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer a gym with more equipment.",
+            "First, I can choose different machines for my workout goals.",
+            "Second, I do not have to wait too long.",
+            "So, a well-equipped gym is more convenient for me."
+          ],
+          "answerSectionsZh": [
+            "我更喜欢设备多的健身房。",
+            "第一，我可以根据训练目标选择不同的器械。",
+            "第二，器械多时，我不需要排队等太久。",
+            "所以，设备多的健身房对我更方便。"
+          ]
         }
       ]
     },
@@ -4347,7 +4362,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "健身房经历 · 健身房习惯 · 健身房偏好",
       "prompt": "第1题：你上次去健身房是什么时候？\n第2题：你一般什么时候去健身房，为什么？\n第3题：你喜欢健身房设备多更好还是课程多更好，为什么？",
-      "answer": "The last time I went to the fitness center was yesterday evening after dinner. I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily. I prefer a gym with more equipment because I like to exercise by myself and use different machines for different muscle groups.",
+      "answer": "The last time I went to the fitness center was yesterday evening after dinner. I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily. I prefer a gym with more equipment. First, I like working out alone and choosing my own machines. Second, different machines train different parts of the body. So, the amount of equipment matters most to me.",
+      "answerZh": "我更喜欢设备多的健身房。第一，我喜欢独自训练，可以自由选择器械。第二，不同器械可以锻炼不同的身体部位。所以，设备数量对我最重要。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4386,11 +4402,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "健身房偏好",
           "prompt": "第3题：你喜欢健身房设备多更好还是课程多更好，为什么？",
-          "answer": "I prefer a gym with more equipment because I like to exercise by myself and use different machines for different muscle groups.",
+          "answer": "I prefer a gym with more equipment. First, I like working out alone and choosing my own machines. Second, different machines train different parts of the body. So, the amount of equipment matters most to me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "gym equipment classes preference"
+          "keywords": "gym equipment classes preference",
+          "answerZh": "我更喜欢设备多的健身房。第一，我喜欢独自训练，可以自由选择器械。第二，不同器械可以锻炼不同的身体部位。所以，设备数量对我最重要。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer a gym with more equipment.",
+            "First, I like working out alone and choosing my own machines.",
+            "Second, different machines train different parts of the body.",
+            "So, the amount of equipment matters most to me."
+          ],
+          "answerSectionsZh": [
+            "我更喜欢设备多的健身房。",
+            "第一，我喜欢独自训练，可以自由选择器械。",
+            "第二，不同器械可以锻炼不同的身体部位。",
+            "所以，设备数量对我最重要。"
+          ]
         }
       ]
     },
@@ -4404,7 +4434,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "购买电脑 · 电脑购买渠道 · 购买渠道选择",
       "prompt": "你上次买电脑是什么时候，为什么买？\n你觉得电脑在线上卖的多还是线下卖的多？\n你选择在商店买还是网上买？为什么？",
-      "answer": "I bought my computer in 2021 because I needed it for studying and entertainment. I think computers are sold more online because it is easier to compare prices and specifications. I prefer buying computers online because it is more convenient and usually cheaper. I can also read customer reviews before making a decision.",
+      "answer": "I bought my computer in 2021 because I needed it for studying and entertainment. I think computers are sold more online because it is easier to compare prices and specifications. I prefer buying computers online. First, I can compare different models at home. Second, online prices are often lower, and I can read customer reviews. So, I would choose online shopping.",
+      "answerZh": "我更喜欢在网上买电脑。第一，我在家就能比较不同的型号。第二，网上价格通常更便宜，也能查看用户评价。所以，我会选择网上购买。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4443,11 +4474,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "购买渠道选择",
           "prompt": "你选择在商店买还是网上买？为什么？",
-          "answer": "I prefer buying computers online because it is more convenient and usually cheaper. I can also read customer reviews before making a decision.",
+          "answer": "I prefer buying computers online. First, I can compare different models at home. Second, online prices are often lower, and I can read customer reviews. So, I would choose online shopping.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "prefer buying computers online convenient"
+          "keywords": "prefer buying computers online convenient",
+          "answerZh": "我更喜欢在网上买电脑。第一，我在家就能比较不同的型号。第二，网上价格通常更便宜，也能查看用户评价。所以，我会选择网上购买。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer buying computers online.",
+            "First, I can compare different models at home.",
+            "Second, online prices are often lower, and I can read customer reviews.",
+            "So, I would choose online shopping."
+          ],
+          "answerSectionsZh": [
+            "我更喜欢在网上买电脑。",
+            "第一，我在家就能比较不同的型号。",
+            "第二，网上价格通常更便宜，也能查看用户评价。",
+            "所以，我会选择网上购买。"
+          ]
         }
       ]
     },
@@ -4461,7 +4506,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "火车出行 · 社区规划 · 火车站环境",
       "prompt": "你多久坐一次火车？去哪里？\n如果在城市建新火车站，你希望建在哪里？为什么？\n对于火车站，你认为哪一点最重要？为什么？",
-      "answer": "I take the train about twice a month, usually to nearby cities for work or visiting friends. I hope the new station can be built near the city center because it will be convenient for most passengers. I think cleanliness is the most important factor in a train station. A clean environment makes passengers feel comfortable and leaves a good impression of the city.",
+      "answer": "I take the train about twice a month, usually to nearby cities for work or visiting friends. I hope the new station can be built near the city center because it will be convenient for most passengers. I think cleanliness is most important at a train station. First, a clean place makes passengers feel comfortable. Second, it gives visitors a good impression of the city. So, the station should focus on cleanliness.",
+      "answerZh": "我认为火车站的整洁最重要。第一，干净的环境会让乘客更舒服。第二，整洁的车站能给游客留下好印象。所以，车站应该优先保持清洁。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4500,11 +4546,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "火车站环境",
           "prompt": "对于火车站，你认为哪一点最重要？为什么？",
-          "answer": "I think cleanliness is the most important factor in a train station. A clean environment makes passengers feel comfortable and leaves a good impression of the city.",
+          "answer": "I think cleanliness is most important at a train station. First, a clean place makes passengers feel comfortable. Second, it gives visitors a good impression of the city. So, the station should focus on cleanliness.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "think cleanliness important factor train"
+          "keywords": "think cleanliness important factor train",
+          "answerZh": "我认为火车站的整洁最重要。第一，干净的环境会让乘客更舒服。第二，整洁的车站能给游客留下好印象。所以，车站应该优先保持清洁。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I think cleanliness is most important at a train station.",
+            "First, a clean place makes passengers feel comfortable.",
+            "Second, it gives visitors a good impression of the city.",
+            "So, the station should focus on cleanliness."
+          ],
+          "answerSectionsZh": [
+            "我认为火车站的整洁最重要。",
+            "第一，干净的环境会让乘客更舒服。",
+            "第二，整洁的车站能给游客留下好印象。",
+            "所以，车站应该优先保持清洁。"
+          ]
         }
       ]
     },
@@ -4518,7 +4578,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "健身习惯 · 健身时间偏好 · 健身房选择因素",
       "prompt": "你多久去一次健身房？和谁一起去？\n你比较喜欢什么时候去健身房？为什么？\n选择健身房时，什么因素最重要？为什么？",
-      "answer": "Usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together. I prefer going to the gym in the evening because I am busy during the day and there are fewer people around. The most important factor is the distance from my home because I am busy. Also, I like having many machines so I can train different body parts effectively.",
+      "answer": "Usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together. I prefer going to the gym in the evening because I am busy during the day and there are fewer people around. Distance is most important when I choose a gym. First, a nearby gym saves travel time. Second, it is easier for me to exercise regularly. So, I would choose a gym close to home.",
+      "answerZh": "选择健身房时，我最看重距离。第一，离家近可以节省通勤时间。第二，距离近能让我更容易坚持锻炼。所以，我会先选择离家近的健身房。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4557,11 +4618,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "健身房选择因素",
           "prompt": "选择健身房时，什么因素最重要？为什么？",
-          "answer": "The most important factor is the distance from my home because I am busy. Also, I like having many machines so I can train different body parts effectively.",
+          "answer": "Distance is most important when I choose a gym. First, a nearby gym saves travel time. Second, it is easier for me to exercise regularly. So, I would choose a gym close to home.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "important factor distance home am"
+          "keywords": "important factor distance home am",
+          "answerZh": "选择健身房时，我最看重距离。第一，离家近可以节省通勤时间。第二，距离近能让我更容易坚持锻炼。所以，我会先选择离家近的健身房。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Distance is most important when I choose a gym.",
+            "First, a nearby gym saves travel time.",
+            "Second, it is easier for me to exercise regularly.",
+            "So, I would choose a gym close to home."
+          ],
+          "answerSectionsZh": [
+            "选择健身房时，我最看重距离。",
+            "第一，离家近可以节省通勤时间。",
+            "第二，距离近能让我更容易坚持锻炼。",
+            "所以，我会先选择离家近的健身房。"
+          ]
         }
       ]
     },
@@ -4575,7 +4650,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "家具情况 · 家具购买 · 家具选择因素",
       "prompt": "你家里面最旧的家具是什么？什么时候买的？\n你有购买家具的计划吗？准备买什么？\n选择家具时，你认为哪些因素最重要？style / comfort / materials",
-      "answer": "The oldest furniture in my house is my bed. I bought it ten years ago. I plan to buy a comfortable bed next week because the current one is old and squeaky. I think comfort is the most important factor. If furniture is not comfortable, it won't serve its purpose, even if it looks stylish or is made of high-quality materials.",
+      "answer": "The oldest furniture in my house is my bed. I bought it ten years ago. I plan to buy a comfortable bed next week because the current one is old and squeaky. I think comfort is most important when choosing furniture. First, comfortable furniture helps me relax every day. Second, it can reduce physical tiredness. So, I would consider comfort first.",
+      "answerZh": "选择家具时，我认为舒适度最重要。第一，家具每天都会使用，舒服才能让人放松。第二，舒适的家具可以减少身体疲劳。所以，我会先考虑舒适度。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4614,11 +4690,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "家具选择因素",
           "prompt": "选择家具时，你认为哪些因素最重要？style / comfort / materials",
-          "answer": "I think comfort is the most important factor. If furniture is not comfortable, it won't serve its purpose, even if it looks stylish or is made of high-quality materials.",
+          "answer": "I think comfort is most important when choosing furniture. First, comfortable furniture helps me relax every day. Second, it can reduce physical tiredness. So, I would consider comfort first.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "think comfort important factor furniture"
+          "keywords": "think comfort important factor furniture",
+          "answerZh": "选择家具时，我认为舒适度最重要。第一，家具每天都会使用，舒服才能让人放松。第二，舒适的家具可以减少身体疲劳。所以，我会先考虑舒适度。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I think comfort is most important when choosing furniture.",
+            "First, comfortable furniture helps me relax every day.",
+            "Second, it can reduce physical tiredness.",
+            "So, I would consider comfort first."
+          ],
+          "answerSectionsZh": [
+            "选择家具时，我认为舒适度最重要。",
+            "第一，家具每天都会使用，舒服才能让人放松。",
+            "第二，舒适的家具可以减少身体疲劳。",
+            "所以，我会先考虑舒适度。"
+          ]
         }
       ]
     },
@@ -4632,7 +4722,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "公共交通",
       "prompt": "上次啥时候乘坐公共汽车？独自乘坐的吗？\n一般什么情况下你会想乘坐公共汽车，为什么？\n你会选择公共汽车出行吗？为什么会或不会？",
-      "answer": "I took the bus last week, and I took it alone to go to my office. In case my wife uses the car, I will take the bus because we have only one car. Yes. It is convenient to take the bus and I can go anywhere I want. Also, traffic in my city is not good, and the bus is cheaper than other transportation. If the destination is not far.",
+      "answer": "I took the bus last week, and I took it alone to go to my office. In case my wife uses the car, I will take the bus because we have only one car. Yes, I would travel by bus. First, taking the bus costs less than driving. Second, I do not need to find parking, and I can rest. So, the bus is convenient for me.",
+      "answerZh": "我会选择乘公共汽车出行。第一，坐公交比开车更省钱。第二，我不用找停车位，也可以在路上休息。所以，公交车对我来说很方便。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4671,11 +4762,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "公共交通",
           "prompt": "你会选择公共汽车出行吗？为什么会或不会？",
-          "answer": "Yes. It is convenient to take the bus and I can go anywhere I want. Also, traffic in my city is not good, and the bus is cheaper than other transportation. If the destination is not far.",
+          "answer": "Yes, I would travel by bus. First, taking the bus costs less than driving. Second, I do not need to find parking, and I can rest. So, the bus is convenient for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "course convenient take bus go"
+          "keywords": "course convenient take bus go",
+          "answerZh": "我会选择乘公共汽车出行。第一，坐公交比开车更省钱。第二，我不用找停车位，也可以在路上休息。所以，公交车对我来说很方便。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Yes, I would travel by bus.",
+            "First, taking the bus costs less than driving.",
+            "Second, I do not need to find parking, and I can rest.",
+            "So, the bus is convenient for me."
+          ],
+          "answerSectionsZh": [
+            "我会选择乘公共汽车出行。",
+            "第一，坐公交比开车更省钱。",
+            "第二，我不用找停车位，也可以在路上休息。",
+            "所以，公交车对我来说很方便。"
+          ]
         }
       ]
     },
@@ -4689,7 +4794,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "学校联系 · 邮件使用 · 沟通方式选择",
       "prompt": "上次是什么时间跟学校谁联系，为什么？\n你使用邮件的频率是多少？\n什么情况下你会选择发邮件，还是选择打电话？",
-      "answer": "I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation. I use email every day to contact my colleagues and customers. I usually use email first. however, if it is urgent, I will call directly.",
+      "answer": "I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation. I use email every day to contact my colleagues and customers. I usually email first, but I call when something is urgent. First, email leaves a clear written record. Second, a phone call solves urgent problems faster. So, I choose based on how urgent it is.",
+      "answerZh": "一般情况下我会先发邮件，紧急时会打电话。第一，邮件可以留下清楚的书面记录。第二，电话能更快处理紧急问题。所以，我会根据事情是否紧急来选择。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4728,11 +4834,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "沟通方式选择",
           "prompt": "什么情况下你会选择发邮件，还是选择打电话？",
-          "answer": "I usually use email first. however, if it is urgent, I will call directly.",
+          "answer": "I usually email first, but I call when something is urgent. First, email leaves a clear written record. Second, a phone call solves urgent problems faster. So, I choose based on how urgent it is.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "usually use email however urgent"
+          "keywords": "usually use email however urgent",
+          "answerZh": "一般情况下我会先发邮件，紧急时会打电话。第一，邮件可以留下清楚的书面记录。第二，电话能更快处理紧急问题。所以，我会根据事情是否紧急来选择。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I usually email first, but I call when something is urgent.",
+            "First, email leaves a clear written record.",
+            "Second, a phone call solves urgent problems faster.",
+            "So, I choose based on how urgent it is."
+          ],
+          "answerSectionsZh": [
+            "一般情况下我会先发邮件，紧急时会打电话。",
+            "第一，邮件可以留下清楚的书面记录。",
+            "第二，电话能更快处理紧急问题。",
+            "所以，我会根据事情是否紧急来选择。"
+          ]
         }
       ]
     },
@@ -4746,7 +4866,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "上下班距离 · 上班时间偏好 · 工作环境选择",
       "prompt": "你工作地点离家多远？是否开车？\n你喜欢早上上班还是晚一点上班？\n上班时，好的主管、好的同事还是其他更重要？",
-      "answer": "It is about 10 kms. I usually drive to work. I like to go to work earlier because there is less traffic and it saves time. Good supervisor is my first choice. A good supervisor can create a positive work atmosphere. You feel happy during work and can get help when problems arise.",
+      "answer": "It is about 10 kms. I usually drive to work. I like to go to work earlier because there is less traffic and it saves time. I think a good supervisor is most important at work. First, a good supervisor gives clear guidance. Second, the supervisor can help when problems come up. So, a good supervisor makes work easier.",
+      "answerZh": "上班时，我认为好的主管最重要。第一，好的主管会给我清楚的指导。第二，遇到问题时，主管能及时提供帮助。所以，好的主管能让工作更顺利。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4785,11 +4906,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "工作环境选择",
           "prompt": "上班时，好的主管、好的同事还是其他更重要？",
-          "answer": "Good supervisor is my first choice. A good supervisor can create a positive work atmosphere. You feel happy during work and can get help when problems arise.",
+          "answer": "I think a good supervisor is most important at work. First, a good supervisor gives clear guidance. Second, the supervisor can help when problems come up. So, a good supervisor makes work easier.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "good supervisor choice create positive"
+          "keywords": "good supervisor choice create positive",
+          "answerZh": "上班时，我认为好的主管最重要。第一，好的主管会给我清楚的指导。第二，遇到问题时，主管能及时提供帮助。所以，好的主管能让工作更顺利。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I think a good supervisor is most important at work.",
+            "First, a good supervisor gives clear guidance.",
+            "Second, the supervisor can help when problems come up.",
+            "So, a good supervisor makes work easier."
+          ],
+          "answerSectionsZh": [
+            "上班时，我认为好的主管最重要。",
+            "第一，好的主管会给我清楚的指导。",
+            "第二，遇到问题时，主管能及时提供帮助。",
+            "所以，好的主管能让工作更顺利。"
+          ]
         }
       ]
     },
@@ -4803,7 +4938,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "纪念品质量 · 纪念品受欢迎度 · 纪念品购买",
       "prompt": "纪念品的质量如何判断？\n你所住的地方最受欢迎的纪念品是什么？为什么？\n你会在网上购买纪念品吗？为什么？",
-      "answer": "I think the quality standard should be based on material, weight, and style. I live in Beijing. The most popular local gift is Beijing Roast Duck because it is very famous and delicious. No, I will not. A local gift represents a memory of being somewhere. Although it is convenient to buy online, you can't know the quality.",
+      "answer": "I think the quality standard should be based on material, weight, and style. I live in Beijing. The most popular local gift is Beijing Roast Duck because it is very famous and delicious. I would not buy souvenirs online. First, I can check the quality when I buy them locally. Second, a local purchase feels more connected to the trip. So, I prefer buying souvenirs while traveling.",
+      "answerZh": "我不会在网上购买纪念品。第一，在当地购买时，我可以亲自检查质量。第二，当地买到的礼物更能代表旅行回忆。所以，我更愿意在旅行时购买。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4842,11 +4978,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "纪念品购买",
           "prompt": "你会在网上购买纪念品吗？为什么？",
-          "answer": "No, I will not. A local gift represents a memory of being somewhere. Although it is convenient to buy online, you can't know the quality.",
+          "answer": "I would not buy souvenirs online. First, I can check the quality when I buy them locally. Second, a local purchase feels more connected to the trip. So, I prefer buying souvenirs while traveling.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "no not memento represents memory"
+          "keywords": "no not memento represents memory",
+          "answerZh": "我不会在网上购买纪念品。第一，在当地购买时，我可以亲自检查质量。第二，当地买到的礼物更能代表旅行回忆。所以，我更愿意在旅行时购买。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I would not buy souvenirs online.",
+            "First, I can check the quality when I buy them locally.",
+            "Second, a local purchase feels more connected to the trip.",
+            "So, I prefer buying souvenirs while traveling."
+          ],
+          "answerSectionsZh": [
+            "我不会在网上购买纪念品。",
+            "第一，在当地购买时，我可以亲自检查质量。",
+            "第二，当地买到的礼物更能代表旅行回忆。",
+            "所以，我更愿意在旅行时购买。"
+          ]
         }
       ]
     },
@@ -4860,7 +5010,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "生日活动 · 生日礼物购买 · 生日食物准备",
       "prompt": "最近一次参加生日party是什么时候，是给谁过生日？\n你一般在哪里买生日礼物？\n你认为生日party需要准备不同种类的食物吗？为什么？",
-      "answer": "The latest birthday party was held on 11th May. It was my daughter's first birthday. I usually buy gifts online. It is convenient. For example, I buy a cake in the afternoon. Yes. Birthday cake is a must, but not everyone has a sweet tooth. It is necessary to prepare different kinds of food. For example, for my daughter's birthday, I prepared many foods and it cost about 1000 Yuan.",
+      "answer": "The latest birthday party was held on 11th May. It was my daughter's first birthday. I usually buy gifts online. It is convenient. For example, I buy a cake in the afternoon. I think a birthday party should offer different kinds of food. Guests have different tastes, and not everyone likes sweets. For example, at my daughter's party, I prepared cake, fruit, and some savory food. So, everyone had something to enjoy.",
+      "answerZh": "我认为生日聚会应该准备不同种类的食物。因为客人的口味不同，不是每个人都喜欢甜食。例如，我女儿生日时，我准备了蛋糕、水果和一些咸食。所以，多种食物能让每位客人都有选择。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4899,11 +5050,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "生日食物准备",
           "prompt": "你认为生日party需要准备不同种类的食物吗？为什么？",
-          "answer": "Yes. Birthday cake is a must, but not everyone has a sweet tooth. It is necessary to prepare different kinds of food. For example, for my daughter's birthday, I prepared many foods and it cost about 1000 Yuan.",
+          "answer": "I think a birthday party should offer different kinds of food. Guests have different tastes, and not everyone likes sweets. For example, at my daughter's party, I prepared cake, fruit, and some savory food. So, everyone had something to enjoy.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "yes birthday cake not everyone"
+          "keywords": "yes birthday cake not everyone",
+          "answerZh": "我认为生日聚会应该准备不同种类的食物。因为客人的口味不同，不是每个人都喜欢甜食。例如，我女儿生日时，我准备了蛋糕、水果和一些咸食。所以，多种食物能让每位客人都有选择。",
+          "answerPattern": "1R1E",
+          "answerSectionsEn": [
+            "I think a birthday party should offer different kinds of food.",
+            "Guests have different tastes, and not everyone likes sweets.",
+            "For example, at my daughter's party, I prepared cake, fruit, and some savory food.",
+            "So, everyone had something to enjoy."
+          ],
+          "answerSectionsZh": [
+            "我认为生日聚会应该准备不同种类的食物。",
+            "因为客人的口味不同，不是每个人都喜欢甜食。",
+            "例如，我女儿生日时，我准备了蛋糕、水果和一些咸食。",
+            "所以，多种食物能让每位客人都有选择。"
+          ]
         }
       ]
     },
@@ -4917,7 +5082,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "5/6/7",
       "topic": "电脑使用频率与用途 · 购买电脑的喜好 · 电脑需要改进的部分",
       "prompt": "Question 1: How often do you use a computer, and what do you use it for?\nQuestion 2: Do you enjoy shopping for computers?\nQuestion 3: What part of the computer do you think needs the most improvement?",
-      "answer": "I use a computer every day. I use it to finish my work tasks and play games in my spare time. Yes, I enjoy shopping for computers because new computers have better speed, and I can play more games smoothly with them. I think the cooling system of the computer needs to be improved. After using it for a period of time, it becomes very hot, which affects my normal use of the computer.",
+      "answer": "I use a computer every day. I use it to finish my work tasks and play games in my spare time. Yes, I enjoy shopping for computers because new computers have better speed, and I can play more games smoothly with them. I think the computer's cooling system needs the most improvement. First, better cooling keeps the computer stable. Second, a lower temperature can make the computer last longer. So, I would improve the cooling system first.",
+      "answerZh": "我认为电脑的散热系统最需要改进。第一，散热更好可以让电脑运行得更稳定。第二，温度较低也能延长电脑的使用寿命。所以，我会优先改进散热系统。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -4956,11 +5122,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 7,
           "topic": "电脑需要改进的部分",
           "prompt": "Question 3: What part of the computer do you think needs the most improvement?",
-          "answer": "I think the cooling system of the computer needs to be improved. After using it for a period of time, it becomes very hot, which affects my normal use of the computer.",
+          "answer": "I think the computer's cooling system needs the most improvement. First, better cooling keeps the computer stable. Second, a lower temperature can make the computer last longer. So, I would improve the cooling system first.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "think cooling system computer needs"
+          "keywords": "think cooling system computer needs",
+          "answerZh": "我认为电脑的散热系统最需要改进。第一，散热更好可以让电脑运行得更稳定。第二，温度较低也能延长电脑的使用寿命。所以，我会优先改进散热系统。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I think the computer's cooling system needs the most improvement.",
+            "First, better cooling keeps the computer stable.",
+            "Second, a lower temperature can make the computer last longer.",
+            "So, I would improve the cooling system first."
+          ],
+          "answerSectionsZh": [
+            "我认为电脑的散热系统最需要改进。",
+            "第一，散热更好可以让电脑运行得更稳定。",
+            "第二，温度较低也能延长电脑的使用寿命。",
+            "所以，我会优先改进散热系统。"
+          ]
         }
       ]
     },
@@ -4974,7 +5154,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "5/6/7",
       "topic": "居住区域熟悉度 · 居住区域交通便利性 · 居住区域喜爱场所",
       "prompt": "Question 1: Are you familiar with the area where you currently live? Why?\nQuestion 2: Do you think the transportation in your area is convenient?\nQuestion 3: What is your favorite place in your living area and why?",
-      "answer": "Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets. Yes, the transportation here is convenient. There are several bus stops within a five-minute walk. My favorite place is the community park. It has beautiful flowers and green trees, and it's very quiet. I often go there for a walk after dinner, which helps me relax after a busy day.",
+      "answer": "Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets. Yes, the transportation here is convenient. There are several bus stops within a five-minute walk. My favorite place near my home is the community park. It is quiet and green, so it helps me relax. For example, I often walk there after dinner. So, the community park is my favorite place.",
+      "answerZh": "我最喜欢住处附近的社区公园。那里安静、绿化好，可以帮助我放松。例如，我经常晚饭后去公园散步。所以，社区公园是我最喜欢的地方。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5013,11 +5194,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 7,
           "topic": "居住区域喜爱场所",
           "prompt": "Question 3: What is your favorite place in your living area and why?",
-          "answer": "My favorite place is the community park. It has beautiful flowers and green trees, and it's very quiet. I often go there for a walk after dinner, which helps me relax after a busy day.",
+          "answer": "My favorite place near my home is the community park. It is quiet and green, so it helps me relax. For example, I often walk there after dinner. So, the community park is my favorite place.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "question favorite place community park"
+          "keywords": "question favorite place community park",
+          "answerZh": "我最喜欢住处附近的社区公园。那里安静、绿化好，可以帮助我放松。例如，我经常晚饭后去公园散步。所以，社区公园是我最喜欢的地方。",
+          "answerPattern": "1R1E",
+          "answerSectionsEn": [
+            "My favorite place near my home is the community park.",
+            "It is quiet and green, so it helps me relax.",
+            "For example, I often walk there after dinner.",
+            "So, the community park is my favorite place."
+          ],
+          "answerSectionsZh": [
+            "我最喜欢住处附近的社区公园。",
+            "那里安静、绿化好，可以帮助我放松。",
+            "例如，我经常晚饭后去公园散步。",
+            "所以，社区公园是我最喜欢的地方。"
+          ]
         }
       ]
     },
@@ -5031,7 +5226,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "5/6/7",
       "topic": "居住时长与住房类型 · 网上购买家具的意愿 · 网上购买家具的优点",
       "prompt": "Question 1: How long have you lived in your current house, and is it a house or an apartment?\nQuestion 2: Would you like to buy furniture online?\nQuestion 3: What are the advantages of buying furniture online?",
-      "answer": "I have lived in my current apartment for three years. Yes, I would like to buy furniture online. It is convenient and I can choose from many products without leaving home. There are several advantages of buying furniture online. First, online stores usually offer more styles and designs than physical stores. Second, the prices are often cheaper because online stores cost less.",
+      "answer": "I have lived in my current apartment for three years. Yes, I would like to buy furniture online. It is convenient and I can choose from many products without leaving home. Buying furniture online has two main advantages. First, online stores usually offer more styles. Second, online prices are often lower. So, buying furniture online is convenient and saves money.",
+      "answerZh": "我认为网上购买家具有两个主要优点。第一，网上商店通常有更多款式可以选择。第二，网上价格往往更便宜。所以，网上买家具既方便又省钱。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5070,11 +5266,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 7,
           "topic": "网上购买家具的优点",
           "prompt": "Question 3: What are the advantages of buying furniture online?",
-          "answer": "There are several advantages of buying furniture online. First, online stores usually offer more styles and designs than physical stores. Second, the prices are often cheaper because online stores cost less.",
+          "answer": "Buying furniture online has two main advantages. First, online stores usually offer more styles. Second, online prices are often lower. So, buying furniture online is convenient and saves money.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "question several advantages buying furniture"
+          "keywords": "question several advantages buying furniture",
+          "answerZh": "我认为网上购买家具有两个主要优点。第一，网上商店通常有更多款式可以选择。第二，网上价格往往更便宜。所以，网上买家具既方便又省钱。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Buying furniture online has two main advantages.",
+            "First, online stores usually offer more styles.",
+            "Second, online prices are often lower.",
+            "So, buying furniture online is convenient and saves money."
+          ],
+          "answerSectionsZh": [
+            "我认为网上购买家具有两个主要优点。",
+            "第一，网上商店通常有更多款式可以选择。",
+            "第二，网上价格往往更便宜。",
+            "所以，网上买家具既方便又省钱。"
+          ]
         }
       ]
     },
@@ -5088,7 +5298,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "日常习惯 · 软件使用 · 学习兴趣",
       "prompt": "Question 1: 你多久拍一次照片？通常在哪里拍？\nQuestion 2: 你会用修图软件吗？为什么？\nQuestion 3: 你有兴趣学习如何使用修图软件吗？为什么？",
-      "answer": "I take photos almost every week when I go for a walk in the park. I don't know how to use photo-editing software because I am busy with my work. Yes, of course. I am interested in learning photo-editing software. It can help me enhance my photos, express creativity, and improve digital skills. It is also convenient to edit photos myself instead of paying others.",
+      "answer": "I take photos almost every week when I go for a walk in the park. I don't know how to use photo-editing software because I am busy with my work. Yes, I am interested in learning photo-editing software. First, it can help me improve my photos. Second, I can edit them myself instead of paying someone. So, it is a useful skill for me.",
+      "answerZh": "我有兴趣学习修图软件。第一，它可以帮助我改善照片效果。第二，我可以自己修图，不需要花钱请别人。所以，这是一项很实用的技能。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5127,11 +5338,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "学习兴趣",
           "prompt": "Question 3: 你有兴趣学习如何使用修图软件吗？为什么？",
-          "answer": "Yes, of course. I am interested in learning photo-editing software. It can help me enhance my photos, express creativity, and improve digital skills. It is also convenient to edit photos myself instead of paying others.",
+          "answer": "Yes, I am interested in learning photo-editing software. First, it can help me improve my photos. Second, I can edit them myself instead of paying someone. So, it is a useful skill for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "yes course am interested learning"
+          "keywords": "yes course am interested learning",
+          "answerZh": "我有兴趣学习修图软件。第一，它可以帮助我改善照片效果。第二，我可以自己修图，不需要花钱请别人。所以，这是一项很实用的技能。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Yes, I am interested in learning photo-editing software.",
+            "First, it can help me improve my photos.",
+            "Second, I can edit them myself instead of paying someone.",
+            "So, it is a useful skill for me."
+          ],
+          "answerSectionsZh": [
+            "我有兴趣学习修图软件。",
+            "第一，它可以帮助我改善照片效果。",
+            "第二，我可以自己修图，不需要花钱请别人。",
+            "所以，这是一项很实用的技能。"
+          ]
         }
       ]
     },
@@ -5145,7 +5370,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "餐厅选择原因 · 用餐体验 · 餐厅推荐",
       "prompt": "花多久去上学/上班，喜欢这样吗？how long go to work or go to school？do you like it？\nhow offen多久出去聚餐，通常跟谁一起去?\n有朋友要带亲戚来你这里，你会推荐什么样的餐厅？",
-      "answer": "Usually, I take 10 minutes to get to work by bike. Usually, I gather with my friends for dinner twice a month. What's more, we all like to have some beer every time. I recommend a family-friendly restaurant that has many dishes and a comfortable environment. It's important that the food is delicious and the service is friendly. A place with a nice view or local specialties would be even better.",
+      "answer": "Usually, I take 10 minutes to get to work by bike. Usually, I gather with my friends for dinner twice a month. What's more, we all like to have some beer every time. I would recommend a family-friendly restaurant. First, it usually offers many kinds of food. Second, a comfortable place is good for both older people and children. So, it is a good choice for a family meal.",
+      "answerZh": "我会推荐一家适合家庭聚餐的餐厅。第一，这类餐厅通常有很多菜品可选。第二，环境舒服，老人和孩子都会更放松。所以，它很适合朋友带亲戚一起用餐。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5184,11 +5410,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "餐厅推荐",
           "prompt": "有朋友要带亲戚来你这里，你会推荐什么样的餐厅？",
-          "answer": "I recommend a family-friendly restaurant that has many dishes and a comfortable environment. It's important that the food is delicious and the service is friendly. A place with a nice view or local specialties would be even better.",
+          "answer": "I would recommend a family-friendly restaurant. First, it usually offers many kinds of food. Second, a comfortable place is good for both older people and children. So, it is a good choice for a family meal.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "recommend family friendly restaurant good"
+          "keywords": "recommend family friendly restaurant good",
+          "answerZh": "我会推荐一家适合家庭聚餐的餐厅。第一，这类餐厅通常有很多菜品可选。第二，环境舒服，老人和孩子都会更放松。所以，它很适合朋友带亲戚一起用餐。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I would recommend a family-friendly restaurant.",
+            "First, it usually offers many kinds of food.",
+            "Second, a comfortable place is good for both older people and children.",
+            "So, it is a good choice for a family meal."
+          ],
+          "answerSectionsZh": [
+            "我会推荐一家适合家庭聚餐的餐厅。",
+            "第一，这类餐厅通常有很多菜品可选。",
+            "第二，环境舒服，老人和孩子都会更放松。",
+            "所以，它很适合朋友带亲戚一起用餐。"
+          ]
         }
       ]
     },
@@ -5202,7 +5442,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "音乐喜好 · 音乐购买习惯 · 音乐偏好原因",
       "prompt": "你多久听音乐，一般在哪里听音乐？\n买音乐是买歌还是买专辑？\n你喜欢什么音乐？为什么？（流行 / 摇滚 / 古典）",
-      "answer": "I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax. I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album. I like pop music the most. Pop music makes me feel happy and relaxed. I also enjoy attending local pop music events and competitions, which is fun to share with family and friends.",
+      "answer": "I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax. I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album. I like pop music the most. First, it makes me feel happy and relaxed. Second, it is easy to enjoy with friends and family. So, pop music is the best choice for me.",
+      "answerZh": "我最喜欢流行音乐。第一，流行音乐能让我感到开心和放松。第二，它很容易和朋友、家人一起欣赏。所以，流行音乐最适合我。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5241,11 +5482,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "音乐偏好原因",
           "prompt": "你喜欢什么音乐？为什么？（流行 / 摇滚 / 古典）",
-          "answer": "I like pop music the most. Pop music makes me feel happy and relaxed. I also enjoy attending local pop music events and competitions, which is fun to share with family and friends.",
+          "answer": "I like pop music the most. First, it makes me feel happy and relaxed. Second, it is easy to enjoy with friends and family. So, pop music is the best choice for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "pop music makes feel happy"
+          "keywords": "pop music makes feel happy",
+          "answerZh": "我最喜欢流行音乐。第一，流行音乐能让我感到开心和放松。第二，它很容易和朋友、家人一起欣赏。所以，流行音乐最适合我。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I like pop music the most.",
+            "First, it makes me feel happy and relaxed.",
+            "Second, it is easy to enjoy with friends and family.",
+            "So, pop music is the best choice for me."
+          ],
+          "answerSectionsZh": [
+            "我最喜欢流行音乐。",
+            "第一，流行音乐能让我感到开心和放松。",
+            "第二，它很容易和朋友、家人一起欣赏。",
+            "所以，流行音乐最适合我。"
+          ]
         }
       ]
     },
@@ -5259,7 +5514,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "个人设备 · 设备偏好 · 生活与科技",
       "prompt": "你有几台电脑，使用多久了？\n你喜欢台式机还是笔记本？为什么？\n你认为家里有一台电脑重要吗？",
-      "answer": "I have two computers. One is a laptop that I've used for about three years. I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school. Yes, having a computer at home is important. It helps with work, study, and staying connected with friends and family. It's also useful for entertainment, like watching movies or playing games.",
+      "answer": "I have two computers. One is a laptop that I've used for about three years. I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school. I think having a computer at home is important. First, I can use it for work and study. Second, I can handle online tasks and contact family or friends. So, a home computer is very useful.",
+      "answerZh": "我认为家里有一台电脑很重要。第一，我可以用它处理工作和学习任务。第二，我也能上网办事或联系家人朋友。所以，家用电脑非常实用。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5298,11 +5554,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "生活与科技",
           "prompt": "你认为家里有一台电脑重要吗？",
-          "answer": "Yes, having a computer at home is important. It helps with work, study, and staying connected with friends and family. It's also useful for entertainment, like watching movies or playing games.",
+          "answer": "I think having a computer at home is important. First, I can use it for work and study. Second, I can handle online tasks and contact family or friends. So, a home computer is very useful.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "yes having computer home important"
+          "keywords": "yes having computer home important",
+          "answerZh": "我认为家里有一台电脑很重要。第一，我可以用它处理工作和学习任务。第二，我也能上网办事或联系家人朋友。所以，家用电脑非常实用。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I think having a computer at home is important.",
+            "First, I can use it for work and study.",
+            "Second, I can handle online tasks and contact family or friends.",
+            "So, a home computer is very useful."
+          ],
+          "answerSectionsZh": [
+            "我认为家里有一台电脑很重要。",
+            "第一，我可以用它处理工作和学习任务。",
+            "第二，我也能上网办事或联系家人朋友。",
+            "所以，家用电脑非常实用。"
+          ]
         }
       ]
     },
@@ -5316,7 +5586,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "购物经历 · 购物偏好 · 社交与购物",
       "prompt": "你上一次买衣服是什么时候？买了什么？\n离你家最近的衣服店是哪一家？你喜欢去那里买吗？为什么？\n你喜欢和谁一起去买衣服？和朋友还是家人？为什么？",
-      "answer": "The last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt. The closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish. I prefer to go shopping with friends because we have similar tastes and can give each other helpful advice. It's more fun and relaxed than going with family.",
+      "answer": "The last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt. The closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish. I prefer shopping for clothes with friends. First, they know my style and give useful advice. Second, shopping with friends is more relaxed and fun. So, I usually ask a friend to join me.",
+      "answerZh": "我更喜欢和朋友一起买衣服。第一，朋友了解我的风格，可以给我实用建议。第二，和朋友购物更轻松、更有趣。所以，我通常会约朋友一起去。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5355,11 +5626,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "社交与购物",
           "prompt": "你喜欢和谁一起去买衣服？和朋友还是家人？为什么？",
-          "answer": "I prefer to go shopping with friends because we have similar tastes and can give each other helpful advice. It's more fun and relaxed than going with family.",
+          "answer": "I prefer shopping for clothes with friends. First, they know my style and give useful advice. Second, shopping with friends is more relaxed and fun. So, I usually ask a friend to join me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "prefer go shopping friends similar"
+          "keywords": "prefer go shopping friends similar",
+          "answerZh": "我更喜欢和朋友一起买衣服。第一，朋友了解我的风格，可以给我实用建议。第二，和朋友购物更轻松、更有趣。所以，我通常会约朋友一起去。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer shopping for clothes with friends.",
+            "First, they know my style and give useful advice.",
+            "Second, shopping with friends is more relaxed and fun.",
+            "So, I usually ask a friend to join me."
+          ],
+          "answerSectionsZh": [
+            "我更喜欢和朋友一起买衣服。",
+            "第一，朋友了解我的风格，可以给我实用建议。",
+            "第二，和朋友购物更轻松、更有趣。",
+            "所以，我通常会约朋友一起去。"
+          ]
         }
       ]
     },
@@ -5373,7 +5658,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "购买音乐经历 · 音乐偏好 · 音乐消费习惯",
       "prompt": "上一次买音乐是什么时候，从哪里买的？\n你一般买什么类型的音乐，是CD还是直接下载？\n如果你喜欢的乐队发行新专辑，你愿意多花钱提前买吗？为什么？",
-      "answer": "The last time I bought music was about two months ago from an online platform like Spotify. I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs. Yes, I would pay more to get a new album early because I am excited to listen to it and want to support my favorite band.",
+      "answer": "The last time I bought music was about two months ago from an online platform like Spotify. I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs. I would pay more to get my favorite band's new album early. First, I can listen to the new songs sooner. Second, it is a way to support the band. So, paying a little more is worth it.",
+      "answerZh": "我愿意多花钱提前买喜欢乐队的新专辑。第一，我可以更早听到新歌。第二，这也是支持我喜欢的乐队的一种方式。所以，我认为多付一点钱值得。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5412,11 +5698,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "音乐消费习惯",
           "prompt": "如果你喜欢的乐队发行新专辑，你愿意多花钱提前买吗？为什么？",
-          "answer": "Yes, I would pay more to get a new album early because I am excited to listen to it and want to support my favorite band.",
+          "answer": "I would pay more to get my favorite band's new album early. First, I can listen to the new songs sooner. Second, it is a way to support the band. So, paying a little more is worth it.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "yes pay get new album"
+          "keywords": "yes pay get new album",
+          "answerZh": "我愿意多花钱提前买喜欢乐队的新专辑。第一，我可以更早听到新歌。第二，这也是支持我喜欢的乐队的一种方式。所以，我认为多付一点钱值得。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I would pay more to get my favorite band's new album early.",
+            "First, I can listen to the new songs sooner.",
+            "Second, it is a way to support the band.",
+            "So, paying a little more is worth it."
+          ],
+          "answerSectionsZh": [
+            "我愿意多花钱提前买喜欢乐队的新专辑。",
+            "第一，我可以更早听到新歌。",
+            "第二，这也是支持我喜欢的乐队的一种方式。",
+            "所以，我认为多付一点钱值得。"
+          ]
         }
       ]
     },
@@ -5430,7 +5730,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "面试技巧",
       "prompt": "Question 1: 面试要提前到吗？为什么？\nQuestion 2: 面试后会给面试官发邮件吗？\nQuestion 3: 喜欢一个人面试官还是多个面试官？",
-      "answer": "It is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally. Usually, I do not send emails because the HR department contacts candidates after the interview if necessary. I prefer having multiple interviewers. They can evaluate different aspects of my skills and make the process fairer.",
+      "answer": "It is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally. Usually, I do not send emails because the HR department contacts candidates after the interview if necessary. I prefer having several interviewers. First, they can evaluate different parts of my skills. Second, several opinions can make the decision fairer. So, I would choose a panel interview.",
+      "answerZh": "我更喜欢由多位面试官进行面试。第一，不同面试官可以评估我不同方面的能力。第二，多个人一起判断会更公平。所以，我会选择多位面试官。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5469,11 +5770,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "面试技巧",
           "prompt": "Question 3: 喜欢一个人面试官还是多个面试官？",
-          "answer": "I prefer having multiple interviewers. They can evaluate different aspects of my skills and make the process fairer.",
+          "answer": "I prefer having several interviewers. First, they can evaluate different parts of my skills. Second, several opinions can make the decision fairer. So, I would choose a panel interview.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "prefer having multiple interviewers evaluate"
+          "keywords": "prefer having multiple interviewers evaluate",
+          "answerZh": "我更喜欢由多位面试官进行面试。第一，不同面试官可以评估我不同方面的能力。第二，多个人一起判断会更公平。所以，我会选择多位面试官。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer having several interviewers.",
+            "First, they can evaluate different parts of my skills.",
+            "Second, several opinions can make the decision fairer.",
+            "So, I would choose a panel interview."
+          ],
+          "answerSectionsZh": [
+            "我更喜欢由多位面试官进行面试。",
+            "第一，不同面试官可以评估我不同方面的能力。",
+            "第二，多个人一起判断会更公平。",
+            "所以，我会选择多位面试官。"
+          ]
         }
       ]
     },
@@ -5487,7 +5802,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "骑车经历 · 生活便利性 · 选择偏好",
       "prompt": "Question 1: 你上次骑自行车是什么时候，和谁？\nQuestion 2: 在你的区域，骑车去购物是否方便？\nQuestion 3: 如果你选择自行车，你会看重颜色、设计还是品牌？",
-      "answer": "I last rode a bicycle a few weeks ago with my friend. We went to a nearby park. Yes, it is quite convenient. There are bike lanes and several shops close to my home. I prefer the brand. Famous brands usually provide better quality control and reliable customer service. Their bicycles last longer and their designs are also more popular.",
+      "answer": "I last rode a bicycle a few weeks ago with my friend. We went to a nearby park. Yes, it is quite convenient. There are bike lanes and several shops close to my home. Brand is most important when I choose a bicycle. First, well-known brands usually offer better quality. Second, their customer service is often more reliable. So, I would choose a trusted brand.",
+      "answerZh": "选择自行车时，我最看重品牌。第一，知名品牌通常有更稳定的质量。第二，它们的售后服务一般更可靠。所以，我愿意选择可信的品牌。",
       "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5526,11 +5842,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "选择偏好",
           "prompt": "Question 3: 如果你选择自行车，你会看重颜色、设计还是品牌？",
-          "answer": "I prefer the brand. Famous brands usually provide better quality control and reliable customer service. Their bicycles last longer and their designs are also more popular.",
+          "answer": "Brand is most important when I choose a bicycle. First, well-known brands usually offer better quality. Second, their customer service is often more reliable. So, I would choose a trusted brand.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "prefer brand famous brands usually"
+          "keywords": "prefer brand famous brands usually",
+          "answerZh": "选择自行车时，我最看重品牌。第一，知名品牌通常有更稳定的质量。第二，它们的售后服务一般更可靠。所以，我愿意选择可信的品牌。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Brand is most important when I choose a bicycle.",
+            "First, well-known brands usually offer better quality.",
+            "Second, their customer service is often more reliable.",
+            "So, I would choose a trusted brand."
+          ],
+          "answerSectionsZh": [
+            "选择自行车时，我最看重品牌。",
+            "第一，知名品牌通常有更稳定的质量。",
+            "第二，它们的售后服务一般更可靠。",
+            "所以，我愿意选择可信的品牌。"
+          ]
         }
       ]
     },
@@ -5544,7 +5874,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "5/6/7",
       "topic": "生活经历",
       "prompt": "Question 1: 你什么时候离开家乡去城市的？在家乡待了多久？\nQuestion 2: 很多人离开家乡的原因是什么？\nQuestion 3: 一生在家乡长大的人的优势是什么？",
-      "answer": "I lived in my hometown for about eighteen years and left when I went to university. Many people leave their hometown for better job opportunities or higher education. The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
+      "answer": "I lived in my hometown for about eighteen years and left when I went to university. Many people leave their hometown for better job opportunities or higher education. Growing up in your hometown has many advantages. First, you can stay close to family and friends. Second, you know the local area and lifestyle well. So, life in your hometown can be stable.",
+      "answerZh": "一生在家乡长大有很多好处。第一，人们可以一直得到家人和朋友的支持。第二，他们熟悉当地环境和生活方式。所以，在家乡生活会更稳定。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5583,11 +5914,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 7,
           "topic": "生活经历",
           "prompt": "Question 3: 一生在家乡长大的人的优势是什么？",
-          "answer": "The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
+          "answer": "Growing up in your hometown has many advantages. First, you can stay close to family and friends. Second, you know the local area and lifestyle well. So, life in your hometown can be stable.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "main advantage having stable life"
+          "keywords": "main advantage having stable life",
+          "answerZh": "一生在家乡长大有很多好处。第一，人们可以一直得到家人和朋友的支持。第二，他们熟悉当地环境和生活方式。所以，在家乡生活会更稳定。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Growing up in your hometown has many advantages.",
+            "First, you can stay close to family and friends.",
+            "Second, you know the local area and lifestyle well.",
+            "So, life in your hometown can be stable."
+          ],
+          "answerSectionsZh": [
+            "一生在家乡长大有很多好处。",
+            "第一，人们可以一直得到家人和朋友的支持。",
+            "第二，他们熟悉当地环境和生活方式。",
+            "所以，在家乡生活会更稳定。"
+          ]
         }
       ]
     },
@@ -5601,7 +5946,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "5/6/7",
       "topic": "度假偏好 · 度假活动 · 旅行社优势",
       "prompt": "Question 1: 度假时你喜欢一个人还是和团队一起，为什么？\nQuestion 2: 如果度假，你喜欢什么活动？\nQuestion 3: 如果使用旅行社去旅游，有什么好处？",
-      "answer": "I prefer traveling with my family because I want to relax and spend quality time with them. I enjoy outdoor activities such as hiking because they help me relax and stay healthy. Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
+      "answer": "I prefer traveling with my family because I want to relax and spend quality time with them. I enjoy outdoor activities such as hiking because they help me relax and stay healthy. Traveling with an agency is convenient. First, the agency arranges the schedule, transportation, and hotel. Second, its staff can help when a problem happens. So, a travel agency makes the trip easier.",
+      "answerZh": "使用旅行社旅游很方便。第一，旅行社会安排行程、交通和住宿。第二，遇到问题时，工作人员可以提供帮助。所以，旅行社会让旅程更轻松。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5640,11 +5986,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 7,
           "topic": "旅行社优势",
           "prompt": "Question 3: 如果使用旅行社去旅游，有什么好处？",
-          "answer": "Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
+          "answer": "Traveling with an agency is convenient. First, the agency arranges the schedule, transportation, and hotel. Second, its staff can help when a problem happens. So, a travel agency makes the trip easier.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "traveling agency convenient time saving"
+          "keywords": "traveling agency convenient time saving",
+          "answerZh": "使用旅行社旅游很方便。第一，旅行社会安排行程、交通和住宿。第二，遇到问题时，工作人员可以提供帮助。所以，旅行社会让旅程更轻松。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Traveling with an agency is convenient.",
+            "First, the agency arranges the schedule, transportation, and hotel.",
+            "Second, its staff can help when a problem happens.",
+            "So, a travel agency makes the trip easier."
+          ],
+          "answerSectionsZh": [
+            "使用旅行社旅游很方便。",
+            "第一，旅行社会安排行程、交通和住宿。",
+            "第二，遇到问题时，工作人员可以提供帮助。",
+            "所以，旅行社会让旅程更轻松。"
+          ]
         }
       ]
     },
@@ -5658,7 +6018,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "离开家乡时间 · 离开家乡原因 · 家乡生活优势",
       "prompt": "你什么时候离开家乡去城市？你在家乡待了多久？\n很多人离开家乡的原因是什么？\n一生在家乡长大的人的优势是什么？",
-      "answer": "I lived in my hometown for about eighteen years and left when I went to university. Many people leave their hometown mainly for better job opportunities or higher education. People who grow up in their hometown often enjoy a stable life and strong relationships with family and friends. They feel a strong sense of belonging, although they may have fewer chances to experience new environments.",
+      "answer": "I lived in my hometown for about eighteen years and left when I went to university. Many people leave their hometown mainly for better job opportunities or higher education. Growing up in your hometown can provide a stable life. First, you can keep close relationships with family and friends. Second, a familiar place gives you a strong sense of belonging. So, hometown life has many benefits.",
+      "answerZh": "在家乡长大可以让生活更稳定。第一，人们能和家人朋友保持紧密联系。第二，他们对周围环境很熟悉，会更有归属感。所以，在家乡成长有很多好处。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5697,11 +6058,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "家乡生活优势",
           "prompt": "一生在家乡长大的人的优势是什么？",
-          "answer": "People who grow up in their hometown often enjoy a stable life and strong relationships with family and friends. They feel a strong sense of belonging, although they may have fewer chances to experience new environments.",
+          "answer": "Growing up in your hometown can provide a stable life. First, you can keep close relationships with family and friends. Second, a familiar place gives you a strong sense of belonging. So, hometown life has many benefits.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "people grow up hometown often"
+          "keywords": "people grow up hometown often",
+          "answerZh": "在家乡长大可以让生活更稳定。第一，人们能和家人朋友保持紧密联系。第二，他们对周围环境很熟悉，会更有归属感。所以，在家乡成长有很多好处。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Growing up in your hometown can provide a stable life.",
+            "First, you can keep close relationships with family and friends.",
+            "Second, a familiar place gives you a strong sense of belonging.",
+            "So, hometown life has many benefits."
+          ],
+          "answerSectionsZh": [
+            "在家乡长大可以让生活更稳定。",
+            "第一，人们能和家人朋友保持紧密联系。",
+            "第二，他们对周围环境很熟悉，会更有归属感。",
+            "所以，在家乡成长有很多好处。"
+          ]
         }
       ]
     },
@@ -5715,7 +6090,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "度假方式 · 度假活动 · 旅行社优势",
       "prompt": "你度假时喜欢一个人还是和团队一起，为什么？\n度假时你喜欢什么活动？\n如果使用旅行社去旅游有什么好处？",
-      "answer": "I prefer traveling with my family because I can relax and spend quality time with them during vacations. I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress. Traveling with a travel agency has many benefits. It saves time because the agency plans everything, and it can also reduce costs by offering package deals.",
+      "answer": "I prefer traveling with my family because I can relax and spend quality time with them during vacations. I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress. Using a travel agency has two main benefits. First, the agency plans the trip and saves time. Second, package deals can cost less than separate bookings. So, a travel agency makes travel easier.",
+      "answerZh": "使用旅行社旅游有两个主要好处。第一，旅行社会安排好行程，可以节省时间。第二，套餐通常比单独预订更便宜。所以，旅行社能让旅行更省心。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5754,11 +6130,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "旅行社优势",
           "prompt": "如果使用旅行社去旅游有什么好处？",
-          "answer": "Traveling with a travel agency has many benefits. It saves time because the agency plans everything, and it can also reduce costs by offering package deals.",
+          "answer": "Using a travel agency has two main benefits. First, the agency plans the trip and saves time. Second, package deals can cost less than separate bookings. So, a travel agency makes travel easier.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "traveling travel agency benefits saves"
+          "keywords": "traveling travel agency benefits saves",
+          "answerZh": "使用旅行社旅游有两个主要好处。第一，旅行社会安排好行程，可以节省时间。第二，套餐通常比单独预订更便宜。所以，旅行社能让旅行更省心。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Using a travel agency has two main benefits.",
+            "First, the agency plans the trip and saves time.",
+            "Second, package deals can cost less than separate bookings.",
+            "So, a travel agency makes travel easier."
+          ],
+          "answerSectionsZh": [
+            "使用旅行社旅游有两个主要好处。",
+            "第一，旅行社会安排好行程，可以节省时间。",
+            "第二，套餐通常比单独预订更便宜。",
+            "所以，旅行社能让旅行更省心。"
+          ]
         }
       ]
     },
@@ -5772,7 +6162,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "家乡 · 现居地 · 迁居因素",
       "prompt": "你家乡呆了多长时间？在哪里？\n你现在住的地方，你最喜欢什么？为什么？\n如果搬到另一个地方，你最看重哪些因素？为什么？",
-      "answer": "I lived in my hometown for about eighteen years. It is a small town located in the western part of China. I like my current city because it is convenient and has good public transportation and many restaurants. If I move to another place, I will consider transportation and medical services most important. These factors make daily life more convenient and safer.",
+      "answer": "I lived in my hometown for about eighteen years. It is a small town located in the western part of China. I like my current city because it is convenient and has good public transportation and many restaurants. When I move, transportation and medical services matter most. First, good transportation saves time every day. Second, a nearby hospital makes me feel safer. So, these two factors make life convenient and safe.",
+      "answerZh": "搬家时，我最看重交通和医疗服务。第一，便利的交通能节省每天出行的时间。第二，附近有医院会让我更安心。所以，这两个因素会让生活更方便、更安全。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5811,11 +6202,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "迁居因素",
           "prompt": "如果搬到另一个地方，你最看重哪些因素？为什么？",
-          "answer": "If I move to another place, I will consider transportation and medical services most important. These factors make daily life more convenient and safer.",
+          "answer": "When I move, transportation and medical services matter most. First, good transportation saves time every day. Second, a nearby hospital makes me feel safer. So, these two factors make life convenient and safe.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "move another place consider transportation"
+          "keywords": "move another place consider transportation",
+          "answerZh": "搬家时，我最看重交通和医疗服务。第一，便利的交通能节省每天出行的时间。第二，附近有医院会让我更安心。所以，这两个因素会让生活更方便、更安全。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "When I move, transportation and medical services matter most.",
+            "First, good transportation saves time every day.",
+            "Second, a nearby hospital makes me feel safer.",
+            "So, these two factors make life convenient and safe."
+          ],
+          "answerSectionsZh": [
+            "搬家时，我最看重交通和医疗服务。",
+            "第一，便利的交通能节省每天出行的时间。",
+            "第二，附近有医院会让我更安心。",
+            "所以，这两个因素会让生活更方便、更安全。"
+          ]
         }
       ]
     },
@@ -5829,7 +6234,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "音乐喜好 · 音乐来源 · 听音乐方式",
       "prompt": "你喜欢的音乐家是谁，他的音乐风格是什么？\n你喜欢从哪里选择音乐，是自己的收藏还是其他途径？\n你喜欢怎样听音乐，为什么？",
-      "answer": "I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable. I like to listen to music on my phone at home because I am very busy at work. I like to listen to music when I am alone. I can enjoy the music without distractions, which helps me relax and reduce stress. Also, it is convenient to choose songs on the Internet.",
+      "answer": "I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable. I like to listen to music on my phone at home because I am very busy at work. I prefer listening to music alone. First, I can relax better without distractions. Second, I can choose any song I like at any time. So, listening alone is best for me.",
+      "answerZh": "我喜欢一个人听音乐。第一，没有别人打扰时，我可以更好地放松。第二，我能随时选择自己喜欢的歌曲。所以，独自听音乐最适合我。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5868,11 +6274,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "听音乐方式",
           "prompt": "你喜欢怎样听音乐，为什么？",
-          "answer": "I like to listen to music when I am alone. I can enjoy the music without distractions, which helps me relax and reduce stress. Also, it is convenient to choose songs on the Internet.",
+          "answer": "I prefer listening to music alone. First, I can relax better without distractions. Second, I can choose any song I like at any time. So, listening alone is best for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "listen music am alone enjoy"
+          "keywords": "listen music am alone enjoy",
+          "answerZh": "我喜欢一个人听音乐。第一，没有别人打扰时，我可以更好地放松。第二，我能随时选择自己喜欢的歌曲。所以，独自听音乐最适合我。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer listening to music alone.",
+            "First, I can relax better without distractions.",
+            "Second, I can choose any song I like at any time.",
+            "So, listening alone is best for me."
+          ],
+          "answerSectionsZh": [
+            "我喜欢一个人听音乐。",
+            "第一，没有别人打扰时，我可以更好地放松。",
+            "第二，我能随时选择自己喜欢的歌曲。",
+            "所以，独自听音乐最适合我。"
+          ]
         }
       ]
     },
@@ -5886,7 +6306,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "旅游目的地 · 旅游方式 · 旅游考虑因素",
       "prompt": "你想去哪个国家？是不是已经去过了？\n如果去旅游，你会选择和朋友一起还是独自去？\n去一个国家旅游，你主要考虑哪一点？语种、食物还是景点？",
-      "answer": "I want to travel to Thailand. I have been there many times. I like to travel with my friends. It will be fun, and we can take care of each other. Language will be my first choice. If the people in that country can speak Chinese, I can go anywhere without limitation. English is also fine, although my English is not very good.",
+      "answer": "I want to travel to Thailand. I have been there many times. I like to travel with my friends. It will be fun, and we can take care of each other. Language is most important when I travel to another country. First, communication makes it easier to ask for help. Second, speaking a common language prevents misunderstandings. So, I check the local language first.",
+      "answerZh": "去一个国家旅游时，我最看重语言。第一，能沟通可以让我更容易问路和求助。第二，语言相通可以减少误解。所以，我会先了解当地能使用什么语言。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5925,11 +6346,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "旅游考虑因素",
           "prompt": "去一个国家旅游，你主要考虑哪一点？语种、食物还是景点？",
-          "answer": "Language will be my first choice. If the people in that country can speak Chinese, I can go anywhere without limitation. English is also fine, although my English is not very good.",
+          "answer": "Language is most important when I travel to another country. First, communication makes it easier to ask for help. Second, speaking a common language prevents misunderstandings. So, I check the local language first.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "language choice people country speak"
+          "keywords": "language choice people country speak",
+          "answerZh": "去一个国家旅游时，我最看重语言。第一，能沟通可以让我更容易问路和求助。第二，语言相通可以减少误解。所以，我会先了解当地能使用什么语言。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Language is most important when I travel to another country.",
+            "First, communication makes it easier to ask for help.",
+            "Second, speaking a common language prevents misunderstandings.",
+            "So, I check the local language first."
+          ],
+          "answerSectionsZh": [
+            "去一个国家旅游时，我最看重语言。",
+            "第一，能沟通可以让我更容易问路和求助。",
+            "第二，语言相通可以减少误解。",
+            "所以，我会先了解当地能使用什么语言。"
+          ]
         }
       ]
     },
@@ -5943,7 +6378,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "旅游经历 · 旅游方式 · 旅游重点",
       "prompt": "你最近一次观光旅游是什么时候？所在城市是哪儿？\n你喜欢自由行还是跟团游？\n如果去观光旅游，你认为哪个更重要？①地点 ②美食 ③专业导游",
-      "answer": "My latest tourism was last month when I was in Beijing. I like traveling with my family because I am very busy at work. I think the place is most important. It should not be too far away since I don't have much time to spend on the road. Also, I prefer places with good scenery and few people.",
+      "answer": "My latest tourism was last month when I was in Beijing. I like traveling with my family because I am very busy at work. I think the place is most important for sightseeing. First, a nearby place reduces travel time. Second, good views and fewer people make the trip relaxing. So, I would choose the place first.",
+      "answerZh": "观光旅游时，我认为地点最重要。第一，距离合适可以减少路上的时间。第二，风景好、游客少的地方更容易让人放松。所以，我会先选择合适的地点。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -5982,11 +6418,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "旅游重点",
           "prompt": "如果去观光旅游，你认为哪个更重要？①地点 ②美食 ③专业导游",
-          "answer": "I think the place is most important. It should not be too far away since I don't have much time to spend on the road. Also, I prefer places with good scenery and few people.",
+          "answer": "I think the place is most important for sightseeing. First, a nearby place reduces travel time. Second, good views and fewer people make the trip relaxing. So, I would choose the place first.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "think place important not too"
+          "keywords": "think place important not too",
+          "answerZh": "观光旅游时，我认为地点最重要。第一，距离合适可以减少路上的时间。第二，风景好、游客少的地方更容易让人放松。所以，我会先选择合适的地点。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I think the place is most important for sightseeing.",
+            "First, a nearby place reduces travel time.",
+            "Second, good views and fewer people make the trip relaxing.",
+            "So, I would choose the place first."
+          ],
+          "answerSectionsZh": [
+            "观光旅游时，我认为地点最重要。",
+            "第一，距离合适可以减少路上的时间。",
+            "第二，风景好、游客少的地方更容易让人放松。",
+            "所以，我会先选择合适的地点。"
+          ]
         }
       ]
     },
@@ -6000,7 +6450,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "听音乐习惯 · 音乐偏好 · 听音乐场所",
       "prompt": "你多久听一次音乐？\n你喜欢哪种类型的音乐？最喜欢的音乐家是谁？\n你喜欢在家听音乐，还是在音乐馆或户外听？为什么？",
-      "answer": "I listen to music almost every day when I am free. I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable. I like to listen to music at home. I can enjoy the music without distractions. As a result, I can relax and reduce my stress from work. Also, it is convenient to choose songs on the Internet.",
+      "answer": "I listen to music almost every day when I am free. I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable. I prefer listening to music at home. First, my home is quiet, so I can relax without distractions. Second, I can freely choose the songs and volume. So, listening at home is best for me.",
+      "answerZh": "我更喜欢在家听音乐。第一，家里安静，我可以不受打扰地放松。第二，我能自由选择歌曲和音量。所以，在家听音乐对我最方便。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6039,11 +6490,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "听音乐场所",
           "prompt": "你喜欢在家听音乐，还是在音乐馆或户外听？为什么？",
-          "answer": "I like to listen to music at home. I can enjoy the music without distractions. As a result, I can relax and reduce my stress from work. Also, it is convenient to choose songs on the Internet.",
+          "answer": "I prefer listening to music at home. First, my home is quiet, so I can relax without distractions. Second, I can freely choose the songs and volume. So, listening at home is best for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "listen music home enjoy without"
+          "keywords": "listen music home enjoy without",
+          "answerZh": "我更喜欢在家听音乐。第一，家里安静，我可以不受打扰地放松。第二，我能自由选择歌曲和音量。所以，在家听音乐对我最方便。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer listening to music at home.",
+            "First, my home is quiet, so I can relax without distractions.",
+            "Second, I can freely choose the songs and volume.",
+            "So, listening at home is best for me."
+          ],
+          "answerSectionsZh": [
+            "我更喜欢在家听音乐。",
+            "第一，家里安静，我可以不受打扰地放松。",
+            "第二，我能自由选择歌曲和音量。",
+            "所以，在家听音乐对我最方便。"
+          ]
         }
       ]
     },
@@ -6057,7 +6522,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "游戏喜好 · 手机使用与游戏 · 游戏场景偏好",
       "prompt": "Do you prefer playing video games or card games? How often do you play them?\nWhat type of phone do you use? How often do you play games on it?\nDo you prefer playing games at home or while traveling? Why?",
-      "answer": "I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends. I use an iPhone, which is convenient for games because of its large screen and smooth touch. I prefer playing games at home because it's easier to focus and relax. Traveling often has too many distractions.",
+      "answer": "I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends. I use an iPhone, which is convenient for games because of its large screen and smooth touch. I prefer playing games at home. First, it is quiet, so I can focus better. Second, playing at home is comfortable, and I do not carry any equipment. So, I usually play at home.",
+      "answerZh": "我更喜欢在家玩游戏。第一，家里安静，我更容易集中注意力。第二，在家玩更舒服，也不用携带设备。所以，我通常会在家玩游戏。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6096,11 +6562,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "游戏场景偏好",
           "prompt": "Do you prefer playing games at home or while traveling? Why?",
-          "answer": "I prefer playing games at home because it's easier to focus and relax. Traveling often has too many distractions.",
+          "answer": "I prefer playing games at home. First, it is quiet, so I can focus better. Second, playing at home is comfortable, and I do not carry any equipment. So, I usually play at home.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "prefer playing games home easier"
+          "keywords": "prefer playing games home easier",
+          "answerZh": "我更喜欢在家玩游戏。第一，家里安静，我更容易集中注意力。第二，在家玩更舒服，也不用携带设备。所以，我通常会在家玩游戏。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I prefer playing games at home.",
+            "First, it is quiet, so I can focus better.",
+            "Second, playing at home is comfortable, and I do not carry any equipment.",
+            "So, I usually play at home."
+          ],
+          "answerSectionsZh": [
+            "我更喜欢在家玩游戏。",
+            "第一，家里安静，我更容易集中注意力。",
+            "第二，在家玩更舒服，也不用携带设备。",
+            "所以，我通常会在家玩游戏。"
+          ]
         }
       ]
     },
@@ -6114,7 +6594,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "社交活动经历 · 社交活动频率 · 社交活动角色",
       "prompt": "When was the last social event you attended and where was it held?\nWhat kind of social activities do you often join and how long do they last?\nWhat role do you usually play in social events?",
-      "answer": "I attended a friend's birthday party last month at a city restaurant. I often join company dinners or small gatherings with friends, usually lasting two to three hours. I usually help organize events and talk with different people to keep the atmosphere lively.",
+      "answer": "I attended a friend's birthday party last month at a city restaurant. I often join company dinners or small gatherings with friends, usually lasting two to three hours. I usually organize and communicate at social events. I enjoy planning things and talking with different people. For example, I confirm the time, contact guests, and keep the event lively. So, I often take the organizer role.",
+      "answerZh": "在社交活动中，我通常负责组织和沟通。因为我喜欢安排事情，也愿意和不同的人交流。例如，我会确认时间、联系参加者并活跃现场气氛。所以，我经常担任组织者。",
       "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6153,11 +6634,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "社交活动角色",
           "prompt": "What role do you usually play in social events?",
-          "answer": "I usually help organize events and talk with different people to keep the atmosphere lively.",
+          "answer": "I usually organize and communicate at social events. I enjoy planning things and talking with different people. For example, I confirm the time, contact guests, and keep the event lively. So, I often take the organizer role.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "usually help organize events talk"
+          "keywords": "usually help organize events talk",
+          "answerZh": "在社交活动中，我通常负责组织和沟通。因为我喜欢安排事情，也愿意和不同的人交流。例如，我会确认时间、联系参加者并活跃现场气氛。所以，我经常担任组织者。",
+          "answerPattern": "1R1E",
+          "answerSectionsEn": [
+            "I usually organize and communicate at social events.",
+            "I enjoy planning things and talking with different people.",
+            "For example, I confirm the time, contact guests, and keep the event lively.",
+            "So, I often take the organizer role."
+          ],
+          "answerSectionsZh": [
+            "在社交活动中，我通常负责组织和沟通。",
+            "因为我喜欢安排事情，也愿意和不同的人交流。",
+            "例如，我会确认时间、联系参加者并活跃现场气氛。",
+            "所以，我经常担任组织者。"
+          ]
         }
       ]
     },
@@ -6171,7 +6666,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "酒店经历 · 酒店特性 · 酒店需求",
       "prompt": "你上次住酒店是什么时候？在哪里？\n新酒店应该具备一个什么特性？为什么？\n你觉得你所在的地方需要更多新酒店吗？为什么？",
-      "answer": "I stayed in a hotel in Shenzhen last month during a business trip. I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied. I don't think so. There are already many hotels with good service, and the city is not a major tourist destination, so the current number is enough.",
+      "answer": "I stayed in a hotel in Shenzhen last month during a business trip. I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied. I do not think my area needs more new hotels. First, there are already many hotels with good service. Second, this is not a major tourist city, so demand is low. So, the current number is enough.",
+      "answerZh": "我认为当地不需要更多新酒店。第一，现在已经有很多服务不错的酒店。第二，这里不是主要旅游城市，住宿需求不高。所以，现有酒店数量已经足够。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6210,11 +6706,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "酒店需求",
           "prompt": "你觉得你所在的地方需要更多新酒店吗？为什么？",
-          "answer": "I don't think so. There are already many hotels with good service, and the city is not a major tourist destination, so the current number is enough.",
+          "answer": "I do not think my area needs more new hotels. First, there are already many hotels with good service. Second, this is not a major tourist city, so demand is low. So, the current number is enough.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "don think already hotels good"
+          "keywords": "don think already hotels good",
+          "answerZh": "我认为当地不需要更多新酒店。第一，现在已经有很多服务不错的酒店。第二，这里不是主要旅游城市，住宿需求不高。所以，现有酒店数量已经足够。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I do not think my area needs more new hotels.",
+            "First, there are already many hotels with good service.",
+            "Second, this is not a major tourist city, so demand is low.",
+            "So, the current number is enough."
+          ],
+          "answerSectionsZh": [
+            "我认为当地不需要更多新酒店。",
+            "第一，现在已经有很多服务不错的酒店。",
+            "第二，这里不是主要旅游城市，住宿需求不高。",
+            "所以，现有酒店数量已经足够。"
+          ]
         }
       ]
     },
@@ -6229,6 +6739,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "手机使用 · 手机更新计划",
       "prompt": "你用这个手机多长时间，用的频率？\n如果有新的手机出来，你打算买吗？",
       "answer": "I have used this phone for two years, and I use it every day. Yes, I will buy a new phone, because my current phone has been used for a long time.",
+      "answerZh": "",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6273,7 +6784,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "房屋情况 · 房屋改进 · 房屋维修",
       "prompt": "你的房子多久了，是公寓还是House？\n如果要改善，你最想改善哪些？\n如要维修房子你是请人还是自己来？为什么？",
-      "answer": "I have lived in my apartment for about 8 years. It is an ordinary apartment. I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room. I'll hire professionals to repair the house because I know nothing about house repair. Doing it myself would take too much time and may not be done well. Also, I am very busy at work.",
+      "answer": "I have lived in my apartment for about 8 years. It is an ordinary apartment. I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room. I would hire professionals to repair my house. First, they have experience and can do the job well. Second, hiring them saves me time. So, I would not repair the house myself.",
+      "answerZh": "维修房子时，我会请专业人员。第一，他们有经验，能把工作做好。第二，请专业人员可以节省我的时间。所以，我不会自己维修房子。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6312,11 +6824,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "房屋维修",
           "prompt": "如要维修房子你是请人还是自己来？为什么？",
-          "answer": "I'll hire professionals to repair the house because I know nothing about house repair. Doing it myself would take too much time and may not be done well. Also, I am very busy at work.",
+          "answer": "I would hire professionals to repair my house. First, they have experience and can do the job well. Second, hiring them saves me time. So, I would not repair the house myself.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "ll hire professionals repair house"
+          "keywords": "ll hire professionals repair house",
+          "answerZh": "维修房子时，我会请专业人员。第一，他们有经验，能把工作做好。第二，请专业人员可以节省我的时间。所以，我不会自己维修房子。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I would hire professionals to repair my house.",
+            "First, they have experience and can do the job well.",
+            "Second, hiring them saves me time.",
+            "So, I would not repair the house myself."
+          ],
+          "answerSectionsZh": [
+            "维修房子时，我会请专业人员。",
+            "第一，他们有经验，能把工作做好。",
+            "第二，请专业人员可以节省我的时间。",
+            "所以，我不会自己维修房子。"
+          ]
         }
       ]
     },
@@ -6330,7 +6856,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "兴趣爱好 · 兴趣时间管理 · 兴趣描述",
       "prompt": "你的爱好是什么，有多久了？\n你有足够时间去做爱好的事情吗？为什么？\n请描述一下你的爱好，包括历史、习惯和偶像等。",
-      "answer": "I like playing basketball. I have been playing it for about 15 years. I don't have enough time to do what I like because my work is busy. Basketball is one of the most popular sports in the world. I started playing it in high school. When I am free, I usually watch NBA games and sometimes play with friends. My idol is Kobe Bryant.",
+      "answer": "I like playing basketball. I have been playing it for about 15 years. I don't have enough time to do what I like because my work is busy. Basketball is my favorite hobby. It keeps me active and helps me relax. For example, I play with friends, watch NBA games, and Kobe Bryant is my idol. So, basketball is an important part of my life.",
+      "answerZh": "篮球是我最喜欢的爱好。它能让我保持运动，也能帮助我放松。例如，我高中开始打球，现在会和朋友打球、看 NBA，科比是我的偶像。所以，篮球一直是我生活的重要部分。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6369,11 +6896,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "兴趣描述",
           "prompt": "请描述一下你的爱好，包括历史、习惯和偶像等。",
-          "answer": "Basketball is one of the most popular sports in the world. I started playing it in high school. When I am free, I usually watch NBA games and sometimes play with friends. My idol is Kobe Bryant.",
+          "answer": "Basketball is my favorite hobby. It keeps me active and helps me relax. For example, I play with friends, watch NBA games, and Kobe Bryant is my idol. So, basketball is an important part of my life.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "basketball popular sports world started"
+          "keywords": "basketball popular sports world started",
+          "answerZh": "篮球是我最喜欢的爱好。它能让我保持运动，也能帮助我放松。例如，我高中开始打球，现在会和朋友打球、看 NBA，科比是我的偶像。所以，篮球一直是我生活的重要部分。",
+          "answerPattern": "1R1E",
+          "answerSectionsEn": [
+            "Basketball is my favorite hobby.",
+            "It keeps me active and helps me relax.",
+            "For example, I play with friends, watch NBA games, and Kobe Bryant is my idol.",
+            "So, basketball is an important part of my life."
+          ],
+          "answerSectionsZh": [
+            "篮球是我最喜欢的爱好。",
+            "它能让我保持运动，也能帮助我放松。",
+            "例如，我高中开始打球，现在会和朋友打球、看 NBA，科比是我的偶像。",
+            "所以，篮球一直是我生活的重要部分。"
+          ]
         }
       ]
     },
@@ -6387,7 +6928,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "饮食习惯 · 餐厅用餐高峰 · 餐厅推荐",
       "prompt": "你是经常在家做饭还是在外面吃？为什么？\n什么时间段在餐厅吃饭的人多？是否需要提前预定？\n可以推荐附近一家餐厅能外带或打包的，原因是什么？",
-      "answer": "I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office. There are lots of people during lunch time or on weekends. Most of the restaurants don't require a reservation. I recommend the restaurant named Qinshaoye in Xian. You can order online, and the delivery speed is very fast. You can get food within 30 minutes, and the food is delicious.",
+      "answer": "I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office. There are lots of people during lunch time or on weekends. Most of the restaurants don't require a reservation. I recommend Qinshaoye Restaurant in Xian. First, you can order online, and delivery is fast. Second, the food tastes very good. So, it is a good choice for takeout or delivery.",
+      "answerZh": "我推荐西安的秦少爷餐厅。第一，它支持网上下单，配送速度很快。第二，那里的食物味道很好。所以，它很适合外带或外卖。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6426,11 +6968,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "餐厅推荐",
           "prompt": "可以推荐附近一家餐厅能外带或打包的，原因是什么？",
-          "answer": "I recommend the restaurant named Qinshaoye in Xian. You can order online, and the delivery speed is very fast. You can get food within 30 minutes, and the food is delicious.",
+          "answer": "I recommend Qinshaoye Restaurant in Xian. First, you can order online, and delivery is fast. Second, the food tastes very good. So, it is a good choice for takeout or delivery.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "recommend restaurant named qinshaoye xian"
+          "keywords": "recommend restaurant named qinshaoye xian",
+          "answerZh": "我推荐西安的秦少爷餐厅。第一，它支持网上下单，配送速度很快。第二，那里的食物味道很好。所以，它很适合外带或外卖。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I recommend Qinshaoye Restaurant in Xian.",
+            "First, you can order online, and delivery is fast.",
+            "Second, the food tastes very good.",
+            "So, it is a good choice for takeout or delivery."
+          ],
+          "answerSectionsZh": [
+            "我推荐西安的秦少爷餐厅。",
+            "第一，它支持网上下单，配送速度很快。",
+            "第二，那里的食物味道很好。",
+            "所以，它很适合外带或外卖。"
+          ]
         }
       ]
     },
@@ -6444,7 +7000,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "新闻偏好 · 新闻订阅 · 新闻观看方式",
       "prompt": "你喜欢什么类型的新闻？\n你是否愿意订阅在线新闻提醒？为什么？\n用电视看新闻好吗？为什么？",
-      "answer": "I like the sports news, especially regarding basketball, such as NBA and CBA. Yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day. It is not convenient for me to watch news on TV. TV is not so popular in China now, and I don't have time to watch TV. I usually watch news on my phone or online.",
+      "answer": "I like the sports news, especially regarding basketball, such as NBA and CBA. Yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day. Watching news on TV is not convenient for me. First, TV programs have fixed times, so I may miss them. Second, news on my phone is faster and available anytime. So, I prefer getting news online.",
+      "answerZh": "对我来说，用电视看新闻不太方便。第一，电视节目有固定时间，我经常会错过。第二，用手机看新闻更快，也可以随时查看。所以，我更喜欢在手机或网上看新闻。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6483,11 +7040,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "新闻观看方式",
           "prompt": "用电视看新闻好吗？为什么？",
-          "answer": "It is not convenient for me to watch news on TV. TV is not so popular in China now, and I don't have time to watch TV. I usually watch news on my phone or online.",
+          "answer": "Watching news on TV is not convenient for me. First, TV programs have fixed times, so I may miss them. Second, news on my phone is faster and available anytime. So, I prefer getting news online.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "not convenient watch news tv"
+          "keywords": "not convenient watch news tv",
+          "answerZh": "对我来说，用电视看新闻不太方便。第一，电视节目有固定时间，我经常会错过。第二，用手机看新闻更快，也可以随时查看。所以，我更喜欢在手机或网上看新闻。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Watching news on TV is not convenient for me.",
+            "First, TV programs have fixed times, so I may miss them.",
+            "Second, news on my phone is faster and available anytime.",
+            "So, I prefer getting news online."
+          ],
+          "answerSectionsZh": [
+            "对我来说，用电视看新闻不太方便。",
+            "第一，电视节目有固定时间，我经常会错过。",
+            "第二，用手机看新闻更快，也可以随时查看。",
+            "所以，我更喜欢在手机或网上看新闻。"
+          ]
         }
       ]
     },
@@ -6501,7 +7072,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "5/6/7",
       "topic": "家附近公共泳池数量 · 公共泳池使用频率 · 选择公共泳池的考量因素",
       "prompt": "Question 1: How many public swimming pools are there near your home?\nQuestion 2: Do you often go swimming in the public swimming pool?\nQuestion 3: When choosing a public swimming pool, do you prefer to consider the distance or other factors?",
-      "answer": "There are two public swimming pools near my home. One is a small community pool. Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise. I prefer to consider both distance and other factors. Distance is important because it saves time, but I also care about the cleanliness of the pool and the quality of the facilities.",
+      "answer": "There are two public swimming pools near my home. One is a small community pool. Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise. I consider both distance and other factors when choosing a public pool. First, a nearby pool saves travel time. Second, clean water and good facilities make swimming safe and comfortable. So, I compare both before choosing.",
+      "answerZh": "选择公共游泳池时，我会同时考虑距离和其他因素。第一，距离近可以节省出行时间。第二，干净的水和良好的设施更安全、舒服。所以，我会综合比较后再选择。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6540,11 +7112,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 7,
           "topic": "选择公共泳池的考量因素",
           "prompt": "Question 3: When choosing a public swimming pool, do you prefer to consider the distance or other factors?",
-          "answer": "I prefer to consider both distance and other factors. Distance is important because it saves time, but I also care about the cleanliness of the pool and the quality of the facilities.",
+          "answer": "I consider both distance and other factors when choosing a public pool. First, a nearby pool saves travel time. Second, clean water and good facilities make swimming safe and comfortable. So, I compare both before choosing.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "question prefer consider distance factors"
+          "keywords": "question prefer consider distance factors",
+          "answerZh": "选择公共游泳池时，我会同时考虑距离和其他因素。第一，距离近可以节省出行时间。第二，干净的水和良好的设施更安全、舒服。所以，我会综合比较后再选择。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I consider both distance and other factors when choosing a public pool.",
+            "First, a nearby pool saves travel time.",
+            "Second, clean water and good facilities make swimming safe and comfortable.",
+            "So, I compare both before choosing."
+          ],
+          "answerSectionsZh": [
+            "选择公共游泳池时，我会同时考虑距离和其他因素。",
+            "第一，距离近可以节省出行时间。",
+            "第二，干净的水和良好的设施更安全、舒服。",
+            "所以，我会综合比较后再选择。"
+          ]
         }
       ]
     },
@@ -6558,7 +7144,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "5/6/7",
       "topic": "个人爱好 · 网络与爱好信息查询 · 通过网站交流爱好",
       "prompt": "Question 1: What is your hobby?\nQuestion 2: Do you often use the internet to find information about your hobby?\nQuestion 3: Will you communicate and discuss your hobby through websites?",
-      "answer": "My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature. Yes, I often use the internet to find information about hiking. I can search for the best routes, the right gear. Yes, I will. There are many hiking forums and websites where I can share my travel experiences with other hiking lovers and discuss interesting routes and skills with them.",
+      "answer": "My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature. Yes, I often use the internet to find information about hiking. I can search for the best routes, the right gear. Yes, I would discuss my hiking hobby on websites. First, I can share routes and travel experiences. Second, I can learn about equipment and safety from others. So, hobby websites are useful for me.",
+      "answerZh": "我愿意在网站上交流我的徒步爱好。第一，我可以分享自己的路线和旅行经验。第二，我也能从别人那里学到装备和安全知识。所以，爱好网站对我很有帮助。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6597,11 +7184,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 7,
           "topic": "通过网站交流爱好",
           "prompt": "Question 3: Will you communicate and discuss your hobby through websites?",
-          "answer": "Yes, I will. There are many hiking forums and websites where I can share my travel experiences with other hiking lovers and discuss interesting routes and skills with them.",
+          "answer": "Yes, I would discuss my hiking hobby on websites. First, I can share routes and travel experiences. Second, I can learn about equipment and safety from others. So, hobby websites are useful for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "question yes hiking forums websites"
+          "keywords": "question yes hiking forums websites",
+          "answerZh": "我愿意在网站上交流我的徒步爱好。第一，我可以分享自己的路线和旅行经验。第二，我也能从别人那里学到装备和安全知识。所以，爱好网站对我很有帮助。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Yes, I would discuss my hiking hobby on websites.",
+            "First, I can share routes and travel experiences.",
+            "Second, I can learn about equipment and safety from others.",
+            "So, hobby websites are useful for me."
+          ],
+          "answerSectionsZh": [
+            "我愿意在网站上交流我的徒步爱好。",
+            "第一，我可以分享自己的路线和旅行经验。",
+            "第二，我也能从别人那里学到装备和安全知识。",
+            "所以，爱好网站对我很有帮助。"
+          ]
         }
       ]
     },
@@ -6615,7 +7216,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "做饭习惯 · 烹饪偏好 · 烹饪能力",
       "prompt": "你上次什么时候做饭？\n你喜欢做什么风格的菜？\n你是否认为自己可以成为一个好的厨师？为什么？",
-      "answer": "The last time I cooked was last weekend. My wife cooked with me. I love cooking Chinese food because it is delicious and full of rich nutrition. I don't think I can become a good cook. On one hand, I often work late and have no time to learn how to cook well. On the other hand, after a tiring day.",
+      "answer": "The last time I cooked was last weekend. My wife cooked with me. I love cooking Chinese food because it is delicious and full of rich nutrition. I do not think I can become a good cook. First, I often work late and have little time to learn. Second, I am usually too tired to prepare food after work. So, becoming a good cook would be difficult for me.",
+      "answerZh": "我认为自己很难成为一名好厨师。第一，我经常加班，没有时间学习做饭。第二，下班后我通常很累，不想长时间准备食物。所以，成为好厨师对我并不容易。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6654,11 +7256,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "烹饪能力",
           "prompt": "你是否认为自己可以成为一个好的厨师？为什么？",
-          "answer": "I don't think I can become a good cook. On one hand, I often work late and have no time to learn how to cook well. On the other hand, after a tiring day.",
+          "answer": "I do not think I can become a good cook. First, I often work late and have little time to learn. Second, I am usually too tired to prepare food after work. So, becoming a good cook would be difficult for me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "don think become good cook"
+          "keywords": "don think become good cook",
+          "answerZh": "我认为自己很难成为一名好厨师。第一，我经常加班，没有时间学习做饭。第二，下班后我通常很累，不想长时间准备食物。所以，成为好厨师对我并不容易。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "I do not think I can become a good cook.",
+            "First, I often work late and have little time to learn.",
+            "Second, I am usually too tired to prepare food after work.",
+            "So, becoming a good cook would be difficult for me."
+          ],
+          "answerSectionsZh": [
+            "我认为自己很难成为一名好厨师。",
+            "第一，我经常加班，没有时间学习做饭。",
+            "第二，下班后我通常很累，不想长时间准备食物。",
+            "所以，成为好厨师对我并不容易。"
+          ]
         }
       ]
     },
@@ -6672,7 +7288,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "阅读习惯 · 阅读偏好 · 阅读习惯和优点",
       "prompt": "买书，how often，where？\n喜欢电子书还是纸质书？\n买书的优点？",
-      "answer": "I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want. I like e-books because they are easy to carry and store, and they can save my reading progress automatically. Buying books allows me to gain a lot of knowledge and learn excellent experiences and problem-solving skills. I also prefer buying e-books because online searching and downloading are convenient, and they are usually cheaper.",
+      "answer": "I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want. I like e-books because they are easy to carry and store, and they can save my reading progress automatically. Buying books has two main benefits. First, books help me learn new knowledge. Second, they teach me useful ways to solve problems. So, buying books is a valuable investment.",
+      "answerZh": "买书有两个主要优点。第一，书可以帮助我学习新知识。第二，我能从书中学到解决问题的方法。所以，买书是很有价值的投入。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6711,11 +7328,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "阅读习惯和优点",
           "prompt": "买书的优点？",
-          "answer": "Buying books allows me to gain a lot of knowledge and learn excellent experiences and problem-solving skills. I also prefer buying e-books because online searching and downloading are convenient, and they are usually cheaper.",
+          "answer": "Buying books has two main benefits. First, books help me learn new knowledge. Second, they teach me useful ways to solve problems. So, buying books is a valuable investment.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "buying books allows gain lot"
+          "keywords": "buying books allows gain lot",
+          "answerZh": "买书有两个主要优点。第一，书可以帮助我学习新知识。第二，我能从书中学到解决问题的方法。所以，买书是很有价值的投入。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "Buying books has two main benefits.",
+            "First, books help me learn new knowledge.",
+            "Second, they teach me useful ways to solve problems.",
+            "So, buying books is a valuable investment."
+          ],
+          "answerSectionsZh": [
+            "买书有两个主要优点。",
+            "第一，书可以帮助我学习新知识。",
+            "第二，我能从书中学到解决问题的方法。",
+            "所以，买书是很有价值的投入。"
+          ]
         }
       ]
     },
@@ -6729,7 +7360,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "电影习惯 · 电影观看方式 · 喜欢的电影",
       "prompt": "你多久看一次电影？一般看什么类型？\n你喜欢在家看电影还是去电影院？为什么？\n你最喜欢的电影是什么？为什么？",
-      "answer": "I watch movies once a month. Most of the time, I watch action movies. I prefer watching movies at home. I am busy with work, so I don't have much time to go to the cinema. I like a movie called Ne Zha 2. It is very famous and I am satisfied with its special effects and touching story. Many people have watched it more than once.",
+      "answer": "I watch movies once a month. Most of the time, I watch action movies. I prefer watching movies at home. I am busy with work, so I don't have much time to go to the cinema. My favorite movie is Ne Zha 2. First, its story is touching and interesting. Second, the special effects are excellent. So, it is a movie I would happily watch again.",
+      "answerZh": "我最喜欢的电影是《哪吒2》。第一，它的故事很感人，也很有意思。第二，电影的特效非常精彩。所以，这是一部我愿意再看的电影。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6768,11 +7400,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "喜欢的电影",
           "prompt": "你最喜欢的电影是什么？为什么？",
-          "answer": "I like a movie called Ne Zha 2. It is very famous and I am satisfied with its special effects and touching story. Many people have watched it more than once.",
+          "answer": "My favorite movie is Ne Zha 2. First, its story is touching and interesting. Second, the special effects are excellent. So, it is a movie I would happily watch again.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "movie called ne zha famous"
+          "keywords": "movie called ne zha famous",
+          "answerZh": "我最喜欢的电影是《哪吒2》。第一，它的故事很感人，也很有意思。第二，电影的特效非常精彩。所以，这是一部我愿意再看的电影。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "My favorite movie is Ne Zha 2.",
+            "First, its story is touching and interesting.",
+            "Second, the special effects are excellent.",
+            "So, it is a movie I would happily watch again."
+          ],
+          "answerSectionsZh": [
+            "我最喜欢的电影是《哪吒2》。",
+            "第一，它的故事很感人，也很有意思。",
+            "第二，电影的特效非常精彩。",
+            "所以，这是一部我愿意再看的电影。"
+          ]
         }
       ]
     },
@@ -6786,7 +7432,8 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": "1/2/3",
       "topic": "电影习惯 · 电影偏好 · 最喜欢的电影",
       "prompt": "How often do you watch movies and who do you usually watch them with?\nDo you prefer watching movies at home or at the movie theater?\nWhat is your favorite movie and why?",
-      "answer": "I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family. I prefer watching movies at home because it's more comfortable. I can choose what to watch and when to watch it. My favorite movie is Inception. The story is complex and exciting, and the special effects are amazing. I like how it makes me think about reality and dreams.",
+      "answer": "I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family. I prefer watching movies at home because it's more comfortable. I can choose what to watch and when to watch it. My favorite movie is Inception. First, the story is complex and exciting. Second, it makes me think about reality and dreams. So, this movie has always impressed me.",
+      "answerZh": "我最喜欢的电影是《盗梦空间》。第一，它的故事复杂又精彩。第二，电影会让我思考现实和梦境。所以，这部电影一直让我印象深刻。",
       "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
@@ -6825,11 +7472,25 @@ window.TOEIC_REVIEW_DATA = {
           "questionId": 3,
           "topic": "最喜欢的电影",
           "prompt": "What is your favorite movie and why?",
-          "answer": "My favorite movie is Inception. The story is complex and exciting, and the special effects are amazing. I like how it makes me think about reality and dreams.",
+          "answer": "My favorite movie is Inception. First, the story is complex and exciting. Second, it makes me think about reality and dreams. So, this movie has always impressed me.",
           "preparationTime": 3,
           "answerTime": 30,
           "difficulty": "medium",
-          "keywords": "favorite movie inception story complex"
+          "keywords": "favorite movie inception story complex",
+          "answerZh": "我最喜欢的电影是《盗梦空间》。第一，它的故事复杂又精彩。第二，电影会让我思考现实和梦境。所以，这部电影一直让我印象深刻。",
+          "answerPattern": "2R",
+          "answerSectionsEn": [
+            "My favorite movie is Inception.",
+            "First, the story is complex and exciting.",
+            "Second, it makes me think about reality and dreams.",
+            "So, this movie has always impressed me."
+          ],
+          "answerSectionsZh": [
+            "我最喜欢的电影是《盗梦空间》。",
+            "第一，它的故事复杂又精彩。",
+            "第二，电影会让我思考现实和梦境。",
+            "所以，这部电影一直让我印象深刻。"
+          ]
         }
       ]
     },
@@ -6844,6 +7505,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动地点 · 时间确认 · 活动详情",
       "prompt": "第8题：问这个活动在哪里举行？\n第9题：他9点才能到，活动10点开始，会不会错过什么？\n第10题：对两个Building类活动做具体说明。",
       "answer": "All the activities take place at the Richards History Museum. No, he will not miss anything because the activity starts at 10 o'clock. There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
       "imagePath": "",
@@ -6965,6 +7627,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议信息",
       "prompt": "会议在哪一天什么时间举行？\n一个活动是在周一举行吗？\n如果只有下午6点后有空，有哪些活动可以参加？",
       "answer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel. No, the database security sessions are held on Tuesday. Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–17:00 XXX Database Conference The Crown Hotel Opening speech, panel discussions and workshops Tuesday 10:00–11:00 Database Security Session The Crown Hotel Led by Mr. XXX Tuesday 15:00–16:00 Database Security Session The Crown Hotel Led by Mr. YYY",
       "imagePath": "",
@@ -7066,6 +7729,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间 · 会议地点确认 · 会议内容",
       "prompt": "会议在哪一天举行？会议的开始时间是什么？\n会议地址是哪个酒店，对吗？\n关于安全的会议有哪些场次？",
       "answer": "The database security meeting will be held on May 20th, and the morning session starts at 10:00 a.m. Yes, the meeting will be held at The Crown Hotel. There are two database security sessions. One is the morning session from 10:00 to 11:00, and the other is the afternoon session from 3:00 to 4:00.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Session Time Location Notes May 20th Database Security Morning Session 10:00am–11:00am The Crown Hotel Session about database security May 20th Database Security Afternoon Session 3:00pm–4:00pm The Crown Hotel Session about database security",
       "imagePath": "",
@@ -7157,6 +7821,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间 · 会议时间确认 · 会议内容",
       "prompt": "会议什么时候举行？\nXXX会议是6点开始吗？\n对 George Bryant 感兴趣的报告有哪些？",
       "answer": "The meeting will be held on January 17th in the auditorium hall. No, the XXX meeting will start at 5:30am and last until 6:30am. There are two sessions related to George Bryant: Report Session 1 at 6:15am and Report Session 2 at 7:00am.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Meeting Location Organizer Notes January 17 Weekly Meeting Auditorium Hall Mr. Smith Discuss company updates January 17 XXX Meeting Auditorium Hall Mr. Johnson Presentation from 5:30am to 6:30am January 17 Report Session 1 Conference Room George Bryant Discussion at 6:15am January 17 Report Session 2 Conference Room George Bryant Second session at 7:00am",
       "imagePath": "",
@@ -7268,6 +7933,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议日期 · 样品批准 · 会议内容",
       "prompt": "发布会是哪天？\nApprove sample 是在8月吗？\nSandy 负责的会议有哪些？",
       "answer": "The product launch will be held on August 10. No, the approved samples will arrive in October. Mr. Sandy is responsible for two sessions: Sandy Session 1 on August 15 and Sandy Session 2 on August 20.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Meeting Organizer Notes August 10 Product Launch Mr. Smith Main launch event August 10 Marketing Meeting Mr. Brown Discuss marketing strategies October Sample Approval Ms. Taylor Approved samples arrive August 15 Sandy Session 1 Mr. Sandy Presentation on product August 20 Sandy Session 2 Mr. Sandy Follow-up meeting",
       "imagePath": "",
@@ -7383,6 +8049,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间 · 会议活动 · 会议内容",
       "prompt": "儿童文学会议什么时候举办？\n我想签一本书，什么时候可以？\n我对阅读技术感兴趣，参加哪些会议？",
       "answer": "The children's literature conference will be held from 8:30 to 9:30 in the morning. You can attend the book signing by XX Clark from 10:00 to 11:00. There are two reading technology sessions. One is from 14:00 to 15:00 in Room 101, and the other is from 16:00 to 17:00 in Room 102.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Event Location Notes 08:30–09:30 Children's Literature Conference Main Hall Start of the conference 10:00–11:00 Book Signing by XX Clark Conference Room A Opportunity for attendees to sign books 14:00–15:00 Reading Technology Session 1 Room 101 Given by M. Smith 16:00–17:00 Reading Technology Session 2 Room 102 Given by M. Johnson",
       "imagePath": "",
@@ -7489,6 +8156,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间地点 · 会议餐饮 · 会议内容",
       "prompt": "会议在什么时间什么地方举行？\n我需要自己准备午餐吗？\n关于制造的会议有哪些？请说明具体信息。",
       "answer": "The event will be held at the Nelson Conference Center, starting at 9:30 in Nelson Auditorium B. No, lunch will be provided at 12:30 at the Nelson Conference Center. There are two manufacturing-related sessions. One is Innovative Manufacturing Technology from 9:30 to 10:30 in Nelson Auditorium B. The other is Better Budgeting for Manufacturing from 4:00 to 5:00 in Nelson Auditorium A.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:30–10:30 Innovative Manufacturing Technology Nelson Auditorium B Session on latest technology 12:30–13:00 Lunch Provided Nelson Conference Center Lunch will be served to participants 16:00–17:00 Better Budgeting for Manufacturing Nelson Auditorium A Session on budgeting skills",
       "imagePath": "",
@@ -7586,6 +8254,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "面试时间地点 · 面试线下信息 · 面试线上信息",
       "prompt": "招聘会时间和地点是什么？第一场面试什么时候开始？\n想参加线下会议，具体信息是什么？\n想参加线上面试，具体信息是什么？",
       "answer": "The interview will be held at XX Venue from 7:00 am to 2:00 pm on Tuesday, June 18th. Yes, the interview for the Sales position will be held at 2:00 pm at XX Venue. There are two online interviews. One is at 9:30 am for Applicant A applying for XX position. Another is at 11:30 am for Applicant B applying for XX position.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 07:00–14:00 Interview Session XX Venue The recruitment fair will be held in the venue 14:00–15:00 Interview: Sales Position XX Venue Only one interview scheduled for assistant store manager position 09:30–10:30 Online Interview Online Platform Applicant A for XX position 11:30–12:30 Online Interview Online Platform Applicant B for XX position",
       "imagePath": "",
@@ -7692,6 +8361,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "航班信息 · 住宿信息 · 返程航班",
       "prompt": "出发航班信息是什么？请提供航班号、日期、起飞地和降落地、时间。\n住宿信息是什么？了解在belong branch office的行程\n返程航班信息是什么？",
       "answer": "The departure time from Singapore is 2:30 PM on June 17th. The flight number is Oceanic Air 7777. Yes, we have reserved a room for you at XX Hotel from June 17th to June 19th. The return flight departs from Sydney at 3 PM on June 19th. The flight number is Oceanic Air 8888. You will land in Singapore at 11 PM on the same day.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Travel Details Notes Departure Oceanic Air 7777, from Singapore at 2:30 PM on June 17th Landing in Sydney at 11 PM same day Hotel XX Hotel, June 17–19 Accommodation reserved Return Flight Oceanic Air 8888, from Sydney at 3 PM on June 19th Landing in Singapore at 11 PM same day",
       "imagePath": "",
@@ -7785,6 +8455,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间与议题 · 会议时间确认 · 会议内容咨询",
       "prompt": "会议几点开始，第一个议题是什么？\n有人10点才能到，会错过什么内容？\n介绍Project Briefing的具体情况",
       "answer": "The meeting starts at 9:00, and the first topic is the introduction and daily plan discussion. They will not miss the main project briefing, which starts at 10:00. The Project Briefing is from 10:00 to 11:00 in Room 202. The supervisor presents the new project details to all employees.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Activity Details Notes Morning Meeting Starts at 9:00, all employees Introduction and daily plan discussion Project Briefing 10:00–11:00, Room 202 Supervisor presents new project details Coffee Break 11:00–11:15, Lounge Area Refreshments provided for participants",
       "imagePath": "",
@@ -7878,6 +8549,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间与议题 · 会议内容确认 · 会议议题详情",
       "prompt": "会议几点开始？第一个议题是什么？\n有人11点要离开，会错过什么内容？\n第三个议题的详情有哪些？Grim先生讲的话题是什么？",
       "answer": "It will start at 8:00, and the first topic is freshmen introduction. No, actually the meeting will end at 10:00, so they won't miss anything. There is a topic presented by Grim from 11:00 to 12:00. Grim will discuss specific details of the project, including start and end times and discussion points.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/07/02 08:00–10:00 Meeting Conference Room First topic: Freshmen introduction 2022/07/02 10:30–11:00 Break Lobby Some attendees leave at 11 am 2022/07/02 11:00–12:00 Topic by Grim Conference Room Details: start-end time, speaker Grim, topic discussion",
       "imagePath": "",
@@ -7979,6 +8651,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动日期 · 活动取消 · 食物相关活动",
       "prompt": "活动是在几月几号举行？\n原定自行车或徒步旅行活动是否取消？\n与食物相关的活动有几场？",
       "answer": "Yes, it will be held on April the third. No, actually it had been canceled. There are two events about food. The first one is a cooking demonstration, and the second one is at 11 am.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2024/04/03 09:00–10:00 Opening Ceremony Main Hall Welcome speech 2024/04/03 10:30–11:30 Cycling Event City Street Originally scheduled for April 4 but cancelled 2024/04/03 11:00–12:00 Cooking Demonstration Kitchen Area Focus on healthy recipes",
       "imagePath": "",
@@ -8080,6 +8753,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "面试时间 · 面试变更 · 岗位面试安排",
       "prompt": "面试安排在哪天开始？几点钟？\n08:30的面试发生了什么？\n营养均衡师岗位的面试有几场？几点开始？",
       "answer": "The interviews start on March 13, 2022, at 8:00 a.m.. The 08:30 interview was cancelled. There are two nutritionist interviews. The first starts at 09:00 and the second at 09:30.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/03/13 08:00–08:30 Interview Round 1 Room A General interview 2022/03/13 08:30–09:00 Interview Round 2 Room B Cancelled 2022/03/13 09:00–09:30 Nutritionist Interview 1 Room C Balanced diet focus 2022/03/13 09:30–10:00 Nutritionist Interview 2 Room C Second candidate",
       "imagePath": "",
@@ -8191,6 +8865,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "培训日期及首场时间咨询 · 延期培训情况咨询 · 营养师岗位面试信息咨询",
       "prompt": "When is the new employee training scheduled, and what time does the first training session start?\nWhat can you tell me about the training session that is crossed out and marked \"postponed\"?\nCould you provide specific information about the two nutritionist positions' interviews?",
       "answer": "The new employee training is scheduled for October 22nd, and the first training session starts at 8:00 in the morning. The training was planned on October 15th at 9:00 AM, but the new date is not confirmed yet. There are two nutritionist interviews on October 12th in Meeting Room 2. The clinical nutrition interview is from 9:00 to 9:45 AM, and the product development interview is from 10:00 to 10:45 AM.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 12th 08:00-08:45 Group Interview - All Candidates Meeting Room 1 Food company interview kick-off Oct 12th 09:00-09:45 One-on-one Interview - Nutritionist 1 Meeting Room 2 Clinical nutrition expertise Oct 12th 10:00-10:45 One-on-one Interview - Nutritionist 2 Meeting Room 2 Product development experience ~~Oct 15th 09:00~~ New Employee Training Training Room A *Postponed* Oct 22nd 08:00-12:00 New Employee Training Session 1 Training Room A Food safety & nutrition basics",
       "imagePath": "",
@@ -8312,6 +8987,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间 · 会议时间确认 · 项目管理",
       "prompt": "团队简报的时间是什么？\n项目讨论是否在上午进行？\n哪些活动是与项目分歧解决相关？",
       "answer": "The team briefing is from 09:00 to 09:30. Yes, the project discussion is in the morning from 10:00 to 10:45. The project discussion from 10:00 to 10:45 focuses on resolving project gaps.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Team Briefing Meeting Room 1 Discuss daily tasks and updates 10:00–10:45 Project Discussion Meeting Room 2 Focus on resolving project gaps 11:00–11:30 Client Call Office 3 Call with external client regarding project progress",
       "imagePath": "",
@@ -8409,6 +9085,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间 · 会议时间确认 · 跨城市工作安排",
       "prompt": "早会的时间是什么？\n团队会议是否在下午？\n哪些活动是关于不同城市工作安排的？",
       "answer": "The morning briefing is from 09:00 to 09:30. No, the team meeting is in the morning from 10:00 to 10:45. The team meeting from 10:00 to 10:45 discusses projects in different cities.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Morning Briefing Conference Room A Staff gather to review daily tasks 10:00–10:45 Team Meeting Conference Room B Discuss projects in different cities 11:00–11:30 Client Call Office 3 Conference call with remote clients",
       "imagePath": "",
@@ -8506,6 +9183,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间地点 · 职位确认 · 职位介绍",
       "prompt": "开会的时间和地点是什么？\n是否有两个经理职位？\n请介绍两个职位的详细信息。",
       "answer": "The team meeting will be held at 08:30 in Conference Room A. Actually no, the second manager position was cancelled. There are two scheduled interviews for Manager A at Room 101 at 9:30 am and Manager C at Room 103 at 2 pm. The second manager position at Room 102 was cancelled.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 08:30 Team Meeting Conference Room A Introduction to new project 09:30 Interview Manager A Room 101 First interview 10:30 Interview Manager B Room 102 Cancelled 14:00 Interview Manager C Room 103 Afternoon session",
       "imagePath": "",
@@ -8612,6 +9290,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "招聘会时间地点 · 职位确认 · 职位介绍",
       "prompt": "招聘会开会的地点和时间是什么？\n是否有两个经理职位？\n请介绍两个公司的职位详细情况。",
       "answer": "This meeting will be held at the designated rooms as listed in the schedule. The first interview is at 9:00 am. No, that information is incorrect. The second manager position was cancelled. Sure. There are two scheduled interviews for Company X. One is named Manager A at Room 101 at 9 am. Another is named Manager C at Room 103 at 2 pm.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Position Company Location Notes 09:00 Manager A Company X Room 101 First interview 10:00 Manager B Company Y Room 102 Second interview cancelled 14:00 Manager C Company X Room 103 Afternoon position available",
       "imagePath": "",
@@ -8713,6 +9392,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "面试地点及首场时间咨询 · 最后一场面试时间确认 · 需教学经验的面试场次咨询",
       "prompt": "Question 1: Where will the interviews be held and what time does the first interview start?\nQuestion 2: Is the last interview scheduled for 4:00 p.m.?\nQuestion 3: Which interviews require teaching experience?",
       "answer": "The interviews will be held in Room 302, and the first interview starts at 9:00 in the morning. No, it isn't. The interview scheduled for 4:00 p.m. has been cancelled, so the last interview starts at 3:00 p.m. There are two interviews that require teaching experience. They are the second round - piano demo from 10:30 to 11:30 a.m. and the third round - teaching plan presentation from 2:00 to 3:00 p.m.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Interview Agenda Location Requirement 09:00-10:00 First Round - Music Theory Test Room 302 Basic music knowledge 10:30-11:30 Second Round - Piano Demo Room 302 Teaching experience required 14:00-15:00 Third Round - Teaching Plan Presentation Room 302 Teaching experience required 16:00-17:00 Final Round - Interview with Principal Room 302 *Cancelled*",
       "imagePath": "",
@@ -8819,6 +9499,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "乡村音乐会购票方式咨询 · 乡村音乐会场次咨询 · 古典音乐会购票方式确认",
       "prompt": "Question 1: What are the available ticket purchase methods for the country concerts?\nQuestion 2: How many country concerts are there in the schedule?\nQuestion 3: Is the classic concert ticket available for purchase in person?",
       "answer": "The ticket purchase methods for the country concerts are online, by phone, and in person. There are two country concerts in the schedule, one on October 12 and the other on November 18. No, the classic concert tickets are only available for purchase online.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Concert Type Time Ticket Purchase Methods Notes Country Concert 1 Oct 12 7:00 PM Online, By Phone, In Person Outdoor venue, bring rain gear if needed Country Concert 2 Nov 18 7:30 PM Online, By Phone, In Person Indoor stadium, no outside food allowed Classic Concert Dec 24 8:00 PM Online only Limited seats, book early",
       "imagePath": "",
@@ -8916,6 +9597,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "培训开始日期及举办地点咨询 · 第一门课程时间确认 · 培训研讨会情况咨询",
       "prompt": "Question 1: On which day does the training start and where is it held?\nQuestion 2: Does the first course start at 10:00 AM?\nQuestion 3: I heard your workshops are very good. Could you introduce the workshops in this training?",
       "answer": "The training starts on November 5th and is held in Conference Room 101. No, it doesn't. The first course is the opening ceremony, which starts at 9:00 AM. There are two workshops in this training. The first one is Team Management from 10:00 AM to 12:00 PM with interactive discussions, and the second one is Decision Making from 2:00 PM to 4:00 PM with case study analysis.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Nov 5th 09:00-09:30 Opening Ceremony Conference Room 101 Leadership Training Kick-off Nov 5th 10:00-12:00 Workshop 1: Team Management Conference Room 101 Interactive discussions Nov 5th 14:00-16:00 Workshop 2: Decision Making Conference Room 101 Case study analysis Nov 5th 16:30-17:30 Closing Sharing Conference Room 101 Summary and Q&A",
       "imagePath": "",
@@ -9027,6 +9709,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "航班咨询 · 时间确认 · 返程航班信息",
       "prompt": "What time will the departing flight depart and arrive?\n这趟航班是在上午还是下午？\nCould you please tell me all the information about my return flight?",
       "answer": "It will depart at 7:00 AM on June 10 and arrive at 1:09 PM on the same day. It is in the morning. The flight departs at 7:00 AM. You will depart from Sydney on Rapid Airline flight B17 at 9:10 AM on June 17, and you will arrive in Singapore at 4:12 PM on the same day.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Flight From To Departure Time Arrival Time Notes June 10 Flight A21 Oslo Singapore 07:00 AM 01:09 PM Direct flight June 17 Flight B17 Sydney Singapore 09:10 AM 04:12 PM Operated by Rapid Airline",
       "imagePath": "",
@@ -9124,6 +9807,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议咨询 · 会议时间确认 · 活动内容咨询",
       "prompt": "问会议举办的时间，地点以及第一场会议的时间内容。\n问某个会议是不是在早上。\n问关于 fruit trees 的详细介绍。",
       "answer": "The meeting will be held at 2:00 PM in the conference room. The first session starts at 2:15 PM. No, it's not in the morning. It's actually at 2:00 PM in the afternoon. There are two activities related to fruit trees. The first one is a demonstration called 'How to Prune Fruit Trees,' which starts at 3:00 PM. The second one is a workshop named 'Growing Fruit Trees in Your Garden,' scheduled for 4:00 PM.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据以下信息回答问题： Time Activity Location Notes 2:00 PM Opening & Venue Check-in Conference Room Main meeting check-in 2:15 PM Project Update Session Conference Room A First meeting session 3:00 PM Demonstration: How to Prune Fruit Trees Garden Area Outdoor demo 4:00 PM Workshop: Growing Fruit Trees in Your Garden Room C Practical training session",
       "imagePath": "",
@@ -9230,6 +9914,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动介绍 · 天气相关活动确认 · 活动内容说明",
       "prompt": "介绍living center 的地点在哪 以及每节课程的价格\n课程是不是只有4月份有课程\n6：00 PM 之前没时间，请介绍6点之后 有哪些课程",
       "answer": "The activity will be held in the Healthy Living Center, and it costs $5 per person. No, it should be from April 7 to May 29. There are two topics after 6:00 p.m.. The first one is Making money at 6:30 p.m. The second one is How to Sleep at 8:00 p.m.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Location: All workshops are held at the Healthy Living Center. Price: Each workshop session costs $5 per person. Schedule: The workshop series runs from April 7 to May 29. Evening Workshops (After 6:00 p.m.): Making Money at 6:30 p.m. How to Sleep at 8:00 p.m.",
       "imagePath": "",
@@ -9340,6 +10025,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议介绍 · 活动安排确认 · 年度讲座内容",
       "prompt": "介绍会议的基本情况（举办时间10月17日，地点，门票45美元）\n如果下雨，会议是否继续举行？\n介绍今年两个Lecture的主题",
       "answer": "The meeting is called the Photo Theme Conference. It will be held on October 17th at the City Convention Center. Yes, the meeting will still take place even if it rains. According to the note, the event will continue as scheduled. This year, there are two lecture topics. One is Digital Photography Techniques, and the other is Storytelling Through Images.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration City Convention Center Tickets required ($45) 10:00–11:00 Opening Session Main Hall General introduction 13:00–14:00 Workshop: Photography Basics Room A Afternoon session only 15:00–16:30 Panel Discussions Room B Two topics: Digital Photography; Storytelling Images * * * If it rains, the event will continue as scheduled.",
       "imagePath": "",
@@ -9455,6 +10141,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议信息查询 · 活动时间判断 · 活动内容描述",
       "prompt": "会议的日期和开始时间是什么？\nworkshop是不是在上午举行？\n描述两个 panel sessions。",
       "answer": "The meeting is scheduled for October 15th, and it will start at 9:30 a.m. No, the workshop is not in the morning. It is held in the afternoon from 1:00 to 2:00 p.m. There are two panel sessions. The first one is about international business strategies, and the second is about technology trends in the industry. Both sessions include expert discussions and Q&A.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Activity Time Location October 15 Meeting 9:30 a.m. Conference Room A October 15 Workshop: Marketing Skills 1:00–2:00 p.m. Room C October 15 Panel Session 1: International Business 2:30–3:30 p.m. Hall 2 October 15 Panel Session 2: Technology Trends 4:00–5:00 p.m. Hall 2",
       "imagePath": "",
@@ -9561,6 +10248,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议地点与时间 · 票价咨询 · 活动内容说明",
       "prompt": "seminar在哪里开始，什么时候开始？\n有没有便宜票卖？\n介绍两个 workshops 的主题。",
       "answer": "The seminar will start at 10:00 a.m., in the main conference hall, right after registration. Yes, early registration offers a cheaper ticket at 40 dollars instead of the regular price. There are two workshops. Workshop A is about improving workplace productivity, and Workshop B focuses on promoting a healthy lifestyle for office workers.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00–9:30 Registration Check-in and materials distribution 10:00–11:00 Seminar Opening Welcome speech and introduction 11:15–12:15 Workshop A How to Improve Workplace Productivity 1:30–2:30 Workshop B Healthy Lifestyle for Office Workers 3:00–4:00 Q&A Session Open discussion with speakers",
       "imagePath": "",
@@ -9670,6 +10358,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议信息咨询 · 费用确认 · 议题介绍",
       "prompt": "When and where is the meeting?\nIs the ticket price for members $60?\nWhat topics will John Berg present?",
       "answer": "The meeting is scheduled for Thursday, August 15th at the downtown conference center near the main train station. No, the ticket price for members is $45. The $60 ticket is for non-members. John Berg will present two topics: new marketing strategies for small businesses, and customer engagement techniques.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00 – 9:30 Registration Check-in and materials distribution 10:00 – 11:30 John Berg (Session 1) New Marketing Strategies for Small Businesses 12:00 – 1:00 Lunch Break Lunch provided at the dining hall 1:30 – 2:30 John Berg (Session 2) Customer Engagement Techniques 3:00 – 4:00 Panel Discussion Future Trends in Digital Business Ticket price:$45(members),$60(non members)",
       "imagePath": "",
@@ -9781,6 +10470,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "培训日程确认 · 费用确认 · 课程内容",
       "prompt": "培训什么时候？第一节课什么时候开始？\n午餐是不是免费？\n主厨Mike会讲哪些课程？",
       "answer": "The training is next week, and the first class begins on Monday at 9 a.m. No, lunch is not free. It costs five dollars per person. He will teach two courses: Italian cooking and French cuisine.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Instructor Notes 09:00–10:30 Introduction to Cooking Chef Mike First class of the training 12:00–13:00 Lunch Break N/A Lunch costs $5 per person 14:00–16:00 Specialty Courses Chef Mike Italian cooking & French cuisine",
       "imagePath": "",
@@ -9878,6 +10568,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "会议时间 · 午餐安排 · 活动内容",
       "prompt": "What time does the meeting start?\nIs lunch free for everyone?\nWhat are the two lecture sessions about?",
       "answer": "The meeting starts at 9 a.m. No, lunch is only free for registered participants. The two sessions are about time management and workplace communication.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:00 Lecture: Time Management Room A, Conference Center Tips and techniques for managing work and personal tasks 11:15–12:15 Lecture: Workplace Communication Room B, Conference Center How to communicate effectively in the office 12:30–13:30 Lunch Cafeteria Free for registered participants only",
       "imagePath": "",
@@ -9984,6 +10675,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动地点咨询 · 活动时间确认 · 活动内容咨询",
       "prompt": "问这个活动在哪里举行\n他9点才能到，实际活动是10点开始，不会错过什么？\n问两个 activities 的具体情况",
       "answer": "The event is held at the Downtown Convention Center. He won't miss anything because the first activity starts at 10 a.m. The two activities are a workshop on digital marketing and a networking session.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:30 Workshop: Digital Marketing Room B, Downtown Convention Center Focus on latest trends and strategies 11:45–12:30 Networking Session Lobby Area Opportunity to meet other attendees and exchange contacts",
       "imagePath": "",
@@ -10081,6 +10773,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "课程费用咨询 · 活动时间确认",
       "prompt": "How much does the basic writing course cost for local citizens and non-local participants?\nDoes the Thursday Action Workshop start at seven p.m.?\nI'm interested in the painting class. Can you give me more details about it?",
       "answer": "The fee is 40 dollars for local citizens and 60 dollars for non-local participants. No, it starts at 6 p.m. and runs until 8 p.m. Sure. The painting class is held from two to four p.m. in the art studio. There are two levels available, including a beginner class and an advanced class, so participants can choose the level that suits their skill level.",
+      "answerZh": "",
       "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes ----------- ----------------------------- ---------- ---------------------------------------- 10:00–11:00 Basic Writing Course Room 203 Fee: Local citizens $40 / Non-locals $60 18:00–20:00 Thursday Action Workshop Room 105 Starts at 6 p.m. 14:00–16:00 Watercolor Painting Class Art Studio Painting Class Option 1 14:00–16:00 Oil Painting Class Art Studio Painting Class Option 2",
       "imagePath": "",
@@ -10187,6 +10880,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "课程信息",
       "prompt": "问课程开始时间和注册时间。\n一个活动是在周一举行吗？\n如果只有下午6点后有空，有哪些活动可以参加？",
       "answer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby. No, the sessions are held on Tuesday and Thursday. Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–9:30 Registration & Welcome Coffee Main Lobby Check-in before sessions Tuesday 10:00–11:00 Clean Water and Sanitation Room A Led by Mr. Sandra Thursday 10:30–11:30 Life Below Water Room B Led by Peter Kemp",
       "imagePath": "",
@@ -10288,6 +10982,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动时间地点 · 儿童活动确认 · 展览信息",
       "prompt": "第8题：问时间和地点。\n第9题：带小孩是不是8号去？\n第10题：对Building类展览比较感兴趣，具体描述时间等内容。",
       "answer": "The Richards History Museum is open from 9 a.m. to 5 p.m. from Monday to Saturday. No, Children's Day is on May 11th, and children under 12 can enter the museum for free on that day. There are two building-related exhibitions. One is called 'Houses Around the World' on May 4th, and the other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9 a.m. to 5 p.m.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
       "imagePath": "",
@@ -10409,6 +11104,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "课程时间和注册 · 课程日期确认 · 课程时间选择",
       "prompt": "课程什么时候开始，注册截止日期是什么？\n一个活动是在周一举行吗？\n如果只有6点后有空，有哪些活动可以参加？",
       "answer": "The first course starts on Monday at 9:00 a.m. Please complete registration before the deadline announced by the organizer. Yes, the Clean Water and Sanitation session will be held on Monday. Unfortunately, none of the listed sessions are available after 6 p.m. All activities are scheduled in the morning or early afternoon.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Day Session Time Speaker Notes Monday Clean Water and Sanitation 9:00am–10:00am Mr. Sandra Session about clean water and sanitation Tuesday Life Below Water 10:30am–11:30am Peter Kemp Discussion on aquatic life Wednesday Forest Conservation 8:30am–9:30am Lisa Green Discussion about forest preservation Thursday Renewable Energy 11:00am–12:00pm Tom White Session about renewable energy",
       "imagePath": "",
@@ -10520,6 +11216,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动时间地点 · 活动费用 · 活动导览信息",
       "prompt": "会员日活动什么时候举行，在哪里？\n朋友也想参加，需要付费吗？\n有哪些导览活动？能提供具体信息吗？",
       "answer": "The member day activities start at 9:00 at the museum's main entrance. Non-members need to pay $25. members enter for free. There are two guided tours. One is the Art Exhibition from 10:00 to 11:00 in Gallery A led by the curator. The other is the Historical Collection from 11:30 to 12:30 in Gallery B led by museum staff.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:00–09:30 Member Registration Main Entrance Members check in 10:00–11:00 Guided Tour: Art Exhibition Gallery A Led by curator 11:30–12:30 Guided Tour: Historical Collection Gallery B Led by museum staff",
       "imagePath": "",
@@ -10617,6 +11314,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动选择 · 活动装备 · 课程信息",
       "prompt": "他喜欢啥，想参加某个活动怎么办？\n钓鱼需不需要带装备？\n对Class有兴趣，想了解class相关信息，有几个相关的class？",
       "answer": "The final option chosen by the participant is what they will attend. No need, the tools have been provided. There are two classes related to this activity.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Activity Details Notes Fishing All equipment provided No need to bring your own tools Classes Two relevant classes Interested participants can get more info Special Event Participant's choice Final option is the one selected by participant",
       "imagePath": "",
@@ -10710,6 +11408,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "门票信息 · 活动时间确认 · 适龄活动",
       "prompt": "门票多少钱？\n公园的活动是否在早上？\n顾客有2岁和5岁的小孩，可以参加哪些活动？",
       "answer": "A ticket costs $6 and children under 2 are free. No, all the activities are scheduled at 3pm. There are three activities they can attend: Magic Show, Treasure Hunt, and Mini Sports.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Entrance & Ticket Check Park Gate Tickets $6 each, children under 2 free 15:00–15:30 Magic Show Main Stage All activities start at 3pm 15:30–16:00 Treasure Hunt Playground Suitable for children aged 2–10 15:45–16:15 Mini Sports Playground Suitable for children aged 3–10",
       "imagePath": "",
@@ -10816,6 +11515,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "讲课时间 · 时间确认 · 课程名称",
       "prompt": "讲课的起止时间是什么？\nMerg Session 1 是在周三吗？\n有哪些 session 叫 Merg？",
       "answer": "The opening lecture will be held from 09:00 to 10:00 in the Main Hall. No, Merg Session 1 is scheduled for the morning but the day is not Wednesday. There are two sessions called Merg: Merg Session 1 at Room A from 10:15–11:00 and Merg Session 2 at Room B from 11:15–12:00.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Session Location Notes 09:00–10:00 Opening Lecture Main Hall Introduction and overview 10:15–11:00 Merg Session 1 Room A Interactive workshop 11:15–12:00 Merg Session 2 Room B Group discussion 14:00–15:00 Regular Session Room C Standard lecture 15:15–16:00 Q&A Session Main Hall Question and answer",
       "imagePath": "",
@@ -10931,6 +11631,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动举办时间咨询 · 活动举办地点确认 · 主讲人相关活动咨询",
       "prompt": "Question 1: When is the weekly activity held?\nQuestion 2: Is the activity held in Room B?\nQuestion 3: What are the two special events led by Dr. Smith and their topics?",
       "answer": "The weekly health lecture is held every Tuesday from 6:00 pm to 8:00 pm. No, I'm sorry. I'm afraid that the activity will be held in Meeting Room A. There are two events led by Dr. Smith. The first is on January 3, and the topic is \"heart healthy food\". The next one is on April 2, and the topic is \"balanced diet for adults\".",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Schedule Time Location Host Topic Weekly Health Lecture Every Tuesday 6:00 pm - 8:00 pm Meeting Room A Dr. Smith Healthy Lifestyle Special Seminar 1 Jan 3 Meeting Room A Dr. Smith Heart Healthy Food Special Seminar 2 Apr 2 Meeting Room A Dr. Smith Balanced Diet for Adults",
       "imagePath": "",
@@ -11032,6 +11733,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "电影票价格 · 电影时间 · 电影场次",
       "prompt": "电影票价格是多少？\n哪场电影在上午？\n请介绍两个电影场次。",
       "answer": "The ticket prices are 12 dollars per movie for the morning and afternoon sessions, and 15 dollars per movie for the evening 3D session. The morning movie is from 9:00 to 11:00 at Cinema A. There is a morning movie from 9:00 to 11:00 at Cinema A, and an afternoon movie from 13:00 to 15:00 at Cinema B.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Movie Fee Location Notes 09:00–11:00 Morning Movie $12 Cinema A Standard 2D movie 13:00–15:00 Afternoon Movie $12 Cinema B Standard 2D movie 16:00–18:00 Evening Movie $15 Cinema A Includes 3D experience",
       "imagePath": "",
@@ -11133,6 +11835,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "活动开始时间咨询 · 午餐费用确认 · 明日讲座场次及内容咨询",
       "prompt": "Question 1: What time does the event start?\nQuestion 2: Is the lunch free?\nQuestion 3: How many lectures will be held tomorrow, and what are they?",
       "answer": "The event starts at 9:00 AM on October 20th after the registration which begins at 8:30 AM. No, the lunch is not free. It costs 10 dollars per person. There will be two lectures tomorrow. The first one is Digital Media Trends at 9:00 AM, and the second one is Smart Device Innovation at 11:00 AM.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 20th 08:30 AM Registration Main Hall Event starts after registration Oct 20th 09:00 AM Lecture 1: Digital Media Trends Conference Room A Free handouts provided Oct 20th 11:00 AM Lecture 2: Smart Device Innovation Conference Room A Guest speaker from tech company Oct 20th 12:30 PM Lunch Break Cafeteria 10$ per person Oct 20th 02:00 PM Panel Discussion Conference Room B Open to all attendees",
       "imagePath": "",
@@ -11254,6 +11957,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "课程费用咨询 · 课程时间确认 · 课程内容说明",
       "prompt": "课程费用是多少？\n课程是不是在早上？\n请介绍两个 swimming 课程。",
       "answer": "The fees are 40 dollars, 55 dollars, and 70 dollars depending on the class. Yes, two of the swimming classes are in the morning: one at 7:30 and the other at 10 o'clock. There is a morning swimming class from 7:30 to 8:30 for beginners, and a family swimming class from 10:00 to 11:00 for parents and children.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Class Fee Location Notes 07:30–08:30 Morning Swimming Class $40 Indoor Pool A Beginner level 10:00–11:00 Family Swimming Class $55 Indoor Pool B Parents and children 14:00–15:30 Advanced Swimming Training $70 Olympic Pool For experienced swimmers",
       "imagePath": "",
@@ -11355,6 +12059,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "学校咨询",
       "prompt": "问了学校的价格和报名截止日期\n问学校是不是换地址了\n让介绍学校有哪些marketing的课程",
       "answer": "The tuition fee for the upcoming semester is $1,200 for the full program, and the registration deadline is August 15th. No, the school has not changed its address. It is still located at 125 Green Street. The school offers three marketing courses this semester: Introduction to Marketing, Digital Marketing Strategy, and Brand Management.",
+      "answerZh": "",
       "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题：",
       "imagePath": "",
@@ -11419,6 +12124,7 @@ window.TOEIC_REVIEW_DATA = {
       "topic": "培训时间地点 · 培训信息 · 培训细节",
       "prompt": "第一场培训的时间、主题和地点是什么？\n第二场培训的主题是什么，在哪里举行？\n第三场培训的主题、地点和方式有哪些？",
       "answer": "The first training session is from 10:00 to 11:00 on Communication Skills in Conference Room A. The second training is Time Management, held in Conference Room B from 11:30 to 12:30. The third training is Leadership Skills in Conference Room C from 14:00 to 15:00, including role-playing and group discussions.",
+      "answerZh": "",
       "reason": "P3：整套以直接查找时间、地点或价格为主，资料结构简单、干扰信息较少，可用于最后巩固查表速度。",
       "instructions": "请根据提供的信息回答问题： Time Topic Location Notes 10:00–11:00 Training: Communication Skills Conference Room A Focus on effective communication 11:30–12:30 Training: Time Management Conference Room B Practical exercises 14:00–15:00 Training: Leadership Skills Conference Room C Role-playing and group discussion",
       "imagePath": "",
