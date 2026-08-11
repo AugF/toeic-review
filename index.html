@@ -374,6 +374,11 @@
       margin-bottom: 0;
     }
 
+    .part3-q3-answer {
+      padding: 0;
+      overflow: hidden;
+    }
+
     .material {
       margin-top: 12px;
       border: 1px solid var(--line);
@@ -905,7 +910,9 @@
       search: "",
       showAllAnswers: false,
       shuffled: false,
+      shuffleSeed: "",
       answerOpen: new Set(),
+      part3EnglishOpen: new Set(),
       part5EnglishOpen: new Set(),
       done: new Set(JSON.parse(localStorage.getItem("toeic-review-done") || "[]")),
       personalized: new Set(JSON.parse(localStorage.getItem("toeic-review-personalized") || "[]")),
@@ -970,8 +977,8 @@
       });
       if (state.shuffled) {
         records = [...records].sort((a, b) => {
-          const ah = hash(a.uid + "-" + state.part + "-" + state.priority);
-          const bh = hash(b.uid + "-" + state.part + "-" + state.priority);
+          const ah = hash(a.uid + "-" + state.part + "-" + state.priority + "-" + state.shuffleSeed);
+          const bh = hash(b.uid + "-" + state.part + "-" + state.priority + "-" + state.shuffleSeed);
           return ah - bh;
         });
       }
@@ -985,6 +992,16 @@
         value = Math.imul(value, 16777619);
       }
       return value >>> 0;
+    }
+
+    function createShuffleSeed() {
+      const values = new Uint32Array(2);
+      if (window.crypto?.getRandomValues) window.crypto.getRandomValues(values);
+      else {
+        values[0] = Math.floor(Math.random() * 0x100000000);
+        values[1] = Math.floor(Math.random() * 0x100000000);
+      }
+      return Date.now() + "-" + values[0] + "-" + values[1];
     }
 
     function renderAnswer(record) {
@@ -1382,6 +1399,44 @@
       ).join("");
     }
 
+    function renderPart3Q3Answer(question) {
+      const englishVisible = state.part3EnglishOpen.has(question.uid);
+      const labels = question.answerPattern === "1R1E"
+        ? ["总 · 观点", "分 · 理由", "分 · 例子", "总 · 总结"]
+        : ["总 · 观点", "分 · 理由 1", "分 · 理由 2", "总 · 总结"];
+      const patternText = question.answerPattern === "1R1E"
+        ? "总 + 1 个理由 + 1 个例子 + 总"
+        : "总 + 2 个理由 + 总";
+      const renderRows = (sections) => sections.map((section, index) =>
+        '<div class="part5-answer-row">' +
+          '<span class="part5-step-label">' + escapeHtml(labels[index] || "要点") + '</span>' +
+          '<p class="part5-step-text">' + escapeHtml(section) + '</p>' +
+        '</div>'
+      ).join("");
+      return '<div class="group-answer part3-q3-answer">' +
+        '<div class="part5-answer-heading">' +
+          '<p class="answer-title">第 3 题双语参考答案 · 30 秒</p>' +
+          '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
+        '</div>' +
+        '<section class="part5-language" aria-label="中文参考答案">' +
+          '<p class="part5-language-title">中文参考答案</p>' +
+          renderRows(question.answerSectionsZh) +
+        '</section>' +
+        '<div class="part5-english-toggle-row">' +
+          '<button class="tool-button part3-english-toggle" type="button" data-uid="' + escapeAttr(question.uid) + '">' + (englishVisible ? "隐藏英文答案" : "显示英文答案") + '</button>' +
+        '</div>' +
+        (englishVisible
+          ? '<section class="part5-language" aria-label="英文参考答案">' +
+              '<div class="part5-language-heading">' +
+                '<p class="part5-language-title">英文参考答案</p>' +
+                renderCompactSpeechControl(question) +
+              '</div>' +
+              renderRows(question.answerSectionsEn) +
+            '</section>'
+          : '') +
+      '</div>';
+    }
+
     function renderGroupedQuestions(record, answerVisible) {
       return '<div class="question-group" aria-label="整组三题">' + record.questions.map((question) => {
         const prepBadge = question.preparationTime
@@ -1391,7 +1446,9 @@
           ? '<span class="badge meta">作答 ' + escapeHtml(question.answerTime) + 's</span>'
           : '';
         const answer = answerVisible
-          ? '<div class="group-answer">' +
+          ? question.answerSectionsEn && question.answerSectionsZh
+            ? renderPart3Q3Answer(question)
+            : '<div class="group-answer">' +
               '<div class="answer-heading">' +
                 '<p class="answer-title">英文参考答案 · ' + escapeHtml(question.answerTime || "--") + ' 秒</p>' +
                 renderCompactSpeechControl(question) +
@@ -1539,6 +1596,7 @@
       stopSpeech();
       state.part = Number(button.dataset.part);
       state.answerOpen.clear();
+      state.part3EnglishOpen.clear();
       state.part5EnglishOpen.clear();
       render();
     });
@@ -1593,12 +1651,21 @@
         render();
         return;
       }
+      const part3EnglishButton = event.target.closest(".part3-english-toggle");
+      if (part3EnglishButton) {
+        const uid = part3EnglishButton.dataset.uid;
+        if (state.part3EnglishOpen.has(uid)) state.part3EnglishOpen.delete(uid);
+        else state.part3EnglishOpen.add(uid);
+        render();
+        return;
+      }
       const answerButton = event.target.closest(".answer-toggle");
       if (answerButton) {
         const uid = answerButton.dataset.uid;
         stopSpeech(uid);
         if (state.answerOpen.has(uid)) {
           state.answerOpen.delete(uid);
+          state.part3EnglishOpen.clear();
           state.part5EnglishOpen.delete(uid);
         } else state.answerOpen.add(uid);
         render();
@@ -1626,12 +1693,19 @@
     $("toggleAnswers").addEventListener("click", () => {
       stopSpeech();
       state.showAllAnswers = !state.showAllAnswers;
+      state.part3EnglishOpen.clear();
       state.part5EnglishOpen.clear();
       render();
     });
 
     $("shuffleButton").addEventListener("click", () => {
-      state.shuffled = !state.shuffled;
+      if (state.shuffled) {
+        state.shuffled = false;
+        state.shuffleSeed = "";
+      } else {
+        state.shuffled = true;
+        state.shuffleSeed = createShuffleSeed();
+      }
       render();
     });
 
