@@ -1,5 +1,5 @@
 window.TOEIC_REVIEW_DATA = {
-  "generatedAt": "2026-08-11T09:12:51.660Z",
+  "generatedAt": "2026-08-11T09:46:39.617Z",
   "parts": [
     {
       "part": 1,
@@ -25,20 +25,20 @@ window.TOEIC_REVIEW_DATA = {
       "part": 3,
       "name": "Part 3 回答问题",
       "counts": {
-        "total": 134,
-        "P1": 44,
-        "P2": 36,
-        "P3": 54
+        "total": 45,
+        "P1": 22,
+        "P2": 11,
+        "P3": 12
       }
     },
     {
       "part": 4,
       "name": "Part 4 信息回答",
       "counts": {
-        "total": 135,
-        "P1": 42,
-        "P2": 38,
-        "P3": 55
+        "total": 45,
+        "P1": 32,
+        "P2": 12,
+        "P3": 1
       }
     },
     {
@@ -4281,2569 +4281,2615 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "3-模拟题1.json-1",
+      "uid": "3-模拟题1.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "模拟题1.json",
       "bankName": "模拟题库-第1套",
-      "questionId": 1,
-      "topic": "健身房经历",
-      "prompt": "Question 1: 你上次去健身房是什么时候？",
-      "answer": "The last time I went to the gym was two days ago after work.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "健身房经历 · 健身房习惯 · 健身房偏好",
+      "prompt": "Question 1: 你上次去健身房是什么时候？\nQuestion 2: 你一般什么时候去健身房，为什么？\nQuestion 3: 你喜欢健身房设备多更好还是课程多更好，为什么？",
+      "answer": "The last time I went to the gym was two days ago after work. I usually go to the gym in the evening because it helps me relax after a long day. I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "last time went gym days"
+      "keywords": "last time went gym days usually go gym evening helps prefer gyms equipment choose different",
+      "questions": [
+        {
+          "uid": "3-模拟题1.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "健身房经历",
+          "prompt": "Question 1: 你上次去健身房是什么时候？",
+          "answer": "The last time I went to the gym was two days ago after work.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "last time went gym days"
+        },
+        {
+          "uid": "3-模拟题1.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "健身房习惯",
+          "prompt": "Question 2: 你一般什么时候去健身房，为什么？",
+          "answer": "I usually go to the gym in the evening because it helps me relax after a long day.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually go gym evening helps"
+        },
+        {
+          "uid": "3-模拟题1.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "健身房偏好",
+          "prompt": "Question 3: 你喜欢健身房设备多更好还是课程多更好，为什么？",
+          "answer": "I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "prefer gyms equipment choose different"
+        }
+      ]
     },
     {
-      "uid": "3-模拟题1.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 2,
-      "topic": "健身房习惯",
-      "prompt": "Question 2: 你一般什么时候去健身房，为什么？",
-      "answer": "I usually go to the gym in the evening because it helps me relax after a long day.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "usually go gym evening helps"
-    },
-    {
-      "uid": "3-模拟题1.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 3,
-      "topic": "健身房偏好",
-      "prompt": "Question 3: 你喜欢健身房设备多更好还是课程多更好，为什么？",
-      "answer": "I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "prefer gyms equipment choose different"
-    },
-    {
-      "uid": "3-真题01沟通组织解决问题哪个重要.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题01沟通组织解决问题哪个重要.json",
-      "bankName": "真题1 沟通组织解决问题哪个重要",
-      "questionId": 1,
-      "topic": "健身房经历",
-      "prompt": "第1题：你上次去健身房是什么时候？",
-      "answer": "The last time I went to the fitness center was yesterday evening after dinner.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "gym fitness center last time when"
-    },
-    {
-      "uid": "3-真题01沟通组织解决问题哪个重要.json-2",
+      "uid": "3-真题01沟通组织解决问题哪个重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题01沟通组织解决问题哪个重要.json",
       "bankName": "真题1 沟通组织解决问题哪个重要",
-      "questionId": 2,
-      "topic": "健身房习惯",
-      "prompt": "第2题：你一般什么时候去健身房，为什么？",
-      "answer": "I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "健身房经历 · 健身房习惯 · 健身房偏好",
+      "prompt": "第1题：你上次去健身房是什么时候？\n第2题：你一般什么时候去健身房，为什么？\n第3题：你喜欢健身房设备多更好还是课程多更好，为什么？",
+      "answer": "The last time I went to the fitness center was yesterday evening after dinner. I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily. I prefer a gym with more equipment because I like to exercise by myself and use different machines for different muscle groups.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "gym fitness center when why equipment"
+      "keywords": "gym fitness center last time when gym fitness center when why equipment gym equipment classes preference",
+      "questions": [
+        {
+          "uid": "3-真题01沟通组织解决问题哪个重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "健身房经历",
+          "prompt": "第1题：你上次去健身房是什么时候？",
+          "answer": "The last time I went to the fitness center was yesterday evening after dinner.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "gym fitness center last time when"
+        },
+        {
+          "uid": "3-真题01沟通组织解决问题哪个重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "健身房习惯",
+          "prompt": "第2题：你一般什么时候去健身房，为什么？",
+          "answer": "I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "gym fitness center when why equipment"
+        },
+        {
+          "uid": "3-真题01沟通组织解决问题哪个重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "健身房偏好",
+          "prompt": "第3题：你喜欢健身房设备多更好还是课程多更好，为什么？",
+          "answer": "I prefer a gym with more equipment because I like to exercise by myself and use different machines for different muscle groups.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "gym equipment classes preference"
+        }
+      ]
     },
     {
-      "uid": "3-真题01沟通组织解决问题哪个重要.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题01沟通组织解决问题哪个重要.json",
-      "bankName": "真题1 沟通组织解决问题哪个重要",
-      "questionId": 3,
-      "topic": "健身房偏好",
-      "prompt": "第3题：你喜欢健身房设备多更好还是课程多更好，为什么？",
-      "answer": "I prefer a gym with more equipment because I like to exercise by myself and use different machines for different muscle groups.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "gym equipment classes preference"
-    },
-    {
-      "uid": "3-真题04offer是否要跟家里人交流.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题04offer是否要跟家里人交流.json",
-      "bankName": "真题4 offer是否要跟家里人交流",
-      "questionId": 1,
-      "topic": "购买电脑",
-      "prompt": "你上次买电脑是什么时候，为什么买？",
-      "answer": "I bought my computer in 2021 because I needed it for studying and entertainment.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "bought computer needed studying entertainment"
-    },
-    {
-      "uid": "3-真题04offer是否要跟家里人交流.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题04offer是否要跟家里人交流.json",
-      "bankName": "真题4 offer是否要跟家里人交流",
-      "questionId": 2,
-      "topic": "电脑购买渠道",
-      "prompt": "你觉得电脑在线上卖的多还是线下卖的多？",
-      "answer": "I think computers are sold more online because it is easier to compare prices and specifications.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "think computers sold online easier"
-    },
-    {
-      "uid": "3-真题04offer是否要跟家里人交流.json-3",
+      "uid": "3-真题04offer是否要跟家里人交流.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题04offer是否要跟家里人交流.json",
       "bankName": "真题4 offer是否要跟家里人交流",
-      "questionId": 3,
-      "topic": "购买渠道选择",
-      "prompt": "你选择在商店买还是网上买？为什么？",
-      "answer": "I prefer buying computers online because it is more convenient and usually cheaper. I can also read customer reviews before making a decision.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "购买电脑 · 电脑购买渠道 · 购买渠道选择",
+      "prompt": "你上次买电脑是什么时候，为什么买？\n你觉得电脑在线上卖的多还是线下卖的多？\n你选择在商店买还是网上买？为什么？",
+      "answer": "I bought my computer in 2021 because I needed it for studying and entertainment. I think computers are sold more online because it is easier to compare prices and specifications. I prefer buying computers online because it is more convenient and usually cheaper. I can also read customer reviews before making a decision.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "prefer buying computers online convenient"
+      "keywords": "bought computer needed studying entertainment think computers sold online easier prefer buying computers online convenient",
+      "questions": [
+        {
+          "uid": "3-真题04offer是否要跟家里人交流.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "购买电脑",
+          "prompt": "你上次买电脑是什么时候，为什么买？",
+          "answer": "I bought my computer in 2021 because I needed it for studying and entertainment.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "bought computer needed studying entertainment"
+        },
+        {
+          "uid": "3-真题04offer是否要跟家里人交流.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "电脑购买渠道",
+          "prompt": "你觉得电脑在线上卖的多还是线下卖的多？",
+          "answer": "I think computers are sold more online because it is easier to compare prices and specifications.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "think computers sold online easier"
+        },
+        {
+          "uid": "3-真题04offer是否要跟家里人交流.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "购买渠道选择",
+          "prompt": "你选择在商店买还是网上买？为什么？",
+          "answer": "I prefer buying computers online because it is more convenient and usually cheaper. I can also read customer reviews before making a decision.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "prefer buying computers online convenient"
+        }
+      ]
     },
     {
-      "uid": "3-真题05网上读新闻的坏处.json-1",
+      "uid": "3-真题05网上读新闻的坏处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题05网上读新闻的坏处.json",
       "bankName": "真题5 网上读新闻的坏处",
-      "questionId": 1,
-      "topic": "火车出行",
-      "prompt": "你多久坐一次火车？去哪里？",
-      "answer": "I take the train about twice a month, usually to nearby cities for work or visiting friends.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "火车出行 · 社区规划 · 火车站环境",
+      "prompt": "你多久坐一次火车？去哪里？\n如果在城市建新火车站，你希望建在哪里？为什么？\n对于火车站，你认为哪一点最重要？为什么？",
+      "answer": "I take the train about twice a month, usually to nearby cities for work or visiting friends. I hope the new station can be built near the city center because it will be convenient for most passengers. I think cleanliness is the most important factor in a train station. A clean environment makes passengers feel comfortable and leaves a good impression of the city.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "take train twice month usually"
+      "keywords": "take train twice month usually hope new station built near think cleanliness important factor train",
+      "questions": [
+        {
+          "uid": "3-真题05网上读新闻的坏处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "火车出行",
+          "prompt": "你多久坐一次火车？去哪里？",
+          "answer": "I take the train about twice a month, usually to nearby cities for work or visiting friends.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "take train twice month usually"
+        },
+        {
+          "uid": "3-真题05网上读新闻的坏处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "社区规划",
+          "prompt": "如果在城市建新火车站，你希望建在哪里？为什么？",
+          "answer": "I hope the new station can be built near the city center because it will be convenient for most passengers.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "hope new station built near"
+        },
+        {
+          "uid": "3-真题05网上读新闻的坏处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "火车站环境",
+          "prompt": "对于火车站，你认为哪一点最重要？为什么？",
+          "answer": "I think cleanliness is the most important factor in a train station. A clean environment makes passengers feel comfortable and leaves a good impression of the city.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "think cleanliness important factor train"
+        }
+      ]
     },
     {
-      "uid": "3-真题05网上读新闻的坏处.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题05网上读新闻的坏处.json",
-      "bankName": "真题5 网上读新闻的坏处",
-      "questionId": 2,
-      "topic": "社区规划",
-      "prompt": "如果在城市建新火车站，你希望建在哪里？为什么？",
-      "answer": "I hope the new station can be built near the city center because it will be convenient for most passengers.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "hope new station built near"
-    },
-    {
-      "uid": "3-真题05网上读新闻的坏处.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题05网上读新闻的坏处.json",
-      "bankName": "真题5 网上读新闻的坏处",
-      "questionId": 3,
-      "topic": "火车站环境",
-      "prompt": "对于火车站，你认为哪一点最重要？为什么？",
-      "answer": "I think cleanliness is the most important factor in a train station. A clean environment makes passengers feel comfortable and leaves a good impression of the city.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "think cleanliness important factor train"
-    },
-    {
-      "uid": "3-真题08作为老板高效沟通是不是最重要.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题08作为老板高效沟通是不是最重要.json",
-      "bankName": "真题8 作为老板高效沟通是不是最重要",
-      "questionId": 1,
-      "topic": "健身习惯",
-      "prompt": "你多久去一次健身房？和谁一起去？",
-      "answer": "Usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "usually go gym twice week"
-    },
-    {
-      "uid": "3-真题08作为老板高效沟通是不是最重要.json-2",
+      "uid": "3-真题08作为老板高效沟通是不是最重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题08作为老板高效沟通是不是最重要.json",
       "bankName": "真题8 作为老板高效沟通是不是最重要",
-      "questionId": 2,
-      "topic": "健身时间偏好",
-      "prompt": "你比较喜欢什么时候去健身房？为什么？",
-      "answer": "I prefer going to the gym in the evening because I am busy during the day and there are fewer people around.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "健身习惯 · 健身时间偏好 · 健身房选择因素",
+      "prompt": "你多久去一次健身房？和谁一起去？\n你比较喜欢什么时候去健身房？为什么？\n选择健身房时，什么因素最重要？为什么？",
+      "answer": "Usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together. I prefer going to the gym in the evening because I am busy during the day and there are fewer people around. The most important factor is the distance from my home because I am busy. Also, I like having many machines so I can train different body parts effectively.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "prefer going gym evening am"
+      "keywords": "usually go gym twice week prefer going gym evening am important factor distance home am",
+      "questions": [
+        {
+          "uid": "3-真题08作为老板高效沟通是不是最重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "健身习惯",
+          "prompt": "你多久去一次健身房？和谁一起去？",
+          "answer": "Usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually go gym twice week"
+        },
+        {
+          "uid": "3-真题08作为老板高效沟通是不是最重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "健身时间偏好",
+          "prompt": "你比较喜欢什么时候去健身房？为什么？",
+          "answer": "I prefer going to the gym in the evening because I am busy during the day and there are fewer people around.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "prefer going gym evening am"
+        },
+        {
+          "uid": "3-真题08作为老板高效沟通是不是最重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "健身房选择因素",
+          "prompt": "选择健身房时，什么因素最重要？为什么？",
+          "answer": "The most important factor is the distance from my home because I am busy. Also, I like having many machines so I can train different body parts effectively.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "important factor distance home am"
+        }
+      ]
     },
     {
-      "uid": "3-真题08作为老板高效沟通是不是最重要.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题08作为老板高效沟通是不是最重要.json",
-      "bankName": "真题8 作为老板高效沟通是不是最重要",
-      "questionId": 3,
-      "topic": "健身房选择因素",
-      "prompt": "选择健身房时，什么因素最重要？为什么？",
-      "answer": "The most important factor is the distance from my home because I am busy. Also, I like having many machines so I can train different body parts effectively.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "important factor distance home am"
-    },
-    {
-      "uid": "3-真题09学术专业成功最重要因素.json-2",
+      "uid": "3-真题09学术专业成功最重要因素.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题09学术专业成功最重要因素.json",
       "bankName": "真题9 学术专业成功最重要因素",
-      "questionId": 2,
-      "topic": "家具购买",
-      "prompt": "你有购买家具的计划吗？准备买什么？",
-      "answer": "I plan to buy a comfortable bed next week because the current one is old and squeaky.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "家具情况 · 家具购买 · 家具选择因素",
+      "prompt": "你家里面最旧的家具是什么？什么时候买的？\n你有购买家具的计划吗？准备买什么？\n选择家具时，你认为哪些因素最重要？style / comfort / materials",
+      "answer": "The oldest furniture in my house is my bed. I bought it ten years ago. I plan to buy a comfortable bed next week because the current one is old and squeaky. I think comfort is the most important factor. If furniture is not comfortable, it won't serve its purpose, even if it looks stylish or is made of high-quality materials.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "plan buy comfortable bed next"
+      "keywords": "oldest furniture house bed bought plan buy comfortable bed next think comfort important factor furniture",
+      "questions": [
+        {
+          "uid": "3-真题09学术专业成功最重要因素.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "家具情况",
+          "prompt": "你家里面最旧的家具是什么？什么时候买的？",
+          "answer": "The oldest furniture in my house is my bed. I bought it ten years ago.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "oldest furniture house bed bought"
+        },
+        {
+          "uid": "3-真题09学术专业成功最重要因素.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "家具购买",
+          "prompt": "你有购买家具的计划吗？准备买什么？",
+          "answer": "I plan to buy a comfortable bed next week because the current one is old and squeaky.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "plan buy comfortable bed next"
+        },
+        {
+          "uid": "3-真题09学术专业成功最重要因素.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "家具选择因素",
+          "prompt": "选择家具时，你认为哪些因素最重要？style / comfort / materials",
+          "answer": "I think comfort is the most important factor. If furniture is not comfortable, it won't serve its purpose, even if it looks stylish or is made of high-quality materials.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "think comfort important factor furniture"
+        }
+      ]
     },
     {
-      "uid": "3-真题10买房比租房的缺点.json-1",
+      "uid": "3-真题10买房比租房的缺点.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题10买房比租房的缺点.json",
       "bankName": "真题10 买房公寓比租房的缺点",
-      "questionId": 1,
+      "questionId": "1/2/3",
       "topic": "公共交通",
-      "prompt": "上次啥时候乘坐公共汽车？独自乘坐的吗？",
-      "answer": "I took the bus last week, and I took it alone to go to my office.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "prompt": "上次啥时候乘坐公共汽车？独自乘坐的吗？\n一般什么情况下你会想乘坐公共汽车，为什么？\n你会选择公共汽车出行吗？为什么会或不会？",
+      "answer": "I took the bus last week, and I took it alone to go to my office. In case my wife uses the car, I will take the bus because we have only one car. Yes. It is convenient to take the bus and I can go anywhere I want. Also, traffic in my city is not good, and the bus is cheaper than other transportation. If the destination is not far.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "took bus last week alone"
+      "keywords": "took bus last week alone case wife uses car take course convenient take bus go",
+      "questions": [
+        {
+          "uid": "3-真题10买房比租房的缺点.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "公共交通",
+          "prompt": "上次啥时候乘坐公共汽车？独自乘坐的吗？",
+          "answer": "I took the bus last week, and I took it alone to go to my office.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "took bus last week alone"
+        },
+        {
+          "uid": "3-真题10买房比租房的缺点.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "公共交通",
+          "prompt": "一般什么情况下你会想乘坐公共汽车，为什么？",
+          "answer": "In case my wife uses the car, I will take the bus because we have only one car.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "case wife uses car take"
+        },
+        {
+          "uid": "3-真题10买房比租房的缺点.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "公共交通",
+          "prompt": "你会选择公共汽车出行吗？为什么会或不会？",
+          "answer": "Yes. It is convenient to take the bus and I can go anywhere I want. Also, traffic in my city is not good, and the bus is cheaper than other transportation. If the destination is not far.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "course convenient take bus go"
+        }
+      ]
     },
     {
-      "uid": "3-真题10买房比租房的缺点.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题10买房比租房的缺点.json",
-      "bankName": "真题10 买房公寓比租房的缺点",
-      "questionId": 2,
-      "topic": "公共交通",
-      "prompt": "一般什么情况下你会想乘坐公共汽车，为什么？",
-      "answer": "In case my wife uses the car, I will take the bus because we have only one car and my office is far away from my house.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "case wife uses car take"
-    },
-    {
-      "uid": "3-真题10买房比租房的缺点.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题10买房比租房的缺点.json",
-      "bankName": "真题10 买房公寓比租房的缺点",
-      "questionId": 3,
-      "topic": "公共交通",
-      "prompt": "你会选择公共汽车出行吗？为什么会或不会？",
-      "answer": "Of course, I will. It is very convenient to take the bus and I can go anywhere I want. Besides, traffic in my city is not good, and the bus is cheaper than other transportation. If the destination is not far, I prefer the bus.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "course convenient take bus go"
-    },
-    {
-      "uid": "3-真题13offer是否需要考虑公司的名誉.json-1",
+      "uid": "3-真题13offer是否需要考虑公司的名誉.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题13offer是否需要考虑公司的名誉.json",
       "bankName": "真题13 offer是否需要考虑公司的名誉",
-      "questionId": 1,
-      "topic": "学校联系",
-      "prompt": "上次是什么时间跟学校谁联系，为什么？",
-      "answer": "I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "学校联系 · 邮件使用 · 沟通方式选择",
+      "prompt": "上次是什么时间跟学校谁联系，为什么？\n你使用邮件的频率是多少？\n什么情况下你会选择发邮件，还是选择打电话？",
+      "answer": "I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation. I use email every day to contact my colleagues and customers. I usually use email first. however, if it is urgent, I will call directly.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "contacted classmates several weeks ago"
+      "keywords": "contacted classmates several weeks ago use email day contact colleagues usually use email however urgent",
+      "questions": [
+        {
+          "uid": "3-真题13offer是否需要考虑公司的名誉.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "学校联系",
+          "prompt": "上次是什么时间跟学校谁联系，为什么？",
+          "answer": "I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "contacted classmates several weeks ago"
+        },
+        {
+          "uid": "3-真题13offer是否需要考虑公司的名誉.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "邮件使用",
+          "prompt": "你使用邮件的频率是多少？",
+          "answer": "I use email every day to contact my colleagues and customers.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "use email day contact colleagues"
+        },
+        {
+          "uid": "3-真题13offer是否需要考虑公司的名誉.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "沟通方式选择",
+          "prompt": "什么情况下你会选择发邮件，还是选择打电话？",
+          "answer": "I usually use email first. however, if it is urgent, I will call directly.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "usually use email however urgent"
+        }
+      ]
     },
     {
-      "uid": "3-真题15获得professional success是否需要take risk.json-1",
+      "uid": "3-真题15获得professional success是否需要take risk.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题15获得professional success是否需要take risk.json",
       "bankName": "真题15 获得professional success，是否需要take risk",
-      "questionId": 1,
-      "topic": "上下班距离",
-      "prompt": "你工作地点离家多远？是否开车？",
-      "answer": "It is about 10 kms. I usually drive to work.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "上下班距离 · 上班时间偏好 · 工作环境选择",
+      "prompt": "你工作地点离家多远？是否开车？\n你喜欢早上上班还是晚一点上班？\n上班时，好的主管、好的同事还是其他更重要？",
+      "answer": "It is about 10 kms. I usually drive to work. I like to go to work earlier because there is less traffic and it saves time. Good supervisor is my first choice. A good supervisor can create a positive work atmosphere. You feel happy during work and can get help when problems arise.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "kms usually drive work"
+      "keywords": "kms usually drive work go work earlier less traffic good supervisor choice create positive",
+      "questions": [
+        {
+          "uid": "3-真题15获得professional success是否需要take risk.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "上下班距离",
+          "prompt": "你工作地点离家多远？是否开车？",
+          "answer": "It is about 10 kms. I usually drive to work.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "kms usually drive work"
+        },
+        {
+          "uid": "3-真题15获得professional success是否需要take risk.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "上班时间偏好",
+          "prompt": "你喜欢早上上班还是晚一点上班？",
+          "answer": "I like to go to work earlier because there is less traffic and it saves time.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "go work earlier less traffic"
+        },
+        {
+          "uid": "3-真题15获得professional success是否需要take risk.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "工作环境选择",
+          "prompt": "上班时，好的主管、好的同事还是其他更重要？",
+          "answer": "Good supervisor is my first choice. A good supervisor can create a positive work atmosphere. You feel happy during work and can get help when problems arise.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "good supervisor choice create positive"
+        }
+      ]
     },
     {
-      "uid": "3-真题15获得professional success是否需要take risk.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题15获得professional success是否需要take risk.json",
-      "bankName": "真题15 获得professional success，是否需要take risk",
-      "questionId": 3,
-      "topic": "工作环境选择",
-      "prompt": "上班时，好的主管、好的同事还是其他更重要？",
-      "answer": "Good supervisor is my first choice. A good supervisor can create a positive work atmosphere. You feel happy during work and can get help when problems arise.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "good supervisor choice create positive"
-    },
-    {
-      "uid": "3-真题16有钱就快乐吗.json-3",
+      "uid": "3-真题16有钱就快乐吗.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题16有钱就快乐吗.json",
       "bankName": "真题16 有钱就快乐吗",
-      "questionId": 3,
-      "topic": "纪念品购买",
-      "prompt": "你会在网上购买纪念品吗？为什么？",
-      "answer": "No, I will not. A memento represents a memory of being somewhere. Although it is convenient to buy online, you can’t know the quality.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "纪念品质量 · 纪念品受欢迎度 · 纪念品购买",
+      "prompt": "纪念品的质量如何判断？\n你所住的地方最受欢迎的纪念品是什么？为什么？\n你会在网上购买纪念品吗？为什么？",
+      "answer": "I think the quality standard should be based on material, weight, and style. I live in Beijing. The most popular local gift is Beijing Roast Duck because it is very famous and delicious. No, I will not. A local gift represents a memory of being somewhere. Although it is convenient to buy online, you can't know the quality.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "no not memento represents memory"
+      "keywords": "think quality standard based material live beijing popular memento roast no not memento represents memory",
+      "questions": [
+        {
+          "uid": "3-真题16有钱就快乐吗.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "纪念品质量",
+          "prompt": "纪念品的质量如何判断？",
+          "answer": "I think the quality standard should be based on material, weight, and style.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "think quality standard based material"
+        },
+        {
+          "uid": "3-真题16有钱就快乐吗.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "纪念品受欢迎度",
+          "prompt": "你所住的地方最受欢迎的纪念品是什么？为什么？",
+          "answer": "I live in Beijing. The most popular local gift is Beijing Roast Duck because it is very famous and delicious.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "live beijing popular memento roast"
+        },
+        {
+          "uid": "3-真题16有钱就快乐吗.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "纪念品购买",
+          "prompt": "你会在网上购买纪念品吗？为什么？",
+          "answer": "No, I will not. A local gift represents a memory of being somewhere. Although it is convenient to buy online, you can't know the quality.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "no not memento represents memory"
+        }
+      ]
     },
     {
-      "uid": "3-真题17幽默humor还是严肃serious.json-2",
+      "uid": "3-真题17幽默humor还是严肃serious.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题17幽默humor还是严肃serious.json",
       "bankName": "真题17 幽默humor还是严肃serious",
-      "questionId": 2,
-      "topic": "生日礼物购买",
-      "prompt": "你一般在哪里买生日礼物？",
-      "answer": "I usually buy gifts online. It is very convenient. For example, I buy a cake in the afternoon and it is delivered in the evening.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "生日活动 · 生日礼物购买 · 生日食物准备",
+      "prompt": "最近一次参加生日party是什么时候，是给谁过生日？\n你一般在哪里买生日礼物？\n你认为生日party需要准备不同种类的食物吗？为什么？",
+      "answer": "The latest birthday party was held on 11th May. It was my daughter's first birthday. I usually buy gifts online. It is convenient. For example, I buy a cake in the afternoon. Yes. Birthday cake is a must, but not everyone has a sweet tooth. It is necessary to prepare different kinds of food. For example, for my daughter's birthday, I prepared many foods and it cost about 1000 Yuan.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "usually buy gifts online convenient"
+      "keywords": "latest birthday party held th usually buy gifts online convenient yes birthday cake not everyone",
+      "questions": [
+        {
+          "uid": "3-真题17幽默humor还是严肃serious.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "生日活动",
+          "prompt": "最近一次参加生日party是什么时候，是给谁过生日？",
+          "answer": "The latest birthday party was held on 11th May. It was my daughter's first birthday.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "latest birthday party held th"
+        },
+        {
+          "uid": "3-真题17幽默humor还是严肃serious.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "生日礼物购买",
+          "prompt": "你一般在哪里买生日礼物？",
+          "answer": "I usually buy gifts online. It is convenient. For example, I buy a cake in the afternoon.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually buy gifts online convenient"
+        },
+        {
+          "uid": "3-真题17幽默humor还是严肃serious.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "生日食物准备",
+          "prompt": "你认为生日party需要准备不同种类的食物吗？为什么？",
+          "answer": "Yes. Birthday cake is a must, but not everyone has a sweet tooth. It is necessary to prepare different kinds of food. For example, for my daughter's birthday, I prepared many foods and it cost about 1000 Yuan.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "yes birthday cake not everyone"
+        }
+      ]
     },
     {
-      "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-5",
+      "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题24为一家已经经营了很多年的公司工作有哪些优点.json",
       "bankName": "真题24 为一家已经经营了很多年的公司工作有哪些优点",
-      "questionId": 5,
-      "topic": "电脑使用频率与用途",
-      "prompt": "Question 1: How often do you use a computer, and what do you use it for?",
-      "answer": "I use a computer every day. I use it to finish my work tasks and play games in my spare time.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "5/6/7",
+      "topic": "电脑使用频率与用途 · 购买电脑的喜好 · 电脑需要改进的部分",
+      "prompt": "Question 1: How often do you use a computer, and what do you use it for?\nQuestion 2: Do you enjoy shopping for computers?\nQuestion 3: What part of the computer do you think needs the most improvement?",
+      "answer": "I use a computer every day. I use it to finish my work tasks and play games in my spare time. Yes, I enjoy shopping for computers because new computers have better speed, and I can play more games smoothly with them. I think the cooling system of the computer needs to be improved. After using it for a period of time, it becomes very hot, which affects my normal use of the computer.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "use computer day finish work"
+      "keywords": "use computer day finish work yes enjoy shopping computers new think cooling system computer needs",
+      "questions": [
+        {
+          "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q1",
+          "position": 1,
+          "questionId": 5,
+          "topic": "电脑使用频率与用途",
+          "prompt": "Question 1: How often do you use a computer, and what do you use it for?",
+          "answer": "I use a computer every day. I use it to finish my work tasks and play games in my spare time.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "use computer day finish work"
+        },
+        {
+          "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q2",
+          "position": 2,
+          "questionId": 6,
+          "topic": "购买电脑的喜好",
+          "prompt": "Question 2: Do you enjoy shopping for computers?",
+          "answer": "Yes, I enjoy shopping for computers because new computers have better speed, and I can play more games smoothly with them.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "yes enjoy shopping computers new"
+        },
+        {
+          "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q3",
+          "position": 3,
+          "questionId": 7,
+          "topic": "电脑需要改进的部分",
+          "prompt": "Question 3: What part of the computer do you think needs the most improvement?",
+          "answer": "I think the cooling system of the computer needs to be improved. After using it for a period of time, it becomes very hot, which affects my normal use of the computer.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "think cooling system computer needs"
+        }
+      ]
     },
     {
-      "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-6",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题24为一家已经经营了很多年的公司工作有哪些优点.json",
-      "bankName": "真题24 为一家已经经营了很多年的公司工作有哪些优点",
-      "questionId": 6,
-      "topic": "购买电脑的喜好",
-      "prompt": "Question 2: Do you enjoy shopping for computers?",
-      "answer": "Yes, I enjoy shopping for computers. Because new computers have higher performance, and I can play more games smoothly with them.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "yes enjoy shopping computers new"
-    },
-    {
-      "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-7",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题24为一家已经经营了很多年的公司工作有哪些优点.json",
-      "bankName": "真题24 为一家已经经营了很多年的公司工作有哪些优点",
-      "questionId": 7,
-      "topic": "电脑需要改进的部分",
-      "prompt": "Question 3: What part of the computer do you think needs the most improvement?",
-      "answer": "I think the cooling system of the computer needs to be improved. After using it for a period of time, it becomes very hot, which affects my normal use of the computer.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 45,
-      "difficulty": "medium",
-      "keywords": "think cooling system computer needs"
-    },
-    {
-      "uid": "3-真题25在公司上班前有过创业经验的好处.json-6",
+      "uid": "3-真题25在公司上班前有过创业经验的好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题25在公司上班前有过创业经验的好处.json",
       "bankName": "真题25 在公司上班前有过创业经验的好处",
-      "questionId": 6,
-      "topic": "居住区域交通便利性",
-      "prompt": "Question 2: Do you think the transportation in your area is convenient?",
-      "answer": "Question 2: Yes, the transportation here is very convenient. There are several bus stops within a five-minute walk, and the subway station is also not far away, which makes it easy for me to go to work every day.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "5/6/7",
+      "topic": "居住区域熟悉度 · 居住区域交通便利性 · 居住区域喜爱场所",
+      "prompt": "Question 1: Are you familiar with the area where you currently live? Why?\nQuestion 2: Do you think the transportation in your area is convenient?\nQuestion 3: What is your favorite place in your living area and why?",
+      "answer": "Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets. Yes, the transportation here is convenient. There are several bus stops within a five-minute walk. My favorite place is the community park. It has beautiful flowers and green trees, and it's very quiet. I often go there for a walk after dinner, which helps me relax after a busy day.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "question yes transportation here convenient"
+      "keywords": "question yes am quite familiar question yes transportation here convenient question favorite place community park",
+      "questions": [
+        {
+          "uid": "3-真题25在公司上班前有过创业经验的好处.json-group-q1",
+          "position": 1,
+          "questionId": 5,
+          "topic": "居住区域熟悉度",
+          "prompt": "Question 1: Are you familiar with the area where you currently live? Why?",
+          "answer": "Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question yes am quite familiar"
+        },
+        {
+          "uid": "3-真题25在公司上班前有过创业经验的好处.json-group-q2",
+          "position": 2,
+          "questionId": 6,
+          "topic": "居住区域交通便利性",
+          "prompt": "Question 2: Do you think the transportation in your area is convenient?",
+          "answer": "Yes, the transportation here is convenient. There are several bus stops within a five-minute walk.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question yes transportation here convenient"
+        },
+        {
+          "uid": "3-真题25在公司上班前有过创业经验的好处.json-group-q3",
+          "position": 3,
+          "questionId": 7,
+          "topic": "居住区域喜爱场所",
+          "prompt": "Question 3: What is your favorite place in your living area and why?",
+          "answer": "My favorite place is the community park. It has beautiful flowers and green trees, and it's very quiet. I often go there for a walk after dinner, which helps me relax after a busy day.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "question favorite place community park"
+        }
+      ]
     },
     {
-      "uid": "3-真题29网络和电子设备会取代报纸吗.json-6",
+      "uid": "3-真题29网络和电子设备会取代报纸吗.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题29网络和电子设备会取代报纸吗.json",
       "bankName": "真题29 网络和电子设备会取代报纸吗",
-      "questionId": 6,
-      "topic": "网上购买家具的意愿",
-      "prompt": "Question 2: Would you like to buy furniture online?",
-      "answer": "Question 2: Yes, I would like to buy furniture online. It is very convenient and I can choose from a wide range of products without going out of my home.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "5/6/7",
+      "topic": "居住时长与住房类型 · 网上购买家具的意愿 · 网上购买家具的优点",
+      "prompt": "Question 1: How long have you lived in your current house, and is it a house or an apartment?\nQuestion 2: Would you like to buy furniture online?\nQuestion 3: What are the advantages of buying furniture online?",
+      "answer": "I have lived in my current apartment for three years. Yes, I would like to buy furniture online. It is convenient and I can choose from many products without leaving home. There are several advantages of buying furniture online. First, online stores usually offer more styles and designs than physical stores. Second, the prices are often cheaper because online stores cost less.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "question yes buy furniture online"
+      "keywords": "question lived current apartment three question yes buy furniture online question several advantages buying furniture",
+      "questions": [
+        {
+          "uid": "3-真题29网络和电子设备会取代报纸吗.json-group-q1",
+          "position": 1,
+          "questionId": 5,
+          "topic": "居住时长与住房类型",
+          "prompt": "Question 1: How long have you lived in your current house, and is it a house or an apartment?",
+          "answer": "I have lived in my current apartment for three years.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question lived current apartment three"
+        },
+        {
+          "uid": "3-真题29网络和电子设备会取代报纸吗.json-group-q2",
+          "position": 2,
+          "questionId": 6,
+          "topic": "网上购买家具的意愿",
+          "prompt": "Question 2: Would you like to buy furniture online?",
+          "answer": "Yes, I would like to buy furniture online. It is convenient and I can choose from many products without leaving home.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question yes buy furniture online"
+        },
+        {
+          "uid": "3-真题29网络和电子设备会取代报纸吗.json-group-q3",
+          "position": 3,
+          "questionId": 7,
+          "topic": "网上购买家具的优点",
+          "prompt": "Question 3: What are the advantages of buying furniture online?",
+          "answer": "There are several advantages of buying furniture online. First, online stores usually offer more styles and designs than physical stores. Second, the prices are often cheaper because online stores cost less.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "question several advantages buying furniture"
+        }
+      ]
     },
     {
-      "uid": "3-真题29网络和电子设备会取代报纸吗.json-7",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题29网络和电子设备会取代报纸吗.json",
-      "bankName": "真题29 网络和电子设备会取代报纸吗",
-      "questionId": 7,
-      "topic": "网上购买家具的优点",
-      "prompt": "Question 3: What are the advantages of buying furniture online?",
-      "answer": "Question 3: There are several advantages of buying furniture online. First, online stores usually offer more styles and designs than physical stores. Second, the prices are often more affordable due to lower operating costs. Third, the furniture can be delivered directly to my home, saving me a lot of time and effort.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 45,
-      "difficulty": "medium",
-      "keywords": "question several advantages buying furniture"
-    },
-    {
-      "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-3",
+      "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题31发生分歧是直接解决还是找领导帮忙.json",
       "bankName": "真题31 发生分歧是直接解决还是找领导帮忙",
-      "questionId": 3,
-      "topic": "学习兴趣",
-      "prompt": "Question 3: 你有兴趣学习如何使用修图软件吗？为什么？",
-      "answer": "Yes, of course. I am interested in learning photo-editing software. It can help me enhance my photos, express creativity, and improve digital skills. It is also convenient to edit photos myself instead of paying others.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "日常习惯 · 软件使用 · 学习兴趣",
+      "prompt": "Question 1: 你多久拍一次照片？通常在哪里拍？\nQuestion 2: 你会用修图软件吗？为什么？\nQuestion 3: 你有兴趣学习如何使用修图软件吗？为什么？",
+      "answer": "I take photos almost every week when I go for a walk in the park. I don't know how to use photo-editing software because I am busy with my work. Yes, of course. I am interested in learning photo-editing software. It can help me enhance my photos, express creativity, and improve digital skills. It is also convenient to edit photos myself instead of paying others.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "yes course am interested learning"
+      "keywords": "take photos almost week go don know use photo editing yes course am interested learning",
+      "questions": [
+        {
+          "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "日常习惯",
+          "prompt": "Question 1: 你多久拍一次照片？通常在哪里拍？",
+          "answer": "I take photos almost every week when I go for a walk in the park.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "take photos almost week go"
+        },
+        {
+          "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "软件使用",
+          "prompt": "Question 2: 你会用修图软件吗？为什么？",
+          "answer": "I don't know how to use photo-editing software because I am busy with my work.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "don know use photo editing"
+        },
+        {
+          "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "学习兴趣",
+          "prompt": "Question 3: 你有兴趣学习如何使用修图软件吗？为什么？",
+          "answer": "Yes, of course. I am interested in learning photo-editing software. It can help me enhance my photos, express creativity, and improve digital skills. It is also convenient to edit photos myself instead of paying others.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "yes course am interested learning"
+        }
+      ]
     },
     {
-      "uid": "3-真题33在21岁以下开车的坏处.json-1",
+      "uid": "3-真题33在21岁以下开车的坏处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题33在21岁以下开车的坏处.json",
       "bankName": "真题33 21岁以下开车的坏处",
-      "questionId": 1,
-      "topic": "餐厅选择原因",
-      "prompt": "花多久去上学/上班，喜欢这样吗？how long go to work or go to school？do you like it？",
-      "answer": "Usually, I take 10 minutes to get to work by bike; I like it very much, because I don’t need to worry about traffic jams",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "餐厅选择原因 · 用餐体验 · 餐厅推荐",
+      "prompt": "花多久去上学/上班，喜欢这样吗？how long go to work or go to school？do you like it？\nhow offen多久出去聚餐，通常跟谁一起去?\n有朋友要带亲戚来你这里，你会推荐什么样的餐厅？",
+      "answer": "Usually, I take 10 minutes to get to work by bike. Usually, I gather with my friends for dinner twice a month. What's more, we all like to have some beer every time. I recommend a family-friendly restaurant that has many dishes and a comfortable environment. It's important that the food is delicious and the service is friendly. A place with a nice view or local specialties would be even better.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "usually take minutes get work"
+      "keywords": "usually take minutes get work usually gather friends dinner twice recommend family friendly restaurant good",
+      "questions": [
+        {
+          "uid": "3-真题33在21岁以下开车的坏处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "餐厅选择原因",
+          "prompt": "花多久去上学/上班，喜欢这样吗？how long go to work or go to school？do you like it？",
+          "answer": "Usually, I take 10 minutes to get to work by bike.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually take minutes get work"
+        },
+        {
+          "uid": "3-真题33在21岁以下开车的坏处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "用餐体验",
+          "prompt": "how offen多久出去聚餐，通常跟谁一起去?",
+          "answer": "Usually, I gather with my friends for dinner twice a month. What's more, we all like to have some beer every time.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually gather friends dinner twice"
+        },
+        {
+          "uid": "3-真题33在21岁以下开车的坏处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "餐厅推荐",
+          "prompt": "有朋友要带亲戚来你这里，你会推荐什么样的餐厅？",
+          "answer": "I recommend a family-friendly restaurant that has many dishes and a comfortable environment. It's important that the food is delicious and the service is friendly. A place with a nice view or local specialties would be even better.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "recommend family friendly restaurant good"
+        }
+      ]
     },
     {
-      "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-2",
+      "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题36公司提供工作日锻炼的机会是否是一个好主意.json",
       "bankName": "真题36 公司提供工作日锻炼",
-      "questionId": 2,
-      "topic": "音乐购买习惯",
-      "prompt": "买音乐是买歌还是买专辑？",
-      "answer": "I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album, so buying songs is cheaper and more convenient.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "音乐喜好 · 音乐购买习惯 · 音乐偏好原因",
+      "prompt": "你多久听音乐，一般在哪里听音乐？\n买音乐是买歌还是买专辑？\n你喜欢什么音乐？为什么？（流行 / 摇滚 / 古典）",
+      "answer": "I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax. I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album. I like pop music the most. Pop music makes me feel happy and relaxed. I also enjoy attending local pop music events and competitions, which is fun to share with family and friends.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "usually buy individual songs instead"
+      "keywords": "listen music almost day usually usually buy individual songs instead pop music makes feel happy",
+      "questions": [
+        {
+          "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "音乐喜好",
+          "prompt": "你多久听音乐，一般在哪里听音乐？",
+          "answer": "I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "listen music almost day usually"
+        },
+        {
+          "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "音乐购买习惯",
+          "prompt": "买音乐是买歌还是买专辑？",
+          "answer": "I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually buy individual songs instead"
+        },
+        {
+          "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "音乐偏好原因",
+          "prompt": "你喜欢什么音乐？为什么？（流行 / 摇滚 / 古典）",
+          "answer": "I like pop music the most. Pop music makes me feel happy and relaxed. I also enjoy attending local pop music events and competitions, which is fun to share with family and friends.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "pop music makes feel happy"
+        }
+      ]
     },
     {
-      "uid": "3-真题37对于一个求职者哪个最重要.json-1",
+      "uid": "3-真题37对于一个求职者哪个最重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题37对于一个求职者哪个最重要.json",
       "bankName": "真题37 对于一个求职者，哪个最重要",
-      "questionId": 1,
-      "topic": "个人设备",
-      "prompt": "你有几台电脑，使用多久了？",
-      "answer": "I have two computers. One is a laptop that I’ve used for about three years. The other is a desktop at home for about five years. I use the laptop for work and study, and the desktop mostly for gaming.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "个人设备 · 设备偏好 · 生活与科技",
+      "prompt": "你有几台电脑，使用多久了？\n你喜欢台式机还是笔记本？为什么？\n你认为家里有一台电脑重要吗？",
+      "answer": "I have two computers. One is a laptop that I've used for about three years. I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school. Yes, having a computer at home is important. It helps with work, study, and staying connected with friends and family. It's also useful for entertainment, like watching movies or playing games.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "computers laptop ve used three"
+      "keywords": "computers laptop ve used three prefer laptops portable easy carry yes having computer home important",
+      "questions": [
+        {
+          "uid": "3-真题37对于一个求职者哪个最重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "个人设备",
+          "prompt": "你有几台电脑，使用多久了？",
+          "answer": "I have two computers. One is a laptop that I've used for about three years.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "computers laptop ve used three"
+        },
+        {
+          "uid": "3-真题37对于一个求职者哪个最重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "设备偏好",
+          "prompt": "你喜欢台式机还是笔记本？为什么？",
+          "answer": "I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "prefer laptops portable easy carry"
+        },
+        {
+          "uid": "3-真题37对于一个求职者哪个最重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "生活与科技",
+          "prompt": "你认为家里有一台电脑重要吗？",
+          "answer": "Yes, having a computer at home is important. It helps with work, study, and staying connected with friends and family. It's also useful for entertainment, like watching movies or playing games.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "yes having computer home important"
+        }
+      ]
     },
     {
-      "uid": "3-真题37对于一个求职者哪个最重要.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题37对于一个求职者哪个最重要.json",
-      "bankName": "真题37 对于一个求职者，哪个最重要",
-      "questionId": 2,
-      "topic": "设备偏好",
-      "prompt": "你喜欢台式机还是笔记本？为什么？",
-      "answer": "I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school. Desktops are more powerful but less convenient for everyday use.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "prefer laptops portable easy carry"
-    },
-    {
-      "uid": "3-真题37对于一个求职者哪个最重要.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题37对于一个求职者哪个最重要.json",
-      "bankName": "真题37 对于一个求职者，哪个最重要",
-      "questionId": 3,
-      "topic": "生活与科技",
-      "prompt": "你认为家里有一台电脑重要吗？",
-      "answer": "Yes, having a computer at home is important. It helps with work, study, and staying connected with friends and family. It’s also useful for entertainment, like watching movies or playing games.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "yes having computer home important"
-    },
-    {
-      "uid": "3-真题38当医生有什么好处.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题38当医生有什么好处.json",
-      "bankName": "真题38 当医生有什么好处",
-      "questionId": 1,
-      "topic": "购物经历",
-      "prompt": "你上一次买衣服是什么时候？买了什么？",
-      "answer": "The last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt. I needed some new clothes for work, and they fit perfectly.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "last time bought clothes weeks"
-    },
-    {
-      "uid": "3-真题38当医生有什么好处.json-2",
+      "uid": "3-真题38当医生有什么好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题38当医生有什么好处.json",
       "bankName": "真题38 当医生有什么好处",
-      "questionId": 2,
-      "topic": "购物偏好",
-      "prompt": "离你家最近的衣服店是哪一家？你喜欢去那里买吗？为什么？",
-      "answer": "The closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish, reasonably priced, and the staff is friendly.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "购物经历 · 购物偏好 · 社交与购物",
+      "prompt": "你上一次买衣服是什么时候？买了什么？\n离你家最近的衣服店是哪一家？你喜欢去那里买吗？为什么？\n你喜欢和谁一起去买衣服？和朋友还是家人？为什么？",
+      "answer": "The last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt. The closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish. I prefer to go shopping with friends because we have similar tastes and can give each other helpful advice. It's more fun and relaxed than going with family.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "closest clothing store small boutique"
+      "keywords": "last time bought clothes weeks closest clothing store small boutique prefer go shopping friends similar",
+      "questions": [
+        {
+          "uid": "3-真题38当医生有什么好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "购物经历",
+          "prompt": "你上一次买衣服是什么时候？买了什么？",
+          "answer": "The last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "last time bought clothes weeks"
+        },
+        {
+          "uid": "3-真题38当医生有什么好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "购物偏好",
+          "prompt": "离你家最近的衣服店是哪一家？你喜欢去那里买吗？为什么？",
+          "answer": "The closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "closest clothing store small boutique"
+        },
+        {
+          "uid": "3-真题38当医生有什么好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "社交与购物",
+          "prompt": "你喜欢和谁一起去买衣服？和朋友还是家人？为什么？",
+          "answer": "I prefer to go shopping with friends because we have similar tastes and can give each other helpful advice. It's more fun and relaxed than going with family.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "prefer go shopping friends similar"
+        }
+      ]
     },
     {
-      "uid": "3-真题38当医生有什么好处.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题38当医生有什么好处.json",
-      "bankName": "真题38 当医生有什么好处",
-      "questionId": 3,
-      "topic": "社交与购物",
-      "prompt": "你喜欢和谁一起去买衣服？和朋友还是家人？为什么？",
-      "answer": "I prefer to go shopping with friends because we have similar tastes and can give each other helpful advice. It’s more fun and relaxed than going with family.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "prefer go shopping friends similar"
-    },
-    {
-      "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-1",
+      "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题40大学生是否应该花时间去参加社区活动.json",
       "bankName": "真题40 大学生是否应该花时间去参加社区活动",
-      "questionId": 1,
-      "topic": "购买音乐经历",
-      "prompt": "上一次买音乐是什么时候，从哪里买的？",
-      "answer": "The last time I bought music was about two months ago from an online platform like Spotify.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "购买音乐经历 · 音乐偏好 · 音乐消费习惯",
+      "prompt": "上一次买音乐是什么时候，从哪里买的？\n你一般买什么类型的音乐，是CD还是直接下载？\n如果你喜欢的乐队发行新专辑，你愿意多花钱提前买吗？为什么？",
+      "answer": "The last time I bought music was about two months ago from an online platform like Spotify. I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs. Yes, I would pay more to get a new album early because I am excited to listen to it and want to support my favorite band.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "last time bought music months"
+      "keywords": "last time bought music months usually download pop songs directly yes pay get new album",
+      "questions": [
+        {
+          "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "购买音乐经历",
+          "prompt": "上一次买音乐是什么时候，从哪里买的？",
+          "answer": "The last time I bought music was about two months ago from an online platform like Spotify.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "last time bought music months"
+        },
+        {
+          "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "音乐偏好",
+          "prompt": "你一般买什么类型的音乐，是CD还是直接下载？",
+          "answer": "I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually download pop songs directly"
+        },
+        {
+          "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "音乐消费习惯",
+          "prompt": "如果你喜欢的乐队发行新专辑，你愿意多花钱提前买吗？为什么？",
+          "answer": "Yes, I would pay more to get a new album early because I am excited to listen to it and want to support my favorite band.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "yes pay get new album"
+        }
+      ]
     },
     {
-      "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-1",
+      "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题41作为主管你认为是经验重要还是沟通能力重要.json",
       "bankName": "真题41 作为主管，你认为是经验重要还是沟通能力重要",
-      "questionId": 1,
+      "questionId": "1/2/3",
       "topic": "面试技巧",
-      "prompt": "Question 1: 面试要提前到吗？为什么？",
-      "answer": "It is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "prompt": "Question 1: 面试要提前到吗？为什么？\nQuestion 2: 面试后会给面试官发邮件吗？\nQuestion 3: 喜欢一个人面试官还是多个面试官？",
+      "answer": "It is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally. Usually, I do not send emails because the HR department contacts candidates after the interview if necessary. I prefer having multiple interviewers. They can evaluate different aspects of my skills and make the process fairer.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "best arrive early interview allows"
+      "keywords": "best arrive early interview allows usually not send emails hr prefer having multiple interviewers evaluate",
+      "questions": [
+        {
+          "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "面试技巧",
+          "prompt": "Question 1: 面试要提前到吗？为什么？",
+          "answer": "It is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "best arrive early interview allows"
+        },
+        {
+          "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "面试技巧",
+          "prompt": "Question 2: 面试后会给面试官发邮件吗？",
+          "answer": "Usually, I do not send emails because the HR department contacts candidates after the interview if necessary.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually not send emails hr"
+        },
+        {
+          "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "面试技巧",
+          "prompt": "Question 3: 喜欢一个人面试官还是多个面试官？",
+          "answer": "I prefer having multiple interviewers. They can evaluate different aspects of my skills and make the process fairer.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "prefer having multiple interviewers evaluate"
+        }
+      ]
     },
     {
-      "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题41作为主管你认为是经验重要还是沟通能力重要.json",
-      "bankName": "真题41 作为主管，你认为是经验重要还是沟通能力重要",
-      "questionId": 2,
-      "topic": "面试技巧",
-      "prompt": "Question 2: 面试后会给面试官发邮件吗？",
-      "answer": "Usually, I do not send emails because the HR department contacts candidates after the interview if necessary.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "usually not send emails hr"
-    },
-    {
-      "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "真题41作为主管你认为是经验重要还是沟通能力重要.json",
-      "bankName": "真题41 作为主管，你认为是经验重要还是沟通能力重要",
-      "questionId": 3,
-      "topic": "面试技巧",
-      "prompt": "Question 3: 喜欢一个人面试官还是多个面试官？",
-      "answer": "I prefer having multiple interviewers. They can evaluate different aspects of my skills and make the process fairer.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "prefer having multiple interviewers evaluate"
-    },
-    {
-      "uid": "3-真题42员工自己设置工作时间有什么好处.json-2",
+      "uid": "3-真题42员工自己设置工作时间有什么好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P1",
       "sourceFile": "真题42员工自己设置工作时间有什么好处.json",
       "bankName": "真题42 员工自己设置工作时间有什么好处",
-      "questionId": 2,
-      "topic": "生活便利性",
-      "prompt": "Question 2: 在你的区域，骑车去购物是否方便？",
-      "answer": "Yes, it is quite convenient. There are bike lanes and several shops close to my home, so I can easily ride a bicycle to go shopping.",
-      "reason": "工作、学习、购物、科技或服务类高频问答，优先练完整回答。",
+      "questionId": "1/2/3",
+      "topic": "骑车经历 · 生活便利性 · 选择偏好",
+      "prompt": "Question 1: 你上次骑自行车是什么时候，和谁？\nQuestion 2: 在你的区域，骑车去购物是否方便？\nQuestion 3: 如果你选择自行车，你会看重颜色、设计还是品牌？",
+      "answer": "I last rode a bicycle a few weeks ago with my friend. We went to a nearby park. Yes, it is quite convenient. There are bike lanes and several shops close to my home. I prefer the brand. Famous brands usually provide better quality control and reliable customer service. Their bicycles last longer and their designs are also more popular.",
+      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "yes quite convenient bike lanes"
+      "keywords": "last rode bicycle few weeks yes quite convenient bike lanes prefer brand famous brands usually",
+      "questions": [
+        {
+          "uid": "3-真题42员工自己设置工作时间有什么好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "骑车经历",
+          "prompt": "Question 1: 你上次骑自行车是什么时候，和谁？",
+          "answer": "I last rode a bicycle a few weeks ago with my friend. We went to a nearby park.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "last rode bicycle few weeks"
+        },
+        {
+          "uid": "3-真题42员工自己设置工作时间有什么好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "生活便利性",
+          "prompt": "Question 2: 在你的区域，骑车去购物是否方便？",
+          "answer": "Yes, it is quite convenient. There are bike lanes and several shops close to my home.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "yes quite convenient bike lanes"
+        },
+        {
+          "uid": "3-真题42员工自己设置工作时间有什么好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "选择偏好",
+          "prompt": "Question 3: 如果你选择自行车，你会看重颜色、设计还是品牌？",
+          "answer": "I prefer the brand. Famous brands usually provide better quality control and reliable customer service. Their bicycles last longer and their designs are also more popular.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "prefer brand famous brands usually"
+        }
+      ]
     },
     {
-      "uid": "3-模拟题2.json-5",
+      "uid": "3-模拟题2.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "模拟题2.json",
       "bankName": "模拟题库-第2套",
-      "questionId": 5,
+      "questionId": "5/6/7",
       "topic": "生活经历",
-      "prompt": "Question 1: 你什么时候离开家乡去城市的？在家乡待了多久？",
-      "answer": "I lived in my hometown for about eighteen years and left when I went to university.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "prompt": "Question 1: 你什么时候离开家乡去城市的？在家乡待了多久？\nQuestion 2: 很多人离开家乡的原因是什么？\nQuestion 3: 一生在家乡长大的人的优势是什么？",
+      "answer": "I lived in my hometown for about eighteen years and left when I went to university. Many people leave their hometown for better job opportunities or higher education. The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "lived hometown eighteen years left"
+      "keywords": "lived hometown eighteen years left people leave hometown better job main advantage having stable life",
+      "questions": [
+        {
+          "uid": "3-模拟题2.json-group-q1",
+          "position": 1,
+          "questionId": 5,
+          "topic": "生活经历",
+          "prompt": "Question 1: 你什么时候离开家乡去城市的？在家乡待了多久？",
+          "answer": "I lived in my hometown for about eighteen years and left when I went to university.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "lived hometown eighteen years left"
+        },
+        {
+          "uid": "3-模拟题2.json-group-q2",
+          "position": 2,
+          "questionId": 6,
+          "topic": "生活经历",
+          "prompt": "Question 2: 很多人离开家乡的原因是什么？",
+          "answer": "Many people leave their hometown for better job opportunities or higher education.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "people leave hometown better job"
+        },
+        {
+          "uid": "3-模拟题2.json-group-q3",
+          "position": 3,
+          "questionId": 7,
+          "topic": "生活经历",
+          "prompt": "Question 3: 一生在家乡长大的人的优势是什么？",
+          "answer": "The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "main advantage having stable life"
+        }
+      ]
     },
     {
-      "uid": "3-模拟题2.json-6",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 6,
-      "topic": "生活经历",
-      "prompt": "Question 2: 很多人离开家乡的原因是什么？",
-      "answer": "Many people leave their hometown for better job opportunities or higher education.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "people leave hometown better job"
-    },
-    {
-      "uid": "3-模拟题2.json-7",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 7,
-      "topic": "生活经历",
-      "prompt": "Question 3: 一生在家乡长大的人的优势是什么？",
-      "answer": "The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "main advantage having stable life"
-    },
-    {
-      "uid": "3-模拟题3.json-5",
+      "uid": "3-模拟题3.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "模拟题3.json",
       "bankName": "模拟题库-第3套",
-      "questionId": 5,
-      "topic": "度假偏好",
-      "prompt": "Question 1: 度假时你喜欢一个人还是和团队一起，为什么？",
-      "answer": "I prefer traveling with my family because I want to relax and spend quality time with them.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "5/6/7",
+      "topic": "度假偏好 · 度假活动 · 旅行社优势",
+      "prompt": "Question 1: 度假时你喜欢一个人还是和团队一起，为什么？\nQuestion 2: 如果度假，你喜欢什么活动？\nQuestion 3: 如果使用旅行社去旅游，有什么好处？",
+      "answer": "I prefer traveling with my family because I want to relax and spend quality time with them. I enjoy outdoor activities such as hiking because they help me relax and stay healthy. Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "prefer traveling family want relax"
+      "keywords": "prefer traveling family want relax enjoy outdoor activities hiking help traveling agency convenient time saving",
+      "questions": [
+        {
+          "uid": "3-模拟题3.json-group-q1",
+          "position": 1,
+          "questionId": 5,
+          "topic": "度假偏好",
+          "prompt": "Question 1: 度假时你喜欢一个人还是和团队一起，为什么？",
+          "answer": "I prefer traveling with my family because I want to relax and spend quality time with them.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "prefer traveling family want relax"
+        },
+        {
+          "uid": "3-模拟题3.json-group-q2",
+          "position": 2,
+          "questionId": 6,
+          "topic": "度假活动",
+          "prompt": "Question 2: 如果度假，你喜欢什么活动？",
+          "answer": "I enjoy outdoor activities such as hiking because they help me relax and stay healthy.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "enjoy outdoor activities hiking help"
+        },
+        {
+          "uid": "3-模拟题3.json-group-q3",
+          "position": 3,
+          "questionId": 7,
+          "topic": "旅行社优势",
+          "prompt": "Question 3: 如果使用旅行社去旅游，有什么好处？",
+          "answer": "Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "traveling agency convenient time saving"
+        }
+      ]
     },
     {
-      "uid": "3-模拟题3.json-6",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 6,
-      "topic": "度假活动",
-      "prompt": "Question 2: 如果度假，你喜欢什么活动？",
-      "answer": "I enjoy outdoor activities such as hiking because they help me relax and stay healthy.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "enjoy outdoor activities hiking help"
-    },
-    {
-      "uid": "3-模拟题3.json-7",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 7,
-      "topic": "旅行社优势",
-      "prompt": "Question 3: 如果使用旅行社去旅游，有什么好处？",
-      "answer": "Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "traveling agency convenient time saving"
-    },
-    {
-      "uid": "3-真题02新工作哪个能力最重要.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题02新工作哪个能力最重要.json",
-      "bankName": "真题2 新工作哪个能力最重要",
-      "questionId": 1,
-      "topic": "离开家乡时间",
-      "prompt": "你什么时候离开家乡去城市？你在家乡待了多久？",
-      "answer": "I lived in my hometown for about eighteen years and left when I went to university.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "lived hometown eighteen years left"
-    },
-    {
-      "uid": "3-真题02新工作哪个能力最重要.json-2",
+      "uid": "3-真题02新工作哪个能力最重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题02新工作哪个能力最重要.json",
       "bankName": "真题2 新工作哪个能力最重要",
-      "questionId": 2,
-      "topic": "离开家乡原因",
-      "prompt": "很多人离开家乡的原因是什么？",
-      "answer": "Many people leave their hometown mainly for better job opportunities or higher education.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "离开家乡时间 · 离开家乡原因 · 家乡生活优势",
+      "prompt": "你什么时候离开家乡去城市？你在家乡待了多久？\n很多人离开家乡的原因是什么？\n一生在家乡长大的人的优势是什么？",
+      "answer": "I lived in my hometown for about eighteen years and left when I went to university. Many people leave their hometown mainly for better job opportunities or higher education. People who grow up in their hometown often enjoy a stable life and strong relationships with family and friends. They feel a strong sense of belonging, although they may have fewer chances to experience new environments.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "people leave hometown mainly better"
+      "keywords": "lived hometown eighteen years left people leave hometown mainly better people grow up hometown often",
+      "questions": [
+        {
+          "uid": "3-真题02新工作哪个能力最重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "离开家乡时间",
+          "prompt": "你什么时候离开家乡去城市？你在家乡待了多久？",
+          "answer": "I lived in my hometown for about eighteen years and left when I went to university.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "lived hometown eighteen years left"
+        },
+        {
+          "uid": "3-真题02新工作哪个能力最重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "离开家乡原因",
+          "prompt": "很多人离开家乡的原因是什么？",
+          "answer": "Many people leave their hometown mainly for better job opportunities or higher education.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "people leave hometown mainly better"
+        },
+        {
+          "uid": "3-真题02新工作哪个能力最重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "家乡生活优势",
+          "prompt": "一生在家乡长大的人的优势是什么？",
+          "answer": "People who grow up in their hometown often enjoy a stable life and strong relationships with family and friends. They feel a strong sense of belonging, although they may have fewer chances to experience new environments.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "people grow up hometown often"
+        }
+      ]
     },
     {
-      "uid": "3-真题02新工作哪个能力最重要.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题02新工作哪个能力最重要.json",
-      "bankName": "真题2 新工作哪个能力最重要",
-      "questionId": 3,
-      "topic": "家乡生活优势",
-      "prompt": "一生在家乡长大的人的优势是什么？",
-      "answer": "People who grow up in their hometown often enjoy a stable life and strong relationships with family and friends. They feel a strong sense of belonging, although they may have fewer chances to experience new environments.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "people grow up hometown often"
-    },
-    {
-      "uid": "3-真题03改变国家图书馆.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题03改变国家图书馆.json",
-      "bankName": "真题3 改变国家图书馆",
-      "questionId": 1,
-      "topic": "度假方式",
-      "prompt": "你度假时喜欢一个人还是和团队一起，为什么？",
-      "answer": "I prefer traveling with my family because I can relax and spend quality time with them during vacations.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "prefer traveling family relax spend"
-    },
-    {
-      "uid": "3-真题03改变国家图书馆.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题03改变国家图书馆.json",
-      "bankName": "真题3 改变国家图书馆",
-      "questionId": 2,
-      "topic": "度假活动",
-      "prompt": "度假时你喜欢什么活动？",
-      "answer": "I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "enjoy outdoor activities hiking help"
-    },
-    {
-      "uid": "3-真题03改变国家图书馆.json-3",
+      "uid": "3-真题03改变国家图书馆.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题03改变国家图书馆.json",
       "bankName": "真题3 改变国家图书馆",
-      "questionId": 3,
-      "topic": "旅行社优势",
-      "prompt": "如果使用旅行社去旅游有什么好处？",
-      "answer": "Traveling with a travel agency has many benefits. It saves time because the agency plans everything, and it can also reduce costs by offering package deals.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "度假方式 · 度假活动 · 旅行社优势",
+      "prompt": "你度假时喜欢一个人还是和团队一起，为什么？\n度假时你喜欢什么活动？\n如果使用旅行社去旅游有什么好处？",
+      "answer": "I prefer traveling with my family because I can relax and spend quality time with them during vacations. I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress. Traveling with a travel agency has many benefits. It saves time because the agency plans everything, and it can also reduce costs by offering package deals.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "traveling travel agency benefits saves"
+      "keywords": "prefer traveling family relax spend enjoy outdoor activities hiking help traveling travel agency benefits saves",
+      "questions": [
+        {
+          "uid": "3-真题03改变国家图书馆.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "度假方式",
+          "prompt": "你度假时喜欢一个人还是和团队一起，为什么？",
+          "answer": "I prefer traveling with my family because I can relax and spend quality time with them during vacations.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "prefer traveling family relax spend"
+        },
+        {
+          "uid": "3-真题03改变国家图书馆.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "度假活动",
+          "prompt": "度假时你喜欢什么活动？",
+          "answer": "I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "enjoy outdoor activities hiking help"
+        },
+        {
+          "uid": "3-真题03改变国家图书馆.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "旅行社优势",
+          "prompt": "如果使用旅行社去旅游有什么好处？",
+          "answer": "Traveling with a travel agency has many benefits. It saves time because the agency plans everything, and it can also reduce costs by offering package deals.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "traveling travel agency benefits saves"
+        }
+      ]
     },
     {
-      "uid": "3-真题06未来一代为什么比现在一代更健康.json-1",
+      "uid": "3-真题06未来一代为什么比现在一代更健康.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题06未来一代为什么比现在一代更健康.json",
       "bankName": "真题6 未来一代为什么比现在一代更健康",
-      "questionId": 1,
-      "topic": "家乡",
-      "prompt": "你家乡呆了多长时间？在哪里？",
-      "answer": "I lived in my hometown for about eighteen years. It is a small town located in the western part of China.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "家乡 · 现居地 · 迁居因素",
+      "prompt": "你家乡呆了多长时间？在哪里？\n你现在住的地方，你最喜欢什么？为什么？\n如果搬到另一个地方，你最看重哪些因素？为什么？",
+      "answer": "I lived in my hometown for about eighteen years. It is a small town located in the western part of China. I like my current city because it is convenient and has good public transportation and many restaurants. If I move to another place, I will consider transportation and medical services most important. These factors make daily life more convenient and safer.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "lived hometown eighteen years small"
+      "keywords": "lived hometown eighteen years small current city convenient good public move another place consider transportation",
+      "questions": [
+        {
+          "uid": "3-真题06未来一代为什么比现在一代更健康.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "家乡",
+          "prompt": "你家乡呆了多长时间？在哪里？",
+          "answer": "I lived in my hometown for about eighteen years. It is a small town located in the western part of China.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "lived hometown eighteen years small"
+        },
+        {
+          "uid": "3-真题06未来一代为什么比现在一代更健康.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "现居地",
+          "prompt": "你现在住的地方，你最喜欢什么？为什么？",
+          "answer": "I like my current city because it is convenient and has good public transportation and many restaurants.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "current city convenient good public"
+        },
+        {
+          "uid": "3-真题06未来一代为什么比现在一代更健康.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "迁居因素",
+          "prompt": "如果搬到另一个地方，你最看重哪些因素？为什么？",
+          "answer": "If I move to another place, I will consider transportation and medical services most important. These factors make daily life more convenient and safer.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "move another place consider transportation"
+        }
+      ]
     },
     {
-      "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-1",
+      "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题11政府提供免费大学课程的好处有哪些.json",
       "bankName": "真题11 政府提供免费大学课程的好处有哪些",
-      "questionId": 1,
-      "topic": "音乐喜好",
-      "prompt": "你喜欢的音乐家是谁，他的音乐风格是什么？",
-      "answer": "I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "音乐喜好 · 音乐来源 · 听音乐方式",
+      "prompt": "你喜欢的音乐家是谁，他的音乐风格是什么？\n你喜欢从哪里选择音乐，是自己的收藏还是其他途径？\n你喜欢怎样听音乐，为什么？",
+      "answer": "I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable. I like to listen to music on my phone at home because I am very busy at work. I like to listen to music when I am alone. I can enjoy the music without distractions, which helps me relax and reduce stress. Also, it is convenient to choose songs on the Internet.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "chinese singer wangfei pop star"
+      "keywords": "chinese singer wangfei pop star listen music phone home am listen music am alone enjoy",
+      "questions": [
+        {
+          "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "音乐喜好",
+          "prompt": "你喜欢的音乐家是谁，他的音乐风格是什么？",
+          "answer": "I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "chinese singer wangfei pop star"
+        },
+        {
+          "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "音乐来源",
+          "prompt": "你喜欢从哪里选择音乐，是自己的收藏还是其他途径？",
+          "answer": "I like to listen to music on my phone at home because I am very busy at work.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "listen music phone home am"
+        },
+        {
+          "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "听音乐方式",
+          "prompt": "你喜欢怎样听音乐，为什么？",
+          "answer": "I like to listen to music when I am alone. I can enjoy the music without distractions, which helps me relax and reduce stress. Also, it is convenient to choose songs on the Internet.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "listen music am alone enjoy"
+        }
+      ]
     },
     {
-      "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题11政府提供免费大学课程的好处有哪些.json",
-      "bankName": "真题11 政府提供免费大学课程的好处有哪些",
-      "questionId": 2,
-      "topic": "音乐来源",
-      "prompt": "你喜欢从哪里选择音乐，是自己的收藏还是其他途径？",
-      "answer": "I like to listen to music on my phone at home because I am very busy at work and do not have much time to go to a music center. It is very convenient at home.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "listen music phone home am"
-    },
-    {
-      "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题11政府提供免费大学课程的好处有哪些.json",
-      "bankName": "真题11 政府提供免费大学课程的好处有哪些",
-      "questionId": 3,
-      "topic": "听音乐方式",
-      "prompt": "你喜欢怎样听音乐，为什么？",
-      "answer": "I like to listen to music when I am alone. I can enjoy the music without any interruption, which helps me relax and reduce stress. Besides, it is convenient to choose songs on the Internet and select some good songs.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "listen music am alone enjoy"
-    },
-    {
-      "uid": "3-真题14去当实习生吗.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题14去当实习生吗.json",
-      "bankName": "真题14 去当实习生吗",
-      "questionId": 1,
-      "topic": "旅游目的地",
-      "prompt": "你想去哪个国家？是不是已经去过了？",
-      "answer": "I want to travel to Thailand. I have been there many times.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "want travel thailand times"
-    },
-    {
-      "uid": "3-真题14去当实习生吗.json-2",
+      "uid": "3-真题14去当实习生吗.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题14去当实习生吗.json",
       "bankName": "真题14 去当实习生吗",
-      "questionId": 2,
-      "topic": "旅游方式",
-      "prompt": "如果去旅游，你会选择和朋友一起还是独自去？",
-      "answer": "I like to travel with my friends. It will be fun, and we can take care of each other.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "旅游目的地 · 旅游方式 · 旅游考虑因素",
+      "prompt": "你想去哪个国家？是不是已经去过了？\n如果去旅游，你会选择和朋友一起还是独自去？\n去一个国家旅游，你主要考虑哪一点？语种、食物还是景点？",
+      "answer": "I want to travel to Thailand. I have been there many times. I like to travel with my friends. It will be fun, and we can take care of each other. Language will be my first choice. If the people in that country can speak Chinese, I can go anywhere without limitation. English is also fine, although my English is not very good.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "travel friends fun take care"
+      "keywords": "want travel thailand times travel friends fun take care language choice people country speak",
+      "questions": [
+        {
+          "uid": "3-真题14去当实习生吗.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "旅游目的地",
+          "prompt": "你想去哪个国家？是不是已经去过了？",
+          "answer": "I want to travel to Thailand. I have been there many times.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "want travel thailand times"
+        },
+        {
+          "uid": "3-真题14去当实习生吗.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "旅游方式",
+          "prompt": "如果去旅游，你会选择和朋友一起还是独自去？",
+          "answer": "I like to travel with my friends. It will be fun, and we can take care of each other.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "travel friends fun take care"
+        },
+        {
+          "uid": "3-真题14去当实习生吗.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "旅游考虑因素",
+          "prompt": "去一个国家旅游，你主要考虑哪一点？语种、食物还是景点？",
+          "answer": "Language will be my first choice. If the people in that country can speak Chinese, I can go anywhere without limitation. English is also fine, although my English is not very good.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "language choice people country speak"
+        }
+      ]
     },
     {
-      "uid": "3-真题14去当实习生吗.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题14去当实习生吗.json",
-      "bankName": "真题14 去当实习生吗",
-      "questionId": 3,
-      "topic": "旅游考虑因素",
-      "prompt": "去一个国家旅游，你主要考虑哪一点？语种、食物还是景点？",
-      "answer": "Language will be my first choice. If the people in that country can speak Chinese, I can go anywhere without limitation. English is also fine, although my English is not very good, but I can use it for communication.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "language choice people country speak"
-    },
-    {
-      "uid": "3-真题17幽默humor还是严肃serious.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题17幽默humor还是严肃serious.json",
-      "bankName": "真题17 幽默humor还是严肃serious",
-      "questionId": 1,
-      "topic": "生日活动",
-      "prompt": "最近一次参加生日party是什么时候，是给谁过生日？",
-      "answer": "The latest birthday party was held on 11th May. It was my daughter’s first birthday.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "latest birthday party held th"
-    },
-    {
-      "uid": "3-真题17幽默humor还是严肃serious.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题17幽默humor还是严肃serious.json",
-      "bankName": "真题17 幽默humor还是严肃serious",
-      "questionId": 3,
-      "topic": "生日食物准备",
-      "prompt": "你认为生日party需要准备不同种类的食物吗？为什么？",
-      "answer": "Yes. Birthday cake is a must, but not everyone has a sweet tooth. It is necessary to prepare different kinds of food. For example, for my daughter’s birthday, I prepared many foods and it cost about 1000 Yuan.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "yes birthday cake not everyone"
-    },
-    {
-      "uid": "3-真题21进入大学前实习gap year有哪些好处.json-1",
+      "uid": "3-真题21进入大学前实习gap year有哪些好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题21进入大学前实习gap year有哪些好处.json",
       "bankName": "真题21 进入大学前实习gap year有哪些好处",
-      "questionId": 1,
-      "topic": "旅游经历",
-      "prompt": "你最近一次观光旅游是什么时候？所在城市是哪儿？",
-      "answer": "My latest tourism was last month when I was in Beijing.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "旅游经历 · 旅游方式 · 旅游重点",
+      "prompt": "你最近一次观光旅游是什么时候？所在城市是哪儿？\n你喜欢自由行还是跟团游？\n如果去观光旅游，你认为哪个更重要？①地点 ②美食 ③专业导游",
+      "answer": "My latest tourism was last month when I was in Beijing. I like traveling with my family because I am very busy at work. I think the place is most important. It should not be too far away since I don't have much time to spend on the road. Also, I prefer places with good scenery and few people.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "latest tourism last month beijing"
+      "keywords": "latest tourism last month beijing traveling family am busy work think place important not too",
+      "questions": [
+        {
+          "uid": "3-真题21进入大学前实习gap year有哪些好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "旅游经历",
+          "prompt": "你最近一次观光旅游是什么时候？所在城市是哪儿？",
+          "answer": "My latest tourism was last month when I was in Beijing.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "latest tourism last month beijing"
+        },
+        {
+          "uid": "3-真题21进入大学前实习gap year有哪些好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "旅游方式",
+          "prompt": "你喜欢自由行还是跟团游？",
+          "answer": "I like traveling with my family because I am very busy at work.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "traveling family am busy work"
+        },
+        {
+          "uid": "3-真题21进入大学前实习gap year有哪些好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "旅游重点",
+          "prompt": "如果去观光旅游，你认为哪个更重要？①地点 ②美食 ③专业导游",
+          "answer": "I think the place is most important. It should not be too far away since I don't have much time to spend on the road. Also, I prefer places with good scenery and few people.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "think place important not too"
+        }
+      ]
     },
     {
-      "uid": "3-真题21进入大学前实习gap year有哪些好处.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题21进入大学前实习gap year有哪些好处.json",
-      "bankName": "真题21 进入大学前实习gap year有哪些好处",
-      "questionId": 2,
-      "topic": "旅游方式",
-      "prompt": "你喜欢自由行还是跟团游？",
-      "answer": "I like traveling with my family because I am very busy at work. Traveling together helps to build a good relationship with my family.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "traveling family am busy work"
-    },
-    {
-      "uid": "3-真题21进入大学前实习gap year有哪些好处.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题21进入大学前实习gap year有哪些好处.json",
-      "bankName": "真题21 进入大学前实习gap year有哪些好处",
-      "questionId": 3,
-      "topic": "旅游重点",
-      "prompt": "如果去观光旅游，你认为哪个更重要？①地点 ②美食 ③专业导游",
-      "answer": "I think the place is most important. It should not be too far away since I don’t have much time to spend on the road. Additionally, I prefer places with good scenery and few people. It is a good way to release work pressure.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "think place important not too"
-    },
-    {
-      "uid": "3-真题23大学毕业继续和父母住还是单独住.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题23大学毕业继续和父母住还是单独住.json",
-      "bankName": "真题23 大学毕业，继续和父母住还是单独住",
-      "questionId": 1,
-      "topic": "听音乐习惯",
-      "prompt": "你多久听一次音乐？",
-      "answer": "I listen to music almost every day when I am free.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "listen music almost day am"
-    },
-    {
-      "uid": "3-真题23大学毕业继续和父母住还是单独住.json-2",
+      "uid": "3-真题23大学毕业继续和父母住还是单独住.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题23大学毕业继续和父母住还是单独住.json",
       "bankName": "真题23 大学毕业，继续和父母住还是单独住",
-      "questionId": 2,
-      "topic": "音乐偏好",
-      "prompt": "你喜欢哪种类型的音乐？最喜欢的音乐家是谁？",
-      "answer": "I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "听音乐习惯 · 音乐偏好 · 听音乐场所",
+      "prompt": "你多久听一次音乐？\n你喜欢哪种类型的音乐？最喜欢的音乐家是谁？\n你喜欢在家听音乐，还是在音乐馆或户外听？为什么？",
+      "answer": "I listen to music almost every day when I am free. I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable. I like to listen to music at home. I can enjoy the music without distractions. As a result, I can relax and reduce my stress from work. Also, it is convenient to choose songs on the Internet.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "pop music favorite musician wang"
+      "keywords": "listen music almost day am pop music favorite musician wang listen music home enjoy without",
+      "questions": [
+        {
+          "uid": "3-真题23大学毕业继续和父母住还是单独住.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "听音乐习惯",
+          "prompt": "你多久听一次音乐？",
+          "answer": "I listen to music almost every day when I am free.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "listen music almost day am"
+        },
+        {
+          "uid": "3-真题23大学毕业继续和父母住还是单独住.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "音乐偏好",
+          "prompt": "你喜欢哪种类型的音乐？最喜欢的音乐家是谁？",
+          "answer": "I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "pop music favorite musician wang"
+        },
+        {
+          "uid": "3-真题23大学毕业继续和父母住还是单独住.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "听音乐场所",
+          "prompt": "你喜欢在家听音乐，还是在音乐馆或户外听？为什么？",
+          "answer": "I like to listen to music at home. I can enjoy the music without distractions. As a result, I can relax and reduce my stress from work. Also, it is convenient to choose songs on the Internet.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "listen music home enjoy without"
+        }
+      ]
     },
     {
-      "uid": "3-真题23大学毕业继续和父母住还是单独住.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题23大学毕业继续和父母住还是单独住.json",
-      "bankName": "真题23 大学毕业，继续和父母住还是单独住",
-      "questionId": 3,
-      "topic": "听音乐场所",
-      "prompt": "你喜欢在家听音乐，还是在音乐馆或户外听？为什么？",
-      "answer": "I like to listen to music at home. I can enjoy the music without any interruption. As a result, I can relax myself and reduce my stress from work. Besides, it is convenient to choose songs on the Internet and I can select my favorite songs.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "listen music home enjoy without"
-    },
-    {
-      "uid": "3-真题33在21岁以下开车的坏处.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题33在21岁以下开车的坏处.json",
-      "bankName": "真题33 21岁以下开车的坏处",
-      "questionId": 3,
-      "topic": "餐厅推荐",
-      "prompt": "有朋友要带亲戚来你这里，你会推荐什么样的餐厅？",
-      "answer": "I would recommend a family-friendly restaurant that has a good variety of dishes and a comfortable environment. It’s important that the food is delicious and the service is friendly. A place with a nice view or local specialties would be even better.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "recommend family friendly restaurant good"
-    },
-    {
-      "uid": "3-真题35父母让孩子做家务的好处.json-3",
+      "uid": "3-真题35父母让孩子做家务的好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题35父母让孩子做家务的好处.json",
       "bankName": "真题35 父母让孩子做家务的好处",
-      "questionId": 3,
-      "topic": "游戏场景偏好",
-      "prompt": "Do you prefer playing games at home or while traveling? Why?",
-      "answer": "I prefer playing games at home because it’s easier to focus and relax. Traveling often has too many distractions.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "游戏喜好 · 手机使用与游戏 · 游戏场景偏好",
+      "prompt": "Do you prefer playing video games or card games? How often do you play them?\nWhat type of phone do you use? How often do you play games on it?\nDo you prefer playing games at home or while traveling? Why?",
+      "answer": "I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends. I use an iPhone, which is convenient for games because of its large screen and smooth touch. I prefer playing games at home because it's easier to focus and relax. Traveling often has too many distractions.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "prefer playing games home easier"
+      "keywords": "prefer playing video games exciting use iphone convenient games large prefer playing games home easier",
+      "questions": [
+        {
+          "uid": "3-真题35父母让孩子做家务的好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "游戏喜好",
+          "prompt": "Do you prefer playing video games or card games? How often do you play them?",
+          "answer": "I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "prefer playing video games exciting"
+        },
+        {
+          "uid": "3-真题35父母让孩子做家务的好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "手机使用与游戏",
+          "prompt": "What type of phone do you use? How often do you play games on it?",
+          "answer": "I use an iPhone, which is convenient for games because of its large screen and smooth touch.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "use iphone convenient games large"
+        },
+        {
+          "uid": "3-真题35父母让孩子做家务的好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "游戏场景偏好",
+          "prompt": "Do you prefer playing games at home or while traveling? Why?",
+          "answer": "I prefer playing games at home because it's easier to focus and relax. Traveling often has too many distractions.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "prefer playing games home easier"
+        }
+      ]
     },
     {
-      "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题36公司提供工作日锻炼的机会是否是一个好主意.json",
-      "bankName": "真题36 公司提供工作日锻炼",
-      "questionId": 1,
-      "topic": "音乐喜好",
-      "prompt": "你多久听音乐，一般在哪里听音乐？",
-      "answer": "I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax. I use my phone and headphones, so I can enjoy music anywhere.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "listen music almost day usually"
-    },
-    {
-      "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题36公司提供工作日锻炼的机会是否是一个好主意.json",
-      "bankName": "真题36 公司提供工作日锻炼",
-      "questionId": 3,
-      "topic": "音乐偏好原因",
-      "prompt": "你喜欢什么音乐？为什么？（流行 / 摇滚 / 古典）",
-      "answer": "I like pop music the most. Pop music makes me feel happy and relaxed. I also enjoy attending local pop music events and competitions, which is fun to share with family and friends.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "pop music makes feel happy"
-    },
-    {
-      "uid": "3-真题39技术是否很难平衡工作和生活.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题39技术是否很难平衡工作和生活.json",
-      "bankName": "真题39 技术是否很难平衡工作和生活",
-      "questionId": 1,
-      "topic": "社交活动经历",
-      "prompt": "When was the last social event you attended and where was it held?",
-      "answer": "I attended a friend’s birthday party last month at a city restaurant.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "attended friend birthday party last"
-    },
-    {
-      "uid": "3-真题39技术是否很难平衡工作和生活.json-2",
+      "uid": "3-真题39技术是否很难平衡工作和生活.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P2",
       "sourceFile": "真题39技术是否很难平衡工作和生活.json",
       "bankName": "真题39 技术是否很难平衡工作和生活",
-      "questionId": 2,
-      "topic": "社交活动频率",
-      "prompt": "What kind of social activities do you often join and how long do they last?",
-      "answer": "I often join company dinners or small gatherings with friends, usually lasting two to three hours.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
+      "questionId": "1/2/3",
+      "topic": "社交活动经历 · 社交活动频率 · 社交活动角色",
+      "prompt": "When was the last social event you attended and where was it held?\nWhat kind of social activities do you often join and how long do they last?\nWhat role do you usually play in social events?",
+      "answer": "I attended a friend's birthday party last month at a city restaurant. I often join company dinners or small gatherings with friends, usually lasting two to three hours. I usually help organize events and talk with different people to keep the atmosphere lively.",
+      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "often join company dinners small"
+      "keywords": "attended friend birthday party last often join company dinners small usually help organize events talk",
+      "questions": [
+        {
+          "uid": "3-真题39技术是否很难平衡工作和生活.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "社交活动经历",
+          "prompt": "When was the last social event you attended and where was it held?",
+          "answer": "I attended a friend's birthday party last month at a city restaurant.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "attended friend birthday party last"
+        },
+        {
+          "uid": "3-真题39技术是否很难平衡工作和生活.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "社交活动频率",
+          "prompt": "What kind of social activities do you often join and how long do they last?",
+          "answer": "I often join company dinners or small gatherings with friends, usually lasting two to three hours.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "often join company dinners small"
+        },
+        {
+          "uid": "3-真题39技术是否很难平衡工作和生活.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "社交活动角色",
+          "prompt": "What role do you usually play in social events?",
+          "answer": "I usually help organize events and talk with different people to keep the atmosphere lively.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "usually help organize events talk"
+        }
+      ]
     },
     {
-      "uid": "3-真题39技术是否很难平衡工作和生活.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题39技术是否很难平衡工作和生活.json",
-      "bankName": "真题39 技术是否很难平衡工作和生活",
-      "questionId": 3,
-      "topic": "社交活动角色",
-      "prompt": "What role do you usually play in social events?",
-      "answer": "I usually help organize events and talk with different people to keep the atmosphere lively.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "usually help organize events talk"
-    },
-    {
-      "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题40大学生是否应该花时间去参加社区活动.json",
-      "bankName": "真题40 大学生是否应该花时间去参加社区活动",
-      "questionId": 2,
-      "topic": "音乐偏好",
-      "prompt": "你一般买什么类型的音乐，是CD还是直接下载？",
-      "answer": "I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "usually download pop songs directly"
-    },
-    {
-      "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "真题40大学生是否应该花时间去参加社区活动.json",
-      "bankName": "真题40 大学生是否应该花时间去参加社区活动",
-      "questionId": 3,
-      "topic": "音乐消费习惯",
-      "prompt": "如果你喜欢的乐队发行新专辑，你愿意多花钱提前买吗？为什么？",
-      "answer": "Yes, I would pay more to get a new album early because I am excited to listen to it and want to support my favorite band.",
-      "reason": "生活偏好和经历类高频话题，第二轮练理由扩展。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "yes pay get new album"
-    },
-    {
-      "uid": "3-真题06未来一代为什么比现在一代更健康.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题06未来一代为什么比现在一代更健康.json",
-      "bankName": "真题6 未来一代为什么比现在一代更健康",
-      "questionId": 2,
-      "topic": "现居地",
-      "prompt": "你现在住的地方，你最喜欢什么？为什么？",
-      "answer": "I like my current city because it is convenient and has good public transportation and many restaurants.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "current city convenient good public"
-    },
-    {
-      "uid": "3-真题06未来一代为什么比现在一代更健康.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题06未来一代为什么比现在一代更健康.json",
-      "bankName": "真题6 未来一代为什么比现在一代更健康",
-      "questionId": 3,
-      "topic": "迁居因素",
-      "prompt": "如果搬到另一个地方，你最看重哪些因素？为什么？",
-      "answer": "If I move to another place, I will consider transportation and medical services most important. These factors make daily life more convenient and safer.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "move another place consider transportation"
-    },
-    {
-      "uid": "3-真题07老师能否让学生带电子设备.json-1",
+      "uid": "3-真题07老师能否让学生带电子设备.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题07老师能否让学生带电子设备.json",
       "bankName": "真题7 老师能否让学生带电子设备",
-      "questionId": 1,
-      "topic": "酒店经历",
-      "prompt": "你上次住酒店是什么时候？在哪里？",
-      "answer": "I stayed in a hotel in Shenzhen last month during a business trip.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "酒店经历 · 酒店特性 · 酒店需求",
+      "prompt": "你上次住酒店是什么时候？在哪里？\n新酒店应该具备一个什么特性？为什么？\n你觉得你所在的地方需要更多新酒店吗？为什么？",
+      "answer": "I stayed in a hotel in Shenzhen last month during a business trip. I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied. I don't think so. There are already many hotels with good service, and the city is not a major tourist destination, so the current number is enough.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "stayed hotel shenzhen last month"
+      "keywords": "stayed hotel shenzhen last month think new hotel provide excellent don think already hotels good",
+      "questions": [
+        {
+          "uid": "3-真题07老师能否让学生带电子设备.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "酒店经历",
+          "prompt": "你上次住酒店是什么时候？在哪里？",
+          "answer": "I stayed in a hotel in Shenzhen last month during a business trip.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "stayed hotel shenzhen last month"
+        },
+        {
+          "uid": "3-真题07老师能否让学生带电子设备.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "酒店特性",
+          "prompt": "新酒店应该具备一个什么特性？为什么？",
+          "answer": "I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "think new hotel provide excellent"
+        },
+        {
+          "uid": "3-真题07老师能否让学生带电子设备.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "酒店需求",
+          "prompt": "你觉得你所在的地方需要更多新酒店吗？为什么？",
+          "answer": "I don't think so. There are already many hotels with good service, and the city is not a major tourist destination, so the current number is enough.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "don think already hotels good"
+        }
+      ]
     },
     {
-      "uid": "3-真题07老师能否让学生带电子设备.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题07老师能否让学生带电子设备.json",
-      "bankName": "真题7 老师能否让学生带电子设备",
-      "questionId": 2,
-      "topic": "酒店特性",
-      "prompt": "新酒店应该具备一个什么特性？为什么？",
-      "answer": "I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "think new hotel provide excellent"
-    },
-    {
-      "uid": "3-真题07老师能否让学生带电子设备.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题07老师能否让学生带电子设备.json",
-      "bankName": "真题7 老师能否让学生带电子设备",
-      "questionId": 3,
-      "topic": "酒店需求",
-      "prompt": "你觉得你所在的地方需要更多新酒店吗？为什么？",
-      "answer": "I don’t think so. There are already many hotels with good service, and the city is not a major tourist destination, so the current number is enough.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "don think already hotels good"
-    },
-    {
-      "uid": "3-真题09学术专业成功最重要因素.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题09学术专业成功最重要因素.json",
-      "bankName": "真题9 学术专业成功最重要因素",
-      "questionId": 1,
-      "topic": "家具情况",
-      "prompt": "你家里面最旧的家具是什么？什么时候买的？",
-      "answer": "The oldest furniture in my house is my bed. I bought it ten years ago.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "oldest furniture house bed bought"
-    },
-    {
-      "uid": "3-真题09学术专业成功最重要因素.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题09学术专业成功最重要因素.json",
-      "bankName": "真题9 学术专业成功最重要因素",
-      "questionId": 3,
-      "topic": "家具选择因素",
-      "prompt": "选择家具时，你认为哪些因素最重要？style / comfort / materials",
-      "answer": "I think comfort is the most important factor. If furniture is not comfortable, it won't serve its purpose, even if it looks stylish or is made of high-quality materials.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "think comfort important factor furniture"
-    },
-    {
-      "uid": "3-真题12毕业后第一份工作必要吗.json-1",
+      "uid": "3-真题12毕业后第一份工作必要吗.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题12毕业后第一份工作必要吗.json",
       "bankName": "真题12 毕业后第一份工作必要吗",
-      "questionId": 1,
-      "topic": "手机使用",
-      "prompt": "你用这个手机多长时间，用的频率？",
-      "answer": "I have used this phone for two years, and I use it every day.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2",
+      "topic": "手机使用 · 手机更新计划",
+      "prompt": "你用这个手机多长时间，用的频率？\n如果有新的手机出来，你打算买吗？",
+      "answer": "I have used this phone for two years, and I use it every day. Yes, I will buy a new phone, because my current phone has been used for a long time.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "used phone years use day"
+      "keywords": "used phone years use day yes buy new phone current",
+      "questions": [
+        {
+          "uid": "3-真题12毕业后第一份工作必要吗.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "手机使用",
+          "prompt": "你用这个手机多长时间，用的频率？",
+          "answer": "I have used this phone for two years, and I use it every day.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "used phone years use day"
+        },
+        {
+          "uid": "3-真题12毕业后第一份工作必要吗.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "手机更新计划",
+          "prompt": "如果有新的手机出来，你打算买吗？",
+          "answer": "Yes, I will buy a new phone, because my current phone has been used for a long time.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "yes buy new phone current"
+        }
+      ]
     },
     {
-      "uid": "3-真题12毕业后第一份工作必要吗.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题12毕业后第一份工作必要吗.json",
-      "bankName": "真题12 毕业后第一份工作必要吗",
-      "questionId": 2,
-      "topic": "手机更新计划",
-      "prompt": "如果有新的手机出来，你打算买吗？",
-      "answer": "Yes, I will buy a new phone, because my current phone has been used for a long time, and its performance is too low to play some video games. It makes me unhappy.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "yes buy new phone current"
-    },
-    {
-      "uid": "3-真题13offer是否需要考虑公司的名誉.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题13offer是否需要考虑公司的名誉.json",
-      "bankName": "真题13 offer是否需要考虑公司的名誉",
-      "questionId": 2,
-      "topic": "邮件使用",
-      "prompt": "你使用邮件的频率是多少？",
-      "answer": "I use email every day to contact my colleagues and customers.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "use email day contact colleagues"
-    },
-    {
-      "uid": "3-真题13offer是否需要考虑公司的名誉.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题13offer是否需要考虑公司的名誉.json",
-      "bankName": "真题13 offer是否需要考虑公司的名誉",
-      "questionId": 3,
-      "topic": "沟通方式选择",
-      "prompt": "什么情况下你会选择发邮件，还是选择打电话？",
-      "answer": "I usually use email first; however, if it is urgent, I will call directly.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "usually use email however urgent"
-    },
-    {
-      "uid": "3-真题15获得professional success是否需要take risk.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题15获得professional success是否需要take risk.json",
-      "bankName": "真题15 获得professional success，是否需要take risk",
-      "questionId": 2,
-      "topic": "上班时间偏好",
-      "prompt": "你喜欢早上上班还是晚一点上班？",
-      "answer": "I like to go to work earlier because there is less traffic and it saves time.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "go work earlier less traffic"
-    },
-    {
-      "uid": "3-真题16有钱就快乐吗.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题16有钱就快乐吗.json",
-      "bankName": "真题16 有钱就快乐吗",
-      "questionId": 1,
-      "topic": "纪念品质量",
-      "prompt": "纪念品的质量如何判断？",
-      "answer": "I think the quality standard should be based on material, weight, and style.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "think quality standard based material"
-    },
-    {
-      "uid": "3-真题16有钱就快乐吗.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题16有钱就快乐吗.json",
-      "bankName": "真题16 有钱就快乐吗",
-      "questionId": 2,
-      "topic": "纪念品受欢迎度",
-      "prompt": "你所住的地方最受欢迎的纪念品是什么？为什么？",
-      "answer": "I live in Beijing. The most popular memento is Beijing Roast Duck because it is very famous and delicious. You must taste it when you go to Beijing.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "live beijing popular memento roast"
-    },
-    {
-      "uid": "3-真题18项目中分歧需要解决还是忽略.json-1",
+      "uid": "3-真题18项目中分歧需要解决还是忽略.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题18项目中分歧需要解决还是忽略.json",
       "bankName": "真题18 项目中分歧需要解决还是忽略",
-      "questionId": 1,
-      "topic": "房屋情况",
-      "prompt": "你的房子多久了，是公寓还是House？",
-      "answer": "I have lived in my apartment for about 8 years. It is an ordinary apartment.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "房屋情况 · 房屋改进 · 房屋维修",
+      "prompt": "你的房子多久了，是公寓还是House？\n如果要改善，你最想改善哪些？\n如要维修房子你是请人还是自己来？为什么？",
+      "answer": "I have lived in my apartment for about 8 years. It is an ordinary apartment. I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room. I'll hire professionals to repair the house because I know nothing about house repair. Doing it myself would take too much time and may not be done well. Also, I am very busy at work.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "lived apartment years ordinary house"
+      "keywords": "lived apartment years ordinary house always want change apartment big ll hire professionals repair house",
+      "questions": [
+        {
+          "uid": "3-真题18项目中分歧需要解决还是忽略.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "房屋情况",
+          "prompt": "你的房子多久了，是公寓还是House？",
+          "answer": "I have lived in my apartment for about 8 years. It is an ordinary apartment.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "lived apartment years ordinary house"
+        },
+        {
+          "uid": "3-真题18项目中分歧需要解决还是忽略.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "房屋改进",
+          "prompt": "如果要改善，你最想改善哪些？",
+          "answer": "I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "always want change apartment big"
+        },
+        {
+          "uid": "3-真题18项目中分歧需要解决还是忽略.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "房屋维修",
+          "prompt": "如要维修房子你是请人还是自己来？为什么？",
+          "answer": "I'll hire professionals to repair the house because I know nothing about house repair. Doing it myself would take too much time and may not be done well. Also, I am very busy at work.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "ll hire professionals repair house"
+        }
+      ]
     },
     {
-      "uid": "3-真题18项目中分歧需要解决还是忽略.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题18项目中分歧需要解决还是忽略.json",
-      "bankName": "真题18 项目中分歧需要解决还是忽略",
-      "questionId": 2,
-      "topic": "房屋改进",
-      "prompt": "如果要改善，你最想改善哪些？",
-      "answer": "I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "always want change apartment big"
-    },
-    {
-      "uid": "3-真题18项目中分歧需要解决还是忽略.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题18项目中分歧需要解决还是忽略.json",
-      "bankName": "真题18 项目中分歧需要解决还是忽略",
-      "questionId": 3,
-      "topic": "房屋维修",
-      "prompt": "如要维修房子你是请人还是自己来？为什么？",
-      "answer": "I'll hire professionals to repair the house because I know nothing about house repair. Doing it myself would take too much time and may not be done well. Also, I am very busy at work, so hiring professionals is more efficient.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "ll hire professionals repair house"
-    },
-    {
-      "uid": "3-真题19个公司的多处不同城市工作的好处.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题19个公司的多处不同城市工作的好处.json",
-      "bankName": "真题19 个公司的多处不同城市工作的好处",
-      "questionId": 1,
-      "topic": "兴趣爱好",
-      "prompt": "你的爱好是什么，有多久了？",
-      "answer": "I like playing basketball. I have been playing it for about 15 years.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "playing basketball years"
-    },
-    {
-      "uid": "3-真题19个公司的多处不同城市工作的好处.json-2",
+      "uid": "3-真题19个公司的多处不同城市工作的好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题19个公司的多处不同城市工作的好处.json",
       "bankName": "真题19 个公司的多处不同城市工作的好处",
-      "questionId": 2,
-      "topic": "兴趣时间管理",
-      "prompt": "你有足够时间去做爱好的事情吗？为什么？",
-      "answer": "I don’t have enough time to do what I like because my work is busy and I need to take care of my children during the weekend.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "兴趣爱好 · 兴趣时间管理 · 兴趣描述",
+      "prompt": "你的爱好是什么，有多久了？\n你有足够时间去做爱好的事情吗？为什么？\n请描述一下你的爱好，包括历史、习惯和偶像等。",
+      "answer": "I like playing basketball. I have been playing it for about 15 years. I don't have enough time to do what I like because my work is busy. Basketball is one of the most popular sports in the world. I started playing it in high school. When I am free, I usually watch NBA games and sometimes play with friends. My idol is Kobe Bryant.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "don enough time work busy"
+      "keywords": "playing basketball years don enough time work busy basketball popular sports world started",
+      "questions": [
+        {
+          "uid": "3-真题19个公司的多处不同城市工作的好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "兴趣爱好",
+          "prompt": "你的爱好是什么，有多久了？",
+          "answer": "I like playing basketball. I have been playing it for about 15 years.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "playing basketball years"
+        },
+        {
+          "uid": "3-真题19个公司的多处不同城市工作的好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "兴趣时间管理",
+          "prompt": "你有足够时间去做爱好的事情吗？为什么？",
+          "answer": "I don't have enough time to do what I like because my work is busy.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "don enough time work busy"
+        },
+        {
+          "uid": "3-真题19个公司的多处不同城市工作的好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "兴趣描述",
+          "prompt": "请描述一下你的爱好，包括历史、习惯和偶像等。",
+          "answer": "Basketball is one of the most popular sports in the world. I started playing it in high school. When I am free, I usually watch NBA games and sometimes play with friends. My idol is Kobe Bryant.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "basketball popular sports world started"
+        }
+      ]
     },
     {
-      "uid": "3-真题19个公司的多处不同城市工作的好处.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题19个公司的多处不同城市工作的好处.json",
-      "bankName": "真题19 个公司的多处不同城市工作的好处",
-      "questionId": 3,
-      "topic": "兴趣描述",
-      "prompt": "请描述一下你的爱好，包括历史、习惯和偶像等。",
-      "answer": "Basketball is one of the most popular sports in the world. I started playing it in high school. When I am free, I usually watch NBA games and sometimes play with friends. My idol is Kobe Bryant. He passed away in an accident, and I miss him very much.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "basketball popular sports world started"
-    },
-    {
-      "uid": "3-真题20独自运动还是.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题20独自运动还是.json",
-      "bankName": "真题20 独自运动还是",
-      "questionId": 1,
-      "topic": "饮食习惯",
-      "prompt": "你是经常在家做饭还是在外面吃？为什么？",
-      "answer": "I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "usually dinner outside office far"
-    },
-    {
-      "uid": "3-真题20独自运动还是.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题20独自运动还是.json",
-      "bankName": "真题20 独自运动还是",
-      "questionId": 2,
-      "topic": "餐厅用餐高峰",
-      "prompt": "什么时间段在餐厅吃饭的人多？是否需要提前预定？",
-      "answer": "There are lots of people during lunch time or on weekends. Most of the restaurants don’t require reservation in advance.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "lots people lunch time weekends"
-    },
-    {
-      "uid": "3-真题20独自运动还是.json-3",
+      "uid": "3-真题20独自运动还是.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题20独自运动还是.json",
       "bankName": "真题20 独自运动还是",
-      "questionId": 3,
-      "topic": "餐厅推荐",
-      "prompt": "可以推荐附近一家餐厅能外带或打包的，原因是什么？",
-      "answer": "I recommend the restaurant named Qinshaoye in Xian. You can order online, and the delivery speed is very fast. You can get food within 30 minutes, and the food is delicious.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "饮食习惯 · 餐厅用餐高峰 · 餐厅推荐",
+      "prompt": "你是经常在家做饭还是在外面吃？为什么？\n什么时间段在餐厅吃饭的人多？是否需要提前预定？\n可以推荐附近一家餐厅能外带或打包的，原因是什么？",
+      "answer": "I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office. There are lots of people during lunch time or on weekends. Most of the restaurants don't require a reservation. I recommend the restaurant named Qinshaoye in Xian. You can order online, and the delivery speed is very fast. You can get food within 30 minutes, and the food is delicious.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "recommend restaurant named qinshaoye xian"
+      "keywords": "usually dinner outside office far lots people lunch time weekends recommend restaurant named qinshaoye xian",
+      "questions": [
+        {
+          "uid": "3-真题20独自运动还是.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "饮食习惯",
+          "prompt": "你是经常在家做饭还是在外面吃？为什么？",
+          "answer": "I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually dinner outside office far"
+        },
+        {
+          "uid": "3-真题20独自运动还是.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "餐厅用餐高峰",
+          "prompt": "什么时间段在餐厅吃饭的人多？是否需要提前预定？",
+          "answer": "There are lots of people during lunch time or on weekends. Most of the restaurants don't require a reservation.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "lots people lunch time weekends"
+        },
+        {
+          "uid": "3-真题20独自运动还是.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "餐厅推荐",
+          "prompt": "可以推荐附近一家餐厅能外带或打包的，原因是什么？",
+          "answer": "I recommend the restaurant named Qinshaoye in Xian. You can order online, and the delivery speed is very fast. You can get food within 30 minutes, and the food is delicious.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "recommend restaurant named qinshaoye xian"
+        }
+      ]
     },
     {
-      "uid": "3-真题22工作经验还是教育背景重要.json-1",
+      "uid": "3-真题22工作经验还是教育背景重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题22工作经验还是教育背景重要.json",
       "bankName": "真题22 工作经验还是教育背景重要",
-      "questionId": 1,
-      "topic": "新闻偏好",
-      "prompt": "你喜欢什么类型的新闻？",
-      "answer": "I like the sports news, especially regarding basketball, such as NBA and CBA.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "新闻偏好 · 新闻订阅 · 新闻观看方式",
+      "prompt": "你喜欢什么类型的新闻？\n你是否愿意订阅在线新闻提醒？为什么？\n用电视看新闻好吗？为什么？",
+      "answer": "I like the sports news, especially regarding basketball, such as NBA and CBA. Yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day. It is not convenient for me to watch news on TV. TV is not so popular in China now, and I don't have time to watch TV. I usually watch news on my phone or online.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "sports news especially regarding basketball"
+      "keywords": "sports news especially regarding basketball yes subscribed channels wechat push not convenient watch news tv",
+      "questions": [
+        {
+          "uid": "3-真题22工作经验还是教育背景重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "新闻偏好",
+          "prompt": "你喜欢什么类型的新闻？",
+          "answer": "I like the sports news, especially regarding basketball, such as NBA and CBA.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "sports news especially regarding basketball"
+        },
+        {
+          "uid": "3-真题22工作经验还是教育背景重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "新闻订阅",
+          "prompt": "你是否愿意订阅在线新闻提醒？为什么？",
+          "answer": "Yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "yes subscribed channels wechat push"
+        },
+        {
+          "uid": "3-真题22工作经验还是教育背景重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "新闻观看方式",
+          "prompt": "用电视看新闻好吗？为什么？",
+          "answer": "It is not convenient for me to watch news on TV. TV is not so popular in China now, and I don't have time to watch TV. I usually watch news on my phone or online.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "not convenient watch news tv"
+        }
+      ]
     },
     {
-      "uid": "3-真题22工作经验还是教育背景重要.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题22工作经验还是教育背景重要.json",
-      "bankName": "真题22 工作经验还是教育背景重要",
-      "questionId": 2,
-      "topic": "新闻订阅",
-      "prompt": "你是否愿意订阅在线新闻提醒？为什么？",
-      "answer": "Yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "yes subscribed channels wechat push"
-    },
-    {
-      "uid": "3-真题22工作经验还是教育背景重要.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题22工作经验还是教育背景重要.json",
-      "bankName": "真题22 工作经验还是教育背景重要",
-      "questionId": 3,
-      "topic": "新闻观看方式",
-      "prompt": "用电视看新闻好吗？为什么？",
-      "answer": "It is not convenient for me to watch news on TV. TV is not so popular in China now, and I don’t have time to watch TV. I usually watch news via smartphone and internet. TV news includes many topics that I am not interested in and I can’t choose what to watch.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "not convenient watch news tv"
-    },
-    {
-      "uid": "3-真题25在公司上班前有过创业经验的好处.json-5",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题25在公司上班前有过创业经验的好处.json",
-      "bankName": "真题25 在公司上班前有过创业经验的好处",
-      "questionId": 5,
-      "topic": "居住区域熟悉度",
-      "prompt": "Question 1: Are you familiar with the area where you currently live? Why?",
-      "answer": "Question 1: Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets, restaurants and parks very well.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "question yes am quite familiar"
-    },
-    {
-      "uid": "3-真题25在公司上班前有过创业经验的好处.json-7",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题25在公司上班前有过创业经验的好处.json",
-      "bankName": "真题25 在公司上班前有过创业经验的好处",
-      "questionId": 7,
-      "topic": "居住区域喜爱场所",
-      "prompt": "Question 3: What is your favorite place in your living area and why?",
-      "answer": "Question 3: My favorite place is the community park. It has beautiful flowers and green trees, and it's very quiet. I often go there for a walk after dinner, which helps me relax after a busy day.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 45,
-      "difficulty": "medium",
-      "keywords": "question favorite place community park"
-    },
-    {
-      "uid": "3-真题26是现有的工作更让你开心.json-5",
+      "uid": "3-真题26是现有的工作更让你开心.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题26是现有的工作更让你开心.json",
       "bankName": "真题26 是现有的工作更让你开心",
-      "questionId": 5,
-      "topic": "家附近公共泳池数量",
-      "prompt": "Question 1: How many public swimming pools are there near your home?",
-      "answer": "Question 1: There are two public swimming pools near my home. One is a small community pool, and the other is a large municipal swimming center.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "5/6/7",
+      "topic": "家附近公共泳池数量 · 公共泳池使用频率 · 选择公共泳池的考量因素",
+      "prompt": "Question 1: How many public swimming pools are there near your home?\nQuestion 2: Do you often go swimming in the public swimming pool?\nQuestion 3: When choosing a public swimming pool, do you prefer to consider the distance or other factors?",
+      "answer": "There are two public swimming pools near my home. One is a small community pool. Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise. I prefer to consider both distance and other factors. Distance is important because it saves time, but I also care about the cleanliness of the pool and the quality of the facilities.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "question public swimming pools near"
+      "keywords": "question public swimming pools near question yes go swimming public question prefer consider distance factors",
+      "questions": [
+        {
+          "uid": "3-真题26是现有的工作更让你开心.json-group-q1",
+          "position": 1,
+          "questionId": 5,
+          "topic": "家附近公共泳池数量",
+          "prompt": "Question 1: How many public swimming pools are there near your home?",
+          "answer": "There are two public swimming pools near my home. One is a small community pool.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question public swimming pools near"
+        },
+        {
+          "uid": "3-真题26是现有的工作更让你开心.json-group-q2",
+          "position": 2,
+          "questionId": 6,
+          "topic": "公共泳池使用频率",
+          "prompt": "Question 2: Do you often go swimming in the public swimming pool?",
+          "answer": "Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question yes go swimming public"
+        },
+        {
+          "uid": "3-真题26是现有的工作更让你开心.json-group-q3",
+          "position": 3,
+          "questionId": 7,
+          "topic": "选择公共泳池的考量因素",
+          "prompt": "Question 3: When choosing a public swimming pool, do you prefer to consider the distance or other factors?",
+          "answer": "I prefer to consider both distance and other factors. Distance is important because it saves time, but I also care about the cleanliness of the pool and the quality of the facilities.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "question prefer consider distance factors"
+        }
+      ]
     },
     {
-      "uid": "3-真题26是现有的工作更让你开心.json-6",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题26是现有的工作更让你开心.json",
-      "bankName": "真题26 是现有的工作更让你开心",
-      "questionId": 6,
-      "topic": "公共泳池使用频率",
-      "prompt": "Question 2: Do you often go swimming in the public swimming pool?",
-      "answer": "Question 2: Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise and relax after a busy week.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "question yes go swimming public"
-    },
-    {
-      "uid": "3-真题26是现有的工作更让你开心.json-7",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题26是现有的工作更让你开心.json",
-      "bankName": "真题26 是现有的工作更让你开心",
-      "questionId": 7,
-      "topic": "选择公共泳池的考量因素",
-      "prompt": "Question 3: When choosing a public swimming pool, do you prefer to consider the distance or other factors?",
-      "answer": "Question 3: I prefer to consider both distance and other factors. Distance is important because it saves time, but I also care about the cleanliness of the pool and the quality of the facilities.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 45,
-      "difficulty": "medium",
-      "keywords": "question prefer consider distance factors"
-    },
-    {
-      "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-5",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题27你认为一家公司有环境友好政策有什么好处.json",
-      "bankName": "真题27 你认为一家公司有环境友好政策有什么好处",
-      "questionId": 5,
-      "topic": "个人爱好",
-      "prompt": "Question 1: What is your hobby?",
-      "answer": "Question 1: My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature and relax my mind.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "question hobby hiking enjoy walking"
-    },
-    {
-      "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-6",
+      "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题27你认为一家公司有环境友好政策有什么好处.json",
       "bankName": "真题27 你认为一家公司有环境友好政策有什么好处",
-      "questionId": 6,
-      "topic": "网络与爱好信息查询",
-      "prompt": "Question 2: Do you often use the internet to find information about your hobby?",
-      "answer": "Question 2: Yes, I often use the internet to find information about hiking. I can search for the best routes, necessary equipment, and weather conditions before each trip.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "5/6/7",
+      "topic": "个人爱好 · 网络与爱好信息查询 · 通过网站交流爱好",
+      "prompt": "Question 1: What is your hobby?\nQuestion 2: Do you often use the internet to find information about your hobby?\nQuestion 3: Will you communicate and discuss your hobby through websites?",
+      "answer": "My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature. Yes, I often use the internet to find information about hiking. I can search for the best routes, the right gear. Yes, I will. There are many hiking forums and websites where I can share my travel experiences with other hiking lovers and discuss interesting routes and skills with them.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "question yes often use internet"
+      "keywords": "question hobby hiking enjoy walking question yes often use internet question yes hiking forums websites",
+      "questions": [
+        {
+          "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-group-q1",
+          "position": 1,
+          "questionId": 5,
+          "topic": "个人爱好",
+          "prompt": "Question 1: What is your hobby?",
+          "answer": "My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question hobby hiking enjoy walking"
+        },
+        {
+          "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-group-q2",
+          "position": 2,
+          "questionId": 6,
+          "topic": "网络与爱好信息查询",
+          "prompt": "Question 2: Do you often use the internet to find information about your hobby?",
+          "answer": "Yes, I often use the internet to find information about hiking. I can search for the best routes, the right gear.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question yes often use internet"
+        },
+        {
+          "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-group-q3",
+          "position": 3,
+          "questionId": 7,
+          "topic": "通过网站交流爱好",
+          "prompt": "Question 3: Will you communicate and discuss your hobby through websites?",
+          "answer": "Yes, I will. There are many hiking forums and websites where I can share my travel experiences with other hiking lovers and discuss interesting routes and skills with them.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "question yes hiking forums websites"
+        }
+      ]
     },
     {
-      "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-7",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题27你认为一家公司有环境友好政策有什么好处.json",
-      "bankName": "真题27 你认为一家公司有环境友好政策有什么好处",
-      "questionId": 7,
-      "topic": "通过网站交流爱好",
-      "prompt": "Question 3: Will you communicate and discuss your hobby through websites?",
-      "answer": "Question 3: Yes, I will. There are many hiking forums and websites where I can share my travel experiences with other hiking lovers and discuss interesting routes and skills with them.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 45,
-      "difficulty": "medium",
-      "keywords": "question yes hiking forums websites"
-    },
-    {
-      "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题28你认为elementary school的学生是否需要开始学英语.json",
-      "bankName": "真题28 你认为elementary school的学生是否需要开始学英语",
-      "questionId": 1,
-      "topic": "做饭习惯",
-      "prompt": "你上次什么时候做饭？",
-      "answer": "The last time I cooked was last weekend. My wife cooked with me.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "last time cooked weekend wife"
-    },
-    {
-      "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题28你认为elementary school的学生是否需要开始学英语.json",
-      "bankName": "真题28 你认为elementary school的学生是否需要开始学英语",
-      "questionId": 2,
-      "topic": "烹饪偏好",
-      "prompt": "你喜欢做什么风格的菜？",
-      "answer": "I love cooking Chinese food because it is delicious and full of rich nutrition.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "love cooking chinese food delicious"
-    },
-    {
-      "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-3",
+      "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题28你认为elementary school的学生是否需要开始学英语.json",
       "bankName": "真题28 你认为elementary school的学生是否需要开始学英语",
-      "questionId": 3,
-      "topic": "烹饪能力",
-      "prompt": "你是否认为自己可以成为一个好的厨师？为什么？",
-      "answer": "I don't think I can become a good cook. On one hand, I often work late and have no time to learn how to cook well. On the other hand, after a tiring day, I have no energy to buy ingredients and prepare meals.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "做饭习惯 · 烹饪偏好 · 烹饪能力",
+      "prompt": "你上次什么时候做饭？\n你喜欢做什么风格的菜？\n你是否认为自己可以成为一个好的厨师？为什么？",
+      "answer": "The last time I cooked was last weekend. My wife cooked with me. I love cooking Chinese food because it is delicious and full of rich nutrition. I don't think I can become a good cook. On one hand, I often work late and have no time to learn how to cook well. On the other hand, after a tiring day.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "don think become good cook"
+      "keywords": "last time cooked weekend wife love cooking chinese food delicious don think become good cook",
+      "questions": [
+        {
+          "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "做饭习惯",
+          "prompt": "你上次什么时候做饭？",
+          "answer": "The last time I cooked was last weekend. My wife cooked with me.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "last time cooked weekend wife"
+        },
+        {
+          "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "烹饪偏好",
+          "prompt": "你喜欢做什么风格的菜？",
+          "answer": "I love cooking Chinese food because it is delicious and full of rich nutrition.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "love cooking chinese food delicious"
+        },
+        {
+          "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "烹饪能力",
+          "prompt": "你是否认为自己可以成为一个好的厨师？为什么？",
+          "answer": "I don't think I can become a good cook. On one hand, I often work late and have no time to learn how to cook well. On the other hand, after a tiring day.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "don think become good cook"
+        }
+      ]
     },
     {
-      "uid": "3-真题29网络和电子设备会取代报纸吗.json-5",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题29网络和电子设备会取代报纸吗.json",
-      "bankName": "真题29 网络和电子设备会取代报纸吗",
-      "questionId": 5,
-      "topic": "居住时长与住房类型",
-      "prompt": "Question 1: How long have you lived in your current house, and is it a house or an apartment?",
-      "answer": "Question 1: I have lived in my current apartment for three years. It is a small but cozy two-bedroom apartment located near the city center.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "question lived current apartment three"
-    },
-    {
-      "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题30参观热门旅游景点是熟悉这座城市的最佳方式.json",
-      "bankName": "真题30 参观热门旅游景点是熟悉这座城市的最佳方式",
-      "questionId": 1,
-      "topic": "阅读习惯",
-      "prompt": "买书，how often，where？",
-      "answer": "I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "buy books month often online"
-    },
-    {
-      "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题30参观热门旅游景点是熟悉这座城市的最佳方式.json",
-      "bankName": "真题30 参观热门旅游景点是熟悉这座城市的最佳方式",
-      "questionId": 2,
-      "topic": "阅读偏好",
-      "prompt": "喜欢电子书还是纸质书？",
-      "answer": "I like e-books because they are easy to carry and store, and they can save my reading progress automatically.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "books easy carry store save"
-    },
-    {
-      "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-3",
+      "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题30参观热门旅游景点是熟悉这座城市的最佳方式.json",
       "bankName": "真题30 参观热门旅游景点是熟悉这座城市的最佳方式",
-      "questionId": 3,
-      "topic": "阅读习惯和优点",
-      "prompt": "买书的优点？",
-      "answer": "Buying books allows me to gain a lot of knowledge and learn excellent experiences and problem-solving skills. I also prefer buying e-books because online searching and downloading are convenient, and they are usually cheaper.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "阅读习惯 · 阅读偏好 · 阅读习惯和优点",
+      "prompt": "买书，how often，where？\n喜欢电子书还是纸质书？\n买书的优点？",
+      "answer": "I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want. I like e-books because they are easy to carry and store, and they can save my reading progress automatically. Buying books allows me to gain a lot of knowledge and learn excellent experiences and problem-solving skills. I also prefer buying e-books because online searching and downloading are convenient, and they are usually cheaper.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "buying books allows gain lot"
+      "keywords": "buy books month often online books easy carry store save buying books allows gain lot",
+      "questions": [
+        {
+          "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "阅读习惯",
+          "prompt": "买书，how often，where？",
+          "answer": "I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "buy books month often online"
+        },
+        {
+          "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "阅读偏好",
+          "prompt": "喜欢电子书还是纸质书？",
+          "answer": "I like e-books because they are easy to carry and store, and they can save my reading progress automatically.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "books easy carry store save"
+        },
+        {
+          "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "阅读习惯和优点",
+          "prompt": "买书的优点？",
+          "answer": "Buying books allows me to gain a lot of knowledge and learn excellent experiences and problem-solving skills. I also prefer buying e-books because online searching and downloading are convenient, and they are usually cheaper.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "buying books allows gain lot"
+        }
+      ]
     },
     {
-      "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题31发生分歧是直接解决还是找领导帮忙.json",
-      "bankName": "真题31 发生分歧是直接解决还是找领导帮忙",
-      "questionId": 1,
-      "topic": "日常习惯",
-      "prompt": "Question 1: 你多久拍一次照片？通常在哪里拍？",
-      "answer": "I take photos almost every week when I go for a walk in the park.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "take photos almost week go"
-    },
-    {
-      "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题31发生分歧是直接解决还是找领导帮忙.json",
-      "bankName": "真题31 发生分歧是直接解决还是找领导帮忙",
-      "questionId": 2,
-      "topic": "软件使用",
-      "prompt": "Question 2: 你会用修图软件吗？为什么？",
-      "answer": "I don’t know how to use photo-editing software because I am busy with my work and I don’t have much time to learn it.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "don know use photo editing"
-    },
-    {
-      "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题32主管评价员工，周边同事反馈是否很重要.json",
-      "bankName": "真题32 主管评价员工，周边同事反馈是否很重要",
-      "questionId": 1,
-      "topic": "电影习惯",
-      "prompt": "你多久看一次电影？一般看什么类型？",
-      "answer": "I watch movies once a month. Most of the time, I watch action movies.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "watch movies once month time"
-    },
-    {
-      "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-2",
+      "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题32主管评价员工，周边同事反馈是否很重要.json",
       "bankName": "真题32 主管评价员工，周边同事反馈是否很重要",
-      "questionId": 2,
-      "topic": "电影观看方式",
-      "prompt": "你喜欢在家看电影还是去电影院？为什么？",
-      "answer": "I prefer watching movies at home. I am busy with work, so I don’t have much time to go to the cinema. It's also more convenient to choose movies online without interruptions.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "电影习惯 · 电影观看方式 · 喜欢的电影",
+      "prompt": "你多久看一次电影？一般看什么类型？\n你喜欢在家看电影还是去电影院？为什么？\n你最喜欢的电影是什么？为什么？",
+      "answer": "I watch movies once a month. Most of the time, I watch action movies. I prefer watching movies at home. I am busy with work, so I don't have much time to go to the cinema. I like a movie called Ne Zha 2. It is very famous and I am satisfied with its special effects and touching story. Many people have watched it more than once.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "prefer watching movies home am"
+      "keywords": "watch movies once month time prefer watching movies home am movie called ne zha famous",
+      "questions": [
+        {
+          "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "电影习惯",
+          "prompt": "你多久看一次电影？一般看什么类型？",
+          "answer": "I watch movies once a month. Most of the time, I watch action movies.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "watch movies once month time"
+        },
+        {
+          "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "电影观看方式",
+          "prompt": "你喜欢在家看电影还是去电影院？为什么？",
+          "answer": "I prefer watching movies at home. I am busy with work, so I don't have much time to go to the cinema.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "prefer watching movies home am"
+        },
+        {
+          "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "喜欢的电影",
+          "prompt": "你最喜欢的电影是什么？为什么？",
+          "answer": "I like a movie called Ne Zha 2. It is very famous and I am satisfied with its special effects and touching story. Many people have watched it more than once.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "movie called ne zha famous"
+        }
+      ]
     },
     {
-      "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题32主管评价员工，周边同事反馈是否很重要.json",
-      "bankName": "真题32 主管评价员工，周边同事反馈是否很重要",
-      "questionId": 3,
-      "topic": "喜欢的电影",
-      "prompt": "你最喜欢的电影是什么？为什么？",
-      "answer": "I like a movie called Ne Zha 2. It is very famous and I am satisfied with its special effects and touching story. Many people have watched it more than once.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "movie called ne zha famous"
-    },
-    {
-      "uid": "3-真题33在21岁以下开车的坏处.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题33在21岁以下开车的坏处.json",
-      "bankName": "真题33 21岁以下开车的坏处",
-      "questionId": 2,
-      "topic": "用餐体验",
-      "prompt": "how offen多久出去聚餐，通常跟谁一起去?",
-      "answer": "Usually, I gather with my friends for dinner twice a month. What’s more, we all like to have some beer every time.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "usually gather friends dinner twice"
-    },
-    {
-      "uid": "3-真题34职业生涯中频繁更换公司的好处.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题34职业生涯中频繁更换公司的好处.json",
-      "bankName": "真题34 职业生涯中，频繁更换公司的好处",
-      "questionId": 1,
-      "topic": "电影习惯",
-      "prompt": "How often do you watch movies and who do you usually watch them with?",
-      "answer": "I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family. It’s a good way to relax and spend time together.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "usually watch movies once week"
-    },
-    {
-      "uid": "3-真题34职业生涯中频繁更换公司的好处.json-2",
+      "uid": "3-真题34职业生涯中频繁更换公司的好处.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
       "priority": "P3",
       "sourceFile": "真题34职业生涯中频繁更换公司的好处.json",
       "bankName": "真题34 职业生涯中，频繁更换公司的好处",
-      "questionId": 2,
-      "topic": "电影偏好",
-      "prompt": "Do you prefer watching movies at home or at the movie theater?",
-      "answer": "I prefer watching movies at home because it’s more comfortable. I can choose what to watch and when to watch it, and I don’t have to deal with crowds or noise.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
+      "questionId": "1/2/3",
+      "topic": "电影习惯 · 电影偏好 · 最喜欢的电影",
+      "prompt": "How often do you watch movies and who do you usually watch them with?\nDo you prefer watching movies at home or at the movie theater?\nWhat is your favorite movie and why?",
+      "answer": "I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family. I prefer watching movies at home because it's more comfortable. I can choose what to watch and when to watch it. My favorite movie is Inception. The story is complex and exciting, and the special effects are amazing. I like how it makes me think about reality and dreams.",
+      "reason": "P3：整套主题较个人化、场景复用度或出现频率相对较低，适合最后补充话题覆盖面。",
       "instructions": "请回答以下问题：",
       "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "medium",
-      "keywords": "prefer watching movies home comfortable"
+      "keywords": "usually watch movies once week prefer watching movies home comfortable favorite movie inception story complex",
+      "questions": [
+        {
+          "uid": "3-真题34职业生涯中频繁更换公司的好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "电影习惯",
+          "prompt": "How often do you watch movies and who do you usually watch them with?",
+          "answer": "I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "usually watch movies once week"
+        },
+        {
+          "uid": "3-真题34职业生涯中频繁更换公司的好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "电影偏好",
+          "prompt": "Do you prefer watching movies at home or at the movie theater?",
+          "answer": "I prefer watching movies at home because it's more comfortable. I can choose what to watch and when to watch it.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "prefer watching movies home comfortable"
+        },
+        {
+          "uid": "3-真题34职业生涯中频繁更换公司的好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "最喜欢的电影",
+          "prompt": "What is your favorite movie and why?",
+          "answer": "My favorite movie is Inception. The story is complex and exciting, and the special effects are amazing. I like how it makes me think about reality and dreams.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "favorite movie inception story complex"
+        }
+      ]
     },
     {
-      "uid": "3-真题34职业生涯中频繁更换公司的好处.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题34职业生涯中频繁更换公司的好处.json",
-      "bankName": "真题34 职业生涯中，频繁更换公司的好处",
-      "questionId": 3,
-      "topic": "最喜欢的电影",
-      "prompt": "What is your favorite movie and why?",
-      "answer": "My favorite movie is Inception. The story is complex and exciting, and the special effects are amazing. I like how it makes me think about reality and dreams.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "favorite movie inception story complex"
-    },
-    {
-      "uid": "3-真题35父母让孩子做家务的好处.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题35父母让孩子做家务的好处.json",
-      "bankName": "真题35 父母让孩子做家务的好处",
-      "questionId": 1,
-      "topic": "游戏喜好",
-      "prompt": "Do you prefer playing video games or card games? How often do you play them?",
-      "answer": "I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "prefer playing video games exciting"
-    },
-    {
-      "uid": "3-真题35父母让孩子做家务的好处.json-2",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题35父母让孩子做家务的好处.json",
-      "bankName": "真题35 父母让孩子做家务的好处",
-      "questionId": 2,
-      "topic": "手机使用与游戏",
-      "prompt": "What type of phone do you use? How often do you play games on it?",
-      "answer": "I use an iPhone, which is convenient for games because of its large screen and smooth touch. I often play games during my free time.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "use iphone convenient games large"
-    },
-    {
-      "uid": "3-真题42员工自己设置工作时间有什么好处.json-1",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题42员工自己设置工作时间有什么好处.json",
-      "bankName": "真题42 员工自己设置工作时间有什么好处",
-      "questionId": 1,
-      "topic": "骑车经历",
-      "prompt": "Question 1: 你上次骑自行车是什么时候，和谁？",
-      "answer": "I last rode a bicycle a few weeks ago with my friend. We went to a nearby park and enjoyed the ride together.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 3,
-      "answerTime": 15,
-      "difficulty": "medium",
-      "keywords": "last rode bicycle few weeks"
-    },
-    {
-      "uid": "3-真题42员工自己设置工作时间有什么好处.json-3",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P3",
-      "sourceFile": "真题42员工自己设置工作时间有什么好处.json",
-      "bankName": "真题42 员工自己设置工作时间有什么好处",
-      "questionId": 3,
-      "topic": "选择偏好",
-      "prompt": "Question 3: 如果你选择自行车，你会看重颜色、设计还是品牌？",
-      "answer": "I prefer the brand. Famous brands usually provide better quality control and reliable customer service. Their bicycles last longer and their designs are also more popular.",
-      "reason": "较个人化或低频话题，用于补充覆盖面。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": 30,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "prefer brand famous brands usually"
-    },
-    {
-      "uid": "4-模拟题1.json-3",
+      "uid": "4-模拟题1.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "模拟题1.json",
       "bankName": "模拟题库-第1套",
-      "questionId": 3,
-      "topic": "活动详情",
-      "prompt": "第10题：对两个Building类活动做具体说明。",
-      "answer": "There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "活动地点 · 时间确认 · 活动详情",
+      "prompt": "第8题：问这个活动在哪里举行？\n第9题：他9点才能到，活动10点开始，会不会错过什么？\n第10题：对两个Building类活动做具体说明。",
+      "answer": "All the activities take place at the Richards History Museum. No, he will not miss anything because the activity starts at 10 o'clock. There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "building related activities exhibition called",
+      "keywords": "activities take place richards history no not miss anything activity building related activities exhibition called",
+      "questions": [
+        {
+          "uid": "4-模拟题1.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "活动地点",
+          "prompt": "第8题：问这个活动在哪里举行？",
+          "answer": "All the activities take place at the Richards History Museum.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "activities take place richards history"
+        },
+        {
+          "uid": "4-模拟题1.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "时间确认",
+          "prompt": "第9题：他9点才能到，活动10点开始，会不会错过什么？",
+          "answer": "No, he will not miss anything because the activity starts at 10 o'clock.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no not miss anything activity"
+        },
+        {
+          "uid": "4-模拟题1.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动详情",
+          "prompt": "第10题：对两个Building类活动做具体说明。",
+          "answer": "There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "building related activities exhibition called"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Day",
@@ -6909,23 +6955,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-模拟题2.json-10",
+      "uid": "4-模拟题2.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "模拟题2.json",
       "bankName": "模拟题库-第2套",
-      "questionId": 10,
+      "questionId": "8/9/10",
       "topic": "会议信息",
-      "prompt": "如果只有下午6点后有空，有哪些活动可以参加？",
-      "answer": "Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "prompt": "会议在哪一天什么时间举行？\n一个活动是在周一举行吗？\n如果只有下午6点后有空，有哪些活动可以参加？",
+      "answer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel. No, the database security sessions are held on Tuesday. Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–17:00 XXX Database Conference The Crown Hotel Opening speech, panel discussions and workshops Tuesday 10:00–11:00 Database Security Session The Crown Hotel Led by Mr. XXX Tuesday 15:00–16:00 Database Security Session The Crown Hotel Led by Mr. YYY",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "unfortunately no activities available sessions",
+      "keywords": "database conference held monday crown no database security sessions held unfortunately no activities available sessions",
+      "questions": [
+        {
+          "uid": "4-模拟题2.json-group-q1",
+          "position": 1,
+          "questionId": 8,
+          "topic": "会议信息",
+          "prompt": "会议在哪一天什么时间举行？",
+          "answer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "database conference held monday crown"
+        },
+        {
+          "uid": "4-模拟题2.json-group-q2",
+          "position": 2,
+          "questionId": 9,
+          "topic": "会议信息",
+          "prompt": "一个活动是在周一举行吗？",
+          "answer": "No, the database security sessions are held on Tuesday.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no database security sessions held"
+        },
+        {
+          "uid": "4-模拟题2.json-group-q3",
+          "position": 3,
+          "questionId": 10,
+          "topic": "会议信息",
+          "prompt": "如果只有下午6点后有空，有哪些活动可以参加？",
+          "answer": "Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "unfortunately no activities available sessions"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Day",
@@ -6971,167 +7056,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-模拟题3.json-10",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 10,
-      "topic": "课程信息",
-      "prompt": "如果只有下午6点后有空，有哪些活动可以参加？",
-      "answer": "Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–9:30 Registration & Welcome Coffee Main Lobby Check-in before sessions Tuesday 10:00–11:00 Clean Water and Sanitation Room A Led by Mr. Sandra Thursday 10:30–11:30 Life Below Water Room B Led by Peter Kemp",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "unfortunately no activities available sessions",
-      "material": {
-        "headers": [
-          "Day",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "9:00–9:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Check-in before sessions"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "10:00–11:00",
-              "Clean Water and Sanitation",
-              "Room A",
-              "Led by Mr. Sandra"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Thursday",
-              "10:30–11:30",
-              "Life Below Water",
-              "Room B",
-              "Led by Peter Kemp"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题01沟通组织解决问题哪个重要.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题01沟通组织解决问题哪个重要.json",
-      "bankName": "真题1 沟通组织解决问题哪个重要",
-      "questionId": 3,
-      "topic": "展览信息",
-      "prompt": "第10题：对Building类展览比较感兴趣，具体描述时间等内容。",
-      "answer": "There are two building-related exhibitions. One is called 'Houses Around the World' on May 4th, and the other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9 a.m. to 5 p.m.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "Houses Around the World How Palaces were Built exhibition",
-      "material": {
-        "headers": [
-          "Day",
-          "Activity",
-          "Time",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday–Saturday",
-              "Museum Opening",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Sunday",
-              "Museum Opening",
-              "12pm–8pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 11th",
-              "Children’s Day",
-              "All Day",
-              "The Richards History Museum",
-              "Children under 12 free admission"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 4th",
-              "Houses Around the World Exhibition",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 25th",
-              "How Palaces were Built Film",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题02新工作哪个能力最重要.json-3",
+      "uid": "4-真题02新工作哪个能力最重要.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题02新工作哪个能力最重要.json",
       "bankName": "真题2 新工作哪个能力最重要",
-      "questionId": 3,
-      "topic": "会议内容",
-      "prompt": "关于安全的会议有哪些场次？",
-      "answer": "There are two database security sessions. One is the morning session from 10:00 to 11:00, and the other is the afternoon session from 3:00 to 4:00.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间 · 会议地点确认 · 会议内容",
+      "prompt": "会议在哪一天举行？会议的开始时间是什么？\n会议地址是哪个酒店，对吗？\n关于安全的会议有哪些场次？",
+      "answer": "The database security meeting will be held on May 20th, and the morning session starts at 10:00 a.m. Yes, the meeting will be held at The Crown Hotel. There are two database security sessions. One is the morning session from 10:00 to 11:00, and the other is the afternoon session from 3:00 to 4:00.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Session Time Location Notes May 20th Database Security Morning Session 10:00am–11:00am The Crown Hotel Session about database security May 20th Database Security Afternoon Session 3:00pm–4:00pm The Crown Hotel Session about database security",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "database security sessions morning session",
+      "keywords": "database security meeting held th yes meeting take place crown database security sessions morning session",
+      "questions": [
+        {
+          "uid": "4-真题02新工作哪个能力最重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间",
+          "prompt": "会议在哪一天举行？会议的开始时间是什么？",
+          "answer": "The database security meeting will be held on May 20th, and the morning session starts at 10:00 a.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "database security meeting held th"
+        },
+        {
+          "uid": "4-真题02新工作哪个能力最重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议地点确认",
+          "prompt": "会议地址是哪个酒店，对吗？",
+          "answer": "Yes, the meeting will be held at The Crown Hotel.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes meeting take place crown"
+        },
+        {
+          "uid": "4-真题02新工作哪个能力最重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "会议内容",
+          "prompt": "关于安全的会议有哪些场次？",
+          "answer": "There are two database security sessions. One is the morning session from 10:00 to 11:00, and the other is the afternoon session from 3:00 to 4:00.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "database security sessions morning session"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -7167,95 +7147,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题03改变国家图书馆.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题03改变国家图书馆.json",
-      "bankName": "真题3 改变国家图书馆",
-      "questionId": 3,
-      "topic": "课程时间选择",
-      "prompt": "如果只有6点后有空，有哪些活动可以参加？",
-      "answer": "Unfortunately, none of the listed sessions are available after 6 p.m. All activities are scheduled in the morning or early afternoon.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Day Session Time Speaker Notes Monday Clean Water and Sanitation 9:00am–10:00am Mr. Sandra Session about clean water and sanitation Tuesday Life Below Water 10:30am–11:30am Peter Kemp Discussion on aquatic life Wednesday Forest Conservation 8:30am–9:30am Lisa Green Discussion about forest preservation Thursday Renewable Energy 11:00am–12:00pm Tom White Session about renewable energy",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "unfortunately none listed sessions available",
-      "material": {
-        "headers": [
-          "Day",
-          "Session",
-          "Time",
-          "Speaker",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "Clean Water and Sanitation",
-              "9:00am–10:00am",
-              "Mr. Sandra",
-              "Session about clean water and sanitation"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "Life Below Water",
-              "10:30am–11:30am",
-              "Peter Kemp",
-              "Discussion on aquatic life"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Wednesday",
-              "Forest Conservation",
-              "8:30am–9:30am",
-              "Lisa Green",
-              "Discussion about forest preservation"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Thursday",
-              "Renewable Energy",
-              "11:00am–12:00pm",
-              "Tom White",
-              "Session about renewable energy"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题04offer是否要跟家里人交流.json-3",
+      "uid": "4-真题04offer是否要跟家里人交流.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题04offer是否要跟家里人交流.json",
       "bankName": "真题4 offer是否要跟家里人交流",
-      "questionId": 3,
-      "topic": "会议内容",
-      "prompt": "对 George Bryant 感兴趣的报告有哪些？",
-      "answer": "There are two sessions related to George Bryant: Report Session 1 at 6:15am and Report Session 2 at 7:00am.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间 · 会议时间确认 · 会议内容",
+      "prompt": "会议什么时候举行？\nXXX会议是6点开始吗？\n对 George Bryant 感兴趣的报告有哪些？",
+      "answer": "The meeting will be held on January 17th in the auditorium hall. No, the XXX meeting will start at 5:30am and last until 6:30am. There are two sessions related to George Bryant: Report Session 1 at 6:15am and Report Session 2 at 7:00am.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Meeting Location Organizer Notes January 17 Weekly Meeting Auditorium Hall Mr. Smith Discuss company updates January 17 XXX Meeting Auditorium Hall Mr. Johnson Presentation from 5:30am to 6:30am January 17 Report Session 1 Conference Room George Bryant Discussion at 6:15am January 17 Report Session 2 Conference Room George Bryant Second session at 7:00am",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "sessions related george bryant report",
+      "keywords": "meeting held january th auditorium no xxx meeting start am sessions related george bryant report",
+      "questions": [
+        {
+          "uid": "4-真题04offer是否要跟家里人交流.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间",
+          "prompt": "会议什么时候举行？",
+          "answer": "The meeting will be held on January 17th in the auditorium hall.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting held january th auditorium"
+        },
+        {
+          "uid": "4-真题04offer是否要跟家里人交流.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议时间确认",
+          "prompt": "XXX会议是6点开始吗？",
+          "answer": "No, the XXX meeting will start at 5:30am and last until 6:30am.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no xxx meeting start am"
+        },
+        {
+          "uid": "4-真题04offer是否要跟家里人交流.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "会议内容",
+          "prompt": "对 George Bryant 感兴趣的报告有哪些？",
+          "answer": "There are two sessions related to George Bryant: Report Session 1 at 6:15am and Report Session 2 at 7:00am.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "sessions related george bryant report"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -7311,23 +7258,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题05网上读新闻的坏处.json-3",
+      "uid": "4-真题05网上读新闻的坏处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题05网上读新闻的坏处.json",
       "bankName": "真题5 网上读新闻的坏处",
-      "questionId": 3,
-      "topic": "会议内容",
-      "prompt": "Sandy 负责的会议有哪些？",
-      "answer": "Mr. Sandy is responsible for two sessions: Sandy Session 1 on August 15 and Sandy Session 2 on August 20.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议日期 · 样品批准 · 会议内容",
+      "prompt": "发布会是哪天？\nApprove sample 是在8月吗？\nSandy 负责的会议有哪些？",
+      "answer": "The product launch will be held on August 10. No, the approved samples will arrive in October. Mr. Sandy is responsible for two sessions: Sandy Session 1 on August 15 and Sandy Session 2 on August 20.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Meeting Organizer Notes August 10 Product Launch Mr. Smith Main launch event August 10 Marketing Meeting Mr. Brown Discuss marketing strategies October Sample Approval Ms. Taylor Approved samples arrive August 15 Sandy Session 1 Mr. Sandy Presentation on product August 20 Sandy Session 2 Mr. Sandy Follow-up meeting",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "mr sandy responsible sessions session",
+      "keywords": "product launch held august no approved samples arrive october mr sandy responsible sessions session",
+      "questions": [
+        {
+          "uid": "4-真题05网上读新闻的坏处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议日期",
+          "prompt": "发布会是哪天？",
+          "answer": "The product launch will be held on August 10.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "product launch held august"
+        },
+        {
+          "uid": "4-真题05网上读新闻的坏处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "样品批准",
+          "prompt": "Approve sample 是在8月吗？",
+          "answer": "No, the approved samples will arrive in October.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no approved samples arrive october"
+        },
+        {
+          "uid": "4-真题05网上读新闻的坏处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "会议内容",
+          "prompt": "Sandy 负责的会议有哪些？",
+          "answer": "Mr. Sandy is responsible for two sessions: Sandy Session 1 on August 15 and Sandy Session 2 on August 20.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "mr sandy responsible sessions session"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -7387,23 +7373,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题06未来一代为什么比现在一代更健康.json-3",
+      "uid": "4-真题06未来一代为什么比现在一代更健康.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题06未来一代为什么比现在一代更健康.json",
       "bankName": "真题6 未来一代为什么比现在一代更健康",
-      "questionId": 3,
-      "topic": "会议内容",
-      "prompt": "我对阅读技术感兴趣，参加哪些会议？",
-      "answer": "There are two reading technology sessions. One is from 14:00 to 15:00 in Room 101, and the other is from 16:00 to 17:00 in Room 102.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间 · 会议活动 · 会议内容",
+      "prompt": "儿童文学会议什么时候举办？\n我想签一本书，什么时候可以？\n我对阅读技术感兴趣，参加哪些会议？",
+      "answer": "The children's literature conference will be held from 8:30 to 9:30 in the morning. You can attend the book signing by XX Clark from 10:00 to 11:00. There are two reading technology sessions. One is from 14:00 to 15:00 in Room 101, and the other is from 16:00 to 17:00 in Room 102.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Event Location Notes 08:30–09:30 Children's Literature Conference Main Hall Start of the conference 10:00–11:00 Book Signing by XX Clark Conference Room A Opportunity for attendees to sign books 14:00–15:00 Reading Technology Session 1 Room 101 Given by M. Smith 16:00–17:00 Reading Technology Session 2 Room 102 Given by M. Johnson",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "reading technology sessions room",
+      "keywords": "children literature conference held morning attend book signing xx clark reading technology sessions room",
+      "questions": [
+        {
+          "uid": "4-真题06未来一代为什么比现在一代更健康.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间",
+          "prompt": "儿童文学会议什么时候举办？",
+          "answer": "The children's literature conference will be held from 8:30 to 9:30 in the morning.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "children literature conference held morning"
+        },
+        {
+          "uid": "4-真题06未来一代为什么比现在一代更健康.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议活动",
+          "prompt": "我想签一本书，什么时候可以？",
+          "answer": "You can attend the book signing by XX Clark from 10:00 to 11:00.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "attend book signing xx clark"
+        },
+        {
+          "uid": "4-真题06未来一代为什么比现在一代更健康.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "会议内容",
+          "prompt": "我对阅读技术感兴趣，参加哪些会议？",
+          "answer": "There are two reading technology sessions. One is from 14:00 to 15:00 in Room 101, and the other is from 16:00 to 17:00 in Room 102.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "reading technology sessions room"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -7454,23 +7479,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题07老师能否让学生带电子设备.json-3",
+      "uid": "4-真题07老师能否让学生带电子设备.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题07老师能否让学生带电子设备.json",
       "bankName": "真题7 老师能否让学生带电子设备",
-      "questionId": 3,
-      "topic": "会议内容",
-      "prompt": "关于制造的会议有哪些？请说明具体信息。",
-      "answer": "There are two manufacturing-related sessions. One is Innovative Manufacturing Technology from 9:30 to 10:30 in Nelson Auditorium B. The other is Better Budgeting for Manufacturing from 4:00 to 5:00 in Nelson Auditorium A.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间地点 · 会议餐饮 · 会议内容",
+      "prompt": "会议在什么时间什么地方举行？\n我需要自己准备午餐吗？\n关于制造的会议有哪些？请说明具体信息。",
+      "answer": "The event will be held at the Nelson Conference Center, starting at 9:30 in Nelson Auditorium B. No, lunch will be provided at 12:30 at the Nelson Conference Center. There are two manufacturing-related sessions. One is Innovative Manufacturing Technology from 9:30 to 10:30 in Nelson Auditorium B. The other is Better Budgeting for Manufacturing from 4:00 to 5:00 in Nelson Auditorium A.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:30–10:30 Innovative Manufacturing Technology Nelson Auditorium B Session on latest technology 12:30–13:00 Lunch Provided Nelson Conference Center Lunch will be served to participants 16:00–17:00 Better Budgeting for Manufacturing Nelson Auditorium A Session on budgeting skills",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "manufacturing related sessions innovative technology",
+      "keywords": "event held nelson conference center no lunch provided nelson conference manufacturing related sessions innovative technology",
+      "questions": [
+        {
+          "uid": "4-真题07老师能否让学生带电子设备.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间地点",
+          "prompt": "会议在什么时间什么地方举行？",
+          "answer": "The event will be held at the Nelson Conference Center, starting at 9:30 in Nelson Auditorium B.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "event held nelson conference center"
+        },
+        {
+          "uid": "4-真题07老师能否让学生带电子设备.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议餐饮",
+          "prompt": "我需要自己准备午餐吗？",
+          "answer": "No, lunch will be provided at 12:30 at the Nelson Conference Center.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no lunch provided nelson conference"
+        },
+        {
+          "uid": "4-真题07老师能否让学生带电子设备.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "会议内容",
+          "prompt": "关于制造的会议有哪些？请说明具体信息。",
+          "answer": "There are two manufacturing-related sessions. One is Innovative Manufacturing Technology from 9:30 to 10:30 in Nelson Auditorium B. The other is Better Budgeting for Manufacturing from 4:00 to 5:00 in Nelson Auditorium A.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "manufacturing related sessions innovative technology"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -7512,139 +7576,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题08作为老板高效沟通是不是最重要.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题08作为老板高效沟通是不是最重要.json",
-      "bankName": "真题8 作为老板高效沟通是不是最重要",
-      "questionId": 3,
-      "topic": "活动导览信息",
-      "prompt": "有哪些导览活动？能提供具体信息吗？",
-      "answer": "There are two guided tours. One is the Art Exhibition from 10:00 to 11:00 in Gallery A led by the curator. The other is the Historical Collection from 11:30 to 12:30 in Gallery B led by museum staff.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:00–09:30 Member Registration Main Entrance Members check in 10:00–11:00 Guided Tour: Art Exhibition Gallery A Led by curator 11:30–12:30 Guided Tour: Historical Collection Gallery B Led by museum staff",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "guided tours art exhibition gallery",
-      "material": {
-        "headers": [
-          "Time",
-          "Event",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Member Registration",
-              "Main Entrance",
-              "Members check in"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Guided Tour: Art Exhibition",
-              "Gallery A",
-              "Led by curator"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:30–12:30",
-              "Guided Tour: Historical Collection",
-              "Gallery B",
-              "Led by museum staff"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题09学术专业成功最重要因素.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题09学术专业成功最重要因素.json",
-      "bankName": "真题9 学术专业成功最重要因素",
-      "questionId": 3,
-      "topic": "培训细节",
-      "prompt": "第三场培训的主题、地点和方式有哪些？",
-      "answer": "The third training is Leadership Skills in Conference Room C from 14:00 to 15:00, including role-playing and group discussions.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Time Topic Location Notes 10:00–11:00 Training: Communication Skills Conference Room A Focus on effective communication 11:30–12:30 Training: Time Management Conference Room B Practical exercises 14:00–15:00 Training: Leadership Skills Conference Room C Role-playing and group discussion",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "third training leadership skills conference",
-      "material": {
-        "headers": [
-          "Time",
-          "Topic",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "10:00–11:00",
-              "Training: Communication Skills",
-              "Conference Room A",
-              "Focus on effective communication"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:30–12:30",
-              "Training: Time Management",
-              "Conference Room B",
-              "Practical exercises"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Training: Leadership Skills",
-              "Conference Room C",
-              "Role-playing and group discussion"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题10买房比租房的缺点.json-3",
+      "uid": "4-真题10买房比租房的缺点.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题10买房比租房的缺点.json",
       "bankName": "真题10 买房公寓比租房的缺点",
-      "questionId": 3,
-      "topic": "面试线上信息",
-      "prompt": "想参加线上面试，具体信息是什么？",
-      "answer": "There are two online interviews. One is at 9:30 am for Applicant A applying for XX position. Another is at 11:30 am for Applicant B applying for XX position.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "面试时间地点 · 面试线下信息 · 面试线上信息",
+      "prompt": "招聘会时间和地点是什么？第一场面试什么时候开始？\n想参加线下会议，具体信息是什么？\n想参加线上面试，具体信息是什么？",
+      "answer": "The interview will be held at XX Venue from 7:00 am to 2:00 pm on Tuesday, June 18th. Yes, the interview for the Sales position will be held at 2:00 pm at XX Venue. There are two online interviews. One is at 9:30 am for Applicant A applying for XX position. Another is at 11:30 am for Applicant B applying for XX position.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 07:00–14:00 Interview Session XX Venue The recruitment fair will be held in the venue 14:00–15:00 Interview: Sales Position XX Venue Only one interview scheduled for assistant store manager position 09:30–10:30 Online Interview Online Platform Applicant A for XX position 11:30–12:30 Online Interview Online Platform Applicant B for XX position",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "online interviews am applicant applying",
+      "keywords": "interview held xx venue am yes interview sales position held online interviews am applicant applying",
+      "questions": [
+        {
+          "uid": "4-真题10买房比租房的缺点.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "面试时间地点",
+          "prompt": "招聘会时间和地点是什么？第一场面试什么时候开始？",
+          "answer": "The interview will be held at XX Venue from 7:00 am to 2:00 pm on Tuesday, June 18th.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "interview held xx venue am"
+        },
+        {
+          "uid": "4-真题10买房比租房的缺点.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "面试线下信息",
+          "prompt": "想参加线下会议，具体信息是什么？",
+          "answer": "Yes, the interview for the Sales position will be held at 2:00 pm at XX Venue.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes interview sales position held"
+        },
+        {
+          "uid": "4-真题10买房比租房的缺点.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "面试线上信息",
+          "prompt": "想参加线上面试，具体信息是什么？",
+          "answer": "There are two online interviews. One is at 9:30 am for Applicant A applying for XX position. Another is at 11:30 am for Applicant B applying for XX position.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "online interviews am applicant applying"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -7695,23 +7682,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-3",
+      "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题11政府提供免费大学课程的好处有哪些.json",
       "bankName": "真题11 政府提供免费大学课程的好处有哪些",
-      "questionId": 3,
-      "topic": "返程航班",
-      "prompt": "返程航班信息是什么？",
-      "answer": "The return flight departs from Sydney at 3 PM on June 19th. The flight number is Oceanic Air 8888. You will land in Singapore at 11 PM on the same day.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "航班信息 · 住宿信息 · 返程航班",
+      "prompt": "出发航班信息是什么？请提供航班号、日期、起飞地和降落地、时间。\n住宿信息是什么？了解在belong branch office的行程\n返程航班信息是什么？",
+      "answer": "The departure time from Singapore is 2:30 PM on June 17th. The flight number is Oceanic Air 7777. Yes, we have reserved a room for you at XX Hotel from June 17th to June 19th. The return flight departs from Sydney at 3 PM on June 19th. The flight number is Oceanic Air 8888. You will land in Singapore at 11 PM on the same day.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Travel Details Notes Departure Oceanic Air 7777, from Singapore at 2:30 PM on June 17th Landing in Sydney at 11 PM same day Hotel XX Hotel, June 17–19 Accommodation reserved Return Flight Oceanic Air 8888, from Sydney at 3 PM on June 19th Landing in Singapore at 11 PM same day",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "return flight departs sydney pm",
+      "keywords": "departure time singapore pm june yes reserved room xx hotel return flight departs sydney pm",
+      "questions": [
+        {
+          "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "航班信息",
+          "prompt": "出发航班信息是什么？请提供航班号、日期、起飞地和降落地、时间。",
+          "answer": "The departure time from Singapore is 2:30 PM on June 17th. The flight number is Oceanic Air 7777.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "departure time singapore pm june"
+        },
+        {
+          "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "住宿信息",
+          "prompt": "住宿信息是什么？了解在belong branch office的行程",
+          "answer": "Yes, we have reserved a room for you at XX Hotel from June 17th to June 19th.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes reserved room xx hotel"
+        },
+        {
+          "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "返程航班",
+          "prompt": "返程航班信息是什么？",
+          "answer": "The return flight departs from Sydney at 3 PM on June 19th. The flight number is Oceanic Air 8888. You will land in Singapore at 11 PM on the same day.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "return flight departs sydney pm"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Travel",
@@ -7749,23 +7775,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题12毕业后第一份工作必要吗.json-3",
+      "uid": "4-真题12毕业后第一份工作必要吗.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题12毕业后第一份工作必要吗.json",
       "bankName": "真题12 毕业后第一份工作必要吗",
-      "questionId": 3,
-      "topic": "会议内容咨询",
-      "prompt": "介绍Project Briefing的具体情况",
-      "answer": "The Project Briefing is from 10:00 to 11:00 in Room 202. The supervisor presents the new project details to all employees.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间与议题 · 会议时间确认 · 会议内容咨询",
+      "prompt": "会议几点开始，第一个议题是什么？\n有人10点才能到，会错过什么内容？\n介绍Project Briefing的具体情况",
+      "answer": "The meeting starts at 9:00, and the first topic is the introduction and daily plan discussion. They will not miss the main project briefing, which starts at 10:00. The Project Briefing is from 10:00 to 11:00 in Room 202. The supervisor presents the new project details to all employees.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Activity Details Notes Morning Meeting Starts at 9:00, all employees Introduction and daily plan discussion Project Briefing 10:00–11:00, Room 202 Supervisor presents new project details Coffee Break 11:00–11:15, Lounge Area Refreshments provided for participants",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "project briefing room supervisor presents",
+      "keywords": "meeting starts topic introduction daily not miss main project briefing project briefing room supervisor presents",
+      "questions": [
+        {
+          "uid": "4-真题12毕业后第一份工作必要吗.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间与议题",
+          "prompt": "会议几点开始，第一个议题是什么？",
+          "answer": "The meeting starts at 9:00, and the first topic is the introduction and daily plan discussion.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting starts topic introduction daily"
+        },
+        {
+          "uid": "4-真题12毕业后第一份工作必要吗.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议时间确认",
+          "prompt": "有人10点才能到，会错过什么内容？",
+          "answer": "They will not miss the main project briefing, which starts at 10:00.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "not miss main project briefing"
+        },
+        {
+          "uid": "4-真题12毕业后第一份工作必要吗.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "会议内容咨询",
+          "prompt": "介绍Project Briefing的具体情况",
+          "answer": "The Project Briefing is from 10:00 to 11:00 in Room 202. The supervisor presents the new project details to all employees.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "project briefing room supervisor presents"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Activity",
@@ -7803,77 +7868,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题13offer是否需要考虑公司的名誉.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题13offer是否需要考虑公司的名誉.json",
-      "bankName": "真题13 offer是否需要考虑公司的名誉",
-      "questionId": 3,
-      "topic": "课程信息",
-      "prompt": "对Class有兴趣，想了解class相关信息，有几个相关的class？",
-      "answer": "There are two classes related to this activity.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Activity Details Notes Fishing All equipment provided No need to bring your own tools Classes Two relevant classes Interested participants can get more info Special Event Participant's choice Final option is the one selected by participant",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "classes related activity class",
-      "material": {
-        "headers": [
-          "Activity",
-          "Details",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Fishing",
-              "All equipment provided",
-              "No need to bring your own tools"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Classes",
-              "Two relevant classes",
-              "Interested participants can get more info"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Special Event",
-              "Participant's choice",
-              "Final option is the one selected by participant"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题14去当实习生吗.json-3",
+      "uid": "4-真题14去当实习生吗.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题14去当实习生吗.json",
       "bankName": "真题14 去当实习生吗",
-      "questionId": 3,
-      "topic": "会议议题详情",
-      "prompt": "第三个议题的详情有哪些？Grim先生讲的话题是什么？",
-      "answer": "There is a topic presented by Grim from 11:00 to 12:00. Grim will discuss specific details of the project, including start and end times and discussion points.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间与议题 · 会议内容确认 · 会议议题详情",
+      "prompt": "会议几点开始？第一个议题是什么？\n有人11点要离开，会错过什么内容？\n第三个议题的详情有哪些？Grim先生讲的话题是什么？",
+      "answer": "It will start at 8:00, and the first topic is freshmen introduction. No, actually the meeting will end at 10:00, so they won't miss anything. There is a topic presented by Grim from 11:00 to 12:00. Grim will discuss specific details of the project, including start and end times and discussion points.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/07/02 08:00–10:00 Meeting Conference Room First topic: Freshmen introduction 2022/07/02 10:30–11:00 Break Lobby Some attendees leave at 11 am 2022/07/02 11:00–12:00 Topic by Grim Conference Room Details: start-end time, speaker Grim, topic discussion",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "topic presented grim discuss specific",
+      "keywords": "start topic freshmen introduction no actually meeting end won topic presented grim discuss specific",
+      "questions": [
+        {
+          "uid": "4-真题14去当实习生吗.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间与议题",
+          "prompt": "会议几点开始？第一个议题是什么？",
+          "answer": "It will start at 8:00, and the first topic is freshmen introduction.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "start topic freshmen introduction"
+        },
+        {
+          "uid": "4-真题14去当实习生吗.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议内容确认",
+          "prompt": "有人11点要离开，会错过什么内容？",
+          "answer": "No, actually the meeting will end at 10:00, so they won't miss anything.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no actually meeting end won"
+        },
+        {
+          "uid": "4-真题14去当实习生吗.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "会议议题详情",
+          "prompt": "第三个议题的详情有哪些？Grim先生讲的话题是什么？",
+          "answer": "There is a topic presented by Grim from 11:00 to 12:00. Grim will discuss specific details of the project, including start and end times and discussion points.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "topic presented grim discuss specific"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -7919,23 +7969,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题15获得professional success是否需要take risk.json-3",
+      "uid": "4-真题15获得professional success是否需要take risk.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题15获得professional success是否需要take risk.json",
       "bankName": "真题15 获得professional success，是否需要take risk",
-      "questionId": 3,
-      "topic": "食物相关活动",
-      "prompt": "与食物相关的活动有几场？",
-      "answer": "There are two events about food. The first one is a cooking demonstration, and the second one is at 11 am.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "活动日期 · 活动取消 · 食物相关活动",
+      "prompt": "活动是在几月几号举行？\n原定自行车或徒步旅行活动是否取消？\n与食物相关的活动有几场？",
+      "answer": "Yes, it will be held on April the third. No, actually it had been canceled. There are two events about food. The first one is a cooking demonstration, and the second one is at 11 am.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2024/04/03 09:00–10:00 Opening Ceremony Main Hall Welcome speech 2024/04/03 10:30–11:30 Cycling Event City Street Originally scheduled for April 4 but cancelled 2024/04/03 11:00–12:00 Cooking Demonstration Kitchen Area Focus on healthy recipes",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "events food cooking demonstration am",
+      "keywords": "yes held april third no actually canceled events food cooking demonstration am",
+      "questions": [
+        {
+          "uid": "4-真题15获得professional success是否需要take risk.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "活动日期",
+          "prompt": "活动是在几月几号举行？",
+          "answer": "Yes, it will be held on April the third.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes held april third"
+        },
+        {
+          "uid": "4-真题15获得professional success是否需要take risk.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动取消",
+          "prompt": "原定自行车或徒步旅行活动是否取消？",
+          "answer": "No, actually it had been canceled.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no actually canceled"
+        },
+        {
+          "uid": "4-真题15获得professional success是否需要take risk.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "食物相关活动",
+          "prompt": "与食物相关的活动有几场？",
+          "answer": "There are two events about food. The first one is a cooking demonstration, and the second one is at 11 am.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "events food cooking demonstration am"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -7981,23 +8070,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题16有钱就快乐吗.json-3",
+      "uid": "4-真题16有钱就快乐吗.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题16有钱就快乐吗.json",
       "bankName": "真题16 有钱就快乐吗",
-      "questionId": 3,
-      "topic": "岗位面试安排",
-      "prompt": "营养均衡师岗位的面试有几场？几点开始？",
-      "answer": "There are two nutritionist interviews. The first starts at 09:00 and the second at 09:30.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "面试时间 · 面试变更 · 岗位面试安排",
+      "prompt": "面试安排在哪天开始？几点钟？\n08:30的面试发生了什么？\n营养均衡师岗位的面试有几场？几点开始？",
+      "answer": "The interviews start on March 13, 2022, at 8:00 a.m.. The 08:30 interview was cancelled. There are two nutritionist interviews. The first starts at 09:00 and the second at 09:30.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/03/13 08:00–08:30 Interview Round 1 Room A General interview 2022/03/13 08:30–09:00 Interview Round 2 Room B Cancelled 2022/03/13 09:00–09:30 Nutritionist Interview 1 Room C Balanced diet focus 2022/03/13 09:30–10:00 Nutritionist Interview 2 Room C Second candidate",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "nutritionist interviews starts",
+      "keywords": "interviews start interview cancelled nutritionist interviews starts",
+      "questions": [
+        {
+          "uid": "4-真题16有钱就快乐吗.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "面试时间",
+          "prompt": "面试安排在哪天开始？几点钟？",
+          "answer": "The interviews start on March 13, 2022, at 8:00 a.m..",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "interviews start"
+        },
+        {
+          "uid": "4-真题16有钱就快乐吗.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "面试变更",
+          "prompt": "08:30的面试发生了什么？",
+          "answer": "The 08:30 interview was cancelled.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "interview cancelled"
+        },
+        {
+          "uid": "4-真题16有钱就快乐吗.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "岗位面试安排",
+          "prompt": "营养均衡师岗位的面试有几场？几点开始？",
+          "answer": "There are two nutritionist interviews. The first starts at 09:00 and the second at 09:30.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "nutritionist interviews starts"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -8053,23 +8181,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题17幽默humor还是严肃serious.json-3",
+      "uid": "4-真题17幽默humor还是严肃serious.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题17幽默humor还是严肃serious.json",
       "bankName": "真题17 幽默humor还是严肃serious",
-      "questionId": 3,
-      "topic": "营养师岗位面试信息咨询",
-      "prompt": "Could you provide specific information about the two nutritionist positions' interviews?",
-      "answer": "There are two one-on-one interviews for nutritionist positions. The first one is for clinical nutrition expertise, held from 9:00 to 9:45 AM on October 12th in Meeting Room 2. The second one focuses on product development experience, held from 10:00 to 10:45 AM on the same day in Meeting Room 2.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "培训日期及首场时间咨询 · 延期培训情况咨询 · 营养师岗位面试信息咨询",
+      "prompt": "When is the new employee training scheduled, and what time does the first training session start?\nWhat can you tell me about the training session that is crossed out and marked \"postponed\"?\nCould you provide specific information about the two nutritionist positions' interviews?",
+      "answer": "The new employee training is scheduled for October 22nd, and the first training session starts at 8:00 in the morning. The training was planned on October 15th at 9:00 AM, but the new date is not confirmed yet. There are two nutritionist interviews on October 12th in Meeting Room 2. The clinical nutrition interview is from 9:00 to 9:45 AM, and the product development interview is from 10:00 to 10:45 AM.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 12th 08:00-08:45 Group Interview - All Candidates Meeting Room 1 Food company interview kick-off Oct 12th 09:00-09:45 One-on-one Interview - Nutritionist 1 Meeting Room 2 Clinical nutrition expertise Oct 12th 10:00-10:45 One-on-one Interview - Nutritionist 2 Meeting Room 2 Product development experience ~~Oct 15th 09:00~~ New Employee Training Training Room A *Postponed* Oct 22nd 08:00-12:00 New Employee Training Session 1 Training Room A Food safety & nutrition basics",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "interviews nutritionist positions clinical nutrition",
+      "keywords": "new employee training scheduled october crossed out training originally planned interviews nutritionist positions clinical nutrition",
+      "questions": [
+        {
+          "uid": "4-真题17幽默humor还是严肃serious.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "培训日期及首场时间咨询",
+          "prompt": "When is the new employee training scheduled, and what time does the first training session start?",
+          "answer": "The new employee training is scheduled for October 22nd, and the first training session starts at 8:00 in the morning.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "new employee training scheduled october"
+        },
+        {
+          "uid": "4-真题17幽默humor还是严肃serious.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "延期培训情况咨询",
+          "prompt": "What can you tell me about the training session that is crossed out and marked \"postponed\"?",
+          "answer": "The training was planned on October 15th at 9:00 AM, but the new date is not confirmed yet.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "crossed out training originally planned"
+        },
+        {
+          "uid": "4-真题17幽默humor还是严肃serious.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "营养师岗位面试信息咨询",
+          "prompt": "Could you provide specific information about the two nutritionist positions' interviews?",
+          "answer": "There are two nutritionist interviews on October 12th in Meeting Room 2. The clinical nutrition interview is from 9:00 to 9:45 AM, and the product development interview is from 10:00 to 10:45 AM.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "interviews nutritionist positions clinical nutrition"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -8135,23 +8302,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题18项目中分歧需要解决还是忽略.json-3",
+      "uid": "4-真题18项目中分歧需要解决还是忽略.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题18项目中分歧需要解决还是忽略.json",
       "bankName": "真题18 项目中分歧需要解决还是忽略",
-      "questionId": 3,
-      "topic": "项目管理",
-      "prompt": "哪些活动是与项目分歧解决相关？",
-      "answer": "The project discussion from 10:00 to 10:45 focuses on resolving project gaps.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间 · 会议时间确认 · 项目管理",
+      "prompt": "团队简报的时间是什么？\n项目讨论是否在上午进行？\n哪些活动是与项目分歧解决相关？",
+      "answer": "The team briefing is from 09:00 to 09:30. Yes, the project discussion is in the morning from 10:00 to 10:45. The project discussion from 10:00 to 10:45 focuses on resolving project gaps.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Team Briefing Meeting Room 1 Discuss daily tasks and updates 10:00–10:45 Project Discussion Meeting Room 2 Focus on resolving project gaps 11:00–11:30 Client Call Office 3 Call with external client regarding project progress",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "project discussion focuses resolving gaps",
+      "keywords": "team briefing yes project discussion morning project discussion focuses resolving gaps",
+      "questions": [
+        {
+          "uid": "4-真题18项目中分歧需要解决还是忽略.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间",
+          "prompt": "团队简报的时间是什么？",
+          "answer": "The team briefing is from 09:00 to 09:30.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "team briefing"
+        },
+        {
+          "uid": "4-真题18项目中分歧需要解决还是忽略.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议时间确认",
+          "prompt": "项目讨论是否在上午进行？",
+          "answer": "Yes, the project discussion is in the morning from 10:00 to 10:45.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes project discussion morning"
+        },
+        {
+          "uid": "4-真题18项目中分歧需要解决还是忽略.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "项目管理",
+          "prompt": "哪些活动是与项目分歧解决相关？",
+          "answer": "The project discussion from 10:00 to 10:45 focuses on resolving project gaps.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "project discussion focuses resolving gaps"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -8193,23 +8399,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题19个公司的多处不同城市工作的好处.json-3",
+      "uid": "4-真题19个公司的多处不同城市工作的好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题19个公司的多处不同城市工作的好处.json",
       "bankName": "真题19 个公司的多处不同城市工作的好处",
-      "questionId": 3,
-      "topic": "跨城市工作安排",
-      "prompt": "哪些活动是关于不同城市工作安排的？",
-      "answer": "The team meeting from 10:00 to 10:45 discusses projects in different cities.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间 · 会议时间确认 · 跨城市工作安排",
+      "prompt": "早会的时间是什么？\n团队会议是否在下午？\n哪些活动是关于不同城市工作安排的？",
+      "answer": "The morning briefing is from 09:00 to 09:30. No, the team meeting is in the morning from 10:00 to 10:45. The team meeting from 10:00 to 10:45 discusses projects in different cities.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Morning Briefing Conference Room A Staff gather to review daily tasks 10:00–10:45 Team Meeting Conference Room B Discuss projects in different cities 11:00–11:30 Client Call Office 3 Conference call with remote clients",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "team meeting discusses projects different",
+      "keywords": "morning briefing no team meeting morning team meeting discusses projects different",
+      "questions": [
+        {
+          "uid": "4-真题19个公司的多处不同城市工作的好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间",
+          "prompt": "早会的时间是什么？",
+          "answer": "The morning briefing is from 09:00 to 09:30.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "morning briefing"
+        },
+        {
+          "uid": "4-真题19个公司的多处不同城市工作的好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议时间确认",
+          "prompt": "团队会议是否在下午？",
+          "answer": "No, the team meeting is in the morning from 10:00 to 10:45.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no team meeting morning"
+        },
+        {
+          "uid": "4-真题19个公司的多处不同城市工作的好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "跨城市工作安排",
+          "prompt": "哪些活动是关于不同城市工作安排的？",
+          "answer": "The team meeting from 10:00 to 10:45 discusses projects in different cities.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "team meeting discusses projects different"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -8251,166 +8496,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题20独自运动还是.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题20独自运动还是.json",
-      "bankName": "真题20 独自运动还是",
-      "questionId": 3,
-      "topic": "适龄活动",
-      "prompt": "顾客有2岁和5岁的小孩，可以参加哪些活动？",
-      "answer": "There are three activities they can attend: Magic Show, Treasure Hunt, and Mini Sports.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Entrance & Ticket Check Park Gate Tickets $6 each, children under 2 free 15:00–15:30 Magic Show Main Stage All activities start at 3pm 15:30–16:00 Treasure Hunt Playground Suitable for children aged 2–10 15:45–16:15 Mini Sports Playground Suitable for children aged 3–10",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "three activities attend magic show",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Entrance & Ticket Check",
-              "Park Gate",
-              "Tickets $6 each, children under 2 free"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:00–15:30",
-              "Magic Show",
-              "Main Stage",
-              "All activities start at 3pm"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:30–16:00",
-              "Treasure Hunt",
-              "Playground",
-              "Suitable for children aged 2–10"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:45–16:15",
-              "Mini Sports",
-              "Playground",
-              "Suitable for children aged 3–10"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题21进入大学前实习gap year有哪些好处.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题21进入大学前实习gap year有哪些好处.json",
-      "bankName": "真题21 进入大学前实习gap year有哪些好处",
-      "questionId": 3,
-      "topic": "课程名称",
-      "prompt": "有哪些 session 叫 Merg？",
-      "answer": "There are two sessions called Merg: Merg Session 1 at Room A from 10:15–11:00 and Merg Session 2 at Room B from 11:15–12:00.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Time Session Location Notes 09:00–10:00 Opening Lecture Main Hall Introduction and overview 10:15–11:00 Merg Session 1 Room A Interactive workshop 11:15–12:00 Merg Session 2 Room B Group discussion 14:00–15:00 Regular Session Room C Standard lecture 15:15–16:00 Q&A Session Main Hall Question and answer",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "sessions called merg session room",
-      "material": {
-        "headers": [
-          "Time",
-          "Session",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–10:00",
-              "Opening Lecture",
-              "Main Hall",
-              "Introduction and overview"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:15–11:00",
-              "Merg Session 1",
-              "Room A",
-              "Interactive workshop"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:15–12:00",
-              "Merg Session 2",
-              "Room B",
-              "Group discussion"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Regular Session",
-              "Room C",
-              "Standard lecture"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:15–16:00",
-              "Q&A Session",
-              "Main Hall",
-              "Question and answer"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题22工作经验还是教育背景重要.json-3",
+      "uid": "4-真题22工作经验还是教育背景重要.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题22工作经验还是教育背景重要.json",
       "bankName": "真题22 工作经验还是教育背景重要",
-      "questionId": 3,
-      "topic": "职位介绍",
-      "prompt": "请介绍两个职位的详细信息。",
-      "answer": "There are two scheduled positions related to Manager A at Room 101 at 9:30 am and Manager C at Room 103 at 2 pm. The second manager position at Room 102 was cancelled.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间地点 · 职位确认 · 职位介绍",
+      "prompt": "开会的时间和地点是什么？\n是否有两个经理职位？\n请介绍两个职位的详细信息。",
+      "answer": "The team meeting will be held at 08:30 in Conference Room A. Actually no, the second manager position was cancelled. There are two scheduled interviews for Manager A at Room 101 at 9:30 am and Manager C at Room 103 at 2 pm. The second manager position at Room 102 was cancelled.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 08:30 Team Meeting Conference Room A Introduction to new project 09:30 Interview Manager A Room 101 First interview 10:30 Interview Manager B Room 102 Cancelled 14:00 Interview Manager C Room 103 Afternoon session",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "scheduled positions related manager room",
+      "keywords": "team meeting held conference room actually no manager position cancelled scheduled positions related manager room",
+      "questions": [
+        {
+          "uid": "4-真题22工作经验还是教育背景重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间地点",
+          "prompt": "开会的时间和地点是什么？",
+          "answer": "The team meeting will be held at 08:30 in Conference Room A.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "team meeting held conference room"
+        },
+        {
+          "uid": "4-真题22工作经验还是教育背景重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "职位确认",
+          "prompt": "是否有两个经理职位？",
+          "answer": "Actually no, the second manager position was cancelled.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "actually no manager position cancelled"
+        },
+        {
+          "uid": "4-真题22工作经验还是教育背景重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "职位介绍",
+          "prompt": "请介绍两个职位的详细信息。",
+          "answer": "There are two scheduled interviews for Manager A at Room 101 at 9:30 am and Manager C at Room 103 at 2 pm. The second manager position at Room 102 was cancelled.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "scheduled positions related manager room"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -8461,23 +8602,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题23大学毕业继续和父母住还是单独住.json-3",
+      "uid": "4-真题23大学毕业继续和父母住还是单独住.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题23大学毕业继续和父母住还是单独住.json",
       "bankName": "真题23 大学毕业，继续和父母住还是单独住",
-      "questionId": 3,
-      "topic": "职位介绍",
-      "prompt": "请介绍两个公司的职位详细情况。",
-      "answer": "Of course. There are two scheduled positions related to Company X. One is named Manager A at Room 101 at 9 am. Another is named Manager C at Room 103 at 2 pm. Please keep that in mind.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "招聘会时间地点 · 职位确认 · 职位介绍",
+      "prompt": "招聘会开会的地点和时间是什么？\n是否有两个经理职位？\n请介绍两个公司的职位详细情况。",
+      "answer": "This meeting will be held at the designated rooms as listed in the schedule. The first interview is at 9:00 am. No, that information is incorrect. The second manager position was cancelled. Sure. There are two scheduled interviews for Company X. One is named Manager A at Room 101 at 9 am. Another is named Manager C at Room 103 at 2 pm.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Position Company Location Notes 09:00 Manager A Company X Room 101 First interview 10:00 Manager B Company Y Room 102 Second interview cancelled 14:00 Manager C Company X Room 103 Afternoon position available",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "course scheduled positions related company",
+      "keywords": "meeting held designated rooms listed actually no am afraid wrong course scheduled positions related company",
+      "questions": [
+        {
+          "uid": "4-真题23大学毕业继续和父母住还是单独住.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "招聘会时间地点",
+          "prompt": "招聘会开会的地点和时间是什么？",
+          "answer": "This meeting will be held at the designated rooms as listed in the schedule. The first interview is at 9:00 am.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting held designated rooms listed"
+        },
+        {
+          "uid": "4-真题23大学毕业继续和父母住还是单独住.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "职位确认",
+          "prompt": "是否有两个经理职位？",
+          "answer": "No, that information is incorrect. The second manager position was cancelled.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "actually no am afraid wrong"
+        },
+        {
+          "uid": "4-真题23大学毕业继续和父母住还是单独住.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "职位介绍",
+          "prompt": "请介绍两个公司的职位详细情况。",
+          "answer": "Sure. There are two scheduled interviews for Company X. One is named Manager A at Room 101 at 9 am. Another is named Manager C at Room 103 at 2 pm.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "course scheduled positions related company"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -8523,59 +8703,200 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-10",
+      "uid": "4-真题25在公司上班前有过创业经验的好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
-      "sourceFile": "真题24为一家已经经营了很多年的公司工作有哪些优点.json",
-      "bankName": "真题24 为一家已经经营了很多年的公司工作有哪些优点",
-      "questionId": 10,
-      "topic": "主讲人相关活动咨询",
-      "prompt": "Question 3: What are the two special events led by Dr. Smith and their topics?",
-      "answer": "There are 2 events led by Dr. Smith. The first is on January 3, and the topic is \"heart healthy food\". The next one is on April 2, and the topic is \"balanced diet for adults\".",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Schedule Time Location Host Topic Weekly Health Lecture Every Tuesday 6:00 pm - 8:00 pm Meeting Room A Dr. Smith Healthy Lifestyle Special Seminar 1 Jan 3 Meeting Room A Dr. Smith Heart Healthy Food Special Seminar 2 Apr 2 Meeting Room A Dr. Smith Balanced Diet for Adults",
+      "sourceFile": "真题25在公司上班前有过创业经验的好处.json",
+      "bankName": "真题25 在公司上班前有过创业经验的好处",
+      "questionId": "8/9/10",
+      "topic": "面试地点及首场时间咨询 · 最后一场面试时间确认 · 需教学经验的面试场次咨询",
+      "prompt": "Question 1: Where will the interviews be held and what time does the first interview start?\nQuestion 2: Is the last interview scheduled for 4:00 p.m.?\nQuestion 3: Which interviews require teaching experience?",
+      "answer": "The interviews will be held in Room 302, and the first interview starts at 9:00 in the morning. No, it isn't. The interview scheduled for 4:00 p.m. has been cancelled, so the last interview starts at 3:00 p.m. There are two interviews that require teaching experience. They are the second round - piano demo from 10:30 to 11:30 a.m. and the third round - teaching plan presentation from 2:00 to 3:00 p.m.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
+      "instructions": "请根据提供的信息回答问题： Time Interview Agenda Location Requirement 09:00-10:00 First Round - Music Theory Test Room 302 Basic music knowledge 10:30-11:30 Second Round - Piano Demo Room 302 Teaching experience required 14:00-15:00 Third Round - Teaching Plan Presentation Room 302 Teaching experience required 16:00-17:00 Final Round - Interview with Principal Room 302 *Cancelled*",
       "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "events led dr smith january",
+      "keywords": "interviews held room interview starts no isn interview scheduled cancelled interviews require teaching experience round",
+      "questions": [
+        {
+          "uid": "4-真题25在公司上班前有过创业经验的好处.json-group-q1",
+          "position": 1,
+          "questionId": 8,
+          "topic": "面试地点及首场时间咨询",
+          "prompt": "Question 1: Where will the interviews be held and what time does the first interview start?",
+          "answer": "The interviews will be held in Room 302, and the first interview starts at 9:00 in the morning.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "interviews held room interview starts"
+        },
+        {
+          "uid": "4-真题25在公司上班前有过创业经验的好处.json-group-q2",
+          "position": 2,
+          "questionId": 9,
+          "topic": "最后一场面试时间确认",
+          "prompt": "Question 2: Is the last interview scheduled for 4:00 p.m.?",
+          "answer": "No, it isn't. The interview scheduled for 4:00 p.m. has been cancelled, so the last interview starts at 3:00 p.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no isn interview scheduled cancelled"
+        },
+        {
+          "uid": "4-真题25在公司上班前有过创业经验的好处.json-group-q3",
+          "position": 3,
+          "questionId": 10,
+          "topic": "需教学经验的面试场次咨询",
+          "prompt": "Question 3: Which interviews require teaching experience?",
+          "answer": "There are two interviews that require teaching experience. They are the second round - piano demo from 10:30 to 11:30 a.m. and the third round - teaching plan presentation from 2:00 to 3:00 p.m.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "interviews require teaching experience round"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
-          "Schedule",
           "Time",
+          "Interview Agenda",
           "Location",
-          "Host",
-          "Topic"
+          "Requirement"
         ],
         "rows": [
           {
             "cells": [
-              "Weekly Health Lecture",
-              "Every Tuesday 6:00 pm - 8:00 pm",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Healthy Lifestyle"
+              "09:00-10:00",
+              "First Round - Music Theory Test",
+              "Room 302",
+              "Basic music knowledge"
             ],
             "status": ""
           },
           {
             "cells": [
-              "Special Seminar 1",
-              "Jan 3",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Heart Healthy Food"
+              "10:30-11:30",
+              "Second Round - Piano Demo",
+              "Room 302",
+              "Teaching experience required"
             ],
             "status": ""
           },
           {
             "cells": [
-              "Special Seminar 2",
-              "Apr 2",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Balanced Diet for Adults"
+              "14:00-15:00",
+              "Third Round - Teaching Plan Presentation",
+              "Room 302",
+              "Teaching experience required"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "16:00-17:00",
+              "Final Round - Interview with Principal",
+              "Room 302",
+              "Cancelled"
+            ],
+            "status": "changed"
+          }
+        ],
+        "notes": [],
+        "missing": false
+      }
+    },
+    {
+      "uid": "4-真题26是现有的工作更让你开心.json-group",
+      "part": 4,
+      "partName": "Part 4 信息回答",
+      "priority": "P1",
+      "sourceFile": "真题26是现有的工作更让你开心.json",
+      "bankName": "真题26 是现有的工作更让你开心",
+      "questionId": "8/9/10",
+      "topic": "乡村音乐会购票方式咨询 · 乡村音乐会场次咨询 · 古典音乐会购票方式确认",
+      "prompt": "Question 1: What are the available ticket purchase methods for the country concerts?\nQuestion 2: How many country concerts are there in the schedule?\nQuestion 3: Is the classic concert ticket available for purchase in person?",
+      "answer": "The ticket purchase methods for the country concerts are online, by phone, and in person. There are two country concerts in the schedule, one on October 12 and the other on November 18. No, the classic concert tickets are only available for purchase online.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
+      "instructions": "请根据提供的信息回答问题： Concert Type Time Ticket Purchase Methods Notes Country Concert 1 Oct 12 7:00 PM Online, By Phone, In Person Outdoor venue, bring rain gear if needed Country Concert 2 Nov 18 7:30 PM Online, By Phone, In Person Indoor stadium, no outside food allowed Classic Concert Dec 24 8:00 PM Online only Limited seats, book early",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "hard",
+      "keywords": "question ticket purchase methods country question country concerts schedule october question no classic concert tickets",
+      "questions": [
+        {
+          "uid": "4-真题26是现有的工作更让你开心.json-group-q1",
+          "position": 1,
+          "questionId": 8,
+          "topic": "乡村音乐会购票方式咨询",
+          "prompt": "Question 1: What are the available ticket purchase methods for the country concerts?",
+          "answer": "The ticket purchase methods for the country concerts are online, by phone, and in person.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "question ticket purchase methods country"
+        },
+        {
+          "uid": "4-真题26是现有的工作更让你开心.json-group-q2",
+          "position": 2,
+          "questionId": 9,
+          "topic": "乡村音乐会场次咨询",
+          "prompt": "Question 2: How many country concerts are there in the schedule?",
+          "answer": "There are two country concerts in the schedule, one on October 12 and the other on November 18.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "question country concerts schedule october"
+        },
+        {
+          "uid": "4-真题26是现有的工作更让你开心.json-group-q3",
+          "position": 3,
+          "questionId": 10,
+          "topic": "古典音乐会购票方式确认",
+          "prompt": "Question 3: Is the classic concert ticket available for purchase in person?",
+          "answer": "No, the classic concert tickets are only available for purchase online.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "question no classic concert tickets"
+        }
+      ],
+      "reviewTime": 45,
+      "material": {
+        "headers": [
+          "Concert Type",
+          "Time",
+          "Ticket Purchase Methods",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Country Concert 1",
+              "Oct 12 7:00 PM",
+              "Online, By Phone, In Person",
+              "Outdoor venue, bring rain gear if needed"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Country Concert 2",
+              "Nov 18 7:30 PM",
+              "Online, By Phone, In Person",
+              "Indoor stadium, no outside food allowed"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Classic Concert",
+              "Dec 24 8:00 PM",
+              "Online only",
+              "Limited seats, book early"
             ],
             "status": ""
           }
@@ -8585,59 +8906,108 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-3",
+      "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
-      "sourceFile": "真题28你认为elementary school的学生是否需要开始学英语.json",
-      "bankName": "真题28 你认为elementary school的学生是否需要开始学英语",
-      "questionId": 3,
-      "topic": "电影场次",
-      "prompt": "请介绍两个电影场次。",
-      "answer": "There is a morning movie from 9:00 to 11:00 at Cinema A, and an afternoon movie from 13:00 to 15:00 at Cinema B.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Time Movie Fee Location Notes 09:00–11:00 Morning Movie $12 Cinema A Standard 2D movie 13:00–15:00 Afternoon Movie $12 Cinema B Standard 2D movie 16:00–18:00 Evening Movie $15 Cinema A Includes 3D experience",
+      "sourceFile": "真题27你认为一家公司有环境友好政策有什么好处.json",
+      "bankName": "真题27 你认为一家公司有环境友好政策有什么好处",
+      "questionId": "8/9/10",
+      "topic": "培训开始日期及举办地点咨询 · 第一门课程时间确认 · 培训研讨会情况咨询",
+      "prompt": "Question 1: On which day does the training start and where is it held?\nQuestion 2: Does the first course start at 10:00 AM?\nQuestion 3: I heard your workshops are very good. Could you introduce the workshops in this training?",
+      "answer": "The training starts on November 5th and is held in Conference Room 101. No, it doesn't. The first course is the opening ceremony, which starts at 9:00 AM. There are two workshops in this training. The first one is Team Management from 10:00 AM to 12:00 PM with interactive discussions, and the second one is Decision Making from 2:00 PM to 4:00 PM with case study analysis.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
+      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Nov 5th 09:00-09:30 Opening Ceremony Conference Room 101 Leadership Training Kick-off Nov 5th 10:00-12:00 Workshop 1: Team Management Conference Room 101 Interactive discussions Nov 5th 14:00-16:00 Workshop 2: Decision Making Conference Room 101 Case study analysis Nov 5th 16:30-17:30 Closing Sharing Conference Room 101 Summary and Q&A",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "morning movie cinema afternoon",
+      "keywords": "question training starts november th question no doesn course opening question workshops training team management",
+      "questions": [
+        {
+          "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-group-q1",
+          "position": 1,
+          "questionId": 8,
+          "topic": "培训开始日期及举办地点咨询",
+          "prompt": "Question 1: On which day does the training start and where is it held?",
+          "answer": "The training starts on November 5th and is held in Conference Room 101.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "question training starts november th"
+        },
+        {
+          "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-group-q2",
+          "position": 2,
+          "questionId": 9,
+          "topic": "第一门课程时间确认",
+          "prompt": "Question 2: Does the first course start at 10:00 AM?",
+          "answer": "No, it doesn't. The first course is the opening ceremony, which starts at 9:00 AM.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "question no doesn course opening"
+        },
+        {
+          "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-group-q3",
+          "position": 3,
+          "questionId": 10,
+          "topic": "培训研讨会情况咨询",
+          "prompt": "Question 3: I heard your workshops are very good. Could you introduce the workshops in this training?",
+          "answer": "There are two workshops in this training. The first one is Team Management from 10:00 AM to 12:00 PM with interactive discussions, and the second one is Decision Making from 2:00 PM to 4:00 PM with case study analysis.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "question workshops training team management"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
+          "Date",
           "Time",
-          "Movie",
-          "Fee",
+          "Activity",
           "Location",
           "Notes"
         ],
         "rows": [
           {
             "cells": [
-              "09:00–11:00",
-              "Morning Movie",
-              "$12",
-              "Cinema A",
-              "Standard 2D movie"
+              "Nov 5th",
+              "09:00-09:30",
+              "Opening Ceremony",
+              "Conference Room 101",
+              "Leadership Training Kick-off"
             ],
             "status": ""
           },
           {
             "cells": [
-              "13:00–15:00",
-              "Afternoon Movie",
-              "$12",
-              "Cinema B",
-              "Standard 2D movie"
+              "Nov 5th",
+              "10:00-12:00",
+              "Workshop 1: Team Management",
+              "Conference Room 101",
+              "Interactive discussions"
             ],
             "status": ""
           },
           {
             "cells": [
-              "16:00–18:00",
-              "Evening Movie",
-              "$15",
-              "Cinema A",
-              "Includes 3D experience"
+              "Nov 5th",
+              "14:00-16:00",
+              "Workshop 2: Decision Making",
+              "Conference Room 101",
+              "Case study analysis"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Nov 5th",
+              "16:30-17:30",
+              "Closing Sharing",
+              "Conference Room 101",
+              "Summary and Q&A"
             ],
             "status": ""
           }
@@ -8647,85 +9017,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题30参观热门旅游景点是熟悉这座城市的最佳方式.json",
-      "bankName": "真题30 参观热门旅游景点是熟悉这座城市的最佳方式",
-      "questionId": 3,
-      "topic": "课程内容说明",
-      "prompt": "请介绍两个 swimming 课程。",
-      "answer": "There is a morning swimming class from 7:30 to 8:30 for beginners, and a family swimming class from 10:00 to 11:00 for parents and children.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Time Class Fee Location Notes 07:30–08:30 Morning Swimming Class $40 Indoor Pool A Beginner level 10:00–11:00 Family Swimming Class $55 Indoor Pool B Parents and children 14:00–15:30 Advanced Swimming Training $70 Olympic Pool For experienced swimmers",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "morning swimming class beginners family",
-      "material": {
-        "headers": [
-          "Time",
-          "Class",
-          "Fee",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "07:30–08:30",
-              "Morning Swimming Class",
-              "$40",
-              "Indoor Pool A",
-              "Beginner level"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Family Swimming Class",
-              "$55",
-              "Indoor Pool B",
-              "Parents and children"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:30",
-              "Advanced Swimming Training",
-              "$70",
-              "Olympic Pool",
-              "For experienced swimmers"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-3",
+      "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题31发生分歧是直接解决还是找领导帮忙.json",
       "bankName": "真题31 发生分歧是直接解决还是找领导帮忙",
-      "questionId": 3,
-      "topic": "返程航班信息",
-      "prompt": "Could you please tell me all the information about my return flight?",
-      "answer": "You will depart from Sydney on Rapid Airline flight B17 at 9:10 AM on June 17, and you will arrive in Singapore at 4:12 PM on the same day.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "航班咨询 · 时间确认 · 返程航班信息",
+      "prompt": "What time will the departing flight depart and arrive?\n这趟航班是在上午还是下午？\nCould you please tell me all the information about my return flight?",
+      "answer": "It will depart at 7:00 AM on June 10 and arrive at 1:09 PM on the same day. It is in the morning. The flight departs at 7:00 AM. You will depart from Sydney on Rapid Airline flight B17 at 9:10 AM on June 17, and you will arrive in Singapore at 4:12 PM on the same day.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Flight From To Departure Time Arrival Time Notes June 10 Flight A21 Oslo Singapore 07:00 AM 01:09 PM Direct flight June 17 Flight B17 Sydney Singapore 09:10 AM 04:12 PM Operated by Rapid Airline",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "depart sydney rapid airline flight",
+      "keywords": "depart am june arrive pm morning flight departs am depart sydney rapid airline flight",
+      "questions": [
+        {
+          "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "航班咨询",
+          "prompt": "What time will the departing flight depart and arrive?",
+          "answer": "It will depart at 7:00 AM on June 10 and arrive at 1:09 PM on the same day.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "depart am june arrive pm"
+        },
+        {
+          "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "时间确认",
+          "prompt": "这趟航班是在上午还是下午？",
+          "answer": "It is in the morning. The flight departs at 7:00 AM.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "morning flight departs am"
+        },
+        {
+          "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "返程航班信息",
+          "prompt": "Could you please tell me all the information about my return flight?",
+          "answer": "You will depart from Sydney on Rapid Airline flight B17 at 9:10 AM on June 17, and you will arrive in Singapore at 4:12 PM on the same day.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "depart sydney rapid airline flight"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -8767,23 +9114,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-3",
+      "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题32主管评价员工，周边同事反馈是否很重要.json",
       "bankName": "真题32 主管评价员工，周边同事反馈是否很重要",
-      "questionId": 3,
-      "topic": "活动内容咨询",
-      "prompt": "问关于 fruit trees 的详细介绍。",
-      "answer": "There are two activities related to fruit trees. The first one is a demonstration called 'How to Prune Fruit Trees,' which starts at 3:00 PM. The second one is a workshop named 'Growing Fruit Trees in Your Garden,' scheduled for 4:00 PM.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议咨询 · 会议时间确认 · 活动内容咨询",
+      "prompt": "问会议举办的时间，地点以及第一场会议的时间内容。\n问某个会议是不是在早上。\n问关于 fruit trees 的详细介绍。",
+      "answer": "The meeting will be held at 2:00 PM in the conference room. The first session starts at 2:15 PM. No, it's not in the morning. It's actually at 2:00 PM in the afternoon. There are two activities related to fruit trees. The first one is a demonstration called 'How to Prune Fruit Trees,' which starts at 3:00 PM. The second one is a workshop named 'Growing Fruit Trees in Your Garden,' scheduled for 4:00 PM.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据以下信息回答问题： Time Activity Location Notes 2:00 PM Opening & Venue Check-in Conference Room Main meeting check-in 2:15 PM Project Update Session Conference Room A First meeting session 3:00 PM Demonstration: How to Prune Fruit Trees Garden Area Outdoor demo 4:00 PM Workshop: Growing Fruit Trees in Your Garden Room C Practical training session",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "activities related fruit trees demonstration",
+      "keywords": "meeting held pm conference room no not morning actually pm activities related fruit trees demonstration",
+      "questions": [
+        {
+          "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议咨询",
+          "prompt": "问会议举办的时间，地点以及第一场会议的时间内容。",
+          "answer": "The meeting will be held at 2:00 PM in the conference room. The first session starts at 2:15 PM.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting held pm conference room"
+        },
+        {
+          "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "会议时间确认",
+          "prompt": "问某个会议是不是在早上。",
+          "answer": "No, it's not in the morning. It's actually at 2:00 PM in the afternoon.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no not morning actually pm"
+        },
+        {
+          "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动内容咨询",
+          "prompt": "问关于 fruit trees 的详细介绍。",
+          "answer": "There are two activities related to fruit trees. The first one is a demonstration called 'How to Prune Fruit Trees,' which starts at 3:00 PM. The second one is a workshop named 'Growing Fruit Trees in Your Garden,' scheduled for 4:00 PM.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "activities related fruit trees demonstration"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -8834,23 +9220,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题33在21岁以下开车的坏处.json-3",
+      "uid": "4-真题33在21岁以下开车的坏处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题33在21岁以下开车的坏处.json",
       "bankName": "真题33 21岁以下开车的坏处",
-      "questionId": 3,
-      "topic": "活动内容说明",
-      "prompt": "6：00 PM 之前没时间，请介绍6点之后 有哪些课程",
-      "answer": "OK, let me check. There are 2 topics after 6:00 p.m.; The first one is Making money at 6:30 p.m. The second one is How to Sleep at 8:00 p.m.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "活动介绍 · 天气相关活动确认 · 活动内容说明",
+      "prompt": "介绍living center 的地点在哪 以及每节课程的价格\n课程是不是只有4月份有课程\n6：00 PM 之前没时间，请介绍6点之后 有哪些课程",
+      "answer": "The activity will be held in the Healthy Living Center, and it costs $5 per person. No, it should be from April 7 to May 29. There are two topics after 6:00 p.m.. The first one is Making money at 6:30 p.m. The second one is How to Sleep at 8:00 p.m.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Location: All workshops are held at the Healthy Living Center. Price: Each workshop session costs $5 per person. Schedule: The workshop series runs from April 7 to May 29. Evening Workshops (After 6:00 p.m.): Making Money at 6:30 p.m. How to Sleep at 8:00 p.m.",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "ok let check topics making",
+      "keywords": "activity held healthy living center no april ok let check topics making",
+      "questions": [
+        {
+          "uid": "4-真题33在21岁以下开车的坏处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "活动介绍",
+          "prompt": "介绍living center 的地点在哪 以及每节课程的价格",
+          "answer": "The activity will be held in the Healthy Living Center, and it costs $5 per person.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "activity held healthy living center"
+        },
+        {
+          "uid": "4-真题33在21岁以下开车的坏处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "天气相关活动确认",
+          "prompt": "课程是不是只有4月份有课程",
+          "answer": "No, it should be from April 7 to May 29.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no april"
+        },
+        {
+          "uid": "4-真题33在21岁以下开车的坏处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动内容说明",
+          "prompt": "6：00 PM 之前没时间，请介绍6点之后 有哪些课程",
+          "answer": "There are two topics after 6:00 p.m.. The first one is Making money at 6:30 p.m. The second one is How to Sleep at 8:00 p.m.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "ok let check topics making"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "项目",
@@ -8905,23 +9330,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题34职业生涯中频繁更换公司的好处.json-1",
+      "uid": "4-真题34职业生涯中频繁更换公司的好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题34职业生涯中频繁更换公司的好处.json",
       "bankName": "真题34 职业生涯中，频繁更换公司的好处",
-      "questionId": 1,
-      "topic": "会议介绍",
-      "prompt": "介绍会议的基本情况（举办时间10月17日，地点，门票45美元）",
-      "answer": "The meeting is called the Photo Theme Conference. It will be held on October 17th at the City Convention Center. The ticket price is $45.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议介绍 · 活动安排确认 · 年度讲座内容",
+      "prompt": "介绍会议的基本情况（举办时间10月17日，地点，门票45美元）\n如果下雨，会议是否继续举行？\n介绍今年两个Lecture的主题",
+      "answer": "The meeting is called the Photo Theme Conference. It will be held on October 17th at the City Convention Center. Yes, the meeting will still take place even if it rains. According to the note, the event will continue as scheduled. This year, there are two lecture topics. One is Digital Photography Techniques, and the other is Storytelling Through Images.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration City Convention Center Tickets required ($45) 10:00–11:00 Opening Session Main Hall General introduction 13:00–14:00 Workshop: Photography Basics Room A Afternoon session only 15:00–16:30 Panel Discussions Room B Two topics: Digital Photography; Storytelling Images * * * If it rains, the event will continue as scheduled.",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "meeting called photo theme conference",
+      "keywords": "meeting called photo theme conference yes meeting still take place year lecture topics digital photography",
+      "questions": [
+        {
+          "uid": "4-真题34职业生涯中频繁更换公司的好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议介绍",
+          "prompt": "介绍会议的基本情况（举办时间10月17日，地点，门票45美元）",
+          "answer": "The meeting is called the Photo Theme Conference. It will be held on October 17th at the City Convention Center.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting called photo theme conference"
+        },
+        {
+          "uid": "4-真题34职业生涯中频繁更换公司的好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动安排确认",
+          "prompt": "如果下雨，会议是否继续举行？",
+          "answer": "Yes, the meeting will still take place even if it rains. According to the note, the event will continue as scheduled.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes meeting still take place"
+        },
+        {
+          "uid": "4-真题34职业生涯中频繁更换公司的好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "年度讲座内容",
+          "prompt": "介绍今年两个Lecture的主题",
+          "answer": "This year, there are two lecture topics. One is Digital Photography Techniques, and the other is Storytelling Through Images.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "year lecture topics digital photography"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -8981,99 +9445,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题34职业生涯中频繁更换公司的好处.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题34职业生涯中频繁更换公司的好处.json",
-      "bankName": "真题34 职业生涯中，频繁更换公司的好处",
-      "questionId": 3,
-      "topic": "年度讲座内容",
-      "prompt": "介绍今年两个Lecture的主题",
-      "answer": "This year, there are two lecture topics. One is Digital Photography Techniques, and the other is Storytelling Through Images.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration City Convention Center Tickets required ($45) 10:00–11:00 Opening Session Main Hall General introduction 13:00–14:00 Workshop: Photography Basics Room A Afternoon session only 15:00–16:30 Panel Discussions Room B Two topics: Digital Photography; Storytelling Images * * * If it rains, the event will continue as scheduled.",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "year lecture topics digital photography",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Registration",
-              "City Convention Center",
-              "Tickets required ($45)"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Opening Session",
-              "Main Hall",
-              "General introduction"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "13:00–14:00",
-              "Workshop: Photography Basics",
-              "Room A",
-              "Afternoon session only"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:00–16:30",
-              "Panel Discussions",
-              "Room B",
-              "Two topics: Digital Photography; Storytelling Images"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "*",
-              "*",
-              "*",
-              "If it rains, the event will continue as scheduled."
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题35父母让孩子做家务的好处.json-3",
+      "uid": "4-真题35父母让孩子做家务的好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题35父母让孩子做家务的好处.json",
       "bankName": "真题35 父母让孩子做家务的好处",
-      "questionId": 3,
-      "topic": "活动内容描述",
-      "prompt": "描述两个 panel sessions。",
-      "answer": "There are two panel sessions. The first one is about international business strategies, and the second one focuses on technology trends in the industry. Both sessions include expert discussions and Q&A.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议信息查询 · 活动时间判断 · 活动内容描述",
+      "prompt": "会议的日期和开始时间是什么？\nworkshop是不是在上午举行？\n描述两个 panel sessions。",
+      "answer": "The meeting is scheduled for October 15th, and it will start at 9:30 a.m. No, the workshop is not in the morning. It is held in the afternoon from 1:00 to 2:00 p.m. There are two panel sessions. The first one is about international business strategies, and the second is about technology trends in the industry. Both sessions include expert discussions and Q&A.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Date Activity Time Location October 15 Meeting 9:30 a.m. Conference Room A October 15 Workshop: Marketing Skills 1:00–2:00 p.m. Room C October 15 Panel Session 1: International Business 2:30–3:30 p.m. Hall 2 October 15 Panel Session 2: Technology Trends 4:00–5:00 p.m. Hall 2",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "panel sessions international business strategies",
+      "keywords": "meeting scheduled october th start no workshop not morning held panel sessions international business strategies",
+      "questions": [
+        {
+          "uid": "4-真题35父母让孩子做家务的好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议信息查询",
+          "prompt": "会议的日期和开始时间是什么？",
+          "answer": "The meeting is scheduled for October 15th, and it will start at 9:30 a.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting scheduled october th start"
+        },
+        {
+          "uid": "4-真题35父母让孩子做家务的好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动时间判断",
+          "prompt": "workshop是不是在上午举行？",
+          "answer": "No, the workshop is not in the morning. It is held in the afternoon from 1:00 to 2:00 p.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no workshop not morning held"
+        },
+        {
+          "uid": "4-真题35父母让孩子做家务的好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动内容描述",
+          "prompt": "描述两个 panel sessions。",
+          "answer": "There are two panel sessions. The first one is about international business strategies, and the second is about technology trends in the industry. Both sessions include expert discussions and Q&A.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "panel sessions international business strategies"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -9124,23 +9551,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-3",
+      "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题36公司提供工作日锻炼的机会是否是一个好主意.json",
       "bankName": "真题36 公司提供工作日锻炼",
-      "questionId": 3,
-      "topic": "活动内容说明",
-      "prompt": "介绍两个 workshops 的主题。",
-      "answer": "There are two workshops. Workshop A is about improving workplace productivity, and Workshop B focuses on promoting a healthy lifestyle for office workers.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议地点与时间 · 票价咨询 · 活动内容说明",
+      "prompt": "seminar在哪里开始，什么时候开始？\n有没有便宜票卖？\n介绍两个 workshops 的主题。",
+      "answer": "The seminar will start at 10:00 a.m., in the main conference hall, right after registration. Yes, early registration offers a cheaper ticket at 40 dollars instead of the regular price. There are two workshops. Workshop A is about improving workplace productivity, and Workshop B focuses on promoting a healthy lifestyle for office workers.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00–9:30 Registration Check-in and materials distribution 10:00–11:00 Seminar Opening Welcome speech and introduction 11:15–12:15 Workshop A How to Improve Workplace Productivity 1:30–2:30 Workshop B Healthy Lifestyle for Office Workers 3:00–4:00 Q&A Session Open discussion with speakers",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "workshops workshop improving workplace productivity",
+      "keywords": "seminar start main conference hall yes early registration offers cheaper workshops workshop improving workplace productivity",
+      "questions": [
+        {
+          "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议地点与时间",
+          "prompt": "seminar在哪里开始，什么时候开始？",
+          "answer": "The seminar will start at 10:00 a.m., in the main conference hall, right after registration.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "seminar start main conference hall"
+        },
+        {
+          "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "票价咨询",
+          "prompt": "有没有便宜票卖？",
+          "answer": "Yes, early registration offers a cheaper ticket at 40 dollars instead of the regular price.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes early registration offers cheaper"
+        },
+        {
+          "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动内容说明",
+          "prompt": "介绍两个 workshops 的主题。",
+          "answer": "There are two workshops. Workshop A is about improving workplace productivity, and Workshop B focuses on promoting a healthy lifestyle for office workers.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "workshops workshop improving workplace productivity"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -9194,23 +9660,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题37对于一个求职者哪个最重要.json-3",
+      "uid": "4-真题37对于一个求职者哪个最重要.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题37对于一个求职者哪个最重要.json",
       "bankName": "真题37 对于一个求职者，哪个最重要",
-      "questionId": 3,
-      "topic": "议题介绍",
-      "prompt": "What topics will John Berg present?",
-      "answer": "John Berg will present two topics: new marketing strategies for small businesses, and customer engagement techniques.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议信息咨询 · 费用确认 · 议题介绍",
+      "prompt": "When and where is the meeting?\nIs the ticket price for members $60?\nWhat topics will John Berg present?",
+      "answer": "The meeting is scheduled for Thursday, August 15th at the downtown conference center near the main train station. No, the ticket price for members is $45. The $60 ticket is for non-members. John Berg will present two topics: new marketing strategies for small businesses, and customer engagement techniques.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00 – 9:30 Registration Check-in and materials distribution 10:00 – 11:30 John Berg (Session 1) New Marketing Strategies for Small Businesses 12:00 – 1:00 Lunch Break Lunch provided at the dining hall 1:30 – 2:30 John Berg (Session 2) Customer Engagement Techniques 3:00 – 4:00 Panel Discussion Future Trends in Digital Business Ticket price:$45(members),$60(non members)",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "john berg present topics new",
+      "keywords": "meeting scheduled thursday august th no ticket price members non john berg present topics new",
+      "questions": [
+        {
+          "uid": "4-真题37对于一个求职者哪个最重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议信息咨询",
+          "prompt": "When and where is the meeting?",
+          "answer": "The meeting is scheduled for Thursday, August 15th at the downtown conference center near the main train station.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting scheduled thursday august th"
+        },
+        {
+          "uid": "4-真题37对于一个求职者哪个最重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "费用确认",
+          "prompt": "Is the ticket price for members $60?",
+          "answer": "No, the ticket price for members is $45. The $60 ticket is for non-members.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no ticket price members non"
+        },
+        {
+          "uid": "4-真题37对于一个求职者哪个最重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "议题介绍",
+          "prompt": "What topics will John Berg present?",
+          "answer": "John Berg will present two topics: new marketing strategies for small businesses, and customer engagement techniques.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "john berg present topics new"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -9266,23 +9771,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题38当医生有什么好处.json-3",
+      "uid": "4-真题38当医生有什么好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题38当医生有什么好处.json",
       "bankName": "真题38 当医生有什么好处",
-      "questionId": 3,
-      "topic": "课程内容",
-      "prompt": "主厨Mike会讲哪些课程？",
-      "answer": "He will teach two courses: Italian cooking and French cuisine.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "培训日程确认 · 费用确认 · 课程内容",
+      "prompt": "培训什么时候？第一节课什么时候开始？\n午餐是不是免费？\n主厨Mike会讲哪些课程？",
+      "answer": "The training is next week, and the first class begins on Monday at 9 a.m. No, lunch is not free. It costs five dollars per person. He will teach two courses: Italian cooking and French cuisine.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Instructor Notes 09:00–10:30 Introduction to Cooking Chef Mike First class of the training 12:00–13:00 Lunch Break N/A Lunch costs $5 per person 14:00–16:00 Specialty Courses Chef Mike Italian cooking & French cuisine",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "teach courses italian cooking french",
+      "keywords": "training next week class begins no lunch not free costs teach courses italian cooking french",
+      "questions": [
+        {
+          "uid": "4-真题38当医生有什么好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "培训日程确认",
+          "prompt": "培训什么时候？第一节课什么时候开始？",
+          "answer": "The training is next week, and the first class begins on Monday at 9 a.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "training next week class begins"
+        },
+        {
+          "uid": "4-真题38当医生有什么好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "费用确认",
+          "prompt": "午餐是不是免费？",
+          "answer": "No, lunch is not free. It costs five dollars per person.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no lunch not free costs"
+        },
+        {
+          "uid": "4-真题38当医生有什么好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "课程内容",
+          "prompt": "主厨Mike会讲哪些课程？",
+          "answer": "He will teach two courses: Italian cooking and French cuisine.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "teach courses italian cooking french"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -9324,23 +9868,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题39技术是否很难平衡工作和生活.json-3",
+      "uid": "4-真题39技术是否很难平衡工作和生活.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题39技术是否很难平衡工作和生活.json",
       "bankName": "真题39 技术是否很难平衡工作和生活",
-      "questionId": 3,
-      "topic": "活动内容",
-      "prompt": "What are the two lecture sessions about?",
-      "answer": "The two sessions are about time management and workplace communication.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "会议时间 · 午餐安排 · 活动内容",
+      "prompt": "What time does the meeting start?\nIs lunch free for everyone?\nWhat are the two lecture sessions about?",
+      "answer": "The meeting starts at 9 a.m. No, lunch is only free for registered participants. The two sessions are about time management and workplace communication.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:00 Lecture: Time Management Room A, Conference Center Tips and techniques for managing work and personal tasks 11:15–12:15 Lecture: Workplace Communication Room B, Conference Center How to communicate effectively in the office 12:30–13:30 Lunch Cafeteria Free for registered participants only",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "sessions time management workplace communication",
+      "keywords": "meeting starts time start no lunch free registered participants sessions time management workplace communication",
+      "questions": [
+        {
+          "uid": "4-真题39技术是否很难平衡工作和生活.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "会议时间",
+          "prompt": "What time does the meeting start?",
+          "answer": "The meeting starts at 9 a.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "meeting starts time start"
+        },
+        {
+          "uid": "4-真题39技术是否很难平衡工作和生活.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "午餐安排",
+          "prompt": "Is lunch free for everyone?",
+          "answer": "No, lunch is only free for registered participants.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no lunch free registered participants"
+        },
+        {
+          "uid": "4-真题39技术是否很难平衡工作和生活.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动内容",
+          "prompt": "What are the two lecture sessions about?",
+          "answer": "The two sessions are about time management and workplace communication.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "sessions time management workplace communication"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -9391,23 +9974,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-3",
+      "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题40大学生是否应该花时间去参加社区活动.json",
       "bankName": "真题40 大学生是否应该花时间去参加社区活动",
-      "questionId": 3,
-      "topic": "活动内容咨询",
-      "prompt": "问两个 activities 的具体情况",
-      "answer": "The two activities are a workshop on digital marketing and a networking session.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "活动地点咨询 · 活动时间确认 · 活动内容咨询",
+      "prompt": "问这个活动在哪里举行\n他9点才能到，实际活动是10点开始，不会错过什么？\n问两个 activities 的具体情况",
+      "answer": "The event is held at the Downtown Convention Center. He won't miss anything because the first activity starts at 10 a.m. The two activities are a workshop on digital marketing and a networking session.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:30 Workshop: Digital Marketing Room B, Downtown Convention Center Focus on latest trends and strategies 11:45–12:30 Networking Session Lobby Area Opportunity to meet other attendees and exchange contacts",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "activities workshop digital marketing networking",
+      "keywords": "event held downtown convention center won miss anything activity starts activities workshop digital marketing networking",
+      "questions": [
+        {
+          "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "活动地点咨询",
+          "prompt": "问这个活动在哪里举行",
+          "answer": "The event is held at the Downtown Convention Center.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "event held downtown convention center"
+        },
+        {
+          "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动时间确认",
+          "prompt": "他9点才能到，实际活动是10点开始，不会错过什么？",
+          "answer": "He won't miss anything because the first activity starts at 10 a.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "won miss anything activity starts"
+        },
+        {
+          "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动内容咨询",
+          "prompt": "问两个 activities 的具体情况",
+          "answer": "The two activities are a workshop on digital marketing and a networking session.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "activities workshop digital marketing networking"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -9449,48 +10071,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-3",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "真题41作为主管你认为是经验重要还是沟通能力重要.json",
-      "bankName": "真题41 作为主管，你认为是经验重要还是沟通能力重要",
-      "questionId": 3,
-      "topic": "学校咨询",
-      "prompt": "让介绍学校有哪些marketing的课程",
-      "answer": "The school offers three marketing courses this semester: Introduction to Marketing, Digital Marketing Strategy, and Brand Management.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
-      "instructions": "请根据提供的信息回答问题：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "school offers three marketing courses",
-      "material": {
-        "headers": [],
-        "rows": [],
-        "notes": [],
-        "missing": true
-      }
-    },
-    {
-      "uid": "4-真题42员工自己设置工作时间有什么好处.json-3",
+      "uid": "4-真题42员工自己设置工作时间有什么好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P1",
       "sourceFile": "真题42员工自己设置工作时间有什么好处.json",
       "bankName": "真题42 员工自己设置工作时间有什么好处",
-      "questionId": 3,
-      "topic": "活动时间确认",
-      "prompt": "I'm interested in the painting class. Can you give me more details about it?",
-      "answer": "Sure. The painting class is held from two to four p.m. in the art studio. There are two levels available, including a beginner class and an advanced class, so participants can choose the level that suits their skill level.",
-      "reason": "综合信息题，需要同时定位主题、时间、人物或多个项目，优先练。",
+      "questionId": "1/2/3",
+      "topic": "课程费用咨询 · 活动时间确认",
+      "prompt": "How much does the basic writing course cost for local citizens and non-local participants?\nDoes the Thursday Action Workshop start at seven p.m.?\nI'm interested in the painting class. Can you give me more details about it?",
+      "answer": "The fee is 40 dollars for local citizens and 60 dollars for non-local participants. No, it starts at 6 p.m. and runs until 8 p.m. Sure. The painting class is held from two to four p.m. in the art studio. There are two levels available, including a beginner class and an advanced class, so participants can choose the level that suits their skill level.",
+      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes ----------- ----------------------------- ---------- ---------------------------------------- 10:00–11:00 Basic Writing Course Room 203 Fee: Local citizens $40 / Non-locals $60 18:00–20:00 Thursday Action Workshop Room 105 Starts at 6 p.m. 14:00–16:00 Watercolor Painting Class Art Studio Painting Class Option 1 14:00–16:00 Oil Painting Class Art Studio Painting Class Option 2",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "sure painting class held four",
+      "keywords": "fee dollars local citizens non no starts runs until thursday sure painting class held four",
+      "questions": [
+        {
+          "uid": "4-真题42员工自己设置工作时间有什么好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "课程费用咨询",
+          "prompt": "How much does the basic writing course cost for local citizens and non-local participants?",
+          "answer": "The fee is 40 dollars for local citizens and 60 dollars for non-local participants.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "fee dollars local citizens non"
+        },
+        {
+          "uid": "4-真题42员工自己设置工作时间有什么好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动时间确认",
+          "prompt": "Does the Thursday Action Workshop start at seven p.m.?",
+          "answer": "No, it starts at 6 p.m. and runs until 8 p.m.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no starts runs until thursday"
+        },
+        {
+          "uid": "4-真题42员工自己设置工作时间有什么好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动时间确认",
+          "prompt": "I'm interested in the painting class. Can you give me more details about it?",
+          "answer": "Sure. The painting class is held from two to four p.m. in the art studio. There are two levels available, including a beginner class and an advanced class, so participants can choose the level that suits their skill level.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "sure painting class held four"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -9541,79 +10177,98 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-模拟题1.json-2",
+      "uid": "4-模拟题3.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P2",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 2,
-      "topic": "时间确认",
-      "prompt": "第9题：他9点才能到，活动10点开始，会不会错过什么？",
-      "answer": "No, he will not miss anything because the activity starts at 10 o’clock.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
+      "sourceFile": "模拟题3.json",
+      "bankName": "模拟题库-第3套",
+      "questionId": "8/9/10",
+      "topic": "课程信息",
+      "prompt": "问课程开始时间和注册时间。\n一个活动是在周一举行吗？\n如果只有下午6点后有空，有哪些活动可以参加？",
+      "answer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby. No, the sessions are held on Tuesday and Thursday. Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
+      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–9:30 Registration & Welcome Coffee Main Lobby Check-in before sessions Tuesday 10:00–11:00 Clean Water and Sanitation Room A Led by Mr. Sandra Thursday 10:30–11:30 Life Below Water Room B Led by Peter Kemp",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "no not miss anything activity",
+      "keywords": "registration coffee start monday main no sessions held tuesday thursday unfortunately no activities available sessions",
+      "questions": [
+        {
+          "uid": "4-模拟题3.json-group-q1",
+          "position": 1,
+          "questionId": 8,
+          "topic": "课程信息",
+          "prompt": "问课程开始时间和注册时间。",
+          "answer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "registration coffee start monday main"
+        },
+        {
+          "uid": "4-模拟题3.json-group-q2",
+          "position": 2,
+          "questionId": 9,
+          "topic": "课程信息",
+          "prompt": "一个活动是在周一举行吗？",
+          "answer": "No, the sessions are held on Tuesday and Thursday.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no sessions held tuesday thursday"
+        },
+        {
+          "uid": "4-模拟题3.json-group-q3",
+          "position": 3,
+          "questionId": 10,
+          "topic": "课程信息",
+          "prompt": "如果只有下午6点后有空，有哪些活动可以参加？",
+          "answer": "Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "unfortunately no activities available sessions"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Day",
-          "Activity",
           "Time",
+          "Activity",
           "Location",
           "Notes"
         ],
         "rows": [
           {
             "cells": [
-              "Monday–Saturday",
-              "Museum Opening",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Open to visitors"
+              "Monday",
+              "9:00–9:30",
+              "Registration & Welcome Coffee",
+              "Main Lobby",
+              "Check-in before sessions"
             ],
             "status": ""
           },
           {
             "cells": [
-              "Sunday",
-              "Museum Opening",
-              "12pm–8pm",
-              "The Richards History Museum",
-              "Open to visitors"
+              "Tuesday",
+              "10:00–11:00",
+              "Clean Water and Sanitation",
+              "Room A",
+              "Led by Mr. Sandra"
             ],
             "status": ""
           },
           {
             "cells": [
-              "May 11th",
-              "Children’s Day",
-              "All Day",
-              "The Richards History Museum",
-              "Children under 12 free admission"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 4th",
-              "Houses Around the World Exhibition",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 25th",
-              "How Palaces were Built Film",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
+              "Thursday",
+              "10:30–11:30",
+              "Life Below Water",
+              "Room B",
+              "Led by Peter Kemp"
             ],
             "status": ""
           }
@@ -9623,23 +10278,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题01沟通组织解决问题哪个重要.json-2",
+      "uid": "4-真题01沟通组织解决问题哪个重要.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P2",
       "sourceFile": "真题01沟通组织解决问题哪个重要.json",
       "bankName": "真题1 沟通组织解决问题哪个重要",
-      "questionId": 2,
-      "topic": "儿童活动确认",
-      "prompt": "第9题：带小孩是不是8号去？",
-      "answer": "No, Children’s Day is on May 11th, and children under 12 can enter the museum for free on that day.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
+      "questionId": "1/2/3",
+      "topic": "活动时间地点 · 儿童活动确认 · 展览信息",
+      "prompt": "第8题：问时间和地点。\n第9题：带小孩是不是8号去？\n第10题：对Building类展览比较感兴趣，具体描述时间等内容。",
+      "answer": "The Richards History Museum is open from 9 a.m. to 5 p.m. from Monday to Saturday. No, Children's Day is on May 11th, and children under 12 can enter the museum for free on that day. There are two building-related exhibitions. One is called 'Houses Around the World' on May 4th, and the other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9 a.m. to 5 p.m.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "Children Day May 11th museum free admission",
+      "keywords": "Richards History Museum opening hours time location Children Day May 11th museum free admission Houses Around the World How Palaces were Built exhibition",
+      "questions": [
+        {
+          "uid": "4-真题01沟通组织解决问题哪个重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "活动时间地点",
+          "prompt": "第8题：问时间和地点。",
+          "answer": "The Richards History Museum is open from 9 a.m. to 5 p.m. from Monday to Saturday.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "Richards History Museum opening hours time location"
+        },
+        {
+          "uid": "4-真题01沟通组织解决问题哪个重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "儿童活动确认",
+          "prompt": "第9题：带小孩是不是8号去？",
+          "answer": "No, Children's Day is on May 11th, and children under 12 can enter the museum for free on that day.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "Children Day May 11th museum free admission"
+        },
+        {
+          "uid": "4-真题01沟通组织解决问题哪个重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "展览信息",
+          "prompt": "第10题：对Building类展览比较感兴趣，具体描述时间等内容。",
+          "answer": "There are two building-related exhibitions. One is called 'Houses Around the World' on May 4th, and the other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9 a.m. to 5 p.m.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "Houses Around the World How Palaces were Built exhibition"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Day",
@@ -9705,75 +10399,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题02新工作哪个能力最重要.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题02新工作哪个能力最重要.json",
-      "bankName": "真题2 新工作哪个能力最重要",
-      "questionId": 2,
-      "topic": "会议地点确认",
-      "prompt": "会议地址是哪个酒店，对吗？",
-      "answer": "Yes, the meeting will take place at The Crown Hotel.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Session Time Location Notes May 20th Database Security Morning Session 10:00am–11:00am The Crown Hotel Session about database security May 20th Database Security Afternoon Session 3:00pm–4:00pm The Crown Hotel Session about database security",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes meeting take place crown",
-      "material": {
-        "headers": [
-          "Date",
-          "Session",
-          "Time",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "May 20th",
-              "Database Security Morning Session",
-              "10:00am–11:00am",
-              "The Crown Hotel",
-              "Session about database security"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 20th",
-              "Database Security Afternoon Session",
-              "3:00pm–4:00pm",
-              "The Crown Hotel",
-              "Session about database security"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题03改变国家图书馆.json-1",
+      "uid": "4-真题03改变国家图书馆.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P2",
       "sourceFile": "真题03改变国家图书馆.json",
       "bankName": "真题3 改变国家图书馆",
-      "questionId": 1,
-      "topic": "课程时间和注册",
-      "prompt": "课程什么时候开始，注册截止日期是什么？",
-      "answer": "The first course starts on Monday at 9:00 a.m. Please complete registration before the deadline announced by the organizer.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
+      "questionId": "1/2/3",
+      "topic": "课程时间和注册 · 课程日期确认 · 课程时间选择",
+      "prompt": "课程什么时候开始，注册截止日期是什么？\n一个活动是在周一举行吗？\n如果只有6点后有空，有哪些活动可以参加？",
+      "answer": "The first course starts on Monday at 9:00 a.m. Please complete registration before the deadline announced by the organizer. Yes, the Clean Water and Sanitation session will be held on Monday. Unfortunately, none of the listed sessions are available after 6 p.m. All activities are scheduled in the morning or early afternoon.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Day Session Time Speaker Notes Monday Clean Water and Sanitation 9:00am–10:00am Mr. Sandra Session about clean water and sanitation Tuesday Life Below Water 10:30am–11:30am Peter Kemp Discussion on aquatic life Wednesday Forest Conservation 8:30am–9:30am Lisa Green Discussion about forest preservation Thursday Renewable Energy 11:00am–12:00pm Tom White Session about renewable energy",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "course starts monday please complete",
+      "keywords": "course starts monday please complete yes clean water sanitation session unfortunately none listed sessions available",
+      "questions": [
+        {
+          "uid": "4-真题03改变国家图书馆.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "课程时间和注册",
+          "prompt": "课程什么时候开始，注册截止日期是什么？",
+          "answer": "The first course starts on Monday at 9:00 a.m. Please complete registration before the deadline announced by the organizer.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "course starts monday please complete"
+        },
+        {
+          "uid": "4-真题03改变国家图书馆.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "课程日期确认",
+          "prompt": "一个活动是在周一举行吗？",
+          "answer": "Yes, the Clean Water and Sanitation session will be held on Monday.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes clean water sanitation session"
+        },
+        {
+          "uid": "4-真题03改变国家图书馆.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "课程时间选择",
+          "prompt": "如果只有6点后有空，有哪些活动可以参加？",
+          "answer": "Unfortunately, none of the listed sessions are available after 6 p.m. All activities are scheduled in the morning or early afternoon.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "unfortunately none listed sessions available"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Day",
@@ -9829,23 +10510,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题08作为老板高效沟通是不是最重要.json-2",
+      "uid": "4-真题08作为老板高效沟通是不是最重要.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P2",
       "sourceFile": "真题08作为老板高效沟通是不是最重要.json",
       "bankName": "真题8 作为老板高效沟通是不是最重要",
-      "questionId": 2,
-      "topic": "活动费用",
-      "prompt": "朋友也想参加，需要付费吗？",
-      "answer": "Non-members need to pay $25; members enter for free.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
+      "questionId": "1/2/3",
+      "topic": "活动时间地点 · 活动费用 · 活动导览信息",
+      "prompt": "会员日活动什么时候举行，在哪里？\n朋友也想参加，需要付费吗？\n有哪些导览活动？能提供具体信息吗？",
+      "answer": "The member day activities start at 9:00 at the museum's main entrance. Non-members need to pay $25. members enter for free. There are two guided tours. One is the Art Exhibition from 10:00 to 11:00 in Gallery A led by the curator. The other is the Historical Collection from 11:30 to 12:30 in Gallery B led by museum staff.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:00–09:30 Member Registration Main Entrance Members check in 10:00–11:00 Guided Tour: Art Exhibition Gallery A Led by curator 11:30–12:30 Guided Tour: Historical Collection Gallery B Led by museum staff",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "non members pay enter free",
+      "keywords": "member day activities start museum non members pay enter free guided tours art exhibition gallery",
+      "questions": [
+        {
+          "uid": "4-真题08作为老板高效沟通是不是最重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "活动时间地点",
+          "prompt": "会员日活动什么时候举行，在哪里？",
+          "answer": "The member day activities start at 9:00 at the museum's main entrance.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "member day activities start museum"
+        },
+        {
+          "uid": "4-真题08作为老板高效沟通是不是最重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动费用",
+          "prompt": "朋友也想参加，需要付费吗？",
+          "answer": "Non-members need to pay $25. members enter for free.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "non members pay enter free"
+        },
+        {
+          "uid": "4-真题08作为老板高效沟通是不是最重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "活动导览信息",
+          "prompt": "有哪些导览活动？能提供具体信息吗？",
+          "answer": "There are two guided tours. One is the Art Exhibition from 10:00 to 11:00 in Gallery A led by the curator. The other is the Historical Collection from 11:30 to 12:30 in Gallery B led by museum staff.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "guided tours art exhibition gallery"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -9887,3719 +10607,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题12毕业后第一份工作必要吗.json-2",
+      "uid": "4-真题13offer是否需要考虑公司的名誉.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
       "priority": "P2",
-      "sourceFile": "真题12毕业后第一份工作必要吗.json",
-      "bankName": "真题12 毕业后第一份工作必要吗",
-      "questionId": 2,
-      "topic": "会议时间确认",
-      "prompt": "有人10点才能到，会错过什么内容？",
-      "answer": "They will not miss the main project briefing, which starts at 10:00.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Activity Details Notes Morning Meeting Starts at 9:00, all employees Introduction and daily plan discussion Project Briefing 10:00–11:00, Room 202 Supervisor presents new project details Coffee Break 11:00–11:15, Lounge Area Refreshments provided for participants",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "not miss main project briefing",
-      "material": {
-        "headers": [
-          "Activity",
-          "Details",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Morning Meeting",
-              "Starts at 9:00, all employees",
-              "Introduction and daily plan discussion"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Project Briefing",
-              "10:00–11:00, Room 202",
-              "Supervisor presents new project details"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Coffee Break",
-              "11:00–11:15, Lounge Area",
-              "Refreshments provided for participants"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题14去当实习生吗.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题14去当实习生吗.json",
-      "bankName": "真题14 去当实习生吗",
-      "questionId": 2,
-      "topic": "会议内容确认",
-      "prompt": "有人11点要离开，会错过什么内容？",
-      "answer": "No, actually the meeting will end at 10:00, so they won't miss anything.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/07/02 08:00–10:00 Meeting Conference Room First topic: Freshmen introduction 2022/07/02 10:30–11:00 Break Lobby Some attendees leave at 11 am 2022/07/02 11:00–12:00 Topic by Grim Conference Room Details: start-end time, speaker Grim, topic discussion",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no actually meeting end won",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "2022/07/02",
-              "08:00–10:00",
-              "Meeting",
-              "Conference Room",
-              "First topic: Freshmen introduction"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/07/02",
-              "10:30–11:00",
-              "Break",
-              "Lobby",
-              "Some attendees leave at 11 am"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/07/02",
-              "11:00–12:00",
-              "Topic by Grim",
-              "Conference Room",
-              "Details: start-end time, speaker Grim, topic discussion"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题17幽默humor还是严肃serious.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题17幽默humor还是严肃serious.json",
-      "bankName": "真题17 幽默humor还是严肃serious",
-      "questionId": 1,
-      "topic": "培训日期及首场时间咨询",
-      "prompt": "When is the new employee training scheduled, and what time does the first training session start?",
-      "answer": "The new employee training is scheduled for October 22nd, and the first training session starts at 8:00 in the morning.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 12th 08:00-08:45 Group Interview - All Candidates Meeting Room 1 Food company interview kick-off Oct 12th 09:00-09:45 One-on-one Interview - Nutritionist 1 Meeting Room 2 Clinical nutrition expertise Oct 12th 10:00-10:45 One-on-one Interview - Nutritionist 2 Meeting Room 2 Product development experience ~~Oct 15th 09:00~~ New Employee Training Training Room A *Postponed* Oct 22nd 08:00-12:00 New Employee Training Session 1 Training Room A Food safety & nutrition basics",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "new employee training scheduled october",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Oct 12th",
-              "08:00-08:45",
-              "Group Interview - All Candidates",
-              "Meeting Room 1",
-              "Food company interview kick-off"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 12th",
-              "09:00-09:45",
-              "One-on-one Interview - Nutritionist 1",
-              "Meeting Room 2",
-              "Clinical nutrition expertise"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 12th",
-              "10:00-10:45",
-              "One-on-one Interview - Nutritionist 2",
-              "Meeting Room 2",
-              "Product development experience"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 15th",
-              "09:00",
-              "New Employee Training",
-              "Training Room A",
-              "Postponed"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "Oct 22nd",
-              "08:00-12:00",
-              "New Employee Training Session 1",
-              "Training Room A",
-              "Food safety & nutrition basics"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题17幽默humor还是严肃serious.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题17幽默humor还是严肃serious.json",
-      "bankName": "真题17 幽默humor还是严肃serious",
-      "questionId": 2,
-      "topic": "延期培训情况咨询",
-      "prompt": "What can you tell me about the training session that is crossed out and marked \"postponed\"?",
-      "answer": "The crossed-out training was originally planned to be held on October 15th at 9:00 AM, but it has been postponed and the new date is not confirmed yet.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 12th 08:00-08:45 Group Interview - All Candidates Meeting Room 1 Food company interview kick-off Oct 12th 09:00-09:45 One-on-one Interview - Nutritionist 1 Meeting Room 2 Clinical nutrition expertise Oct 12th 10:00-10:45 One-on-one Interview - Nutritionist 2 Meeting Room 2 Product development experience ~~Oct 15th 09:00~~ New Employee Training Training Room A *Postponed* Oct 22nd 08:00-12:00 New Employee Training Session 1 Training Room A Food safety & nutrition basics",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "crossed out training originally planned",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Oct 12th",
-              "08:00-08:45",
-              "Group Interview - All Candidates",
-              "Meeting Room 1",
-              "Food company interview kick-off"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 12th",
-              "09:00-09:45",
-              "One-on-one Interview - Nutritionist 1",
-              "Meeting Room 2",
-              "Clinical nutrition expertise"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 12th",
-              "10:00-10:45",
-              "One-on-one Interview - Nutritionist 2",
-              "Meeting Room 2",
-              "Product development experience"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 15th",
-              "09:00",
-              "New Employee Training",
-              "Training Room A",
-              "Postponed"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "Oct 22nd",
-              "08:00-12:00",
-              "New Employee Training Session 1",
-              "Training Room A",
-              "Food safety & nutrition basics"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-8",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题24为一家已经经营了很多年的公司工作有哪些优点.json",
-      "bankName": "真题24 为一家已经经营了很多年的公司工作有哪些优点",
-      "questionId": 8,
-      "topic": "活动举办时间咨询",
-      "prompt": "Question 1: When is the weekly activity held?",
-      "answer": "The weekly health lecture is held every Tuesday from 6:00 pm to 8:00 pm.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Schedule Time Location Host Topic Weekly Health Lecture Every Tuesday 6:00 pm - 8:00 pm Meeting Room A Dr. Smith Healthy Lifestyle Special Seminar 1 Jan 3 Meeting Room A Dr. Smith Heart Healthy Food Special Seminar 2 Apr 2 Meeting Room A Dr. Smith Balanced Diet for Adults",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "weekly health lecture held tuesday",
-      "material": {
-        "headers": [
-          "Schedule",
-          "Time",
-          "Location",
-          "Host",
-          "Topic"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Weekly Health Lecture",
-              "Every Tuesday 6:00 pm - 8:00 pm",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Healthy Lifestyle"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Special Seminar 1",
-              "Jan 3",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Heart Healthy Food"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Special Seminar 2",
-              "Apr 2",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Balanced Diet for Adults"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-9",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题24为一家已经经营了很多年的公司工作有哪些优点.json",
-      "bankName": "真题24 为一家已经经营了很多年的公司工作有哪些优点",
-      "questionId": 9,
-      "topic": "活动举办地点确认",
-      "prompt": "Question 2: Is the activity held in Room B?",
-      "answer": "No, I'm sorry. I'm afraid that the activity will be held in Meeting Room A. Please keep that in mind.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Schedule Time Location Host Topic Weekly Health Lecture Every Tuesday 6:00 pm - 8:00 pm Meeting Room A Dr. Smith Healthy Lifestyle Special Seminar 1 Jan 3 Meeting Room A Dr. Smith Heart Healthy Food Special Seminar 2 Apr 2 Meeting Room A Dr. Smith Balanced Diet for Adults",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "no sorry afraid activity held",
-      "material": {
-        "headers": [
-          "Schedule",
-          "Time",
-          "Location",
-          "Host",
-          "Topic"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Weekly Health Lecture",
-              "Every Tuesday 6:00 pm - 8:00 pm",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Healthy Lifestyle"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Special Seminar 1",
-              "Jan 3",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Heart Healthy Food"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Special Seminar 2",
-              "Apr 2",
-              "Meeting Room A",
-              "Dr. Smith",
-              "Balanced Diet for Adults"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题25在公司上班前有过创业经验的好处.json-8",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题25在公司上班前有过创业经验的好处.json",
-      "bankName": "真题25 在公司上班前有过创业经验的好处",
-      "questionId": 8,
-      "topic": "面试地点及首场时间咨询",
-      "prompt": "Question 1: Where will the interviews be held and what time does the first interview start?",
-      "answer": "The interviews will be held in Room 302, and the first interview starts at 9:00 in the morning.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Interview Agenda Location Requirement 09:00-10:00 First Round - Music Theory Test Room 302 Basic music knowledge 10:30-11:30 Second Round - Piano Demo Room 302 Teaching experience required 14:00-15:00 Third Round - Teaching Plan Presentation Room 302 Teaching experience required 16:00-17:00 Final Round - Interview with Principal Room 302 *Cancelled*",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "interviews held room interview starts",
-      "material": {
-        "headers": [
-          "Time",
-          "Interview Agenda",
-          "Location",
-          "Requirement"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00-10:00",
-              "First Round - Music Theory Test",
-              "Room 302",
-              "Basic music knowledge"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:30-11:30",
-              "Second Round - Piano Demo",
-              "Room 302",
-              "Teaching experience required"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00-15:00",
-              "Third Round - Teaching Plan Presentation",
-              "Room 302",
-              "Teaching experience required"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00-17:00",
-              "Final Round - Interview with Principal",
-              "Room 302",
-              "Cancelled"
-            ],
-            "status": "changed"
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题25在公司上班前有过创业经验的好处.json-9",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题25在公司上班前有过创业经验的好处.json",
-      "bankName": "真题25 在公司上班前有过创业经验的好处",
-      "questionId": 9,
-      "topic": "最后一场面试时间确认",
-      "prompt": "Question 2: Is the last interview scheduled for 4:00 p.m.?",
-      "answer": "No, it isn't. The interview scheduled for 4:00 p.m. has been cancelled, so the last interview starts at 3:00 p.m.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Interview Agenda Location Requirement 09:00-10:00 First Round - Music Theory Test Room 302 Basic music knowledge 10:30-11:30 Second Round - Piano Demo Room 302 Teaching experience required 14:00-15:00 Third Round - Teaching Plan Presentation Room 302 Teaching experience required 16:00-17:00 Final Round - Interview with Principal Room 302 *Cancelled*",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "no isn interview scheduled cancelled",
-      "material": {
-        "headers": [
-          "Time",
-          "Interview Agenda",
-          "Location",
-          "Requirement"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00-10:00",
-              "First Round - Music Theory Test",
-              "Room 302",
-              "Basic music knowledge"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:30-11:30",
-              "Second Round - Piano Demo",
-              "Room 302",
-              "Teaching experience required"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00-15:00",
-              "Third Round - Teaching Plan Presentation",
-              "Room 302",
-              "Teaching experience required"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00-17:00",
-              "Final Round - Interview with Principal",
-              "Room 302",
-              "Cancelled"
-            ],
-            "status": "changed"
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题26是现有的工作更让你开心.json-8",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题26是现有的工作更让你开心.json",
-      "bankName": "真题26 是现有的工作更让你开心",
-      "questionId": 8,
-      "topic": "乡村音乐会购票方式咨询",
-      "prompt": "Question 1: What are the available ticket purchase methods for the country concerts?",
-      "answer": "Question 1: The ticket purchase methods for the country concerts are online, by phone, and in person.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Concert Type Time Ticket Purchase Methods Notes Country Concert 1 Oct 12 7:00 PM Online, By Phone, In Person Outdoor venue, bring rain gear if needed Country Concert 2 Nov 18 7:30 PM Online, By Phone, In Person Indoor stadium, no outside food allowed Classic Concert Dec 24 8:00 PM Online only Limited seats, book early",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question ticket purchase methods country",
-      "material": {
-        "headers": [
-          "Concert Type",
-          "Time",
-          "Ticket Purchase Methods",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Country Concert 1",
-              "Oct 12 7:00 PM",
-              "Online, By Phone, In Person",
-              "Outdoor venue, bring rain gear if needed"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Country Concert 2",
-              "Nov 18 7:30 PM",
-              "Online, By Phone, In Person",
-              "Indoor stadium, no outside food allowed"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Classic Concert",
-              "Dec 24 8:00 PM",
-              "Online only",
-              "Limited seats, book early"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题26是现有的工作更让你开心.json-10",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题26是现有的工作更让你开心.json",
-      "bankName": "真题26 是现有的工作更让你开心",
-      "questionId": 10,
-      "topic": "古典音乐会购票方式确认",
-      "prompt": "Question 3: Is the classic concert ticket available for purchase in person?",
-      "answer": "Question 3: No, the classic concert tickets are only available for purchase online.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Concert Type Time Ticket Purchase Methods Notes Country Concert 1 Oct 12 7:00 PM Online, By Phone, In Person Outdoor venue, bring rain gear if needed Country Concert 2 Nov 18 7:30 PM Online, By Phone, In Person Indoor stadium, no outside food allowed Classic Concert Dec 24 8:00 PM Online only Limited seats, book early",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question no classic concert tickets",
-      "material": {
-        "headers": [
-          "Concert Type",
-          "Time",
-          "Ticket Purchase Methods",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Country Concert 1",
-              "Oct 12 7:00 PM",
-              "Online, By Phone, In Person",
-              "Outdoor venue, bring rain gear if needed"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Country Concert 2",
-              "Nov 18 7:30 PM",
-              "Online, By Phone, In Person",
-              "Indoor stadium, no outside food allowed"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Classic Concert",
-              "Dec 24 8:00 PM",
-              "Online only",
-              "Limited seats, book early"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-8",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题27你认为一家公司有环境友好政策有什么好处.json",
-      "bankName": "真题27 你认为一家公司有环境友好政策有什么好处",
-      "questionId": 8,
-      "topic": "培训开始日期及举办地点咨询",
-      "prompt": "Question 1: On which day does the training start and where is it held?",
-      "answer": "Question 1: The training starts on November 5th and is held in Conference Room 101.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Nov 5th 09:00-09:30 Opening Ceremony Conference Room 101 Leadership Training Kick-off Nov 5th 10:00-12:00 Workshop 1: Team Management Conference Room 101 Interactive discussions Nov 5th 14:00-16:00 Workshop 2: Decision Making Conference Room 101 Case study analysis Nov 5th 16:30-17:30 Closing Sharing Conference Room 101 Summary and Q&A",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question training starts november th",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Nov 5th",
-              "09:00-09:30",
-              "Opening Ceremony",
-              "Conference Room 101",
-              "Leadership Training Kick-off"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "10:00-12:00",
-              "Workshop 1: Team Management",
-              "Conference Room 101",
-              "Interactive discussions"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "14:00-16:00",
-              "Workshop 2: Decision Making",
-              "Conference Room 101",
-              "Case study analysis"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "16:30-17:30",
-              "Closing Sharing",
-              "Conference Room 101",
-              "Summary and Q&A"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-9",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题27你认为一家公司有环境友好政策有什么好处.json",
-      "bankName": "真题27 你认为一家公司有环境友好政策有什么好处",
-      "questionId": 9,
-      "topic": "第一门课程时间确认",
-      "prompt": "Question 2: Does the first course start at 10:00 AM?",
-      "answer": "Question 2: No, it doesn't. The first course is the opening ceremony, which starts at 9:00 AM.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Nov 5th 09:00-09:30 Opening Ceremony Conference Room 101 Leadership Training Kick-off Nov 5th 10:00-12:00 Workshop 1: Team Management Conference Room 101 Interactive discussions Nov 5th 14:00-16:00 Workshop 2: Decision Making Conference Room 101 Case study analysis Nov 5th 16:30-17:30 Closing Sharing Conference Room 101 Summary and Q&A",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question no doesn course opening",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Nov 5th",
-              "09:00-09:30",
-              "Opening Ceremony",
-              "Conference Room 101",
-              "Leadership Training Kick-off"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "10:00-12:00",
-              "Workshop 1: Team Management",
-              "Conference Room 101",
-              "Interactive discussions"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "14:00-16:00",
-              "Workshop 2: Decision Making",
-              "Conference Room 101",
-              "Case study analysis"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "16:30-17:30",
-              "Closing Sharing",
-              "Conference Room 101",
-              "Summary and Q&A"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-10",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题27你认为一家公司有环境友好政策有什么好处.json",
-      "bankName": "真题27 你认为一家公司有环境友好政策有什么好处",
-      "questionId": 10,
-      "topic": "培训研讨会情况咨询",
-      "prompt": "Question 3: I heard your workshops are very good. Could you introduce the workshops in this training?",
-      "answer": "Question 3: There are two workshops in this training. The first one is Team Management from 10:00 AM to 12:00 PM with interactive discussions, and the second one is Decision Making from 2:00 PM to 4:00 PM with case study analysis.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Nov 5th 09:00-09:30 Opening Ceremony Conference Room 101 Leadership Training Kick-off Nov 5th 10:00-12:00 Workshop 1: Team Management Conference Room 101 Interactive discussions Nov 5th 14:00-16:00 Workshop 2: Decision Making Conference Room 101 Case study analysis Nov 5th 16:30-17:30 Closing Sharing Conference Room 101 Summary and Q&A",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question workshops training team management",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Nov 5th",
-              "09:00-09:30",
-              "Opening Ceremony",
-              "Conference Room 101",
-              "Leadership Training Kick-off"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "10:00-12:00",
-              "Workshop 1: Team Management",
-              "Conference Room 101",
-              "Interactive discussions"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "14:00-16:00",
-              "Workshop 2: Decision Making",
-              "Conference Room 101",
-              "Case study analysis"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Nov 5th",
-              "16:30-17:30",
-              "Closing Sharing",
-              "Conference Room 101",
-              "Summary and Q&A"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题28你认为elementary school的学生是否需要开始学英语.json",
-      "bankName": "真题28 你认为elementary school的学生是否需要开始学英语",
-      "questionId": 1,
-      "topic": "电影票价格",
-      "prompt": "电影票价格是多少？",
-      "answer": "The ticket prices are 12 dollars per movie for the morning and afternoon sessions, and 15 dollars per movie for the evening 3D session.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Movie Fee Location Notes 09:00–11:00 Morning Movie $12 Cinema A Standard 2D movie 13:00–15:00 Afternoon Movie $12 Cinema B Standard 2D movie 16:00–18:00 Evening Movie $15 Cinema A Includes 3D experience",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "ticket prices dollars per movie",
-      "material": {
-        "headers": [
-          "Time",
-          "Movie",
-          "Fee",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–11:00",
-              "Morning Movie",
-              "$12",
-              "Cinema A",
-              "Standard 2D movie"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "13:00–15:00",
-              "Afternoon Movie",
-              "$12",
-              "Cinema B",
-              "Standard 2D movie"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00–18:00",
-              "Evening Movie",
-              "$15",
-              "Cinema A",
-              "Includes 3D experience"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题29网络和电子设备会取代报纸吗.json-8",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题29网络和电子设备会取代报纸吗.json",
-      "bankName": "真题29 网络和电子设备会取代报纸吗",
-      "questionId": 8,
-      "topic": "活动开始时间咨询",
-      "prompt": "Question 1: What time does the event start?",
-      "answer": "Question 1: The event starts at 9:00 AM on October 20th after the registration which begins at 8:30 AM.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 20th 08:30 AM Registration Main Hall Event starts after registration Oct 20th 09:00 AM Lecture 1: Digital Media Trends Conference Room A Free handouts provided Oct 20th 11:00 AM Lecture 2: Smart Device Innovation Conference Room A Guest speaker from tech company Oct 20th 12:30 PM Lunch Break Cafeteria 10$ per person Oct 20th 02:00 PM Panel Discussion Conference Room B Open to all attendees",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question event starts am october",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Oct 20th",
-              "08:30 AM",
-              "Registration",
-              "Main Hall",
-              "Event starts after registration"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "09:00 AM",
-              "Lecture 1: Digital Media Trends",
-              "Conference Room A",
-              "Free handouts provided"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "11:00 AM",
-              "Lecture 2: Smart Device Innovation",
-              "Conference Room A",
-              "Guest speaker from tech company"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "12:30 PM",
-              "Lunch Break",
-              "Cafeteria",
-              "10$ per person"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "02:00 PM",
-              "Panel Discussion",
-              "Conference Room B",
-              "Open to all attendees"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题29网络和电子设备会取代报纸吗.json-9",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题29网络和电子设备会取代报纸吗.json",
-      "bankName": "真题29 网络和电子设备会取代报纸吗",
-      "questionId": 9,
-      "topic": "午餐费用确认",
-      "prompt": "Question 2: Is the lunch free?",
-      "answer": "Question 2: No, the lunch is not free. It costs 10 dollars per person.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 20th 08:30 AM Registration Main Hall Event starts after registration Oct 20th 09:00 AM Lecture 1: Digital Media Trends Conference Room A Free handouts provided Oct 20th 11:00 AM Lecture 2: Smart Device Innovation Conference Room A Guest speaker from tech company Oct 20th 12:30 PM Lunch Break Cafeteria 10$ per person Oct 20th 02:00 PM Panel Discussion Conference Room B Open to all attendees",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question no lunch not free",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Oct 20th",
-              "08:30 AM",
-              "Registration",
-              "Main Hall",
-              "Event starts after registration"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "09:00 AM",
-              "Lecture 1: Digital Media Trends",
-              "Conference Room A",
-              "Free handouts provided"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "11:00 AM",
-              "Lecture 2: Smart Device Innovation",
-              "Conference Room A",
-              "Guest speaker from tech company"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "12:30 PM",
-              "Lunch Break",
-              "Cafeteria",
-              "10$ per person"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Oct 20th",
-              "02:00 PM",
-              "Panel Discussion",
-              "Conference Room B",
-              "Open to all attendees"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题30参观热门旅游景点是熟悉这座城市的最佳方式.json",
-      "bankName": "真题30 参观热门旅游景点是熟悉这座城市的最佳方式",
-      "questionId": 1,
-      "topic": "课程费用咨询",
-      "prompt": "课程费用是多少？",
-      "answer": "The fees are 40 dollars, 55 dollars, and 70 dollars depending on the class.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Class Fee Location Notes 07:30–08:30 Morning Swimming Class $40 Indoor Pool A Beginner level 10:00–11:00 Family Swimming Class $55 Indoor Pool B Parents and children 14:00–15:30 Advanced Swimming Training $70 Olympic Pool For experienced swimmers",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "fees dollars depending class",
-      "material": {
-        "headers": [
-          "Time",
-          "Class",
-          "Fee",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "07:30–08:30",
-              "Morning Swimming Class",
-              "$40",
-              "Indoor Pool A",
-              "Beginner level"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Family Swimming Class",
-              "$55",
-              "Indoor Pool B",
-              "Parents and children"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:30",
-              "Advanced Swimming Training",
-              "$70",
-              "Olympic Pool",
-              "For experienced swimmers"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题30参观热门旅游景点是熟悉这座城市的最佳方式.json",
-      "bankName": "真题30 参观热门旅游景点是熟悉这座城市的最佳方式",
-      "questionId": 2,
-      "topic": "课程时间确认",
-      "prompt": "课程是不是在早上？",
-      "answer": "Yes, two of the swimming classes are in the morning: one at 7:30 and the other at 10 o’clock.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Class Fee Location Notes 07:30–08:30 Morning Swimming Class $40 Indoor Pool A Beginner level 10:00–11:00 Family Swimming Class $55 Indoor Pool B Parents and children 14:00–15:30 Advanced Swimming Training $70 Olympic Pool For experienced swimmers",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes swimming classes morning clock",
-      "material": {
-        "headers": [
-          "Time",
-          "Class",
-          "Fee",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "07:30–08:30",
-              "Morning Swimming Class",
-              "$40",
-              "Indoor Pool A",
-              "Beginner level"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Family Swimming Class",
-              "$55",
-              "Indoor Pool B",
-              "Parents and children"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:30",
-              "Advanced Swimming Training",
-              "$70",
-              "Olympic Pool",
-              "For experienced swimmers"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题32主管评价员工，周边同事反馈是否很重要.json",
-      "bankName": "真题32 主管评价员工，周边同事反馈是否很重要",
-      "questionId": 2,
-      "topic": "会议时间确认",
-      "prompt": "问某个会议是不是在早上。",
-      "answer": "No, it’s not in the morning. It’s actually at 2:00 PM in the afternoon.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据以下信息回答问题： Time Activity Location Notes 2:00 PM Opening & Venue Check-in Conference Room Main meeting check-in 2:15 PM Project Update Session Conference Room A First meeting session 3:00 PM Demonstration: How to Prune Fruit Trees Garden Area Outdoor demo 4:00 PM Workshop: Growing Fruit Trees in Your Garden Room C Practical training session",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no not morning actually pm",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "2:00 PM",
-              "Opening & Venue Check-in",
-              "Conference Room",
-              "Main meeting check-in"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2:15 PM",
-              "Project Update Session",
-              "Conference Room A",
-              "First meeting session"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "3:00 PM",
-              "Demonstration: How to Prune Fruit Trees",
-              "Garden Area",
-              "Outdoor demo"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "4:00 PM",
-              "Workshop: Growing Fruit Trees in Your Garden",
-              "Room C",
-              "Practical training session"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题33在21岁以下开车的坏处.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题33在21岁以下开车的坏处.json",
-      "bankName": "真题33 21岁以下开车的坏处",
-      "questionId": 1,
-      "topic": "活动介绍",
-      "prompt": "介绍living center 的地点在哪 以及每节课程的价格",
-      "answer": "The activity will be held in the Healthy Living Center, And it costs $5 for each person/ it costs $5 per person",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Location: All workshops are held at the Healthy Living Center. Price: Each workshop session costs $5 per person. Schedule: The workshop series runs from April 7 to May 29. Evening Workshops (After 6:00 p.m.): Making Money at 6:30 p.m. How to Sleep at 8:00 p.m.",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "activity held healthy living center",
-      "material": {
-        "headers": [
-          "项目",
-          "详细信息"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Location",
-              "All workshops are held at the Healthy Living Center."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Price",
-              "Each workshop session costs $5 per person."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Schedule",
-              "The workshop series runs from April 7 to May 29."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Evening Workshops",
-              "After 6:00 p.m."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Making Money",
-              "6:30 p.m."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "How to Sleep",
-              "8:00 p.m."
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题33在21岁以下开车的坏处.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题33在21岁以下开车的坏处.json",
-      "bankName": "真题33 21岁以下开车的坏处",
-      "questionId": 2,
-      "topic": "天气相关活动确认",
-      "prompt": "课程是不是只有4月份有课程",
-      "answer": "No, it should be from April 7 to May 29.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Location: All workshops are held at the Healthy Living Center. Price: Each workshop session costs $5 per person. Schedule: The workshop series runs from April 7 to May 29. Evening Workshops (After 6:00 p.m.): Making Money at 6:30 p.m. How to Sleep at 8:00 p.m.",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no april",
-      "material": {
-        "headers": [
-          "项目",
-          "详细信息"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Location",
-              "All workshops are held at the Healthy Living Center."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Price",
-              "Each workshop session costs $5 per person."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Schedule",
-              "The workshop series runs from April 7 to May 29."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Evening Workshops",
-              "After 6:00 p.m."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Making Money",
-              "6:30 p.m."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "How to Sleep",
-              "8:00 p.m."
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题35父母让孩子做家务的好处.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题35父母让孩子做家务的好处.json",
-      "bankName": "真题35 父母让孩子做家务的好处",
-      "questionId": 2,
-      "topic": "活动时间判断",
-      "prompt": "workshop是不是在上午举行？",
-      "answer": "No, the workshop is not in the morning. It is held in the afternoon from 1:00 to 2:00 p.m.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Date Activity Time Location October 15 Meeting 9:30 a.m. Conference Room A October 15 Workshop: Marketing Skills 1:00–2:00 p.m. Room C October 15 Panel Session 1: International Business 2:30–3:30 p.m. Hall 2 October 15 Panel Session 2: Technology Trends 4:00–5:00 p.m. Hall 2",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no workshop not morning held",
-      "material": {
-        "headers": [
-          "Date",
-          "Activity",
-          "Time",
-          "Location"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "October 15",
-              "Meeting",
-              "9:30 a.m.",
-              "Conference Room A"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October 15",
-              "Workshop: Marketing Skills",
-              "1:00–2:00 p.m.",
-              "Room C"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October 15",
-              "Panel Session 1: International Business",
-              "2:30–3:30 p.m.",
-              "Hall 2"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October 15",
-              "Panel Session 2: Technology Trends",
-              "4:00–5:00 p.m.",
-              "Hall 2"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题36公司提供工作日锻炼的机会是否是一个好主意.json",
-      "bankName": "真题36 公司提供工作日锻炼",
-      "questionId": 2,
-      "topic": "票价咨询",
-      "prompt": "有没有便宜票卖？",
-      "answer": "Yes, early registration offers a cheaper ticket at 40 dollars instead of the regular price.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00–9:30 Registration Check-in and materials distribution 10:00–11:00 Seminar Opening Welcome speech and introduction 11:15–12:15 Workshop A How to Improve Workplace Productivity 1:30–2:30 Workshop B Healthy Lifestyle for Office Workers 3:00–4:00 Q&A Session Open discussion with speakers",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes early registration offers cheaper",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity / Speaker",
-          "Topic / Details"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "9:00–9:30",
-              "Registration",
-              "Check-in and materials distribution"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Seminar Opening",
-              "Welcome speech and introduction"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:15–12:15",
-              "Workshop A",
-              "How to Improve Workplace Productivity"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "1:30–2:30",
-              "Workshop B",
-              "Healthy Lifestyle for Office Workers"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "3:00–4:00",
-              "Q&A Session",
-              "Open discussion with speakers"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题37对于一个求职者哪个最重要.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题37对于一个求职者哪个最重要.json",
-      "bankName": "真题37 对于一个求职者，哪个最重要",
-      "questionId": 1,
-      "topic": "会议信息咨询",
-      "prompt": "When and where is the meeting?",
-      "answer": "The meeting is scheduled for Thursday, August 15th at the downtown conference center near the main train station.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00 – 9:30 Registration Check-in and materials distribution 10:00 – 11:30 John Berg (Session 1) New Marketing Strategies for Small Businesses 12:00 – 1:00 Lunch Break Lunch provided at the dining hall 1:30 – 2:30 John Berg (Session 2) Customer Engagement Techniques 3:00 – 4:00 Panel Discussion Future Trends in Digital Business Ticket price:$45(members),$60(non members)",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "meeting scheduled thursday august th",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity / Speaker",
-          "Topic / Details"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "9:00 – 9:30",
-              "Registration",
-              "Check-in and materials distribution"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00 – 11:30",
-              "John Berg (Session 1)",
-              "New Marketing Strategies for Small Businesses"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:00 – 1:00",
-              "Lunch Break",
-              "Lunch provided at the dining hall"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "1:30 – 2:30",
-              "John Berg (Session 2)",
-              "Customer Engagement Techniques"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "3:00 – 4:00",
-              "Panel Discussion",
-              "Future Trends in Digital Business"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [
-          "Ticket price:$45(members),$60(non members)"
-        ],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题37对于一个求职者哪个最重要.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题37对于一个求职者哪个最重要.json",
-      "bankName": "真题37 对于一个求职者，哪个最重要",
-      "questionId": 2,
-      "topic": "费用确认",
-      "prompt": "Is the ticket price for members $60?",
-      "answer": "No, the ticket price for members is $45. The $60 ticket is for non-members.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00 – 9:30 Registration Check-in and materials distribution 10:00 – 11:30 John Berg (Session 1) New Marketing Strategies for Small Businesses 12:00 – 1:00 Lunch Break Lunch provided at the dining hall 1:30 – 2:30 John Berg (Session 2) Customer Engagement Techniques 3:00 – 4:00 Panel Discussion Future Trends in Digital Business Ticket price:$45(members),$60(non members)",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no ticket price members non",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity / Speaker",
-          "Topic / Details"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "9:00 – 9:30",
-              "Registration",
-              "Check-in and materials distribution"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00 – 11:30",
-              "John Berg (Session 1)",
-              "New Marketing Strategies for Small Businesses"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:00 – 1:00",
-              "Lunch Break",
-              "Lunch provided at the dining hall"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "1:30 – 2:30",
-              "John Berg (Session 2)",
-              "Customer Engagement Techniques"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "3:00 – 4:00",
-              "Panel Discussion",
-              "Future Trends in Digital Business"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [
-          "Ticket price:$45(members),$60(non members)"
-        ],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题38当医生有什么好处.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题38当医生有什么好处.json",
-      "bankName": "真题38 当医生有什么好处",
-      "questionId": 2,
-      "topic": "费用确认",
-      "prompt": "午餐是不是免费？",
-      "answer": "No, lunch is not free. It costs five dollars per person.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Instructor Notes 09:00–10:30 Introduction to Cooking Chef Mike First class of the training 12:00–13:00 Lunch Break N/A Lunch costs $5 per person 14:00–16:00 Specialty Courses Chef Mike Italian cooking & French cuisine",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no lunch not free costs",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Instructor",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–10:30",
-              "Introduction to Cooking",
-              "Chef Mike",
-              "First class of the training"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:00–13:00",
-              "Lunch Break",
-              "N/A",
-              "Lunch costs $5 per person"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–16:00",
-              "Specialty Courses",
-              "Chef Mike",
-              "Italian cooking & French cuisine"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题39技术是否很难平衡工作和生活.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题39技术是否很难平衡工作和生活.json",
-      "bankName": "真题39 技术是否很难平衡工作和生活",
-      "questionId": 1,
-      "topic": "会议时间",
-      "prompt": "What time does the meeting start?",
-      "answer": "The meeting starts at 9 a.m.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:00 Lecture: Time Management Room A, Conference Center Tips and techniques for managing work and personal tasks 11:15–12:15 Lecture: Workplace Communication Room B, Conference Center How to communicate effectively in the office 12:30–13:30 Lunch Cafeteria Free for registered participants only",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "meeting starts time start",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Participants check in and have coffee before the event starts"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Lecture: Time Management",
-              "Room A, Conference Center",
-              "Tips and techniques for managing work and personal tasks"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:15–12:15",
-              "Lecture: Workplace Communication",
-              "Room B, Conference Center",
-              "How to communicate effectively in the office"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:30–13:30",
-              "Lunch",
-              "Cafeteria",
-              "Free for registered participants only"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题39技术是否很难平衡工作和生活.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题39技术是否很难平衡工作和生活.json",
-      "bankName": "真题39 技术是否很难平衡工作和生活",
-      "questionId": 2,
-      "topic": "午餐安排",
-      "prompt": "Is lunch free for everyone?",
-      "answer": "No, lunch is only free for registered participants.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:00 Lecture: Time Management Room A, Conference Center Tips and techniques for managing work and personal tasks 11:15–12:15 Lecture: Workplace Communication Room B, Conference Center How to communicate effectively in the office 12:30–13:30 Lunch Cafeteria Free for registered participants only",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no lunch free registered participants",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Participants check in and have coffee before the event starts"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Lecture: Time Management",
-              "Room A, Conference Center",
-              "Tips and techniques for managing work and personal tasks"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:15–12:15",
-              "Lecture: Workplace Communication",
-              "Room B, Conference Center",
-              "How to communicate effectively in the office"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:30–13:30",
-              "Lunch",
-              "Cafeteria",
-              "Free for registered participants only"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题40大学生是否应该花时间去参加社区活动.json",
-      "bankName": "真题40 大学生是否应该花时间去参加社区活动",
-      "questionId": 2,
-      "topic": "活动时间确认",
-      "prompt": "他9点才能到，实际活动是10点开始，不会错过什么？",
-      "answer": "He won’t miss anything because the first activity starts at 10 a.m.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:30 Workshop: Digital Marketing Room B, Downtown Convention Center Focus on latest trends and strategies 11:45–12:30 Networking Session Lobby Area Opportunity to meet other attendees and exchange contacts",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "won miss anything activity starts",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Participants check in and have coffee before the event starts"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:30",
-              "Workshop: Digital Marketing",
-              "Room B, Downtown Convention Center",
-              "Focus on latest trends and strategies"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:45–12:30",
-              "Networking Session",
-              "Lobby Area",
-              "Opportunity to meet other attendees and exchange contacts"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题41作为主管你认为是经验重要还是沟通能力重要.json",
-      "bankName": "真题41 作为主管，你认为是经验重要还是沟通能力重要",
-      "questionId": 1,
-      "topic": "学校咨询",
-      "prompt": "问了学校的价格和报名截止日期",
-      "answer": "The tuition fee for the upcoming semester is $1,200 for the full program, and the registration deadline is August 15th.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "tuition fee upcoming semester full",
-      "material": {
-        "headers": [],
-        "rows": [],
-        "notes": [],
-        "missing": true
-      }
-    },
-    {
-      "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题41作为主管你认为是经验重要还是沟通能力重要.json",
-      "bankName": "真题41 作为主管，你认为是经验重要还是沟通能力重要",
-      "questionId": 2,
-      "topic": "学校咨询",
-      "prompt": "问学校是不是换地址了",
-      "answer": "No, the school has not changed its address. It is still located at 125 Green Street.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no school not changed address",
-      "material": {
-        "headers": [],
-        "rows": [],
-        "notes": [],
-        "missing": true
-      }
-    },
-    {
-      "uid": "4-真题42员工自己设置工作时间有什么好处.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题42员工自己设置工作时间有什么好处.json",
-      "bankName": "真题42 员工自己设置工作时间有什么好处",
-      "questionId": 1,
-      "topic": "课程费用咨询",
-      "prompt": "How much does the basic writing course cost for local citizens and non-local participants?",
-      "answer": "The fee is 40 dollars for local citizens and 60 dollars for non-local participants.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes ----------- ----------------------------- ---------- ---------------------------------------- 10:00–11:00 Basic Writing Course Room 203 Fee: Local citizens $40 / Non-locals $60 18:00–20:00 Thursday Action Workshop Room 105 Starts at 6 p.m. 14:00–16:00 Watercolor Painting Class Art Studio Painting Class Option 1 14:00–16:00 Oil Painting Class Art Studio Painting Class Option 2",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "fee dollars local citizens non",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "10:00–11:00",
-              "Basic Writing Course",
-              "Room 203",
-              "Fee: Local citizens $40 / Non-locals $60"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "18:00–20:00",
-              "Thursday Action Workshop",
-              "Room 105",
-              "Starts at 6 p.m."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–16:00",
-              "Watercolor Painting Class",
-              "Art Studio",
-              "Painting Class Option 1"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–16:00",
-              "Oil Painting Class",
-              "Art Studio",
-              "Painting Class Option 2"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题42员工自己设置工作时间有什么好处.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "真题42员工自己设置工作时间有什么好处.json",
-      "bankName": "真题42 员工自己设置工作时间有什么好处",
-      "questionId": 2,
-      "topic": "活动时间确认",
-      "prompt": "Does the Thursday Action Workshop start at seven p.m.?",
-      "answer": "No, it starts at 6 p.m. and runs until 8 p.m.",
-      "reason": "确认、费用、限制或变更类信息，最容易因扫错表失分。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes ----------- ----------------------------- ---------- ---------------------------------------- 10:00–11:00 Basic Writing Course Room 203 Fee: Local citizens $40 / Non-locals $60 18:00–20:00 Thursday Action Workshop Room 105 Starts at 6 p.m. 14:00–16:00 Watercolor Painting Class Art Studio Painting Class Option 1 14:00–16:00 Oil Painting Class Art Studio Painting Class Option 2",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no starts runs until thursday",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "10:00–11:00",
-              "Basic Writing Course",
-              "Room 203",
-              "Fee: Local citizens $40 / Non-locals $60"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "18:00–20:00",
-              "Thursday Action Workshop",
-              "Room 105",
-              "Starts at 6 p.m."
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–16:00",
-              "Watercolor Painting Class",
-              "Art Studio",
-              "Painting Class Option 1"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–16:00",
-              "Oil Painting Class",
-              "Art Studio",
-              "Painting Class Option 2"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-模拟题1.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 1,
-      "topic": "活动地点",
-      "prompt": "第8题：问这个活动在哪里举行？",
-      "answer": "All the activities take place at the Richards History Museum.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "activities take place richards history",
-      "material": {
-        "headers": [
-          "Day",
-          "Activity",
-          "Time",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday–Saturday",
-              "Museum Opening",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Sunday",
-              "Museum Opening",
-              "12pm–8pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 11th",
-              "Children’s Day",
-              "All Day",
-              "The Richards History Museum",
-              "Children under 12 free admission"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 4th",
-              "Houses Around the World Exhibition",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 25th",
-              "How Palaces were Built Film",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-模拟题2.json-8",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 8,
-      "topic": "会议信息",
-      "prompt": "会议在哪一天什么时间举行？",
-      "answer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–17:00 XXX Database Conference The Crown Hotel Opening speech, panel discussions and workshops Tuesday 10:00–11:00 Database Security Session The Crown Hotel Led by Mr. XXX Tuesday 15:00–16:00 Database Security Session The Crown Hotel Led by Mr. YYY",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "database conference held monday crown",
-      "material": {
-        "headers": [
-          "Day",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "9:00–17:00",
-              "XXX Database Conference",
-              "The Crown Hotel",
-              "Opening speech, panel discussions and workshops"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "10:00–11:00",
-              "Database Security Session",
-              "The Crown Hotel",
-              "Led by Mr. XXX"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "15:00–16:00",
-              "Database Security Session",
-              "The Crown Hotel",
-              "Led by Mr. YYY"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-模拟题2.json-9",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 9,
-      "topic": "会议信息",
-      "prompt": "一个活动是在周一举行吗？",
-      "answer": "No, the database security sessions are held on Tuesday.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–17:00 XXX Database Conference The Crown Hotel Opening speech, panel discussions and workshops Tuesday 10:00–11:00 Database Security Session The Crown Hotel Led by Mr. XXX Tuesday 15:00–16:00 Database Security Session The Crown Hotel Led by Mr. YYY",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no database security sessions held",
-      "material": {
-        "headers": [
-          "Day",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "9:00–17:00",
-              "XXX Database Conference",
-              "The Crown Hotel",
-              "Opening speech, panel discussions and workshops"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "10:00–11:00",
-              "Database Security Session",
-              "The Crown Hotel",
-              "Led by Mr. XXX"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "15:00–16:00",
-              "Database Security Session",
-              "The Crown Hotel",
-              "Led by Mr. YYY"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-模拟题3.json-8",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 8,
-      "topic": "课程信息",
-      "prompt": "问课程开始时间和注册时间。",
-      "answer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–9:30 Registration & Welcome Coffee Main Lobby Check-in before sessions Tuesday 10:00–11:00 Clean Water and Sanitation Room A Led by Mr. Sandra Thursday 10:30–11:30 Life Below Water Room B Led by Peter Kemp",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "registration coffee start monday main",
-      "material": {
-        "headers": [
-          "Day",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "9:00–9:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Check-in before sessions"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "10:00–11:00",
-              "Clean Water and Sanitation",
-              "Room A",
-              "Led by Mr. Sandra"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Thursday",
-              "10:30–11:30",
-              "Life Below Water",
-              "Room B",
-              "Led by Peter Kemp"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-模拟题3.json-9",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 9,
-      "topic": "课程信息",
-      "prompt": "一个活动是在周一举行吗？",
-      "answer": "No, the sessions are held on Tuesday and Thursday.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–9:30 Registration & Welcome Coffee Main Lobby Check-in before sessions Tuesday 10:00–11:00 Clean Water and Sanitation Room A Led by Mr. Sandra Thursday 10:30–11:30 Life Below Water Room B Led by Peter Kemp",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no sessions held tuesday thursday",
-      "material": {
-        "headers": [
-          "Day",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "9:00–9:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Check-in before sessions"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "10:00–11:00",
-              "Clean Water and Sanitation",
-              "Room A",
-              "Led by Mr. Sandra"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Thursday",
-              "10:30–11:30",
-              "Life Below Water",
-              "Room B",
-              "Led by Peter Kemp"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题01沟通组织解决问题哪个重要.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题01沟通组织解决问题哪个重要.json",
-      "bankName": "真题1 沟通组织解决问题哪个重要",
-      "questionId": 1,
-      "topic": "活动时间地点",
-      "prompt": "第8题：问时间和地点。",
-      "answer": "The Richards History Museum is open from 9 a.m. to 5 p.m. from Monday to Saturday, and from 12 p.m. to 8 p.m. on Sunday.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "Richards History Museum opening hours time location",
-      "material": {
-        "headers": [
-          "Day",
-          "Activity",
-          "Time",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday–Saturday",
-              "Museum Opening",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Sunday",
-              "Museum Opening",
-              "12pm–8pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 11th",
-              "Children’s Day",
-              "All Day",
-              "The Richards History Museum",
-              "Children under 12 free admission"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 4th",
-              "Houses Around the World Exhibition",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 25th",
-              "How Palaces were Built Film",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题02新工作哪个能力最重要.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题02新工作哪个能力最重要.json",
-      "bankName": "真题2 新工作哪个能力最重要",
-      "questionId": 1,
-      "topic": "会议时间",
-      "prompt": "会议在哪一天举行？会议的开始时间是什么？",
-      "answer": "The database security meeting will be held on May 20th, and the morning session starts at 10:00 a.m.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Session Time Location Notes May 20th Database Security Morning Session 10:00am–11:00am The Crown Hotel Session about database security May 20th Database Security Afternoon Session 3:00pm–4:00pm The Crown Hotel Session about database security",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "database security meeting held th",
-      "material": {
-        "headers": [
-          "Date",
-          "Session",
-          "Time",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "May 20th",
-              "Database Security Morning Session",
-              "10:00am–11:00am",
-              "The Crown Hotel",
-              "Session about database security"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 20th",
-              "Database Security Afternoon Session",
-              "3:00pm–4:00pm",
-              "The Crown Hotel",
-              "Session about database security"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题03改变国家图书馆.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题03改变国家图书馆.json",
-      "bankName": "真题3 改变国家图书馆",
-      "questionId": 2,
-      "topic": "课程日期确认",
-      "prompt": "一个活动是在周一举行吗？",
-      "answer": "Yes, the Clean Water and Sanitation session will be held on Monday.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Day Session Time Speaker Notes Monday Clean Water and Sanitation 9:00am–10:00am Mr. Sandra Session about clean water and sanitation Tuesday Life Below Water 10:30am–11:30am Peter Kemp Discussion on aquatic life Wednesday Forest Conservation 8:30am–9:30am Lisa Green Discussion about forest preservation Thursday Renewable Energy 11:00am–12:00pm Tom White Session about renewable energy",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes clean water sanitation session",
-      "material": {
-        "headers": [
-          "Day",
-          "Session",
-          "Time",
-          "Speaker",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "Clean Water and Sanitation",
-              "9:00am–10:00am",
-              "Mr. Sandra",
-              "Session about clean water and sanitation"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "Life Below Water",
-              "10:30am–11:30am",
-              "Peter Kemp",
-              "Discussion on aquatic life"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Wednesday",
-              "Forest Conservation",
-              "8:30am–9:30am",
-              "Lisa Green",
-              "Discussion about forest preservation"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Thursday",
-              "Renewable Energy",
-              "11:00am–12:00pm",
-              "Tom White",
-              "Session about renewable energy"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题04offer是否要跟家里人交流.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题04offer是否要跟家里人交流.json",
-      "bankName": "真题4 offer是否要跟家里人交流",
-      "questionId": 1,
-      "topic": "会议时间",
-      "prompt": "会议什么时候举行？",
-      "answer": "The meeting will be held on January 17th in the auditorium hall.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Meeting Location Organizer Notes January 17 Weekly Meeting Auditorium Hall Mr. Smith Discuss company updates January 17 XXX Meeting Auditorium Hall Mr. Johnson Presentation from 5:30am to 6:30am January 17 Report Session 1 Conference Room George Bryant Discussion at 6:15am January 17 Report Session 2 Conference Room George Bryant Second session at 7:00am",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "meeting held january th auditorium",
-      "material": {
-        "headers": [
-          "Date",
-          "Meeting",
-          "Location",
-          "Organizer",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "January 17",
-              "Weekly Meeting",
-              "Auditorium Hall",
-              "Mr. Smith",
-              "Discuss company updates"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "January 17",
-              "XXX Meeting",
-              "Auditorium Hall",
-              "Mr. Johnson",
-              "Presentation from 5:30am to 6:30am"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "January 17",
-              "Report Session 1",
-              "Conference Room",
-              "George Bryant",
-              "Discussion at 6:15am"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "January 17",
-              "Report Session 2",
-              "Conference Room",
-              "George Bryant",
-              "Second session at 7:00am"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题04offer是否要跟家里人交流.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题04offer是否要跟家里人交流.json",
-      "bankName": "真题4 offer是否要跟家里人交流",
-      "questionId": 2,
-      "topic": "会议时间确认",
-      "prompt": "XXX会议是6点开始吗？",
-      "answer": "No, the XXX meeting will start at 5:30am and last until 6:30am.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Meeting Location Organizer Notes January 17 Weekly Meeting Auditorium Hall Mr. Smith Discuss company updates January 17 XXX Meeting Auditorium Hall Mr. Johnson Presentation from 5:30am to 6:30am January 17 Report Session 1 Conference Room George Bryant Discussion at 6:15am January 17 Report Session 2 Conference Room George Bryant Second session at 7:00am",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no xxx meeting start am",
-      "material": {
-        "headers": [
-          "Date",
-          "Meeting",
-          "Location",
-          "Organizer",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "January 17",
-              "Weekly Meeting",
-              "Auditorium Hall",
-              "Mr. Smith",
-              "Discuss company updates"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "January 17",
-              "XXX Meeting",
-              "Auditorium Hall",
-              "Mr. Johnson",
-              "Presentation from 5:30am to 6:30am"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "January 17",
-              "Report Session 1",
-              "Conference Room",
-              "George Bryant",
-              "Discussion at 6:15am"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "January 17",
-              "Report Session 2",
-              "Conference Room",
-              "George Bryant",
-              "Second session at 7:00am"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题05网上读新闻的坏处.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题05网上读新闻的坏处.json",
-      "bankName": "真题5 网上读新闻的坏处",
-      "questionId": 1,
-      "topic": "会议日期",
-      "prompt": "发布会是哪天？",
-      "answer": "The product launch will be held on August 10.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Meeting Organizer Notes August 10 Product Launch Mr. Smith Main launch event August 10 Marketing Meeting Mr. Brown Discuss marketing strategies October Sample Approval Ms. Taylor Approved samples arrive August 15 Sandy Session 1 Mr. Sandy Presentation on product August 20 Sandy Session 2 Mr. Sandy Follow-up meeting",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "product launch held august",
-      "material": {
-        "headers": [
-          "Date",
-          "Meeting",
-          "Organizer",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "August 10",
-              "Product Launch",
-              "Mr. Smith",
-              "Main launch event"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "August 10",
-              "Marketing Meeting",
-              "Mr. Brown",
-              "Discuss marketing strategies"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October",
-              "Sample Approval",
-              "Ms. Taylor",
-              "Approved samples arrive"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "August 15",
-              "Sandy Session 1",
-              "Mr. Sandy",
-              "Presentation on product"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "August 20",
-              "Sandy Session 2",
-              "Mr. Sandy",
-              "Follow-up meeting"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题05网上读新闻的坏处.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题05网上读新闻的坏处.json",
-      "bankName": "真题5 网上读新闻的坏处",
-      "questionId": 2,
-      "topic": "样品批准",
-      "prompt": "Approve sample 是在8月吗？",
-      "answer": "No, the approved samples will arrive in October.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Meeting Organizer Notes August 10 Product Launch Mr. Smith Main launch event August 10 Marketing Meeting Mr. Brown Discuss marketing strategies October Sample Approval Ms. Taylor Approved samples arrive August 15 Sandy Session 1 Mr. Sandy Presentation on product August 20 Sandy Session 2 Mr. Sandy Follow-up meeting",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no approved samples arrive october",
-      "material": {
-        "headers": [
-          "Date",
-          "Meeting",
-          "Organizer",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "August 10",
-              "Product Launch",
-              "Mr. Smith",
-              "Main launch event"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "August 10",
-              "Marketing Meeting",
-              "Mr. Brown",
-              "Discuss marketing strategies"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October",
-              "Sample Approval",
-              "Ms. Taylor",
-              "Approved samples arrive"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "August 15",
-              "Sandy Session 1",
-              "Mr. Sandy",
-              "Presentation on product"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "August 20",
-              "Sandy Session 2",
-              "Mr. Sandy",
-              "Follow-up meeting"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题06未来一代为什么比现在一代更健康.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题06未来一代为什么比现在一代更健康.json",
-      "bankName": "真题6 未来一代为什么比现在一代更健康",
-      "questionId": 1,
-      "topic": "会议时间",
-      "prompt": "儿童文学会议什么时候举办？",
-      "answer": "The children's literature conference will be held from 8:30 to 9:30 in the morning.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Event Location Notes 08:30–09:30 Children's Literature Conference Main Hall Start of the conference 10:00–11:00 Book Signing by XX Clark Conference Room A Opportunity for attendees to sign books 14:00–15:00 Reading Technology Session 1 Room 101 Given by M. Smith 16:00–17:00 Reading Technology Session 2 Room 102 Given by M. Johnson",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "children literature conference held morning",
-      "material": {
-        "headers": [
-          "Time",
-          "Event",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "08:30–09:30",
-              "Children's Literature Conference",
-              "Main Hall",
-              "Start of the conference"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Book Signing by XX Clark",
-              "Conference Room A",
-              "Opportunity for attendees to sign books"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Reading Technology Session 1",
-              "Room 101",
-              "Given by M. Smith"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00–17:00",
-              "Reading Technology Session 2",
-              "Room 102",
-              "Given by M. Johnson"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题06未来一代为什么比现在一代更健康.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题06未来一代为什么比现在一代更健康.json",
-      "bankName": "真题6 未来一代为什么比现在一代更健康",
-      "questionId": 2,
-      "topic": "会议活动",
-      "prompt": "我想签一本书，什么时候可以？",
-      "answer": "You can attend the book signing by XX Clark from 10:00 to 11:00.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Event Location Notes 08:30–09:30 Children's Literature Conference Main Hall Start of the conference 10:00–11:00 Book Signing by XX Clark Conference Room A Opportunity for attendees to sign books 14:00–15:00 Reading Technology Session 1 Room 101 Given by M. Smith 16:00–17:00 Reading Technology Session 2 Room 102 Given by M. Johnson",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "attend book signing xx clark",
-      "material": {
-        "headers": [
-          "Time",
-          "Event",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "08:30–09:30",
-              "Children's Literature Conference",
-              "Main Hall",
-              "Start of the conference"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Book Signing by XX Clark",
-              "Conference Room A",
-              "Opportunity for attendees to sign books"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Reading Technology Session 1",
-              "Room 101",
-              "Given by M. Smith"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00–17:00",
-              "Reading Technology Session 2",
-              "Room 102",
-              "Given by M. Johnson"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题07老师能否让学生带电子设备.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题07老师能否让学生带电子设备.json",
-      "bankName": "真题7 老师能否让学生带电子设备",
-      "questionId": 1,
-      "topic": "会议时间地点",
-      "prompt": "会议在什么时间什么地方举行？",
-      "answer": "The event will be held at the Nelson Conference Center, starting at 9:30 in Nelson Auditorium B.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:30–10:30 Innovative Manufacturing Technology Nelson Auditorium B Session on latest technology 12:30–13:00 Lunch Provided Nelson Conference Center Lunch will be served to participants 16:00–17:00 Better Budgeting for Manufacturing Nelson Auditorium A Session on budgeting skills",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "event held nelson conference center",
-      "material": {
-        "headers": [
-          "Time",
-          "Event",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:30–10:30",
-              "Innovative Manufacturing Technology",
-              "Nelson Auditorium B",
-              "Session on latest technology"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:30–13:00",
-              "Lunch Provided",
-              "Nelson Conference Center",
-              "Lunch will be served to participants"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00–17:00",
-              "Better Budgeting for Manufacturing",
-              "Nelson Auditorium A",
-              "Session on budgeting skills"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题07老师能否让学生带电子设备.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题07老师能否让学生带电子设备.json",
-      "bankName": "真题7 老师能否让学生带电子设备",
-      "questionId": 2,
-      "topic": "会议餐饮",
-      "prompt": "我需要自己准备午餐吗？",
-      "answer": "No, lunch will be provided at 12:30 at the Nelson Conference Center.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:30–10:30 Innovative Manufacturing Technology Nelson Auditorium B Session on latest technology 12:30–13:00 Lunch Provided Nelson Conference Center Lunch will be served to participants 16:00–17:00 Better Budgeting for Manufacturing Nelson Auditorium A Session on budgeting skills",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no lunch provided nelson conference",
-      "material": {
-        "headers": [
-          "Time",
-          "Event",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:30–10:30",
-              "Innovative Manufacturing Technology",
-              "Nelson Auditorium B",
-              "Session on latest technology"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:30–13:00",
-              "Lunch Provided",
-              "Nelson Conference Center",
-              "Lunch will be served to participants"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00–17:00",
-              "Better Budgeting for Manufacturing",
-              "Nelson Auditorium A",
-              "Session on budgeting skills"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题08作为老板高效沟通是不是最重要.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题08作为老板高效沟通是不是最重要.json",
-      "bankName": "真题8 作为老板高效沟通是不是最重要",
-      "questionId": 1,
-      "topic": "活动时间地点",
-      "prompt": "会员日活动什么时候举行，在哪里？",
-      "answer": "The member day activities start at 9:00 at the museum's main entrance.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Event Location Notes 09:00–09:30 Member Registration Main Entrance Members check in 10:00–11:00 Guided Tour: Art Exhibition Gallery A Led by curator 11:30–12:30 Guided Tour: Historical Collection Gallery B Led by museum staff",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "member day activities start museum",
-      "material": {
-        "headers": [
-          "Time",
-          "Event",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Member Registration",
-              "Main Entrance",
-              "Members check in"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Guided Tour: Art Exhibition",
-              "Gallery A",
-              "Led by curator"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:30–12:30",
-              "Guided Tour: Historical Collection",
-              "Gallery B",
-              "Led by museum staff"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题09学术专业成功最重要因素.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题09学术专业成功最重要因素.json",
-      "bankName": "真题9 学术专业成功最重要因素",
-      "questionId": 1,
-      "topic": "培训时间地点",
-      "prompt": "第一场培训的时间、主题和地点是什么？",
-      "answer": "The first training session is from 10:00 to 11:00 on Communication Skills in Conference Room A.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Topic Location Notes 10:00–11:00 Training: Communication Skills Conference Room A Focus on effective communication 11:30–12:30 Training: Time Management Conference Room B Practical exercises 14:00–15:00 Training: Leadership Skills Conference Room C Role-playing and group discussion",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "training session communication skills conference",
-      "material": {
-        "headers": [
-          "Time",
-          "Topic",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "10:00–11:00",
-              "Training: Communication Skills",
-              "Conference Room A",
-              "Focus on effective communication"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:30–12:30",
-              "Training: Time Management",
-              "Conference Room B",
-              "Practical exercises"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Training: Leadership Skills",
-              "Conference Room C",
-              "Role-playing and group discussion"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题09学术专业成功最重要因素.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题09学术专业成功最重要因素.json",
-      "bankName": "真题9 学术专业成功最重要因素",
-      "questionId": 2,
-      "topic": "培训信息",
-      "prompt": "第二场培训的主题是什么，在哪里举行？",
-      "answer": "The second training is Time Management, held in Conference Room B from 11:30 to 12:30.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Topic Location Notes 10:00–11:00 Training: Communication Skills Conference Room A Focus on effective communication 11:30–12:30 Training: Time Management Conference Room B Practical exercises 14:00–15:00 Training: Leadership Skills Conference Room C Role-playing and group discussion",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "training time management held conference",
-      "material": {
-        "headers": [
-          "Time",
-          "Topic",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "10:00–11:00",
-              "Training: Communication Skills",
-              "Conference Room A",
-              "Focus on effective communication"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:30–12:30",
-              "Training: Time Management",
-              "Conference Room B",
-              "Practical exercises"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Training: Leadership Skills",
-              "Conference Room C",
-              "Role-playing and group discussion"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题10买房比租房的缺点.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题10买房比租房的缺点.json",
-      "bankName": "真题10 买房公寓比租房的缺点",
-      "questionId": 1,
-      "topic": "面试时间地点",
-      "prompt": "招聘会时间和地点是什么？第一场面试什么时候开始？",
-      "answer": "The interview will be held at XX Venue from 7:00 am to 2:00 pm on Tuesday, June 18th. The first interview will start at 7:00 am.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 07:00–14:00 Interview Session XX Venue The recruitment fair will be held in the venue 14:00–15:00 Interview: Sales Position XX Venue Only one interview scheduled for assistant store manager position 09:30–10:30 Online Interview Online Platform Applicant A for XX position 11:30–12:30 Online Interview Online Platform Applicant B for XX position",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "interview held xx venue am",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "07:00–14:00",
-              "Interview Session",
-              "XX Venue",
-              "The recruitment fair will be held in the venue"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Interview: Sales Position",
-              "XX Venue",
-              "Only one interview scheduled for assistant store manager position"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "09:30–10:30",
-              "Online Interview",
-              "Online Platform",
-              "Applicant A for XX position"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:30–12:30",
-              "Online Interview",
-              "Online Platform",
-              "Applicant B for XX position"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题10买房比租房的缺点.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题10买房比租房的缺点.json",
-      "bankName": "真题10 买房公寓比租房的缺点",
-      "questionId": 2,
-      "topic": "面试线下信息",
-      "prompt": "想参加线下会议，具体信息是什么？",
-      "answer": "Yes, the interview for the Sales position will be held at 2:00 pm at XX Venue, and the interviewee is XX applying for the assistant store manager position.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 07:00–14:00 Interview Session XX Venue The recruitment fair will be held in the venue 14:00–15:00 Interview: Sales Position XX Venue Only one interview scheduled for assistant store manager position 09:30–10:30 Online Interview Online Platform Applicant A for XX position 11:30–12:30 Online Interview Online Platform Applicant B for XX position",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes interview sales position held",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "07:00–14:00",
-              "Interview Session",
-              "XX Venue",
-              "The recruitment fair will be held in the venue"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Interview: Sales Position",
-              "XX Venue",
-              "Only one interview scheduled for assistant store manager position"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "09:30–10:30",
-              "Online Interview",
-              "Online Platform",
-              "Applicant A for XX position"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:30–12:30",
-              "Online Interview",
-              "Online Platform",
-              "Applicant B for XX position"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题11政府提供免费大学课程的好处有哪些.json",
-      "bankName": "真题11 政府提供免费大学课程的好处有哪些",
-      "questionId": 1,
-      "topic": "航班信息",
-      "prompt": "出发航班信息是什么？请提供航班号、日期、起飞地和降落地、时间。",
-      "answer": "The departure time from Singapore is 2:30 PM on June 17th. The flight number is Oceanic Air 7777. You will land in Sydney at 11 PM on the same day.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Travel Details Notes Departure Oceanic Air 7777, from Singapore at 2:30 PM on June 17th Landing in Sydney at 11 PM same day Hotel XX Hotel, June 17–19 Accommodation reserved Return Flight Oceanic Air 8888, from Sydney at 3 PM on June 19th Landing in Singapore at 11 PM same day",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "departure time singapore pm june",
-      "material": {
-        "headers": [
-          "Travel",
-          "Details",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Departure",
-              "Oceanic Air 7777, from Singapore at 2:30 PM on June 17th",
-              "Landing in Sydney at 11 PM same day"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Hotel",
-              "XX Hotel, June 17–19",
-              "Accommodation reserved"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Return Flight",
-              "Oceanic Air 8888, from Sydney at 3 PM on June 19th",
-              "Landing in Singapore at 11 PM same day"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题11政府提供免费大学课程的好处有哪些.json",
-      "bankName": "真题11 政府提供免费大学课程的好处有哪些",
-      "questionId": 2,
-      "topic": "住宿信息",
-      "prompt": "住宿信息是什么？了解在belong branch office的行程",
-      "answer": "Yes, we have reserved a room for you at XX Hotel from June 17th to June 19th.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Travel Details Notes Departure Oceanic Air 7777, from Singapore at 2:30 PM on June 17th Landing in Sydney at 11 PM same day Hotel XX Hotel, June 17–19 Accommodation reserved Return Flight Oceanic Air 8888, from Sydney at 3 PM on June 19th Landing in Singapore at 11 PM same day",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes reserved room xx hotel",
-      "material": {
-        "headers": [
-          "Travel",
-          "Details",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Departure",
-              "Oceanic Air 7777, from Singapore at 2:30 PM on June 17th",
-              "Landing in Sydney at 11 PM same day"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Hotel",
-              "XX Hotel, June 17–19",
-              "Accommodation reserved"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Return Flight",
-              "Oceanic Air 8888, from Sydney at 3 PM on June 19th",
-              "Landing in Singapore at 11 PM same day"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题12毕业后第一份工作必要吗.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题12毕业后第一份工作必要吗.json",
-      "bankName": "真题12 毕业后第一份工作必要吗",
-      "questionId": 1,
-      "topic": "会议时间与议题",
-      "prompt": "会议几点开始，第一个议题是什么？",
-      "answer": "The meeting starts at 9:00, and the first topic is the introduction and daily plan discussion.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Activity Details Notes Morning Meeting Starts at 9:00, all employees Introduction and daily plan discussion Project Briefing 10:00–11:00, Room 202 Supervisor presents new project details Coffee Break 11:00–11:15, Lounge Area Refreshments provided for participants",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "meeting starts topic introduction daily",
-      "material": {
-        "headers": [
-          "Activity",
-          "Details",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Morning Meeting",
-              "Starts at 9:00, all employees",
-              "Introduction and daily plan discussion"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Project Briefing",
-              "10:00–11:00, Room 202",
-              "Supervisor presents new project details"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Coffee Break",
-              "11:00–11:15, Lounge Area",
-              "Refreshments provided for participants"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题13offer是否需要考虑公司的名誉.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
       "sourceFile": "真题13offer是否需要考虑公司的名誉.json",
       "bankName": "真题13 offer是否需要考虑公司的名誉",
-      "questionId": 1,
-      "topic": "活动选择",
-      "prompt": "他喜欢啥，想参加某个活动怎么办？",
-      "answer": "The final option chosen by the participant is what they will attend.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
+      "questionId": "1/2/3",
+      "topic": "活动选择 · 活动装备 · 课程信息",
+      "prompt": "他喜欢啥，想参加某个活动怎么办？\n钓鱼需不需要带装备？\n对Class有兴趣，想了解class相关信息，有几个相关的class？",
+      "answer": "The final option chosen by the participant is what they will attend. No need, the tools have been provided. There are two classes related to this activity.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Activity Details Notes Fishing All equipment provided No need to bring your own tools Classes Two relevant classes Interested participants can get more info Special Event Participant's choice Final option is the one selected by participant",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "final option chosen participant attend",
+      "keywords": "final option chosen participant attend no tools provided classes related activity class",
+      "questions": [
+        {
+          "uid": "4-真题13offer是否需要考虑公司的名誉.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "活动选择",
+          "prompt": "他喜欢啥，想参加某个活动怎么办？",
+          "answer": "The final option chosen by the participant is what they will attend.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "final option chosen participant attend"
+        },
+        {
+          "uid": "4-真题13offer是否需要考虑公司的名誉.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动装备",
+          "prompt": "钓鱼需不需要带装备？",
+          "answer": "No need, the tools have been provided.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no tools provided"
+        },
+        {
+          "uid": "4-真题13offer是否需要考虑公司的名誉.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "课程信息",
+          "prompt": "对Class有兴趣，想了解class相关信息，有几个相关的class？",
+          "answer": "There are two classes related to this activity.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "classes related activity class"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Activity",
@@ -13637,639 +10700,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题13offer是否需要考虑公司的名誉.json-2",
+      "uid": "4-真题20独自运动还是.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题13offer是否需要考虑公司的名誉.json",
-      "bankName": "真题13 offer是否需要考虑公司的名誉",
-      "questionId": 2,
-      "topic": "活动装备",
-      "prompt": "钓鱼需不需要带装备？",
-      "answer": "No need, the tools have been provided.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Activity Details Notes Fishing All equipment provided No need to bring your own tools Classes Two relevant classes Interested participants can get more info Special Event Participant's choice Final option is the one selected by participant",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no tools provided",
-      "material": {
-        "headers": [
-          "Activity",
-          "Details",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Fishing",
-              "All equipment provided",
-              "No need to bring your own tools"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Classes",
-              "Two relevant classes",
-              "Interested participants can get more info"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Special Event",
-              "Participant's choice",
-              "Final option is the one selected by participant"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题14去当实习生吗.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题14去当实习生吗.json",
-      "bankName": "真题14 去当实习生吗",
-      "questionId": 1,
-      "topic": "会议时间与议题",
-      "prompt": "会议几点开始？第一个议题是什么？",
-      "answer": "It will start at 8:00, and the first topic is freshmen introduction.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/07/02 08:00–10:00 Meeting Conference Room First topic: Freshmen introduction 2022/07/02 10:30–11:00 Break Lobby Some attendees leave at 11 am 2022/07/02 11:00–12:00 Topic by Grim Conference Room Details: start-end time, speaker Grim, topic discussion",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "start topic freshmen introduction",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "2022/07/02",
-              "08:00–10:00",
-              "Meeting",
-              "Conference Room",
-              "First topic: Freshmen introduction"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/07/02",
-              "10:30–11:00",
-              "Break",
-              "Lobby",
-              "Some attendees leave at 11 am"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/07/02",
-              "11:00–12:00",
-              "Topic by Grim",
-              "Conference Room",
-              "Details: start-end time, speaker Grim, topic discussion"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题15获得professional success是否需要take risk.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题15获得professional success是否需要take risk.json",
-      "bankName": "真题15 获得professional success，是否需要take risk",
-      "questionId": 1,
-      "topic": "活动日期",
-      "prompt": "活动是在几月几号举行？",
-      "answer": "Yes, it will be held on April the third.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2024/04/03 09:00–10:00 Opening Ceremony Main Hall Welcome speech 2024/04/03 10:30–11:30 Cycling Event City Street Originally scheduled for April 4 but cancelled 2024/04/03 11:00–12:00 Cooking Demonstration Kitchen Area Focus on healthy recipes",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes held april third",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "2024/04/03",
-              "09:00–10:00",
-              "Opening Ceremony",
-              "Main Hall",
-              "Welcome speech"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2024/04/03",
-              "10:30–11:30",
-              "Cycling Event",
-              "City Street",
-              "Originally scheduled for April 4 but cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "2024/04/03",
-              "11:00–12:00",
-              "Cooking Demonstration",
-              "Kitchen Area",
-              "Focus on healthy recipes"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题15获得professional success是否需要take risk.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题15获得professional success是否需要take risk.json",
-      "bankName": "真题15 获得professional success，是否需要take risk",
-      "questionId": 2,
-      "topic": "活动取消",
-      "prompt": "原定自行车或徒步旅行活动是否取消？",
-      "answer": "No, actually it had been canceled.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2024/04/03 09:00–10:00 Opening Ceremony Main Hall Welcome speech 2024/04/03 10:30–11:30 Cycling Event City Street Originally scheduled for April 4 but cancelled 2024/04/03 11:00–12:00 Cooking Demonstration Kitchen Area Focus on healthy recipes",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no actually canceled",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "2024/04/03",
-              "09:00–10:00",
-              "Opening Ceremony",
-              "Main Hall",
-              "Welcome speech"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2024/04/03",
-              "10:30–11:30",
-              "Cycling Event",
-              "City Street",
-              "Originally scheduled for April 4 but cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "2024/04/03",
-              "11:00–12:00",
-              "Cooking Demonstration",
-              "Kitchen Area",
-              "Focus on healthy recipes"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题16有钱就快乐吗.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题16有钱就快乐吗.json",
-      "bankName": "真题16 有钱就快乐吗",
-      "questionId": 1,
-      "topic": "面试时间",
-      "prompt": "面试安排在哪天开始？几点钟？",
-      "answer": "The interviews start on 2022/03/13 at 08:00.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/03/13 08:00–08:30 Interview Round 1 Room A General interview 2022/03/13 08:30–09:00 Interview Round 2 Room B Cancelled 2022/03/13 09:00–09:30 Nutritionist Interview 1 Room C Balanced diet focus 2022/03/13 09:30–10:00 Nutritionist Interview 2 Room C Second candidate",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "interviews start",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "2022/03/13",
-              "08:00–08:30",
-              "Interview Round 1",
-              "Room A",
-              "General interview"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/03/13",
-              "08:30–09:00",
-              "Interview Round 2",
-              "Room B",
-              "Cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "2022/03/13",
-              "09:00–09:30",
-              "Nutritionist Interview 1",
-              "Room C",
-              "Balanced diet focus"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/03/13",
-              "09:30–10:00",
-              "Nutritionist Interview 2",
-              "Room C",
-              "Second candidate"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题16有钱就快乐吗.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题16有钱就快乐吗.json",
-      "bankName": "真题16 有钱就快乐吗",
-      "questionId": 2,
-      "topic": "面试变更",
-      "prompt": "08:30的面试发生了什么？",
-      "answer": "The 08:30 interview was cancelled.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 2022/03/13 08:00–08:30 Interview Round 1 Room A General interview 2022/03/13 08:30–09:00 Interview Round 2 Room B Cancelled 2022/03/13 09:00–09:30 Nutritionist Interview 1 Room C Balanced diet focus 2022/03/13 09:30–10:00 Nutritionist Interview 2 Room C Second candidate",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "interview cancelled",
-      "material": {
-        "headers": [
-          "Date",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "2022/03/13",
-              "08:00–08:30",
-              "Interview Round 1",
-              "Room A",
-              "General interview"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/03/13",
-              "08:30–09:00",
-              "Interview Round 2",
-              "Room B",
-              "Cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "2022/03/13",
-              "09:00–09:30",
-              "Nutritionist Interview 1",
-              "Room C",
-              "Balanced diet focus"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "2022/03/13",
-              "09:30–10:00",
-              "Nutritionist Interview 2",
-              "Room C",
-              "Second candidate"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题18项目中分歧需要解决还是忽略.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题18项目中分歧需要解决还是忽略.json",
-      "bankName": "真题18 项目中分歧需要解决还是忽略",
-      "questionId": 1,
-      "topic": "会议时间",
-      "prompt": "团队简报的时间是什么？",
-      "answer": "The team briefing is from 09:00 to 09:30.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Team Briefing Meeting Room 1 Discuss daily tasks and updates 10:00–10:45 Project Discussion Meeting Room 2 Focus on resolving project gaps 11:00–11:30 Client Call Office 3 Call with external client regarding project progress",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "team briefing",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Team Briefing",
-              "Meeting Room 1",
-              "Discuss daily tasks and updates"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–10:45",
-              "Project Discussion",
-              "Meeting Room 2",
-              "Focus on resolving project gaps"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:00–11:30",
-              "Client Call",
-              "Office 3",
-              "Call with external client regarding project progress"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题18项目中分歧需要解决还是忽略.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题18项目中分歧需要解决还是忽略.json",
-      "bankName": "真题18 项目中分歧需要解决还是忽略",
-      "questionId": 2,
-      "topic": "会议时间确认",
-      "prompt": "项目讨论是否在上午进行？",
-      "answer": "Yes, the project discussion is in the morning from 10:00 to 10:45.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Team Briefing Meeting Room 1 Discuss daily tasks and updates 10:00–10:45 Project Discussion Meeting Room 2 Focus on resolving project gaps 11:00–11:30 Client Call Office 3 Call with external client regarding project progress",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes project discussion morning",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Team Briefing",
-              "Meeting Room 1",
-              "Discuss daily tasks and updates"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–10:45",
-              "Project Discussion",
-              "Meeting Room 2",
-              "Focus on resolving project gaps"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:00–11:30",
-              "Client Call",
-              "Office 3",
-              "Call with external client regarding project progress"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题19个公司的多处不同城市工作的好处.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题19个公司的多处不同城市工作的好处.json",
-      "bankName": "真题19 个公司的多处不同城市工作的好处",
-      "questionId": 1,
-      "topic": "会议时间",
-      "prompt": "早会的时间是什么？",
-      "answer": "The morning briefing is from 09:00 to 09:30.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Morning Briefing Conference Room A Staff gather to review daily tasks 10:00–10:45 Team Meeting Conference Room B Discuss projects in different cities 11:00–11:30 Client Call Office 3 Conference call with remote clients",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "morning briefing",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Morning Briefing",
-              "Conference Room A",
-              "Staff gather to review daily tasks"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–10:45",
-              "Team Meeting",
-              "Conference Room B",
-              "Discuss projects in different cities"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:00–11:30",
-              "Client Call",
-              "Office 3",
-              "Conference call with remote clients"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题19个公司的多处不同城市工作的好处.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题19个公司的多处不同城市工作的好处.json",
-      "bankName": "真题19 个公司的多处不同城市工作的好处",
-      "questionId": 2,
-      "topic": "会议时间确认",
-      "prompt": "团队会议是否在下午？",
-      "answer": "No, the team meeting is in the morning from 10:00 to 10:45.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Morning Briefing Conference Room A Staff gather to review daily tasks 10:00–10:45 Team Meeting Conference Room B Discuss projects in different cities 11:00–11:30 Client Call Office 3 Conference call with remote clients",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no team meeting morning",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Morning Briefing",
-              "Conference Room A",
-              "Staff gather to review daily tasks"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–10:45",
-              "Team Meeting",
-              "Conference Room B",
-              "Discuss projects in different cities"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:00–11:30",
-              "Client Call",
-              "Office 3",
-              "Conference call with remote clients"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题20独自运动还是.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
+      "priority": "P2",
       "sourceFile": "真题20独自运动还是.json",
       "bankName": "真题20 独自运动还是",
-      "questionId": 1,
-      "topic": "门票信息",
-      "prompt": "门票多少钱？",
-      "answer": "A ticket costs $6 and children under 2 are free.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
+      "questionId": "1/2/3",
+      "topic": "门票信息 · 活动时间确认 · 适龄活动",
+      "prompt": "门票多少钱？\n公园的活动是否在早上？\n顾客有2岁和5岁的小孩，可以参加哪些活动？",
+      "answer": "A ticket costs $6 and children under 2 are free. No, all the activities are scheduled at 3pm. There are three activities they can attend: Magic Show, Treasure Hunt, and Mini Sports.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Entrance & Ticket Check Park Gate Tickets $6 each, children under 2 free 15:00–15:30 Magic Show Main Stage All activities start at 3pm 15:30–16:00 Treasure Hunt Playground Suitable for children aged 2–10 15:45–16:15 Mini Sports Playground Suitable for children aged 3–10",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "ticket costs children under free",
+      "keywords": "ticket costs children under free no activities scheduled pm three activities attend magic show",
+      "questions": [
+        {
+          "uid": "4-真题20独自运动还是.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "门票信息",
+          "prompt": "门票多少钱？",
+          "answer": "A ticket costs $6 and children under 2 are free.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "ticket costs children under free"
+        },
+        {
+          "uid": "4-真题20独自运动还是.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "活动时间确认",
+          "prompt": "公园的活动是否在早上？",
+          "answer": "No, all the activities are scheduled at 3pm.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no activities scheduled pm"
+        },
+        {
+          "uid": "4-真题20独自运动还是.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "适龄活动",
+          "prompt": "顾客有2岁和5岁的小孩，可以参加哪些活动？",
+          "answer": "There are three activities they can attend: Magic Show, Treasure Hunt, and Mini Sports.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "three activities attend magic show"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -14320,90 +10806,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题20独自运动还是.json-2",
+      "uid": "4-真题21进入大学前实习gap year有哪些好处.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题20独自运动还是.json",
-      "bankName": "真题20 独自运动还是",
-      "questionId": 2,
-      "topic": "活动时间确认",
-      "prompt": "公园的活动是否在早上？",
-      "answer": "No, all the activities are scheduled at 3pm.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Entrance & Ticket Check Park Gate Tickets $6 each, children under 2 free 15:00–15:30 Magic Show Main Stage All activities start at 3pm 15:30–16:00 Treasure Hunt Playground Suitable for children aged 2–10 15:45–16:15 Mini Sports Playground Suitable for children aged 3–10",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "no activities scheduled pm",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Entrance & Ticket Check",
-              "Park Gate",
-              "Tickets $6 each, children under 2 free"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:00–15:30",
-              "Magic Show",
-              "Main Stage",
-              "All activities start at 3pm"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:30–16:00",
-              "Treasure Hunt",
-              "Playground",
-              "Suitable for children aged 2–10"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:45–16:15",
-              "Mini Sports",
-              "Playground",
-              "Suitable for children aged 3–10"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题21进入大学前实习gap year有哪些好处.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
+      "priority": "P2",
       "sourceFile": "真题21进入大学前实习gap year有哪些好处.json",
       "bankName": "真题21 进入大学前实习gap year有哪些好处",
-      "questionId": 1,
-      "topic": "讲课时间",
-      "prompt": "讲课的起止时间是什么？",
-      "answer": "The opening lecture will be held from 09:00 to 10:00 in the Main Hall.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
+      "questionId": "1/2/3",
+      "topic": "讲课时间 · 时间确认 · 课程名称",
+      "prompt": "讲课的起止时间是什么？\nMerg Session 1 是在周三吗？\n有哪些 session 叫 Merg？",
+      "answer": "The opening lecture will be held from 09:00 to 10:00 in the Main Hall. No, Merg Session 1 is scheduled for the morning but the day is not Wednesday. There are two sessions called Merg: Merg Session 1 at Room A from 10:15–11:00 and Merg Session 2 at Room B from 11:15–12:00.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Session Location Notes 09:00–10:00 Opening Lecture Main Hall Introduction and overview 10:15–11:00 Merg Session 1 Room A Interactive workshop 11:15–12:00 Merg Session 2 Room B Group discussion 14:00–15:00 Regular Session Room C Standard lecture 15:15–16:00 Q&A Session Main Hall Question and answer",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "opening lecture held main hall",
+      "keywords": "opening lecture held main hall no merg session scheduled morning sessions called merg session room",
+      "questions": [
+        {
+          "uid": "4-真题21进入大学前实习gap year有哪些好处.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "讲课时间",
+          "prompt": "讲课的起止时间是什么？",
+          "answer": "The opening lecture will be held from 09:00 to 10:00 in the Main Hall.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "opening lecture held main hall"
+        },
+        {
+          "uid": "4-真题21进入大学前实习gap year有哪些好处.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "时间确认",
+          "prompt": "Merg Session 1 是在周三吗？",
+          "answer": "No, Merg Session 1 is scheduled for the morning but the day is not Wednesday.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no merg session scheduled morning"
+        },
+        {
+          "uid": "4-真题21进入大学前实习gap year有哪些好处.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "课程名称",
+          "prompt": "有哪些 session 叫 Merg？",
+          "answer": "There are two sessions called Merg: Merg Session 1 at Room A from 10:15–11:00 and Merg Session 2 at Room B from 11:15–12:00.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "sessions called merg session room"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -14463,73 +10921,98 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题21进入大学前实习gap year有哪些好处.json-2",
+      "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题21进入大学前实习gap year有哪些好处.json",
-      "bankName": "真题21 进入大学前实习gap year有哪些好处",
-      "questionId": 2,
-      "topic": "时间确认",
-      "prompt": "Merg Session 1 是在周三吗？",
-      "answer": "No, Merg Session 1 is scheduled for the morning but the day is not Wednesday.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Session Location Notes 09:00–10:00 Opening Lecture Main Hall Introduction and overview 10:15–11:00 Merg Session 1 Room A Interactive workshop 11:15–12:00 Merg Session 2 Room B Group discussion 14:00–15:00 Regular Session Room C Standard lecture 15:15–16:00 Q&A Session Main Hall Question and answer",
+      "priority": "P2",
+      "sourceFile": "真题24为一家已经经营了很多年的公司工作有哪些优点.json",
+      "bankName": "真题24 为一家已经经营了很多年的公司工作有哪些优点",
+      "questionId": "8/9/10",
+      "topic": "活动举办时间咨询 · 活动举办地点确认 · 主讲人相关活动咨询",
+      "prompt": "Question 1: When is the weekly activity held?\nQuestion 2: Is the activity held in Room B?\nQuestion 3: What are the two special events led by Dr. Smith and their topics?",
+      "answer": "The weekly health lecture is held every Tuesday from 6:00 pm to 8:00 pm. No, I'm sorry. I'm afraid that the activity will be held in Meeting Room A. There are two events led by Dr. Smith. The first is on January 3, and the topic is \"heart healthy food\". The next one is on April 2, and the topic is \"balanced diet for adults\".",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
+      "instructions": "请根据提供的信息回答问题： Schedule Time Location Host Topic Weekly Health Lecture Every Tuesday 6:00 pm - 8:00 pm Meeting Room A Dr. Smith Healthy Lifestyle Special Seminar 1 Jan 3 Meeting Room A Dr. Smith Heart Healthy Food Special Seminar 2 Apr 2 Meeting Room A Dr. Smith Balanced Diet for Adults",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "no merg session scheduled morning",
+      "keywords": "weekly health lecture held tuesday no sorry afraid activity held events led dr smith january",
+      "questions": [
+        {
+          "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q1",
+          "position": 1,
+          "questionId": 8,
+          "topic": "活动举办时间咨询",
+          "prompt": "Question 1: When is the weekly activity held?",
+          "answer": "The weekly health lecture is held every Tuesday from 6:00 pm to 8:00 pm.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "weekly health lecture held tuesday"
+        },
+        {
+          "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q2",
+          "position": 2,
+          "questionId": 9,
+          "topic": "活动举办地点确认",
+          "prompt": "Question 2: Is the activity held in Room B?",
+          "answer": "No, I'm sorry. I'm afraid that the activity will be held in Meeting Room A.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no sorry afraid activity held"
+        },
+        {
+          "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q3",
+          "position": 3,
+          "questionId": 10,
+          "topic": "主讲人相关活动咨询",
+          "prompt": "Question 3: What are the two special events led by Dr. Smith and their topics?",
+          "answer": "There are two events led by Dr. Smith. The first is on January 3, and the topic is \"heart healthy food\". The next one is on April 2, and the topic is \"balanced diet for adults\".",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "events led dr smith january"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
+          "Schedule",
           "Time",
-          "Session",
           "Location",
-          "Notes"
+          "Host",
+          "Topic"
         ],
         "rows": [
           {
             "cells": [
-              "09:00–10:00",
-              "Opening Lecture",
-              "Main Hall",
-              "Introduction and overview"
+              "Weekly Health Lecture",
+              "Every Tuesday 6:00 pm - 8:00 pm",
+              "Meeting Room A",
+              "Dr. Smith",
+              "Healthy Lifestyle"
             ],
             "status": ""
           },
           {
             "cells": [
-              "10:15–11:00",
-              "Merg Session 1",
-              "Room A",
-              "Interactive workshop"
+              "Special Seminar 1",
+              "Jan 3",
+              "Meeting Room A",
+              "Dr. Smith",
+              "Heart Healthy Food"
             ],
             "status": ""
           },
           {
             "cells": [
-              "11:15–12:00",
-              "Merg Session 2",
-              "Room B",
-              "Group discussion"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–15:00",
-              "Regular Session",
-              "Room C",
-              "Standard lecture"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:15–16:00",
-              "Q&A Session",
-              "Main Hall",
-              "Question and answer"
+              "Special Seminar 2",
+              "Apr 2",
+              "Meeting Room A",
+              "Dr. Smith",
+              "Balanced Diet for Adults"
             ],
             "status": ""
           }
@@ -14539,406 +11022,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题22工作经验还是教育背景重要.json-1",
+      "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题22工作经验还是教育背景重要.json",
-      "bankName": "真题22 工作经验还是教育背景重要",
-      "questionId": 1,
-      "topic": "会议时间地点",
-      "prompt": "开会的时间和地点是什么？",
-      "answer": "The team meeting will be held at 08:30 in Conference Room A.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 08:30 Team Meeting Conference Room A Introduction to new project 09:30 Interview Manager A Room 101 First interview 10:30 Interview Manager B Room 102 Cancelled 14:00 Interview Manager C Room 103 Afternoon session",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "team meeting held conference room",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "08:30",
-              "Team Meeting",
-              "Conference Room A",
-              "Introduction to new project"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "09:30",
-              "Interview Manager A",
-              "Room 101",
-              "First interview"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:30",
-              "Interview Manager B",
-              "Room 102",
-              "Cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "14:00",
-              "Interview Manager C",
-              "Room 103",
-              "Afternoon session"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题22工作经验还是教育背景重要.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题22工作经验还是教育背景重要.json",
-      "bankName": "真题22 工作经验还是教育背景重要",
-      "questionId": 2,
-      "topic": "职位确认",
-      "prompt": "是否有两个经理职位？",
-      "answer": "Actually no, the second manager position was cancelled. Please keep that in mind.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes 08:30 Team Meeting Conference Room A Introduction to new project 09:30 Interview Manager A Room 101 First interview 10:30 Interview Manager B Room 102 Cancelled 14:00 Interview Manager C Room 103 Afternoon session",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "actually no manager position cancelled",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "08:30",
-              "Team Meeting",
-              "Conference Room A",
-              "Introduction to new project"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "09:30",
-              "Interview Manager A",
-              "Room 101",
-              "First interview"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:30",
-              "Interview Manager B",
-              "Room 102",
-              "Cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "14:00",
-              "Interview Manager C",
-              "Room 103",
-              "Afternoon session"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题23大学毕业继续和父母住还是单独住.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题23大学毕业继续和父母住还是单独住.json",
-      "bankName": "真题23 大学毕业，继续和父母住还是单独住",
-      "questionId": 1,
-      "topic": "招聘会时间地点",
-      "prompt": "招聘会开会的地点和时间是什么？",
-      "answer": "This meeting will be held at the designated rooms as listed in the schedule. The first interview is at 9:00 am.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Position Company Location Notes 09:00 Manager A Company X Room 101 First interview 10:00 Manager B Company Y Room 102 Second interview cancelled 14:00 Manager C Company X Room 103 Afternoon position available",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "meeting held designated rooms listed",
-      "material": {
-        "headers": [
-          "Time",
-          "Position",
-          "Company",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00",
-              "Manager A",
-              "Company X",
-              "Room 101",
-              "First interview"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00",
-              "Manager B",
-              "Company Y",
-              "Room 102",
-              "Second interview cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "14:00",
-              "Manager C",
-              "Company X",
-              "Room 103",
-              "Afternoon position available"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题23大学毕业继续和父母住还是单独住.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题23大学毕业继续和父母住还是单独住.json",
-      "bankName": "真题23 大学毕业，继续和父母住还是单独住",
-      "questionId": 2,
-      "topic": "职位确认",
-      "prompt": "是否有两个经理职位？",
-      "answer": "Actually no, I am afraid you have the wrong information. The second manager position was cancelled. Please keep that in mind.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Position Company Location Notes 09:00 Manager A Company X Room 101 First interview 10:00 Manager B Company Y Room 102 Second interview cancelled 14:00 Manager C Company X Room 103 Afternoon position available",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "actually no am afraid wrong",
-      "material": {
-        "headers": [
-          "Time",
-          "Position",
-          "Company",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00",
-              "Manager A",
-              "Company X",
-              "Room 101",
-              "First interview"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00",
-              "Manager B",
-              "Company Y",
-              "Room 102",
-              "Second interview cancelled"
-            ],
-            "status": "changed"
-          },
-          {
-            "cells": [
-              "14:00",
-              "Manager C",
-              "Company X",
-              "Room 103",
-              "Afternoon position available"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题25在公司上班前有过创业经验的好处.json-10",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题25在公司上班前有过创业经验的好处.json",
-      "bankName": "真题25 在公司上班前有过创业经验的好处",
-      "questionId": 10,
-      "topic": "需教学经验的面试场次咨询",
-      "prompt": "Question 3: Which interviews require teaching experience?",
-      "answer": "There are two interviews that require teaching experience. They are the second round - piano demo from 10:30 to 11:30 a.m. and the third round - teaching plan presentation from 2:00 to 3:00 p.m.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Interview Agenda Location Requirement 09:00-10:00 First Round - Music Theory Test Room 302 Basic music knowledge 10:30-11:30 Second Round - Piano Demo Room 302 Teaching experience required 14:00-15:00 Third Round - Teaching Plan Presentation Room 302 Teaching experience required 16:00-17:00 Final Round - Interview with Principal Room 302 *Cancelled*",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "interviews require teaching experience round",
-      "material": {
-        "headers": [
-          "Time",
-          "Interview Agenda",
-          "Location",
-          "Requirement"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00-10:00",
-              "First Round - Music Theory Test",
-              "Room 302",
-              "Basic music knowledge"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:30-11:30",
-              "Second Round - Piano Demo",
-              "Room 302",
-              "Teaching experience required"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00-15:00",
-              "Third Round - Teaching Plan Presentation",
-              "Room 302",
-              "Teaching experience required"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "16:00-17:00",
-              "Final Round - Interview with Principal",
-              "Room 302",
-              "Cancelled"
-            ],
-            "status": "changed"
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题26是现有的工作更让你开心.json-9",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题26是现有的工作更让你开心.json",
-      "bankName": "真题26 是现有的工作更让你开心",
-      "questionId": 9,
-      "topic": "乡村音乐会场次咨询",
-      "prompt": "Question 2: How many country concerts are there in the schedule?",
-      "answer": "Question 2: There are two country concerts in the schedule, one on October 12 and the other on November 18.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Concert Type Time Ticket Purchase Methods Notes Country Concert 1 Oct 12 7:00 PM Online, By Phone, In Person Outdoor venue, bring rain gear if needed Country Concert 2 Nov 18 7:30 PM Online, By Phone, In Person Indoor stadium, no outside food allowed Classic Concert Dec 24 8:00 PM Online only Limited seats, book early",
-      "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
-      "difficulty": "hard",
-      "keywords": "question country concerts schedule october",
-      "material": {
-        "headers": [
-          "Concert Type",
-          "Time",
-          "Ticket Purchase Methods",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Country Concert 1",
-              "Oct 12 7:00 PM",
-              "Online, By Phone, In Person",
-              "Outdoor venue, bring rain gear if needed"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Country Concert 2",
-              "Nov 18 7:30 PM",
-              "Online, By Phone, In Person",
-              "Indoor stadium, no outside food allowed"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Classic Concert",
-              "Dec 24 8:00 PM",
-              "Online only",
-              "Limited seats, book early"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
+      "priority": "P2",
       "sourceFile": "真题28你认为elementary school的学生是否需要开始学英语.json",
       "bankName": "真题28 你认为elementary school的学生是否需要开始学英语",
-      "questionId": 2,
-      "topic": "电影时间",
-      "prompt": "哪场电影在上午？",
-      "answer": "The morning movie is from 9:00 to 11:00 at Cinema A.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
+      "questionId": "1/2/3",
+      "topic": "电影票价格 · 电影时间 · 电影场次",
+      "prompt": "电影票价格是多少？\n哪场电影在上午？\n请介绍两个电影场次。",
+      "answer": "The ticket prices are 12 dollars per movie for the morning and afternoon sessions, and 15 dollars per movie for the evening 3D session. The morning movie is from 9:00 to 11:00 at Cinema A. There is a morning movie from 9:00 to 11:00 at Cinema A, and an afternoon movie from 13:00 to 15:00 at Cinema B.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Time Movie Fee Location Notes 09:00–11:00 Morning Movie $12 Cinema A Standard 2D movie 13:00–15:00 Afternoon Movie $12 Cinema B Standard 2D movie 16:00–18:00 Evening Movie $15 Cinema A Includes 3D experience",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "morning movie cinema",
+      "keywords": "ticket prices dollars per movie morning movie cinema morning movie cinema afternoon",
+      "questions": [
+        {
+          "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "电影票价格",
+          "prompt": "电影票价格是多少？",
+          "answer": "The ticket prices are 12 dollars per movie for the morning and afternoon sessions, and 15 dollars per movie for the evening 3D session.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "ticket prices dollars per movie"
+        },
+        {
+          "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "电影时间",
+          "prompt": "哪场电影在上午？",
+          "answer": "The morning movie is from 9:00 to 11:00 at Cinema A.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "morning movie cinema"
+        },
+        {
+          "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "电影场次",
+          "prompt": "请介绍两个电影场次。",
+          "answer": "There is a morning movie from 9:00 to 11:00 at Cinema A, and an afternoon movie from 13:00 to 15:00 at Cinema B.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "morning movie cinema afternoon"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
@@ -14984,23 +11123,62 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题29网络和电子设备会取代报纸吗.json-10",
+      "uid": "4-真题29网络和电子设备会取代报纸吗.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
-      "priority": "P3",
+      "priority": "P2",
       "sourceFile": "真题29网络和电子设备会取代报纸吗.json",
       "bankName": "真题29 网络和电子设备会取代报纸吗",
-      "questionId": 10,
-      "topic": "明日讲座场次及内容咨询",
-      "prompt": "Question 3: How many lectures will be held tomorrow, and what are they?",
-      "answer": "Question 3: There will be two lectures tomorrow. The first one is Digital Media Trends at 9:00 AM, and the second one is Smart Device Innovation at 11:00 AM.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
+      "questionId": "8/9/10",
+      "topic": "活动开始时间咨询 · 午餐费用确认 · 明日讲座场次及内容咨询",
+      "prompt": "Question 1: What time does the event start?\nQuestion 2: Is the lunch free?\nQuestion 3: How many lectures will be held tomorrow, and what are they?",
+      "answer": "The event starts at 9:00 AM on October 20th after the registration which begins at 8:30 AM. No, the lunch is not free. It costs 10 dollars per person. There will be two lectures tomorrow. The first one is Digital Media Trends at 9:00 AM, and the second one is Smart Device Innovation at 11:00 AM.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
       "instructions": "请根据提供的信息回答问题： Date Time Activity Location Notes Oct 20th 08:30 AM Registration Main Hall Event starts after registration Oct 20th 09:00 AM Lecture 1: Digital Media Trends Conference Room A Free handouts provided Oct 20th 11:00 AM Lecture 2: Smart Device Innovation Conference Room A Guest speaker from tech company Oct 20th 12:30 PM Lunch Break Cafeteria 10$ per person Oct 20th 02:00 PM Panel Discussion Conference Room B Open to all attendees",
       "imagePath": "",
-      "preparationTime": 15,
-      "answerTime": 30,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "question lectures tomorrow digital media",
+      "keywords": "question event starts am october question no lunch not free question lectures tomorrow digital media",
+      "questions": [
+        {
+          "uid": "4-真题29网络和电子设备会取代报纸吗.json-group-q1",
+          "position": 1,
+          "questionId": 8,
+          "topic": "活动开始时间咨询",
+          "prompt": "Question 1: What time does the event start?",
+          "answer": "The event starts at 9:00 AM on October 20th after the registration which begins at 8:30 AM.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "question event starts am october"
+        },
+        {
+          "uid": "4-真题29网络和电子设备会取代报纸吗.json-group-q2",
+          "position": 2,
+          "questionId": 9,
+          "topic": "午餐费用确认",
+          "prompt": "Question 2: Is the lunch free?",
+          "answer": "No, the lunch is not free. It costs 10 dollars per person.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "question no lunch not free"
+        },
+        {
+          "uid": "4-真题29网络和电子设备会取代报纸吗.json-group-q3",
+          "position": 3,
+          "questionId": 10,
+          "topic": "明日讲座场次及内容咨询",
+          "prompt": "Question 3: How many lectures will be held tomorrow, and what are they?",
+          "answer": "There will be two lectures tomorrow. The first one is Digital Media Trends at 9:00 AM, and the second one is Smart Device Innovation at 11:00 AM.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "question lectures tomorrow digital media"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Date",
@@ -15066,509 +11244,259 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-1",
+      "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题31发生分歧是直接解决还是找领导帮忙.json",
-      "bankName": "真题31 发生分歧是直接解决还是找领导帮忙",
-      "questionId": 1,
-      "topic": "航班咨询",
-      "prompt": "What time will the departing flight depart and arrive?",
-      "answer": "It will depart at 7:00 AM on June 10 and arrive at 1:09 PM on the same day.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Flight From To Departure Time Arrival Time Notes June 10 Flight A21 Oslo Singapore 07:00 AM 01:09 PM Direct flight June 17 Flight B17 Sydney Singapore 09:10 AM 04:12 PM Operated by Rapid Airline",
+      "priority": "P2",
+      "sourceFile": "真题30参观热门旅游景点是熟悉这座城市的最佳方式.json",
+      "bankName": "真题30 参观热门旅游景点是熟悉这座城市的最佳方式",
+      "questionId": "1/2/3",
+      "topic": "课程费用咨询 · 课程时间确认 · 课程内容说明",
+      "prompt": "课程费用是多少？\n课程是不是在早上？\n请介绍两个 swimming 课程。",
+      "answer": "The fees are 40 dollars, 55 dollars, and 70 dollars depending on the class. Yes, two of the swimming classes are in the morning: one at 7:30 and the other at 10 o'clock. There is a morning swimming class from 7:30 to 8:30 for beginners, and a family swimming class from 10:00 to 11:00 for parents and children.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
+      "instructions": "请根据提供的信息回答问题： Time Class Fee Location Notes 07:30–08:30 Morning Swimming Class $40 Indoor Pool A Beginner level 10:00–11:00 Family Swimming Class $55 Indoor Pool B Parents and children 14:00–15:30 Advanced Swimming Training $70 Olympic Pool For experienced swimmers",
       "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
+      "preparationTime": "",
+      "answerTime": "",
       "difficulty": "hard",
-      "keywords": "depart am june arrive pm",
-      "material": {
-        "headers": [
-          "Date",
-          "Flight",
-          "From",
-          "To",
-          "Departure Time",
-          "Arrival Time",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "June 10",
-              "Flight A21",
-              "Oslo",
-              "Singapore",
-              "07:00 AM",
-              "01:09 PM",
-              "Direct flight"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "June 17",
-              "Flight B17",
-              "Sydney",
-              "Singapore",
-              "09:10 AM",
-              "04:12 PM",
-              "Operated by Rapid Airline"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题31发生分歧是直接解决还是找领导帮忙.json",
-      "bankName": "真题31 发生分歧是直接解决还是找领导帮忙",
-      "questionId": 2,
-      "topic": "时间确认",
-      "prompt": "这趟航班是在上午还是下午？",
-      "answer": "It is in the morning. The flight departs at 7:00 AM.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Flight From To Departure Time Arrival Time Notes June 10 Flight A21 Oslo Singapore 07:00 AM 01:09 PM Direct flight June 17 Flight B17 Sydney Singapore 09:10 AM 04:12 PM Operated by Rapid Airline",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "morning flight departs am",
-      "material": {
-        "headers": [
-          "Date",
-          "Flight",
-          "From",
-          "To",
-          "Departure Time",
-          "Arrival Time",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "June 10",
-              "Flight A21",
-              "Oslo",
-              "Singapore",
-              "07:00 AM",
-              "01:09 PM",
-              "Direct flight"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "June 17",
-              "Flight B17",
-              "Sydney",
-              "Singapore",
-              "09:10 AM",
-              "04:12 PM",
-              "Operated by Rapid Airline"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题32主管评价员工，周边同事反馈是否很重要.json",
-      "bankName": "真题32 主管评价员工，周边同事反馈是否很重要",
-      "questionId": 1,
-      "topic": "会议咨询",
-      "prompt": "问会议举办的时间，地点以及第一场会议的时间内容。",
-      "answer": "The meeting will be held at 2:00 PM in the conference room. The first session starts at 2:15 PM and it is about project updates.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据以下信息回答问题： Time Activity Location Notes 2:00 PM Opening & Venue Check-in Conference Room Main meeting check-in 2:15 PM Project Update Session Conference Room A First meeting session 3:00 PM Demonstration: How to Prune Fruit Trees Garden Area Outdoor demo 4:00 PM Workshop: Growing Fruit Trees in Your Garden Room C Practical training session",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "meeting held pm conference room",
+      "keywords": "fees dollars depending class yes swimming classes morning clock morning swimming class beginners family",
+      "questions": [
+        {
+          "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "课程费用咨询",
+          "prompt": "课程费用是多少？",
+          "answer": "The fees are 40 dollars, 55 dollars, and 70 dollars depending on the class.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "fees dollars depending class"
+        },
+        {
+          "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "课程时间确认",
+          "prompt": "课程是不是在早上？",
+          "answer": "Yes, two of the swimming classes are in the morning: one at 7:30 and the other at 10 o'clock.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "yes swimming classes morning clock"
+        },
+        {
+          "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "课程内容说明",
+          "prompt": "请介绍两个 swimming 课程。",
+          "answer": "There is a morning swimming class from 7:30 to 8:30 for beginners, and a family swimming class from 10:00 to 11:00 for parents and children.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "morning swimming class beginners family"
+        }
+      ],
+      "reviewTime": 45,
       "material": {
         "headers": [
           "Time",
-          "Activity",
+          "Class",
+          "Fee",
           "Location",
           "Notes"
         ],
         "rows": [
           {
             "cells": [
-              "2:00 PM",
-              "Opening & Venue Check-in",
-              "Conference Room",
-              "Main meeting check-in"
+              "07:30–08:30",
+              "Morning Swimming Class",
+              "$40",
+              "Indoor Pool A",
+              "Beginner level"
             ],
             "status": ""
           },
           {
             "cells": [
-              "2:15 PM",
-              "Project Update Session",
+              "10:00–11:00",
+              "Family Swimming Class",
+              "$55",
+              "Indoor Pool B",
+              "Parents and children"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "14:00–15:30",
+              "Advanced Swimming Training",
+              "$70",
+              "Olympic Pool",
+              "For experienced swimmers"
+            ],
+            "status": ""
+          }
+        ],
+        "notes": [],
+        "missing": false
+      }
+    },
+    {
+      "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-group",
+      "part": 4,
+      "partName": "Part 4 信息回答",
+      "priority": "P2",
+      "sourceFile": "真题41作为主管你认为是经验重要还是沟通能力重要.json",
+      "bankName": "真题41 作为主管，你认为是经验重要还是沟通能力重要",
+      "questionId": "1/2/3",
+      "topic": "学校咨询",
+      "prompt": "问了学校的价格和报名截止日期\n问学校是不是换地址了\n让介绍学校有哪些marketing的课程",
+      "answer": "The tuition fee for the upcoming semester is $1,200 for the full program, and the registration deadline is August 15th. No, the school has not changed its address. It is still located at 125 Green Street. The school offers three marketing courses this semester: Introduction to Marketing, Digital Marketing Strategy, and Brand Management.",
+      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
+      "instructions": "请根据提供的信息回答问题：",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "hard",
+      "keywords": "tuition fee upcoming semester full no school not changed address school offers three marketing courses",
+      "questions": [
+        {
+          "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "学校咨询",
+          "prompt": "问了学校的价格和报名截止日期",
+          "answer": "The tuition fee for the upcoming semester is $1,200 for the full program, and the registration deadline is August 15th.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "tuition fee upcoming semester full"
+        },
+        {
+          "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "学校咨询",
+          "prompt": "问学校是不是换地址了",
+          "answer": "No, the school has not changed its address. It is still located at 125 Green Street.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "no school not changed address"
+        },
+        {
+          "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "学校咨询",
+          "prompt": "让介绍学校有哪些marketing的课程",
+          "answer": "The school offers three marketing courses this semester: Introduction to Marketing, Digital Marketing Strategy, and Brand Management.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "school offers three marketing courses"
+        }
+      ],
+      "reviewTime": 45,
+      "material": {
+        "headers": [],
+        "rows": [],
+        "notes": [],
+        "missing": true
+      }
+    },
+    {
+      "uid": "4-真题09学术专业成功最重要因素.json-group",
+      "part": 4,
+      "partName": "Part 4 信息回答",
+      "priority": "P3",
+      "sourceFile": "真题09学术专业成功最重要因素.json",
+      "bankName": "真题9 学术专业成功最重要因素",
+      "questionId": "1/2/3",
+      "topic": "培训时间地点 · 培训信息 · 培训细节",
+      "prompt": "第一场培训的时间、主题和地点是什么？\n第二场培训的主题是什么，在哪里举行？\n第三场培训的主题、地点和方式有哪些？",
+      "answer": "The first training session is from 10:00 to 11:00 on Communication Skills in Conference Room A. The second training is Time Management, held in Conference Room B from 11:30 to 12:30. The third training is Leadership Skills in Conference Room C from 14:00 to 15:00, including role-playing and group discussions.",
+      "reason": "P3：整套以直接查找时间、地点或价格为主，资料结构简单、干扰信息较少，可用于最后巩固查表速度。",
+      "instructions": "请根据提供的信息回答问题： Time Topic Location Notes 10:00–11:00 Training: Communication Skills Conference Room A Focus on effective communication 11:30–12:30 Training: Time Management Conference Room B Practical exercises 14:00–15:00 Training: Leadership Skills Conference Room C Role-playing and group discussion",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "hard",
+      "keywords": "training session communication skills conference training time management held conference third training leadership skills conference",
+      "questions": [
+        {
+          "uid": "4-真题09学术专业成功最重要因素.json-group-q1",
+          "position": 1,
+          "questionId": 1,
+          "topic": "培训时间地点",
+          "prompt": "第一场培训的时间、主题和地点是什么？",
+          "answer": "The first training session is from 10:00 to 11:00 on Communication Skills in Conference Room A.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "training session communication skills conference"
+        },
+        {
+          "uid": "4-真题09学术专业成功最重要因素.json-group-q2",
+          "position": 2,
+          "questionId": 2,
+          "topic": "培训信息",
+          "prompt": "第二场培训的主题是什么，在哪里举行？",
+          "answer": "The second training is Time Management, held in Conference Room B from 11:30 to 12:30.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "training time management held conference"
+        },
+        {
+          "uid": "4-真题09学术专业成功最重要因素.json-group-q3",
+          "position": 3,
+          "questionId": 3,
+          "topic": "培训细节",
+          "prompt": "第三场培训的主题、地点和方式有哪些？",
+          "answer": "The third training is Leadership Skills in Conference Room C from 14:00 to 15:00, including role-playing and group discussions.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "third training leadership skills conference"
+        }
+      ],
+      "reviewTime": 45,
+      "material": {
+        "headers": [
+          "Time",
+          "Topic",
+          "Location",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "10:00–11:00",
+              "Training: Communication Skills",
               "Conference Room A",
-              "First meeting session"
+              "Focus on effective communication"
             ],
             "status": ""
           },
           {
             "cells": [
-              "3:00 PM",
-              "Demonstration: How to Prune Fruit Trees",
-              "Garden Area",
-              "Outdoor demo"
+              "11:30–12:30",
+              "Training: Time Management",
+              "Conference Room B",
+              "Practical exercises"
             ],
             "status": ""
           },
           {
             "cells": [
-              "4:00 PM",
-              "Workshop: Growing Fruit Trees in Your Garden",
-              "Room C",
-              "Practical training session"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题34职业生涯中频繁更换公司的好处.json-2",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题34职业生涯中频繁更换公司的好处.json",
-      "bankName": "真题34 职业生涯中，频繁更换公司的好处",
-      "questionId": 2,
-      "topic": "活动安排确认",
-      "prompt": "如果下雨，会议是否继续举行？",
-      "answer": "Yes, the meeting will still take place even if it rains. According to the note, the event will continue as scheduled.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration City Convention Center Tickets required ($45) 10:00–11:00 Opening Session Main Hall General introduction 13:00–14:00 Workshop: Photography Basics Room A Afternoon session only 15:00–16:30 Panel Discussions Room B Two topics: Digital Photography; Storytelling Images * * * If it rains, the event will continue as scheduled.",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "yes meeting still take place",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Registration",
-              "City Convention Center",
-              "Tickets required ($45)"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Opening Session",
-              "Main Hall",
-              "General introduction"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "13:00–14:00",
-              "Workshop: Photography Basics",
-              "Room A",
-              "Afternoon session only"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "15:00–16:30",
-              "Panel Discussions",
-              "Room B",
-              "Two topics: Digital Photography; Storytelling Images"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "*",
-              "*",
-              "*",
-              "If it rains, the event will continue as scheduled."
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题35父母让孩子做家务的好处.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题35父母让孩子做家务的好处.json",
-      "bankName": "真题35 父母让孩子做家务的好处",
-      "questionId": 1,
-      "topic": "会议信息查询",
-      "prompt": "会议的日期和开始时间是什么？",
-      "answer": "The meeting is scheduled for October 15th, and it will start at 9:30 a.m.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Date Activity Time Location October 15 Meeting 9:30 a.m. Conference Room A October 15 Workshop: Marketing Skills 1:00–2:00 p.m. Room C October 15 Panel Session 1: International Business 2:30–3:30 p.m. Hall 2 October 15 Panel Session 2: Technology Trends 4:00–5:00 p.m. Hall 2",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "meeting scheduled october th start",
-      "material": {
-        "headers": [
-          "Date",
-          "Activity",
-          "Time",
-          "Location"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "October 15",
-              "Meeting",
-              "9:30 a.m.",
-              "Conference Room A"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October 15",
-              "Workshop: Marketing Skills",
-              "1:00–2:00 p.m.",
-              "Room C"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October 15",
-              "Panel Session 1: International Business",
-              "2:30–3:30 p.m.",
-              "Hall 2"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "October 15",
-              "Panel Session 2: Technology Trends",
-              "4:00–5:00 p.m.",
-              "Hall 2"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题36公司提供工作日锻炼的机会是否是一个好主意.json",
-      "bankName": "真题36 公司提供工作日锻炼",
-      "questionId": 1,
-      "topic": "会议地点与时间",
-      "prompt": "seminar在哪里开始，什么时候开始？",
-      "answer": "The seminar will start at 10:00 a.m., in the main conference hall, right after registration.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity / Speaker Topic / Details 9:00–9:30 Registration Check-in and materials distribution 10:00–11:00 Seminar Opening Welcome speech and introduction 11:15–12:15 Workshop A How to Improve Workplace Productivity 1:30–2:30 Workshop B Healthy Lifestyle for Office Workers 3:00–4:00 Q&A Session Open discussion with speakers",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "seminar start main conference hall",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity / Speaker",
-          "Topic / Details"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "9:00–9:30",
-              "Registration",
-              "Check-in and materials distribution"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:00",
-              "Seminar Opening",
-              "Welcome speech and introduction"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:15–12:15",
-              "Workshop A",
-              "How to Improve Workplace Productivity"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "1:30–2:30",
-              "Workshop B",
-              "Healthy Lifestyle for Office Workers"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "3:00–4:00",
-              "Q&A Session",
-              "Open discussion with speakers"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题38当医生有什么好处.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题38当医生有什么好处.json",
-      "bankName": "真题38 当医生有什么好处",
-      "questionId": 1,
-      "topic": "培训日程确认",
-      "prompt": "培训什么时候？第一节课什么时候开始？",
-      "answer": "The training is next week, and the first class begins on Monday at 9 a.m.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Instructor Notes 09:00–10:30 Introduction to Cooking Chef Mike First class of the training 12:00–13:00 Lunch Break N/A Lunch costs $5 per person 14:00–16:00 Specialty Courses Chef Mike Italian cooking & French cuisine",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "training next week class begins",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Instructor",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–10:30",
-              "Introduction to Cooking",
-              "Chef Mike",
-              "First class of the training"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "12:00–13:00",
-              "Lunch Break",
-              "N/A",
-              "Lunch costs $5 per person"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "14:00–16:00",
-              "Specialty Courses",
-              "Chef Mike",
-              "Italian cooking & French cuisine"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-1",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P3",
-      "sourceFile": "真题40大学生是否应该花时间去参加社区活动.json",
-      "bankName": "真题40 大学生是否应该花时间去参加社区活动",
-      "questionId": 1,
-      "topic": "活动地点咨询",
-      "prompt": "问这个活动在哪里举行",
-      "answer": "The event is held at the Downtown Convention Center.",
-      "reason": "单点时间、地点或价格信息题，最后用来练扫描速度。",
-      "instructions": "请根据提供的信息回答问题： Time Activity Location Notes 09:00–09:30 Registration & Welcome Coffee Main Lobby Participants check in and have coffee before the event starts 10:00–11:30 Workshop: Digital Marketing Room B, Downtown Convention Center Focus on latest trends and strategies 11:45–12:30 Networking Session Lobby Area Opportunity to meet other attendees and exchange contacts",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 15,
-      "difficulty": "hard",
-      "keywords": "event held downtown convention center",
-      "material": {
-        "headers": [
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "09:00–09:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Participants check in and have coffee before the event starts"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "10:00–11:30",
-              "Workshop: Digital Marketing",
-              "Room B, Downtown Convention Center",
-              "Focus on latest trends and strategies"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "11:45–12:30",
-              "Networking Session",
-              "Lobby Area",
-              "Opportunity to meet other attendees and exchange contacts"
+              "14:00–15:00",
+              "Training: Leadership Skills",
+              "Conference Room C",
+              "Role-playing and group discussion"
             ],
             "status": ""
           }

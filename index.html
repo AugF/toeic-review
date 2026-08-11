@@ -335,6 +335,45 @@
       font-size: 15px;
     }
 
+    .question-group {
+      margin-top: 12px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .group-question {
+      padding: 14px 0;
+    }
+
+    .group-question + .group-question {
+      border-top: 1px solid var(--line);
+    }
+
+    .group-question-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+      margin-bottom: 8px;
+    }
+
+    .group-question-topic {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .group-answer {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-left: 4px solid var(--teal);
+      background: #f4fbf9;
+    }
+
+    .group-answer .answer-text {
+      margin-bottom: 0;
+    }
+
     .material {
       margin-top: 12px;
       border: 1px solid var(--line);
@@ -1096,7 +1135,8 @@
     }
 
     async function speakRecord(uid) {
-      const record = data.records.find((item) => item.uid === uid);
+      const record = data.records.find((item) => item.uid === uid) ||
+        data.records.flatMap((item) => item.questions || []).find((item) => item.uid === uid);
       if (!record) return;
       const text = String(record.answer || record.prompt || "").replace(/\s+/g, " ").trim();
       if (!text) {
@@ -1324,12 +1364,13 @@
 
     function renderSummary(records) {
       const part = data.parts.find((item) => item.part === state.part);
+      const unit = [3, 4].includes(state.part) ? "套" : "题";
       const visibleCounts = records.reduce((acc, record) => {
         acc[record.priority] += 1;
         return acc;
       }, { P1: 0, P2: 0, P3: 0 });
       summaryStrip.innerHTML = [
-        ["全部", part.counts.total, "本 Part 总题数"],
+        ["全部", part.counts.total, "本 Part 总" + unit + "数"],
         ["P1", visibleCounts.P1, "当前筛选"],
         ["P2", visibleCounts.P2, "当前筛选"],
         ["P3", visibleCounts.P3, "当前筛选"],
@@ -1339,6 +1380,36 @@
           '<span class="summary-label">' + escapeHtml(label + " " + note) + '</span>' +
         '</div>'
       ).join("");
+    }
+
+    function renderGroupedQuestions(record, answerVisible) {
+      return '<div class="question-group" aria-label="整组三题">' + record.questions.map((question) => {
+        const prepBadge = question.preparationTime
+          ? '<span class="badge meta">准备 ' + escapeHtml(question.preparationTime) + 's</span>'
+          : '';
+        const answerBadge = question.answerTime
+          ? '<span class="badge meta">作答 ' + escapeHtml(question.answerTime) + 's</span>'
+          : '';
+        const answer = answerVisible
+          ? '<div class="group-answer">' +
+              '<div class="answer-heading">' +
+                '<p class="answer-title">英文参考答案 · ' + escapeHtml(question.answerTime || "--") + ' 秒</p>' +
+                renderCompactSpeechControl(question) +
+              '</div>' +
+              '<p class="answer-text">' + escapeHtml(question.answer || "题库未提供参考答案。") + '</p>' +
+            '</div>'
+          : '';
+        return '<section class="group-question">' +
+          '<div class="group-question-head">' +
+            '<span class="badge meta">题' + escapeHtml(question.questionId) + '</span>' +
+            prepBadge +
+            answerBadge +
+            (question.topic ? '<span class="group-question-topic">' + escapeHtml(question.topic) + '</span>' : '') +
+          '</div>' +
+          '<p class="question-text">' + escapeHtml(question.prompt) + '</p>' +
+          answer +
+        '</section>';
+      }).join('') + '</div>';
     }
 
     function renderMaterial(record) {
@@ -1370,15 +1441,23 @@
       }
       cardList.innerHTML = records.map((record, index) => {
         const answerVisible = state.showAllAnswers || state.answerOpen.has(record.uid);
+        const isGrouped = Array.isArray(record.questions) && record.questions.length > 0;
         const isDone = state.done.has(record.uid);
         const isPersonalized = state.personalized.has(record.uid);
         const material = renderMaterial(record);
         const image = record.imagePath
           ? '<div class="image-wrap"><img src="' + escapeAttr(record.imagePath) + '" alt="' + escapeAttr(record.topic || "Part2 图片") + '" loading="lazy" /></div>'
           : "";
-        const answer = answerVisible
+        const answer = !isGrouped && answerVisible
           ? renderAnswer(record)
           : "";
+        const questionContent = isGrouped
+          ? renderGroupedQuestions(record, answerVisible)
+          : '<p class="question-text">' + escapeHtml(record.prompt) + '</p>';
+        const questionBadge = isGrouped
+          ? '<span class="badge meta">' + record.questions.length + ' 题一组</span>'
+          : '<span class="badge meta">题' + escapeHtml(record.questionId) + '</span>';
+        const reviewBadge = record.reviewTime ? '<span class="badge meta">看表 ' + escapeHtml(record.reviewTime) + 's</span>' : "";
         const prepBadge = record.preparationTime ? '<span class="badge meta">准备 ' + escapeHtml(record.preparationTime) + 's</span>' : "";
         const answerBadge = record.answerTime ? '<span class="badge meta">作答 ' + escapeHtml(record.answerTime) + 's</span>' : "";
         return '<article class="question-card" data-uid="' + escapeAttr(record.uid) + '">' +
@@ -1388,16 +1467,17 @@
                 '<span class="badge ' + record.priority.toLowerCase() + '">' + record.priority + '</span>' +
                 '<span class="badge meta">#' + (index + 1) + '</span>' +
                 '<span class="badge meta">' + escapeHtml(record.sourceFile) + '</span>' +
-                '<span class="badge meta">题' + escapeHtml(record.questionId) + '</span>' +
+                questionBadge +
+                reviewBadge +
                 prepBadge +
                 answerBadge +
               '</div>' +
               '<h3 class="card-topic">' + escapeHtml(record.topic || record.partName) + '</h3>' +
-              '<p class="question-text">' + escapeHtml(record.prompt) + '</p>' +
               material +
+              questionContent +
               answer +
               '<div class="card-actions">' +
-                '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? "隐藏答案" : "显示答案") + '</button>' +
+                '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? (isGrouped ? "隐藏整组答案" : "隐藏答案") : (isGrouped ? "显示整组答案" : "显示答案")) + '</button>' +
                 '<button class="tool-button done-toggle ' + (isDone ? "done" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isDone ? "已练" : "标记已练") + '</button>' +
                 '<button class="tool-button personalize-toggle ' + (isPersonalized ? "personalized" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isPersonalized ? "已个性化" : "标记个性化") + '</button>' +
               '</div>' +
@@ -1412,8 +1492,9 @@
     function render() {
       const records = currentRecords();
       const part = data.parts.find((item) => item.part === state.part);
+      const unit = [3, 4].includes(state.part) ? "套" : "道";
       $("currentTitle").textContent = part.name;
-      $("currentMeta").textContent = records.length + " 道显示中；P1 " + part.counts.P1 + "，P2 " + part.counts.P2 + "，P3 " + part.counts.P3;
+      $("currentMeta").textContent = records.length + " " + unit + "显示中；P1 " + part.counts.P1 + "，P2 " + part.counts.P2 + "，P3 " + part.counts.P3;
       $("totalCount").textContent = part.counts.total;
       const partRecords = data.records.filter((record) => record.part === state.part);
       const doneCount = partRecords.filter((record) => state.done.has(record.uid)).length;
