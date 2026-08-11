@@ -180,6 +180,22 @@
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: 10px;
+      color: var(--text);
+      text-align: left;
+    }
+
+    button.stat {
+      cursor: pointer;
+    }
+
+    button.stat:hover {
+      border-color: #9aabb5;
+    }
+
+    button.stat.active {
+      border-color: var(--teal);
+      background: var(--green-soft);
+      color: var(--teal-dark);
     }
 
     .stat-value {
@@ -663,6 +679,12 @@
       color: var(--teal-dark);
     }
 
+    .card-actions .tool-button.personalized {
+      border-color: var(--amber);
+      background: var(--amber-soft);
+      color: #8a5200;
+    }
+
     .image-wrap {
       align-self: start;
       border: 1px solid var(--line);
@@ -796,8 +818,10 @@
       </section>
 
       <div class="sidebar-stats">
-        <div class="stat"><span class="stat-value" id="totalCount">0</span><span class="stat-label">当前题数</span></div>
-        <div class="stat"><span class="stat-value" id="doneCount">0</span><span class="stat-label">已练</span></div>
+        <button class="stat active" type="button" data-study-filter="all"><span class="stat-value" id="totalCount">0</span><span class="stat-label">当前题数</span></button>
+        <button class="stat" type="button" data-study-filter="done"><span class="stat-value" id="doneCount">0</span><span class="stat-label">已练</span></button>
+        <button class="stat" type="button" data-study-filter="undone"><span class="stat-value" id="undoneCount">0</span><span class="stat-label">未练</span></button>
+        <button class="stat" type="button" data-study-filter="personalized"><span class="stat-value" id="personalizedCount">0</span><span class="stat-label">个性化</span></button>
         <div class="stat"><span class="stat-value" id="shownCount">0</span><span class="stat-label">显示</span></div>
       </div>
     </aside>
@@ -826,11 +850,13 @@
     const state = {
       part: 1,
       priority: "all",
+      studyFilter: "all",
       search: "",
       showAllAnswers: false,
       shuffled: false,
       answerOpen: new Set(),
       done: new Set(JSON.parse(localStorage.getItem("toeic-review-done") || "[]")),
+      personalized: new Set(JSON.parse(localStorage.getItem("toeic-review-personalized") || "[]")),
     };
 
     const $ = (id) => document.getElementById(id);
@@ -863,6 +889,10 @@
       localStorage.setItem("toeic-review-done", JSON.stringify([...state.done]));
     }
 
+    function savePersonalized() {
+      localStorage.setItem("toeic-review-personalized", JSON.stringify([...state.personalized]));
+    }
+
     function normalize(value) {
       return String(value || "").toLowerCase();
     }
@@ -872,6 +902,9 @@
       let records = data.records.filter((record) => {
         if (record.part !== state.part) return false;
         if (state.priority !== "all" && record.priority !== state.priority) return false;
+        if (state.studyFilter === "done" && !state.done.has(record.uid)) return false;
+        if (state.studyFilter === "undone" && state.done.has(record.uid)) return false;
+        if (state.studyFilter === "personalized" && !state.personalized.has(record.uid)) return false;
         if (!term) return true;
         return [
           record.topic,
@@ -1289,7 +1322,7 @@
       ).join("");
     }
 
-    function renderMaterial(record) {
+    function renderMaterial(record, open = false) {
       if (record.part !== 4 || !record.material) return "";
       if (record.material.missing) {
         return '<div class="material material-missing">原始题库未收录本题资料表。</div>';
@@ -1305,7 +1338,7 @@
       const notes = record.material.notes?.length
         ? '<p class="material-notes">补充信息：' + escapeHtml(record.material.notes.join("；")) + '</p>'
         : "";
-      return '<details class="material"><summary>资料表</summary>' +
+      return '<details class="material"' + (open ? ' open' : '') + '><summary>资料表</summary>' +
         '<div class="material-scroll"><table class="material-table">' + head + body + '</table></div>' +
         notes +
       '</details>';
@@ -1319,7 +1352,8 @@
       cardList.innerHTML = records.map((record, index) => {
         const answerVisible = state.showAllAnswers || state.answerOpen.has(record.uid);
         const isDone = state.done.has(record.uid);
-        const material = renderMaterial(record);
+        const isPersonalized = state.personalized.has(record.uid);
+        const material = renderMaterial(record, answerVisible);
         const image = record.imagePath
           ? '<div class="image-wrap"><img src="' + escapeAttr(record.imagePath) + '" alt="' + escapeAttr(record.topic || "Part2 图片") + '" loading="lazy" /></div>'
           : "";
@@ -1346,6 +1380,7 @@
               '<div class="card-actions">' +
                 '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? "隐藏答案" : "显示答案") + '</button>' +
                 '<button class="tool-button done-toggle ' + (isDone ? "done" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isDone ? "已练" : "标记已练") + '</button>' +
+                '<button class="tool-button personalize-toggle ' + (isPersonalized ? "personalized" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isPersonalized ? "已个性化" : "标记个性化") + '</button>' +
               '</div>' +
             '</div>' +
             image +
@@ -1361,8 +1396,17 @@
       $("currentTitle").textContent = part.name;
       $("currentMeta").textContent = records.length + " 道显示中；P1 " + part.counts.P1 + "，P2 " + part.counts.P2 + "，P3 " + part.counts.P3;
       $("totalCount").textContent = part.counts.total;
-      $("doneCount").textContent = data.records.filter((record) => record.part === state.part && state.done.has(record.uid)).length;
+      const partRecords = data.records.filter((record) => record.part === state.part);
+      const doneCount = partRecords.filter((record) => state.done.has(record.uid)).length;
+      $("doneCount").textContent = doneCount;
+      $("undoneCount").textContent = partRecords.length - doneCount;
+      $("personalizedCount").textContent = partRecords.filter((record) => state.personalized.has(record.uid)).length;
       $("shownCount").textContent = records.length;
+      document.querySelectorAll("[data-study-filter]").forEach((button) => {
+        const active = button.dataset.studyFilter === state.studyFilter;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
       $("toggleAnswers").textContent = state.showAllAnswers ? "隐藏全部答案" : "显示全部答案";
       $("shuffleButton").textContent = state.shuffled ? "恢复排序" : "随机排序";
       renderParts();
@@ -1410,6 +1454,15 @@
       render();
     });
 
+    document.querySelector(".sidebar-stats").addEventListener("click", (event) => {
+      const button = event.target.closest("[data-study-filter]");
+      if (!button) return;
+      state.studyFilter = button.dataset.studyFilter === state.studyFilter && state.studyFilter !== "all"
+        ? "all"
+        : button.dataset.studyFilter;
+      render();
+    });
+
     cardList.addEventListener("click", (event) => {
       const checkSpeechButton = event.target.closest("[data-check-speech]");
       if (checkSpeechButton) {
@@ -1446,6 +1499,15 @@
         if (state.done.has(uid)) state.done.delete(uid);
         else state.done.add(uid);
         saveDone();
+        render();
+        return;
+      }
+      const personalizeButton = event.target.closest(".personalize-toggle");
+      if (personalizeButton) {
+        const uid = personalizeButton.dataset.uid;
+        if (state.personalized.has(uid)) state.personalized.delete(uid);
+        else state.personalized.add(uid);
+        savePersonalized();
         render();
       }
     });

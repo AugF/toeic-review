@@ -1,5 +1,5 @@
 window.TOEIC_REVIEW_DATA = {
-  "generatedAt": "2026-08-11T07:12:25.669Z",
+  "generatedAt": "2026-08-11T08:33:25.346Z",
   "parts": [
     {
       "part": 1,
@@ -1773,7 +1773,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "酒店场景",
       "prompt": "酒店场景，两男一女，前景客户在结账，职员服务，另一客户提包拉行李，看商品",
-      "answer": "This picture was taken in a hotel. In the center, a clerk is helping a male customer who is checking out. On the right, another customer is carrying a bag and pulling a suitcase while looking at some items. The hotel lobby looks clean and well organized. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a hotel. In the center, a clerk is helping a customer who is checking out. On the right, another customer is carrying a bag and pulling a suitcase and looking at some items. The hotel lobby looks clean and well organized. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/模拟题1-1.png",
@@ -1784,11 +1784,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "This picture was taken in a hotel.",
         "details": [
-          "In the center, a clerk is helping a male customer who is checking out.",
-          "On the right, another customer is carrying a bag and pulling a suitcase while looking at some items.",
+          "In the center, a clerk is helping a customer who is checking out.",
+          "On the right, another customer is carrying a bag and pulling a suitcase and looking at some items.",
           "The hotel lobby looks clean and well organized."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1801,7 +1801,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 3,
       "topic": "餐厅场景",
       "prompt": "餐厅里很多人在吃饭或交谈，近景三个人，一个人在吃薯条，另两人在看菜单点餐，其中一人拿着水",
-      "answer": "This picture shows a busy restaurant with many people eating and talking. In the foreground, three people are sitting at a table. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a busy restaurant with many people eating and talking. In the foreground, three people are sitting at a table. One person is eating French fries. The other two are looking at the menu and deciding what to order. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/模拟题2-1.png",
@@ -1813,10 +1813,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "This picture shows a busy restaurant with many people eating and talking.",
         "details": [
           "In the foreground, three people are sitting at a table.",
-          "One person is eating French fries, while the other two are looking at the menu and deciding what to order.",
-          "One of them is holding a glass of water."
+          "One person is eating French fries.",
+          "The other two are looking at the menu and deciding what to order."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1829,7 +1829,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 4,
       "topic": "仓库场景",
       "prompt": "仓库里，右边两位女士在衣柜附近换衣服，左边有穿蓝色上衣的胖男子背影走远，背景有货架和商品",
-      "answer": "The picture was taken in a warehouse. On the right side, two women are standing near a wardrobe and preparing to change clothes. On the left, a man wearing a blue shirt is walking away. In the background, there are shelves filled with goods. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in a warehouse. On the right, two women are standing near a closet and preparing to change clothes. On the left, a man wearing a blue shirt is walking away. In the background, there are shelves filled with products. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/模拟题2-2.png",
@@ -1838,13 +1838,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "warehouse right side women standing",
       "part2Answer": {
-        "opening": "The picture was taken in a warehouse.",
+        "opening": "This picture was taken in a warehouse.",
         "details": [
-          "On the right side, two women are standing near a wardrobe and preparing to change clothes.",
+          "On the right, two women are standing near a closet and preparing to change clothes.",
           "On the left, a man wearing a blue shirt is walking away.",
-          "In the background, there are shelves filled with goods."
+          "In the background, there are shelves filled with products."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1857,7 +1857,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 3,
       "topic": "街头场景",
       "prompt": "街道上有三个人，中间一男士在问路，左边一女士拿着满满的购物袋，右边一女士推着婴儿车经过商店",
-      "answer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, a woman is carrying several shopping bags. On the right, another woman is pushing a stroller past a shop. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, a woman is carrying some shopping bags. On the right, another woman is pushing a stroller past a shop. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/模拟题3-1..png",
@@ -1869,10 +1869,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "This picture shows a street scene with three people.",
         "details": [
           "In the middle, a man is asking a woman for directions.",
-          "On the left, a woman is carrying several shopping bags.",
+          "On the left, a woman is carrying some shopping bags.",
           "On the right, another woman is pushing a stroller past a shop."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1885,7 +1885,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 4,
       "topic": "会议场景",
       "prompt": "会议室里有五个人，右边一女士拿着文件和笔记本，左边四个人在听讲和做笔记",
-      "answer": "The picture shows a meeting room with five people. On the right, a woman is holding documents and has a laptop in front of her. On the left, four people are listening carefully and taking notes. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a meeting room with five people. On the right, a woman is holding documents and has a laptop in front of her. On the left, four people are listening carefully and taking notes. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/模拟题3-2.png",
@@ -1894,12 +1894,12 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows meeting room five people",
       "part2Answer": {
-        "opening": "The picture shows a meeting room with five people.",
+        "opening": "This picture shows a meeting room with five people.",
         "details": [
           "On the right, a woman is holding documents and has a laptop in front of her.",
           "On the left, four people are listening carefully and taking notes."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1912,7 +1912,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "酒店场景",
       "prompt": "酒店，两男一女前景，一位客户在结账，职员在服务他，另一位客户提包拉行李，看商品",
-      "answer": "This is a picture taken in a hotel. There are two male customers and a clerk. On the left, one customer is checking out and the clerk is serving him. On the right, the other customer is carrying a bag and pulling a suitcase while looking at the goods. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a hotel. There are two customers and a clerk. On the left, one customer is checking out and the clerk is serving him. On the right, the other customer is carrying a bag and pulling a suitcase and looking at the products. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题1-1.png",
@@ -1921,13 +1921,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "hotel checkout customer clerk suitcase",
       "part2Answer": {
-        "opening": "This is a picture taken in a hotel.",
+        "opening": "This picture was taken in a hotel.",
         "details": [
-          "There are two male customers and a clerk.",
+          "There are two customers and a clerk.",
           "On the left, one customer is checking out and the clerk is serving him.",
-          "On the right, the other customer is carrying a bag and pulling a suitcase while looking at the goods."
+          "On the right, the other customer is carrying a bag and pulling a suitcase and looking at the products."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1940,7 +1940,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "餐厅场景",
       "prompt": "餐厅，很多人，有三个人在前景，一个人在吃薯条，另两人看菜单点餐，其中一人拿水",
-      "answer": "This picture was taken in a restaurant. There are many people dining and talking. In the foreground, three people are sitting together. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water. The restaurant looks busy and lively. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a restaurant. There are many people dining and talking. In the foreground, three people are sitting together. One person is eating French fries. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题2-1.png",
@@ -1953,11 +1953,9 @@ window.TOEIC_REVIEW_DATA = {
         "details": [
           "There are many people dining and talking.",
           "In the foreground, three people are sitting together.",
-          "One person is eating French fries, while the other two are looking at the menu and deciding what to order.",
-          "One of them is holding a glass of water.",
-          "The restaurant looks busy and lively."
+          "One person is eating French fries."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1970,7 +1968,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "仓库场景",
       "prompt": "仓库，右边两女在衣柜旁准备换衣服，一女棕色裙子长头发，一女白毛衣，左边胖男蓝色上衣背影走远，仓库有很多货架",
-      "answer": "This picture shows a warehouse. On the right side, two women are standing near a wardrobe and seem to be preparing to change clothes. One woman has long hair and is wearing a brown dress, while the other is wearing a white sweater. On the left, a man in a blue shirt is walking away. There are many shelves filled with goods in the background. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a warehouse. On the right, two women are standing near a closet and are preparing to change clothes. One woman has long hair and is wearing a brown dress. The other is wearing a white sweater. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题2-2.png",
@@ -1981,12 +1979,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "This picture shows a warehouse.",
         "details": [
-          "On the right side, two women are standing near a wardrobe and seem to be preparing to change clothes.",
-          "One woman has long hair and is wearing a brown dress, while the other is wearing a white sweater.",
-          "On the left, a man in a blue shirt is walking away.",
-          "There are many shelves filled with goods in the background."
+          "On the right, two women are standing near a closet and are preparing to change clothes.",
+          "One woman has long hair and is wearing a brown dress.",
+          "The other is wearing a white sweater."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -1999,7 +1996,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "街道场景",
       "prompt": "街道，三个人，中间一男向女士问路，左边一女士拿着装满东西的包，右边女士推婴儿车，前方有商店",
-      "answer": "The picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, another woman is carrying a bag full of items. On the right, a woman is pushing a baby stroller past some shops. The street looks busy and lively. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, another woman is carrying a bag full of items. On the right, a woman is pushing a baby stroller past some shops. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题3-1.png",
@@ -2008,14 +2005,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows street scene three people",
       "part2Answer": {
-        "opening": "The picture shows a street scene with three people.",
+        "opening": "This picture shows a street scene with three people.",
         "details": [
           "In the middle, a man is asking a woman for directions.",
           "On the left, another woman is carrying a bag full of items.",
-          "On the right, a woman is pushing a baby stroller past some shops.",
-          "The street looks busy and lively."
+          "On the right, a woman is pushing a baby stroller past some shops."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2028,7 +2024,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "会议室场景",
       "prompt": "会议室，五个人，右边一女士手拿文件和笔记本，左边四个人在听讲并做笔记",
-      "answer": "This picture shows a meeting room with five people. On the right, a woman is holding some documents and has a notebook in front of her. On the left, four people are listening carefully and taking notes. The room looks well-organized and professional. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a meeting room with five people. On the right, a woman is holding some documents. On the left, four people are listening carefully and taking notes. The room looks well-organized and professional. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题3-2.png",
@@ -2039,11 +2035,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "This picture shows a meeting room with five people.",
         "details": [
-          "On the right, a woman is holding some documents and has a notebook in front of her.",
+          "On the right, a woman is holding some documents.",
           "On the left, four people are listening carefully and taking notes.",
           "The room looks well-organized and professional."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2056,7 +2052,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "办公室场景",
       "prompt": "办公室，四个人。左边两男士握手，右边两女士坐在桌前查看文件，背景有绿色植物",
-      "answer": "This picture was taken in an office. There are four people in total. On the left, two men are standing and shaking hands, which may mean they are greeting each other or making an agreement. On the right, two women are sitting at a table and checking some documents. In the background, there is a green plant, which makes the office look comfortable. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in an office. There are four people in total. On the left, two men are standing and shaking hands. On the right, two women are sitting at a table and checking some documents. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "",
@@ -2068,11 +2064,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "This picture was taken in an office.",
         "details": [
           "There are four people in total.",
-          "On the left, two men are standing and shaking hands, which may mean they are greeting each other or making an agreement.",
-          "On the right, two women are sitting at a table and checking some documents.",
-          "In the background, there is a green plant, which makes the office look comfortable."
+          "On the left, two men are standing and shaking hands.",
+          "On the right, two women are sitting at a table and checking some documents."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2085,7 +2080,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "会议室场景",
       "prompt": "会议室，五个人。一女士在前面做演示，左边四人坐在桌前做笔记",
-      "answer": "The picture shows a meeting in a conference room. A woman is standing in the front and giving a presentation. There is a screen and a whiteboard behind her. Four other people are sitting at a table, listening carefully and taking notes. It seems like a formal business meeting. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a business meeting. A woman is standing in the front and giving a presentation. There is a screen and a whiteboard behind her. Four other people are sitting at a table, listening carefully and taking notes. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "",
@@ -2094,14 +2089,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows meeting conference room woman",
       "part2Answer": {
-        "opening": "The picture shows a meeting in a conference room.",
+        "opening": "This picture shows a business meeting.",
         "details": [
           "A woman is standing in the front and giving a presentation.",
           "There is a screen and a whiteboard behind her.",
-          "Four other people are sitting at a table, listening carefully and taking notes.",
-          "It seems like a formal business meeting."
+          "Four other people are sitting at a table, listening carefully and taking notes."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2114,7 +2108,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "办公室场景",
       "prompt": "办公室，两人，很多书。左边女士坐在桌前打电话，右边男士蹲下拿书，墙上有便签贴纸",
-      "answer": "This picture was taken in an office. There are two people in the room. On the left, a woman is sitting at a desk and talking on the phone. On the right, a man is crouching down and taking a book from a shelf. In the background, there are many books and some notes posted on the wall. They seem to be busy at work. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in an office. There are two people in the room. On the left, a woman is sitting at a desk and talking on the phone. On the right, a man is crouching down and taking a book from a shelf. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题7-1.png",
@@ -2127,11 +2121,9 @@ window.TOEIC_REVIEW_DATA = {
         "details": [
           "There are two people in the room.",
           "On the left, a woman is sitting at a desk and talking on the phone.",
-          "On the right, a man is crouching down and taking a book from a shelf.",
-          "In the background, there are many books and some notes posted on the wall.",
-          "They seem to be busy at work."
+          "On the right, a man is crouching down and taking a book from a shelf."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2144,7 +2136,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "面包店场景",
       "prompt": "面包店，两人。左边男店员在电脑上操作，女顾客看钱包，右边有甜点陈列窗",
-      "answer": "This picture was taken in a bakery. There are two people in the shop. On the left, a male clerk is working on a computer behind the counter. In front of him, a female customer is looking into her wallet, probably preparing to pay. On the right, there is a display case filled with various desserts. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a bakery. There are two people in the shop. On the left, a clerk is working on a computer behind the counter. In front of him, a customer is looking into her wallet. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题7-2.png",
@@ -2156,11 +2148,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "This picture was taken in a bakery.",
         "details": [
           "There are two people in the shop.",
-          "On the left, a male clerk is working on a computer behind the counter.",
-          "In front of him, a female customer is looking into her wallet, probably preparing to pay.",
-          "On the right, there is a display case filled with various desserts."
+          "On the left, a clerk is working on a computer behind the counter.",
+          "In front of him, a customer is looking into her wallet."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2173,7 +2164,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "仓库场景",
       "prompt": "仓库场景，两人工作，左边女士推小车，右边男士操作叉车，背景有货架和很多货物",
-      "answer": "This is a picture of a warehouse. On the left, a woman is pushing a cart loaded with boxes. On the right, a man is operating a forklift. In the background, shelves are filled with goods. The scene is busy and organized. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a warehouse. On the left, a woman is pushing a cart loaded with boxes. On the right, a man is operating a forklift. In the background, shelves are filled with products. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题8-2.png",
@@ -2182,14 +2173,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "warehouse left woman pushing cart",
       "part2Answer": {
-        "opening": "This is a picture of a warehouse.",
+        "opening": "This picture shows a warehouse.",
         "details": [
           "On the left, a woman is pushing a cart loaded with boxes.",
           "On the right, a man is operating a forklift.",
-          "In the background, shelves are filled with goods.",
-          "The scene is busy and organized."
+          "In the background, shelves are filled with products."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2202,7 +2192,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "会议室场景",
       "prompt": "会议室，四人，六张小桌拼在一起，一女讲解，其他人在听，桌上有笔记本，背景有电视和白板",
-      "answer": "This is a picture taken in a conference room. Four people are in the room. A woman is standing and presenting while the other three are sitting and listening. There are laptops on the tables, and in the background, a monitor and a whiteboard can be seen. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in a conference room. Four people are in the room. A woman is standing and presenting and the other three are sitting and listening. There are laptops on the tables. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题9-2.png",
@@ -2211,13 +2201,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "conference room four people woman",
       "part2Answer": {
-        "opening": "This is a picture taken in a conference room.",
+        "opening": "This picture was taken in a conference room.",
         "details": [
           "Four people are in the room.",
-          "A woman is standing and presenting while the other three are sitting and listening.",
-          "There are laptops on the tables, and in the background, a monitor and a whiteboard can be seen."
+          "A woman is standing and presenting and the other three are sitting and listening.",
+          "There are laptops on the tables."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2230,7 +2220,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "办公室场景",
       "prompt": "办公室，三个人在工作，主管前有电脑，对面右下角男生拿笔纸记录，女生在递文件给主管",
-      "answer": "This picture is taken in an office where three people are working. A lady is handing documents to a male supervisor who has a computer on the table. Next to the lady, a man is taking notes on paper. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows three people in an office. A woman is handing documents to a supervisor who has a computer on the table. Next to the woman, a man is taking notes on paper. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题12-2.png",
@@ -2239,12 +2229,12 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "office three people working lady",
       "part2Answer": {
-        "opening": "This picture is taken in an office where three people are working.",
+        "opening": "This picture shows three people in an office.",
         "details": [
-          "A lady is handing documents to a male supervisor who has a computer on the table.",
-          "Next to the lady, a man is taking notes on paper."
+          "A woman is handing documents to a supervisor who has a computer on the table.",
+          "Next to the woman, a man is taking notes on paper."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2257,7 +2247,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "会议室讨论",
       "prompt": "会议室，三个女的一男坐在会议桌右侧，前景一男一女看本子讨论方案",
-      "answer": "This is a picture of people having a meeting in a meeting room. There are four people: three women and one man. On the left, two women are looking at a laptop, talking, and one is smiling. On the right, one man and one woman are looking at a notebook, discussing something. There is a television and a computer in the room. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a meeting. There are four people: three women and one man. On the left, two women are looking at a laptop, talking. One is smiling. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题14-1.png",
@@ -2266,14 +2256,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "people having meeting room four",
       "part2Answer": {
-        "opening": "This is a picture of people having a meeting in a meeting room.",
+        "opening": "This picture shows a meeting.",
         "details": [
           "There are four people: three women and one man.",
-          "On the left, two women are looking at a laptop, talking, and one is smiling.",
-          "On the right, one man and one woman are looking at a notebook, discussing something.",
-          "There is a television and a computer in the room."
+          "On the left, two women are looking at a laptop, talking.",
+          "One is smiling."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2286,7 +2275,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "办公室场景",
       "prompt": "办公室，2人，一男一女，旁边有打印机和复印件，女问男，男穿正装",
-      "answer": "This is a picture of an office. Two people are having a conversation. The man is wearing a suit, looking professional. The woman with long hair is asking something. Beside them, there is a printer and some printed papers. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows an office. Two people are having a conversation. The man is wearing a suit. The woman with long hair is asking something. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题15-2.png",
@@ -2295,14 +2284,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "office people having conversation man",
       "part2Answer": {
-        "opening": "This is a picture of an office.",
+        "opening": "This picture shows an office.",
         "details": [
           "Two people are having a conversation.",
-          "The man is wearing a suit, looking professional.",
-          "The woman with long hair is asking something.",
-          "Beside them, there is a printer and some printed papers."
+          "The man is wearing a suit.",
+          "The woman with long hair is asking something."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2315,7 +2303,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "餐厅场景",
       "prompt": "餐厅：三名工作人员（前台和帮厨）；前台点菜处，有收银和餐盘；左边站一个黑裙长发女士，中间白衣女士拿餐盘，旁边有食堂打菜的柜子",
-      "answer": "This picture may be taken in a restaurant. In the middle, there are two women, one in green and the other in black, standing and talking. Behind them is the front desk with self-service food and cashier equipment. In the background, the kitchen can be seen with some cookers cooking. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a restaurant. In the middle, two women are standing and talking. Behind them, there is a counter with food. In the background, some workers are cooking. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题16-1.png",
@@ -2324,13 +2312,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "restaurant middle women green black",
       "part2Answer": {
-        "opening": "This picture may be taken in a restaurant.",
+        "opening": "This picture was taken in a restaurant.",
         "details": [
-          "In the middle, there are two women, one in green and the other in black, standing and talking.",
-          "Behind them is the front desk with self-service food and cashier equipment.",
-          "In the background, the kitchen can be seen with some cookers cooking."
+          "In the middle, two women are standing and talking.",
+          "Behind them, there is a counter with food.",
+          "In the background, some workers are cooking."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2343,7 +2331,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "商店场景",
       "prompt": "室内小店前，店长坐门口，两人握手，门前挂着商品，很多人经过",
-      "answer": "This picture may be taken in front of a small store. Many people are walking past the store. In front of the door, a man is sitting, probably the shopkeeper. Beside him, two people are shaking hands. Many goods are hanging in front of the shop. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in front of a small store. Many people are walking past the store. In front of the door, a man is sitting. Beside him, two people are shaking hands. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题19-2.png",
@@ -2352,14 +2340,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "front small store people walking",
       "part2Answer": {
-        "opening": "This picture may be taken in front of a small store.",
+        "opening": "This picture was taken in front of a small store.",
         "details": [
           "Many people are walking past the store.",
-          "In front of the door, a man is sitting, probably the shopkeeper.",
-          "Beside him, two people are shaking hands.",
-          "Many goods are hanging in front of the shop."
+          "In front of the door, a man is sitting.",
+          "Beside him, two people are shaking hands."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2372,7 +2359,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "室内工作/学习场景",
       "prompt": "饮品店，左边一个男人坐在小桌前戴耳机，桌上有电脑；右边一个女人在黑色包里找东西，桌上有纸",
-      "answer": "This photograph may be taken in a room. On the left, a man is wearing earphones and sitting in front of a small desk with a laptop. On the right, a woman is looking for something in her black bag. Beside her, there is a desk with some papers on it. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "This picture was taken in a room. On the left, a man is sitting at a desk with a laptop. On the right, a woman is looking for something in her black bag. Beside her, there is a desk with some papers on it. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题21-1.png",
@@ -2381,13 +2368,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "photograph room left man wearing",
       "part2Answer": {
-        "opening": "This photograph may be taken in a room.",
+        "opening": "This picture was taken in a room.",
         "details": [
-          "On the left, a man is wearing earphones and sitting in front of a small desk with a laptop.",
+          "On the left, a man is sitting at a desk with a laptop.",
           "On the right, a woman is looking for something in her black bag.",
           "Beside her, there is a desk with some papers on it."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2400,7 +2387,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 3,
       "topic": "超市购物场景",
       "prompt": "超市货架旁，两个人，一个穿黑裙子的女士蹲着选盘子，手中拿着一个；旁边站着穿黑衣服长头发的女士在选玻璃杯，货架上摆满货物",
-      "answer": "At the shelf of a supermarket, there are two people. A woman in a black dress squats down to choose a plate, holding one in her hand. Next to her, there is another woman in black with long hair who is choosing a glass. There are many goods on the shelves. The supermarket appears clean and well-stocked. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows two people in a supermarket. A woman in a black dress squats down to choose a plate. Next to her, there is another woman is choosing a glass. There are many products on the shelves. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题24-1.png",
@@ -2409,14 +2396,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shelf supermarket people woman black",
       "part2Answer": {
-        "opening": "At the shelf of a supermarket, there are two people.",
+        "opening": "This picture shows two people in a supermarket.",
         "details": [
-          "A woman in a black dress squats down to choose a plate, holding one in her hand.",
-          "Next to her, there is another woman in black with long hair who is choosing a glass.",
-          "There are many goods on the shelves.",
-          "The supermarket appears clean and well-stocked."
+          "A woman in a black dress squats down to choose a plate.",
+          "Next to her, there is another woman is choosing a glass.",
+          "There are many products on the shelves."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2429,7 +2415,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 4,
       "topic": "首饰店购物场景",
       "prompt": "首饰商店内，共四个人，两个店员两个顾客；左边穿绿色衣服的女店员给女顾客介绍商品；右边短头发女店员作为收银员给男顾客结账；柜台内摆满首饰商品",
-      "answer": "This is a picture of a jewelry store with four people, two clerks and two customers. On the left, a female salesperson wearing green clothes is introducing products to a female customer. On the right, a cashier with short hair is checking out a male customer. There are many jewelry items inside the counter. The store looks bright and well-organized. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a jewelry store with four people, two clerks and two customers. On the left, a salesperson wearing green clothes is introducing products to a customer. On the right, a cashier with short hair is checking out a customer. There are many jewelry items inside the counter. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题24-2.png",
@@ -2438,14 +2424,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "jewelry store four people clerks",
       "part2Answer": {
-        "opening": "This is a picture of a jewelry store with four people, two clerks and two customers.",
+        "opening": "This picture shows a jewelry store with four people, two clerks and two customers.",
         "details": [
-          "On the left, a female salesperson wearing green clothes is introducing products to a female customer.",
-          "On the right, a cashier with short hair is checking out a male customer.",
-          "There are many jewelry items inside the counter.",
-          "The store looks bright and well-organized."
+          "On the left, a salesperson wearing green clothes is introducing products to a customer.",
+          "On the right, a cashier with short hair is checking out a customer.",
+          "There are many jewelry items inside the counter."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2458,7 +2443,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 3,
       "topic": "会议室办公场景",
       "prompt": "办公室或会议室，三人围桌而坐，男士讲话，旁边女士用笔记本电脑记录，另一侧女士倾听，桌上散落白纸和笔记本电脑",
-      "answer": "This photo is taken in an office or a conference room. There are three people sitting around a table. A man is speaking, and a woman next to him is typing on a laptop, seemingly recording the content. Another woman beside the typist is listening carefully to the man. There are many white papers and laptops scattered on the table, making the table look a bit messy. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in an office or a conference room. There are three people sitting around a table. A man is speaking. A woman next to him is typing on a laptop. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题25-1.png",
@@ -2467,14 +2452,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "photo office conference room three",
       "part2Answer": {
-        "opening": "This photo is taken in an office or a conference room.",
+        "opening": "This picture was taken in an office or a conference room.",
         "details": [
           "There are three people sitting around a table.",
-          "A man is speaking, and a woman next to him is typing on a laptop, seemingly recording the content.",
-          "Another woman beside the typist is listening carefully to the man.",
-          "There are many white papers and laptops scattered on the table, making the table look a bit messy."
+          "A man is speaking.",
+          "A woman next to him is typing on a laptop."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2487,7 +2471,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 4,
       "topic": "餐厅用餐场景",
       "prompt": "饭店内，背景多人用餐，前景一男一女面对面坐等餐，后方有女士和小男孩，吧台前站着穿白色衣服的厨师",
-      "answer": "The picture shows a busy restaurant scene. Many people are eating in the background. In the foreground, a man and a woman are sitting face to face at a table with nothing on it, so they should be waiting for their meal. Behind this couple, there is a woman and a little boy sitting together. Further back is the bar counter, in front of which stands a man dressed in white who looks like a cook. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a busy restaurant scene. Many people are eating in the background. In the foreground, a man and a woman are waiting for their meal. Behind this couple, there is a woman and a little boy sitting together. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题25-2.png",
@@ -2496,14 +2480,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows busy restaurant scene people",
       "part2Answer": {
-        "opening": "The picture shows a busy restaurant scene.",
+        "opening": "This picture shows a busy restaurant scene.",
         "details": [
           "Many people are eating in the background.",
-          "In the foreground, a man and a woman are sitting face to face at a table with nothing on it, so they should be waiting for their meal.",
-          "Behind this couple, there is a woman and a little boy sitting together.",
-          "Further back is the bar counter, in front of which stands a man dressed in white who looks like a cook."
+          "In the foreground, a man and a woman are waiting for their meal.",
+          "Behind this couple, there is a woman and a little boy sitting together."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2516,7 +2499,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 3,
       "topic": "办公室前台场景",
       "prompt": "办公室前台，女职员与男士共同查看文件交谈，后方胖女士排队，手持手机、拖着黑箱子",
-      "answer": "This photo is taken at an office front desk. A female staff member is talking to a man, and they are looking at a document together. Behind them, a heavy woman is waiting in line. She is looking at her mobile phone and dragging a black box with her hand. The front desk area looks tidy and professional. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken at an office front desk. A staff member is talking to a man. They are looking at a document together. Behind them, a heavy woman is waiting in line. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题26-1.png",
@@ -2525,14 +2508,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "photo office front desk female",
       "part2Answer": {
-        "opening": "This photo is taken at an office front desk.",
+        "opening": "This picture was taken at an office front desk.",
         "details": [
-          "A female staff member is talking to a man, and they are looking at a document together.",
-          "Behind them, a heavy woman is waiting in line.",
-          "She is looking at her mobile phone and dragging a black box with her hand.",
-          "The front desk area looks tidy and professional."
+          "A staff member is talking to a man.",
+          "They are looking at a document together.",
+          "Behind them, a heavy woman is waiting in line."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2545,7 +2527,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 4,
       "topic": "理发店场景",
       "prompt": "理发店，右侧女收银员打电话，另一女士站收银台前看文件，旁有理发师为顾客剪发",
-      "answer": "The picture shows a busy barber shop. On the right side, a woman is sitting at the cashier counter making a phone call. Another woman is standing in front of the counter reading some documents. Next to them, a barber is cutting a customer's hair carefully. The shop is well-lit and looks very lively. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a busy barber shop. On the right, a woman is sitting at the cashier counter talking on the phone. Another woman is standing in front of the counter reading some documents. Next to them, a barber is cutting a customer's hair carefully. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题26-2.png",
@@ -2554,14 +2536,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows busy barber shop right",
       "part2Answer": {
-        "opening": "The picture shows a busy barber shop.",
+        "opening": "This picture shows a busy barber shop.",
         "details": [
-          "On the right side, a woman is sitting at the cashier counter making a phone call.",
+          "On the right, a woman is sitting at the cashier counter talking on the phone.",
           "Another woman is standing in front of the counter reading some documents.",
-          "Next to them, a barber is cutting a customer's hair carefully.",
-          "The shop is well-lit and looks very lively."
+          "Next to them, a barber is cutting a customer's hair carefully."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2574,7 +2555,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 3,
       "topic": "便利店购物场景",
       "prompt": "711式便利店，中年男性收银员为偏胖中老年女性结账，女性身后中老年男性排队，两人间放两个黑色提包（一个带拉杆），左侧穿白衬衣中年男性选购商品",
-      "answer": "This photo is taken in a convenience store similar to 7-Eleven. A middle-aged male cashier is checking out an overweight middle-aged and elderly woman at the counter. Behind the woman, a middle-aged and elderly man is waiting in line. Between them, there are two black handbags, one of which has a pull rod. On the left side of the picture, a middle-aged man wearing a white shirt is choosing goods. The store looks well-stocked and busy. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a convenience store. A cashier is checking out a woman at the counter. Behind the woman, a man is waiting in line. Between them, there are two black handbags, one of which has a pull rod. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题27-1.png",
@@ -2583,15 +2564,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "photo convenience store similar eleven",
       "part2Answer": {
-        "opening": "This photo is taken in a convenience store similar to 7-Eleven.",
+        "opening": "This picture was taken in a convenience store.",
         "details": [
-          "A middle-aged male cashier is checking out an overweight middle-aged and elderly woman at the counter.",
-          "Behind the woman, a middle-aged and elderly man is waiting in line.",
-          "Between them, there are two black handbags, one of which has a pull rod.",
-          "On the left side of the picture, a middle-aged man wearing a white shirt is choosing goods.",
-          "The store looks well-stocked and busy."
+          "A cashier is checking out a woman at the counter.",
+          "Behind the woman, a man is waiting in line.",
+          "Between them, there are two black handbags, one of which has a pull rod."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2604,7 +2583,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 4,
       "topic": "街头水果店场景",
       "prompt": "街头水果店，水果摆放在摞起的箱子上，两名中年男性店员和两名中年男性顾客在店内活动",
-      "answer": "The picture shows a street-side fruit store. Many fruits are displayed on stacked boxes. There are two middle-aged male clerks and two middle-aged male customers in the store. The clerks seem to be busy arranging the fruits or serving the customers, and the customers are looking at the fruits carefully. The store has a lively and casual atmosphere. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a street-side fruit store. Many fruits are displayed on stacked boxes. There are two clerks and two customers in the store. The clerks are busy arranging the fruits or serving the customers. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题27-2.png",
@@ -2613,14 +2592,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows street side fruit store",
       "part2Answer": {
-        "opening": "The picture shows a street-side fruit store.",
+        "opening": "This picture shows a street-side fruit store.",
         "details": [
           "Many fruits are displayed on stacked boxes.",
-          "There are two middle-aged male clerks and two middle-aged male customers in the store.",
-          "The clerks seem to be busy arranging the fruits or serving the customers, and the customers are looking at the fruits carefully.",
-          "The store has a lively and casual atmosphere."
+          "There are two clerks and two customers in the store.",
+          "The clerks are busy arranging the fruits or serving the customers."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2633,7 +2611,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "火车站场景",
       "prompt": "火车站，火车进站，乘客在站台等候",
-      "answer": "There is a train arriving at the station. It is slowing down before stopping. People are waiting on the platform. Some are looking at the train, and others are holding their bags. The train doors are opening now, and passengers are getting on and off. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "There is a train arriving at the station. It is slowing down before stopping. People are waiting on the table. Some are looking at the train, and others are holding their bags. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题28-1.png",
@@ -2645,11 +2623,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "There is a train arriving at the station.",
         "details": [
           "It is slowing down before stopping.",
-          "People are waiting on the platform.",
-          "Some are looking at the train, and others are holding their bags.",
-          "The train doors are opening now, and passengers are getting on and off."
+          "People are waiting on the table.",
+          "Some are looking at the train, and others are holding their bags."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2662,7 +2639,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 3,
       "topic": "服装店购物场景",
       "prompt": "服装店，两个女士挑衣服，一个在包里找东西，一个在挑选红色外套",
-      "answer": "This photo is taken in a clothing store. There are two women shopping for clothes. One woman is rummaging through her bag, probably looking for her wallet or phone. The other woman is holding a red coat and carefully checking it, seemingly deciding whether to buy it. The store is well-decorated with various clothes displayed on the racks. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a clothing store. There are two women shopping for clothes. One woman is looking in her bag. The other woman is holding a red coat and carefully checking it. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题29-1.png",
@@ -2671,14 +2648,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "photo clothing store women shopping",
       "part2Answer": {
-        "opening": "This photo is taken in a clothing store.",
+        "opening": "This picture was taken in a clothing store.",
         "details": [
           "There are two women shopping for clothes.",
-          "One woman is rummaging through her bag, probably looking for her wallet or phone.",
-          "The other woman is holding a red coat and carefully checking it, seemingly deciding whether to buy it.",
-          "The store is well-decorated with various clothes displayed on the racks."
+          "One woman is looking in her bag.",
+          "The other woman is holding a red coat and carefully checking it."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2691,7 +2667,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "会议室讨论",
       "prompt": "会议室里，2男2女坐着讨论",
-      "answer": "This picture was taken in a meeting room. There are two men and two women sitting around a table, discussing something. The room looks clean, bright, and organized. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in a meeting room. There are two men and two women sitting around a table. The room looks clean, bright, and organized. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题30-1.png",
@@ -2702,10 +2678,10 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "This picture was taken in a meeting room.",
         "details": [
-          "There are two men and two women sitting around a table, discussing something.",
+          "There are two men and two women sitting around a table.",
           "The room looks clean, bright, and organized."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2718,7 +2694,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "超市入口场景",
       "prompt": "超市入口，黑西装男打电话，白衬衫条纹领带男推购物车，背景两位女性取购物车",
-      "answer": "This photo shows the entrance of a supermarket. We can see four people. In the middle, a man in a black suit is talking on the phone. Next to him, another man wearing a white shirt and a striped tie is pushing a shopping cart. In the background, two women are taking shopping carts. The entrance area looks bright, clean, and well-organized. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows the entrance of a supermarket. We can see four people. In the middle, a man in a black suit is talking on the phone. Next to him, another man is pushing a shopping cart. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题31-1.png",
@@ -2727,15 +2703,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "photo shows entrance supermarket see",
       "part2Answer": {
-        "opening": "This photo shows the entrance of a supermarket.",
+        "opening": "This picture shows the entrance of a supermarket.",
         "details": [
           "We can see four people.",
           "In the middle, a man in a black suit is talking on the phone.",
-          "Next to him, another man wearing a white shirt and a striped tie is pushing a shopping cart.",
-          "In the background, two women are taking shopping carts.",
-          "The entrance area looks bright, clean, and well-organized."
+          "Next to him, another man is pushing a shopping cart."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2748,7 +2722,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "商店门口场景",
       "prompt": "在商店门口，一个人扶着自行车，一个男人正在给轮胎打气；一位女士正在进入商店，另一位穿绿色上衣的女士站在旁边。",
-      "answer": "There are two people near a store. One man is holding a bicycle, and another man is pumping air into a flat tire. Meanwhile, a woman is entering the store, and there is another woman standing nearby wearing a green top. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "There are two people near a store. One man is holding a bicycle. Another man is pumping air into a flat tire. Meanwhile, a woman is entering the store. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题32-1.png",
@@ -2759,10 +2733,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "There are two people near a store.",
         "details": [
-          "One man is holding a bicycle, and another man is pumping air into a flat tire.",
-          "Meanwhile, a woman is entering the store, and there is another woman standing nearby wearing a green top."
+          "One man is holding a bicycle.",
+          "Another man is pumping air into a flat tire.",
+          "Meanwhile, a woman is entering the store."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2775,7 +2750,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "办公室场景",
       "prompt": "大办公室里有很多人：左边两个人在聊天，中间一个人弯腰从柜子里拿东西，右边有很多站着或坐着的人。",
-      "answer": "There is a large office with many people. On the left, two people are standing and talking. In the middle, one person is bending down to take something out of a cabinet. On the right, there are many people—some standing and some sitting. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "There is a large office with many people. On the left, two people are standing and talking. In the middle, one person is bending down to take something out of a cabinet. On the right, there are many people—some standing and some sitting. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题32-2.jpg",
@@ -2790,7 +2765,7 @@ window.TOEIC_REVIEW_DATA = {
           "In the middle, one person is bending down to take something out of a cabinet.",
           "On the right, there are many people—some standing and some sitting."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2803,7 +2778,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "会议讨论场景",
       "prompt": "会议室里有六个人，中间桌上有会议终端、遥控器和几部手机。左侧两位男士在听前方的人讲话，其中一人举手。右侧两位女士低头讨论。",
-      "answer": "There are six people in a meeting room. In the middle, there is a table with a conference screen, a remote control, and some phones. On the left side, two men are listening to a speaker, and one of them is raising his hand. On the right side, two women are looking down and discussing something. It seems like a team meeting. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "There are six people in a meeting room. In the middle, there is a table with a conference screen, a remote control, and some phones. On the left, two men are listening to a speaker. One of them is raising his hand. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题34-1.png",
@@ -2815,11 +2790,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "There are six people in a meeting room.",
         "details": [
           "In the middle, there is a table with a conference screen, a remote control, and some phones.",
-          "On the left side, two men are listening to a speaker, and one of them is raising his hand.",
-          "On the right side, two women are looking down and discussing something.",
-          "It seems like a team meeting."
+          "On the left, two men are listening to a speaker.",
+          "One of them is raising his hand."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2832,7 +2806,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "酒店前台场景",
       "prompt": "酒店前台，四个人站着，左边两个人在聊天，右边一个男的在咨询前台工作人员。",
-      "answer": "There are four people standing in front of the counter. On the left side, two men are talking to each other. On the right side, a man is asking the female staff member at the counter for assistance. It appears they are at a hotel reception, probably checking in or getting information. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "There are four people standing in front of the counter. On the left, two men are talking to each other. On the right, a man is asking the staff member at the counter for help. It appears they are at a hotel reception. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题35-1.jpg",
@@ -2843,11 +2817,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "There are four people standing in front of the counter.",
         "details": [
-          "On the left side, two men are talking to each other.",
-          "On the right side, a man is asking the female staff member at the counter for assistance.",
-          "It appears they are at a hotel reception, probably checking in or getting information."
+          "On the left, two men are talking to each other.",
+          "On the right, a man is asking the staff member at the counter for help.",
+          "It appears they are at a hotel reception."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2860,7 +2834,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "地下商场饮品店",
       "prompt": "地下商场的饮品店，前景两名女士走上台阶，后方多人坐着喝饮料",
-      "answer": "The picture shows a drink shop inside an underground mall. Two women are walking up the step in the front, one wearing a white top and the other in black. Behind them, several people are sitting and enjoying their drinks. The shop has bright lighting and the area looks lively with people chatting and moving around. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a drink shop inside an underground mall. Two women are walking up the steps. Behind them, some people are sitting and enjoying their drinks. The shop has bright lighting and the area looks lively with people chatting and moving around. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题37-1.png",
@@ -2869,13 +2843,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows drink shop inside underground",
       "part2Answer": {
-        "opening": "The picture shows a drink shop inside an underground mall.",
+        "opening": "This picture shows a drink shop inside an underground mall.",
         "details": [
-          "Two women are walking up the step in the front, one wearing a white top and the other in black.",
-          "Behind them, several people are sitting and enjoying their drinks.",
+          "Two women are walking up the steps.",
+          "Behind them, some people are sitting and enjoying their drinks.",
           "The shop has bright lighting and the area looks lively with people chatting and moving around."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2888,7 +2862,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "会议室场景",
       "prompt": "三个人在会议室。左边一位穿黑色衣服的女性站着，正递一杯咖啡给中间的人；中间是一位长发、穿红色衣服的女性坐在桌前；第三位女性穿白衣，站在白板前。桌子上有一瓶水。",
-      "answer": "There are three people in the meeting room. The woman on the left is wearing black and standing. She is giving a cup of coffee to the person in the middle. The woman in the middle has long hair and is wearing a red dress. She is sitting at a table. The third woman is wearing white and standing in front of a whiteboard. There is also a bottle of water on the table. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "There are three people in the meeting room. The woman on the left is wearing black and standing. She is giving a cup of coffee to the person in the middle. The woman in the middle has long hair and is wearing a red dress. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题38-1.jpg",
@@ -2901,12 +2875,9 @@ window.TOEIC_REVIEW_DATA = {
         "details": [
           "The woman on the left is wearing black and standing.",
           "She is giving a cup of coffee to the person in the middle.",
-          "The woman in the middle has long hair and is wearing a red dress.",
-          "She is sitting at a table.",
-          "The third woman is wearing white and standing in front of a whiteboard.",
-          "There is also a bottle of water on the table."
+          "The woman in the middle has long hair and is wearing a red dress."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2919,7 +2890,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "鞋店购物场景",
       "prompt": "鞋子商店里有五个人：前面一位女店员正帮一位女顾客试鞋；后面一位女士站在镜子前试鞋，旁边一位男士看着她；她背后还有一位男的似乎在看别的东西。",
-      "answer": "There are five people in a shoe store. In front of the store, a female salesperson is helping a female customer try on shoes. Behind her, another woman is standing in front of a mirror trying on shoes, while a man next to her is watching. Another man in the background seems to be looking at other items. The store is busy with customers and staff moving around. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "There are five people in a shoe store. In front of the store, a salesperson is helping a customer try on shoes. Behind her, another woman is standing in front of a mirror trying on shoes. A man next to her is watching. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题38-2.png",
@@ -2930,12 +2901,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "There are five people in a shoe store.",
         "details": [
-          "In front of the store, a female salesperson is helping a female customer try on shoes.",
-          "Behind her, another woman is standing in front of a mirror trying on shoes, while a man next to her is watching.",
-          "Another man in the background seems to be looking at other items.",
-          "The store is busy with customers and staff moving around."
+          "In front of the store, a salesperson is helping a customer try on shoes.",
+          "Behind her, another woman is standing in front of a mirror trying on shoes.",
+          "A man next to her is watching."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2948,7 +2918,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "商店场景",
       "prompt": "应该是一个商品店，一个男的手上拿一个红色盒子，站在收银台旁边，一个服务员在刷卡，后面墙壁上有很多首饰物品类的",
-      "answer": "This is a picture taken in a store. A man is standing near the cashier holding a red box. Next to him, a store clerk is processing a payment by scanning a card. Behind them, there are many pieces of jewelry displayed on the wall. The store looks organized and clean, creating a pleasant shopping environment. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a store. A man is standing near the cashier holding a red box. Next to him, a store clerk is processing a payment by scanning a card. Behind them, there are many pieces of jewelry displayed on the wall. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题39-2.png",
@@ -2957,14 +2927,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "store man standing near cashier",
       "part2Answer": {
-        "opening": "This is a picture taken in a store.",
+        "opening": "This picture was taken in a store.",
         "details": [
           "A man is standing near the cashier holding a red box.",
           "Next to him, a store clerk is processing a payment by scanning a card.",
-          "Behind them, there are many pieces of jewelry displayed on the wall.",
-          "The store looks organized and clean, creating a pleasant shopping environment."
+          "Behind them, there are many pieces of jewelry displayed on the wall."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -2977,7 +2946,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "厨房茶水间场景",
       "prompt": "三个人在一个厨房里面，左边一个男的拿一些厨房用纸，中间的女人看着这个男人在说什么，右边一个女人从柜子上拿东西（应该是在茶水间，中间的女人拿着一个杯子面向男人）",
-      "answer": "In the picture, there are three people in a kitchen. On the left, a man is holding kitchen paper. The woman in the middle is looking at him and speaking. On the right, another woman is taking something from a cabinet. The kitchen appears organized and bright, and everyone seems focused on their tasks. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "In the picture, there are three people in a kitchen. On the left, a man is holding kitchen paper. The woman in the middle is looking at him and speaking. On the right, another woman is taking something from a cabinet. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题40-2.png",
@@ -2990,10 +2959,9 @@ window.TOEIC_REVIEW_DATA = {
         "details": [
           "On the left, a man is holding kitchen paper.",
           "The woman in the middle is looking at him and speaking.",
-          "On the right, another woman is taking something from a cabinet.",
-          "The kitchen appears organized and bright, and everyone seems focused on their tasks."
+          "On the right, another woman is taking something from a cabinet."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3006,7 +2974,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "超市购物场景",
       "prompt": "超市，两个女士，一个在选择盘子、一个女士拿着一个杯子",
-      "answer": "This is a picture taken in a supermarket which shows two women. One woman is choosing plates, and the other woman is holding a cup. The supermarket looks clean and well-organized, and both women appear to be shopping carefully, paying attention to the items on the shelves. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows two women in a supermarket. One woman is choosing plates. The other woman is holding a cup. The supermarket looks clean and well-organized, and both women are shopping carefully. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题41-1.png",
@@ -3015,12 +2983,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "supermarket shows women woman choosing",
       "part2Answer": {
-        "opening": "This is a picture taken in a supermarket which shows two women.",
+        "opening": "This picture shows two women in a supermarket.",
         "details": [
-          "One woman is choosing plates, and the other woman is holding a cup.",
-          "The supermarket looks clean and well-organized, and both women appear to be shopping carefully, paying attention to the items on the shelves."
+          "One woman is choosing plates.",
+          "The other woman is holding a cup.",
+          "The supermarket looks clean and well-organized, and both women are shopping carefully."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3033,7 +3002,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "办公室商务场景",
       "prompt": "办公楼旋转楼梯，一女坐着看手机，一男靠护栏打电话",
-      "answer": "This is a picture taken in an office building with a spiral staircase. In the foreground, a woman is sitting on a bench, focused on her mobile phone. In the background, a man in business attire is leaning on the railing while talking on his phone. The building is clean and bright, suggesting a professional work environment. Both individuals appear busy and engaged in their tasks. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in an office building with a large staircase. In the foreground, a woman is sitting on a bench, focused on her phone. In the background, a man in a suit is leaning on the railing and talking on his phone. The building is clean and bright. Overall, this looks like a normal everyday scene.",
       "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题42-2.png",
@@ -3042,14 +3011,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "office building spiral staircase foreground",
       "part2Answer": {
-        "opening": "This is a picture taken in an office building with a spiral staircase.",
+        "opening": "This picture was taken in an office building with a large staircase.",
         "details": [
-          "In the foreground, a woman is sitting on a bench, focused on her mobile phone.",
-          "In the background, a man in business attire is leaning on the railing while talking on his phone.",
-          "The building is clean and bright, suggesting a professional work environment.",
-          "Both individuals appear busy and engaged in their tasks."
+          "In the foreground, a woman is sitting on a bench, focused on her phone.",
+          "In the background, a man in a suit is leaning on the railing and talking on his phone.",
+          "The building is clean and bright."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3062,7 +3030,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "公园场景",
       "prompt": "公园，很多人，中间有一个黑裙女孩在走动，旁边有人坐在长椅上，背景有树和草地",
-      "answer": "This picture is taken in a park. There are many people. In the middle, a girl in a black skirt is walking. Nearby, several people are sitting on benches and talking. In the background, there are trees and green grass, creating a relaxing and pleasant atmosphere. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken in a park. There are many people. In the middle, a girl in a black skirt is walking. Nearby, some people are sitting on benches and talking. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题4-1.png",
@@ -3071,14 +3039,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "park people middle girl black",
       "part2Answer": {
-        "opening": "This picture is taken in a park.",
+        "opening": "This picture was taken in a park.",
         "details": [
           "There are many people.",
           "In the middle, a girl in a black skirt is walking.",
-          "Nearby, several people are sitting on benches and talking.",
-          "In the background, there are trees and green grass, creating a relaxing and pleasant atmosphere."
+          "Nearby, some people are sitting on benches and talking."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3091,7 +3058,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "街道场景",
       "prompt": "街道上，一男一女，两辆车和一辆自行车。女子蹲在地上锁车，男子准备开车门，背景有两辆车和很多树",
-      "answer": "The picture shows a street scene. There is a man and a woman. The woman is squatting near a bicycle and seems to be locking it. The man is standing beside a car and opening the door. In the background, there are two more cars and many trees, which suggests this area is green and quiet. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture shows a street scene. I can see a man and a woman. The woman is squatting near a bicycle and is locking it. The man is standing beside a car and opening the door. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题6-2.png",
@@ -3100,14 +3067,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows street scene man woman",
       "part2Answer": {
-        "opening": "The picture shows a street scene.",
+        "opening": "This picture shows a street scene.",
         "details": [
-          "There is a man and a woman.",
-          "The woman is squatting near a bicycle and seems to be locking it.",
-          "The man is standing beside a car and opening the door.",
-          "In the background, there are two more cars and many trees, which suggests this area is green and quiet."
+          "I can see a man and a woman.",
+          "The woman is squatting near a bicycle and is locking it.",
+          "The man is standing beside a car and opening the door."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3120,7 +3086,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "街道场景",
       "prompt": "街道场景，中间有一位上年纪的老人走路，左侧短发女士与黑衣男士谈话，右侧一男一女坐小圆桌聊天，背景有建筑物和白色雕塑",
-      "answer": "This picture is taken outside on a street with six people. An elderly man is walking in the middle. On the left, a short-haired lady is talking to a man in black. On the right, a gentleman and a lady are sitting around a small round table and chatting. In the background, there is a building with a white sculpture, maybe a museum. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture shows six people on a street. An older man is walking in the middle. On the left, a short-haired woman is talking to a man in black. On the right, a man and a woman are sitting at a table and chatting. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题11-1.png",
@@ -3129,14 +3095,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "outside street six people elderly",
       "part2Answer": {
-        "opening": "This picture is taken outside on a street with six people.",
+        "opening": "This picture shows six people on a street.",
         "details": [
-          "An elderly man is walking in the middle.",
-          "On the left, a short-haired lady is talking to a man in black.",
-          "On the right, a gentleman and a lady are sitting around a small round table and chatting.",
-          "In the background, there is a building with a white sculpture, maybe a museum."
+          "An older man is walking in the middle.",
+          "On the left, a short-haired woman is talking to a man in black.",
+          "On the right, a man and a woman are sitting at a table and chatting."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3149,7 +3114,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "街头场景",
       "prompt": "街上，五个人，左边一男一女在交谈，男牵狗戴绿帽，中间一个男孩靠墙，右边一男一女等红绿灯",
-      "answer": "This picture may be taken on a street. On the left, a woman and a man are talking, the man is with a dog and wearing a green hat. In the middle, a young boy is leaning against a wall. On the right, two people are waiting for the traffic light. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken on a street. On the left, a woman and a man with a dog are talking. In the middle, a young boy is leaning against a wall. On the right, two people are waiting for the traffic light. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题14-2.png",
@@ -3158,13 +3123,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "street left woman man talking",
       "part2Answer": {
-        "opening": "This picture may be taken on a street.",
+        "opening": "This picture was taken on a street.",
         "details": [
-          "On the left, a woman and a man are talking, the man is with a dog and wearing a green hat.",
+          "On the left, a woman and a man with a dog are talking.",
           "In the middle, a young boy is leaning against a wall.",
           "On the right, two people are waiting for the traffic light."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3177,7 +3142,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "街头骑行场景",
       "prompt": "街上，三人站在自行车旁，穿骑行装备和安全帽，左边有人走动，右边有人坐椅子",
-      "answer": "This picture may be taken on a street. In the middle, three people are standing beside bicycles, wearing professional cycling equipment, seeming to enjoy cycling. On the left, a person is walking, and on the right, a man is sitting in a chair. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken on a street. In the middle, three people are standing beside bicycles. On the left, a person is walking. On the right, a man is sitting in a chair. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题15-1.png",
@@ -3186,12 +3151,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "street middle three people standing",
       "part2Answer": {
-        "opening": "This picture may be taken on a street.",
+        "opening": "This picture was taken on a street.",
         "details": [
-          "In the middle, three people are standing beside bicycles, wearing professional cycling equipment, seeming to enjoy cycling.",
-          "On the left, a person is walking, and on the right, a man is sitting in a chair."
+          "In the middle, three people are standing beside bicycles.",
+          "On the left, a person is walking.",
+          "On the right, a man is sitting in a chair."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3204,7 +3170,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "街头场景",
       "prompt": "街上左边一男黑衣打电话，一女绿衣看手机，右边一大妈拿包子走过",
-      "answer": "This picture may be taken on a street. On the left, a man dressed in black is sitting on a bench making a phone call. Next to him, a woman in a green dress is sitting and looking at her mobile phone. On the right, a woman is walking on the road carrying a bun. There are several people around. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken on a street. On the left, a man in black is sitting on a bench talking on the phone. Next to him, a woman in a green dress is sitting and looking at her phone. On the right, a woman is walking on the road carrying a bun. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题19-1.png",
@@ -3213,14 +3179,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "street left man dressed black",
       "part2Answer": {
-        "opening": "This picture may be taken on a street.",
+        "opening": "This picture was taken on a street.",
         "details": [
-          "On the left, a man dressed in black is sitting on a bench making a phone call.",
-          "Next to him, a woman in a green dress is sitting and looking at her mobile phone.",
-          "On the right, a woman is walking on the road carrying a bun.",
-          "There are several people around."
+          "On the left, a man in black is sitting on a bench talking on the phone.",
+          "Next to him, a woman in a green dress is sitting and looking at her phone.",
+          "On the right, a woman is walking on the road carrying a bun."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3233,7 +3198,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 4,
       "topic": "小镇街头场景",
       "prompt": "街上，很多人，中间两个女人背对向前走，对面一对夫妇推着婴儿车，背景是山，周围有房子和绿色植物",
-      "answer": "The picture shows a busy street scene in a small town. There are many people on the street. In the middle, two women are walking forward with their backs to the camera. Opposite them, a couple is pushing a baby stroller, probably taking a walk with their child. In the background, there are green mountains, houses and lush plants, making the scene very beautiful and peaceful. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture shows a busy street scene in a small town. There are many people on the street. In the middle, two women are walking forward with their backs to the camera. Opposite them, a couple is pushing a baby stroller. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题29-2.png",
@@ -3242,14 +3207,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows busy street scene small",
       "part2Answer": {
-        "opening": "The picture shows a busy street scene in a small town.",
+        "opening": "This picture shows a busy street scene in a small town.",
         "details": [
           "There are many people on the street.",
           "In the middle, two women are walking forward with their backs to the camera.",
-          "Opposite them, a couple is pushing a baby stroller, probably taking a walk with their child.",
-          "In the background, there are green mountains, houses and lush plants, making the scene very beautiful and peaceful."
+          "Opposite them, a couple is pushing a baby stroller."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3262,7 +3226,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "艺术馆场景",
       "prompt": "艺术馆或图书馆前台，四人站立，女工作人员指路，一名男子在打电话，背景挂着画。",
-      "answer": "There are four people standing at the front desk. A female staff member is pointing in a direction to assist a visitor. A man is talking on the phone while carrying a bag. In the background, there are paintings on the wall, indicating it might be an art gallery or library. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "There are four people standing at the front desk. A staff member is pointing in a direction to help a visitor. A man is talking on the phone and carrying a bag. In the background, there are paintings on the wall. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题35-2.jpg",
@@ -3273,11 +3237,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "There are four people standing at the front desk.",
         "details": [
-          "A female staff member is pointing in a direction to assist a visitor.",
-          "A man is talking on the phone while carrying a bag.",
-          "In the background, there are paintings on the wall, indicating it might be an art gallery or library."
+          "A staff member is pointing in a direction to help a visitor.",
+          "A man is talking on the phone and carrying a bag.",
+          "In the background, there are paintings on the wall."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3290,7 +3254,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "博物馆参观场景",
       "prompt": "博物馆内多人观赏雕塑，一名男子蹲下拍照，一名女子观看雕塑",
-      "answer": "The picture shows a museum with several sculptures. A man wearing black clothes is crouching to take a photo of a sculpture, while a woman is observing another sculpture nearby. Other visitors are also looking around. The museum has a quiet and calm atmosphere suitable for enjoying art. Overall, the picture shows people taking part in a calm and focused activity.",
+      "answer": "This picture shows a museum with some sculptures. A man wearing black clothes is crouching to take a photo of a sculpture. A woman is looking at another sculpture nearby. Other visitors are also looking around. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题37-2.png",
@@ -3299,13 +3263,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows museum several sculptures man",
       "part2Answer": {
-        "opening": "The picture shows a museum with several sculptures.",
+        "opening": "This picture shows a museum with some sculptures.",
         "details": [
-          "A man wearing black clothes is crouching to take a photo of a sculpture, while a woman is observing another sculpture nearby.",
-          "Other visitors are also looking around.",
-          "The museum has a quiet and calm atmosphere suitable for enjoying art."
+          "A man wearing black clothes is crouching to take a photo of a sculpture.",
+          "A woman is looking at another sculpture nearby.",
+          "Other visitors are also looking around."
         ],
-        "conclusion": "Overall, the picture shows people taking part in a calm and focused activity."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3318,7 +3282,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "图书馆场景",
       "prompt": "图书馆，前面一个黑色衣服女的坐在凳子上看书，旁边一个黑色衣服女的在书架上找书，后面一个白色男的在走路，还有几个人坐在后面的沙发上。",
-      "answer": "This is a picture taken in a library. In the front, a woman in black is sitting on a chair reading a book. Next to her, another woman in black is looking for a book on the bookshelf. A man in white is walking in the background. Several people are sitting on sofas further back. The library looks quiet and peaceful, providing a relaxing environment for reading and studying. Overall, the picture shows people taking part in a calm and focused activity.",
+      "answer": "This picture was taken in a library. In the front, a woman in black is sitting on a chair reading a book. Next to her, another woman in black is looking for a book on the bookshelf. A man in white is walking in the background. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题39-1.png",
@@ -3327,15 +3291,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "library front woman black sitting",
       "part2Answer": {
-        "opening": "This is a picture taken in a library.",
+        "opening": "This picture was taken in a library.",
         "details": [
           "In the front, a woman in black is sitting on a chair reading a book.",
           "Next to her, another woman in black is looking for a book on the bookshelf.",
-          "A man in white is walking in the background.",
-          "Several people are sitting on sofas further back.",
-          "The library looks quiet and peaceful, providing a relaxing environment for reading and studying."
+          "A man in white is walking in the background."
         ],
-        "conclusion": "Overall, the picture shows people taking part in a calm and focused activity."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3348,7 +3310,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "街头花坛场景",
       "prompt": "一堆人，中间有个花坛，背后有很多车，在一个T路口（应该是站在花园里往门口拍照，门内有花坛，花坛附近有行人，门外有一条路，很多车）",
-      "answer": "This image shows a busy scene at a T-junction. In the foreground, a group of people is gathered near a flower bed, which has colorful plants and flowers. Some people are walking, while others are standing and talking. In the background, several cars are visible on the road, indicating traffic movement. The combination of greenery and urban activity makes the scene lively and vibrant. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture shows a busy scene at a T-junction. In the foreground, a group of people is gathered near a flower bed. Some people are walking. Others are standing and talking. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题40-1.png",
@@ -3357,14 +3319,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "image shows busy scene junction",
       "part2Answer": {
-        "opening": "This image shows a busy scene at a T-junction.",
+        "opening": "This picture shows a busy scene at a T-junction.",
         "details": [
-          "In the foreground, a group of people is gathered near a flower bed, which has colorful plants and flowers.",
-          "Some people are walking, while others are standing and talking.",
-          "In the background, several cars are visible on the road, indicating traffic movement.",
-          "The combination of greenery and urban activity makes the scene lively and vibrant."
+          "In the foreground, a group of people is gathered near a flower bed.",
+          "Some people are walking.",
+          "Others are standing and talking."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3377,7 +3338,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "街头场景",
       "prompt": "大街上，一男两女在聊天，一个人提两个袋子走过",
-      "answer": "The picture shows four people on a street. On the left, a man is talking with two women. They seem engaged in a conversation and smiling. On the right, another man is walking by carrying two shopping bags. The street appears clean and orderly, and the scene is lively. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows four people on a street. On the left, a man is talking with two women. They seem engaged in a conversation and smiling. On the right, another man is walking by carrying two shopping bags. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题41-2.png",
@@ -3386,14 +3347,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows four people street left",
       "part2Answer": {
-        "opening": "The picture shows four people on a street.",
+        "opening": "This picture shows four people on a street.",
         "details": [
           "On the left, a man is talking with two women.",
           "They seem engaged in a conversation and smiling.",
-          "On the right, another man is walking by carrying two shopping bags.",
-          "The street appears clean and orderly, and the scene is lively."
+          "On the right, another man is walking by carrying two shopping bags."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3406,7 +3366,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "教室学习场景",
       "prompt": "教室里三位女生，一人喝水看电脑，两人分别写笔记和用电脑",
-      "answer": "This is a picture taken in a classroom. There are three people in it. In the front, a girl is sitting at a table while drinking from a cup. There is also a laptop in front of her. Behind her, two girls are at another table. One is typing on a laptop, while the other is writing in a notebook. They all look focused and attentive. A clock is hanging on the wall in the background, and the room is well-lit and organized. Overall, the picture shows people taking part in a calm and focused activity.",
+      "answer": "This picture was taken in a classroom. There are three people in it. In the front, a girl is sitting at a table and drinking from a cup. There is also a laptop in front of her. Overall, this looks like a normal everyday scene.",
       "reason": "公共场所或学习生活场景，常见但难度略低于职场服务图。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题42-1.png",
@@ -3415,17 +3375,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "classroom three people front girl",
       "part2Answer": {
-        "opening": "This is a picture taken in a classroom.",
+        "opening": "This picture was taken in a classroom.",
         "details": [
           "There are three people in it.",
-          "In the front, a girl is sitting at a table while drinking from a cup.",
-          "There is also a laptop in front of her.",
-          "Behind her, two girls are at another table.",
-          "One is typing on a laptop, while the other is writing in a notebook.",
-          "They all look focused and attentive.",
-          "A clock is hanging on the wall in the background, and the room is well-lit and organized."
+          "In the front, a girl is sitting at a table and drinking from a cup.",
+          "There is also a laptop in front of her."
         ],
-        "conclusion": "Overall, the picture shows people taking part in a calm and focused activity."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3438,7 +3394,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "房间场景",
       "prompt": "房间场景，大窗户，四人，两人弹钢琴，两人拿纸唱歌，前景黑色行李箱，背景有家具和绿植",
-      "answer": "This is a picture of a bright room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. Some furniture and green plants can be seen in the background. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "This picture shows a bright room with a large window. Two people are playing the piano. Two others are holding papers and singing. In the front, there is a black suitcase. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/模拟题1-2.png",
@@ -3447,13 +3403,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "bright room large window people",
       "part2Answer": {
-        "opening": "This is a picture of a bright room with a large window.",
+        "opening": "This picture shows a bright room with a large window.",
         "details": [
-          "Two people are playing the piano, while two others are holding papers and singing.",
-          "In the front, there is a black suitcase.",
-          "Some furniture and green plants can be seen in the background."
+          "Two people are playing the piano.",
+          "Two others are holding papers and singing.",
+          "In the front, there is a black suitcase."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3466,7 +3422,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "房间场景",
       "prompt": "房间，有大窗户，四人，两人弹钢琴，两人拿纸唱歌，前景有黑色行李箱，背景有家具和绿植",
-      "answer": "This picture shows a room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. In the background, we can see furniture and green plants. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "This picture shows a room with a large window. Two people are playing the piano. Two others are holding papers and singing. In the front, there is a black suitcase. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题1-2.png",
@@ -3477,11 +3433,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "This picture shows a room with a large window.",
         "details": [
-          "Two people are playing the piano, while two others are holding papers and singing.",
-          "In the front, there is a black suitcase.",
-          "In the background, we can see furniture and green plants."
+          "Two people are playing the piano.",
+          "Two others are holding papers and singing.",
+          "In the front, there is a black suitcase."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3494,7 +3450,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "农场场景",
       "prompt": "农场，2女1男。右边男孩喂鸡，左边女孩站着看，另一个女孩拍照，背景有更多鸡和建筑",
-      "answer": "The picture shows two girls and one boy on a farm. The boy on the right is feeding chickens. One girl is standing and watching, while the other girl is taking photos. In the background, there are more chickens and farm buildings. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture shows two girls and one boy on a farm. The boy on the right is feeding chickens. One girl is standing and watching. The other girl is taking photos. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题4-2.png",
@@ -3503,13 +3459,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows girls boy farm right",
       "part2Answer": {
-        "opening": "The picture shows two girls and one boy on a farm.",
+        "opening": "This picture shows two girls and one boy on a farm.",
         "details": [
           "The boy on the right is feeding chickens.",
-          "One girl is standing and watching, while the other girl is taking photos.",
-          "In the background, there are more chickens and farm buildings."
+          "One girl is standing and watching.",
+          "The other girl is taking photos."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3522,7 +3478,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "服装店场景",
       "prompt": "服装店，两位女士和一位男士。左边年轻女士试穿衣服，老女士在旁边观察，右边有金属艺术品",
-      "answer": "This picture was taken in a clothing store. There are two women and one man. On the left, a young woman is trying on some clothes, while an older woman is standing next to her and watching carefully. Behind them, a man is standing quietly. On the right side, there are metal artworks used as decoration. The store looks modern and well-designed. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a clothing store. There are two women and one man. On the left, a young woman is trying on some clothes. An older woman is standing next to her and watching carefully. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题6-1.png",
@@ -3534,12 +3490,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "This picture was taken in a clothing store.",
         "details": [
           "There are two women and one man.",
-          "On the left, a young woman is trying on some clothes, while an older woman is standing next to her and watching carefully.",
-          "Behind them, a man is standing quietly.",
-          "On the right side, there are metal artworks used as decoration.",
-          "The store looks modern and well-designed."
+          "On the left, a young woman is trying on some clothes.",
+          "An older woman is standing next to her and watching carefully."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3552,7 +3506,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "音乐会场景",
       "prompt": "露天音乐演唱会，很多观众坐在椅子上听音乐，台上有吉他手和鼓手，天气晴朗",
-      "answer": "This is a picture taken at an outdoor music concert. In the foreground, many audience members are seated and enjoying the performance. On the stage, a guitarist and a drummer are playing. The sky is clear and sunny, creating a lively atmosphere. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken at an outdoor music concert. In the foreground, many audience members are seated and enjoying the performance. On the stage, a guitarist and a drummer are playing. The sky is clear and sunny. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题8-1.png",
@@ -3561,13 +3515,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "outdoor music concert foreground audience",
       "part2Answer": {
-        "opening": "This is a picture taken at an outdoor music concert.",
+        "opening": "This picture was taken at an outdoor music concert.",
         "details": [
           "In the foreground, many audience members are seated and enjoying the performance.",
           "On the stage, a guitarist and a drummer are playing.",
-          "The sky is clear and sunny, creating a lively atmosphere."
+          "The sky is clear and sunny."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3580,7 +3534,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "户外拍照场景",
       "prompt": "室外场景，一女子用平板给别人拍照，其他人在笑，背景有大房子、树和山，天气晴朗",
-      "answer": "This is a picture taken outdoors. In the foreground, a young woman is using a tablet to take photos of her friends. The others are smiling and enjoying the moment. In the background, there are large houses, trees, and a mountain. The weather is sunny and clear. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken outdoors. In the foreground, a young woman is using a tablet to take photos of her friends. The others are smiling and enjoying the moment. In the background, there are large houses, trees. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题9-1.png",
@@ -3589,14 +3543,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "outdoors foreground young woman using",
       "part2Answer": {
-        "opening": "This is a picture taken outdoors.",
+        "opening": "This picture was taken outdoors.",
         "details": [
           "In the foreground, a young woman is using a tablet to take photos of her friends.",
           "The others are smiling and enjoying the moment.",
-          "In the background, there are large houses, trees, and a mountain.",
-          "The weather is sunny and clear."
+          "In the background, there are large houses, trees."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3609,7 +3562,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "医院场景",
       "prompt": "医院楼内场景，左侧一男子打电话，中间四人爬楼梯，一女士拿文件一男子帮助，右侧一男一女交谈，总体很忙",
-      "answer": "This picture is taken in a hospital building with seven people. On the left, a man is walking and making a phone call. In the middle, four people are climbing the stairs, with a lady picking up some documents and a man helping her. On the right, a man and a woman are talking to each other. All of them are very busy. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "This picture was taken in a hospital building with seven people. On the left, a man is walking and talking on the phone. In the middle, four people are climbing the stairs. On the right, a man and a woman are talking to each other. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题10-1.png",
@@ -3618,14 +3571,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "hospital building seven people left",
       "part2Answer": {
-        "opening": "This picture is taken in a hospital building with seven people.",
+        "opening": "This picture was taken in a hospital building with seven people.",
         "details": [
-          "On the left, a man is walking and making a phone call.",
-          "In the middle, four people are climbing the stairs, with a lady picking up some documents and a man helping her.",
-          "On the right, a man and a woman are talking to each other.",
-          "All of them are very busy."
+          "On the left, a man is walking and talking on the phone.",
+          "In the middle, four people are climbing the stairs.",
+          "On the right, a man and a woman are talking to each other."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3638,7 +3590,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "实验室场景",
       "prompt": "实验室场景，左侧男女坐桌阅读，中间女士开冰箱门，右侧女士用显微镜观察",
-      "answer": "The picture may be taken in a laboratory with many people inside. On the left, a man and a woman are sitting at a table and reading books. In the middle, a lady is opening the refrigerator door. On the right, a lady is observing something through a microscope on the platform. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in a laboratory with many people inside. On the left, a man and a woman are sitting at a table and reading books. In the middle, a woman is opening the refrigerator door. On the right, a woman is looking at something through a microscope on the table. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题10-2.png",
@@ -3647,13 +3599,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "laboratory people inside left man",
       "part2Answer": {
-        "opening": "The picture may be taken in a laboratory with many people inside.",
+        "opening": "This picture was taken in a laboratory with many people inside.",
         "details": [
           "On the left, a man and a woman are sitting at a table and reading books.",
-          "In the middle, a lady is opening the refrigerator door.",
-          "On the right, a lady is observing something through a microscope on the platform."
+          "In the middle, a woman is opening the refrigerator door.",
+          "On the right, a woman is looking at something through a microscope on the table."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3666,7 +3618,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "沙滩场景",
       "prompt": "沙滩场景，中间有女士走过，左侧椅子上有老人和孩子，沙滩上有绿色旗帜和一些人，远处有树和建筑，海上有海鸟，蓝天白云",
-      "answer": "The picture is taken on a beach with many people. In the foreground, there is a wooden path with stone chairs. An old man is sitting, and two women are walking. A green flag is fluttering on the beach. In the background, there is a building, some coconut trees, blue sky, white clouds, and some seabirds over the sea. It is a nice weather. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken on a beach with many people. In the foreground, there is a wooden path with stone chairs. An old man is sitting, and two women are walking. A green flag is fluttering on the beach. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题11-2.png",
@@ -3675,15 +3627,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "beach people foreground wooden path",
       "part2Answer": {
-        "opening": "The picture is taken on a beach with many people.",
+        "opening": "This picture was taken on a beach with many people.",
         "details": [
           "In the foreground, there is a wooden path with stone chairs.",
           "An old man is sitting, and two women are walking.",
-          "A green flag is fluttering on the beach.",
-          "In the background, there is a building, some coconut trees, blue sky, white clouds, and some seabirds over the sea.",
-          "It is a nice weather."
+          "A green flag is fluttering on the beach."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3696,7 +3646,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "船上场景",
       "prompt": "海上船只，甲板上四个人，两男坐椅子，白衬衣男整理领口，黑衣男看手机，后面两个人站着聊天，背景是海水和岸边山树",
-      "answer": "This picture shows a ship on the sea with four people on deck. Two men are sitting on chairs, one in a white shirt is adjusting his collar, the other is looking at his cellphone. Behind them, two people are standing and chatting. Mountains and trees can be seen on the shore in the background. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "This picture shows a ship on the sea with four people on deck. Two men are sitting on chairs. Behind them, two people are standing and chatting. There are mountains and trees in the background. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题12-1.png",
@@ -3707,11 +3657,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "This picture shows a ship on the sea with four people on deck.",
         "details": [
-          "Two men are sitting on chairs, one in a white shirt is adjusting his collar, the other is looking at his cellphone.",
+          "Two men are sitting on chairs.",
           "Behind them, two people are standing and chatting.",
-          "Mountains and trees can be seen on the shore in the background."
+          "There are mountains and trees in the background."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3724,7 +3674,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "乡村生活场景",
       "prompt": "乡村木屋外景，男生从侧门走出来，右侧长椅上一男一女坐着，左侧有摩托车和桌椅，一女生躺在椅子上看书，旁边一男生手持水瓶，背后有人站在门口",
-      "answer": "This picture may be taken in a home. A girl in a black dress was lying on a chair reading a book. Next to her was a man in a red T-shirt lying on a chair with a bottle of water in his hand. A man can be seen behind him, standing in the middle of the door. A motorbike is visible on the left. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken in a home. A girl in a black dress is lying on a chair reading a book. Next to her, a man is lying on another chair. Another man is standing in the doorway. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题13-1.png",
@@ -3733,14 +3683,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "home girl black dress lying",
       "part2Answer": {
-        "opening": "This picture may be taken in a home.",
+        "opening": "This picture was taken in a home.",
         "details": [
-          "A girl in a black dress was lying on a chair reading a book.",
-          "Next to her was a man in a red T-shirt lying on a chair with a bottle of water in his hand.",
-          "A man can be seen behind him, standing in the middle of the door.",
-          "A motorbike is visible on the left."
+          "A girl in a black dress is lying on a chair reading a book.",
+          "Next to her, a man is lying on another chair.",
+          "Another man is standing in the doorway."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3753,7 +3702,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "实验室场景",
       "prompt": "化学实验室，三个人穿白色工作服，镜头前男生靠桌准备实验，背后女生打开冰箱，另一女生从外面开门进入",
-      "answer": "This is a picture of a chemistry lab. Three people are wearing white overalls. In front, a boy is standing next to a table preparing experimental materials. A girl in the back is opening the fridge to store chemicals. Another girl is entering from outside. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a chemistry lab. Three people are wearing white overalls. In front, a boy is standing next to a table preparing experimental materials. A girl in the back is opening the fridge to store chemicals. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题13-2.png",
@@ -3762,14 +3711,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "chemistry lab three people wearing",
       "part2Answer": {
-        "opening": "This is a picture of a chemistry lab.",
+        "opening": "This picture shows a chemistry lab.",
         "details": [
           "Three people are wearing white overalls.",
           "In front, a boy is standing next to a table preparing experimental materials.",
-          "A girl in the back is opening the fridge to store chemicals.",
-          "Another girl is entering from outside."
+          "A girl in the back is opening the fridge to store chemicals."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3782,7 +3730,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "实验室场景",
       "prompt": "实验室：6名女性，5穿白大褂，第6穿黑衣；右两人在交谈，中间两人交谈，中间靠后一人看书；左下黑衣女在做事，后有仪器台",
-      "answer": "This is a picture of a lab. In the middle, two women are working closely and talking, and behind them a girl is reading a book. On the right, a woman seems a teacher talking to another girl. In the background, there is a test bed with equipment. A woman dressed in black is working there. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows a lab. In the middle, two women are working closely and talking. Behind them a girl is reading a book. On the right, a woman seems a teacher talking to another girl. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题16-2.png",
@@ -3791,14 +3739,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "lab middle women working closely",
       "part2Answer": {
-        "opening": "This is a picture of a lab.",
+        "opening": "This picture shows a lab.",
         "details": [
-          "In the middle, two women are working closely and talking, and behind them a girl is reading a book.",
-          "On the right, a woman seems a teacher talking to another girl.",
-          "In the background, there is a test bed with equipment.",
-          "A woman dressed in black is working there."
+          "In the middle, two women are working closely and talking.",
+          "Behind them a girl is reading a book.",
+          "On the right, a woman seems a teacher talking to another girl."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3811,7 +3758,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "室内等候厅场景",
       "prompt": "室内等候厅，左边4个大妈坐在黑色长凳上看电视，前面有2个小男孩，一个坐一个躺，电视右边有动物雕像，后面3个美女服务员聊天",
-      "answer": "This picture may be taken in a waiting room. On the left, four women are sitting on a black bench and watching a TV display. In front of them, two boys are on a bench, one sitting and one lying down. To the right of the TV, there is an animal statue. In the background, three female attendants are standing and talking together. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "This picture was taken in a waiting room. On the left, four women are sitting on a black bench and watching a TV display. In front of them, two boys are on a bench, one sitting and one lying down. To the right of the TV, there is an animal statue. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题17-1.png",
@@ -3820,14 +3767,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "waiting room left four women",
       "part2Answer": {
-        "opening": "This picture may be taken in a waiting room.",
+        "opening": "This picture was taken in a waiting room.",
         "details": [
           "On the left, four women are sitting on a black bench and watching a TV display.",
           "In front of them, two boys are on a bench, one sitting and one lying down.",
-          "To the right of the TV, there is an animal statue.",
-          "In the background, three female attendants are standing and talking together."
+          "To the right of the TV, there is an animal statue."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3840,7 +3786,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "室外休闲场景",
       "prompt": "室外，有大遮阳伞和桌子，下面两名女子在吃零食，右边有大妈手拿玻璃杯在走，背景有房子",
-      "answer": "This picture may be taken in front of a shop. On the right, two women are sitting under a sunshade and eating snacks. Another older woman is walking with a glass in her hand. In the background, there is a white house which seems like a coffee shop, with some green grass in front. It is a sunny day and people seem to enjoy themselves. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in front of a shop. On the right, two women are sitting under an umbrella and eating snacks. Another older woman is walking with a glass in her hand. In the background, there is a white house which seems like a coffee shop. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题17-2.png",
@@ -3849,14 +3795,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "front shop right women sitting",
       "part2Answer": {
-        "opening": "This picture may be taken in front of a shop.",
+        "opening": "This picture was taken in front of a shop.",
         "details": [
-          "On the right, two women are sitting under a sunshade and eating snacks.",
+          "On the right, two women are sitting under an umbrella and eating snacks.",
           "Another older woman is walking with a glass in her hand.",
-          "In the background, there is a white house which seems like a coffee shop, with some green grass in front.",
-          "It is a sunny day and people seem to enjoy themselves."
+          "In the background, there is a white house which seems like a coffee shop."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3869,7 +3814,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "广场场景",
       "prompt": "广场，很多人，中间一个男的骑自行车，右边一个男的拿帽子，背景有树和塔",
-      "answer": "This picture may be taken in a public square. There are many people. In the middle, a man is riding a bicycle. On the right, a man is holding a hat. In the background, there are some trees and a tower. The square looks crowded, and people seem to enjoy being there. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken in a public square. There are many people. In the middle, a man is riding a bicycle. On the right, a man is holding a hat. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题18-1.png",
@@ -3878,15 +3823,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "public square people middle man",
       "part2Answer": {
-        "opening": "This picture may be taken in a public square.",
+        "opening": "This picture was taken in a public square.",
         "details": [
           "There are many people.",
           "In the middle, a man is riding a bicycle.",
-          "On the right, a man is holding a hat.",
-          "In the background, there are some trees and a tower.",
-          "The square looks crowded, and people seem to enjoy being there."
+          "On the right, a man is holding a hat."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3899,7 +3842,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "湖边景色",
       "prompt": "湖边，五个人站在湖边看湖里两人划船，背景有狮子雕塑和树",
-      "answer": "This picture may be taken in a park with a lake. On the shore, five people are looking at the lake. In the middle of the lake, two people are rowing a boat. In the background, there are several sculptures and many trees. It looks like a relaxing place for visitors. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken in a park with a lake. On the shore, five people are looking at the lake. In the middle of the lake, two people are rowing a boat. In the background, there are some sculptures and many trees. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题18-2.png",
@@ -3908,14 +3851,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "park lake shore five people",
       "part2Answer": {
-        "opening": "This picture may be taken in a park with a lake.",
+        "opening": "This picture was taken in a park with a lake.",
         "details": [
           "On the shore, five people are looking at the lake.",
           "In the middle of the lake, two people are rowing a boat.",
-          "In the background, there are several sculptures and many trees.",
-          "It looks like a relaxing place for visitors."
+          "In the background, there are some sculptures and many trees."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3928,7 +3870,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "校园场景",
       "prompt": "校园阴天，右边两个男生背包站路标旁，指地点，中间两个女生一个看教学楼，一个拿伞背包，背景有建筑和草地",
-      "answer": "This picture may be taken in a school campus. On the right, two boys are carrying bags and standing beside the roadmap. They seem to be looking for directions. In the middle, one girl is looking at the school building, and another girl is carrying a bag and holding an umbrella. In the background, there are many students and buildings, and grasses on the ground. Overall, the picture shows people taking part in a calm and focused activity.",
+      "answer": "This picture was taken in a school campus. On the right, two boys are carrying bags and standing beside the map. They are looking for directions. In the middle, one girl is looking at the school building. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题20-1.png",
@@ -3937,14 +3879,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "school campus right boys carrying",
       "part2Answer": {
-        "opening": "This picture may be taken in a school campus.",
+        "opening": "This picture was taken in a school campus.",
         "details": [
-          "On the right, two boys are carrying bags and standing beside the roadmap.",
-          "They seem to be looking for directions.",
-          "In the middle, one girl is looking at the school building, and another girl is carrying a bag and holding an umbrella.",
-          "In the background, there are many students and buildings, and grasses on the ground."
+          "On the right, two boys are carrying bags and standing beside the map.",
+          "They are looking for directions.",
+          "In the middle, one girl is looking at the school building."
         ],
-        "conclusion": "Overall, the picture shows people taking part in a calm and focused activity."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3957,7 +3898,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "海滩场景",
       "prompt": "海边沙滩，很多人在沙滩上站着坐着，海里有人游泳，沙滩上有太阳伞",
-      "answer": "This picture may be taken on the beach. Many people are having fun there. On the beach, I can see lots of people and umbrellas. Some people are standing, while others are sitting. In the sea, there are many people swimming. In the background, the sky is blue with white clouds. It is a sunny day and everyone seems happy. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken on the beach. Many people are having fun there. On the beach, I can see lots of people and umbrellas. Some people are standing. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题20-2.png",
@@ -3966,16 +3907,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "beach people having fun see",
       "part2Answer": {
-        "opening": "This picture may be taken on the beach.",
+        "opening": "This picture was taken on the beach.",
         "details": [
           "Many people are having fun there.",
           "On the beach, I can see lots of people and umbrellas.",
-          "Some people are standing, while others are sitting.",
-          "In the sea, there are many people swimming.",
-          "In the background, the sky is blue with white clouds.",
-          "It is a sunny day and everyone seems happy."
+          "Some people are standing."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -3988,7 +3926,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "颁奖仪式",
       "prompt": "小礼堂颁奖，舞台上两位女士，一个颁奖，一个获奖；台下坐满人拍手",
-      "answer": "This may be a picture of an awarding ceremony. On the stage, there are two women. The woman on the left seems to be the host, giving an award to the other woman who is the winner and looks very happy. Under the stage, many people are sitting and applauding. Overall, the picture shows an organized event with several people taking part.",
+      "answer": "This picture shows an award ceremony. On the stage, there are two women. One woman is giving an award to another woman. Under the stage, many people are sitting and clapping. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题21-2.png",
@@ -3997,13 +3935,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "awarding ceremony stage women woman",
       "part2Answer": {
-        "opening": "This may be a picture of an awarding ceremony.",
+        "opening": "This picture shows an award ceremony.",
         "details": [
           "On the stage, there are two women.",
-          "The woman on the left seems to be the host, giving an award to the other woman who is the winner and looks very happy.",
-          "Under the stage, many people are sitting and applauding."
+          "One woman is giving an award to another woman.",
+          "Under the stage, many people are sitting and clapping."
         ],
-        "conclusion": "Overall, the picture shows an organized event with several people taking part."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4016,7 +3954,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "湖边休闲场景",
       "prompt": "湖边，近处5个人准备划船，远处一个人在划船，湖边还有雕塑和树木",
-      "answer": "This is a picture taken in a park with a lake. On the shore, five people are preparing to go boating. In the middle of the lake, two people are on a boat. In the background, there are some sculptures and many trees. This place seems perfect for sightseeing and relaxing. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture was taken in a park with a lake. On the shore, five people are preparing to go boating. In the middle of the lake, two people are on a boat. In the background, there are some sculptures and many trees. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题22-1.png",
@@ -4025,14 +3963,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "park lake shore five people",
       "part2Answer": {
-        "opening": "This is a picture taken in a park with a lake.",
+        "opening": "This picture was taken in a park with a lake.",
         "details": [
           "On the shore, five people are preparing to go boating.",
           "In the middle of the lake, two people are on a boat.",
-          "In the background, there are some sculptures and many trees.",
-          "This place seems perfect for sightseeing and relaxing."
+          "In the background, there are some sculptures and many trees."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4045,7 +3982,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "实验室场景",
       "prompt": "实验室，左边1男1女接水，中间1女开冰箱门，右边2女看显微镜",
-      "answer": "This picture is taken in a laboratory. On the left, a man and a woman are sitting at a table reading books. In the middle, a lady is opening the right door of a fridge and taking something out. On the right, a lady is observing something through a microscope on the platform. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in a laboratory. On the left, a man and a woman are sitting at a table reading books. In the middle, a woman is taking something from a fridge. On the right, a woman is looking at something through a microscope on the table. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题22-2.png",
@@ -4054,13 +3991,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "laboratory left man woman sitting",
       "part2Answer": {
-        "opening": "This picture is taken in a laboratory.",
+        "opening": "This picture was taken in a laboratory.",
         "details": [
           "On the left, a man and a woman are sitting at a table reading books.",
-          "In the middle, a lady is opening the right door of a fridge and taking something out.",
-          "On the right, a lady is observing something through a microscope on the platform."
+          "In the middle, a woman is taking something from a fridge.",
+          "On the right, a woman is looking at something through a microscope on the table."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4073,7 +4010,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "户外装卸场景",
       "prompt": "户外，一辆大卡车装载/卸载花盆，后面小店，两个人站在卡车后面，一个人拖着拖车",
-      "answer": "This is a picture taken outdoors. In the foreground, two people are standing behind a large truck. On the side of the truck, I can see many potted flowers. In the background, a car is loading and unloading flowerpots for a flower shop. On the right, a man is standing and dragging a trailer with some small boxes. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken outdoors. In the foreground, two people are standing behind a large truck. On the side of the truck, I can see many potted flowers. In the background, a car is loading and unloading flowerpots for a flower shop. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题23-1.png",
@@ -4082,14 +4019,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "outdoors foreground people standing behind",
       "part2Answer": {
-        "opening": "This is a picture taken outdoors.",
+        "opening": "This picture was taken outdoors.",
         "details": [
           "In the foreground, two people are standing behind a large truck.",
           "On the side of the truck, I can see many potted flowers.",
-          "In the background, a car is loading and unloading flowerpots for a flower shop.",
-          "On the right, a man is standing and dragging a trailer with some small boxes."
+          "In the background, a car is loading and unloading flowerpots for a flower shop."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4102,7 +4038,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "咖啡厅场景",
       "prompt": "咖啡厅，前景一女孩看电脑，后景三位老人讨论东西",
-      "answer": "This is a picture taken in a coffee shop. There are a lot of people here. In the foreground, a girl is sitting at a table and looking at a white computer on the table. In the background, three old people are sitting at a table and discussing something. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture was taken in a coffee shop. There are a lot of people here. In the foreground, a girl is using a computer at a table. In the background, three older people are sitting at a table and discussing something. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题23-2.png",
@@ -4111,13 +4047,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "coffee shop lot people here",
       "part2Answer": {
-        "opening": "This is a picture taken in a coffee shop.",
+        "opening": "This picture was taken in a coffee shop.",
         "details": [
           "There are a lot of people here.",
-          "In the foreground, a girl is sitting at a table and looking at a white computer on the table.",
-          "In the background, three old people are sitting at a table and discussing something."
+          "In the foreground, a girl is using a computer at a table.",
+          "In the background, three older people are sitting at a table and discussing something."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4130,7 +4066,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "面包店场景",
       "prompt": "面包店，服务员给一位男士服务，后面有三位女士挑选食物",
-      "answer": "In the picture, there is a bakery. A server is helping a man at the counter. Behind him, three women are looking at the food on the shelves. They seem to be choosing something to buy. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "In the picture, there is a bakery. A server is helping a man at the counter. Behind him, three women are looking at the food on the shelves. They are choosing something to buy. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题28-2.png",
@@ -4143,9 +4079,9 @@ window.TOEIC_REVIEW_DATA = {
         "details": [
           "A server is helping a man at the counter.",
           "Behind him, three women are looking at the food on the shelves.",
-          "They seem to be choosing something to buy."
+          "They are choosing something to buy."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4158,7 +4094,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "实验室讨论",
       "prompt": "实验室近景特写，4人，2台显微镜，前3人讨论，后面1人回头看",
-      "answer": "This picture was taken in a chemistry laboratory. Three people in the front are sitting and discussing something at a table with two microscopes. Behind them, one man is standing and looking toward them. There are cabinets in the background, and the lab looks clean and quiet. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in a chemistry laboratory. Three people in the front are sitting and discussing something at a table with two microscopes. Behind them, one man is standing and looking toward them. There are cabinets in the background. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题30-2.png",
@@ -4171,9 +4107,9 @@ window.TOEIC_REVIEW_DATA = {
         "details": [
           "Three people in the front are sitting and discussing something at a table with two microscopes.",
           "Behind them, one man is standing and looking toward them.",
-          "There are cabinets in the background, and the lab looks clean and quiet."
+          "There are cabinets in the background."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4186,7 +4122,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "实验室工作场景",
       "prompt": "实验室四个人，做实验、观察显微镜、准备试剂、柜子找东西",
-      "answer": "This photo was taken in a chemistry laboratory. There are four people: two people are looking through a microscope, another man is preparing reagents, and at the back, a woman is searching for something in the cabinet. All of them are wearing white lab coats. The lab looks very clean, bright, and quiet. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture was taken in a chemistry laboratory. There are four people: two people are looking through a microscope, another man is preparing materials. At the back, a woman is searching for something in the cabinet. All of them are wearing white lab coats. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题31-2.png",
@@ -4195,13 +4131,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "photo chemistry laboratory four people",
       "part2Answer": {
-        "opening": "This photo was taken in a chemistry laboratory.",
+        "opening": "This picture was taken in a chemistry laboratory.",
         "details": [
-          "There are four people: two people are looking through a microscope, another man is preparing reagents, and at the back, a woman is searching for something in the cabinet.",
-          "All of them are wearing white lab coats.",
-          "The lab looks very clean, bright, and quiet."
+          "There are four people: two people are looking through a microscope, another man is preparing materials.",
+          "At the back, a woman is searching for something in the cabinet.",
+          "All of them are wearing white lab coats."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4214,7 +4150,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "自然风景与人物活动",
       "prompt": "大山、小树林、大湖、公路，公路边两男坐在椅子上，另一边一男蹲着修自行车",
-      "answer": "Let me describe this scene. There's a big mountain and a small forest in the background. Up front, there's a large lake, and beyond that, a road. On a chair by the road, two men are sitting, and on the other side, a man is crouching to fix a bike. Overall, the picture captures an active moment in an outdoor or public place.",
+      "answer": "This picture shows an outdoor scene. There is a mountain and a small forest in the background. Up front, there's a large lake, and beyond that, a road. On a chair by the road, two men are sitting. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题33-1.png",
@@ -4223,13 +4159,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "let describe scene big mountain",
       "part2Answer": {
-        "opening": "Let me describe this scene.",
+        "opening": "This picture shows an outdoor scene.",
         "details": [
-          "There's a big mountain and a small forest in the background.",
+          "There is a mountain and a small forest in the background.",
           "Up front, there's a large lake, and beyond that, a road.",
-          "On a chair by the road, two men are sitting, and on the other side, a man is crouching to fix a bike."
+          "On a chair by the road, two men are sitting."
         ],
-        "conclusion": "Overall, the picture captures an active moment in an outdoor or public place."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4242,7 +4178,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "室内服务场景",
       "prompt": "理发店，总共5人，右边一男一女坐在椅子上，两位女理发师分别给他们理发",
-      "answer": "This picture shows a barbershop with five people. On the right, a man and a woman are sitting in chairs. Two women are cutting their hair, one working on the man and the other on the woman. The environment looks bright and professional. Overall, the picture captures a busy but well-organized service setting.",
+      "answer": "This picture shows a barbershop with five people. On the right, a man and a woman are sitting in chairs. Two workers are cutting customers' hair. The environment looks bright and professional. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题33-2.png",
@@ -4254,10 +4190,10 @@ window.TOEIC_REVIEW_DATA = {
         "opening": "This picture shows a barbershop with five people.",
         "details": [
           "On the right, a man and a woman are sitting in chairs.",
-          "Two women are cutting their hair, one working on the man and the other on the woman.",
+          "Two workers are cutting customers' hair.",
           "The environment looks bright and professional."
         ],
-        "conclusion": "Overall, the picture captures a busy but well-organized service setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4270,7 +4206,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "实验室场景",
       "prompt": "化学实验室里有四个人，两男两女。一位穿白大褂的老师正在与一位女生说话，旁边的男生在听，男生旁边有显微镜，背景是很多柜子。",
-      "answer": "The picture shows four people in a chemistry laboratory. A teacher wearing a white lab coat is talking to a woman. Next to them, a man is listening carefully, and there is a microscope beside him. In the back, another man is standing. There are many cabinets in the background. Overall, the picture shows people carrying out their work in an organized setting.",
+      "answer": "This picture shows four people in a chemistry laboratory. A teacher wearing a white lab coat is talking to a woman. Next to them, a man is listening carefully. There is a microscope beside him. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题34-2.png",
@@ -4279,14 +4215,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "shows four people chemistry laboratory",
       "part2Answer": {
-        "opening": "The picture shows four people in a chemistry laboratory.",
+        "opening": "This picture shows four people in a chemistry laboratory.",
         "details": [
           "A teacher wearing a white lab coat is talking to a woman.",
-          "Next to them, a man is listening carefully, and there is a microscope beside him.",
-          "In the back, another man is standing.",
-          "There are many cabinets in the background."
+          "Next to them, a man is listening carefully.",
+          "There is a microscope beside him."
         ],
-        "conclusion": "Overall, the picture shows people carrying out their work in an organized setting."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4299,7 +4234,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "地下通道场景",
       "prompt": "地下通道出口，左边一女子打电话，右边一蓝衣男子下楼，中间两人上楼",
-      "answer": "In the picture, there are four people in an underground walkway. On the left, a woman is talking on the phone while walking. On the right, a man in a blue shirt is going down the stairs. In the middle, two people are walking up the stairs. Everyone seems busy and focused on their paths. The area is well-lit and clean, with handrails on both sides. Overall, the picture shows people engaged in their everyday activities.",
+      "answer": "In the picture, there are four people in an underground walkway. On the left, a woman is talking on the phone and walking. On the right, a man in a blue shirt is going down the stairs. In the middle, two people are walking up the stairs. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题36-1.png",
@@ -4310,13 +4245,11 @@ window.TOEIC_REVIEW_DATA = {
       "part2Answer": {
         "opening": "In the picture, there are four people in an underground walkway.",
         "details": [
-          "On the left, a woman is talking on the phone while walking.",
+          "On the left, a woman is talking on the phone and walking.",
           "On the right, a man in a blue shirt is going down the stairs.",
-          "In the middle, two people are walking up the stairs.",
-          "Everyone seems busy and focused on their paths.",
-          "The area is well-lit and clean, with handrails on both sides."
+          "In the middle, two people are walking up the stairs."
         ],
-        "conclusion": "Overall, the picture shows people engaged in their everyday activities."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -4329,7 +4262,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 2,
       "topic": "新闻发布会场景",
       "prompt": "新闻发布会，右侧一西装男在讲台演讲，左侧多人坐或站着，摄像机正在拍摄",
-      "answer": "In the picture, a man in a suit stands at a podium on the right, giving a speech. Several microphones are set up in front of him. On the left, a group of people are sitting or standing and listening attentively. Multiple cameras are recording the event. It appears to be a formal press conference with a serious atmosphere. Overall, the picture shows an organized event with several people taking part.",
+      "answer": "In the picture, a man is giving a speech. Some microphones are set up in front of him. On the left, a group of people are sitting or standing and listening attentively. Multiple cameras are recording the event. Overall, this looks like a normal everyday scene.",
       "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
       "instructions": "请描述以下图片：",
       "imagePath": "./images/真题36-2.png",
@@ -4338,14 +4271,13 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "man suit stands podium right",
       "part2Answer": {
-        "opening": "In the picture, a man in a suit stands at a podium on the right, giving a speech.",
+        "opening": "In the picture, a man is giving a speech.",
         "details": [
-          "Several microphones are set up in front of him.",
+          "Some microphones are set up in front of him.",
           "On the left, a group of people are sitting or standing and listening attentively.",
-          "Multiple cameras are recording the event.",
-          "It appears to be a formal press conference with a serious atmosphere."
+          "Multiple cameras are recording the event."
         ],
-        "conclusion": "Overall, the picture shows an organized event with several people taking part."
+        "conclusion": "Overall, this looks like a normal everyday scene."
       }
     },
     {
@@ -15655,7 +15587,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "能力优先选择",
       "prompt": "你认为解决问题的能力、沟通能力和组织能力三个中哪个最重要？为什么？",
-      "answer": "I believe communication skills are the most important of the three abilities. First, clear communication helps coworkers understand tasks and expectations, so they can avoid unnecessary mistakes. Second, it makes problem-solving faster because team members can share information and ideas openly. For example, when my team faced a tight deadline, a short discussion helped us divide the work clearly and finish on time. For these reasons, communication is the foundation of both good organization and effective problem-solving.",
+      "answer": "I think communication skills are the most important. First, good communication helps people share ideas clearly. Second, it helps a team avoid mistakes and save time. For example, my team finished a project faster after a short meeting. So, communication is useful in almost every job.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15663,21 +15595,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe communication skills important good",
-      "answerZh": "我认为在这三种能力中，沟通能力最重要。第一，清晰的沟通能帮助同事理解任务和要求，从而避免不必要的错误。第二，沟通能让解决问题更迅速，因为团队成员可以公开分享信息和想法。例如，我的团队曾面临很紧的截止日期，一次简短的讨论帮助我们明确分工并按时完成了工作。因此，沟通是良好组织能力和高效解决问题的基础。",
+      "answerZh": "我认为沟通能力最重要。第一，良好的沟通能帮助人们清楚地分享想法。第二，它能帮助团队避免错误并节省时间。例如，我的团队开了一个简短会议后，更快完成了项目。所以，沟通能力在几乎所有工作中都很有用。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I believe communication skills are the most important of the three abilities.",
-        "First, clear communication helps coworkers understand tasks and expectations, so they can avoid unnecessary mistakes.",
-        "Second, it makes problem-solving faster because team members can share information and ideas openly.",
-        "For example, when my team faced a tight deadline, a short discussion helped us divide the work clearly and finish on time.",
-        "For these reasons, communication is the foundation of both good organization and effective problem-solving."
+        "I think communication skills are the most important.",
+        "First, good communication helps people share ideas clearly.",
+        "Second, it helps a team avoid mistakes and save time.",
+        "For example, my team finished a project faster after a short meeting.",
+        "So, communication is useful in almost every job."
       ],
       "answerSectionsZh": [
-        "我认为在这三种能力中，沟通能力最重要。",
-        "第一，清晰的沟通能帮助同事理解任务和要求，从而避免不必要的错误。",
-        "第二，沟通能让解决问题更迅速，因为团队成员可以公开分享信息和想法。",
-        "例如，我的团队曾面临很紧的截止日期，一次简短的讨论帮助我们明确分工并按时完成了工作。",
-        "因此，沟通是良好组织能力和高效解决问题的基础。"
+        "我认为沟通能力最重要。",
+        "第一，良好的沟通能帮助人们清楚地分享想法。",
+        "第二，它能帮助团队避免错误并节省时间。",
+        "例如，我的团队开了一个简短会议后，更快完成了项目。",
+        "所以，沟通能力在几乎所有工作中都很有用。"
       ]
     },
     {
@@ -15690,7 +15622,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "工作能力优先级",
       "prompt": "你认为在就职新工作时，努力工作的意识和与同事良好沟通的能力哪个更重要？为什么？",
-      "answer": "I think communicating well with colleagues is more important when starting a new job. First, new employees can learn procedures and expectations much faster by asking clear questions. Second, good communication builds trust, which makes teamwork smoother and reduces stress. For example, at my first job, a helpful conversation with a coworker showed me how to use an unfamiliar system and prevented a serious mistake. Therefore, hard work matters, but good communication helps that effort produce better results.",
+      "answer": "I think good communication is more important in a new job. First, it helps new workers understand their tasks quickly. Second, it helps them build good relationships with coworkers. For example, a coworker once explained a new system to me and helped me avoid a mistake. So, communication makes a new job much easier.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15698,21 +15630,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe communicating well colleagues important",
-      "answerZh": "我认为开始一份新工作时，与同事良好沟通更重要。第一，新员工通过清楚地提问，可以更快了解工作流程和要求。第二，良好的沟通能够建立信任，让团队合作更顺畅，也能减轻压力。例如，我刚参加工作时，一位同事通过交谈教会了我使用陌生的系统，避免了一个严重错误。因此，努力工作固然重要，但良好的沟通能让努力带来更好的结果。",
+      "answerZh": "我认为在新工作中，良好的沟通更重要。第一，它能帮助新员工快速理解任务。第二，它能帮助他们和同事建立良好关系。例如，一位同事曾向我讲解新系统，帮助我避免了错误。所以，沟通能让新工作轻松很多。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I think communicating well with colleagues is more important when starting a new job.",
-        "First, new employees can learn procedures and expectations much faster by asking clear questions.",
-        "Second, good communication builds trust, which makes teamwork smoother and reduces stress.",
-        "For example, at my first job, a helpful conversation with a coworker showed me how to use an unfamiliar system and prevented a serious mistake.",
-        "Therefore, hard work matters, but good communication helps that effort produce better results."
+        "I think good communication is more important in a new job.",
+        "First, it helps new workers understand their tasks quickly.",
+        "Second, it helps them build good relationships with coworkers.",
+        "For example, a coworker once explained a new system to me and helped me avoid a mistake.",
+        "So, communication makes a new job much easier."
       ],
       "answerSectionsZh": [
-        "我认为开始一份新工作时，与同事良好沟通更重要。",
-        "第一，新员工通过清楚地提问，可以更快了解工作流程和要求。",
-        "第二，良好的沟通能够建立信任，让团队合作更顺畅，也能减轻压力。",
-        "例如，我刚参加工作时，一位同事通过交谈教会了我使用陌生的系统，避免了一个严重错误。",
-        "因此，努力工作固然重要，但良好的沟通能让努力带来更好的结果。"
+        "我认为在新工作中，良好的沟通更重要。",
+        "第一，它能帮助新员工快速理解任务。",
+        "第二，它能帮助他们和同事建立良好关系。",
+        "例如，一位同事曾向我讲解新系统，帮助我避免了错误。",
+        "所以，沟通能让新工作轻松很多。"
       ]
     },
     {
@@ -15725,7 +15657,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "能力优先选择",
       "prompt": "你认为解决问题的能力、沟通能力和组织能力三个中哪个最重要？为什么？",
-      "answer": "In my opinion, communication is the most important among communication, organization, and problem-solving skills. First, people must understand one another before they can organize work effectively. Second, open communication brings different ideas together and helps a team find practical solutions quickly. For example, when a project at my company fell behind schedule, our team discussed the problem, reassigned tasks, and caught up within a week. Therefore, strong communication supports both organization and problem-solving, making it the most essential skill.",
+      "answer": "I think communication is the most important skill. First, people can understand each other and work better together. Second, they can find and solve problems more quickly. For example, my team solved a schedule problem by talking about it together. So, good communication supports both teamwork and problem-solving.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15733,21 +15665,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "problem solving communication organization skills",
-      "answerZh": "在沟通、组织和解决问题这三种能力中，我认为沟通能力最重要。第一，人们必须先相互理解，才能有效地组织工作。第二，开放的沟通能汇集不同想法，帮助团队迅速找到可行的解决方案。例如，我公司有个项目曾落后于进度，团队讨论问题并重新分配任务后，一周内就赶上了计划。因此，良好的沟通同时支持组织和解决问题，是最关键的能力。",
+      "answerZh": "我认为沟通是最重要的能力。第一，人们可以互相理解并更好地合作。第二，他们可以更快发现和解决问题。例如，我的团队通过一起讨论解决了进度问题。所以，良好的沟通能同时帮助团队合作和解决问题。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "In my opinion, communication is the most important among communication, organization, and problem-solving skills.",
-        "First, people must understand one another before they can organize work effectively.",
-        "Second, open communication brings different ideas together and helps a team find practical solutions quickly.",
-        "For example, when a project at my company fell behind schedule, our team discussed the problem, reassigned tasks, and caught up within a week.",
-        "Therefore, strong communication supports both organization and problem-solving, making it the most essential skill."
+        "I think communication is the most important skill.",
+        "First, people can understand each other and work better together.",
+        "Second, they can find and solve problems more quickly.",
+        "For example, my team solved a schedule problem by talking about it together.",
+        "So, good communication supports both teamwork and problem-solving."
       ],
       "answerSectionsZh": [
-        "在沟通、组织和解决问题这三种能力中，我认为沟通能力最重要。",
-        "第一，人们必须先相互理解，才能有效地组织工作。",
-        "第二，开放的沟通能汇集不同想法，帮助团队迅速找到可行的解决方案。",
-        "例如，我公司有个项目曾落后于进度，团队讨论问题并重新分配任务后，一周内就赶上了计划。",
-        "因此，良好的沟通同时支持组织和解决问题，是最关键的能力。"
+        "我认为沟通是最重要的能力。",
+        "第一，人们可以互相理解并更好地合作。",
+        "第二，他们可以更快发现和解决问题。",
+        "例如，我的团队通过一起讨论解决了进度问题。",
+        "所以，良好的沟通能同时帮助团队合作和解决问题。"
       ]
     },
     {
@@ -15760,7 +15692,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "工作能力优先",
       "prompt": "在新工作中，你认为努力工作和与同事良好沟通哪个更重要？",
-      "answer": "I believe good communication with colleagues is more important than simply working hard in a new job. First, communication helps a new employee understand priorities and complete tasks correctly. Second, it creates positive relationships, so coworkers are more willing to offer advice and support. For example, when I joined a new team, regular check-ins with my manager helped me correct small problems before they became serious. In conclusion, hard work is valuable, but communication makes hard work more focused and effective.",
+      "answer": "I think communication is more important than only working hard. First, it helps new workers know what to do. Second, it makes teamwork easier and reduces stress. For example, I asked my manager questions and finished my first task correctly. So, communication helps hard work bring better results.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15768,21 +15700,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion communication colleagues important new",
-      "answerZh": "我认为在新工作中，与同事良好沟通比单纯努力工作更重要。第一，沟通能帮助新员工理解工作重点，并正确完成任务。第二，沟通可以建立积极的人际关系，让同事更愿意提供建议和支持。例如，我加入新团队时，定期与主管沟通帮助我在小问题变严重之前及时改正。总之，努力工作很有价值，但沟通能让努力更有方向、更加高效。",
+      "answerZh": "我认为沟通比只顾努力工作更重要。第一，它能帮助新员工知道该做什么。第二，它让团队合作更容易，也能减轻压力。例如，我向经理提问后，正确完成了第一个任务。所以，沟通能让努力带来更好的结果。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I believe good communication with colleagues is more important than simply working hard in a new job.",
-        "First, communication helps a new employee understand priorities and complete tasks correctly.",
-        "Second, it creates positive relationships, so coworkers are more willing to offer advice and support.",
-        "For example, when I joined a new team, regular check-ins with my manager helped me correct small problems before they became serious.",
-        "In conclusion, hard work is valuable, but communication makes hard work more focused and effective."
+        "I think communication is more important than only working hard.",
+        "First, it helps new workers know what to do.",
+        "Second, it makes teamwork easier and reduces stress.",
+        "For example, I asked my manager questions and finished my first task correctly.",
+        "So, communication helps hard work bring better results."
       ],
       "answerSectionsZh": [
-        "我认为在新工作中，与同事良好沟通比单纯努力工作更重要。",
-        "第一，沟通能帮助新员工理解工作重点，并正确完成任务。",
-        "第二，沟通可以建立积极的人际关系，让同事更愿意提供建议和支持。",
-        "例如，我加入新团队时，定期与主管沟通帮助我在小问题变严重之前及时改正。",
-        "总之，努力工作很有价值，但沟通能让努力更有方向、更加高效。"
+        "我认为沟通比只顾努力工作更重要。",
+        "第一，它能帮助新员工知道该做什么。",
+        "第二，它让团队合作更容易，也能减轻压力。",
+        "例如，我向经理提问后，正确完成了第一个任务。",
+        "所以，沟通能让努力带来更好的结果。"
       ]
     },
     {
@@ -15795,7 +15727,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "领导力与沟通",
       "prompt": "作为一个团队的leader，高效沟通是不是最重要？为什么？",
-      "answer": "Yes, I believe effective communication is the most important skill for a team leader. First, a leader must explain goals and responsibilities clearly so everyone works in the same direction. Second, good communication helps the leader understand concerns and resolve conflicts before they hurt the team. For example, when two coworkers disagreed about a project, my manager listened to both sides and helped them agree on a new plan. In short, communication improves both team efficiency and workplace relationships, so it is essential for leadership.",
+      "answer": "Yes, I think communication is the most important skill for a leader. First, clear words help everyone understand the goal. Second, good communication helps solve problems and reduce stress. For example, my manager solved a team problem by listening to both people. So, communication makes a team work better.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15803,21 +15735,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "experience effective communication important skill",
-      "answerZh": "是的，我认为高效沟通是团队领导者最重要的能力。第一，领导者必须清楚说明目标和职责，让所有人朝同一方向努力。第二，良好的沟通能帮助领导了解员工的顾虑，并在冲突影响团队前及时解决。例如，两位同事曾在项目上产生分歧，经理听取双方意见后帮助他们达成了新的方案。总之，沟通既能提高团队效率，也能改善职场关系，因此对领导者至关重要。",
+      "answerZh": "是的，我认为沟通是领导者最重要的能力。第一，清楚的表达能让每个人理解目标。第二，良好的沟通能帮助解决问题并减轻压力。例如，我的经理通过听取双方意见解决了团队问题。所以，沟通能让团队工作得更好。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Yes, I believe effective communication is the most important skill for a team leader.",
-        "First, a leader must explain goals and responsibilities clearly so everyone works in the same direction.",
-        "Second, good communication helps the leader understand concerns and resolve conflicts before they hurt the team.",
-        "For example, when two coworkers disagreed about a project, my manager listened to both sides and helped them agree on a new plan.",
-        "In short, communication improves both team efficiency and workplace relationships, so it is essential for leadership."
+        "Yes, I think communication is the most important skill for a leader.",
+        "First, clear words help everyone understand the goal.",
+        "Second, good communication helps solve problems and reduce stress.",
+        "For example, my manager solved a team problem by listening to both people.",
+        "So, communication makes a team work better."
       ],
       "answerSectionsZh": [
-        "是的，我认为高效沟通是团队领导者最重要的能力。",
-        "第一，领导者必须清楚说明目标和职责，让所有人朝同一方向努力。",
-        "第二，良好的沟通能帮助领导了解员工的顾虑，并在冲突影响团队前及时解决。",
-        "例如，两位同事曾在项目上产生分歧，经理听取双方意见后帮助他们达成了新的方案。",
-        "总之，沟通既能提高团队效率，也能改善职场关系，因此对领导者至关重要。"
+        "是的，我认为沟通是领导者最重要的能力。",
+        "第一，清楚的表达能让每个人理解目标。",
+        "第二，良好的沟通能帮助解决问题并减轻压力。",
+        "例如，我的经理通过听取双方意见解决了团队问题。",
+        "所以，沟通能让团队工作得更好。"
       ]
     },
     {
@@ -15830,7 +15762,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "公司声誉",
       "prompt": "当你获得一个公司的offer时，你是否同意需要考虑公司的reputation？",
-      "answer": "Yes, I would definitely consider a company's reputation before accepting its offer. First, a good reputation often suggests that the company treats customers and employees responsibly. Second, working for a respected company can provide more stable opportunities and strengthen an employee's resume. For example, if many former employees report delayed salaries or unfair management, I would question whether the offer is worth the risk. Therefore, company reputation is an important sign of both career opportunity and workplace reliability.",
+      "answer": "Yes, I would check a company's reputation before taking a job. First, a good company is more likely to treat workers well. Second, it may offer a safer job and better future chances. For example, many bad worker reviews would make me think again. So, company reputation is important when choosing a job.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15838,21 +15770,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "course consider company reputation firstly",
-      "answerZh": "会的，在接受工作录用前，我一定会考虑公司的声誉。第一，良好的声誉通常说明公司会负责任地对待客户和员工。第二，在受尊重的公司工作能带来更稳定的机会，也能提升员工的履历。例如，如果许多前员工反映工资拖欠或管理不公平，我会怀疑这个工作机会是否值得冒险。因此，公司声誉是判断职业机会和工作环境是否可靠的重要依据。",
+      "answerZh": "会的，我会在接受工作前查看公司的声誉。第一，好公司更可能善待员工。第二，它可能提供更稳定的工作和更好的未来机会。例如，很多员工的差评会让我重新考虑。所以，选择工作时，公司声誉很重要。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Yes, I would definitely consider a company's reputation before accepting its offer.",
-        "First, a good reputation often suggests that the company treats customers and employees responsibly.",
-        "Second, working for a respected company can provide more stable opportunities and strengthen an employee's resume.",
-        "For example, if many former employees report delayed salaries or unfair management, I would question whether the offer is worth the risk.",
-        "Therefore, company reputation is an important sign of both career opportunity and workplace reliability."
+        "Yes, I would check a company's reputation before taking a job.",
+        "First, a good company is more likely to treat workers well.",
+        "Second, it may offer a safer job and better future chances.",
+        "For example, many bad worker reviews would make me think again.",
+        "So, company reputation is important when choosing a job."
       ],
       "answerSectionsZh": [
-        "会的，在接受工作录用前，我一定会考虑公司的声誉。",
-        "第一，良好的声誉通常说明公司会负责任地对待客户和员工。",
-        "第二，在受尊重的公司工作能带来更稳定的机会，也能提升员工的履历。",
-        "例如，如果许多前员工反映工资拖欠或管理不公平，我会怀疑这个工作机会是否值得冒险。",
-        "因此，公司声誉是判断职业机会和工作环境是否可靠的重要依据。"
+        "会的，我会在接受工作前查看公司的声誉。",
+        "第一，好公司更可能善待员工。",
+        "第二，它可能提供更稳定的工作和更好的未来机会。",
+        "例如，很多员工的差评会让我重新考虑。",
+        "所以，选择工作时，公司声誉很重要。"
       ]
     },
     {
@@ -15865,7 +15797,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "实习的重要性",
       "prompt": "大学生是否要利用空闲时间去公司当实习生？为什么？",
-      "answer": "I believe college students should use some of their free time to complete an internship. First, an internship teaches practical skills and workplace behavior that are difficult to learn in class. Second, it helps students test a career choice and build professional contacts before graduation. For example, a marketing student who assists with a real campaign can learn which tasks she enjoys and discuss that experience in future interviews. For these reasons, a well-chosen internship is a valuable bridge between university and full-time work.",
+      "answer": "I think college students should do an internship. First, they can learn real work skills outside the classroom. Second, they can learn what kind of job is right for them. For example, a marketing student could help with a real sales project. So, an internship is good preparation for a future job.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15873,21 +15805,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "sure college students internship firstly",
-      "answerZh": "我认为大学生应该利用部分空闲时间参加实习。第一，实习能教授课堂上很难学到的实践技能和职场行为规范。第二，实习能帮助学生在毕业前验证职业选择，并建立职业人脉。例如，市场营销专业的学生参与真实项目后，可以了解自己喜欢哪些任务，并在未来面试中介绍这段经历。因此，一份合适的实习是连接大学学习和全职工作的宝贵桥梁。",
+      "answerZh": "我认为大学生应该参加实习。第一，他们可以在课堂外学习真正的工作技能。第二，他们可以了解什么工作适合自己。例如，市场营销专业的学生可以参与真实的销售项目。所以，实习能为未来工作做好准备。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I believe college students should use some of their free time to complete an internship.",
-        "First, an internship teaches practical skills and workplace behavior that are difficult to learn in class.",
-        "Second, it helps students test a career choice and build professional contacts before graduation.",
-        "For example, a marketing student who assists with a real campaign can learn which tasks she enjoys and discuss that experience in future interviews.",
-        "For these reasons, a well-chosen internship is a valuable bridge between university and full-time work."
+        "I think college students should do an internship.",
+        "First, they can learn real work skills outside the classroom.",
+        "Second, they can learn what kind of job is right for them.",
+        "For example, a marketing student could help with a real sales project.",
+        "So, an internship is good preparation for a future job."
       ],
       "answerSectionsZh": [
-        "我认为大学生应该利用部分空闲时间参加实习。",
-        "第一，实习能教授课堂上很难学到的实践技能和职场行为规范。",
-        "第二，实习能帮助学生在毕业前验证职业选择，并建立职业人脉。",
-        "例如，市场营销专业的学生参与真实项目后，可以了解自己喜欢哪些任务，并在未来面试中介绍这段经历。",
-        "因此，一份合适的实习是连接大学学习和全职工作的宝贵桥梁。"
+        "我认为大学生应该参加实习。",
+        "第一，他们可以在课堂外学习真正的工作技能。",
+        "第二，他们可以了解什么工作适合自己。",
+        "例如，市场营销专业的学生可以参与真实的销售项目。",
+        "所以，实习能为未来工作做好准备。"
       ]
     },
     {
@@ -15900,7 +15832,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "工作性格偏好",
       "prompt": "你更愿意跟哪种人工作：比较幽默humor的人，还是比较严肃serious的人？",
-      "answer": "I would prefer to work with a person who has a good sense of humor. First, humor can reduce stress and make everyday communication more comfortable. Second, a relaxed atmosphere encourages people to share ideas and cooperate more openly. For example, during a difficult project, one humorous teammate kept our meetings positive, and the group stayed motivated despite the pressure. Therefore, as long as the person remains responsible and respectful, humor can make a team happier and more productive.",
+      "answer": "I prefer to work with a person who has a good sense of humor. First, humor can reduce stress at work. Second, it can make communication easier and more friendly. For example, a funny coworker helped my team stay positive during a hard project. So, humor can make a team happier and stronger.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15908,21 +15840,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "humorous people choice several reasons",
-      "answerZh": "我更愿意和有幽默感的人一起工作。第一，幽默能够缓解压力，让日常沟通更加轻松。第二，放松的氛围会鼓励大家更开放地分享想法、开展合作。例如，在一个困难项目中，一位幽默的队友让会议保持积极，团队在压力下仍然很有动力。因此，只要这个人负责并尊重他人，幽默就能让团队更快乐、更高效。",
+      "answerZh": "我更喜欢和有幽默感的人一起工作。第一，幽默可以减轻工作压力。第二，它能让沟通更轻松、更友好。例如，一位幽默的同事让我们团队在困难项目中保持积极。所以，幽默能让团队更快乐、更团结。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I would prefer to work with a person who has a good sense of humor.",
-        "First, humor can reduce stress and make everyday communication more comfortable.",
-        "Second, a relaxed atmosphere encourages people to share ideas and cooperate more openly.",
-        "For example, during a difficult project, one humorous teammate kept our meetings positive, and the group stayed motivated despite the pressure.",
-        "Therefore, as long as the person remains responsible and respectful, humor can make a team happier and more productive."
+        "I prefer to work with a person who has a good sense of humor.",
+        "First, humor can reduce stress at work.",
+        "Second, it can make communication easier and more friendly.",
+        "For example, a funny coworker helped my team stay positive during a hard project.",
+        "So, humor can make a team happier and stronger."
       ],
       "answerSectionsZh": [
-        "我更愿意和有幽默感的人一起工作。",
-        "第一，幽默能够缓解压力，让日常沟通更加轻松。",
-        "第二，放松的氛围会鼓励大家更开放地分享想法、开展合作。",
-        "例如，在一个困难项目中，一位幽默的队友让会议保持积极，团队在压力下仍然很有动力。",
-        "因此，只要这个人负责并尊重他人，幽默就能让团队更快乐、更高效。"
+        "我更喜欢和有幽默感的人一起工作。",
+        "第一，幽默可以减轻工作压力。",
+        "第二，它能让沟通更轻松、更友好。",
+        "例如，一位幽默的同事让我们团队在困难项目中保持积极。",
+        "所以，幽默能让团队更快乐、更团结。"
       ]
     },
     {
@@ -15935,7 +15867,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "项目管理与团队合作",
       "prompt": "如果两个人在项目中出现分歧是要解决还是忽略？",
-      "answer": "I think team members should address a disagreement instead of ignoring it. First, an unresolved disagreement can cause confusion about goals and responsibilities, which lowers efficiency. Second, discussing the issue respectfully can reveal useful ideas and strengthen trust within the team. For example, two coworkers on my project disagreed about a schedule, but after comparing customer needs, they created a plan that both could support. Therefore, solving disagreements early helps protect both the project and the working relationship.",
+      "answer": "I think people should solve a disagreement, not ignore it. First, an unsolved problem can slow down the work. Second, talking about it can build trust in the team. For example, two coworkers discussed a schedule problem and found a plan together. So, solving problems early is better for everyone.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15943,21 +15875,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience cannot ignore",
-      "answerZh": "我认为团队成员应该解决分歧，而不是忽略它。第一，没有解决的分歧会让目标和职责变得混乱，从而降低效率。第二，以尊重的方式讨论问题能够发现有价值的想法，并增强团队信任。例如，我项目中的两位同事曾对进度安排意见不同，但在比较客户需求后，他们制定了双方都能接受的计划。因此，尽早解决分歧能同时保护项目成果和同事关系。",
+      "answerZh": "我认为人们应该解决分歧，而不是忽略它。第一，没有解决的问题会拖慢工作。第二，讨论问题可以建立团队信任。例如，两位同事讨论了进度问题，并一起找到了方案。所以，尽早解决问题对每个人都更好。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I think team members should address a disagreement instead of ignoring it.",
-        "First, an unresolved disagreement can cause confusion about goals and responsibilities, which lowers efficiency.",
-        "Second, discussing the issue respectfully can reveal useful ideas and strengthen trust within the team.",
-        "For example, two coworkers on my project disagreed about a schedule, but after comparing customer needs, they created a plan that both could support.",
-        "Therefore, solving disagreements early helps protect both the project and the working relationship."
+        "I think people should solve a disagreement, not ignore it.",
+        "First, an unsolved problem can slow down the work.",
+        "Second, talking about it can build trust in the team.",
+        "For example, two coworkers discussed a schedule problem and found a plan together.",
+        "So, solving problems early is better for everyone."
       ],
       "answerSectionsZh": [
-        "我认为团队成员应该解决分歧，而不是忽略它。",
-        "第一，没有解决的分歧会让目标和职责变得混乱，从而降低效率。",
-        "第二，以尊重的方式讨论问题能够发现有价值的想法，并增强团队信任。",
-        "例如，我项目中的两位同事曾对进度安排意见不同，但在比较客户需求后，他们制定了双方都能接受的计划。",
-        "因此，尽早解决分歧能同时保护项目成果和同事关系。"
+        "我认为人们应该解决分歧，而不是忽略它。",
+        "第一，没有解决的问题会拖慢工作。",
+        "第二，讨论问题可以建立团队信任。",
+        "例如，两位同事讨论了进度问题，并一起找到了方案。",
+        "所以，尽早解决问题对每个人都更好。"
       ]
     },
     {
@@ -15970,7 +15902,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "教育与工作经验",
       "prompt": "教育背景和相关工作经验，哪个更重要，为什么？",
-      "answer": "I believe relevant work experience is more important than educational background for most positions. First, experienced candidates already understand real workplace problems and can contribute with less training. Second, their past results show employers how they apply knowledge, communicate, and handle responsibility. For example, when my company hired a project coordinator, the candidate with internship experience adapted faster than someone who had stronger grades but no practical experience. Therefore, education provides a foundation, but relevant experience is usually a better sign of job readiness.",
+      "answer": "I think related work experience is more important for most jobs. First, experienced workers can solve real problems more quickly. Second, they need less training and can start work sooner. For example, an intern at my company learned the job faster than a new worker without experience. So, education is useful, but experience shows real work ability.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -15978,21 +15910,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion education background important several",
-      "answerZh": "我认为对大多数职位来说，相关工作经验比教育背景更重要。第一，有经验的应聘者已经了解真实的职场问题，不需要太多培训就能做出贡献。第二，过去的工作成果能向雇主展示他们如何运用知识、沟通和承担责任。例如，我公司招聘项目协调员时，有实习经验的候选人比成绩更好但没有实践经验的人适应得更快。因此，教育提供基础，但相关经验通常更能说明一个人是否已经做好工作的准备。",
+      "answerZh": "我认为对大多数工作来说，相关工作经验更重要。第一，有经验的员工能更快解决实际问题。第二，他们需要的培训更少，可以更快开始工作。例如，我公司的一位实习生比没有经验的新员工更快学会了工作。所以，教育很有用，但经验更能体现实际工作能力。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I believe relevant work experience is more important than educational background for most positions.",
-        "First, experienced candidates already understand real workplace problems and can contribute with less training.",
-        "Second, their past results show employers how they apply knowledge, communicate, and handle responsibility.",
-        "For example, when my company hired a project coordinator, the candidate with internship experience adapted faster than someone who had stronger grades but no practical experience.",
-        "Therefore, education provides a foundation, but relevant experience is usually a better sign of job readiness."
+        "I think related work experience is more important for most jobs.",
+        "First, experienced workers can solve real problems more quickly.",
+        "Second, they need less training and can start work sooner.",
+        "For example, an intern at my company learned the job faster than a new worker without experience.",
+        "So, education is useful, but experience shows real work ability."
       ],
       "answerSectionsZh": [
-        "我认为对大多数职位来说，相关工作经验比教育背景更重要。",
-        "第一，有经验的应聘者已经了解真实的职场问题，不需要太多培训就能做出贡献。",
-        "第二，过去的工作成果能向雇主展示他们如何运用知识、沟通和承担责任。",
-        "例如，我公司招聘项目协调员时，有实习经验的候选人比成绩更好但没有实践经验的人适应得更快。",
-        "因此，教育提供基础，但相关经验通常更能说明一个人是否已经做好工作的准备。"
+        "我认为对大多数工作来说，相关工作经验更重要。",
+        "第一，有经验的员工能更快解决实际问题。",
+        "第二，他们需要的培训更少，可以更快开始工作。",
+        "例如，我公司的一位实习生比没有经验的新员工更快学会了工作。",
+        "所以，教育很有用，但经验更能体现实际工作能力。"
       ]
     },
     {
@@ -16005,7 +15937,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "公司环境友好政策的好处",
       "prompt": "Question: What do you think are the benefits of a company having environmentally friendly policies, and why?",
-      "answer": "Environmentally friendly policies can bring a company several long-term benefits. First, reducing energy use and waste can lower operating costs over time. Second, responsible policies improve the company's public image and attract customers who care about sustainability. Third, they help the company follow environmental regulations and attract employees who share these values. In conclusion, green policies protect the environment while also improving efficiency, reputation, and long-term business stability.",
+      "answer": "I think green policies can help a company in many ways. First, saving energy can lower the company's costs. Second, a green image can bring more customers. Third, many young workers want to join a company that cares about nature. So, green policies are good for both business and the environment.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16013,21 +15945,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think company environmentally friendly policies",
-      "answerZh": "环保政策可以为公司带来多项长期利益。第一，减少能源使用和废弃物能够逐步降低运营成本。第二，负责任的政策会改善公司公众形象，并吸引重视可持续发展的客户。第三，这些政策能帮助公司遵守环保法规，并吸引认同这些价值观的员工。总之，绿色政策既保护环境，也能提高效率、声誉和企业的长期稳定性。",
+      "answerZh": "我认为环保政策能从很多方面帮助公司。第一，节约能源可以降低公司成本。第二，环保形象可以带来更多客户。第三，很多年轻人愿意加入关心自然的公司。所以，环保政策对企业和环境都有好处。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Environmentally friendly policies can bring a company several long-term benefits.",
-        "First, reducing energy use and waste can lower operating costs over time.",
-        "Second, responsible policies improve the company's public image and attract customers who care about sustainability.",
-        "Third, they help the company follow environmental regulations and attract employees who share these values.",
-        "In conclusion, green policies protect the environment while also improving efficiency, reputation, and long-term business stability."
+        "I think green policies can help a company in many ways.",
+        "First, saving energy can lower the company's costs.",
+        "Second, a green image can bring more customers.",
+        "Third, many young workers want to join a company that cares about nature.",
+        "So, green policies are good for both business and the environment."
       ],
       "answerSectionsZh": [
-        "环保政策可以为公司带来多项长期利益。",
-        "第一，减少能源使用和废弃物能够逐步降低运营成本。",
-        "第二，负责任的政策会改善公司公众形象，并吸引重视可持续发展的客户。",
-        "第三，这些政策能帮助公司遵守环保法规，并吸引认同这些价值观的员工。",
-        "总之，绿色政策既保护环境，也能提高效率、声誉和企业的长期稳定性。"
+        "我认为环保政策能从很多方面帮助公司。",
+        "第一，节约能源可以降低公司成本。",
+        "第二，环保形象可以带来更多客户。",
+        "第三，很多年轻人愿意加入关心自然的公司。",
+        "所以，环保政策对企业和环境都有好处。"
       ]
     },
     {
@@ -16040,7 +15972,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "冲突处理方式",
       "prompt": "发生分歧时，应该直接解决还是找领导帮忙？",
-      "answer": "When a disagreement occurs, I think coworkers should first try to solve it directly. First, a respectful conversation is usually faster and helps both people understand the cause of the problem. Second, solving small issues independently builds trust and prevents managers from being involved unnecessarily. For example, if two coworkers disagree about a deadline, they can compare their workloads and agree on a realistic schedule; they should ask a supervisor only if that fails. Therefore, direct discussion should be the first step, with a manager serving as a useful backup.",
+      "answer": "I think coworkers should first solve a disagreement by themselves. First, direct communication is usually faster. Second, solving small problems together can build trust. For example, two coworkers can discuss their work time and make a new plan. So, they should ask a manager only when they cannot solve it.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16048,21 +15980,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according experience depends situation general",
-      "answerZh": "发生分歧时，我认为同事应该先尝试直接解决。第一，尊重地交谈通常更快，也能帮助双方理解问题产生的原因。第二，独立解决小问题可以建立信任，并避免不必要地占用主管时间。例如，如果两位同事对截止日期意见不一，可以比较各自工作量并商定现实的进度；只有无法解决时再请主管帮助。因此，直接沟通应当是第一步，主管则可以作为必要时的支持。",
+      "answerZh": "我认为同事应该先自己解决分歧。第一，直接沟通通常更快。第二，一起解决小问题可以建立信任。例如，两位同事可以讨论各自的工作时间，并制定新计划。所以，只有无法解决时，他们才应该请经理帮助。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "When a disagreement occurs, I think coworkers should first try to solve it directly.",
-        "First, a respectful conversation is usually faster and helps both people understand the cause of the problem.",
-        "Second, solving small issues independently builds trust and prevents managers from being involved unnecessarily.",
-        "For example, if two coworkers disagree about a deadline, they can compare their workloads and agree on a realistic schedule; they should ask a supervisor only if that fails.",
-        "Therefore, direct discussion should be the first step, with a manager serving as a useful backup."
+        "I think coworkers should first solve a disagreement by themselves.",
+        "First, direct communication is usually faster.",
+        "Second, solving small problems together can build trust.",
+        "For example, two coworkers can discuss their work time and make a new plan.",
+        "So, they should ask a manager only when they cannot solve it."
       ],
       "answerSectionsZh": [
-        "发生分歧时，我认为同事应该先尝试直接解决。",
-        "第一，尊重地交谈通常更快，也能帮助双方理解问题产生的原因。",
-        "第二，独立解决小问题可以建立信任，并避免不必要地占用主管时间。",
-        "例如，如果两位同事对截止日期意见不一，可以比较各自工作量并商定现实的进度；只有无法解决时再请主管帮助。",
-        "因此，直接沟通应当是第一步，主管则可以作为必要时的支持。"
+        "我认为同事应该先自己解决分歧。",
+        "第一，直接沟通通常更快。",
+        "第二，一起解决小问题可以建立信任。",
+        "例如，两位同事可以讨论各自的工作时间，并制定新计划。",
+        "所以，只有无法解决时，他们才应该请经理帮助。"
       ]
     },
     {
@@ -16075,7 +16007,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "主管评价员工",
       "prompt": "主管评价员工时，周边同事的反馈是否很重要？请说明原因。",
-      "answer": "Yes, coworker feedback is important when a supervisor evaluates an employee. First, coworkers observe daily behavior such as cooperation, communication, and reliability that a supervisor may not always see. Second, several perspectives can reduce personal bias and make the evaluation fairer. For example, a quiet employee may not speak often in front of a manager, but teammates may explain that she regularly helps them solve problems. Therefore, coworker feedback should support, though not completely replace, the supervisor's own judgment.",
+      "answer": "Yes, I think coworker feedback is important. First, coworkers see a person's daily work and teamwork. Second, more opinions can make the review fairer. For example, coworkers may know that a quiet worker often helps the team. So, their feedback can help a manager make a better review.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16083,21 +16015,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes definitely agree coworker feedback",
-      "answerZh": "是的，主管评价员工时，同事的反馈很重要。第一，同事能观察到合作、沟通和可靠性等日常表现，而主管不一定总能看到这些。第二，多个角度可以减少个人偏见，让评价更加公平。例如，一位安静的员工可能很少在经理面前发言，但队友可以说明她经常帮助大家解决问题。因此，同事反馈应该辅助主管的判断，但不应完全取代主管自己的评价。",
+      "answerZh": "是的，我认为同事的反馈很重要。第一，同事能看到一个人的日常工作和团队合作。第二，更多意见可以让评价更公平。例如，同事可能知道一位安静的员工经常帮助团队。所以，他们的反馈能帮助经理做出更好的评价。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Yes, coworker feedback is important when a supervisor evaluates an employee.",
-        "First, coworkers observe daily behavior such as cooperation, communication, and reliability that a supervisor may not always see.",
-        "Second, several perspectives can reduce personal bias and make the evaluation fairer.",
-        "For example, a quiet employee may not speak often in front of a manager, but teammates may explain that she regularly helps them solve problems.",
-        "Therefore, coworker feedback should support, though not completely replace, the supervisor's own judgment."
+        "Yes, I think coworker feedback is important.",
+        "First, coworkers see a person's daily work and teamwork.",
+        "Second, more opinions can make the review fairer.",
+        "For example, coworkers may know that a quiet worker often helps the team.",
+        "So, their feedback can help a manager make a better review."
       ],
       "answerSectionsZh": [
-        "是的，主管评价员工时，同事的反馈很重要。",
-        "第一，同事能观察到合作、沟通和可靠性等日常表现，而主管不一定总能看到这些。",
-        "第二，多个角度可以减少个人偏见，让评价更加公平。",
-        "例如，一位安静的员工可能很少在经理面前发言，但队友可以说明她经常帮助大家解决问题。",
-        "因此，同事反馈应该辅助主管的判断，但不应完全取代主管自己的评价。"
+        "是的，我认为同事的反馈很重要。",
+        "第一，同事能看到一个人的日常工作和团队合作。",
+        "第二，更多意见可以让评价更公平。",
+        "例如，同事可能知道一位安静的员工经常帮助团队。",
+        "所以，他们的反馈能帮助经理做出更好的评价。"
       ]
     },
     {
@@ -16110,7 +16042,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "员工福利与健康",
       "prompt": "公司提供工作日锻炼的机会是否是一个好主意？",
-      "answer": "Yes, I think companies should give employees opportunities to exercise during the workday. First, short exercise breaks can reduce stress and improve energy and concentration. Second, supporting employee health may reduce sick days and show that the company values its staff. For example, my friend's company offers a thirty-minute lunchtime fitness class, and employees return to work feeling more focused and positive. Therefore, a flexible exercise program can improve both employee well-being and workplace performance.",
+      "answer": "Yes, I think exercise during the workday is a good idea. First, exercise helps workers stay healthy and focused. Second, it can reduce stress and improve their mood. For example, a short walk after lunch can give workers more energy. So, exercise can help both workers and the company.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况提出你的看法或解决方案：",
       "imagePath": "",
@@ -16118,21 +16050,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes think great idea regular",
-      "answerZh": "是的，我认为公司应该在工作日为员工提供锻炼机会。第一，短时间运动能够减轻压力，提高精力和专注力。第二，支持员工健康可以减少病假，也能表明公司重视员工。例如，我朋友的公司在午餐时间提供三十分钟健身课，员工回到工作岗位后更加专注、积极。因此，灵活的锻炼计划能同时改善员工健康和工作表现。",
+      "answerZh": "是的，我认为工作日锻炼是个好主意。第一，运动能帮助员工保持健康和专注。第二，它能减轻压力并改善心情。例如，午饭后短暂散步能给员工更多精力。所以，运动能同时帮助员工和公司。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Yes, I think companies should give employees opportunities to exercise during the workday.",
-        "First, short exercise breaks can reduce stress and improve energy and concentration.",
-        "Second, supporting employee health may reduce sick days and show that the company values its staff.",
-        "For example, my friend's company offers a thirty-minute lunchtime fitness class, and employees return to work feeling more focused and positive.",
-        "Therefore, a flexible exercise program can improve both employee well-being and workplace performance."
+        "Yes, I think exercise during the workday is a good idea.",
+        "First, exercise helps workers stay healthy and focused.",
+        "Second, it can reduce stress and improve their mood.",
+        "For example, a short walk after lunch can give workers more energy.",
+        "So, exercise can help both workers and the company."
       ],
       "answerSectionsZh": [
-        "是的，我认为公司应该在工作日为员工提供锻炼机会。",
-        "第一，短时间运动能够减轻压力，提高精力和专注力。",
-        "第二，支持员工健康可以减少病假，也能表明公司重视员工。",
-        "例如，我朋友的公司在午餐时间提供三十分钟健身课，员工回到工作岗位后更加专注、积极。",
-        "因此，灵活的锻炼计划能同时改善员工健康和工作表现。"
+        "是的，我认为工作日锻炼是个好主意。",
+        "第一，运动能帮助员工保持健康和专注。",
+        "第二，它能减轻压力并改善心情。",
+        "例如，午饭后短暂散步能给员工更多精力。",
+        "所以，运动能同时帮助员工和公司。"
       ]
     },
     {
@@ -16145,7 +16077,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "求职技巧",
       "prompt": "对于一个求职者，什么最重要：self-confidence, knowledge of the industry, or clear goals?",
-      "answer": "Among self-confidence, industry knowledge, and clear goals, I think self-confidence is most important for a job seeker. First, confidence helps candidates explain their strengths clearly and remain calm during interviews. Second, it encourages them to apply for challenging positions and recover from rejection. For example, a qualified friend of mine initially failed interviews because she spoke too quietly, but after practicing confidently, she received a good offer. Therefore, knowledge and goals matter, but confidence allows a job seeker to show employers what he or she can do.",
+      "answer": "I think self-confidence is the most important thing for a job seeker. First, confidence helps a person speak clearly in an interview. Second, it helps the person keep trying after a rejection. For example, my friend practiced speaking and later got a good job offer. So, confidence helps people show their real ability.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16153,21 +16085,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think job seeker self confidence",
-      "answerZh": "在自信、行业知识和明确目标中，我认为自信对求职者最重要。第一，自信能帮助应聘者清楚介绍自己的优势，并在面试中保持冷静。第二，自信会鼓励他们申请有挑战性的职位，也能让他们从拒绝中恢复。例如，我一位能力很强的朋友起初因为说话声音太小而面试失败，但在练习自信表达后，她获得了很好的录用机会。因此，知识和目标都很重要，但自信能让求职者向雇主展示自己的真实能力。",
+      "answerZh": "我认为自信对求职者最重要。第一，自信能帮助一个人在面试中清楚表达。第二，它能帮助这个人在被拒绝后继续尝试。例如，我的朋友练习表达后，后来获得了很好的工作机会。所以，自信能帮助人们展示真实能力。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Among self-confidence, industry knowledge, and clear goals, I think self-confidence is most important for a job seeker.",
-        "First, confidence helps candidates explain their strengths clearly and remain calm during interviews.",
-        "Second, it encourages them to apply for challenging positions and recover from rejection.",
-        "For example, a qualified friend of mine initially failed interviews because she spoke too quietly, but after practicing confidently, she received a good offer.",
-        "Therefore, knowledge and goals matter, but confidence allows a job seeker to show employers what he or she can do."
+        "I think self-confidence is the most important thing for a job seeker.",
+        "First, confidence helps a person speak clearly in an interview.",
+        "Second, it helps the person keep trying after a rejection.",
+        "For example, my friend practiced speaking and later got a good job offer.",
+        "So, confidence helps people show their real ability."
       ],
       "answerSectionsZh": [
-        "在自信、行业知识和明确目标中，我认为自信对求职者最重要。",
-        "第一，自信能帮助应聘者清楚介绍自己的优势，并在面试中保持冷静。",
-        "第二，自信会鼓励他们申请有挑战性的职位，也能让他们从拒绝中恢复。",
-        "例如，我一位能力很强的朋友起初因为说话声音太小而面试失败，但在练习自信表达后，她获得了很好的录用机会。",
-        "因此，知识和目标都很重要，但自信能让求职者向雇主展示自己的真实能力。"
+        "我认为自信对求职者最重要。",
+        "第一，自信能帮助一个人在面试中清楚表达。",
+        "第二，它能帮助这个人在被拒绝后继续尝试。",
+        "例如，我的朋友练习表达后，后来获得了很好的工作机会。",
+        "所以，自信能帮助人们展示真实能力。"
       ]
     },
     {
@@ -16180,7 +16112,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "领导力与沟通",
       "prompt": "作为主管，你认为是经验重要还是沟通能力重要",
-      "answer": "I think communication skills are more important than experience for a supervisor. First, a supervisor must explain goals, feedback, and changes clearly so employees know what to do. Second, communication helps a leader understand concerns, motivate the team, and resolve conflict. For example, an experienced manager may still fail if unclear instructions cause repeated mistakes, while a good communicator can ask experts for advice and guide the team effectively. Therefore, experience is valuable, but communication is what allows a supervisor to use that experience successfully.",
+      "answer": "I think communication is more important than experience for a supervisor. First, clear communication helps workers understand their tasks. Second, it helps the supervisor understand problems and support the team. For example, even an experienced manager can cause mistakes with unclear words. So, communication helps a supervisor use experience well.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16188,21 +16120,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think communication skills important experience",
-      "answerZh": "我认为对主管来说，沟通能力比经验更重要。第一，主管必须清楚说明目标、反馈和变化，让员工知道该做什么。第二，沟通能帮助领导了解员工顾虑、激励团队并解决冲突。例如，经验丰富的经理如果指示不清，仍可能造成重复错误；而善于沟通的人可以向专家请教并有效带领团队。因此，经验很有价值，但沟通能力才能让主管成功运用这些经验。",
+      "answerZh": "我认为对主管来说，沟通能力比经验更重要。第一，清楚的沟通能帮助员工理解任务。第二，它能帮助主管了解问题并支持团队。例如，即使经理经验丰富，表达不清也会造成错误。所以，沟通能帮助主管更好地运用经验。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I think communication skills are more important than experience for a supervisor.",
-        "First, a supervisor must explain goals, feedback, and changes clearly so employees know what to do.",
-        "Second, communication helps a leader understand concerns, motivate the team, and resolve conflict.",
-        "For example, an experienced manager may still fail if unclear instructions cause repeated mistakes, while a good communicator can ask experts for advice and guide the team effectively.",
-        "Therefore, experience is valuable, but communication is what allows a supervisor to use that experience successfully."
+        "I think communication is more important than experience for a supervisor.",
+        "First, clear communication helps workers understand their tasks.",
+        "Second, it helps the supervisor understand problems and support the team.",
+        "For example, even an experienced manager can cause mistakes with unclear words.",
+        "So, communication helps a supervisor use experience well."
       ],
       "answerSectionsZh": [
         "我认为对主管来说，沟通能力比经验更重要。",
-        "第一，主管必须清楚说明目标、反馈和变化，让员工知道该做什么。",
-        "第二，沟通能帮助领导了解员工顾虑、激励团队并解决冲突。",
-        "例如，经验丰富的经理如果指示不清，仍可能造成重复错误；而善于沟通的人可以向专家请教并有效带领团队。",
-        "因此，经验很有价值，但沟通能力才能让主管成功运用这些经验。"
+        "第一，清楚的沟通能帮助员工理解任务。",
+        "第二，它能帮助主管了解问题并支持团队。",
+        "例如，即使经理经验丰富，表达不清也会造成错误。",
+        "所以，沟通能帮助主管更好地运用经验。"
       ]
     },
     {
@@ -16215,7 +16147,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "工作制度与福利",
       "prompt": "员工自己设置工作时间有什么好处？",
-      "answer": "Allowing employees to set their own working hours can benefit both workers and companies. First, people can work during the hours when they are most alert and productive. Second, flexible schedules make it easier to manage family responsibilities, appointments, and commuting, which reduces stress. Third, giving employees this choice demonstrates trust and can improve satisfaction, loyalty, and retention. In conclusion, when teams maintain clear availability and meet deadlines, flexible working hours can create a healthier and more productive workplace.",
+      "answer": "I think flexible work hours have many benefits. First, people can work when they have the most energy. Second, they can take care of family and personal needs more easily. Third, this choice can make workers happier and more loyal. So, flexible hours can improve both work and life.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16223,21 +16155,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "allowing employees set own working",
-      "answerZh": "允许员工自己安排工作时间能让员工和公司双方受益。第一，人们可以在自己头脑最清醒、效率最高的时段工作。第二，灵活时间便于安排家庭责任、个人事务和通勤，从而减轻压力。第三，给予员工这种选择体现了信任，能够提高满意度、忠诚度并减少人员流失。总之，只要团队明确在线时间并按时完成任务，灵活工作时间就能创造更健康、更高效的工作环境。",
+      "answerZh": "我认为灵活工作时间有很多好处。第一，人们可以在精力最好的时候工作。第二，他们可以更轻松地照顾家庭和处理个人事务。第三，这种选择能让员工更快乐、更忠诚。所以，灵活时间能同时改善工作和生活。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Allowing employees to set their own working hours can benefit both workers and companies.",
-        "First, people can work during the hours when they are most alert and productive.",
-        "Second, flexible schedules make it easier to manage family responsibilities, appointments, and commuting, which reduces stress.",
-        "Third, giving employees this choice demonstrates trust and can improve satisfaction, loyalty, and retention.",
-        "In conclusion, when teams maintain clear availability and meet deadlines, flexible working hours can create a healthier and more productive workplace."
+        "I think flexible work hours have many benefits.",
+        "First, people can work when they have the most energy.",
+        "Second, they can take care of family and personal needs more easily.",
+        "Third, this choice can make workers happier and more loyal.",
+        "So, flexible hours can improve both work and life."
       ],
       "answerSectionsZh": [
-        "允许员工自己安排工作时间能让员工和公司双方受益。",
-        "第一，人们可以在自己头脑最清醒、效率最高的时段工作。",
-        "第二，灵活时间便于安排家庭责任、个人事务和通勤，从而减轻压力。",
-        "第三，给予员工这种选择体现了信任，能够提高满意度、忠诚度并减少人员流失。",
-        "总之，只要团队明确在线时间并按时完成任务，灵活工作时间就能创造更健康、更高效的工作环境。"
+        "我认为灵活工作时间有很多好处。",
+        "第一，人们可以在精力最好的时候工作。",
+        "第二，他们可以更轻松地照顾家庭和处理个人事务。",
+        "第三，这种选择能让员工更快乐、更忠诚。",
+        "所以，灵活时间能同时改善工作和生活。"
       ]
     },
     {
@@ -16250,7 +16182,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业选择与家庭讨论",
       "prompt": "如果你接到一个工作 offer，你会和家里人讨论吗？优点是什么？",
-      "answer": "Yes, I would discuss a job offer with my family before making a final decision. First, family members know my personality and long-term goals, so they can give advice from a personal perspective. Second, a new job may affect shared matters such as relocation, family time, and finances. For example, when I considered a job in another city, my family helped me compare the higher salary with housing and travel costs. Therefore, a family discussion can lead to a more balanced and confident decision.",
+      "answer": "Yes, I would talk with my family about a job offer. First, they know me well and can give simple advice. Second, a new job may change our family time or living place. For example, my family could help me compare the pay and moving cost. So, family advice can help me make a better choice.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16258,21 +16190,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe good idea discuss job",
-      "answerZh": "会的，在最终决定之前，我会和家人讨论工作录用机会。第一，家人了解我的性格和长期目标，因此能从个人角度给我建议。第二，新工作可能影响搬家、家庭时间和经济安排等共同事务。例如，我曾考虑去另一个城市工作，家人帮助我比较了更高的工资与住房、交通成本。因此，与家人讨论能帮助我做出更全面、更有信心的决定。",
+      "answerZh": "会的，我会和家人讨论工作机会。第一，他们很了解我，可以给我一些简单的建议。第二，新工作可能会改变我们的家庭时间或居住地点。例如，家人可以帮我比较工资和搬家成本。所以，家人的建议能帮助我做出更好的选择。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Yes, I would discuss a job offer with my family before making a final decision.",
-        "First, family members know my personality and long-term goals, so they can give advice from a personal perspective.",
-        "Second, a new job may affect shared matters such as relocation, family time, and finances.",
-        "For example, when I considered a job in another city, my family helped me compare the higher salary with housing and travel costs.",
-        "Therefore, a family discussion can lead to a more balanced and confident decision."
+        "Yes, I would talk with my family about a job offer.",
+        "First, they know me well and can give simple advice.",
+        "Second, a new job may change our family time or living place.",
+        "For example, my family could help me compare the pay and moving cost.",
+        "So, family advice can help me make a better choice."
       ],
       "answerSectionsZh": [
-        "会的，在最终决定之前，我会和家人讨论工作录用机会。",
-        "第一，家人了解我的性格和长期目标，因此能从个人角度给我建议。",
-        "第二，新工作可能影响搬家、家庭时间和经济安排等共同事务。",
-        "例如，我曾考虑去另一个城市工作，家人帮助我比较了更高的工资与住房、交通成本。",
-        "因此，与家人讨论能帮助我做出更全面、更有信心的决定。"
+        "会的，我会和家人讨论工作机会。",
+        "第一，他们很了解我，可以给我一些简单的建议。",
+        "第二，新工作可能会改变我们的家庭时间或居住地点。",
+        "例如，家人可以帮我比较工资和搬家成本。",
+        "所以，家人的建议能帮助我做出更好的选择。"
       ]
     },
     {
@@ -16285,7 +16217,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业成功因素",
       "prompt": "学术或职业成功最重要的因素是什么？",
-      "answer": "I believe perseverance is the most important factor in academic or professional success. First, difficult goals usually require repeated effort, so people must continue even when progress is slow. Second, perseverance helps people learn from mistakes instead of giving up after a failure. For example, one of my classmates failed an important certification exam, studied his weak areas for three more months, and passed the next time. Therefore, talent and knowledge are helpful, but perseverance turns them into lasting success.",
+      "answer": "I think hard work is the most important part of success. First, most goals need time and regular practice. Second, hard-working people learn from mistakes and keep trying. For example, my friend studied every day and passed a difficult test. So, hard work can turn a small chance into success.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16293,21 +16225,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe important factor academic professional",
-      "answerZh": "我认为坚持不懈是取得学业或职业成功最重要的因素。第一，困难的目标通常需要反复努力，所以即使进展缓慢，人们也必须继续坚持。第二，坚持能让人从错误中学习，而不是失败一次就放弃。例如，我的一位同学没有通过重要的资格考试，但他针对薄弱环节又学习了三个月，第二次成功通过。因此，天赋和知识虽然有帮助，但坚持才能把它们转化为长久的成功。",
+      "answerZh": "我认为努力是成功最重要的部分。第一，大多数目标都需要时间和持续练习。第二，努力的人会从错误中学习并继续尝试。例如，我的朋友每天学习，最后通过了一场困难的考试。所以，努力可以把小机会变成成功。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I believe perseverance is the most important factor in academic or professional success.",
-        "First, difficult goals usually require repeated effort, so people must continue even when progress is slow.",
-        "Second, perseverance helps people learn from mistakes instead of giving up after a failure.",
-        "For example, one of my classmates failed an important certification exam, studied his weak areas for three more months, and passed the next time.",
-        "Therefore, talent and knowledge are helpful, but perseverance turns them into lasting success."
+        "I think hard work is the most important part of success.",
+        "First, most goals need time and regular practice.",
+        "Second, hard-working people learn from mistakes and keep trying.",
+        "For example, my friend studied every day and passed a difficult test.",
+        "So, hard work can turn a small chance into success."
       ],
       "answerSectionsZh": [
-        "我认为坚持不懈是取得学业或职业成功最重要的因素。",
-        "第一，困难的目标通常需要反复努力，所以即使进展缓慢，人们也必须继续坚持。",
-        "第二，坚持能让人从错误中学习，而不是失败一次就放弃。",
-        "例如，我的一位同学没有通过重要的资格考试，但他针对薄弱环节又学习了三个月，第二次成功通过。",
-        "因此，天赋和知识虽然有帮助，但坚持才能把它们转化为长久的成功。"
+        "我认为努力是成功最重要的部分。",
+        "第一，大多数目标都需要时间和持续练习。",
+        "第二，努力的人会从错误中学习并继续尝试。",
+        "例如，我的朋友每天学习，最后通过了一场困难的考试。",
+        "所以，努力可以把小机会变成成功。"
       ]
     },
     {
@@ -16320,7 +16252,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "毕业后职业规划",
       "prompt": "你是否认为毕业后的第一份工作是必要的？为什么？",
-      "answer": "I think the first job after graduation is very important for a young person's career. First, it turns classroom knowledge into practical skills and teaches basic workplace habits. Second, it helps graduates discover what kind of work, team, and industry suit them best. For example, my first position showed me that I enjoyed working with customers, so I later chose a career in project management. In conclusion, the first job does not determine an entire career, but it provides valuable experience and direction.",
+      "answer": "I think the first job after college is very important. First, it helps young people learn basic work skills. Second, it helps them learn what kind of job they like. For example, my first job showed me that I enjoy working with people. So, the first job gives useful experience and direction.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16328,21 +16260,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes think job important firstly",
-      "answerZh": "我认为毕业后的第一份工作对年轻人的职业发展非常重要。第一，它能把课堂知识转化为实践技能，并培养基本的职场习惯。第二，它能帮助毕业生发现最适合自己的工作类型、团队和行业。例如，我的第一份工作让我发现自己喜欢与客户合作，因此后来选择了项目管理职业。总之，第一份工作不会决定整个职业生涯，但它能提供宝贵的经验和方向。",
+      "answerZh": "我认为大学毕业后的第一份工作非常重要。第一，它能帮助年轻人学习基本工作技能。第二，它能帮助他们了解自己喜欢什么工作。例如，我的第一份工作让我发现自己喜欢和人打交道。所以，第一份工作能提供有用的经验和方向。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I think the first job after graduation is very important for a young person's career.",
-        "First, it turns classroom knowledge into practical skills and teaches basic workplace habits.",
-        "Second, it helps graduates discover what kind of work, team, and industry suit them best.",
-        "For example, my first position showed me that I enjoyed working with customers, so I later chose a career in project management.",
-        "In conclusion, the first job does not determine an entire career, but it provides valuable experience and direction."
+        "I think the first job after college is very important.",
+        "First, it helps young people learn basic work skills.",
+        "Second, it helps them learn what kind of job they like.",
+        "For example, my first job showed me that I enjoy working with people.",
+        "So, the first job gives useful experience and direction."
       ],
       "answerSectionsZh": [
-        "我认为毕业后的第一份工作对年轻人的职业发展非常重要。",
-        "第一，它能把课堂知识转化为实践技能，并培养基本的职场习惯。",
-        "第二，它能帮助毕业生发现最适合自己的工作类型、团队和行业。",
-        "例如，我的第一份工作让我发现自己喜欢与客户合作，因此后来选择了项目管理职业。",
-        "总之，第一份工作不会决定整个职业生涯，但它能提供宝贵的经验和方向。"
+        "我认为大学毕业后的第一份工作非常重要。",
+        "第一，它能帮助年轻人学习基本工作技能。",
+        "第二，它能帮助他们了解自己喜欢什么工作。",
+        "例如，我的第一份工作让我发现自己喜欢和人打交道。",
+        "所以，第一份工作能提供有用的经验和方向。"
       ]
     },
     {
@@ -16355,7 +16287,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业成功与冒险",
       "prompt": "成功是否需要冒险？请给出理由。",
-      "answer": "I believe professional success often requires taking reasonable risks. First, important opportunities usually involve uncertainty, such as changing jobs, leading a new project, or learning an unfamiliar skill. Second, taking calculated risks helps people leave their comfort zones and develop confidence and experience. For example, a colleague of mine accepted a challenging overseas assignment, learned to manage international clients, and later received a promotion. Therefore, people should not take careless risks, but thoughtful risks can create major career growth.",
+      "answer": "I think people sometimes need to take risks to succeed. First, a new chance often comes with some risk. Second, trying something new helps people learn and grow. For example, my friend took a difficult new job and later got a promotion. So, a careful risk can lead to a better career.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16363,21 +16295,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "answer yes reasons firstly risks",
-      "answerZh": "我认为职业成功往往需要承担合理的风险。第一，重要机会通常伴随不确定性，例如换工作、负责新项目或学习陌生技能。第二，经过考虑的冒险能让人走出舒适区，培养信心并积累经验。例如，我的一位同事接受了有挑战性的海外任务，学会管理国际客户，后来获得了晋升。因此，人们不应鲁莽冒险，但经过认真判断的风险能够带来显著的职业成长。",
+      "answerZh": "我认为人们有时需要冒险才能成功。第一，新机会通常会带来一些风险。第二，尝试新事物能帮助人们学习和成长。例如，我的朋友接受了一份困难的新工作，后来获得了晋升。所以，经过考虑的冒险能带来更好的职业发展。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I believe professional success often requires taking reasonable risks.",
-        "First, important opportunities usually involve uncertainty, such as changing jobs, leading a new project, or learning an unfamiliar skill.",
-        "Second, taking calculated risks helps people leave their comfort zones and develop confidence and experience.",
-        "For example, a colleague of mine accepted a challenging overseas assignment, learned to manage international clients, and later received a promotion.",
-        "Therefore, people should not take careless risks, but thoughtful risks can create major career growth."
+        "I think people sometimes need to take risks to succeed.",
+        "First, a new chance often comes with some risk.",
+        "Second, trying something new helps people learn and grow.",
+        "For example, my friend took a difficult new job and later got a promotion.",
+        "So, a careful risk can lead to a better career."
       ],
       "answerSectionsZh": [
-        "我认为职业成功往往需要承担合理的风险。",
-        "第一，重要机会通常伴随不确定性，例如换工作、负责新项目或学习陌生技能。",
-        "第二，经过考虑的冒险能让人走出舒适区，培养信心并积累经验。",
-        "例如，我的一位同事接受了有挑战性的海外任务，学会管理国际客户，后来获得了晋升。",
-        "因此，人们不应鲁莽冒险，但经过认真判断的风险能够带来显著的职业成长。"
+        "我认为人们有时需要冒险才能成功。",
+        "第一，新机会通常会带来一些风险。",
+        "第二，尝试新事物能帮助人们学习和成长。",
+        "例如，我的朋友接受了一份困难的新工作，后来获得了晋升。",
+        "所以，经过考虑的冒险能带来更好的职业发展。"
       ]
     },
     {
@@ -16390,7 +16322,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "跨城市工作优势",
       "prompt": "请说明在一个公司的多处不同城市工作的好处。",
-      "answer": "A company with offices in several cities can offer important benefits to both employees and customers. First, employees may be able to work closer to their families or choose a city that fits their lifestyle. Second, each office can use the local area's talent, business strengths, and market knowledge. Third, teams located near customers can respond faster and provide more personal service. In conclusion, a multi-city structure gives a company more flexibility, wider access to talent, and stronger customer relationships.",
+      "answer": "I think having offices in many cities has several benefits. First, workers may find an office near their family. Second, local teams can help customers more quickly. Third, the company can find more kinds of skilled workers. So, offices in different cities give a company more choices.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16398,21 +16330,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "company subsidiaries different cities several",
-      "answerZh": "一家公司在多个城市设有办公室，能为员工和客户带来重要好处。第一，员工可以在离家人更近的地方工作，或选择更适合自己生活方式的城市。第二，每个办公室都能利用当地的人才、产业优势和市场知识。第三，靠近客户的团队可以更快响应，并提供更贴近需求的服务。总之，多城市布局能让公司更灵活，接触更广泛的人才，并建立更强的客户关系。",
+      "answerZh": "我认为在多个城市设立办公室有几个好处。第一，员工可以找到离家人更近的办公室。第二，当地团队可以更快帮助客户。第三，公司可以找到更多不同类型的优秀员工。所以，不同城市的办公室能给公司更多选择。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "A company with offices in several cities can offer important benefits to both employees and customers.",
-        "First, employees may be able to work closer to their families or choose a city that fits their lifestyle.",
-        "Second, each office can use the local area's talent, business strengths, and market knowledge.",
-        "Third, teams located near customers can respond faster and provide more personal service.",
-        "In conclusion, a multi-city structure gives a company more flexibility, wider access to talent, and stronger customer relationships."
+        "I think having offices in many cities has several benefits.",
+        "First, workers may find an office near their family.",
+        "Second, local teams can help customers more quickly.",
+        "Third, the company can find more kinds of skilled workers.",
+        "So, offices in different cities give a company more choices."
       ],
       "answerSectionsZh": [
-        "一家公司在多个城市设有办公室，能为员工和客户带来重要好处。",
-        "第一，员工可以在离家人更近的地方工作，或选择更适合自己生活方式的城市。",
-        "第二，每个办公室都能利用当地的人才、产业优势和市场知识。",
-        "第三，靠近客户的团队可以更快响应，并提供更贴近需求的服务。",
-        "总之，多城市布局能让公司更灵活，接触更广泛的人才，并建立更强的客户关系。"
+        "我认为在多个城市设立办公室有几个好处。",
+        "第一，员工可以找到离家人更近的办公室。",
+        "第二，当地团队可以更快帮助客户。",
+        "第三，公司可以找到更多不同类型的优秀员工。",
+        "所以，不同城市的办公室能给公司更多选择。"
       ]
     },
     {
@@ -16425,7 +16357,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "大学前实习与gap year",
       "prompt": "你认为高中生毕业后，在进入大学前参加实习或gap year有哪些好处？",
-      "answer": "Taking an internship or a gap year before university can be very beneficial for high school graduates. First, they can gain practical experience and understand how workplaces and adult responsibilities operate. Second, time away from school helps them become more independent and improve communication and time-management skills. Third, exploring different interests can help them choose a university major and career more carefully. In conclusion, a well-planned internship or gap year can make students more mature, skilled, and confident about their future.",
+      "answer": "I think an internship or gap year can help students. First, they can get real work and life experience. Second, they can learn useful skills and become more independent. Third, they can think more clearly about their future. So, this time can help students prepare for college and work.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16433,21 +16365,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion participating internship taking gap",
-      "answerZh": "高中毕业生在上大学前参加实习或间隔年活动会很有帮助。第一，他们可以获得实践经验，了解职场运作和成年人的责任。第二，暂时离开学校能帮助他们更加独立，并提升沟通和时间管理能力。第三，探索不同兴趣能帮助他们更慎重地选择大学专业和未来职业。总之，规划良好的实习或间隔年能让学生更成熟、更有能力，也更明确自己的未来。",
+      "answerZh": "我认为实习或间隔年能帮助学生。第一，他们可以获得真实的工作和生活经验。第二，他们可以学习实用技能并变得更独立。第三，他们可以更清楚地思考自己的未来。所以，这段时间能帮助学生为大学和工作做准备。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Taking an internship or a gap year before university can be very beneficial for high school graduates.",
-        "First, they can gain practical experience and understand how workplaces and adult responsibilities operate.",
-        "Second, time away from school helps them become more independent and improve communication and time-management skills.",
-        "Third, exploring different interests can help them choose a university major and career more carefully.",
-        "In conclusion, a well-planned internship or gap year can make students more mature, skilled, and confident about their future."
+        "I think an internship or gap year can help students.",
+        "First, they can get real work and life experience.",
+        "Second, they can learn useful skills and become more independent.",
+        "Third, they can think more clearly about their future.",
+        "So, this time can help students prepare for college and work."
       ],
       "answerSectionsZh": [
-        "高中毕业生在上大学前参加实习或间隔年活动会很有帮助。",
-        "第一，他们可以获得实践经验，了解职场运作和成年人的责任。",
-        "第二，暂时离开学校能帮助他们更加独立，并提升沟通和时间管理能力。",
-        "第三，探索不同兴趣能帮助他们更慎重地选择大学专业和未来职业。",
-        "总之，规划良好的实习或间隔年能让学生更成熟、更有能力，也更明确自己的未来。"
+        "我认为实习或间隔年能帮助学生。",
+        "第一，他们可以获得真实的工作和生活经验。",
+        "第二，他们可以学习实用技能并变得更独立。",
+        "第三，他们可以更清楚地思考自己的未来。",
+        "所以，这段时间能帮助学生为大学和工作做准备。"
       ]
     },
     {
@@ -16460,7 +16392,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "为老牌公司工作的优点",
       "prompt": "Question: What are the advantages of working for a company that has been in business for many years?",
-      "answer": "Working for a long-established company offers several valuable advantages. First, an experienced company usually has stable operations and clear procedures, which provide greater job security. Second, it often offers structured training, experienced mentors, and a clear path for career development. Third, its strong reputation and professional network can add credibility to an employee's resume. In conclusion, an established company can provide stability, learning opportunities, and long-term career value.",
+      "answer": "I think working for an old company has several advantages. First, the company is usually stable and has clear rules. Second, workers can get good training from experienced people. Third, a well-known company can make a resume stronger. So, an old company can offer a safe place to learn and grow.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16468,21 +16400,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "several advantages working long established",
-      "answerZh": "在一家经营多年的公司工作有几个重要优点。第一，成熟的公司通常经营稳定、流程清晰，能够提供更强的工作保障。第二，这类公司往往有系统培训、经验丰富的导师和清晰的职业发展路径。第三，它良好的声誉和专业网络能提升员工履历的可信度。总之，老牌公司可以带来稳定性、学习机会和长期职业价值。",
+      "answerZh": "我认为在老牌公司工作有几个优点。第一，公司通常比较稳定，也有明确的制度。第二，员工可以从有经验的人那里得到良好培训。第三，知名公司能让履历更有分量。所以，老牌公司能提供安全的学习和成长环境。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Working for a long-established company offers several valuable advantages.",
-        "First, an experienced company usually has stable operations and clear procedures, which provide greater job security.",
-        "Second, it often offers structured training, experienced mentors, and a clear path for career development.",
-        "Third, its strong reputation and professional network can add credibility to an employee's resume.",
-        "In conclusion, an established company can provide stability, learning opportunities, and long-term career value."
+        "I think working for an old company has several advantages.",
+        "First, the company is usually stable and has clear rules.",
+        "Second, workers can get good training from experienced people.",
+        "Third, a well-known company can make a resume stronger.",
+        "So, an old company can offer a safe place to learn and grow."
       ],
       "answerSectionsZh": [
-        "在一家经营多年的公司工作有几个重要优点。",
-        "第一，成熟的公司通常经营稳定、流程清晰，能够提供更强的工作保障。",
-        "第二，这类公司往往有系统培训、经验丰富的导师和清晰的职业发展路径。",
-        "第三，它良好的声誉和专业网络能提升员工履历的可信度。",
-        "总之，老牌公司可以带来稳定性、学习机会和长期职业价值。"
+        "我认为在老牌公司工作有几个优点。",
+        "第一，公司通常比较稳定，也有明确的制度。",
+        "第二，员工可以从有经验的人那里得到良好培训。",
+        "第三，知名公司能让履历更有分量。",
+        "所以，老牌公司能提供安全的学习和成长环境。"
       ]
     },
     {
@@ -16495,7 +16427,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "创业经验对职场工作的好处",
       "prompt": "What are the advantages of having own business experience before working as an employee in a company?",
-      "answer": "Having business ownership experience before becoming an employee can be a major advantage. First, former business owners are used to taking responsibility for decisions and results. Second, they often solve problems independently and stay calm when facing uncertainty. Third, they understand how areas such as products, customers, costs, and marketing connect across a company. Therefore, entrepreneurial experience can make an employee more responsible, adaptable, and aware of the company's overall goals.",
+      "answer": "I think business experience can help a future employee. First, business owners learn to take responsibility. Second, they learn to solve problems by themselves. Third, they understand customers, money, and company goals better. So, business experience can make an employee more useful.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16503,21 +16435,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "several obvious advantages having own",
-      "answerZh": "在成为公司员工之前拥有创业经历会是一个很大的优势。第一，创业者习惯于为自己的决定和结果承担责任。第二，他们通常能够独立解决问题，并在面对不确定性时保持冷静。第三，他们了解产品、客户、成本和市场营销等不同环节如何在公司中相互联系。因此，创业经历能让员工更有责任心、适应力，也更关注公司的整体目标。",
+      "answerZh": "我认为创业经验能帮助未来的员工。第一，创业者会学会承担责任。第二，他们会学会独立解决问题。第三，他们会更了解客户、资金和公司目标。所以，创业经验能让员工更有价值。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Having business ownership experience before becoming an employee can be a major advantage.",
-        "First, former business owners are used to taking responsibility for decisions and results.",
-        "Second, they often solve problems independently and stay calm when facing uncertainty.",
-        "Third, they understand how areas such as products, customers, costs, and marketing connect across a company.",
-        "Therefore, entrepreneurial experience can make an employee more responsible, adaptable, and aware of the company's overall goals."
+        "I think business experience can help a future employee.",
+        "First, business owners learn to take responsibility.",
+        "Second, they learn to solve problems by themselves.",
+        "Third, they understand customers, money, and company goals better.",
+        "So, business experience can make an employee more useful."
       ],
       "answerSectionsZh": [
-        "在成为公司员工之前拥有创业经历会是一个很大的优势。",
-        "第一，创业者习惯于为自己的决定和结果承担责任。",
-        "第二，他们通常能够独立解决问题，并在面对不确定性时保持冷静。",
-        "第三，他们了解产品、客户、成本和市场营销等不同环节如何在公司中相互联系。",
-        "因此，创业经历能让员工更有责任心、适应力，也更关注公司的整体目标。"
+        "我认为创业经验能帮助未来的员工。",
+        "第一，创业者会学会承担责任。",
+        "第二，他们会学会独立解决问题。",
+        "第三，他们会更了解客户、资金和公司目标。",
+        "所以，创业经验能让员工更有价值。"
       ]
     },
     {
@@ -16530,7 +16462,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "现有工作与居住地点哪个更让人开心",
       "prompt": "Question: Which makes you happier, your current job or the location where you live?",
-      "answer": "My current job makes me happier than the location where I live. First, interesting work gives me a sense of achievement and allows me to keep learning useful skills. Second, supportive coworkers make each day more enjoyable and help me handle stressful situations. For example, my team recently completed a difficult project together, and celebrating our success made me feel proud and connected. Therefore, although a pleasant location is important, meaningful work and good colleagues have a stronger effect on my happiness.",
+      "answer": "My current job makes me happier than where I live. First, my work gives me money and a sense of success. Second, my good coworkers make each day more enjoyable. For example, we recently finished a hard project and celebrated together. So, a good job has a strong effect on my happiness.",
       "reason": "泛职场话题但不属于最高频核心模板，放在第二轮练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16538,21 +16470,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion current job makes happier",
-      "answerZh": "与居住地点相比，目前的工作更能让我感到快乐。第一，有趣的工作给我成就感，也让我不断学习有用的技能。第二，支持我的同事让每天的工作更愉快，并帮助我应对压力。例如，我们团队最近共同完成了一个困难项目，庆祝成功让我感到自豪，也更有归属感。因此，舒适的居住地点虽然重要，但有意义的工作和友好的同事对我的幸福感影响更大。",
+      "answerZh": "与居住地点相比，目前的工作让我更快乐。第一，我的工作给我收入和成就感。第二，友好的同事让每一天都更愉快。例如，我们最近完成了一个困难项目，并一起庆祝。所以，一份好工作对我的幸福感影响很大。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "My current job makes me happier than the location where I live.",
-        "First, interesting work gives me a sense of achievement and allows me to keep learning useful skills.",
-        "Second, supportive coworkers make each day more enjoyable and help me handle stressful situations.",
-        "For example, my team recently completed a difficult project together, and celebrating our success made me feel proud and connected.",
-        "Therefore, although a pleasant location is important, meaningful work and good colleagues have a stronger effect on my happiness."
+        "My current job makes me happier than where I live.",
+        "First, my work gives me money and a sense of success.",
+        "Second, my good coworkers make each day more enjoyable.",
+        "For example, we recently finished a hard project and celebrated together.",
+        "So, a good job has a strong effect on my happiness."
       ],
       "answerSectionsZh": [
-        "与居住地点相比，目前的工作更能让我感到快乐。",
-        "第一，有趣的工作给我成就感，也让我不断学习有用的技能。",
-        "第二，支持我的同事让每天的工作更愉快，并帮助我应对压力。",
-        "例如，我们团队最近共同完成了一个困难项目，庆祝成功让我感到自豪，也更有归属感。",
-        "因此，舒适的居住地点虽然重要，但有意义的工作和友好的同事对我的幸福感影响更大。"
+        "与居住地点相比，目前的工作让我更快乐。",
+        "第一，我的工作给我收入和成就感。",
+        "第二，友好的同事让每一天都更愉快。",
+        "例如，我们最近完成了一个困难项目，并一起庆祝。",
+        "所以，一份好工作对我的幸福感影响很大。"
       ]
     },
     {
@@ -16565,7 +16497,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业发展",
       "prompt": "职业生涯中，频繁更换公司的优点？",
-      "answer": "Changing companies several times during a career can offer useful benefits. First, employees experience different systems and industries, which helps them learn a wider range of skills. Second, changing jobs can help people find a role, culture, and career path that better match their goals. Third, each workplace expands their professional network and exposes them to new ideas. In conclusion, thoughtful job changes can increase adaptability, opportunity, and career growth, although changing too often without a clear reason may concern employers.",
+      "answer": "I think changing companies can have some benefits. First, workers can learn new skills in different places. Second, they can find a job that fits them better. Third, they can meet more people and build a larger work network. So, careful job changes can help a person grow.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16573,21 +16505,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think several advantages changing companies",
-      "answerZh": "在职业生涯中更换几家公司可以带来一些有益之处。第一，员工能接触不同的制度和行业，从而学习更广泛的技能。第二，换工作能帮助人们找到更符合个人目标的职位、文化和职业道路。第三，每个工作场所都会扩大职业人脉，并让人接触新的想法。总之，经过认真考虑的跳槽能提高适应力、机会和职业成长，但毫无明确原因地过于频繁跳槽可能让雇主担忧。",
+      "answerZh": "我认为更换公司可以带来一些好处。第一，员工可以在不同地方学习新技能。第二，他们可以找到更适合自己的工作。第三，他们可以认识更多人，建立更大的职业人脉。所以，经过考虑的换工作能帮助一个人成长。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Changing companies several times during a career can offer useful benefits.",
-        "First, employees experience different systems and industries, which helps them learn a wider range of skills.",
-        "Second, changing jobs can help people find a role, culture, and career path that better match their goals.",
-        "Third, each workplace expands their professional network and exposes them to new ideas.",
-        "In conclusion, thoughtful job changes can increase adaptability, opportunity, and career growth, although changing too often without a clear reason may concern employers."
+        "I think changing companies can have some benefits.",
+        "First, workers can learn new skills in different places.",
+        "Second, they can find a job that fits them better.",
+        "Third, they can meet more people and build a larger work network.",
+        "So, careful job changes can help a person grow."
       ],
       "answerSectionsZh": [
-        "在职业生涯中更换几家公司可以带来一些有益之处。",
-        "第一，员工能接触不同的制度和行业，从而学习更广泛的技能。",
-        "第二，换工作能帮助人们找到更符合个人目标的职位、文化和职业道路。",
-        "第三，每个工作场所都会扩大职业人脉，并让人接触新的想法。",
-        "总之，经过认真考虑的跳槽能提高适应力、机会和职业成长，但毫无明确原因地过于频繁跳槽可能让雇主担忧。"
+        "我认为更换公司可以带来一些好处。",
+        "第一，员工可以在不同地方学习新技能。",
+        "第二，他们可以找到更适合自己的工作。",
+        "第三，他们可以认识更多人，建立更大的职业人脉。",
+        "所以，经过考虑的换工作能帮助一个人成长。"
       ]
     },
     {
@@ -16600,7 +16532,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "孩子做家务的好处",
       "prompt": "What are the benefits of children doing housework?",
-      "answer": "Children can gain several important benefits from doing housework. First, regular chores teach responsibility because children learn that every family member should contribute. Second, tasks such as cooking, cleaning, and doing laundry develop practical skills and independence. Third, sharing chores teaches teamwork and helps children appreciate the effort their parents make at home. In conclusion, age-appropriate housework prepares children for adult life while making the family more cooperative.",
+      "answer": "I think housework is very useful for children. First, it teaches them to be responsible. Second, they learn simple life skills such as cooking and cleaning. Third, doing housework together teaches teamwork. So, housework helps children become more independent.",
       "reason": "泛职场话题但不属于最高频核心模板，放在第二轮练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16608,21 +16540,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think several benefits doing housework",
-      "answerZh": "孩子做家务可以获得几个重要的好处。第一，固定的家务能培养责任感，因为孩子会懂得每位家庭成员都应该作出贡献。第二，做饭、打扫和洗衣等任务能够培养生活技能和独立性。第三，共同做家务能教会孩子团队合作，也让他们理解父母在家中的付出。总之，适合年龄的家务既能让家庭更加合作，也能帮助孩子为成年生活做好准备。",
+      "answerZh": "我认为做家务对孩子非常有用。第一，它教会孩子负责任。第二，他们可以学习做饭和打扫等简单生活技能。第三，一起做家务能教会团队合作。所以，家务能帮助孩子变得更独立。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Children can gain several important benefits from doing housework.",
-        "First, regular chores teach responsibility because children learn that every family member should contribute.",
-        "Second, tasks such as cooking, cleaning, and doing laundry develop practical skills and independence.",
-        "Third, sharing chores teaches teamwork and helps children appreciate the effort their parents make at home.",
-        "In conclusion, age-appropriate housework prepares children for adult life while making the family more cooperative."
+        "I think housework is very useful for children.",
+        "First, it teaches them to be responsible.",
+        "Second, they learn simple life skills such as cooking and cleaning.",
+        "Third, doing housework together teaches teamwork.",
+        "So, housework helps children become more independent."
       ],
       "answerSectionsZh": [
-        "孩子做家务可以获得几个重要的好处。",
-        "第一，固定的家务能培养责任感，因为孩子会懂得每位家庭成员都应该作出贡献。",
-        "第二，做饭、打扫和洗衣等任务能够培养生活技能和独立性。",
-        "第三，共同做家务能教会孩子团队合作，也让他们理解父母在家中的付出。",
-        "总之，适合年龄的家务既能让家庭更加合作，也能帮助孩子为成年生活做好准备。"
+        "我认为做家务对孩子非常有用。",
+        "第一，它教会孩子负责任。",
+        "第二，他们可以学习做饭和打扫等简单生活技能。",
+        "第三，一起做家务能教会团队合作。",
+        "所以，家务能帮助孩子变得更独立。"
       ]
     },
     {
@@ -16635,7 +16567,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "技术与工作生活平衡",
       "prompt": "Does technology make it difficult to balance work and personal life? Explain your opinion.",
-      "answer": "Yes, I think technology can make it harder to balance work and personal life. First, email and messaging applications allow work requests to reach employees at any hour. Second, the expectation of a quick response makes it difficult to relax and focus on family or personal interests. For example, a friend of mine often checks work messages during dinner, so he never feels completely away from the office. Therefore, technology is useful, but employees and companies need clear boundaries for communication outside working hours.",
+      "answer": "Yes, I think technology can make work-life balance harder. First, work messages can arrive at any time. Second, people may feel they must answer quickly and cannot rest. For example, my friend often checks work messages during dinner. So, companies should set clear rules for messages after work.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16643,21 +16575,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "experience technology makes harder balance",
-      "answerZh": "是的，我认为技术会让平衡工作和个人生活变得更困难。第一，电子邮件和即时通信应用让工作要求可以在任何时间到达员工手中。第二，人们被期待迅速回复，因此很难放松并专注于家庭或个人兴趣。例如，我的一位朋友吃晚饭时也经常查看工作消息，所以他总觉得自己没有真正离开办公室。因此，技术虽然有用，但员工和公司都需要为工作时间之外的沟通设定明确界限。",
+      "answerZh": "是的，我认为技术会让工作与生活的平衡更困难。第一，工作消息可能在任何时间到达。第二，人们可能觉得必须马上回复，无法好好休息。例如，我的朋友吃晚饭时也经常查看工作消息。所以，公司应该为下班后的消息设定明确规则。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Yes, I think technology can make it harder to balance work and personal life.",
-        "First, email and messaging applications allow work requests to reach employees at any hour.",
-        "Second, the expectation of a quick response makes it difficult to relax and focus on family or personal interests.",
-        "For example, a friend of mine often checks work messages during dinner, so he never feels completely away from the office.",
-        "Therefore, technology is useful, but employees and companies need clear boundaries for communication outside working hours."
+        "Yes, I think technology can make work-life balance harder.",
+        "First, work messages can arrive at any time.",
+        "Second, people may feel they must answer quickly and cannot rest.",
+        "For example, my friend often checks work messages during dinner.",
+        "So, companies should set clear rules for messages after work."
       ],
       "answerSectionsZh": [
-        "是的，我认为技术会让平衡工作和个人生活变得更困难。",
-        "第一，电子邮件和即时通信应用让工作要求可以在任何时间到达员工手中。",
-        "第二，人们被期待迅速回复，因此很难放松并专注于家庭或个人兴趣。",
-        "例如，我的一位朋友吃晚饭时也经常查看工作消息，所以他总觉得自己没有真正离开办公室。",
-        "因此，技术虽然有用，但员工和公司都需要为工作时间之外的沟通设定明确界限。"
+        "是的，我认为技术会让工作与生活的平衡更困难。",
+        "第一，工作消息可能在任何时间到达。",
+        "第二，人们可能觉得必须马上回复，无法好好休息。",
+        "例如，我的朋友吃晚饭时也经常查看工作消息。",
+        "所以，公司应该为下班后的消息设定明确规则。"
       ]
     },
     {
@@ -16670,7 +16602,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "图书馆改进",
       "prompt": "如果你可以改变你们国家的图书馆，你想改变哪一件事，为什么？",
-      "answer": "If I could change one thing about my country's libraries, I would improve their digital services. First, online books and databases would let people study whenever and wherever they have time. Second, digital access would help people who live far from a library or have difficulty traveling. For example, a working adult could read an e-book or watch an online lecture after work without visiting the library. In short, better digital services would make library resources more convenient and accessible to everyone.",
+      "answer": "I would add more online services to public libraries. First, people could read books anytime at home. Second, they would not need to spend time traveling to a library. For example, busy workers could read an online book after work. So, better online services would make libraries more useful.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16678,21 +16610,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "improve digital library system adding",
-      "answerZh": "如果可以改变我国图书馆的一件事，我会改善数字化服务。第一，电子书和在线数据库能让人们随时随地利用空闲时间学习。第二，数字服务可以帮助住得离图书馆很远或出行不便的人。例如，上班族下班后不用去图书馆，也可以阅读电子书或观看在线讲座。总之，更好的数字化服务能让每个人都更方便地使用图书馆资源。",
+      "answerZh": "我会为公共图书馆增加更多在线服务。第一，人们可以随时在家读书。第二，他们不需要花时间去图书馆。例如，忙碌的上班族可以下班后阅读电子书。所以，更好的在线服务会让图书馆更实用。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "If I could change one thing about my country's libraries, I would improve their digital services.",
-        "First, online books and databases would let people study whenever and wherever they have time.",
-        "Second, digital access would help people who live far from a library or have difficulty traveling.",
-        "For example, a working adult could read an e-book or watch an online lecture after work without visiting the library.",
-        "In short, better digital services would make library resources more convenient and accessible to everyone."
+        "I would add more online services to public libraries.",
+        "First, people could read books anytime at home.",
+        "Second, they would not need to spend time traveling to a library.",
+        "For example, busy workers could read an online book after work.",
+        "So, better online services would make libraries more useful."
       ],
       "answerSectionsZh": [
-        "如果可以改变我国图书馆的一件事，我会改善数字化服务。",
-        "第一，电子书和在线数据库能让人们随时随地利用空闲时间学习。",
-        "第二，数字服务可以帮助住得离图书馆很远或出行不便的人。",
-        "例如，上班族下班后不用去图书馆，也可以阅读电子书或观看在线讲座。",
-        "总之，更好的数字化服务能让每个人都更方便地使用图书馆资源。"
+        "我会为公共图书馆增加更多在线服务。",
+        "第一，人们可以随时在家读书。",
+        "第二，他们不需要花时间去图书馆。",
+        "例如，忙碌的上班族可以下班后阅读电子书。",
+        "所以，更好的在线服务会让图书馆更实用。"
       ]
     },
     {
@@ -16705,7 +16637,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "图书馆改进",
       "prompt": "如果你可以改变你们国家的图书馆，你想改变哪一件事，为什么？",
-      "answer": "I would expand the national library's online resources and remote services. First, digital materials are available around the clock, which is convenient for students and busy workers. Second, remote services give people outside major cities equal access to reliable information. For example, a student in a small town could borrow an e-book and consult a librarian online while preparing a research paper. For these reasons, stronger digital services would make the national library more useful and inclusive.",
+      "answer": "I would give the national library more online books. First, people could use them at any time. Second, people in small cities could get the same information. For example, a student could study online without taking a long trip. So, online books would make the library easier to use.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16713,21 +16645,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "change thing national library improve",
-      "answerZh": "我会扩大国家图书馆的在线资源和远程服务。第一，数字资料可以全天使用，对学生和忙碌的上班族都很方便。第二，远程服务能让大城市以外的人也平等获取可靠信息。例如，小城镇的学生在准备研究论文时，可以借阅电子书并在线咨询图书管理员。因此，更完善的数字服务会让国家图书馆更实用、更具包容性。",
+      "answerZh": "我会给国家图书馆增加更多电子书。第一，人们可以随时使用这些资源。第二，小城市的人也能获得同样的信息。例如，学生不用长途出行，也可以在线学习。所以，电子书会让图书馆更方便使用。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I would expand the national library's online resources and remote services.",
-        "First, digital materials are available around the clock, which is convenient for students and busy workers.",
-        "Second, remote services give people outside major cities equal access to reliable information.",
-        "For example, a student in a small town could borrow an e-book and consult a librarian online while preparing a research paper.",
-        "For these reasons, stronger digital services would make the national library more useful and inclusive."
+        "I would give the national library more online books.",
+        "First, people could use them at any time.",
+        "Second, people in small cities could get the same information.",
+        "For example, a student could study online without taking a long trip.",
+        "So, online books would make the library easier to use."
       ],
       "answerSectionsZh": [
-        "我会扩大国家图书馆的在线资源和远程服务。",
-        "第一，数字资料可以全天使用，对学生和忙碌的上班族都很方便。",
-        "第二，远程服务能让大城市以外的人也平等获取可靠信息。",
-        "例如，小城镇的学生在准备研究论文时，可以借阅电子书并在线咨询图书管理员。",
-        "因此，更完善的数字服务会让国家图书馆更实用、更具包容性。"
+        "我会给国家图书馆增加更多电子书。",
+        "第一，人们可以随时使用这些资源。",
+        "第二，小城市的人也能获得同样的信息。",
+        "例如，学生不用长途出行，也可以在线学习。",
+        "所以，电子书会让图书馆更方便使用。"
       ]
     },
     {
@@ -16740,7 +16672,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "网络新闻缺点",
       "prompt": "网上阅读新闻有哪些坏处？",
-      "answer": "I think reading news online has several important disadvantages. First, false or poorly checked stories can spread quickly and mislead readers. Second, constant updates and repeated headlines can waste time and make it difficult to focus. Third, recommendation algorithms often show similar viewpoints, so readers may not see a balanced picture. In conclusion, online news is convenient, but people should verify sources, limit reading time, and compare different viewpoints.",
+      "answer": "I think reading news online has some problems. First, some online news is not true. Second, too much news can waste our time. Third, websites may show us only one kind of opinion. So, we should check the source and read different news sites.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16748,21 +16680,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion reading news online several",
-      "answerZh": "我认为在网上阅读新闻有几个明显的缺点。第一，虚假或未经充分核实的新闻传播很快，容易误导读者。第二，不断更新和重复出现的标题会浪费时间，也让人难以集中注意力。第三，推荐算法经常展示相似观点，使读者难以看到全面的信息。总之，网络新闻虽然方便，但人们应核实来源、控制阅读时间并比较不同观点。",
+      "answerZh": "我认为在网上读新闻有一些问题。第一，有些网络新闻不真实。第二，太多新闻会浪费我们的时间。第三，网站可能只向我们展示一种观点。所以，我们应该核实来源，并阅读不同的新闻网站。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "I think reading news online has several important disadvantages.",
-        "First, false or poorly checked stories can spread quickly and mislead readers.",
-        "Second, constant updates and repeated headlines can waste time and make it difficult to focus.",
-        "Third, recommendation algorithms often show similar viewpoints, so readers may not see a balanced picture.",
-        "In conclusion, online news is convenient, but people should verify sources, limit reading time, and compare different viewpoints."
+        "I think reading news online has some problems.",
+        "First, some online news is not true.",
+        "Second, too much news can waste our time.",
+        "Third, websites may show us only one kind of opinion.",
+        "So, we should check the source and read different news sites."
       ],
       "answerSectionsZh": [
-        "我认为在网上阅读新闻有几个明显的缺点。",
-        "第一，虚假或未经充分核实的新闻传播很快，容易误导读者。",
-        "第二，不断更新和重复出现的标题会浪费时间，也让人难以集中注意力。",
-        "第三，推荐算法经常展示相似观点，使读者难以看到全面的信息。",
-        "总之，网络新闻虽然方便，但人们应核实来源、控制阅读时间并比较不同观点。"
+        "我认为在网上读新闻有一些问题。",
+        "第一，有些网络新闻不真实。",
+        "第二，太多新闻会浪费我们的时间。",
+        "第三，网站可能只向我们展示一种观点。",
+        "所以，我们应该核实来源，并阅读不同的新闻网站。"
       ]
     },
     {
@@ -16775,7 +16707,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "健康趋势",
       "prompt": "为什么未来一代会比现在一代更健康？",
-      "answer": "I believe future generations have a good chance of being healthier than people today. First, medical technology will detect diseases earlier and provide more effective treatment. Second, people now have easier access to information about exercise, nutrition, and mental health. Third, schools, workplaces, and governments are creating healthier environments and encouraging preventive care. For these reasons, better technology, stronger awareness, and supportive policies can help future generations live healthier lives.",
+      "answer": "I think future generations may be healthier than us. First, doctors and medicine will become better. Second, people can easily learn about healthy food online. Third, more people now understand the importance of exercise. So, better care and better habits can improve people's health.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16783,21 +16715,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe future generations healthier current",
-      "answerZh": "我认为未来一代很有可能比现在的人更健康。第一，医疗技术将能更早发现疾病，并提供更有效的治疗。第二，人们现在更容易获得有关运动、营养和心理健康的信息。第三，学校、企业和政府正在营造更健康的环境，并鼓励预防性保健。因此，更好的技术、更强的健康意识和支持性政策能帮助未来一代过得更健康。",
+      "answerZh": "我认为未来一代可能比我们更健康。第一，医生和药物会变得更好。第二，人们可以在网上轻松了解健康饮食。第三，现在更多人明白运动的重要性。所以，更好的医疗和习惯能改善人们的健康。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "I believe future generations have a good chance of being healthier than people today.",
-        "First, medical technology will detect diseases earlier and provide more effective treatment.",
-        "Second, people now have easier access to information about exercise, nutrition, and mental health.",
-        "Third, schools, workplaces, and governments are creating healthier environments and encouraging preventive care.",
-        "For these reasons, better technology, stronger awareness, and supportive policies can help future generations live healthier lives."
+        "I think future generations may be healthier than us.",
+        "First, doctors and medicine will become better.",
+        "Second, people can easily learn about healthy food online.",
+        "Third, more people now understand the importance of exercise.",
+        "So, better care and better habits can improve people's health."
       ],
       "answerSectionsZh": [
-        "我认为未来一代很有可能比现在的人更健康。",
-        "第一，医疗技术将能更早发现疾病，并提供更有效的治疗。",
-        "第二，人们现在更容易获得有关运动、营养和心理健康的信息。",
-        "第三，学校、企业和政府正在营造更健康的环境，并鼓励预防性保健。",
-        "因此，更好的技术、更强的健康意识和支持性政策能帮助未来一代过得更健康。"
+        "我认为未来一代可能比我们更健康。",
+        "第一，医生和药物会变得更好。",
+        "第二，人们可以在网上轻松了解健康饮食。",
+        "第三，现在更多人明白运动的重要性。",
+        "所以，更好的医疗和习惯能改善人们的健康。"
       ]
     },
     {
@@ -16810,7 +16742,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "教育管理与课堂纪律",
       "prompt": "老师是否应该禁止学生带电子设备（手机、电脑）到教室？为什么？",
-      "answer": "I do not think teachers should completely ban electronic devices in the classroom; they should control how the devices are used. First, phones and computers can provide quick access to dictionaries, research materials, and educational applications. Second, clear rules can reduce distractions while still teaching students to use technology responsibly. For example, a teacher can require students to keep phones in their bags except during a research activity. Therefore, limited and purposeful use is more practical than a total ban.",
+      "answer": "I think teachers should limit devices, but not ban them. First, students can use them to find useful information. Second, clear rules can stop students from playing games in class. For example, students could use phones only during a research task. So, careful use is better than a full ban.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16818,21 +16750,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion teachers limit not completely",
-      "answerZh": "我认为老师不应该完全禁止电子设备，而应该管理学生如何使用它们。第一，手机和电脑可以让学生快速使用词典、研究资料和教育应用。第二，明确的规则既能减少分心，也能教会学生负责任地使用技术。例如，老师可以要求学生平时把手机放在包里，只在研究活动时使用。因此，有限制、有目的地使用电子设备比全面禁止更实际。",
+      "answerZh": "我认为老师应该限制电子设备，但不应完全禁止。第一，学生可以用它们查找有用的信息。第二，明确的规则可以防止学生在课堂上玩游戏。例如，学生只能在研究任务中使用手机。所以，合理使用比完全禁止更好。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I do not think teachers should completely ban electronic devices in the classroom; they should control how the devices are used.",
-        "First, phones and computers can provide quick access to dictionaries, research materials, and educational applications.",
-        "Second, clear rules can reduce distractions while still teaching students to use technology responsibly.",
-        "For example, a teacher can require students to keep phones in their bags except during a research activity.",
-        "Therefore, limited and purposeful use is more practical than a total ban."
+        "I think teachers should limit devices, but not ban them.",
+        "First, students can use them to find useful information.",
+        "Second, clear rules can stop students from playing games in class.",
+        "For example, students could use phones only during a research task.",
+        "So, careful use is better than a full ban."
       ],
       "answerSectionsZh": [
-        "我认为老师不应该完全禁止电子设备，而应该管理学生如何使用它们。",
-        "第一，手机和电脑可以让学生快速使用词典、研究资料和教育应用。",
-        "第二，明确的规则既能减少分心，也能教会学生负责任地使用技术。",
-        "例如，老师可以要求学生平时把手机放在包里，只在研究活动时使用。",
-        "因此，有限制、有目的地使用电子设备比全面禁止更实际。"
+        "我认为老师应该限制电子设备，但不应完全禁止。",
+        "第一，学生可以用它们查找有用的信息。",
+        "第二，明确的规则可以防止学生在课堂上玩游戏。",
+        "例如，学生只能在研究任务中使用手机。",
+        "所以，合理使用比完全禁止更好。"
       ]
     },
     {
@@ -16845,7 +16777,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "住房比较",
       "prompt": "有一套房子或公寓与租房相比有哪些缺点？",
-      "answer": "Compared with renting, owning a house or apartment has several disadvantages. First, buying a home requires a large down payment and years of mortgage payments. Second, owners have less flexibility because moving for a new job can be difficult and expensive. Third, owners must pay for repairs, property taxes, and other unexpected costs themselves. In conclusion, home ownership can provide stability, but renting is often better for people who value flexibility and lower financial risk.",
+      "answer": "I think owning a home has some disadvantages. First, buying a home costs a lot of money. Second, it is harder to move for a new job. Third, the owner must pay for repairs and other costs. So, renting may be easier for people who need more freedom.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16853,21 +16785,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think having",
-      "answerZh": "与租房相比，拥有房子或公寓有几个缺点。第一，买房需要支付大额首付，并承担多年的房贷。第二，业主的灵活性较低，因为为了新工作搬家可能既困难又昂贵。第三，维修、房产税和其他意外支出都需要业主自己承担。总之，买房可以带来稳定感，但对重视灵活性和较低经济风险的人来说，租房往往更合适。",
+      "answerZh": "我认为拥有房子有一些缺点。第一，买房要花很多钱。第二，为了新工作搬家会更加困难。第三，房主必须支付维修费和其他费用。所以，对需要更多自由的人来说，租房可能更容易。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Compared with renting, owning a house or apartment has several disadvantages.",
-        "First, buying a home requires a large down payment and years of mortgage payments.",
-        "Second, owners have less flexibility because moving for a new job can be difficult and expensive.",
-        "Third, owners must pay for repairs, property taxes, and other unexpected costs themselves.",
-        "In conclusion, home ownership can provide stability, but renting is often better for people who value flexibility and lower financial risk."
+        "I think owning a home has some disadvantages.",
+        "First, buying a home costs a lot of money.",
+        "Second, it is harder to move for a new job.",
+        "Third, the owner must pay for repairs and other costs.",
+        "So, renting may be easier for people who need more freedom."
       ],
       "answerSectionsZh": [
-        "与租房相比，拥有房子或公寓有几个缺点。",
-        "第一，买房需要支付大额首付，并承担多年的房贷。",
-        "第二，业主的灵活性较低，因为为了新工作搬家可能既困难又昂贵。",
-        "第三，维修、房产税和其他意外支出都需要业主自己承担。",
-        "总之，买房可以带来稳定感，但对重视灵活性和较低经济风险的人来说，租房往往更合适。"
+        "我认为拥有房子有一些缺点。",
+        "第一，买房要花很多钱。",
+        "第二，为了新工作搬家会更加困难。",
+        "第三，房主必须支付维修费和其他费用。",
+        "所以，对需要更多自由的人来说，租房可能更容易。"
       ]
     },
     {
@@ -16880,7 +16812,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "教育政策",
       "prompt": "政府为所有学生承担大学课程费用有哪些好处？请举例支撑你的观点。",
-      "answer": "I believe government-funded university courses would benefit both students and society. First, free tuition would give capable students from low-income families a fair chance to attend college. Second, a better-educated workforce can increase productivity and support long-term economic growth. For example, a talented student from a rural family could study engineering without taking on heavy debt and later contribute valuable skills to local industry. Therefore, funding university education can reduce inequality while strengthening the country's future workforce.",
+      "answer": "I think free university classes would help students and the country. First, students from poor families could also go to college. Second, more skilled workers could help the country grow. For example, a good student could study engineering without worrying about money. So, free classes can give everyone a better chance.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16888,21 +16820,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think several",
-      "answerZh": "我认为由政府承担大学课程费用对学生和社会都有好处。第一，免费学费能让低收入家庭中有能力的学生公平地获得上大学的机会。第二，受教育程度更高的劳动力能够提高生产效率，支持经济长期发展。例如，农村家庭中有才华的学生可以在没有沉重债务的情况下学习工程，之后为当地产业贡献专业技能。因此，政府资助大学教育既能减少不平等，也能增强国家未来的劳动力。",
+      "answerZh": "我认为免费大学课程能帮助学生和国家。第一，贫困家庭的学生也可以上大学。第二，更多有技能的劳动者能帮助国家发展。例如，一个优秀的学生可以学习工程，不用担心学费。所以，免费课程能给每个人更好的机会。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I believe government-funded university courses would benefit both students and society.",
-        "First, free tuition would give capable students from low-income families a fair chance to attend college.",
-        "Second, a better-educated workforce can increase productivity and support long-term economic growth.",
-        "For example, a talented student from a rural family could study engineering without taking on heavy debt and later contribute valuable skills to local industry.",
-        "Therefore, funding university education can reduce inequality while strengthening the country's future workforce."
+        "I think free university classes would help students and the country.",
+        "First, students from poor families could also go to college.",
+        "Second, more skilled workers could help the country grow.",
+        "For example, a good student could study engineering without worrying about money.",
+        "So, free classes can give everyone a better chance."
       ],
       "answerSectionsZh": [
-        "我认为由政府承担大学课程费用对学生和社会都有好处。",
-        "第一，免费学费能让低收入家庭中有能力的学生公平地获得上大学的机会。",
-        "第二，受教育程度更高的劳动力能够提高生产效率，支持经济长期发展。",
-        "例如，农村家庭中有才华的学生可以在没有沉重债务的情况下学习工程，之后为当地产业贡献专业技能。",
-        "因此，政府资助大学教育既能减少不平等，也能增强国家未来的劳动力。"
+        "我认为免费大学课程能帮助学生和国家。",
+        "第一，贫困家庭的学生也可以上大学。",
+        "第二，更多有技能的劳动者能帮助国家发展。",
+        "例如，一个优秀的学生可以学习工程，不用担心学费。",
+        "所以，免费课程能给每个人更好的机会。"
       ]
     },
     {
@@ -16915,7 +16847,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "财富与幸福",
       "prompt": "有钱就快乐吗？请给出理由。",
-      "answer": "I do not think money guarantees happiness, although enough money can make life more secure. First, money reduces stress by helping people pay for housing, health care, education, and other basic needs. Second, lasting happiness also depends on health, meaningful relationships, and a sense of purpose, which money cannot buy directly. For example, a high-paid employee may still be unhappy if long working hours leave no time for family or rest. In conclusion, money supports a comfortable life, but balance and strong relationships are also necessary for happiness.",
+      "answer": "I do not think money always brings happiness. First, enough money can reduce stress about daily needs. Second, health, family, and free time are also very important. For example, a person with high pay may still feel lonely and tired. So, money helps, but it is not everything.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16923,21 +16855,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "funny topic don money honest",
-      "answerZh": "我不认为金钱一定能带来快乐，不过足够的钱可以让生活更有保障。第一，金钱能帮助人们支付住房、医疗、教育等基本需求，从而减轻压力。第二，长久的幸福还取决于健康、有意义的人际关系和生活目标，这些不能直接用钱买到。例如，高薪员工如果工作时间过长，没有时间陪伴家人或休息，仍然可能不快乐。总之，金钱能支持舒适的生活，但平衡和良好的人际关系同样是幸福所必需的。",
+      "answerZh": "我不认为金钱总能带来快乐。第一，足够的钱能减少日常生活的压力。第二，健康、家人和空闲时间也非常重要。例如，高薪的人仍然可能感到孤独和疲惫。所以，金钱有帮助，但并不是一切。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I do not think money guarantees happiness, although enough money can make life more secure.",
-        "First, money reduces stress by helping people pay for housing, health care, education, and other basic needs.",
-        "Second, lasting happiness also depends on health, meaningful relationships, and a sense of purpose, which money cannot buy directly.",
-        "For example, a high-paid employee may still be unhappy if long working hours leave no time for family or rest.",
-        "In conclusion, money supports a comfortable life, but balance and strong relationships are also necessary for happiness."
+        "I do not think money always brings happiness.",
+        "First, enough money can reduce stress about daily needs.",
+        "Second, health, family, and free time are also very important.",
+        "For example, a person with high pay may still feel lonely and tired.",
+        "So, money helps, but it is not everything."
       ],
       "answerSectionsZh": [
-        "我不认为金钱一定能带来快乐，不过足够的钱可以让生活更有保障。",
-        "第一，金钱能帮助人们支付住房、医疗、教育等基本需求，从而减轻压力。",
-        "第二，长久的幸福还取决于健康、有意义的人际关系和生活目标，这些不能直接用钱买到。",
-        "例如，高薪员工如果工作时间过长，没有时间陪伴家人或休息，仍然可能不快乐。",
-        "总之，金钱能支持舒适的生活，但平衡和良好的人际关系同样是幸福所必需的。"
+        "我不认为金钱总能带来快乐。",
+        "第一，足够的钱能减少日常生活的压力。",
+        "第二，健康、家人和空闲时间也非常重要。",
+        "例如，高薪的人仍然可能感到孤独和疲惫。",
+        "所以，金钱有帮助，但并不是一切。"
       ]
     },
     {
@@ -16950,7 +16882,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "运动偏好",
       "prompt": "运动时你喜欢独自运动还是群体运动？为什么？",
-      "answer": "I prefer group exercise to exercising alone. First, other people provide encouragement, so I am more likely to exercise regularly and work harder. Second, group activities make exercise more enjoyable and give me a chance to build friendships. For example, after joining a weekend running club, I followed a regular schedule and completed my first ten-kilometer race. Therefore, although solo exercise can be peaceful, group exercise gives me more motivation and enjoyment.",
+      "answer": "I prefer group exercise to exercising alone. First, other people give me more energy and motivation. Second, group exercise is more fun and helps me make friends. For example, I exercised every week after joining a running group. So, group exercise helps me keep a good habit.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16958,21 +16890,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "prefer group sports motivating fun",
-      "answerZh": "与独自运动相比，我更喜欢集体运动。第一，其他人会给予鼓励，让我更有可能坚持锻炼并付出更多努力。第二，集体活动让运动更有趣，也给我建立友谊的机会。例如，我加入周末跑步小组后养成了规律训练的习惯，并完成了人生第一次十公里比赛。因此，虽然独自运动比较安静，但集体运动能给我更多动力和乐趣。",
+      "answerZh": "与独自运动相比，我更喜欢集体运动。第一，其他人能给我更多精力和动力。第二，集体运动更有趣，也能帮助我交朋友。例如，我加入跑步小组后每周都坚持锻炼。所以，集体运动能帮助我保持好习惯。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
         "I prefer group exercise to exercising alone.",
-        "First, other people provide encouragement, so I am more likely to exercise regularly and work harder.",
-        "Second, group activities make exercise more enjoyable and give me a chance to build friendships.",
-        "For example, after joining a weekend running club, I followed a regular schedule and completed my first ten-kilometer race.",
-        "Therefore, although solo exercise can be peaceful, group exercise gives me more motivation and enjoyment."
+        "First, other people give me more energy and motivation.",
+        "Second, group exercise is more fun and helps me make friends.",
+        "For example, I exercised every week after joining a running group.",
+        "So, group exercise helps me keep a good habit."
       ],
       "answerSectionsZh": [
         "与独自运动相比，我更喜欢集体运动。",
-        "第一，其他人会给予鼓励，让我更有可能坚持锻炼并付出更多努力。",
-        "第二，集体活动让运动更有趣，也给我建立友谊的机会。",
-        "例如，我加入周末跑步小组后养成了规律训练的习惯，并完成了人生第一次十公里比赛。",
-        "因此，虽然独自运动比较安静，但集体运动能给我更多动力和乐趣。"
+        "第一，其他人能给我更多精力和动力。",
+        "第二，集体运动更有趣，也能帮助我交朋友。",
+        "例如，我加入跑步小组后每周都坚持锻炼。",
+        "所以，集体运动能帮助我保持好习惯。"
       ]
     },
     {
@@ -16985,7 +16917,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "毕业后居住选择",
       "prompt": "大学毕业后，继续和父母一起住合适还是单独住合适，为什么？",
-      "answer": "After university, I would prefer to live with my parents for a few years. First, sharing housing and daily expenses would help me save money while beginning my career. Second, family members can support one another with meals, household tasks, and advice during a stressful transition. For example, by living at home, I could save enough for future housing while also helping my parents with shopping and technology. Therefore, living with my parents temporarily would provide both financial stability and valuable family support.",
+      "answer": "I would live with my parents for a few years after college. First, I could save money at the start of my career. Second, my family and I could help each other every day. For example, I could save for a future home while helping my parents with shopping. So, living together would give me money and family support.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -16993,21 +16925,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think continue",
-      "answerZh": "大学毕业后，我更愿意先和父母一起住几年。第一，在职业生涯初期，共同承担住房和日常开支能帮助我存钱。第二，在压力较大的过渡阶段，家人可以在做饭、家务和建议方面互相支持。例如，住在家里能让我为未来住房存钱，同时也可以帮助父母购物和使用电子设备。因此，暂时与父母同住既能提供经济稳定，也能带来宝贵的家庭支持。",
+      "answerZh": "大学毕业后，我会和父母一起住几年。第一，我可以在职业初期节省一些钱。第二，我和家人可以在日常生活中互相帮助。例如，我可以为未来买房存钱，同时帮助父母购物。所以，一起生活能给我经济和家庭支持。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "After university, I would prefer to live with my parents for a few years.",
-        "First, sharing housing and daily expenses would help me save money while beginning my career.",
-        "Second, family members can support one another with meals, household tasks, and advice during a stressful transition.",
-        "For example, by living at home, I could save enough for future housing while also helping my parents with shopping and technology.",
-        "Therefore, living with my parents temporarily would provide both financial stability and valuable family support."
+        "I would live with my parents for a few years after college.",
+        "First, I could save money at the start of my career.",
+        "Second, my family and I could help each other every day.",
+        "For example, I could save for a future home while helping my parents with shopping.",
+        "So, living together would give me money and family support."
       ],
       "answerSectionsZh": [
-        "大学毕业后，我更愿意先和父母一起住几年。",
-        "第一，在职业生涯初期，共同承担住房和日常开支能帮助我存钱。",
-        "第二，在压力较大的过渡阶段，家人可以在做饭、家务和建议方面互相支持。",
-        "例如，住在家里能让我为未来住房存钱，同时也可以帮助父母购物和使用电子设备。",
-        "因此，暂时与父母同住既能提供经济稳定，也能带来宝贵的家庭支持。"
+        "大学毕业后，我会和父母一起住几年。",
+        "第一，我可以在职业初期节省一些钱。",
+        "第二，我和家人可以在日常生活中互相帮助。",
+        "例如，我可以为未来买房存钱，同时帮助父母购物。",
+        "所以，一起生活能给我经济和家庭支持。"
       ]
     },
     {
@@ -17020,7 +16952,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "小学英语学习",
       "prompt": "你认为小学学生是否需要开始学习英语？",
-      "answer": "Yes, I think students should begin learning English in elementary school. First, young children often imitate sounds easily, so early study can help them develop clearer pronunciation and confidence. Second, English gives students access to international information and prepares them for future study, travel, and work. For example, children who learn basic English early can enjoy simple books and videos instead of seeing the language only as a difficult school subject later. Therefore, age-appropriate English lessons can give elementary students a useful and lasting advantage.",
+      "answer": "Yes, I think children should start learning English in elementary school. First, young children can learn new sounds easily. Second, English will help them in future study, travel, and work. For example, children can learn simple words from songs and short videos. So, early English study gives children more time and confidence.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -17028,21 +16960,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think students",
-      "answerZh": "是的，我认为学生应该从小学开始学习英语。第一，年幼的孩子通常善于模仿声音，较早学习有助于培养更清晰的发音和信心。第二，英语让学生能够接触国际信息，并为未来的学习、旅行和工作做准备。例如，早期学习基础英语的孩子可以欣赏简单的英文书和视频，而不会等到以后只把英语看成困难的学科。因此，符合年龄特点的英语课程能给小学生带来实用而长久的优势。",
+      "answerZh": "是的，我认为孩子应该从小学开始学习英语。第一，年幼的孩子能轻松学习新的发音。第二，英语会帮助他们未来学习、旅行和工作。例如，孩子可以从歌曲和短视频中学习简单单词。所以，早点学习英语能给孩子更多时间和信心。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "Yes, I think students should begin learning English in elementary school.",
-        "First, young children often imitate sounds easily, so early study can help them develop clearer pronunciation and confidence.",
-        "Second, English gives students access to international information and prepares them for future study, travel, and work.",
-        "For example, children who learn basic English early can enjoy simple books and videos instead of seeing the language only as a difficult school subject later.",
-        "Therefore, age-appropriate English lessons can give elementary students a useful and lasting advantage."
+        "Yes, I think children should start learning English in elementary school.",
+        "First, young children can learn new sounds easily.",
+        "Second, English will help them in future study, travel, and work.",
+        "For example, children can learn simple words from songs and short videos.",
+        "So, early English study gives children more time and confidence."
       ],
       "answerSectionsZh": [
-        "是的，我认为学生应该从小学开始学习英语。",
-        "第一，年幼的孩子通常善于模仿声音，较早学习有助于培养更清晰的发音和信心。",
-        "第二，英语让学生能够接触国际信息，并为未来的学习、旅行和工作做准备。",
-        "例如，早期学习基础英语的孩子可以欣赏简单的英文书和视频，而不会等到以后只把英语看成困难的学科。",
-        "因此，符合年龄特点的英语课程能给小学生带来实用而长久的优势。"
+        "是的，我认为孩子应该从小学开始学习英语。",
+        "第一，年幼的孩子能轻松学习新的发音。",
+        "第二，英语会帮助他们未来学习、旅行和工作。",
+        "例如，孩子可以从歌曲和短视频中学习简单单词。",
+        "所以，早点学习英语能给孩子更多时间和信心。"
       ]
     },
     {
@@ -17055,7 +16987,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "网络电子设备是否会取代报纸",
       "prompt": "Question: Will the internet and electronic devices replace newspapers?",
-      "answer": "I believe the internet and electronic devices will largely replace printed newspapers. First, digital news can be updated immediately, while a printed paper is already hours old when it reaches readers. Second, phones and tablets are convenient because people can read many sources anywhere without carrying paper. Third, digital publishing saves printing and delivery costs and uses less paper. In conclusion, some readers may still enjoy printed newspapers, but speed, convenience, and lower costs will make digital news dominant.",
+      "answer": "I think digital news will mostly replace printed newspapers. First, online news is faster and can change at any time. Second, people can read it anywhere on a phone. Third, digital news costs less and uses less paper. So, most people will choose digital news in the future.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -17063,21 +16995,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion internet electronic devices eventually",
-      "answerZh": "我认为互联网和电子设备将在很大程度上取代纸质报纸。第一，数字新闻可以即时更新，而纸质报纸送到读者手中时，内容往往已经过去数小时。第二，手机和平板电脑很方便，人们不用携带报纸就能随时阅读多个来源。第三，数字出版能节省印刷和配送成本，也能减少纸张使用。总之，虽然有些读者仍喜欢纸质报纸，但速度、便利和较低成本会让数字新闻成为主流。",
+      "answerZh": "我认为数字新闻会在很大程度上取代纸质报纸。第一，网络新闻更快，也可以随时更新。第二，人们可以在任何地方用手机阅读。第三，数字新闻成本更低，也使用更少纸张。所以，未来大多数人会选择数字新闻。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "I believe the internet and electronic devices will largely replace printed newspapers.",
-        "First, digital news can be updated immediately, while a printed paper is already hours old when it reaches readers.",
-        "Second, phones and tablets are convenient because people can read many sources anywhere without carrying paper.",
-        "Third, digital publishing saves printing and delivery costs and uses less paper.",
-        "In conclusion, some readers may still enjoy printed newspapers, but speed, convenience, and lower costs will make digital news dominant."
+        "I think digital news will mostly replace printed newspapers.",
+        "First, online news is faster and can change at any time.",
+        "Second, people can read it anywhere on a phone.",
+        "Third, digital news costs less and uses less paper.",
+        "So, most people will choose digital news in the future."
       ],
       "answerSectionsZh": [
-        "我认为互联网和电子设备将在很大程度上取代纸质报纸。",
-        "第一，数字新闻可以即时更新，而纸质报纸送到读者手中时，内容往往已经过去数小时。",
-        "第二，手机和平板电脑很方便，人们不用携带报纸就能随时阅读多个来源。",
-        "第三，数字出版能节省印刷和配送成本，也能减少纸张使用。",
-        "总之，虽然有些读者仍喜欢纸质报纸，但速度、便利和较低成本会让数字新闻成为主流。"
+        "我认为数字新闻会在很大程度上取代纸质报纸。",
+        "第一，网络新闻更快，也可以随时更新。",
+        "第二，人们可以在任何地方用手机阅读。",
+        "第三，数字新闻成本更低，也使用更少纸张。",
+        "所以，未来大多数人会选择数字新闻。"
       ]
     },
     {
@@ -17090,7 +17022,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "旅游方式选择",
       "prompt": "参观热门旅游景点是否是熟悉一座城市的最佳方式？",
-      "answer": "I do not think visiting popular tourist attractions is the best way to become familiar with a city. First, major attractions show history and famous landmarks, but they often do not reflect ordinary local life. Second, visiting neighborhoods, markets, and public transportation gives travelers more chances to observe local habits and talk with residents. For example, I learned more about one city's food and daily culture at a community market than at its crowded monument. Therefore, attractions are useful, but combining them with local exploration is the best way to understand a city.",
+      "answer": "I do not think famous tourist places are the best way to know a city. First, they show history but not normal local life. Second, local streets and markets show how people really live. For example, I learned more about local food at a small market. So, visiting both famous and local places is the best choice.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -17098,21 +17030,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience visiting popular",
-      "answerZh": "我不认为参观热门旅游景点是熟悉一座城市的最佳方式。第一，主要景点展示历史和著名地标，但通常不能反映普通人的日常生活。第二，走访社区、市场和乘坐公共交通，能让游客更多地观察当地习惯并与居民交流。例如，与拥挤的纪念景点相比，我在一个社区市场更深入地了解了某座城市的饮食和日常文化。因此，景点值得参观，但把景点与本地探索结合起来才是了解城市的最佳方式。",
+      "answerZh": "我不认为著名景点是了解城市的最佳方式。第一，它们展示历史，却不能展示普通的当地生活。第二，当地街道和市场能展示人们真实的生活方式。例如，我在一个小市场了解到了更多当地食物。所以，同时参观著名景点和当地社区是最好的选择。",
       "answerPattern": "2R1E",
       "answerSectionsEn": [
-        "I do not think visiting popular tourist attractions is the best way to become familiar with a city.",
-        "First, major attractions show history and famous landmarks, but they often do not reflect ordinary local life.",
-        "Second, visiting neighborhoods, markets, and public transportation gives travelers more chances to observe local habits and talk with residents.",
-        "For example, I learned more about one city's food and daily culture at a community market than at its crowded monument.",
-        "Therefore, attractions are useful, but combining them with local exploration is the best way to understand a city."
+        "I do not think famous tourist places are the best way to know a city.",
+        "First, they show history but not normal local life.",
+        "Second, local streets and markets show how people really live.",
+        "For example, I learned more about local food at a small market.",
+        "So, visiting both famous and local places is the best choice."
       ],
       "answerSectionsZh": [
-        "我不认为参观热门旅游景点是熟悉一座城市的最佳方式。",
-        "第一，主要景点展示历史和著名地标，但通常不能反映普通人的日常生活。",
-        "第二，走访社区、市场和乘坐公共交通，能让游客更多地观察当地习惯并与居民交流。",
-        "例如，与拥挤的纪念景点相比，我在一个社区市场更深入地了解了某座城市的饮食和日常文化。",
-        "因此，景点值得参观，但把景点与本地探索结合起来才是了解城市的最佳方式。"
+        "我不认为著名景点是了解城市的最佳方式。",
+        "第一，它们展示历史，却不能展示普通的当地生活。",
+        "第二，当地街道和市场能展示人们真实的生活方式。",
+        "例如，我在一个小市场了解到了更多当地食物。",
+        "所以，同时参观著名景点和当地社区是最好的选择。"
       ]
     },
     {
@@ -17125,7 +17057,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "交通安全",
       "prompt": "21岁以下开车有哪些坏处？",
-      "answer": "Driving before the age of twenty-one can have several disadvantages. First, younger drivers usually have less experience recognizing danger and making quick decisions. Second, they may be more easily distracted by phones, friends, or strong emotions, which increases accident risk. Third, insurance and repair costs are often high for young drivers and can create financial pressure for their families. In conclusion, driving provides independence, but people under twenty-one need strong training, clear rules, and careful supervision.",
+      "answer": "I think driving under the age of twenty-one has some problems. First, young drivers have less experience. Second, phones or friends may easily take their attention away. Third, car insurance often costs more for young drivers. So, young people need good training and clear rules before driving.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -17133,21 +17065,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "disadvantage high risk accidents young",
-      "answerZh": "在二十一岁之前开车可能有几个缺点。第一，年轻驾驶者通常缺乏识别危险和迅速做决定的经验。第二，他们更容易受到手机、朋友或强烈情绪的干扰，从而增加事故风险。第三，年轻驾驶者的保险和维修费用往往较高，可能给家庭带来经济压力。总之，开车能带来自由，但二十一岁以下的人需要充分训练、明确规则和谨慎监督。",
+      "answerZh": "我认为二十一岁以下开车有一些问题。第一，年轻驾驶者的经验更少。第二，手机或朋友很容易分散他们的注意力。第三，年轻驾驶者的汽车保险通常更贵。所以，年轻人开车前需要良好训练和明确规则。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Driving before the age of twenty-one can have several disadvantages.",
-        "First, younger drivers usually have less experience recognizing danger and making quick decisions.",
-        "Second, they may be more easily distracted by phones, friends, or strong emotions, which increases accident risk.",
-        "Third, insurance and repair costs are often high for young drivers and can create financial pressure for their families.",
-        "In conclusion, driving provides independence, but people under twenty-one need strong training, clear rules, and careful supervision."
+        "I think driving under the age of twenty-one has some problems.",
+        "First, young drivers have less experience.",
+        "Second, phones or friends may easily take their attention away.",
+        "Third, car insurance often costs more for young drivers.",
+        "So, young people need good training and clear rules before driving."
       ],
       "answerSectionsZh": [
-        "在二十一岁之前开车可能有几个缺点。",
-        "第一，年轻驾驶者通常缺乏识别危险和迅速做决定的经验。",
-        "第二，他们更容易受到手机、朋友或强烈情绪的干扰，从而增加事故风险。",
-        "第三，年轻驾驶者的保险和维修费用往往较高，可能给家庭带来经济压力。",
-        "总之，开车能带来自由，但二十一岁以下的人需要充分训练、明确规则和谨慎监督。"
+        "我认为二十一岁以下开车有一些问题。",
+        "第一，年轻驾驶者的经验更少。",
+        "第二，手机或朋友很容易分散他们的注意力。",
+        "第三，年轻驾驶者的汽车保险通常更贵。",
+        "所以，年轻人开车前需要良好训练和明确规则。"
       ]
     },
     {
@@ -17160,7 +17092,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业优势",
       "prompt": "作为一名医生有什么好处？",
-      "answer": "Being a doctor offers several meaningful advantages. First, doctors improve people's lives by preventing illness, treating patients, and sometimes saving lives. Second, medicine provides continuous learning because new research, technology, and treatments appear regularly. Third, doctors are needed in many communities, so the profession offers respect, job stability, and different career paths. In conclusion, although becoming a doctor requires years of hard work, it can provide purpose, growth, and a stable career.",
+      "answer": "I think being a doctor has many good points. First, doctors can help sick people and save lives. Second, doctors are needed everywhere, so the job is stable. Third, they can keep learning new things at work. So, being a doctor can be useful and meaningful.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -17168,21 +17100,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "advantages doctor doctors help people",
-      "answerZh": "成为医生有几个很有意义的优点。第一，医生通过预防疾病、治疗患者，有时还挽救生命，从而改善人们的生活。第二，医学能让人不断学习，因为新的研究、技术和治疗方法持续出现。第三，许多社区都需要医生，因此这个职业能带来尊重、工作稳定和不同的发展道路。总之，虽然成为医生需要多年努力，但它能带来使命感、成长和稳定的职业。",
+      "answerZh": "我认为当医生有很多优点。第一，医生可以帮助病人并挽救生命。第二，各地都需要医生，所以工作比较稳定。第三，他们可以在工作中不断学习新知识。所以，当医生既有用，也很有意义。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "Being a doctor offers several meaningful advantages.",
-        "First, doctors improve people's lives by preventing illness, treating patients, and sometimes saving lives.",
-        "Second, medicine provides continuous learning because new research, technology, and treatments appear regularly.",
-        "Third, doctors are needed in many communities, so the profession offers respect, job stability, and different career paths.",
-        "In conclusion, although becoming a doctor requires years of hard work, it can provide purpose, growth, and a stable career."
+        "I think being a doctor has many good points.",
+        "First, doctors can help sick people and save lives.",
+        "Second, doctors are needed everywhere, so the job is stable.",
+        "Third, they can keep learning new things at work.",
+        "So, being a doctor can be useful and meaningful."
       ],
       "answerSectionsZh": [
-        "成为医生有几个很有意义的优点。",
-        "第一，医生通过预防疾病、治疗患者，有时还挽救生命，从而改善人们的生活。",
-        "第二，医学能让人不断学习，因为新的研究、技术和治疗方法持续出现。",
-        "第三，许多社区都需要医生，因此这个职业能带来尊重、工作稳定和不同的发展道路。",
-        "总之，虽然成为医生需要多年努力，但它能带来使命感、成长和稳定的职业。"
+        "我认为当医生有很多优点。",
+        "第一，医生可以帮助病人并挽救生命。",
+        "第二，各地都需要医生，所以工作比较稳定。",
+        "第三，他们可以在工作中不断学习新知识。",
+        "所以，当医生既有用，也很有意义。"
       ]
     },
     {
@@ -17195,7 +17127,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "社区活动",
       "prompt": "大学生是否应该花时间去参加社区活动？",
-      "answer": "I believe college students should spend some time participating in community activities. First, volunteering develops practical skills such as communication, teamwork, and time management. Second, students meet people from different backgrounds and gain a better understanding of local needs. Third, community experience can strengthen a resume and help students explore possible careers. In conclusion, community activities allow college students to support others while growing personally and professionally.",
+      "answer": "I think college students should join community activities. First, they can practice communication and teamwork. Second, they can meet new people and understand local needs. Third, this experience can make their resume stronger. So, community activities help both students and other people.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -17203,21 +17135,21 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes think college students participate",
-      "answerZh": "我认为大学生应该花一些时间参加社区活动。第一，志愿活动能培养沟通、团队合作和时间管理等实践能力。第二，学生可以认识不同背景的人，并更好地了解当地需求。第三，社区经历可以丰富履历，并帮助学生探索可能的职业方向。总之，社区活动让大学生在帮助他人的同时，也能实现个人和职业成长。",
+      "answerZh": "我认为大学生应该参加社区活动。第一，他们可以练习沟通和团队合作。第二，他们可以认识新朋友并了解当地需求。第三，这些经历能让他们的履历更丰富。所以，社区活动能同时帮助学生和其他人。",
       "answerPattern": "3R",
       "answerSectionsEn": [
-        "I believe college students should spend some time participating in community activities.",
-        "First, volunteering develops practical skills such as communication, teamwork, and time management.",
-        "Second, students meet people from different backgrounds and gain a better understanding of local needs.",
-        "Third, community experience can strengthen a resume and help students explore possible careers.",
-        "In conclusion, community activities allow college students to support others while growing personally and professionally."
+        "I think college students should join community activities.",
+        "First, they can practice communication and teamwork.",
+        "Second, they can meet new people and understand local needs.",
+        "Third, this experience can make their resume stronger.",
+        "So, community activities help both students and other people."
       ],
       "answerSectionsZh": [
-        "我认为大学生应该花一些时间参加社区活动。",
-        "第一，志愿活动能培养沟通、团队合作和时间管理等实践能力。",
-        "第二，学生可以认识不同背景的人，并更好地了解当地需求。",
-        "第三，社区经历可以丰富履历，并帮助学生探索可能的职业方向。",
-        "总之，社区活动让大学生在帮助他人的同时，也能实现个人和职业成长。"
+        "我认为大学生应该参加社区活动。",
+        "第一，他们可以练习沟通和团队合作。",
+        "第二，他们可以认识新朋友并了解当地需求。",
+        "第三，这些经历能让他们的履历更丰富。",
+        "所以，社区活动能同时帮助学生和其他人。"
       ]
     }
   ]
