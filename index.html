@@ -553,6 +553,18 @@
       padding: 0;
     }
 
+    .part5-english-toggle-row {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px 12px 12px;
+      border-top: 1px solid #cde6e1;
+    }
+
+    .part5-english-toggle-row + .part5-language {
+      border-top: 1px solid #cde6e1;
+      background: #fbfcfd;
+    }
+
     .part5-answer-row {
       display: grid;
       grid-template-columns: 62px minmax(0, 1fr);
@@ -855,6 +867,7 @@
       showAllAnswers: false,
       shuffled: false,
       answerOpen: new Set(),
+      part5EnglishOpen: new Set(),
       done: new Set(JSON.parse(localStorage.getItem("toeic-review-done") || "[]")),
       personalized: new Set(JSON.parse(localStorage.getItem("toeic-review-personalized") || "[]")),
     };
@@ -1000,6 +1013,7 @@
     }
 
     function renderPart5Answer(record) {
+      const englishVisible = state.part5EnglishOpen.has(record.uid);
       const labels = record.answerPattern === "2R1E"
         ? ["观点", "理由 1", "理由 2", "例子", "总结"]
         : ["观点", "理由 1", "理由 2", "理由 3", "总结"];
@@ -1021,13 +1035,18 @@
           '<p class="part5-language-title">中文参考答案</p>' +
           renderRows(record.answerSectionsZh) +
         '</section>' +
-        '<section class="part5-language" aria-label="英文参考答案">' +
-          '<div class="part5-language-heading">' +
-            '<p class="part5-language-title">英文参考答案</p>' +
-            renderCompactSpeechControl(record) +
-          '</div>' +
-          renderRows(record.answerSectionsEn) +
-        '</section>' +
+        '<div class="part5-english-toggle-row">' +
+          '<button class="tool-button part5-english-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (englishVisible ? "隐藏英文答案" : "显示英文答案") + '</button>' +
+        '</div>' +
+        (englishVisible
+          ? '<section class="part5-language" aria-label="英文参考答案">' +
+              '<div class="part5-language-heading">' +
+                '<p class="part5-language-title">英文参考答案</p>' +
+                renderCompactSpeechControl(record) +
+              '</div>' +
+              renderRows(record.answerSectionsEn) +
+            '</section>'
+          : '') +
       '</div>';
     }
 
@@ -1322,7 +1341,7 @@
       ).join("");
     }
 
-    function renderMaterial(record, open = false) {
+    function renderMaterial(record) {
       if (record.part !== 4 || !record.material) return "";
       if (record.material.missing) {
         return '<div class="material material-missing">原始题库未收录本题资料表。</div>';
@@ -1338,7 +1357,7 @@
       const notes = record.material.notes?.length
         ? '<p class="material-notes">补充信息：' + escapeHtml(record.material.notes.join("；")) + '</p>'
         : "";
-      return '<details class="material"' + (open ? ' open' : '') + '><summary>资料表</summary>' +
+      return '<details class="material" open><summary>资料表</summary>' +
         '<div class="material-scroll"><table class="material-table">' + head + body + '</table></div>' +
         notes +
       '</details>';
@@ -1353,7 +1372,7 @@
         const answerVisible = state.showAllAnswers || state.answerOpen.has(record.uid);
         const isDone = state.done.has(record.uid);
         const isPersonalized = state.personalized.has(record.uid);
-        const material = renderMaterial(record, answerVisible);
+        const material = renderMaterial(record);
         const image = record.imagePath
           ? '<div class="image-wrap"><img src="' + escapeAttr(record.imagePath) + '" alt="' + escapeAttr(record.topic || "Part2 图片") + '" loading="lazy" /></div>'
           : "";
@@ -1439,6 +1458,7 @@
       stopSpeech();
       state.part = Number(button.dataset.part);
       state.answerOpen.clear();
+      state.part5EnglishOpen.clear();
       render();
     });
 
@@ -1484,12 +1504,22 @@
         stopSpeech(stopSpeechButton.dataset.stopSpeech);
         return;
       }
+      const part5EnglishButton = event.target.closest(".part5-english-toggle");
+      if (part5EnglishButton) {
+        const uid = part5EnglishButton.dataset.uid;
+        if (state.part5EnglishOpen.has(uid)) state.part5EnglishOpen.delete(uid);
+        else state.part5EnglishOpen.add(uid);
+        render();
+        return;
+      }
       const answerButton = event.target.closest(".answer-toggle");
       if (answerButton) {
         const uid = answerButton.dataset.uid;
         stopSpeech(uid);
-        if (state.answerOpen.has(uid)) state.answerOpen.delete(uid);
-        else state.answerOpen.add(uid);
+        if (state.answerOpen.has(uid)) {
+          state.answerOpen.delete(uid);
+          state.part5EnglishOpen.delete(uid);
+        } else state.answerOpen.add(uid);
         render();
         return;
       }
@@ -1515,6 +1545,7 @@
     $("toggleAnswers").addEventListener("click", () => {
       stopSpeech();
       state.showAllAnswers = !state.showAllAnswers;
+      state.part5EnglishOpen.clear();
       render();
     });
 
