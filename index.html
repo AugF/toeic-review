@@ -1031,6 +1031,7 @@
           endAt: 0,
           running: false,
           alerted: false,
+          lastTickSecond: normalizedDuration,
           type,
         });
       }
@@ -1050,29 +1051,53 @@
       if (!countdownAudioContext || countdownAudioContext.state === "closed") return;
       if (countdownAudioContext.state === "suspended") countdownAudioContext.resume().catch(() => {});
       const startAt = countdownAudioContext.currentTime;
-      const frequency = type === "answer" ? 880 : 660;
-      [0, 0.22, 0.44].forEach((offset) => {
+      const baseFrequency = type === "answer" ? 1040 : 820;
+      [0, 0.16, 0.32, 0.64, 0.8, 0.96, 1.28].forEach((offset, index) => {
         const oscillator = countdownAudioContext.createOscillator();
         const gain = countdownAudioContext.createGain();
-        oscillator.type = "sine";
-        oscillator.frequency.value = frequency;
+        oscillator.type = "triangle";
+        oscillator.frequency.value = index % 2 === 0 ? baseFrequency : baseFrequency * 1.22;
         gain.gain.setValueAtTime(0.0001, startAt + offset);
-        gain.gain.exponentialRampToValueAtTime(0.14, startAt + offset + 0.02);
-        gain.gain.exponentialRampToValueAtTime(0.0001, startAt + offset + 0.16);
+        gain.gain.exponentialRampToValueAtTime(0.34, startAt + offset + 0.015);
+        gain.gain.exponentialRampToValueAtTime(0.0001, startAt + offset + 0.13);
         oscillator.connect(gain);
         gain.connect(countdownAudioContext.destination);
         oscillator.start(startAt + offset);
-        oscillator.stop(startAt + offset + 0.17);
+        oscillator.stop(startAt + offset + 0.14);
       });
       document.documentElement.dataset.countdownAlert = (type || "timer") + "-" + Date.now();
+    }
+
+    function playCountdownTick(type, remainingSeconds) {
+      if (!countdownAudioContext || countdownAudioContext.state !== "running") return;
+      const startAt = countdownAudioContext.currentTime;
+      const baseFrequency = type === "answer" ? 1080 : 900;
+      const oscillator = countdownAudioContext.createOscillator();
+      const gain = countdownAudioContext.createGain();
+      oscillator.type = "square";
+      oscillator.frequency.value = remainingSeconds % 2 === 0 ? baseFrequency * 1.24 : baseFrequency;
+      gain.gain.setValueAtTime(0.0001, startAt);
+      gain.gain.exponentialRampToValueAtTime(0.17, startAt + 0.006);
+      gain.gain.exponentialRampToValueAtTime(0.0001, startAt + 0.055);
+      oscillator.connect(gain);
+      gain.connect(countdownAudioContext.destination);
+      oscillator.start(startAt);
+      oscillator.stop(startAt + 0.06);
+      document.documentElement.dataset.countdownTick = (type || "timer") + "-" + remainingSeconds + "-" + Date.now();
     }
 
     function syncCountdownTimer(timer, now = Date.now()) {
       if (!timer.running) return;
       timer.remainingMs = Math.max(0, timer.endAt - now);
+      const remainingSeconds = countdownSeconds(timer);
+      if (remainingSeconds > 0 && remainingSeconds !== timer.lastTickSecond) {
+        timer.lastTickSecond = remainingSeconds;
+        playCountdownTick(timer.type, remainingSeconds);
+      }
       if (timer.remainingMs === 0) {
         timer.running = false;
         timer.endAt = 0;
+        timer.lastTickSecond = 0;
         if (!timer.alerted) {
           timer.alerted = true;
           playCountdownAlert(timer.type);
@@ -1146,6 +1171,7 @@
         prepareCountdownAudio();
         if (timer.remainingMs <= 0) timer.remainingMs = timer.durationSeconds * 1000;
         timer.alerted = false;
+        timer.lastTickSecond = countdownSeconds(timer);
         timer.running = true;
         timer.endAt = Date.now() + timer.remainingMs;
       }
@@ -1159,6 +1185,7 @@
       timer.endAt = 0;
       timer.remainingMs = timer.durationSeconds * 1000;
       timer.alerted = false;
+      timer.lastTickSecond = timer.durationSeconds;
       updateCountdownDisplay(key);
     }
 
