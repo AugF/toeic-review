@@ -1,0 +1,1186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TOEIC Speaking 重点复习</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #172026;
+      --muted: #60707c;
+      --line: #dfe5ea;
+      --teal: #007f7a;
+      --teal-dark: #005f5b;
+      --amber: #a56500;
+      --coral: #bc4b3f;
+      --indigo: #4153a4;
+      --green-soft: #e7f5f2;
+      --amber-soft: #fff3df;
+      --coral-soft: #ffefed;
+      --shadow: 0 12px 30px rgba(23, 32, 38, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    button, input, select {
+      font: inherit;
+    }
+
+    .app-shell {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+    }
+
+    aside {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 20px;
+      background: #eef3f6;
+      border-right: 1px solid var(--line);
+      overflow: auto;
+    }
+
+    main {
+      min-width: 0;
+      padding: 22px;
+    }
+
+    .brand {
+      display: grid;
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .control-block {
+      display: grid;
+      gap: 10px;
+      margin: 18px 0;
+    }
+
+    .label {
+      font-size: 12px;
+      font-weight: 700;
+      color: #43525d;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+    .part-list,
+    .priority-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .part-button,
+    .priority-button,
+    .tool-button {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+    }
+
+    .part-button {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 12px;
+      text-align: left;
+    }
+
+    .part-button:hover,
+    .priority-button:hover,
+    .tool-button:hover {
+      transform: translateY(-1px);
+      border-color: #aebcc6;
+    }
+
+    .part-button.active {
+      border-color: var(--teal);
+      background: var(--green-soft);
+    }
+
+    .part-title {
+      font-weight: 750;
+      font-size: 14px;
+    }
+
+    .part-count {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .priority-list {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .priority-button {
+      padding: 8px 6px;
+      font-weight: 750;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .priority-button.active[data-priority="all"] { border-color: var(--indigo); background: #edf0ff; color: var(--indigo); }
+    .priority-button.active[data-priority="P1"] { border-color: var(--teal); background: var(--green-soft); color: var(--teal-dark); }
+    .priority-button.active[data-priority="P2"] { border-color: var(--amber); background: var(--amber-soft); color: var(--amber); }
+    .priority-button.active[data-priority="P3"] { border-color: var(--coral); background: var(--coral-soft); color: var(--coral); }
+
+    .search-box {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      padding: 10px 12px;
+      outline: none;
+    }
+
+    .search-box:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(0, 127, 122, 0.12);
+    }
+
+    .sidebar-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .stat {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .stat-value {
+      display: block;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .stat-label {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .current-title {
+      margin: 0 0 4px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    .current-meta {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .tool-button {
+      padding: 9px 12px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .summary-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .summary-item {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      padding: 12px;
+    }
+
+    .summary-number {
+      display: block;
+      font-size: 24px;
+      font-weight: 850;
+      line-height: 1.1;
+    }
+
+    .summary-label {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .card-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .question-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .card-main {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(180px, 260px);
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .card-main.no-image {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .card-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      border-radius: 999px;
+      padding: 4px 9px;
+      font-size: 12px;
+      font-weight: 800;
+      border: 1px solid transparent;
+    }
+
+    .badge.p1 { background: var(--green-soft); color: var(--teal-dark); border-color: #9ed8cf; }
+    .badge.p2 { background: var(--amber-soft); color: var(--amber); border-color: #e7c27c; }
+    .badge.p3 { background: var(--coral-soft); color: var(--coral); border-color: #e7aaa4; }
+    .badge.meta { background: #f3f5f7; color: #475864; border-color: var(--line); }
+
+    .card-topic {
+      font-size: 18px;
+      font-weight: 820;
+      margin: 0 0 8px;
+      letter-spacing: 0;
+    }
+
+    .question-text,
+    .answer-text,
+    .material-text {
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .question-text {
+      margin: 0;
+      color: #1f2a31;
+      font-size: 15px;
+    }
+
+    .material {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfd;
+      overflow: hidden;
+    }
+
+    .material summary {
+      cursor: pointer;
+      padding: 10px 12px;
+      font-weight: 800;
+      color: #354650;
+    }
+
+    .material-text {
+      margin: 0;
+      padding: 0 12px 12px;
+      color: #33434d;
+      font-size: 13px;
+      overflow-x: auto;
+    }
+
+    .answer-panel {
+      margin-top: 12px;
+      border-left: 4px solid var(--teal);
+      background: #f4fbf9;
+      border-radius: 0 8px 8px 0;
+      padding: 12px;
+    }
+
+    .answer-title {
+      margin: 0 0 6px;
+      font-size: 13px;
+      color: var(--teal-dark);
+      font-weight: 850;
+    }
+
+    .answer-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+
+    .answer-heading .answer-title {
+      margin: 0;
+    }
+
+    .answer-text {
+      margin: 0;
+      color: #18343a;
+      font-size: 14px;
+    }
+
+    .annotated-answer {
+      display: block;
+      padding: 12px;
+      border: 1px solid #bfe0dc;
+      border-radius: 8px;
+      background: #ffffff;
+      font-size: 16px;
+      line-height: 1.9;
+    }
+
+    .annotated-answer strong {
+      color: #003d3a;
+      font-weight: 900;
+      background: #dff4ef;
+      border-radius: 5px;
+      padding: 0 3px;
+    }
+
+    .pause-mark {
+      display: inline-block;
+      min-width: 18px;
+      color: var(--amber);
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .tone-mark {
+      display: inline-block;
+      margin-left: 3px;
+      font-weight: 900;
+      font-size: 17px;
+    }
+
+    .tone-rise { color: var(--indigo); }
+    .tone-fall { color: var(--teal-dark); }
+
+    .reading-note {
+      margin: 8px 0 0;
+      color: #52636e;
+      font-size: 12px;
+    }
+
+    .speech-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .speech-controls .tool-button {
+      background: #ffffff;
+    }
+
+    .speech-status {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .speech-status.warning {
+      color: var(--amber);
+      font-weight: 800;
+    }
+
+    .speech-status.error {
+      color: var(--coral);
+      font-weight: 800;
+    }
+
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .card-actions .tool-button {
+      background: #fbfcfd;
+    }
+
+    .card-actions .tool-button.done {
+      border-color: var(--teal);
+      background: var(--green-soft);
+      color: var(--teal-dark);
+    }
+
+    .image-wrap {
+      align-self: start;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #f6f7f8;
+    }
+
+    .image-wrap img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+
+    .reason {
+      padding: 10px 16px;
+      border-top: 1px solid var(--line);
+      background: #fbfcfd;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .empty {
+      border: 1px dashed #bac6ce;
+      border-radius: 8px;
+      padding: 24px;
+      color: var(--muted);
+      background: var(--panel);
+      text-align: center;
+    }
+
+    .mobile-tabs {
+      display: none;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: #eef3f6;
+      border-bottom: 1px solid var(--line);
+      padding: 10px;
+      gap: 8px;
+    }
+
+    .mobile-tabs select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: var(--panel);
+      color: var(--text);
+    }
+
+    @media (max-width: 900px) {
+      .app-shell {
+        display: block;
+      }
+      aside {
+        position: static;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      main {
+        padding: 14px;
+      }
+      .part-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .topbar {
+        grid-template-columns: 1fr;
+      }
+      .tools {
+        justify-content: flex-start;
+      }
+      .summary-strip {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .card-main {
+        grid-template-columns: 1fr;
+      }
+      .image-wrap img {
+        aspect-ratio: 16 / 9;
+      }
+    }
+
+    @media (max-width: 560px) {
+      aside {
+        padding: 14px;
+      }
+      .part-list {
+        grid-template-columns: 1fr;
+      }
+      .priority-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .summary-strip {
+        grid-template-columns: 1fr;
+      }
+      .current-title {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside>
+      <div class="brand">
+        <h1>TOEIC Speaking 重点复习</h1>
+        <div class="subtitle">Part1-5 按 P1/P2/P3 排序，含题目、答案、图片和资料表。</div>
+      </div>
+
+      <section class="control-block">
+        <div class="label">Part</div>
+        <div class="part-list" id="partList"></div>
+      </section>
+
+      <section class="control-block">
+        <div class="label">优先级</div>
+        <div class="priority-list" id="priorityList">
+          <button class="priority-button active" type="button" data-priority="all">全部</button>
+          <button class="priority-button" type="button" data-priority="P1">P1</button>
+          <button class="priority-button" type="button" data-priority="P2">P2</button>
+          <button class="priority-button" type="button" data-priority="P3">P3</button>
+        </div>
+      </section>
+
+      <section class="control-block">
+        <label class="label" for="searchInput">搜索</label>
+        <input id="searchInput" class="search-box" type="search" placeholder="主题、题目、答案、来源" />
+      </section>
+
+      <div class="sidebar-stats">
+        <div class="stat"><span class="stat-value" id="totalCount">0</span><span class="stat-label">当前题数</span></div>
+        <div class="stat"><span class="stat-value" id="doneCount">0</span><span class="stat-label">已练</span></div>
+        <div class="stat"><span class="stat-value" id="shownCount">0</span><span class="stat-label">显示</span></div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div>
+          <h2 class="current-title" id="currentTitle">Part 1 朗读短文</h2>
+          <div class="current-meta" id="currentMeta"></div>
+        </div>
+        <div class="tools">
+          <button class="tool-button" type="button" id="toggleAnswers">显示全部答案</button>
+          <button class="tool-button" type="button" id="shuffleButton">随机排序</button>
+          <button class="tool-button" type="button" id="resetDone">清除已练</button>
+        </div>
+      </div>
+
+      <section class="summary-strip" id="summaryStrip"></section>
+      <section class="card-list" id="cardList"></section>
+    </main>
+  </div>
+
+  <script src="./toeic_review_data.js"></script>
+  <script>
+    const data = window.TOEIC_REVIEW_DATA;
+    const state = {
+      part: 1,
+      priority: "all",
+      search: "",
+      showAllAnswers: false,
+      shuffled: false,
+      answerOpen: new Set(),
+      done: new Set(JSON.parse(localStorage.getItem("toeic-review-done") || "[]")),
+    };
+
+    const $ = (id) => document.getElementById(id);
+    const partList = $("partList");
+    const priorityList = $("priorityList");
+    const searchInput = $("searchInput");
+    const cardList = $("cardList");
+    const summaryStrip = $("summaryStrip");
+    const readingFocusTerms = [
+      "please", "welcome", "attention", "announce", "announcement", "reservation",
+      "schedule", "meeting", "conference", "workshop", "registration", "deadline",
+      "ticket", "tickets", "fee", "free", "discount", "customer", "customers",
+      "staff", "employee", "employees", "manager", "department", "office", "hotel",
+      "museum", "library", "restaurant", "airport", "station", "address", "location",
+      "floor", "room", "building", "today", "tomorrow", "monday", "tuesday",
+      "wednesday", "thursday", "friday", "saturday", "sunday", "morning",
+      "afternoon", "evening", "weather", "forecast", "open", "closed", "available",
+      "important", "safety", "policy", "training", "service", "services", "members",
+      "visitors", "guests", "project", "event", "tour", "maintenance", "delayed",
+      "cancelled", "canceled", "change", "updated", "contact", "call", "email",
+      "online", "website", "parking", "lunch", "breakfast", "dinner", "appointment",
+      "application"
+    ];
+    const readingFocusPattern = new RegExp("\\b(?:" + readingFocusTerms.map(escapeRegExp).join("|") + ")\\b|\\b\\d+(?:[:./-]\\d+)*(?:\\s?(?:a\\.m\\.|p\\.m\\.|am|pm))?\\b", "gi");
+    let speechUtterance = null;
+    let speechKeepAliveTimer = 0;
+    let voicesReadyPromise = null;
+
+    function saveDone() {
+      localStorage.setItem("toeic-review-done", JSON.stringify([...state.done]));
+    }
+
+    function normalize(value) {
+      return String(value || "").toLowerCase();
+    }
+
+    function currentRecords() {
+      const term = normalize(state.search).trim();
+      let records = data.records.filter((record) => {
+        if (record.part !== state.part) return false;
+        if (state.priority !== "all" && record.priority !== state.priority) return false;
+        if (!term) return true;
+        return [
+          record.topic,
+          record.prompt,
+          record.answer,
+          record.sourceFile,
+          record.bankName,
+          record.instructions,
+        ].some((field) => normalize(field).includes(term));
+      });
+      if (state.shuffled) {
+        records = [...records].sort((a, b) => {
+          const ah = hash(a.uid + "-" + state.part + "-" + state.priority);
+          const bh = hash(b.uid + "-" + state.part + "-" + state.priority);
+          return ah - bh;
+        });
+      }
+      return records;
+    }
+
+    function hash(text) {
+      let value = 2166136261;
+      for (let i = 0; i < text.length; i += 1) {
+        value ^= text.charCodeAt(i);
+        value = Math.imul(value, 16777619);
+      }
+      return value >>> 0;
+    }
+
+    function renderAnswer(record) {
+      const answerText = record.answer || "题库未提供参考答案。";
+      if (record.part !== 1) {
+        return '<div class="answer-panel"><p class="answer-title">参考答案</p><p class="answer-text">' + escapeHtml(answerText) + '</p></div>';
+      }
+      return '<div class="answer-panel part1-answer-panel">' +
+        '<div class="answer-heading">' +
+          '<p class="answer-title">参考答案 · 朗读标注</p>' +
+          '<span class="speech-status" data-speech-status="' + escapeAttr(record.uid) + '">检测中</span>' +
+        '</div>' +
+        '<p class="answer-text annotated-answer">' + annotatePart1Answer(answerText) + '</p>' +
+        '<p class="reading-note">标注：/ 短停顿，// 句间停顿；粗体优先标出时间、地点、费用、日程、服务和职场关键词；↑ 用于疑问或未完成语义，↓ 用于陈述收束。</p>' +
+        '<div class="speech-controls">' +
+          '<button class="tool-button speech-check-button" type="button" data-check-speech="' + escapeAttr(record.uid) + '">检测声音</button>' +
+          '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '">播放朗读</button>' +
+          '<button class="tool-button speech-pause-button" type="button" data-pause-speech="' + escapeAttr(record.uid) + '">暂停/继续</button>' +
+          '<button class="tool-button speech-stop-button" type="button" data-stop-speech="' + escapeAttr(record.uid) + '">停止</button>' +
+        '</div>' +
+      '</div>';
+    }
+
+    function annotatePart1Answer(value) {
+      const paragraphs = String(value || "").split(/\n+/).map((line) => line.trim()).filter(Boolean);
+      const usableParagraphs = paragraphs.length ? paragraphs : ["题库未提供参考答案。"];
+      return usableParagraphs.map((paragraph) => annotateParagraph(paragraph)).join("<br>");
+    }
+
+    function annotateParagraph(paragraph) {
+      const protectedText = protectAbbreviations(paragraph);
+      const sentences = protectedText.match(/[^.!?]+[.!?]?/g) || [protectedText];
+      return sentences
+        .map((sentence) => annotateSentence(sentence.replaceAll("@@DOT@@", ".").trim()))
+        .filter(Boolean)
+        .join(' <span class="pause-mark">//</span> ');
+    }
+
+    function annotateSentence(sentence) {
+      if (!sentence) return "";
+      const endingMatch = sentence.match(/[.!?]$/);
+      const ending = endingMatch ? endingMatch[0] : "";
+      const toneClass = ending === "?" ? "tone-rise" : "tone-fall";
+      const tone = ending === "?" ? "↑" : "↓";
+      const body = ending ? sentence.slice(0, -1).trim() : sentence;
+      const pieces = body.split(/([,;:])/);
+      let html = "";
+      for (const piece of pieces) {
+        if (!piece) continue;
+        if (piece === "," || piece === ";" || piece === ":") {
+          html += escapeHtml(piece) + ' <span class="pause-mark">/</span> ';
+        } else {
+          html += highlightReadingFocus(piece);
+        }
+      }
+      return html.replace(/\s+/g, " ").trim() + escapeHtml(ending) + '<span class="tone-mark ' + toneClass + '">' + tone + '</span>';
+    }
+
+    function protectAbbreviations(text) {
+      return String(text)
+        .replace(/\b(Mr|Ms|Mrs|Dr|Prof|St)\./g, "$1@@DOT@@")
+        .replace(/\b([ap])\.m\./gi, (match) => match.replaceAll(".", "@@DOT@@"));
+    }
+
+    function highlightReadingFocus(text) {
+      return escapeHtml(text).replace(readingFocusPattern, (match) => '<strong>' + match + '</strong>');
+    }
+
+    async function speakRecord(uid) {
+      const record = data.records.find((item) => item.uid === uid);
+      if (!record) return;
+      const text = String(record.answer || record.prompt || "").replace(/\s+/g, " ").trim();
+      if (!text) {
+        setSpeechStatus(uid, "没有可朗读文本", "error");
+        return;
+      }
+      if (!supportsSpeechSynthesis()) {
+        setSpeechStatus(uid, "当前浏览器不支持朗读", "error");
+        return;
+      }
+      setSpeechStatus(uid, "正在加载英文声音", "");
+      const voices = await loadVoices();
+      const englishVoices = voices.filter((voice) => /^en/i.test(voice.lang || ""));
+      const voice = getEnglishVoice(voices);
+      stopSpeech();
+      speechUtterance = new window.SpeechSynthesisUtterance(text);
+      speechUtterance.lang = "en-US";
+      speechUtterance.rate = 0.82;
+      speechUtterance.pitch = 1;
+      speechUtterance.volume = 1;
+      if (voice) speechUtterance.voice = voice;
+      let started = false;
+      speechUtterance.onstart = () => {
+        started = true;
+        setSpeechStatus(uid, "正在朗读" + (voice ? " · " + voice.name : ""), "");
+      };
+      speechUtterance.onend = () => {
+        clearSpeechKeepAlive();
+        setSpeechStatus(uid, "朗读完成", "");
+        speechUtterance = null;
+      };
+      speechUtterance.onerror = (event) => {
+        clearSpeechKeepAlive();
+        setSpeechStatus(uid, "朗读失败：" + (event.error || "unknown"), "error");
+        speechUtterance = null;
+      };
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.resume();
+      window.setTimeout(() => {
+        if (!speechUtterance) return;
+        window.speechSynthesis.speak(speechUtterance);
+        startSpeechKeepAlive();
+        window.setTimeout(() => {
+          if (!started && window.speechSynthesis.speaking) {
+            setSpeechStatus(uid, "已请求播放" + (voice ? " · " + voice.name : ""), "warning");
+          } else if (!started && !window.speechSynthesis.speaking) {
+            const suffix = englishVoices.length ? "英文声音 " + englishVoices.length + " 个" : "未检测到英文声音";
+            setSpeechStatus(uid, "浏览器未开始朗读 · " + suffix, "error");
+          }
+        }, 1400);
+      }, 80);
+    }
+
+    function pauseOrResumeSpeech(uid) {
+      if (!supportsSpeechSynthesis()) {
+        setSpeechStatus(uid, "当前浏览器不支持朗读", "error");
+        return;
+      }
+      if (window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+        setSpeechStatus(uid, "继续朗读", "");
+      } else if (window.speechSynthesis.speaking) {
+        window.speechSynthesis.pause();
+        setSpeechStatus(uid, "已暂停", "warning");
+      } else {
+        speakRecord(uid);
+      }
+    }
+
+    function stopSpeech(uid) {
+      clearSpeechKeepAlive();
+      if (supportsSpeechSynthesis()) window.speechSynthesis.cancel();
+      if (uid) setSpeechStatus(uid, "已停止", "");
+      speechUtterance = null;
+    }
+
+    async function checkSpeech(uid) {
+      if (!supportsSpeechSynthesis()) {
+        setSpeechStatus(uid, "当前浏览器不支持朗读", "error");
+        return;
+      }
+      setSpeechStatus(uid, "正在检测声音", "");
+      const tonePlayed = await playTestTone();
+      const voices = await loadVoices(true);
+      const englishVoices = voices.filter((voice) => /^en/i.test(voice.lang || ""));
+      if (!tonePlayed) {
+        setSpeechStatus(uid, "测试声音失败，请检查浏览器声音权限", "error");
+      } else if (englishVoices.length) {
+        setSpeechStatus(uid, "检测通过 · 英文声音 " + englishVoices.length + " 个", "");
+      } else {
+        setSpeechStatus(uid, "系统声音可用，但未加载英文朗读声音", "warning");
+      }
+    }
+
+    function supportsSpeechSynthesis() {
+      return "speechSynthesis" in window && typeof window.SpeechSynthesisUtterance !== "undefined";
+    }
+
+    function loadVoices(forceRefresh = false) {
+      if (!supportsSpeechSynthesis()) return Promise.resolve([]);
+      if (!forceRefresh && voicesReadyPromise) return voicesReadyPromise;
+      voicesReadyPromise = new Promise((resolve) => {
+        const synth = window.speechSynthesis;
+        const existing = synth.getVoices();
+        if (existing.length) {
+          resolve(existing);
+          return;
+        }
+        let settled = false;
+        const finish = () => {
+          if (settled) return;
+          settled = true;
+          if (typeof synth.removeEventListener === "function") {
+            synth.removeEventListener("voiceschanged", finish);
+          }
+          resolve(synth.getVoices());
+        };
+        if (typeof synth.addEventListener === "function") {
+          synth.addEventListener("voiceschanged", finish);
+        } else {
+          const previous = synth.onvoiceschanged;
+          synth.onvoiceschanged = () => {
+            if (typeof previous === "function") previous.call(synth);
+            finish();
+          };
+        }
+        window.setTimeout(finish, 1600);
+      });
+      return voicesReadyPromise;
+    }
+
+    function getEnglishVoice(voices) {
+      const preferredNames = ["Samantha", "Alex", "Daniel", "Karen", "Moira", "Google US English", "Microsoft Aria"];
+      for (const preferredName of preferredNames) {
+        const match = voices.find((voice) => voice.name && voice.name.toLowerCase().includes(preferredName.toLowerCase()));
+        if (match) return match;
+      }
+      return voices.find((voice) => /^en-US/i.test(voice.lang || "")) || voices.find((voice) => /^en/i.test(voice.lang || "")) || null;
+    }
+
+    function refreshSpeechStatuses() {
+      const statusNodes = [...document.querySelectorAll("[data-speech-status]")];
+      if (!statusNodes.length) return;
+      if (!supportsSpeechSynthesis()) {
+        statusNodes.forEach((node) => setSpeechStatus(node.dataset.speechStatus, "当前浏览器不支持朗读", "error"));
+        return;
+      }
+      loadVoices().then((voices) => {
+        const englishVoices = voices.filter((voice) => /^en/i.test(voice.lang || ""));
+        const message = englishVoices.length ? "可朗读 · 英文声音 " + englishVoices.length + " 个" : "未检测到英文朗读声音";
+        const level = englishVoices.length ? "" : "warning";
+        statusNodes.forEach((node) => {
+          if (["检测中", "未检测到英文朗读声音"].includes(node.textContent) || node.textContent.startsWith("可朗读")) {
+            setSpeechStatus(node.dataset.speechStatus, message, level);
+          }
+        });
+      });
+    }
+
+    function startSpeechKeepAlive() {
+      clearSpeechKeepAlive();
+      if (!supportsSpeechSynthesis()) return;
+      speechKeepAliveTimer = window.setInterval(() => {
+        if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        }
+      }, 5000);
+    }
+
+    function clearSpeechKeepAlive() {
+      if (speechKeepAliveTimer) {
+        window.clearInterval(speechKeepAliveTimer);
+        speechKeepAliveTimer = 0;
+      }
+    }
+
+    async function playTestTone() {
+      const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextClass) return false;
+      try {
+        const context = new AudioContextClass();
+        await context.resume();
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+        oscillator.type = "sine";
+        oscillator.frequency.value = 660;
+        gain.gain.setValueAtTime(0.0001, context.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.12, context.currentTime + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.0001, context.currentTime + 0.25);
+        oscillator.connect(gain);
+        gain.connect(context.destination);
+        oscillator.start();
+        oscillator.stop(context.currentTime + 0.28);
+        window.setTimeout(() => context.close(), 450);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+
+    function setSpeechStatus(uid, text, level = "") {
+      document.querySelectorAll("[data-speech-status]").forEach((node) => {
+        if (node.dataset.speechStatus === uid) {
+          node.textContent = text;
+          node.classList.toggle("warning", level === "warning");
+          node.classList.toggle("error", level === "error");
+        }
+      });
+    }
+
+    function renderParts() {
+      partList.innerHTML = data.parts.map((part) =>
+        '<button class="part-button ' + (part.part === state.part ? "active" : "") + '" type="button" data-part="' + part.part + '">' +
+          '<span class="part-title">' + escapeHtml(part.name) + '</span>' +
+          '<span class="part-count">' + part.counts.total + '</span>' +
+        '</button>'
+      ).join("");
+    }
+
+    function renderPriorityButtons() {
+      priorityList.querySelectorAll(".priority-button").forEach((button) => {
+        button.classList.toggle("active", button.dataset.priority === state.priority);
+      });
+    }
+
+    function renderSummary(records) {
+      const part = data.parts.find((item) => item.part === state.part);
+      const visibleCounts = records.reduce((acc, record) => {
+        acc[record.priority] += 1;
+        return acc;
+      }, { P1: 0, P2: 0, P3: 0 });
+      summaryStrip.innerHTML = [
+        ["全部", part.counts.total, "本 Part 总题数"],
+        ["P1", visibleCounts.P1, "当前筛选"],
+        ["P2", visibleCounts.P2, "当前筛选"],
+        ["P3", visibleCounts.P3, "当前筛选"],
+      ].map(([label, count, note]) =>
+        '<div class="summary-item">' +
+          '<span class="summary-number">' + count + '</span>' +
+          '<span class="summary-label">' + escapeHtml(label + " " + note) + '</span>' +
+        '</div>'
+      ).join("");
+    }
+
+    function renderCards(records) {
+      if (!records.length) {
+        cardList.innerHTML = '<div class="empty">没有匹配的题目。</div>';
+        return;
+      }
+      cardList.innerHTML = records.map((record, index) => {
+        const answerVisible = state.showAllAnswers || state.answerOpen.has(record.uid);
+        const isDone = state.done.has(record.uid);
+        const material = record.part === 4 && record.instructions
+          ? '<details class="material"><summary>资料表</summary><pre class="material-text">' + escapeHtml(record.instructions) + '</pre></details>'
+          : "";
+        const image = record.imagePath
+          ? '<div class="image-wrap"><img src="' + escapeAttr(record.imagePath) + '" alt="' + escapeAttr(record.topic || "Part2 图片") + '" loading="lazy" /></div>'
+          : "";
+        const answer = answerVisible
+          ? renderAnswer(record)
+          : "";
+        const prepBadge = record.preparationTime ? '<span class="badge meta">准备 ' + escapeHtml(record.preparationTime) + 's</span>' : "";
+        const answerBadge = record.answerTime ? '<span class="badge meta">作答 ' + escapeHtml(record.answerTime) + 's</span>' : "";
+        return '<article class="question-card" data-uid="' + escapeAttr(record.uid) + '">' +
+          '<div class="card-main ' + (image ? "" : "no-image") + '">' +
+            '<div>' +
+              '<div class="card-head">' +
+                '<span class="badge ' + record.priority.toLowerCase() + '">' + record.priority + '</span>' +
+                '<span class="badge meta">#' + (index + 1) + '</span>' +
+                '<span class="badge meta">' + escapeHtml(record.sourceFile) + '</span>' +
+                '<span class="badge meta">题' + escapeHtml(record.questionId) + '</span>' +
+                prepBadge +
+                answerBadge +
+              '</div>' +
+              '<h3 class="card-topic">' + escapeHtml(record.topic || record.partName) + '</h3>' +
+              '<p class="question-text">' + escapeHtml(record.prompt) + '</p>' +
+              material +
+              answer +
+              '<div class="card-actions">' +
+                '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? "隐藏答案" : "显示答案") + '</button>' +
+                '<button class="tool-button done-toggle ' + (isDone ? "done" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isDone ? "已练" : "标记已练") + '</button>' +
+              '</div>' +
+            '</div>' +
+            image +
+          '</div>' +
+          '<div class="reason">' + escapeHtml(record.reason) + '</div>' +
+        '</article>';
+      }).join("");
+    }
+
+    function render() {
+      const records = currentRecords();
+      const part = data.parts.find((item) => item.part === state.part);
+      $("currentTitle").textContent = part.name;
+      $("currentMeta").textContent = records.length + " 道显示中；P1 " + part.counts.P1 + "，P2 " + part.counts.P2 + "，P3 " + part.counts.P3;
+      $("totalCount").textContent = part.counts.total;
+      $("doneCount").textContent = data.records.filter((record) => record.part === state.part && state.done.has(record.uid)).length;
+      $("shownCount").textContent = records.length;
+      $("toggleAnswers").textContent = state.showAllAnswers ? "隐藏全部答案" : "显示全部答案";
+      $("shuffleButton").textContent = state.shuffled ? "恢复排序" : "随机排序";
+      renderParts();
+      renderPriorityButtons();
+      renderSummary(records);
+      renderCards(records);
+      refreshSpeechStatuses();
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function escapeRegExp(value) {
+      return String(value).replace(/[\\^$.*+?()[\]{}|]/g, "\\$&");
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replaceAll(String.fromCharCode(96), "&#096;");
+    }
+
+    partList.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-part]");
+      if (!button) return;
+      stopSpeech();
+      state.part = Number(button.dataset.part);
+      state.answerOpen.clear();
+      render();
+    });
+
+    priorityList.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-priority]");
+      if (!button) return;
+      state.priority = button.dataset.priority;
+      render();
+    });
+
+    searchInput.addEventListener("input", (event) => {
+      state.search = event.target.value;
+      render();
+    });
+
+    cardList.addEventListener("click", (event) => {
+      const checkSpeechButton = event.target.closest("[data-check-speech]");
+      if (checkSpeechButton) {
+        checkSpeech(checkSpeechButton.dataset.checkSpeech);
+        return;
+      }
+      const speakButton = event.target.closest("[data-speak]");
+      if (speakButton) {
+        speakRecord(speakButton.dataset.speak);
+        return;
+      }
+      const pauseSpeechButton = event.target.closest("[data-pause-speech]");
+      if (pauseSpeechButton) {
+        pauseOrResumeSpeech(pauseSpeechButton.dataset.pauseSpeech);
+        return;
+      }
+      const stopSpeechButton = event.target.closest("[data-stop-speech]");
+      if (stopSpeechButton) {
+        stopSpeech(stopSpeechButton.dataset.stopSpeech);
+        return;
+      }
+      const answerButton = event.target.closest(".answer-toggle");
+      if (answerButton) {
+        const uid = answerButton.dataset.uid;
+        stopSpeech(uid);
+        if (state.answerOpen.has(uid)) state.answerOpen.delete(uid);
+        else state.answerOpen.add(uid);
+        render();
+        return;
+      }
+      const doneButton = event.target.closest(".done-toggle");
+      if (doneButton) {
+        const uid = doneButton.dataset.uid;
+        if (state.done.has(uid)) state.done.delete(uid);
+        else state.done.add(uid);
+        saveDone();
+        render();
+      }
+    });
+
+    $("toggleAnswers").addEventListener("click", () => {
+      stopSpeech();
+      state.showAllAnswers = !state.showAllAnswers;
+      render();
+    });
+
+    $("shuffleButton").addEventListener("click", () => {
+      state.shuffled = !state.shuffled;
+      render();
+    });
+
+    $("resetDone").addEventListener("click", () => {
+      state.done.clear();
+      saveDone();
+      render();
+    });
+
+    if (supportsSpeechSynthesis()) {
+      window.speechSynthesis.getVoices();
+      if (typeof window.speechSynthesis.addEventListener === "function") {
+        window.speechSynthesis.addEventListener("voiceschanged", () => {
+          voicesReadyPromise = null;
+          refreshSpeechStatuses();
+        });
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>
