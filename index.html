@@ -1047,6 +1047,38 @@
       "although", "though", "while", "whether"
     ]);
     const readingAlwaysStressWords = new Set(["no", "not", "never", "please", "welcome", "attention"]);
+    const senseGroupClauseStarters = new Set([
+      "although", "because", "before", "if", "once", "since", "though", "unless",
+      "until", "when", "whenever", "where", "whereas", "whether", "while", "who",
+      "whom", "whose", "which", "that"
+    ]);
+    const senseGroupPhraseStarters = new Set([
+      "after", "around", "at", "by", "during", "for", "from", "in", "inside", "near",
+      "on", "outside", "through", "throughout", "under", "with", "without"
+    ]);
+    const senseGroupParticiples = new Set([
+      "allowing", "creating", "designed", "featuring", "giving", "helping", "including",
+      "led", "located", "making", "offering", "providing", "served", "using"
+    ]);
+    const senseGroupVerbHints = new Set([
+      "add", "announce", "apply", "arrive", "assist", "attend", "avoid", "begin", "bring",
+      "buy", "call", "change", "check", "choose", "complete", "contact", "continue", "create",
+      "discuss", "enjoy", "ensure", "explore", "find", "follow", "get", "give", "handle",
+      "help", "improve", "include", "join", "keep", "learn", "make", "meet", "offer", "order",
+      "participate", "pay", "prepare", "provide", "receive", "reduce", "register", "relax",
+      "remember", "report", "request", "review", "save", "schedule", "serve", "share", "shop",
+      "spend", "stay", "take", "talk", "use", "visit", "wait", "work"
+    ]);
+    const senseGroupTransitionWords = new Set([
+      "additionally", "currently", "finally", "first", "fortunately", "however", "meanwhile",
+      "next", "recently", "second", "therefore", "today", "tomorrow"
+    ]);
+    const senseGroupInfinitiveComplements = new Set([
+      "able", "available", "eager", "expected", "glad", "happy", "hope", "hopes", "likely",
+      "need", "needs", "pleased", "prefer", "prefers", "ready", "remember", "remembers",
+      "try", "tries", "want", "wants", "willing", "wish", "wishes"
+    ]);
+    const senseGroupObjectPronouns = new Set(["her", "him", "it", "me", "them", "us", "you"]);
     let speechUtterance = null;
     let speechKeepAliveTimer = 0;
     let voicesReadyPromise = null;
@@ -1303,7 +1335,7 @@
           '<span class="speech-status" data-speech-status="' + escapeAttr(record.uid) + '">检测中</span>' +
         '</div>' +
         '<p class="answer-text annotated-answer">' + annotatePart1Answer(answerText) + '</p>' +
-        '<p class="reading-note">标注：/ 短停顿，// 句间停顿；粗体表示建议重读的实义词、数字和否定词；↑ 表示列举、引导或未完意群继续，↓ 表示陈述句收束。</p>' +
+        '<p class="reading-note">标注：/ 意群短停顿，// 句间完整停顿；粗体表示建议重读的实义词、数字和否定词；↑ 表示列举、引导或未完意群继续，↓ 表示陈述句收束。</p>' +
         '<div class="speech-controls">' +
           '<button class="tool-button speech-check-button" type="button" data-check-speech="' + escapeAttr(record.uid) + '">检测声音</button>' +
           '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '">播放朗读</button>' +
@@ -1409,7 +1441,7 @@
         if (piece === "," || piece === ";" || piece === ":") {
           html += escapeHtml(piece) + '<span class="tone-mark tone-rise">↑</span> <span class="pause-mark">/</span> ';
         } else {
-          html += highlightReadingStress(piece);
+          html += annotateSenseGroups(piece);
         }
       }
       const finalTone = ending === "?" || !ending ? "↑" : "↓";
@@ -1421,6 +1453,78 @@
       return String(text)
         .replace(/\b(Mr|Ms|Mrs|Dr|Prof|St)\./g, "$1@@DOT@@")
         .replace(/\b([ap])\.m\./gi, (match) => match.replaceAll(".", "@@DOT@@"));
+    }
+
+    function normalizeSenseWord(word) {
+      return String(word || "").toLowerCase().replace(/^[^a-z]+|[^a-z]+$/g, "");
+    }
+
+    function containsClauseVerb(words) {
+      return words.some((word) => {
+        const normalized = normalizeSenseWord(word);
+        return senseGroupVerbHints.has(normalized) ||
+          ["am", "is", "are", "was", "were", "be", "been", "being", "can", "could", "may", "might", "must", "shall", "should", "will", "would", "has", "have", "had", "does", "do", "did"].includes(normalized) ||
+          /(?:ed|ing)$/.test(normalized);
+      });
+    }
+
+    function splitSenseGroups(text) {
+      const leading = String(text).match(/^\s*/)?.[0] || "";
+      const trailing = String(text).match(/\s*$/)?.[0] || "";
+      const words = String(text).trim().split(/\s+/).filter(Boolean);
+      if (words.length < 7) return [String(text)];
+
+      const boundaries = [];
+      let groupStart = 0;
+      for (let index = 1; index < words.length; index += 1) {
+        const word = normalizeSenseWord(words[index]);
+        const nextWord = normalizeSenseWord(words[index + 1]);
+        const previousWord = normalizeSenseWord(words[index - 1]);
+        const groupLength = index - groupStart;
+        const remainingLength = words.length - index;
+        const remainingWords = words.slice(index + 1);
+        let boundary = false;
+
+        if (senseGroupClauseStarters.has(word) && groupLength >= 3 && remainingLength >= 3) {
+          boundary = true;
+        } else if (senseGroupParticiples.has(word) && groupLength >= 5 && remainingLength >= 3) {
+          boundary = true;
+        } else if (word === "to" && senseGroupVerbHints.has(nextWord) && !senseGroupInfinitiveComplements.has(previousWord) && groupLength >= 5 && remainingLength >= 3) {
+          boundary = true;
+        } else if (["and", "but", "or", "so", "yet"].includes(word) && groupLength >= 5 && remainingLength >= 4 && containsClauseVerb(remainingWords)) {
+          boundary = true;
+        } else if (senseGroupPhraseStarters.has(word) && !senseGroupObjectPronouns.has(previousWord) && groupLength >= 7 && remainingLength >= 4) {
+          boundary = true;
+        } else if (senseGroupTransitionWords.has(word) && groupLength >= 5 && remainingLength >= 3) {
+          boundary = true;
+        }
+
+        if (boundary) {
+          boundaries.push(index);
+          groupStart = index;
+        }
+      }
+
+      if (!boundaries.length) return [String(text)];
+      const groups = [];
+      let start = 0;
+      for (const boundary of boundaries) {
+        groups.push(words.slice(start, boundary).join(" "));
+        start = boundary;
+      }
+      groups.push(words.slice(start).join(" "));
+      groups[0] = leading + groups[0];
+      groups[groups.length - 1] += trailing;
+      return groups;
+    }
+
+    function annotateSenseGroups(text) {
+      return splitSenseGroups(text).map((group, index, groups) => {
+        const annotated = highlightReadingStress(group);
+        return index < groups.length - 1
+          ? annotated + '<span class="tone-mark tone-rise">↑</span> <span class="pause-mark">/</span> '
+          : annotated;
+      }).join("");
     }
 
     function highlightReadingStress(text) {
