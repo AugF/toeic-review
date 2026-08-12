@@ -168,6 +168,33 @@
       box-shadow: 0 0 0 3px rgba(0, 127, 122, 0.12);
     }
 
+    .voice-select {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 10px 36px 10px 12px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .voice-select:focus {
+      border-color: var(--teal);
+      box-shadow: 0 0 0 3px rgba(0, 127, 122, 0.12);
+    }
+
+    .voice-select:disabled {
+      color: var(--muted);
+      cursor: not-allowed;
+    }
+
+    .voice-status {
+      min-height: 18px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
     .sidebar-stats {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -941,6 +968,14 @@
         <input id="searchInput" class="search-box" type="search" placeholder="主题、题目、答案、来源" />
       </section>
 
+      <section class="control-block">
+        <label class="label" for="voiceSelect">全局朗读音色</label>
+        <select id="voiceSelect" class="voice-select" disabled>
+          <option value="">正在加载英文音色…</option>
+        </select>
+        <div class="voice-status" id="voiceStatus" aria-live="polite">正在读取当前设备音色</div>
+      </section>
+
       <div class="sidebar-stats">
         <button class="stat active" type="button" data-study-filter="all"><span class="stat-value" id="totalCount">0</span><span class="stat-label">当前题数</span></button>
         <button class="stat" type="button" data-study-filter="done"><span class="stat-value" id="doneCount">0</span><span class="stat-label">已练</span></button>
@@ -990,6 +1025,8 @@
     const partList = $("partList");
     const priorityList = $("priorityList");
     const searchInput = $("searchInput");
+    const voiceSelect = $("voiceSelect");
+    const voiceStatus = $("voiceStatus");
     const cardList = $("cardList");
     const summaryStrip = $("summaryStrip");
     const countdownTimers = new Map();
@@ -1013,6 +1050,7 @@
     let speechUtterance = null;
     let speechKeepAliveTimer = 0;
     let voicesReadyPromise = null;
+    let selectedVoiceURI = localStorage.getItem("toeic-review-voice-uri") || "";
     let countdownAudioContext = null;
 
     function saveDone() {
@@ -1414,7 +1452,7 @@
       setSpeechStatus(uid, "正在加载英文声音", "");
       const voices = await loadVoices();
       const englishVoices = voices.filter((voice) => /^en/i.test(voice.lang || ""));
-      const voice = getEnglishVoice(voices);
+      const voice = getSelectedEnglishVoice(voices);
       stopSpeech();
       speechUtterance = new window.SpeechSynthesisUtterance(text);
       speechUtterance.lang = "en-US";
@@ -1532,13 +1570,61 @@
       return voicesReadyPromise;
     }
 
-    function getEnglishVoice(voices) {
+    function getDefaultEnglishVoice(voices) {
       const preferredNames = ["Samantha", "Alex", "Daniel", "Karen", "Moira", "Google US English", "Microsoft Aria"];
       for (const preferredName of preferredNames) {
         const match = voices.find((voice) => voice.name && voice.name.toLowerCase().includes(preferredName.toLowerCase()));
         if (match) return match;
       }
       return voices.find((voice) => /^en-US/i.test(voice.lang || "")) || voices.find((voice) => /^en/i.test(voice.lang || "")) || null;
+    }
+
+    function getSelectedEnglishVoice(voices) {
+      const englishVoices = voices.filter((voice) => /^en/i.test(voice.lang || ""));
+      if (selectedVoiceURI) {
+        const selected = englishVoices.find((voice) => voice.voiceURI === selectedVoiceURI);
+        if (selected) return selected;
+      }
+      return getDefaultEnglishVoice(englishVoices);
+    }
+
+    function renderVoiceOptions(voices) {
+      if (!voiceSelect || !voiceStatus) return;
+      const englishVoices = voices
+        .filter((voice) => /^en/i.test(voice.lang || ""))
+        .sort((a, b) => (a.lang || "").localeCompare(b.lang || "") || (a.name || "").localeCompare(b.name || ""));
+      if (!englishVoices.length) {
+        voiceSelect.innerHTML = '<option value="">未检测到英文音色</option>';
+        voiceSelect.disabled = true;
+        voiceStatus.textContent = "当前浏览器没有提供英文朗读音色";
+        return;
+      }
+
+      const selectedAvailable = englishVoices.some((voice) => voice.voiceURI === selectedVoiceURI);
+      if (selectedVoiceURI && !selectedAvailable) {
+        selectedVoiceURI = "";
+        localStorage.removeItem("toeic-review-voice-uri");
+      }
+      voiceSelect.innerHTML = '<option value="">自动选择（推荐）</option>' + englishVoices.map((voice) =>
+        '<option value="' + escapeAttr(voice.voiceURI) + '">' + escapeHtml(voice.name + " · " + voice.lang + (voice.localService ? " · 本机" : "")) + '</option>'
+      ).join("");
+      voiceSelect.value = selectedVoiceURI;
+      voiceSelect.disabled = false;
+      const activeVoice = getSelectedEnglishVoice(englishVoices);
+      voiceStatus.textContent = selectedVoiceURI && activeVoice
+        ? "已全局选择：" + activeVoice.name + " · " + activeVoice.lang
+        : "自动使用：" + (activeVoice ? activeVoice.name + " · " + activeVoice.lang : "英文默认音色");
+    }
+
+    async function initializeVoiceSelector(forceRefresh = false) {
+      if (!supportsSpeechSynthesis()) {
+        voiceSelect.innerHTML = '<option value="">当前浏览器不支持朗读</option>';
+        voiceSelect.disabled = true;
+        voiceStatus.textContent = "请使用支持系统朗读音色的浏览器";
+        return;
+      }
+      const voices = await loadVoices(forceRefresh);
+      renderVoiceOptions(voices);
     }
 
     function refreshSpeechStatuses() {
@@ -1864,6 +1950,15 @@
       render();
     });
 
+    voiceSelect.addEventListener("change", () => {
+      stopSpeech();
+      selectedVoiceURI = voiceSelect.value;
+      if (selectedVoiceURI) localStorage.setItem("toeic-review-voice-uri", selectedVoiceURI);
+      else localStorage.removeItem("toeic-review-voice-uri");
+      renderVoiceOptions(window.speechSynthesis.getVoices());
+      refreshSpeechStatuses();
+    });
+
     document.querySelector(".sidebar-stats").addEventListener("click", (event) => {
       const button = event.target.closest("[data-study-filter]");
       if (!button) return;
@@ -1981,11 +2076,13 @@
       if (typeof window.speechSynthesis.addEventListener === "function") {
         window.speechSynthesis.addEventListener("voiceschanged", () => {
           voicesReadyPromise = null;
+          initializeVoiceSelector(true);
           refreshSpeechStatuses();
         });
       }
     }
 
+    initializeVoiceSelector();
     render();
     updateAllCountdowns();
     window.setInterval(updateAllCountdowns, 200);
