@@ -993,22 +993,23 @@
     const cardList = $("cardList");
     const summaryStrip = $("summaryStrip");
     const countdownTimers = new Map();
-    const readingFocusTerms = [
-      "please", "welcome", "attention", "announce", "announcement", "reservation",
-      "schedule", "meeting", "conference", "workshop", "registration", "deadline",
-      "ticket", "tickets", "fee", "free", "discount", "customer", "customers",
-      "staff", "employee", "employees", "manager", "department", "office", "hotel",
-      "museum", "library", "restaurant", "airport", "station", "address", "location",
-      "floor", "room", "building", "today", "tomorrow", "monday", "tuesday",
-      "wednesday", "thursday", "friday", "saturday", "sunday", "morning",
-      "afternoon", "evening", "weather", "forecast", "open", "closed", "available",
-      "important", "safety", "policy", "training", "service", "services", "members",
-      "visitors", "guests", "project", "event", "tour", "maintenance", "delayed",
-      "cancelled", "canceled", "change", "updated", "contact", "call", "email",
-      "online", "website", "parking", "lunch", "breakfast", "dinner", "appointment",
-      "application"
-    ];
-    const readingFocusPattern = new RegExp("\\b(?:" + readingFocusTerms.map(escapeRegExp).join("|") + ")\\b|\\b\\d+(?:[:./-]\\d+)*(?:\\s?(?:a\\.m\\.|p\\.m\\.|am|pm))?\\b", "gi");
+    const readingFunctionWords = new Set([
+      "a", "an", "the", "and", "but", "or", "nor", "so", "yet",
+      "as", "at", "by", "for", "from", "in", "into", "of", "on", "onto",
+      "per", "than", "through", "to", "up", "with", "within", "without",
+      "about", "above", "after", "before", "behind", "below", "beside", "between",
+      "during", "near", "over", "under", "across", "around", "among", "along",
+      "against", "toward", "towards", "via",
+      "am", "is", "are", "was", "were", "be", "been", "being",
+      "do", "does", "did", "have", "has", "had", "having",
+      "can", "could", "may", "might", "must", "shall", "should", "will", "would",
+      "i", "me", "my", "mine", "we", "us", "our", "ours", "you", "your", "yours",
+      "he", "him", "his", "she", "her", "hers", "it", "its", "they", "them", "their", "theirs",
+      "this", "that", "these", "those", "who", "whom", "whose", "which", "what",
+      "when", "where", "why", "how", "there", "here", "if", "then", "because",
+      "although", "though", "while", "whether"
+    ]);
+    const readingAlwaysStressWords = new Set(["no", "not", "never", "please", "welcome", "attention"]);
     let speechUtterance = null;
     let speechKeepAliveTimer = 0;
     let voicesReadyPromise = null;
@@ -1264,7 +1265,7 @@
           '<span class="speech-status" data-speech-status="' + escapeAttr(record.uid) + '">检测中</span>' +
         '</div>' +
         '<p class="answer-text annotated-answer">' + annotatePart1Answer(answerText) + '</p>' +
-        '<p class="reading-note">标注：/ 短停顿，// 句间停顿；粗体优先标出时间、地点、费用、日程、服务和职场关键词；↑ 用于疑问或未完成语义，↓ 用于陈述收束。</p>' +
+        '<p class="reading-note">标注：/ 短停顿，// 句间停顿；粗体表示建议重读的实义词、数字和否定词；↑ 表示列举、引导或未完意群继续，↓ 表示陈述句收束。</p>' +
         '<div class="speech-controls">' +
           '<button class="tool-button speech-check-button" type="button" data-check-speech="' + escapeAttr(record.uid) + '">检测声音</button>' +
           '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '">播放朗读</button>' +
@@ -1362,20 +1363,20 @@
       if (!sentence) return "";
       const endingMatch = sentence.match(/[.!?]$/);
       const ending = endingMatch ? endingMatch[0] : "";
-      const toneClass = ending === "?" ? "tone-rise" : "tone-fall";
-      const tone = ending === "?" ? "↑" : "↓";
       const body = ending ? sentence.slice(0, -1).trim() : sentence;
       const pieces = body.split(/([,;:])/);
       let html = "";
       for (const piece of pieces) {
         if (!piece) continue;
         if (piece === "," || piece === ";" || piece === ":") {
-          html += escapeHtml(piece) + ' <span class="pause-mark">/</span> ';
+          html += escapeHtml(piece) + '<span class="tone-mark tone-rise">↑</span> <span class="pause-mark">/</span> ';
         } else {
-          html += highlightReadingFocus(piece);
+          html += highlightReadingStress(piece);
         }
       }
-      return html.replace(/\s+/g, " ").trim() + escapeHtml(ending) + '<span class="tone-mark ' + toneClass + '">' + tone + '</span>';
+      const finalTone = ending === "?" || !ending ? "↑" : "↓";
+      const finalClass = finalTone === "↑" ? "tone-rise" : "tone-fall";
+      return html.replace(/\s+/g, " ").trim() + escapeHtml(ending) + '<span class="tone-mark ' + finalClass + '">' + finalTone + '</span>';
     }
 
     function protectAbbreviations(text) {
@@ -1384,8 +1385,17 @@
         .replace(/\b([ap])\.m\./gi, (match) => match.replaceAll(".", "@@DOT@@"));
     }
 
-    function highlightReadingFocus(text) {
-      return escapeHtml(text).replace(readingFocusPattern, (match) => '<strong>' + match + '</strong>');
+    function highlightReadingStress(text) {
+      const tokens = String(text).match(/[A-Za-z]+(?:['’-][A-Za-z]+)*|\d+(?:[:./-]\d+)*(?:\s?(?:a\.m\.|p\.m\.|am|pm))?|[^A-Za-z\d]+/gi) || [String(text)];
+      return tokens.map((token) => {
+        if (!/[A-Za-z\d]/.test(token)) return escapeHtml(token);
+        const normalized = token.toLowerCase().replace(/[’']/g, "'");
+        const isNumber = /\d/.test(token);
+        const isContraction = normalized.includes("'");
+        const isContentWord = isNumber || isContraction || readingAlwaysStressWords.has(normalized) ||
+          (!readingFunctionWords.has(normalized) && normalized.length > 2);
+        return isContentWord ? '<strong>' + escapeHtml(token) + '</strong>' : escapeHtml(token);
+      }).join("");
     }
 
     async function speakRecord(uid) {
