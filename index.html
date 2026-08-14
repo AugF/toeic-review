@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
   <title>TOEIC Speaking 重点复习</title>
   <style>
     :root {
@@ -867,6 +870,44 @@
       text-align: center;
     }
 
+    .account-session {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .account-session[hidden] {
+      display: none;
+    }
+
+    .account-email {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .account-logout {
+      color: var(--teal-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .site-policy {
+      max-width: 1120px;
+      margin: 28px auto 4px;
+      padding: 18px 0 4px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
     .mobile-tabs {
       display: none;
       position: sticky;
@@ -983,6 +1024,11 @@
         <button class="stat" type="button" data-study-filter="personalized"><span class="stat-value" id="personalizedCount">0</span><span class="stat-label">个性化</span></button>
         <div class="stat"><span class="stat-value" id="shownCount">0</span><span class="stat-label">显示</span></div>
       </div>
+
+      <div class="account-session" id="accountSession" hidden>
+        <span class="account-email" id="accountEmail"></span>
+        <a class="account-logout" href="/cdn-cgi/access/logout">退出</a>
+      </div>
     </aside>
 
     <main>
@@ -1000,6 +1046,9 @@
 
       <section class="summary-strip" id="summaryStrip"></section>
       <section class="card-list" id="cardList"></section>
+      <footer class="site-policy">
+        全部内容仅供个人学习使用。禁止任何 AI 爬虫抓取，禁止用于大模型训练、商业使用或商用二次开发；内容不包含任何企业内部技术资料或商业方案。
+      </footer>
     </main>
   </div>
 
@@ -1084,13 +1133,78 @@
     let voicesReadyPromise = null;
     let selectedVoiceURI = localStorage.getItem("toeic-review-voice-uri") || "";
     let countdownAudioContext = null;
+    let accountSession = null;
+    let cloudSaveTimer = 0;
 
     function saveDone() {
       localStorage.setItem("toeic-review-done", JSON.stringify([...state.done]));
+      scheduleCloudStateSave();
     }
 
     function savePersonalized() {
       localStorage.setItem("toeic-review-personalized", JSON.stringify([...state.personalized]));
+      scheduleCloudStateSave();
+    }
+
+    function studyStatePayload() {
+      return {
+        done: [...state.done],
+        personalized: [...state.personalized],
+        part: state.part,
+        priority: state.priority,
+        studyFilter: state.studyFilter,
+      };
+    }
+
+    function scheduleCloudStateSave() {
+      if (!accountSession) return;
+      window.clearTimeout(cloudSaveTimer);
+      cloudSaveTimer = window.setTimeout(saveCloudState, 450);
+    }
+
+    async function saveCloudState() {
+      if (!accountSession) return;
+      try {
+        await fetch("./api/study-state", {
+          method: "PUT",
+          credentials: "same-origin",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(studyStatePayload()),
+          keepalive: true,
+        });
+      } catch {
+        // Local browser state remains available if cloud synchronization is temporarily unavailable.
+      }
+    }
+
+    function applyCloudState(saved) {
+      if (!saved || typeof saved !== "object") return;
+      if (Array.isArray(saved.done)) state.done = new Set(saved.done);
+      if (Array.isArray(saved.personalized)) state.personalized = new Set(saved.personalized);
+      if ([1, 2, 3, 4, 5].includes(Number(saved.part))) state.part = Number(saved.part);
+      if (["all", "P1", "P2", "P3"].includes(saved.priority)) state.priority = saved.priority;
+      if (["all", "done", "undone", "personalized"].includes(saved.studyFilter)) {
+        state.studyFilter = saved.studyFilter;
+      }
+    }
+
+    async function initializeAccountState() {
+      try {
+        const sessionResponse = await fetch("./api/session", { credentials: "same-origin" });
+        if (!sessionResponse.ok) return;
+        accountSession = await sessionResponse.json();
+        $("accountEmail").textContent = accountSession.email || "已登录";
+        $("accountSession").hidden = false;
+
+        const stateResponse = await fetch("./api/study-state", { credentials: "same-origin" });
+        if (!stateResponse.ok) return;
+        const result = await stateResponse.json();
+        if (result.state) applyCloudState(result.state);
+        else await saveCloudState();
+        render();
+      } catch {
+        // GitHub Pages and local files continue using localStorage until secure hosting is enabled.
+      }
     }
 
     function ensureCountdownTimer(key, durationSeconds, type) {
@@ -2039,6 +2153,7 @@
       state.answerOpen.clear();
       state.part3EnglishOpen.clear();
       state.part5EnglishOpen.clear();
+      scheduleCloudStateSave();
       render();
     });
 
@@ -2046,6 +2161,7 @@
       const button = event.target.closest("[data-priority]");
       if (!button) return;
       state.priority = button.dataset.priority;
+      scheduleCloudStateSave();
       render();
     });
 
@@ -2069,6 +2185,7 @@
       state.studyFilter = button.dataset.studyFilter === state.studyFilter && state.studyFilter !== "all"
         ? "all"
         : button.dataset.studyFilter;
+      scheduleCloudStateSave();
       render();
     });
 
@@ -2188,6 +2305,8 @@
 
     initializeVoiceSelector();
     render();
+    initializeAccountState();
+    window.addEventListener("pagehide", saveCloudState);
     updateAllCountdowns();
     window.setInterval(updateAllCountdowns, 200);
   </script>

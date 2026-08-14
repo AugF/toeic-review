@@ -1,0 +1,5 @@
+AI-Training: prohibited
+AI-Input: prohibited
+Automated-Crawling: prohibited
+Commercial-Use: prohibited
+Policy: ./CONTENT_USE_POLICY.md

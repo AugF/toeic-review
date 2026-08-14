@@ -1,0 +1,4 @@
+# Content Signals: search, AI input, and AI training are not permitted.
+User-agent: *
+Content-Signal: search=no, ai-input=no, ai-train=no
+Disallow: /
