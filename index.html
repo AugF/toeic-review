@@ -815,6 +815,164 @@
       font-weight: 800;
     }
 
+    .recording-widget {
+      margin-top: 12px;
+      border-left: 4px solid var(--indigo);
+      border-radius: 0 8px 8px 0;
+      background: #f3f7ff;
+      padding: 10px;
+    }
+
+    .recording-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 7px;
+    }
+
+    .recording-title {
+      margin: 0;
+      color: #1d3652;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .recording-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 7px;
+      margin-left: auto;
+    }
+
+    .recording-actions .tool-button {
+      min-height: 32px;
+      padding: 5px 10px;
+      background: #ffffff;
+    }
+
+    .record-button.recording {
+      border-color: #c84444;
+      background: #fff1f1;
+      color: #a52f2f;
+      font-weight: 800;
+    }
+
+    .record-button.recording::before {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      margin-right: 6px;
+      border-radius: 50%;
+      background: #d84848;
+      content: "";
+      animation: recording-pulse 1s ease-in-out infinite;
+    }
+
+    @keyframes recording-pulse {
+      50% { opacity: 0.35; }
+    }
+
+    .record-status {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .record-status.warning {
+      color: var(--amber);
+      font-weight: 800;
+    }
+
+    .record-status.error {
+      color: var(--coral);
+      font-weight: 800;
+    }
+
+    .record-transcript {
+      margin: 0;
+      border: 1px solid #d7e2ec;
+      border-radius: 8px;
+      background: #ffffff;
+      padding: 8px;
+      color: #1f3a46;
+      font-size: 13px;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .record-transcript[hidden] {
+      display: none;
+    }
+
+    .record-audio {
+      width: 100%;
+      height: 36px;
+      margin-top: 8px;
+    }
+
+    .record-score {
+      margin-top: 8px;
+      border: 1px solid #c8d8ea;
+      border-radius: 8px;
+      background: #fbfcff;
+      padding: 8px;
+      color: #1d3652;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .record-score .score-title {
+      margin-bottom: 4px;
+      color: var(--indigo);
+      font-weight: 800;
+    }
+
+    .record-score .score-badge {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 2px;
+      margin-right: 8px;
+      color: var(--indigo);
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .record-score .score-badge small {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .record-score .score-line {
+      margin: 0;
+    }
+
+    .record-score .score-line + .score-line {
+      margin-top: 2px;
+    }
+
+    .record-score .score-note {
+      margin: 6px 0 0;
+      color: #52636e;
+      font-size: 12px;
+    }
+
+    .record-score .score-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px 12px;
+      margin-top: 6px;
+      color: #52636e;
+      font-size: 12px;
+    }
+
+    .recording-privacy-note {
+      margin: 7px 0 0;
+      color: #60717d;
+      font-size: 11px;
+    }
+
     .card-actions {
       display: flex;
       flex-wrap: wrap;
@@ -978,6 +1136,13 @@
       .current-title {
         font-size: 19px;
       }
+      .recording-actions {
+        width: 100%;
+        margin-left: 0;
+      }
+      .recording-actions .tool-button {
+        flex: 1 1 auto;
+      }
     }
   </style>
 </head>
@@ -1069,6 +1234,35 @@
       done: new Set(JSON.parse(localStorage.getItem("toeic-review-done") || "[]")),
       personalized: new Set(JSON.parse(localStorage.getItem("toeic-review-personalized") || "[]")),
     };
+    const RECORDING_STORAGE_KEY = "toeic-review-recording-scores";
+    const recordLookup = new Map();
+    const activeRecordings = new Map();
+    const recordingAudioUrls = new Map();
+    const recordingResults = loadRecordingScores();
+
+    data.records.forEach((record) => {
+      if (record?.uid) {
+        recordLookup.set(record.uid, {
+          record,
+          parent: null,
+          part: record.part,
+          uid: record.uid,
+          isGrouped: false,
+        });
+      }
+      (record?.questions || []).forEach((question, index) => {
+        if (!question) return;
+        const questionUid = question.uid || record.uid + "::question-" + (question.questionId || index + 1);
+        if (!question.uid) question.uid = questionUid;
+        recordLookup.set(questionUid, {
+          record: question,
+          parent: record,
+          part: record.part,
+          uid: questionUid,
+          isGrouped: true,
+        });
+      });
+    });
 
     const $ = (id) => document.getElementById(id);
     const partList = $("partList");
@@ -1135,6 +1329,654 @@
     let countdownAudioContext = null;
     let accountSession = null;
     let cloudSaveTimer = 0;
+
+    function loadRecordingScores() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(RECORDING_STORAGE_KEY) || "{}");
+        if (!saved || typeof saved !== "object") return new Map();
+        return new Map(Object.entries(saved).filter(([uid, result]) =>
+          uid && result && typeof result === "object"
+        ));
+      } catch {
+        return new Map();
+      }
+    }
+
+    function saveRecordingScores() {
+      try {
+        localStorage.setItem(RECORDING_STORAGE_KEY, JSON.stringify(Object.fromEntries(recordingResults)));
+      } catch {
+        // The score remains visible for this session if browser storage is unavailable.
+      }
+    }
+
+    function getRecordingMeta(uid) {
+      return recordLookup.get(uid) || null;
+    }
+
+    function getSpeechRecognition() {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      return SpeechRecognition ? new SpeechRecognition() : null;
+    }
+
+    function supportsSpeechRecognition() {
+      return Boolean(window.SpeechRecognition || window.webkitSpeechRecognition);
+    }
+
+    function supportsAudioRecording() {
+      return Boolean(
+        navigator.mediaDevices &&
+        typeof navigator.mediaDevices.getUserMedia === "function" &&
+        typeof window.MediaRecorder !== "undefined"
+      );
+    }
+
+    function recordingReferenceText(meta) {
+      if (!meta) return "";
+      const record = meta.record || {};
+      if (meta.part === 1) return record.prompt || record.answer || "";
+      if (Array.isArray(record.answerSectionsEn)) return record.answerSectionsEn.join(" ");
+      if (record.part2Answer) {
+        return [
+          record.part2Answer.opening,
+          ...(record.part2Answer.details || []),
+          record.part2Answer.conclusion,
+        ].filter(Boolean).join(" ");
+      }
+      return record.answer || "";
+    }
+
+    function tokenizeEnglish(value) {
+      return String(value || "")
+        .toLowerCase()
+        .replaceAll("’", "'")
+        .match(/[a-z]+(?:'[a-z]+)?|\d+(?::\d+)?/g) || [];
+    }
+
+    function contentTokens(value) {
+      return tokenizeEnglish(value).filter((word) =>
+        /\d/.test(word) || (word.length > 2 && !readingFunctionWords.has(word))
+      );
+    }
+
+    function wordEditDistance(expected, actual) {
+      const previous = Array.from({ length: actual.length + 1 }, (_, index) => index);
+      for (let row = 1; row <= expected.length; row += 1) {
+        const current = [row];
+        for (let column = 1; column <= actual.length; column += 1) {
+          const substitution = previous[column - 1] + (expected[row - 1] === actual[column - 1] ? 0 : 1);
+          current[column] = Math.min(
+            previous[column] + 1,
+            current[column - 1] + 1,
+            substitution
+          );
+        }
+        previous.splice(0, previous.length, ...current);
+      }
+      return previous[actual.length];
+    }
+
+    function sequenceAccuracy(expectedTokens, actualTokens) {
+      if (!expectedTokens.length || !actualTokens.length) return 0;
+      const distance = wordEditDistance(expectedTokens, actualTokens);
+      return Math.max(0, 1 - distance / Math.max(expectedTokens.length, actualTokens.length));
+    }
+
+    function keywordCoverage(expectedTokens, actualTokens) {
+      const expected = [...new Set(expectedTokens)];
+      const actual = new Set(actualTokens);
+      if (!expected.length) return actualTokens.length ? 0.5 : 0;
+      const matched = expected.filter((token) => actual.has(token)).length;
+      return matched / expected.length;
+    }
+
+    function referenceKeywords(meta) {
+      const record = meta?.record || {};
+      const parent = meta?.parent || {};
+      const explicit = [record.keywords, parent.keywords].filter(Boolean).join(" ");
+      const expected = contentTokens(recordingReferenceText(meta));
+      const prompt = contentTokens(record.prompt || "");
+      const combined = [
+        ...contentTokens(explicit),
+        ...expected,
+        ...(meta?.part === 5 ? prompt : []),
+      ];
+      return [...new Set(combined)].slice(0, 36);
+    }
+
+    function countMatches(text, patterns) {
+      return patterns.reduce((count, pattern) => count + (pattern.test(text) ? 1 : 0), 0);
+    }
+
+    function analyzeDelivery(samples, durationSeconds, wordCount) {
+      const cleanSamples = (samples || []).filter((value) => Number.isFinite(value) && value >= 0);
+      if (!cleanSamples.length) {
+        return {
+          wordsPerMinute: durationSeconds > 0 ? Math.round(wordCount * 60 / durationSeconds) : 0,
+          pauseRatio: 0.2,
+          energyVariation: 0.15,
+          hasAudioSignal: wordCount > 0,
+        };
+      }
+      const peak = cleanSamples.length ? Math.max(...cleanSamples) : 0;
+      const threshold = Math.max(0.004, peak * 0.12);
+      const active = cleanSamples.filter((value) => value > threshold);
+      const activeRatio = cleanSamples.length ? active.length / cleanSamples.length : 0;
+      const average = active.length
+        ? active.reduce((sum, value) => sum + value, 0) / active.length
+        : 0;
+      const variance = active.length
+        ? active.reduce((sum, value) => sum + (value - average) ** 2, 0) / active.length
+        : 0;
+      return {
+        wordsPerMinute: durationSeconds > 0 ? Math.round(wordCount * 60 / durationSeconds) : 0,
+        pauseRatio: cleanSamples.length ? Math.max(0, 1 - activeRatio) : 0,
+        energyVariation: average > 0 ? Math.sqrt(variance) / average : 0,
+        hasAudioSignal: peak >= 0.004,
+      };
+    }
+
+    function scorePart1(meta, transcript, durationSeconds, delivery) {
+      const expectedTokens = tokenizeEnglish(recordingReferenceText(meta));
+      const actualTokens = tokenizeEnglish(transcript);
+      const accuracy = sequenceAccuracy(expectedTokens, actualTokens);
+      const completion = expectedTokens.length
+        ? Math.min(1, actualTokens.length / expectedTokens.length)
+        : 0;
+      const noResponse = actualTokens.length < 2 || !delivery.hasAudioSignal;
+      let pronunciation = 0;
+      if (!noResponse && accuracy >= 0.82 && completion >= 0.85) pronunciation = 3;
+      else if (!noResponse && accuracy >= 0.55 && completion >= 0.6) pronunciation = 2;
+      else if (!noResponse && accuracy >= 0.08) pronunciation = 1;
+
+      const paceOk = delivery.wordsPerMinute >= 85 && delivery.wordsPerMinute <= 185;
+      const pauseOk = delivery.pauseRatio >= 0.06 && delivery.pauseRatio <= 0.46;
+      const emphasisOk = delivery.energyVariation >= 0.1;
+      const longEnough = durationSeconds >= Math.min(16, Math.max(6, expectedTokens.length / 4));
+      const deliveryChecks = [paceOk, pauseOk, emphasisOk, longEnough].filter(Boolean).length;
+      let prosody = 0;
+      if (!noResponse && pronunciation >= 2 && deliveryChecks >= 4) prosody = 3;
+      else if (!noResponse && deliveryChecks >= 2) prosody = 2;
+      else if (!noResponse) prosody = 1;
+
+      const feedback = [];
+      feedback.push(
+        pronunciation === 3
+          ? "文本识别完整，整体清晰度达到高分练习区间。"
+          : pronunciation === 2
+            ? "大部分内容可识别，继续处理漏读、连读和易错词。"
+            : pronunciation === 1
+              ? "先放慢速度，逐个意群读清，再逐步连贯。"
+              : "未识别到有效英文朗读，请检查麦克风后重试。"
+      );
+      feedback.push(
+        prosody === 3
+          ? "速度、停顿和声音强弱变化较自然。"
+          : prosody === 2
+            ? "基本有节奏，建议按标注的意群停顿并突出粗体词。"
+            : prosody === 1
+              ? "节奏较单一或停顿失衡，先练“意群短停、句末收束”。"
+              : "本次没有足够声音数据用于语调与重音估分。"
+      );
+      return {
+        scale: "dual-3",
+        pronunciation,
+        prosody,
+        accuracy,
+        coverage: completion,
+        feedback,
+      };
+    }
+
+    function scorePart2(meta, transcript, durationSeconds, delivery) {
+      const words = tokenizeEnglish(transcript);
+      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
+      const fluent = delivery.wordsPerMinute >= 55 && delivery.wordsPerMinute <= 190;
+      let score = 0;
+      if (words.length && delivery.hasAudioSignal) {
+        if (words.length >= 25 && durationSeconds >= 12 && coverage >= 0.2 && fluent) score = 3;
+        else if (words.length >= 10 && coverage >= 0.07) score = 2;
+        else score = 1;
+      }
+      const feedback = score === 3
+        ? ["已覆盖图片主要特征，表达长度和节奏适合 30 秒作答。"]
+        : score === 2
+          ? ["回答与图片相关，但细节或连贯性还可加强。", "按“地点/整体—人物动作—背景—总结”再补 1 至 2 句。"]
+          : score === 1
+            ? ["有效描述偏少。先说地点和人数，再补两个正在进行的动作。"]
+            : ["未识别到有效英文回答，请检查麦克风后重试。"];
+      return { scale: "single-3", score, coverage, feedback };
+    }
+
+    function scorePart3(meta, transcript, durationSeconds, delivery) {
+      const words = tokenizeEnglish(transcript);
+      const answerTime = Number(meta?.record?.answerTime) || 15;
+      const targetWords = answerTime >= 25 ? 17 : 6;
+      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
+      const directAnswer = /\b(yes|no|usually|often|sometimes|never|once|twice|daily|weekly|because|prefer|would|i'm|i am|my)\b/i.test(transcript);
+      let score = 0;
+      if (words.length && delivery.hasAudioSignal) {
+        if (words.length >= targetWords && (coverage >= 0.1 || directAnswer) && delivery.wordsPerMinute <= 200) score = 3;
+        else if (words.length >= Math.max(4, Math.round(targetWords * 0.5))) score = 2;
+        else score = 1;
+      }
+      const feedback = score === 3
+        ? ["回答直接、信息量与当前作答时间基本匹配。"]
+        : score === 2
+          ? ["回答基本相关，但还不够完整。先直接回答，再补一个简短理由或细节。"]
+          : score === 1
+            ? ["内容过短或较难识别。使用“直接回答 + because + 一个简单理由”。"]
+            : ["未识别到有效英文回答，请检查麦克风后重试。"];
+      return { scale: "single-3", score, coverage, feedback };
+    }
+
+    function scorePart4(meta, transcript, durationSeconds, delivery) {
+      const words = tokenizeEnglish(transcript);
+      const answerTime = Number(meta?.record?.answerTime) || 15;
+      const targetWords = answerTime >= 25 ? 15 : 6;
+      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
+      const includesFact = /\b\d|\b(?:a\.m\.|p\.m\.|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b/i.test(transcript);
+      let score = 0;
+      if (words.length && delivery.hasAudioSignal) {
+        if (words.length >= targetWords && coverage >= 0.28 && delivery.wordsPerMinute <= 200) score = 3;
+        else if (words.length >= Math.max(4, Math.round(targetWords * 0.5)) && (coverage >= 0.1 || includesFact)) score = 2;
+        else score = 1;
+      }
+      const feedback = score === 3
+        ? ["关键信息覆盖较完整，回答长度适合当前时间。"]
+        : score === 2
+          ? ["已提到部分表格信息，但可能漏了时间、地点、姓名或项目。", "先直接回答，再补一项必要细节。"]
+          : score === 1
+            ? ["关键信息不足。重新定位资料表中的对应行和列后，用完整句回答。"]
+            : ["未识别到有效英文回答，请检查麦克风后重试。"];
+      return { scale: "single-3", score, coverage, feedback };
+    }
+
+    function scorePart5(meta, transcript, durationSeconds, delivery) {
+      const words = tokenizeEnglish(transcript);
+      const normalized = " " + transcript.toLowerCase().replace(/[^a-z0-9']+/g, " ") + " ";
+      const hasOpinion = /\b(i think|i believe|in my opinion|i prefer|i agree|i disagree|my choice|i would choose)\b/.test(normalized);
+      const reasonSignals = countMatches(normalized, [
+        /\bbecause\b/,
+        /\bfirst(?:ly)?\b/,
+        /\bsecond(?:ly)?\b/,
+        /\banother reason\b/,
+        /\bone reason\b/,
+        /\balso\b/,
+        /\bin addition\b/,
+      ]);
+      const hasExample = /\b(for example|for instance|such as|one time|last year|when i|in my experience)\b/.test(normalized);
+      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
+      const paceOk = delivery.wordsPerMinute >= 55 && delivery.wordsPerMinute <= 185;
+      let score = 0;
+      if (words.length && delivery.hasAudioSignal) {
+        if (!hasOpinion || words.length < 7) score = 1;
+        else if (reasonSignals === 0 || words.length < 16) score = 2;
+        else if (words.length < 32 || reasonSignals < 2) score = 3;
+        else if (words.length >= 42 && reasonSignals >= 2 && (hasExample || reasonSignals >= 3) && paceOk && durationSeconds >= 24) score = 5;
+        else score = 4;
+      }
+      const feedbackByScore = {
+        5: ["观点清楚，理由和例子展开充分，整体接近高分作答结构。"],
+        4: ["观点和理由较完整。再补一个具体例子或让理由之间衔接更清楚。"],
+        3: ["已表达观点并给出至少一个理由，但展开还不够。再补一个理由或例子。"],
+        2: ["有观点，但支持内容不足。使用两个通用理由，例如省时、方便或有助于工作。"],
+        1: ["观点不够明确或回答过短。先用“I think...”表态，再说“because...”。"],
+        0: ["未识别到有效英文回答，请检查麦克风后重试。"],
+      };
+      return { scale: "single-5", score, coverage, feedback: feedbackByScore[score] };
+    }
+
+    function scoreRecording(meta, transcript, durationSeconds, samples) {
+      const wordCount = tokenizeEnglish(transcript).length;
+      const delivery = analyzeDelivery(samples, durationSeconds, wordCount);
+      let scoreResult;
+      if (meta.part === 1) scoreResult = scorePart1(meta, transcript, durationSeconds, delivery);
+      else if (meta.part === 2) scoreResult = scorePart2(meta, transcript, durationSeconds, delivery);
+      else if (meta.part === 3) scoreResult = scorePart3(meta, transcript, durationSeconds, delivery);
+      else if (meta.part === 4) scoreResult = scorePart4(meta, transcript, durationSeconds, delivery);
+      else scoreResult = scorePart5(meta, transcript, durationSeconds, delivery);
+      return {
+        ...scoreResult,
+        transcript,
+        durationSeconds: Math.max(0, Math.round(durationSeconds * 10) / 10),
+        wordCount,
+        wordsPerMinute: delivery.wordsPerMinute,
+        pauseRatio: delivery.pauseRatio,
+        energyVariation: delivery.energyVariation,
+        createdAt: new Date().toISOString(),
+      };
+    }
+
+    function scoreScaleLabel(part) {
+      if (part === 1) return "发音 0–3 · 语调与重音 0–3";
+      if (part === 5) return "观点表达综合 0–5";
+      return "综合评分 0–3";
+    }
+
+    function renderRecordingScore(result, part) {
+      if (!result) return "";
+      if (result.unscored) {
+        return '<div class="record-score">' +
+          '<div class="score-title">本次录音未自动评分</div>' +
+          (result.feedback || []).map((line) =>
+            '<p class="score-line">' + escapeHtml(line) + '</p>'
+          ).join("") +
+          '<p class="score-note">音频仍可在本页回放；建议使用支持英语语音识别的 Chrome 再次练习。</p>' +
+        '</div>';
+      }
+      const badges = part === 1
+        ? '<span class="score-badge">' + escapeHtml(result.pronunciation ?? 0) + '<small>/3 发音</small></span>' +
+          '<span class="score-badge">' + escapeHtml(result.prosody ?? 0) + '<small>/3 语调与重音</small></span>'
+        : '<span class="score-badge">' + escapeHtml(result.score ?? 0) +
+          '<small>/' + (part === 5 ? "5" : "3") + '</small></span>';
+      const feedback = (result.feedback || []).map((line) =>
+        '<p class="score-line">' + escapeHtml(line) + '</p>'
+      ).join("");
+      const metrics = [
+        "时长 " + (result.durationSeconds ?? 0) + "s",
+        "词数 " + (result.wordCount ?? 0),
+        "语速 " + (result.wordsPerMinute ?? 0) + " 词/分",
+      ];
+      if (Number.isFinite(result.coverage)) {
+        metrics.push("内容匹配 " + Math.round(result.coverage * 100) + "%");
+      }
+      return '<div class="record-score">' +
+        '<div class="score-title">练习估分 ' + badges + '</div>' +
+        feedback +
+        '<div class="score-metrics">' + metrics.map((item) =>
+          '<span>' + escapeHtml(item) + '</span>'
+        ).join("") + '</div>' +
+        '<p class="score-note">依据 TOEIC 评分维度进行浏览器端近似评估，仅供练习；不能替代 ETS 评分员结果。Part 1 语调项由语速、停顿和音量变化近似判断。</p>' +
+      '</div>';
+    }
+
+    function renderRecordingWidget(uid) {
+      const meta = getRecordingMeta(uid);
+      if (!meta) return "";
+      const active = activeRecordings.get(uid);
+      const result = recordingResults.get(uid);
+      const audioUrl = recordingAudioUrls.get(uid);
+      const canRecord = supportsAudioRecording();
+      const canTranscribe = supportsSpeechRecognition();
+      const status = active
+        ? "录音中 · " + scoreScaleLabel(meta.part)
+        : !canRecord
+          ? "当前浏览器不支持麦克风录音"
+          : !canTranscribe
+            ? "可录音回放；当前浏览器不支持自动转写和评分"
+            : result
+              ? "已保存本机练习分 · 可重新录音"
+              : scoreScaleLabel(meta.part);
+      const transcript = active
+        ? [active.finalTranscript, active.interimTranscript].filter(Boolean).join(" ").trim()
+        : result?.transcript || "";
+      return '<section class="recording-widget" data-recording-widget="' + escapeAttr(uid) + '">' +
+        '<div class="recording-header">' +
+          '<p class="recording-title">我的录音与评分</p>' +
+          '<span class="record-status ' + (!canRecord ? "error" : !canTranscribe ? "warning" : "") + '" data-record-status="' + escapeAttr(uid) + '">' + escapeHtml(status) + '</span>' +
+          '<div class="recording-actions">' +
+            '<button class="tool-button record-button ' + (active ? "recording" : "") + '" type="button" data-record-toggle="' + escapeAttr(uid) + '"' + (canRecord ? "" : " disabled") + '>' + (active ? "停止并评分" : "开始录音") + '</button>' +
+            ((result || audioUrl) ? '<button class="tool-button" type="button" data-record-delete="' + escapeAttr(uid) + '">删除记录</button>' : '') +
+          '</div>' +
+        '</div>' +
+        '<p class="record-transcript" data-record-transcript="' + escapeAttr(uid) + '"' + (transcript ? "" : " hidden") + '>' + escapeHtml(transcript ? "转写：" + transcript : "") + '</p>' +
+        (audioUrl ? '<audio class="record-audio" controls preload="metadata" src="' + escapeAttr(audioUrl) + '">当前浏览器无法播放录音。</audio>' : '') +
+        (!active ? renderRecordingScore(result, meta.part) : '') +
+        '<p class="recording-privacy-note">录音不上传到本站；自动转写由浏览器语音服务处理。音频刷新后清除，转写和练习分保存在本机。</p>' +
+      '</section>';
+    }
+
+    function setRecordingStatus(uid, text, level = "") {
+      document.querySelectorAll("[data-record-status]").forEach((node) => {
+        if (node.dataset.recordStatus !== uid) return;
+        node.textContent = text;
+        node.classList.toggle("warning", level === "warning");
+        node.classList.toggle("error", level === "error");
+      });
+    }
+
+    function setRecordingTranscript(uid, transcript) {
+      document.querySelectorAll("[data-record-transcript]").forEach((node) => {
+        if (node.dataset.recordTranscript !== uid) return;
+        node.hidden = !transcript;
+        node.textContent = transcript ? "转写：" + transcript : "";
+      });
+    }
+
+    function startAudioMeter(session) {
+      const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextClass) return;
+      try {
+        session.audioContext = new AudioContextClass();
+        session.audioContext.resume().catch(() => {});
+        session.analyser = session.audioContext.createAnalyser();
+        session.analyser.fftSize = 1024;
+        session.audioSource = session.audioContext.createMediaStreamSource(session.stream);
+        session.audioSource.connect(session.analyser);
+        const buffer = new Float32Array(session.analyser.fftSize);
+        session.meterTimer = window.setInterval(() => {
+          if (!session.analyser) return;
+          session.analyser.getFloatTimeDomainData(buffer);
+          const rms = Math.sqrt(buffer.reduce((sum, value) => sum + value * value, 0) / buffer.length);
+          session.rmsSamples.push(rms);
+        }, 100);
+      } catch {
+        session.audioContext = null;
+      }
+    }
+
+    function startRecognition(session) {
+      if (!session.recognition || session.stopping || session.recognitionBlocked) return;
+      try {
+        session.recognition.start();
+      } catch {
+        // Chrome can briefly reject a restart while the prior recognition is closing.
+      }
+    }
+
+    async function startRecording(uid) {
+      const meta = getRecordingMeta(uid);
+      if (!meta || !supportsAudioRecording()) {
+        setRecordingStatus(uid, "当前浏览器不支持麦克风录音", "error");
+        return;
+      }
+      for (const activeUid of [...activeRecordings.keys()]) {
+        await stopRecording(activeUid);
+      }
+      stopSpeech();
+      setRecordingStatus(uid, "正在申请麦克风权限");
+      let stream;
+      try {
+        stream = await navigator.mediaDevices.getUserMedia({
+          audio: {
+            echoCancellation: true,
+            noiseSuppression: true,
+            autoGainControl: true,
+          },
+        });
+      } catch (error) {
+        const denied = error?.name === "NotAllowedError" || error?.name === "SecurityError";
+        setRecordingStatus(
+          uid,
+          denied ? "麦克风权限被拒绝，请在浏览器地址栏中允许" : "无法打开麦克风，请检查设备",
+          "error"
+        );
+        return;
+      }
+
+      let mediaRecorder;
+      try {
+        mediaRecorder = new MediaRecorder(stream);
+      } catch {
+        stream.getTracks().forEach((track) => track.stop());
+        setRecordingStatus(uid, "当前浏览器无法创建录音", "error");
+        return;
+      }
+      const recognition = getSpeechRecognition();
+      const session = {
+        uid,
+        meta,
+        stream,
+        mediaRecorder,
+        recognition,
+        chunks: [],
+        startedAt: performance.now(),
+        finalTranscript: "",
+        interimTranscript: "",
+        rmsSamples: [],
+        confidences: [],
+        stopping: false,
+        recognitionBlocked: false,
+        meterTimer: 0,
+        audioContext: null,
+        analyser: null,
+        audioSource: null,
+      };
+      mediaRecorder.addEventListener("dataavailable", (event) => {
+        if (event.data?.size) session.chunks.push(event.data);
+      });
+      mediaRecorder.addEventListener("error", () => {
+        setRecordingStatus(uid, "录音发生错误，请停止后重试", "error");
+      });
+
+      if (recognition) {
+        recognition.lang = "en-US";
+        recognition.continuous = true;
+        recognition.interimResults = true;
+        recognition.maxAlternatives = 1;
+        recognition.onresult = (event) => {
+          let interim = "";
+          for (let index = event.resultIndex; index < event.results.length; index += 1) {
+            const item = event.results[index];
+            const text = item[0]?.transcript?.trim() || "";
+            if (!text) continue;
+            if (item.isFinal) {
+              session.finalTranscript = (session.finalTranscript + " " + text).trim();
+              if (Number.isFinite(item[0].confidence)) session.confidences.push(item[0].confidence);
+            } else {
+              interim += " " + text;
+            }
+          }
+          session.interimTranscript = interim.trim();
+          setRecordingTranscript(
+            uid,
+            [session.finalTranscript, session.interimTranscript].filter(Boolean).join(" ").trim()
+          );
+        };
+        recognition.onerror = (event) => {
+          if (["not-allowed", "service-not-allowed"].includes(event.error)) {
+            session.recognitionBlocked = true;
+            setRecordingStatus(uid, "正在录音，但浏览器未允许自动转写", "warning");
+          } else if (event.error !== "aborted" && event.error !== "no-speech") {
+            setRecordingStatus(uid, "正在录音；转写暂时不可用", "warning");
+          }
+        };
+        recognition.onend = () => {
+          if (!session.stopping && !session.recognitionBlocked) {
+            window.setTimeout(() => startRecognition(session), 180);
+          }
+        };
+      }
+
+      activeRecordings.set(uid, session);
+      mediaRecorder.start(250);
+      startAudioMeter(session);
+      if (recognition) startRecognition(session);
+      render();
+    }
+
+    async function stopRecording(uid) {
+      const session = activeRecordings.get(uid);
+      if (!session || session.stopping) return;
+      session.stopping = true;
+      setRecordingStatus(uid, "正在整理录音并评分");
+      if (session.meterTimer) window.clearInterval(session.meterTimer);
+      if (session.recognition) {
+        try {
+          session.recognition.stop();
+        } catch {
+          // Recognition may already be stopped.
+        }
+      }
+      if (session.mediaRecorder.state !== "inactive") {
+        await new Promise((resolve) => {
+          session.mediaRecorder.addEventListener("stop", resolve, { once: true });
+          session.mediaRecorder.stop();
+        });
+      }
+      await new Promise((resolve) => window.setTimeout(resolve, 220));
+      const durationSeconds = Math.max(0.1, (performance.now() - session.startedAt) / 1000);
+      session.stream.getTracks().forEach((track) => track.stop());
+      if (session.audioSource) session.audioSource.disconnect();
+      if (session.audioContext && session.audioContext.state !== "closed") {
+        session.audioContext.close().catch(() => {});
+      }
+
+      const oldAudioUrl = recordingAudioUrls.get(uid);
+      if (oldAudioUrl) URL.revokeObjectURL(oldAudioUrl);
+      if (session.chunks.length) {
+        const blob = new Blob(session.chunks, {
+          type: session.mediaRecorder.mimeType || "audio/webm",
+        });
+        recordingAudioUrls.set(uid, URL.createObjectURL(blob));
+      }
+      const transcript = [session.finalTranscript, session.interimTranscript]
+        .filter(Boolean)
+        .join(" ")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (transcript) {
+        recordingResults.set(
+          uid,
+          scoreRecording(session.meta, transcript, durationSeconds, session.rmsSamples)
+        );
+      } else {
+        recordingResults.set(uid, {
+          unscored: !session.recognition,
+          transcript: "",
+          durationSeconds: Math.round(durationSeconds * 10) / 10,
+          wordCount: 0,
+          wordsPerMinute: 0,
+          coverage: 0,
+          scale: session.meta.part === 1 ? "dual-3" : session.meta.part === 5 ? "single-5" : "single-3",
+          pronunciation: 0,
+          prosody: 0,
+          score: 0,
+          feedback: [
+            session.recognition
+              ? "没有获得有效英文转写，请靠近麦克风并重新录音。"
+              : "录音已完成，但当前浏览器不支持自动转写，因此无法自动评分。",
+          ],
+          createdAt: new Date().toISOString(),
+        });
+      }
+      saveRecordingScores();
+      activeRecordings.delete(uid);
+      prepareCountdownAudio();
+      playCountdownAlert("answer");
+      render();
+    }
+
+    function deleteRecording(uid) {
+      const audioUrl = recordingAudioUrls.get(uid);
+      if (audioUrl) URL.revokeObjectURL(audioUrl);
+      recordingAudioUrls.delete(uid);
+      recordingResults.delete(uid);
+      saveRecordingScores();
+      render();
+    }
+
+    async function toggleRecording(uid) {
+      if (activeRecordings.has(uid)) await stopRecording(uid);
+      else await startRecording(uid);
+    }
+
+    function stopAllActiveRecordings() {
+      [...activeRecordings.keys()].forEach((uid) => {
+        stopRecording(uid);
+      });
+    }
 
     function saveDone() {
       localStorage.setItem("toeic-review-done", JSON.stringify([...state.done]));
@@ -2016,6 +2858,7 @@
             (question.topic ? '<span class="group-question-topic">' + escapeHtml(question.topic) + '</span>' : '') +
           '</div>' +
           '<p class="question-text">' + escapeHtml(question.prompt) + '</p>' +
+          renderRecordingWidget(question.uid) +
           answer +
         '</section>';
       }).join('') + '</div>';
@@ -2083,6 +2926,7 @@
           '<h3 class="card-topic">' + escapeHtml(record.topic || record.partName) + '</h3>' +
           material +
           questionContent +
+          (!isGrouped ? renderRecordingWidget(record.uid) : '') +
           answer +
           '<div class="card-actions">' +
             '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? (isGrouped ? "隐藏整组答案" : "隐藏答案") : (isGrouped ? "显示整组答案" : "显示答案")) + '</button>' +
@@ -2148,6 +2992,7 @@
     partList.addEventListener("click", (event) => {
       const button = event.target.closest("[data-part]");
       if (!button) return;
+      stopAllActiveRecordings();
       stopSpeech();
       state.part = Number(button.dataset.part);
       state.answerOpen.clear();
@@ -2160,12 +3005,14 @@
     priorityList.addEventListener("click", (event) => {
       const button = event.target.closest("[data-priority]");
       if (!button) return;
+      stopAllActiveRecordings();
       state.priority = button.dataset.priority;
       scheduleCloudStateSave();
       render();
     });
 
     searchInput.addEventListener("input", (event) => {
+      stopAllActiveRecordings();
       state.search = event.target.value;
       render();
     });
@@ -2182,6 +3029,7 @@
     document.querySelector(".sidebar-stats").addEventListener("click", (event) => {
       const button = event.target.closest("[data-study-filter]");
       if (!button) return;
+      stopAllActiveRecordings();
       state.studyFilter = button.dataset.studyFilter === state.studyFilter && state.studyFilter !== "all"
         ? "all"
         : button.dataset.studyFilter;
@@ -2190,6 +3038,16 @@
     });
 
     cardList.addEventListener("click", (event) => {
+      const recordToggle = event.target.closest("[data-record-toggle]");
+      if (recordToggle) {
+        toggleRecording(recordToggle.dataset.recordToggle);
+        return;
+      }
+      const recordDelete = event.target.closest("[data-record-delete]");
+      if (recordDelete) {
+        deleteRecording(recordDelete.dataset.recordDelete);
+        return;
+      }
       const countdownToggle = event.target.closest("[data-countdown-toggle]");
       if (countdownToggle) {
         toggleCountdown(countdownToggle.dataset.countdownToggle);
@@ -2250,6 +3108,7 @@
       }
       const doneButton = event.target.closest(".done-toggle");
       if (doneButton) {
+        stopAllActiveRecordings();
         const uid = doneButton.dataset.uid;
         if (state.done.has(uid)) state.done.delete(uid);
         else state.done.add(uid);
@@ -2259,6 +3118,7 @@
       }
       const personalizeButton = event.target.closest(".personalize-toggle");
       if (personalizeButton) {
+        stopAllActiveRecordings();
         const uid = personalizeButton.dataset.uid;
         if (state.personalized.has(uid)) state.personalized.delete(uid);
         else state.personalized.add(uid);
@@ -2307,6 +3167,19 @@
     render();
     initializeAccountState();
     window.addEventListener("pagehide", saveCloudState);
+    window.addEventListener("pagehide", () => {
+      activeRecordings.forEach((session) => {
+        if (session.meterTimer) window.clearInterval(session.meterTimer);
+        if (session.recognition) {
+          try {
+            session.recognition.abort();
+          } catch {
+            // The browser is already closing the recognition session.
+          }
+        }
+        session.stream.getTracks().forEach((track) => track.stop());
+      });
+    });
     updateAllCountdowns();
     window.setInterval(updateAllCountdowns, 200);
   </script>
