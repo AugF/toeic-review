@@ -1290,6 +1290,37 @@
       "although", "though", "while", "whether"
     ]);
     const readingAlwaysStressWords = new Set(["no", "not", "never", "please", "welcome", "attention"]);
+    const RECORDING_SCORER_VERSION = 2;
+    const scoringGenericWords = new Set([
+      "answer", "believe", "conclusion", "example", "first", "good", "great", "help",
+      "important", "look", "make", "more", "most", "normal", "opinion", "overall",
+      "picture", "prefer", "reason", "scene", "second", "show", "taken", "thing",
+      "think", "useful", "very"
+    ]);
+    const scoringNumberWords = new Map([
+      ["zero", "0"], ["one", "1"], ["two", "2"], ["three", "3"], ["four", "4"],
+      ["five", "5"], ["six", "6"], ["seven", "7"], ["eight", "8"], ["nine", "9"],
+      ["ten", "10"], ["eleven", "11"], ["twelve", "12"], ["thirteen", "13"],
+      ["fourteen", "14"], ["fifteen", "15"], ["sixteen", "16"], ["seventeen", "17"],
+      ["eighteen", "18"], ["nineteen", "19"], ["twenty", "20"], ["thirty", "30"],
+      ["forty", "40"], ["fifty", "50"], ["sixty", "60"]
+    ]);
+    const scoringSynonyms = new Map([
+      ["bought", "buy"], ["buying", "buy"], ["purchased", "buy"], ["purchase", "buy"],
+      ["classes", "class"], ["colleagues", "coworker"], ["coworkers", "coworker"],
+      ["communicate", "communication"], ["communicating", "communication"],
+      ["convenience", "convenient"], ["easier", "convenient"],
+      ["employees", "worker"], ["equipment", "equipment"], ["fitness", "gym"],
+      ["internet", "online"], ["jobs", "work"], ["machines", "machine"],
+      ["persons", "people"], ["restaurants", "restaurant"], ["shops", "shop"],
+      ["skills", "skill"], ["workers", "worker"], ["workplace", "work"]
+    ]);
+    const scoringFactWords = new Set([
+      "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
+      "january", "february", "march", "april", "may", "june", "july", "august",
+      "september", "october", "november", "december", "morning", "afternoon",
+      "evening", "noon", "midnight", "today", "tomorrow", "yesterday"
+    ]);
     const senseGroupClauseStarters = new Set([
       "although", "because", "before", "if", "once", "since", "though", "unless",
       "until", "when", "whenever", "where", "whereas", "whether", "while", "who",
@@ -1350,6 +1381,26 @@
       }
     }
 
+    function refreshStoredRecordingScores() {
+      let changed = false;
+      recordingResults.forEach((result, uid) => {
+        if (!result?.transcript) return;
+        if (result.scorerVersion === RECORDING_SCORER_VERSION) return;
+        const meta = getRecordingMeta(uid);
+        if (!meta) return;
+        const updated = scoreRecording(
+          meta,
+          result.transcript,
+          Number(result.durationSeconds) || 1,
+          []
+        );
+        updated.createdAt = result.createdAt || updated.createdAt;
+        recordingResults.set(uid, updated);
+        changed = true;
+      });
+      if (changed) saveRecordingScores();
+    }
+
     function getRecordingMeta(uid) {
       return recordLookup.get(uid) || null;
     }
@@ -1393,12 +1444,6 @@
         .match(/[a-z]+(?:'[a-z]+)?|\d+(?::\d+)?/g) || [];
     }
 
-    function contentTokens(value) {
-      return tokenizeEnglish(value).filter((word) =>
-        /\d/.test(word) || (word.length > 2 && !readingFunctionWords.has(word))
-      );
-    }
-
     function wordEditDistance(expected, actual) {
       const previous = Array.from({ length: actual.length + 1 }, (_, index) => index);
       for (let row = 1; row <= expected.length; row += 1) {
@@ -1430,18 +1475,149 @@
       return matched / expected.length;
     }
 
+    function normalizeScoringToken(token) {
+      let word = String(token || "").toLowerCase().replace(/^[^a-z0-9]+|[^a-z0-9]+$/g, "");
+      if (!word) return "";
+      if (scoringNumberWords.has(word)) return scoringNumberWords.get(word);
+      if (scoringSynonyms.has(word)) return scoringSynonyms.get(word);
+      if (/^\d+:00$/.test(word)) return word.split(":")[0];
+      if (word.endsWith("ies") && word.length > 4) word = word.slice(0, -3) + "y";
+      else if (word.endsWith("ing") && word.length > 5) {
+        word = word.slice(0, -3);
+        if (word.endsWith("at")) word += "e";
+        else if (word.length > 3 && word.at(-1) === word.at(-2)) word = word.slice(0, -1);
+      } else if (word.endsWith("ed") && word.length > 4) {
+        word = word.slice(0, -2);
+        if (word.endsWith("at")) word += "e";
+      } else if (word.endsWith("s") && word.length > 3 && !word.endsWith("ss")) {
+        word = word.slice(0, -1);
+      }
+      return scoringSynonyms.get(word) || word;
+    }
+
+    function scoringTokens(value) {
+      return tokenizeEnglish(value).flatMap((token) => {
+        if (/^\d+:\d+$/.test(token)) {
+          return token.split(":").filter((part, index) => index === 0 || part !== "00");
+        }
+        const normalized = normalizeScoringToken(token);
+        return normalized ? [normalized] : [];
+      });
+    }
+
+    function scoringContentTokens(value) {
+      return scoringTokens(value).filter((word) =>
+        /\d/.test(word) ||
+        ["yes", "no", "not", "never"].includes(word) ||
+        (word.length > 2 && !readingFunctionWords.has(word) && !scoringGenericWords.has(word))
+      );
+    }
+
+    function uniqueTokens(tokens) {
+      return [...new Set(tokens.filter(Boolean))];
+    }
+
     function referenceKeywords(meta) {
       const record = meta?.record || {};
       const parent = meta?.parent || {};
       const explicit = [record.keywords, parent.keywords].filter(Boolean).join(" ");
-      const expected = contentTokens(recordingReferenceText(meta));
-      const prompt = contentTokens(record.prompt || "");
-      const combined = [
-        ...contentTokens(explicit),
-        ...expected,
-        ...(meta?.part === 5 ? prompt : []),
-      ];
-      return [...new Set(combined)].slice(0, 36);
+      const keywords = scoringContentTokens(explicit);
+      return uniqueTokens(keywords).slice(0, 12);
+    }
+
+    function responseAlignment(meta, transcript) {
+      const actual = uniqueTokens(scoringContentTokens(transcript));
+      const reference = uniqueTokens(scoringContentTokens(recordingReferenceText(meta)));
+      const explicit = referenceKeywords(meta);
+      const focus = explicit.length >= 2 ? explicit : reference.slice(0, 10);
+      const focusCoverage = keywordCoverage(focus, actual);
+      const referenceCoverage = keywordCoverage(reference, actual);
+      const matchedReferenceCount = reference.filter((token) => actual.includes(token)).length;
+      return {
+        actual,
+        focus,
+        reference,
+        focusCoverage,
+        referenceCoverage,
+        matchedReferenceCount,
+        overallCoverage: focusCoverage * 0.55 + referenceCoverage * 0.45,
+      };
+    }
+
+    function extractFactTokens(value) {
+      const normalized = scoringTokens(value);
+      const timeAndNumberFacts = normalized.filter((token) =>
+        /^\d+$/.test(token) || scoringFactWords.has(token)
+      );
+      const ignoredCapitalized = new Set([
+        "all", "both", "no", "one", "the", "there", "unfortunately", "yes"
+      ]);
+      const properNouns = (String(value || "").match(/\b[A-Z][A-Za-z']+\b/g) || [])
+        .map(normalizeScoringToken)
+        .filter((token) =>
+          token && !ignoredCapitalized.has(token) &&
+          !readingFunctionWords.has(token) && !scoringGenericWords.has(token)
+        );
+      return uniqueTokens([...timeAndNumberFacts, ...properNouns]);
+    }
+
+    function expectedPolarity(referenceText) {
+      const normalized = String(referenceText || "").trim().toLowerCase();
+      if (/^(no\b|no,)/.test(normalized)) return "no";
+      if (/^(yes\b|yes,)/.test(normalized)) return "yes";
+      return "";
+    }
+
+    function polarityMatch(referenceText, transcript) {
+      const expected = expectedPolarity(referenceText);
+      if (!expected) return 1;
+      const saysNo = /\b(no|not|isn't|aren't|won't|will not|doesn't|do not)\b/i.test(transcript);
+      const saysYes = /\b(yes|correct|that's right|that is right)\b/i.test(transcript);
+      if (expected === "no" && saysYes) return 0;
+      if (expected === "yes" && saysNo) return 0;
+      if ((expected === "no" && saysNo) || (expected === "yes" && saysYes)) return 1;
+      return 0.5;
+    }
+
+    function questionRequirementCoverage(meta, transcript, alignment) {
+      const prompt = String(meta?.record?.prompt || "").toLowerCase();
+      const answer = String(transcript || "").toLowerCase();
+      const tokens = scoringTokens(transcript);
+      const checks = [];
+      const asksFrequency = /多久|多长时间一次|how often/.test(prompt);
+      const asksTime = !asksFrequency && /什么时候|哪天|何时|几点|开始时间|when|what time/.test(prompt);
+      const asksReason = /为什么|原因|why/.test(prompt);
+      const asksPlace = /哪里|在哪|地址|where|location/.test(prompt);
+      const asksNumber = /多少|几次|几个|几位|how many|how much/.test(prompt);
+      const asksPerson = /和谁|由谁|谁负责|who|whom/.test(prompt);
+      const asksChoice = /哪个|哪一点|更重要|最重要|选择|喜欢|希望|认为|是否|prefer|choose|think/.test(prompt);
+      const asksMultiple = /两个|哪些|有哪些|场次|具体说明|two|which activities|which sessions/.test(prompt);
+
+      if (asksFrequency) {
+        checks.push(/\b(daily|weekly|monthly|once|twice|every|usually|often|time|week|month|year)\b/i.test(answer) || tokens.some((token) => /^\d+$/.test(token)));
+      }
+      if (asksTime) {
+        checks.push(tokens.some((token) => /^\d+$/.test(token) || scoringFactWords.has(token)) || /\bago\b/i.test(answer));
+      }
+      if (asksReason) {
+        checks.push(/\b(because|since|so|therefore|helps?|allows?|saves?|makes?|to avoid|to get|to keep)\b/i.test(answer));
+      }
+      if (asksPlace) {
+        checks.push(/\b(at|in|near|inside|outside|online|home|office|hotel|museum|center|hall|room|city|station)\b/i.test(answer));
+      }
+      if (asksNumber) {
+        checks.push(tokens.some((token) => /^\d+$/.test(token)) || /\b(once|twice|several|many|few)\b/i.test(answer));
+      }
+      if (asksPerson) {
+        checks.push(/\b(with|friend|family|coworker|colleague|manager|customer|alone|myself)\b/i.test(answer) || alignment.focusCoverage >= 0.4);
+      }
+      if (asksChoice) {
+        checks.push(/\b(prefer|choose|would|think|believe|yes|no|better|most)\b/i.test(answer) || alignment.focusCoverage >= 0.5);
+      }
+      if (asksMultiple) {
+        checks.push(/\b(two|both|first|second|one.+other|another|there are)\b/i.test(answer) || extractFactTokens(transcript).length >= 2);
+      }
+      return checks.length ? checks.filter(Boolean).length / checks.length : 1;
     }
 
     function countMatches(text, patterns) {
@@ -1530,101 +1706,262 @@
 
     function scorePart2(meta, transcript, durationSeconds, delivery) {
       const words = tokenizeEnglish(transcript);
-      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
-      const fluent = delivery.wordsPerMinute >= 55 && delivery.wordsPerMinute <= 190;
+      const alignment = responseAlignment(meta, transcript);
+      const fluent = delivery.wordsPerMinute >= 65 && delivery.wordsPerMinute <= 185;
+      const visuallyRelated = /\b(picture|people|person|man|woman|room|street|restaurant|office|store|hotel|outside|inside)\b/i.test(transcript);
+      const topicAligned = alignment.focusCoverage >= 0.2 ||
+        alignment.referenceCoverage >= 0.12 ||
+        alignment.matchedReferenceCount >= 2;
+      const contentStrong = alignment.referenceCoverage >= 0.5 || (
+        alignment.focusCoverage >= 0.5 &&
+        alignment.referenceCoverage >= 0.24 &&
+        alignment.matchedReferenceCount >= 5
+      );
       let score = 0;
       if (words.length && delivery.hasAudioSignal) {
-        if (words.length >= 25 && durationSeconds >= 12 && coverage >= 0.2 && fluent) score = 3;
-        else if (words.length >= 10 && coverage >= 0.07) score = 2;
-        else score = 1;
+        if (
+          words.length >= 28 &&
+          durationSeconds >= 14 &&
+          contentStrong &&
+          fluent
+        ) score = 3;
+        else if (
+          words.length >= 14 &&
+          alignment.focusCoverage >= 0.28 &&
+          alignment.referenceCoverage >= 0.16 &&
+          alignment.matchedReferenceCount >= 3
+        ) score = 2;
+        else if (topicAligned || visuallyRelated) score = 1;
       }
       const feedback = score === 3
-        ? ["已覆盖图片主要特征，表达长度和节奏适合 30 秒作答。"]
+        ? ["已覆盖参考答案中的主要场景、人物和动作，表达也较连贯。"]
         : score === 2
-          ? ["回答与图片相关，但细节或连贯性还可加强。", "按“地点/整体—人物动作—背景—总结”再补 1 至 2 句。"]
+          ? ["回答与图片相关，但主要特征覆盖还不够完整。", "对照参考答案补齐地点、人物数量和至少两个动作。"]
           : score === 1
-            ? ["有效描述偏少。先说地点和人数，再补两个正在进行的动作。"]
-            : ["未识别到有效英文回答，请检查麦克风后重试。"];
-      return { scale: "single-3", score, coverage, feedback };
+            ? ["只识别到少量相关描述。仅说“有人/这是图片”不够，需要说出本题具体场景和动作。"]
+            : words.length
+              ? ["回答与本题图片及参考答案缺少可确认的对应内容，请重新观察后作答。"]
+              : ["未识别到有效英文回答，请检查麦克风后重试。"];
+      return {
+        scale: "single-3",
+        score,
+        coverage: alignment.overallCoverage,
+        topicCoverage: alignment.focusCoverage,
+        referenceCoverage: alignment.referenceCoverage,
+        feedback,
+      };
     }
 
     function scorePart3(meta, transcript, durationSeconds, delivery) {
       const words = tokenizeEnglish(transcript);
       const answerTime = Number(meta?.record?.answerTime) || 15;
-      const targetWords = answerTime >= 25 ? 17 : 6;
-      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
-      const directAnswer = /\b(yes|no|usually|often|sometimes|never|once|twice|daily|weekly|because|prefer|would|i'm|i am|my)\b/i.test(transcript);
+      const extended = answerTime >= 25;
+      const targetWords = extended ? 20 : 8;
+      const alignment = responseAlignment(meta, transcript);
+      const requirementCoverage = questionRequirementCoverage(meta, transcript, alignment);
+      const supportSignals = countMatches(transcript.toLowerCase(), [
+        /\bbecause\b/, /\bfirst(?:ly)?\b/, /\bsecond(?:ly)?\b/,
+        /\balso\b/, /\banother\b/, /\bfor example\b/
+      ]);
+      const topicAligned = alignment.focusCoverage >= 0.22 ||
+        alignment.referenceCoverage >= 0.18 ||
+        alignment.matchedReferenceCount >= 2;
+      const referenceGate = Math.max(
+        alignment.referenceCoverage,
+        alignment.focusCoverage * 0.65
+      );
+      const referenceStrong = alignment.referenceCoverage >= 0.55 &&
+        alignment.matchedReferenceCount >= 2;
+      const contentStrong = referenceStrong || (
+        alignment.focusCoverage >= 0.42 &&
+        referenceGate >= 0.26 &&
+        alignment.matchedReferenceCount >= 3
+      );
+      const effectiveRequirementCoverage = referenceStrong
+        ? 1
+        : requirementCoverage;
       let score = 0;
       if (words.length && delivery.hasAudioSignal) {
-        if (words.length >= targetWords && (coverage >= 0.1 || directAnswer) && delivery.wordsPerMinute <= 200) score = 3;
-        else if (words.length >= Math.max(4, Math.round(targetWords * 0.5))) score = 2;
-        else score = 1;
+        if (
+          topicAligned &&
+          words.length >= (extended ? 18 : 4) &&
+          contentStrong &&
+          effectiveRequirementCoverage >= 0.75 &&
+          (!extended || supportSignals >= 2 || referenceStrong) &&
+          delivery.wordsPerMinute <= 185
+        ) score = 3;
+        else if (
+          topicAligned &&
+          words.length >= (extended ? 10 : 5) &&
+          alignment.focusCoverage >= 0.18 &&
+          referenceGate >= 0.12 &&
+          effectiveRequirementCoverage >= 0.5
+        ) score = 2;
+        else if (topicAligned) score = 1;
       }
       const feedback = score === 3
-        ? ["回答直接、信息量与当前作答时间基本匹配。"]
+        ? ["回答与本题及参考答案要点对应，题目要求也已完整覆盖。"]
         : score === 2
-          ? ["回答基本相关，但还不够完整。先直接回答，再补一个简短理由或细节。"]
+          ? ["回答基本相关，但题目要求或参考答案要点仍有缺失。", extended ? "第 3 问需明确选择，并给出两个理由或一个理由加例子。" : "检查题目是否同时问了时间、地点、人物或原因。"]
           : score === 1
-            ? ["内容过短或较难识别。使用“直接回答 + because + 一个简单理由”。"]
-            : ["未识别到有效英文回答，请检查麦克风后重试。"];
-      return { scale: "single-3", score, coverage, feedback };
+            ? ["回答触及了本题主题，但没有有效完成问题。先直接回答，再补足题目所问信息。"]
+            : words.length
+              ? ["回答与当前问题及参考答案缺少对应内容，不能仅凭流畅度得分。"]
+              : ["未识别到有效英文回答，请检查麦克风后重试。"];
+      return {
+        scale: "single-3",
+        score,
+        coverage: alignment.overallCoverage,
+        topicCoverage: alignment.focusCoverage,
+        referenceCoverage: alignment.referenceCoverage,
+        requirementCoverage: effectiveRequirementCoverage,
+        feedback,
+      };
     }
 
     function scorePart4(meta, transcript, durationSeconds, delivery) {
       const words = tokenizeEnglish(transcript);
       const answerTime = Number(meta?.record?.answerTime) || 15;
-      const targetWords = answerTime >= 25 ? 15 : 6;
-      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
-      const includesFact = /\b\d|\b(?:a\.m\.|p\.m\.|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\b/i.test(transcript);
+      const extended = answerTime >= 25;
+      const referenceText = recordingReferenceText(meta);
+      const alignment = responseAlignment(meta, transcript);
+      const factTokens = extractFactTokens(referenceText);
+      const actualTokens = uniqueTokens(scoringTokens(transcript));
+      const factCoverage = factTokens.length
+        ? keywordCoverage(factTokens, actualTokens)
+        : alignment.referenceCoverage;
+      const polarity = polarityMatch(referenceText, transcript);
+      const requirementCoverage = questionRequirementCoverage(meta, transcript, alignment);
+      const topicAligned = alignment.focusCoverage >= 0.2 ||
+        alignment.referenceCoverage >= 0.12 ||
+        alignment.matchedReferenceCount >= 2;
+      const referenceStrong = alignment.referenceCoverage >= 0.6 &&
+        factCoverage >= 0.8 &&
+        polarity === 1;
+      const contentStrong = referenceStrong || (
+        alignment.focusCoverage >= 0.3 &&
+        alignment.referenceCoverage >= 0.24 &&
+        factCoverage >= (factTokens.length <= 1 ? 1 : 0.7)
+      );
+      const effectiveRequirementCoverage = referenceStrong
+        ? 1
+        : requirementCoverage;
       let score = 0;
       if (words.length && delivery.hasAudioSignal) {
-        if (words.length >= targetWords && coverage >= 0.28 && delivery.wordsPerMinute <= 200) score = 3;
-        else if (words.length >= Math.max(4, Math.round(targetWords * 0.5)) && (coverage >= 0.1 || includesFact)) score = 2;
-        else score = 1;
+        if (
+          topicAligned &&
+          words.length >= (extended ? 8 : 2) &&
+          contentStrong &&
+          polarity === 1 &&
+          effectiveRequirementCoverage >= 0.75 &&
+          delivery.wordsPerMinute <= 185
+        ) score = 3;
+        else if (
+          topicAligned &&
+          words.length >= 4 &&
+          alignment.referenceCoverage >= 0.12 &&
+          factCoverage >= 0.34 &&
+          polarity >= 0.5 &&
+          effectiveRequirementCoverage >= 0.5
+        ) score = 2;
+        else if (topicAligned) score = 1;
       }
       const feedback = score === 3
-        ? ["关键信息覆盖较完整，回答长度适合当前时间。"]
+        ? ["回答与资料表及参考答案一致，关键事实覆盖完整。"]
         : score === 2
-          ? ["已提到部分表格信息，但可能漏了时间、地点、姓名或项目。", "先直接回答，再补一项必要细节。"]
+          ? ["已定位到相关信息，但日期、时间、地点、姓名、数量或 Yes/No 仍有遗漏。", "对照参考答案逐项核对，不要混入资料表中的无关行。"]
           : score === 1
-            ? ["关键信息不足。重新定位资料表中的对应行和列后，用完整句回答。"]
-            : ["未识别到有效英文回答，请检查麦克风后重试。"];
-      return { scale: "single-3", score, coverage, feedback };
+            ? ["回答与本题有少量关联，但关键事实不足或存在 Yes/No 冲突，无法有效回答。"]
+            : words.length
+              ? ["回答与当前资料题及参考答案没有足够对应信息。"]
+              : ["未识别到有效英文回答，请检查麦克风后重试。"];
+      return {
+        scale: "single-3",
+        score,
+        coverage: alignment.overallCoverage,
+        topicCoverage: alignment.focusCoverage,
+        referenceCoverage: alignment.referenceCoverage,
+        factCoverage,
+        polarityCoverage: polarity,
+        requirementCoverage: effectiveRequirementCoverage,
+        feedback,
+      };
     }
 
     function scorePart5(meta, transcript, durationSeconds, delivery) {
       const words = tokenizeEnglish(transcript);
       const normalized = " " + transcript.toLowerCase().replace(/[^a-z0-9']+/g, " ") + " ";
-      const hasOpinion = /\b(i think|i believe|in my opinion|i prefer|i agree|i disagree|my choice|i would choose)\b/.test(normalized);
+      const alignment = responseAlignment(meta, transcript);
+      const hasOpinion = /\b(i (?:do not |don't )?think|i believe|in my opinion|i prefer|i agree|i disagree|my choice|i would|yes|no)\b/.test(normalized);
       const reasonSignals = countMatches(normalized, [
         /\bbecause\b/,
         /\bfirst(?:ly)?\b/,
         /\bsecond(?:ly)?\b/,
+        /\bthird(?:ly)?\b/,
         /\banother reason\b/,
         /\bone reason\b/,
         /\balso\b/,
         /\bin addition\b/,
       ]);
       const hasExample = /\b(for example|for instance|such as|one time|last year|when i|in my experience)\b/.test(normalized);
-      const coverage = keywordCoverage(referenceKeywords(meta), contentTokens(transcript));
-      const paceOk = delivery.wordsPerMinute >= 55 && delivery.wordsPerMinute <= 185;
+      const hasConclusion = /\b(so|therefore|in conclusion|overall|that is why|for these reasons)\b/.test(normalized);
+      const topicAligned = alignment.focusCoverage >= 0.25 ||
+        alignment.referenceCoverage >= 0.22;
+      const answerPattern = meta?.record?.answerPattern ||
+        meta?.parent?.answerPattern ||
+        "2R1E";
+      const requiredReasonSignals = answerPattern === "3R" ? 3 : 2;
+      const supportComplete = reasonSignals >= requiredReasonSignals &&
+        (answerPattern === "3R" || hasExample);
+      const contentStrong = alignment.referenceCoverage >= 0.55 || (
+        alignment.focusCoverage >= 0.4 &&
+        alignment.referenceCoverage >= 0.22
+      );
+      const hasRequiredOpinion = hasOpinion ||
+        alignment.referenceCoverage >= 0.55;
+      const paceOk = delivery.wordsPerMinute >= 60 && delivery.wordsPerMinute <= 175;
       let score = 0;
       if (words.length && delivery.hasAudioSignal) {
-        if (!hasOpinion || words.length < 7) score = 1;
-        else if (reasonSignals === 0 || words.length < 16) score = 2;
-        else if (words.length < 32 || reasonSignals < 2) score = 3;
-        else if (words.length >= 42 && reasonSignals >= 2 && (hasExample || reasonSignals >= 3) && paceOk && durationSeconds >= 24) score = 5;
+        if (!topicAligned) score = 0;
+        else if (!hasRequiredOpinion || words.length < 10) score = 1;
+        else if (reasonSignals === 0 || words.length < 12) score = 2;
+        else if (reasonSignals < 2 || words.length < 30) score = 3;
+        else if (
+          words.length >= 38 &&
+          supportComplete &&
+          hasConclusion &&
+          contentStrong &&
+          paceOk &&
+          durationSeconds >= 24
+        ) score = 5;
         else score = 4;
       }
       const feedbackByScore = {
-        5: ["观点清楚，理由和例子展开充分，整体接近高分作答结构。"],
-        4: ["观点和理由较完整。再补一个具体例子或让理由之间衔接更清楚。"],
-        3: ["已表达观点并给出至少一个理由，但展开还不够。再补一个理由或例子。"],
-        2: ["有观点，但支持内容不足。使用两个通用理由，例如省时、方便或有助于工作。"],
-        1: ["观点不够明确或回答过短。先用“I think...”表态，再说“because...”。"],
-        0: ["未识别到有效英文回答，请检查麦克风后重试。"],
+        5: ["观点与本题对应，两个理由、例子和总结齐全，内容展开达到高分练习区间。"],
+        4: ["观点和理由与题目基本对应，但例子、总结、展开长度或参考要点仍有一项不足。"],
+        3: ["已表达相关观点并给出理由，但支持不充分或只有一个理由。"],
+        2: ["观点与题目相关，但几乎没有有效支持。不能只套用“省时、方便”等理由而不对应本题。"],
+        1: ["触及了本题主题，但观点不明确、回答过短或只重复题目。"],
+        0: words.length ? ["回答与当前题目及参考答案缺少主题对应，判为答非所问。"] : ["未识别到有效英文回答，请检查麦克风后重试。"],
       };
-      return { scale: "single-5", score, coverage, feedback: feedbackByScore[score] };
+      feedbackByScore[5] = [answerPattern === "3R"
+        ? "\u89c2\u70b9\u5bf9\u5e94\uff0c\u4e09\u4e2a\u7406\u7531\u548c\u603b\u7ed3\u9f50\u5168\uff0c\u5c55\u5f00\u8fde\u8d2f\u3002"
+        : "\u89c2\u70b9\u5bf9\u5e94\uff0c\u4e24\u4e2a\u7406\u7531\u3001\u4f8b\u5b50\u548c\u603b\u7ed3\u9f50\u5168\uff0c\u5c55\u5f00\u8fde\u8d2f\u3002"
+      ];
+      feedbackByScore[4] = [
+        "\u89c2\u70b9\u548c\u7406\u7531\u57fa\u672c\u5bf9\u5e94\uff0c\u4f46\u652f\u6301\u3001\u603b\u7ed3\u3001\u957f\u5ea6\u6216\u53c2\u8003\u8981\u70b9\u4ecd\u6709\u4e0d\u8db3\u3002",
+      ];
+      return {
+        scale: "single-5",
+        score,
+        coverage: alignment.overallCoverage,
+        topicCoverage: alignment.focusCoverage,
+        referenceCoverage: alignment.referenceCoverage,
+        requirementCoverage: hasRequiredOpinion
+          ? Math.min(1, (reasonSignals + Number(hasExample) + Number(hasConclusion)) / 4)
+          : 0,
+        feedback: feedbackByScore[score],
+      };
     }
 
     function scoreRecording(meta, transcript, durationSeconds, samples) {
@@ -1638,6 +1975,7 @@
       else scoreResult = scorePart5(meta, transcript, durationSeconds, delivery);
       return {
         ...scoreResult,
+        scorerVersion: RECORDING_SCORER_VERSION,
         transcript,
         durationSeconds: Math.max(0, Math.round(durationSeconds * 10) / 10),
         wordCount,
@@ -1678,7 +2016,19 @@
         "词数 " + (result.wordCount ?? 0),
         "语速 " + (result.wordsPerMinute ?? 0) + " 词/分",
       ];
-      if (Number.isFinite(result.coverage)) {
+      const addPercentMetric = (label, value) => {
+        if (!Number.isFinite(value)) return;
+        metrics.push(label + " " + Math.round(value * 100) + "%");
+      };
+      addPercentMetric("\u9898\u76ee\u8981\u70b9", result.topicCoverage);
+      addPercentMetric("\u53c2\u8003\u7b54\u6848", result.referenceCoverage);
+      addPercentMetric("\u5173\u952e\u4e8b\u5b9e", result.factCoverage);
+      addPercentMetric("\u662f\u5426\u5224\u65ad", result.polarityCoverage);
+      addPercentMetric("\u9898\u76ee\u8981\u6c42", result.requirementCoverage);
+      if (
+        !Number.isFinite(result.topicCoverage) &&
+        Number.isFinite(result.coverage)
+      ) {
         metrics.push("内容匹配 " + Math.round(result.coverage * 100) + "%");
       }
       return '<div class="record-score">' +
@@ -1934,6 +2284,7 @@
       } else {
         recordingResults.set(uid, {
           unscored: !session.recognition,
+          scorerVersion: RECORDING_SCORER_VERSION,
           transcript: "",
           durationSeconds: Math.round(durationSeconds * 10) / 10,
           wordCount: 0,
@@ -3163,6 +3514,7 @@
       }
     }
 
+    refreshStoredRecordingScores();
     initializeVoiceSelector();
     render();
     initializeAccountState();
