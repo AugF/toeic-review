@@ -24,6 +24,7 @@
       --amber-soft: #fff3df;
       --coral-soft: #ffefed;
       --shadow: 0 12px 30px rgba(23, 32, 38, 0.08);
+      --sidebar-width: 300px;
     }
 
     * { box-sizing: border-box; }
@@ -42,7 +43,7 @@
     .app-shell {
       min-height: 100vh;
       display: grid;
-      grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+      grid-template-columns: var(--sidebar-width) 10px minmax(0, 1fr);
     }
 
     aside {
@@ -51,8 +52,50 @@
       height: 100vh;
       padding: 20px;
       background: #eef3f6;
-      border-right: 1px solid var(--line);
       overflow: auto;
+    }
+
+    .sidebar-resizer {
+      position: sticky;
+      top: 0;
+      z-index: 12;
+      width: 10px;
+      height: 100vh;
+      border: 0;
+      border-right: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+      background: #e7edf1;
+      cursor: col-resize;
+      touch-action: none;
+    }
+
+    .sidebar-resizer::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 3px;
+      width: 2px;
+      height: 44px;
+      border-radius: 2px;
+      background: #9badb8;
+      transform: translateY(-50%);
+    }
+
+    .sidebar-resizer:hover,
+    .sidebar-resizer:focus-visible,
+    body.resizing-sidebar .sidebar-resizer {
+      background: #d9e7e7;
+      outline: none;
+    }
+
+    body.resizing-sidebar {
+      cursor: col-resize;
+      user-select: none;
+    }
+
+    .sidebar-toggle,
+    .sidebar-scrim {
+      display: none;
     }
 
     main {
@@ -1004,11 +1047,72 @@
       background: #f6f7f8;
     }
 
+    .image-zoom-button {
+      display: block;
+      width: 100%;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: zoom-in;
+    }
+
+    .image-zoom-button:focus-visible {
+      outline: 3px solid rgba(0, 127, 122, 0.38);
+      outline-offset: -3px;
+    }
+
     .image-wrap img {
       display: block;
       width: 100%;
       aspect-ratio: 4 / 3;
-      object-fit: cover;
+      object-fit: contain;
+    }
+
+    .image-lightbox {
+      width: 100vw;
+      max-width: none;
+      height: 100dvh;
+      max-height: none;
+      margin: 0;
+      padding: 24px;
+      border: 0;
+      background: rgba(12, 18, 22, 0.94);
+      color: #ffffff;
+      overflow: hidden;
+    }
+
+    .image-lightbox[open] {
+      display: grid;
+      place-items: center;
+    }
+
+    .image-lightbox::backdrop {
+      background: rgba(12, 18, 22, 0.84);
+    }
+
+    .image-lightbox img {
+      display: block;
+      max-width: calc(100vw - 48px);
+      max-height: calc(100dvh - 86px);
+      object-fit: contain;
+    }
+
+    .image-lightbox-close {
+      position: fixed;
+      top: 14px;
+      right: 16px;
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      border: 1px solid rgba(255, 255, 255, 0.55);
+      border-radius: 50%;
+      background: rgba(12, 18, 22, 0.72);
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 30px;
+      line-height: 1;
     }
 
     .reason {
@@ -1090,11 +1194,63 @@
       .app-shell {
         display: block;
       }
+      .sidebar-resizer {
+        display: none;
+      }
       aside {
-        position: static;
-        height: auto;
-        border-right: 0;
-        border-bottom: 1px solid var(--line);
+        position: fixed;
+        inset: 0 auto 0 0;
+        z-index: 42;
+        width: min(88vw, 360px);
+        height: 100dvh;
+        border-right: 1px solid var(--line);
+        box-shadow: 14px 0 34px rgba(23, 32, 38, 0.2);
+        transform: translateX(-102%);
+        transition: transform 0.2s ease;
+      }
+      .app-shell.sidebar-open aside {
+        transform: translateX(0);
+      }
+      .sidebar-scrim {
+        position: fixed;
+        inset: 0;
+        z-index: 40;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border: 0;
+        background: rgba(23, 32, 38, 0.42);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
+      }
+      .app-shell.sidebar-open .sidebar-scrim {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .sidebar-toggle {
+        position: fixed;
+        right: 16px;
+        bottom: max(16px, env(safe-area-inset-bottom));
+        z-index: 44;
+        display: grid;
+        place-items: center;
+        width: 48px;
+        height: 48px;
+        padding: 0;
+        border: 1px solid #8da0ac;
+        border-radius: 50%;
+        background: var(--panel);
+        color: var(--teal-dark);
+        box-shadow: 0 8px 24px rgba(23, 32, 38, 0.22);
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 1;
+      }
+      body.sidebar-is-open {
+        overflow: hidden;
       }
       main {
         padding: 14px;
@@ -1124,6 +1280,13 @@
       aside {
         padding: 14px;
       }
+      .image-lightbox {
+        padding: 10px;
+      }
+      .image-lightbox img {
+        max-width: calc(100vw - 20px);
+        max-height: calc(100dvh - 72px);
+      }
       .part-list {
         grid-template-columns: 1fr;
       }
@@ -1147,8 +1310,8 @@
   </style>
 </head>
 <body>
-  <div class="app-shell">
-    <aside>
+  <div class="app-shell" id="appShell">
+    <aside id="sidebar">
       <div class="brand">
         <h1>TOEIC Speaking 重点复习</h1>
         <div class="subtitle">Part1-5 按 P1/P2/P3 排序，含题目、答案、图片和资料表。</div>
@@ -1196,7 +1359,11 @@
       </div>
     </aside>
 
+    <div class="sidebar-resizer" id="sidebarResizer" role="separator" tabindex="0" aria-label="调整左侧栏宽度" aria-controls="sidebar" aria-orientation="vertical" aria-valuemin="240" aria-valuemax="520" aria-valuenow="300" title="拖动调整左侧栏宽度，双击恢复默认"></div>
+    <button class="sidebar-scrim" id="sidebarScrim" type="button" aria-label="关闭左侧栏" tabindex="-1"></button>
+
     <main>
+      <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="打开左侧栏" title="打开左侧栏">☰</button>
       <div class="topbar">
         <div>
           <h2 class="current-title" id="currentTitle">Part 1 朗读短文</h2>
@@ -1216,6 +1383,11 @@
       </footer>
     </main>
   </div>
+
+  <dialog class="image-lightbox" id="imageLightbox" aria-label="Part 2 图片放大预览">
+    <button class="image-lightbox-close" id="imageLightboxClose" type="button" aria-label="关闭图片预览" title="关闭">×</button>
+    <img id="imageLightboxImage" alt="" />
+  </dialog>
 
   <script src="./toeic_review_data.js"></script>
   <script>
@@ -1272,6 +1444,18 @@
     const voiceStatus = $("voiceStatus");
     const cardList = $("cardList");
     const summaryStrip = $("summaryStrip");
+    const appShell = $("appShell");
+    const sidebarResizer = $("sidebarResizer");
+    const sidebarToggle = $("sidebarToggle");
+    const sidebarScrim = $("sidebarScrim");
+    const imageLightbox = $("imageLightbox");
+    const imageLightboxImage = $("imageLightboxImage");
+    const imageLightboxClose = $("imageLightboxClose");
+    const mobileSidebarMedia = window.matchMedia("(max-width: 900px)");
+    const SIDEBAR_WIDTH_KEY = "toeic-review-sidebar-width";
+    const SIDEBAR_MIN_WIDTH = 240;
+    const SIDEBAR_MAX_WIDTH = 520;
+    const SIDEBAR_DEFAULT_WIDTH = 300;
     const countdownTimers = new Map();
     const readingFunctionWords = new Set([
       "a", "an", "the", "and", "but", "or", "nor", "so", "yet",
@@ -1360,6 +1544,136 @@
     let countdownAudioContext = null;
     let accountSession = null;
     let cloudSaveTimer = 0;
+
+    function sidebarWidthLimit() {
+      return Math.min(
+        SIDEBAR_MAX_WIDTH,
+        Math.max(SIDEBAR_MIN_WIDTH, window.innerWidth - 420)
+      );
+    }
+
+    function setSidebarWidth(width, persist = false) {
+      const nextWidth = Math.round(Math.min(
+        sidebarWidthLimit(),
+        Math.max(SIDEBAR_MIN_WIDTH, Number(width) || SIDEBAR_DEFAULT_WIDTH)
+      ));
+      appShell.style.setProperty("--sidebar-width", nextWidth + "px");
+      sidebarResizer.setAttribute("aria-valuemax", String(sidebarWidthLimit()));
+      sidebarResizer.setAttribute("aria-valuenow", String(nextWidth));
+      if (persist) localStorage.setItem(SIDEBAR_WIDTH_KEY, String(nextWidth));
+      return nextWidth;
+    }
+
+    function currentSidebarWidth() {
+      const value = getComputedStyle(appShell)
+        .getPropertyValue("--sidebar-width")
+        .trim();
+      return Number.parseFloat(value) || SIDEBAR_DEFAULT_WIDTH;
+    }
+
+    function setMobileSidebarOpen(open) {
+      const shouldOpen = mobileSidebarMedia.matches && Boolean(open);
+      appShell.classList.toggle("sidebar-open", shouldOpen);
+      document.body.classList.toggle("sidebar-is-open", shouldOpen);
+      sidebarToggle.setAttribute("aria-expanded", String(shouldOpen));
+      sidebarToggle.setAttribute(
+        "aria-label",
+        shouldOpen ? "\u5173\u95ed\u5de6\u4fa7\u680f" : "\u6253\u5f00\u5de6\u4fa7\u680f"
+      );
+      sidebarToggle.title = shouldOpen ? "\u5173\u95ed\u5de6\u4fa7\u680f" : "\u6253\u5f00\u5de6\u4fa7\u680f";
+      sidebarToggle.textContent = shouldOpen ? "\u00d7" : "\u2630";
+    }
+
+    function initializeLayoutControls() {
+      setSidebarWidth(
+        Number(localStorage.getItem(SIDEBAR_WIDTH_KEY)) || SIDEBAR_DEFAULT_WIDTH
+      );
+      setMobileSidebarOpen(false);
+
+      sidebarResizer.addEventListener("pointerdown", (event) => {
+        if (mobileSidebarMedia.matches || event.button !== 0) return;
+        event.preventDefault();
+        const pointerId = event.pointerId;
+        const startX = event.clientX;
+        const startWidth = currentSidebarWidth();
+        document.body.classList.add("resizing-sidebar");
+        sidebarResizer.setPointerCapture?.(pointerId);
+
+        const handleMove = (moveEvent) => {
+          if (moveEvent.pointerId !== pointerId) return;
+          setSidebarWidth(startWidth + moveEvent.clientX - startX);
+        };
+        const handleEnd = (endEvent) => {
+          if (endEvent.pointerId !== pointerId) return;
+          sidebarResizer.removeEventListener("pointermove", handleMove);
+          sidebarResizer.removeEventListener("pointerup", handleEnd);
+          sidebarResizer.removeEventListener("pointercancel", handleEnd);
+          document.body.classList.remove("resizing-sidebar");
+          setSidebarWidth(currentSidebarWidth(), true);
+        };
+        sidebarResizer.addEventListener("pointermove", handleMove);
+        sidebarResizer.addEventListener("pointerup", handleEnd);
+        sidebarResizer.addEventListener("pointercancel", handleEnd);
+      });
+
+      sidebarResizer.addEventListener("keydown", (event) => {
+        if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+        event.preventDefault();
+        let nextWidth = currentSidebarWidth();
+        if (event.key === "ArrowLeft") nextWidth -= 16;
+        if (event.key === "ArrowRight") nextWidth += 16;
+        if (event.key === "Home") nextWidth = SIDEBAR_MIN_WIDTH;
+        if (event.key === "End") nextWidth = sidebarWidthLimit();
+        setSidebarWidth(nextWidth, true);
+      });
+
+      sidebarResizer.addEventListener("dblclick", () => {
+        setSidebarWidth(SIDEBAR_DEFAULT_WIDTH, true);
+      });
+      sidebarToggle.addEventListener("click", () => {
+        setMobileSidebarOpen(!appShell.classList.contains("sidebar-open"));
+      });
+      sidebarScrim.addEventListener("click", () => setMobileSidebarOpen(false));
+      const handleMediaChange = () => setMobileSidebarOpen(false);
+      if (typeof mobileSidebarMedia.addEventListener === "function") {
+        mobileSidebarMedia.addEventListener("change", handleMediaChange);
+      } else {
+        mobileSidebarMedia.addListener(handleMediaChange);
+      }
+      window.addEventListener("resize", () => {
+        if (!mobileSidebarMedia.matches) setSidebarWidth(currentSidebarWidth());
+      });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && imageLightbox.open) {
+          closeImageLightbox();
+          return;
+        }
+        if (event.key === "Escape" && appShell.classList.contains("sidebar-open")) {
+          setMobileSidebarOpen(false);
+        }
+      });
+    }
+
+    function openImageLightbox(src, alt) {
+      if (!src) return;
+      imageLightboxImage.src = src;
+      imageLightboxImage.alt = alt || "Part 2 \u56fe\u7247";
+      if (typeof imageLightbox.showModal === "function") {
+        if (!imageLightbox.open) imageLightbox.showModal();
+      } else {
+        imageLightbox.setAttribute("open", "");
+      }
+    }
+
+    function closeImageLightbox() {
+      if (typeof imageLightbox.close === "function" && imageLightbox.open) {
+        imageLightbox.close();
+      } else {
+        imageLightbox.removeAttribute("open");
+      }
+      imageLightboxImage.removeAttribute("src");
+      imageLightboxImage.alt = "";
+    }
 
     function loadRecordingScores() {
       try {
@@ -2077,6 +2391,25 @@
       '</section>';
     }
 
+    function recordingWidgetForUid(uid) {
+      return [...document.querySelectorAll("[data-recording-widget]")]
+        .find((node) => node.dataset.recordingWidget === uid) || null;
+    }
+
+    function refreshRecordingWidget(uid) {
+      const currentWidget = recordingWidgetForUid(uid);
+      if (!currentWidget) return;
+      const previousTop = currentWidget.getBoundingClientRect().top;
+      const template = document.createElement("template");
+      template.innerHTML = renderRecordingWidget(uid).trim();
+      const nextWidget = template.content.firstElementChild;
+      if (!nextWidget) return;
+      currentWidget.replaceWith(nextWidget);
+      const nextTop = nextWidget.getBoundingClientRect().top;
+      const offset = nextTop - previousTop;
+      if (Math.abs(offset) > 1) window.scrollBy(0, offset);
+    }
+
     function setRecordingStatus(uid, text, level = "") {
       document.querySelectorAll("[data-record-status]").forEach((node) => {
         if (node.dataset.recordStatus !== uid) return;
@@ -2233,7 +2566,7 @@
       mediaRecorder.start(250);
       startAudioMeter(session);
       if (recognition) startRecognition(session);
-      render();
+      refreshRecordingWidget(uid);
     }
 
     async function stopRecording(uid) {
@@ -2306,7 +2639,7 @@
       activeRecordings.delete(uid);
       prepareCountdownAudio();
       playCountdownAlert("answer");
-      render();
+      refreshRecordingWidget(uid);
     }
 
     function deleteRecording(uid) {
@@ -2315,7 +2648,7 @@
       recordingAudioUrls.delete(uid);
       recordingResults.delete(uid);
       saveRecordingScores();
-      render();
+      refreshRecordingWidget(uid);
     }
 
     async function toggleRecording(uid) {
@@ -3248,8 +3581,9 @@
         const isDone = state.done.has(record.uid);
         const isPersonalized = state.personalized.has(record.uid);
         const material = renderMaterial(record);
+        const imageAlt = record.topic || "Part 2 \u56fe\u7247";
         const image = record.imagePath
-          ? '<div class="image-wrap"><img src="' + escapeAttr(record.imagePath) + '" alt="' + escapeAttr(record.topic || "Part2 图片") + '" loading="lazy" /></div>'
+          ? '<div class="image-wrap"><button class="image-zoom-button" type="button" data-image-open="' + escapeAttr(record.imagePath) + '" data-image-alt="' + escapeAttr(imageAlt) + '" aria-label="\u653e\u5927\u67e5\u770b\u56fe\u7247" title="\u70b9\u51fb\u653e\u5927"><img src="' + escapeAttr(record.imagePath) + '" alt="' + escapeAttr(imageAlt) + '" loading="lazy" /></button></div>'
           : "";
         const answer = !isGrouped && answerVisible
           ? renderAnswer(record)
@@ -3351,6 +3685,7 @@
       state.part5EnglishOpen.clear();
       scheduleCloudStateSave();
       render();
+      setMobileSidebarOpen(false);
     });
 
     priorityList.addEventListener("click", (event) => {
@@ -3360,6 +3695,7 @@
       state.priority = button.dataset.priority;
       scheduleCloudStateSave();
       render();
+      setMobileSidebarOpen(false);
     });
 
     searchInput.addEventListener("input", (event) => {
@@ -3386,9 +3722,18 @@
         : button.dataset.studyFilter;
       scheduleCloudStateSave();
       render();
+      setMobileSidebarOpen(false);
     });
 
     cardList.addEventListener("click", (event) => {
+      const imageButton = event.target.closest("[data-image-open]");
+      if (imageButton) {
+        openImageLightbox(
+          imageButton.dataset.imageOpen,
+          imageButton.dataset.imageAlt
+        );
+        return;
+      }
       const recordToggle = event.target.closest("[data-record-toggle]");
       if (recordToggle) {
         toggleRecording(recordToggle.dataset.recordToggle);
@@ -3503,6 +3848,15 @@
       render();
     });
 
+    imageLightboxClose.addEventListener("click", closeImageLightbox);
+    imageLightbox.addEventListener("click", (event) => {
+      if (event.target === imageLightbox) closeImageLightbox();
+    });
+    imageLightbox.addEventListener("close", () => {
+      imageLightboxImage.removeAttribute("src");
+      imageLightboxImage.alt = "";
+    });
+
     if (supportsSpeechSynthesis()) {
       window.speechSynthesis.getVoices();
       if (typeof window.speechSynthesis.addEventListener === "function") {
@@ -3514,6 +3868,7 @@
       }
     }
 
+    initializeLayoutControls();
     refreshStoredRecordingScores();
     initializeVoiceSelector();
     render();
