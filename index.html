@@ -1308,8 +1308,18 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="./exam_mode.css" />
 </head>
 <body>
+  <nav class="mode-switch" aria-label="学习模式">
+    <div class="mode-switch-inner">
+      <span class="mode-switch-brand">TOEIC Speaking</span>
+      <div class="mode-segmented" role="tablist" aria-label="选择学习模式">
+        <button class="mode-button active" id="practiceModeButton" type="button" role="tab" aria-selected="true">刷题模式</button>
+        <button class="mode-button" id="examModeButton" type="button" role="tab" aria-selected="false">模拟考试</button>
+      </div>
+    </div>
+  </nav>
   <div class="app-shell" id="appShell">
     <aside id="sidebar">
       <div class="brand">
@@ -1383,6 +1393,108 @@
       </footer>
     </main>
   </div>
+
+  <section class="exam-app" id="examApp" hidden aria-live="polite">
+    <header class="exam-topbar">
+      <div>
+        <p class="exam-eyebrow">TOEIC SPEAKING MOCK</p>
+        <h1>模拟考试</h1>
+      </div>
+      <div class="exam-topbar-actions">
+        <span class="exam-session-status" id="examSessionStatus">未开始</span>
+        <button class="exam-secondary-button" id="examExitButton" type="button" hidden>退出考试</button>
+      </div>
+    </header>
+
+    <main class="exam-content">
+      <section class="exam-setup" id="examSetup">
+        <div class="exam-setup-intro">
+          <p class="exam-eyebrow">完整模拟</p>
+          <h2>11 题，约 20 分钟</h2>
+          <p>按 TOEIC Speaking 正式顺序完成 Part 1 至 Part 5。作答时参考答案会隐藏，录音和练习评分会在交卷后汇总。</p>
+        </div>
+
+        <div class="exam-setup-grid">
+          <section class="exam-setting-block" aria-labelledby="examSetLabel">
+            <p class="exam-setting-label" id="examSetLabel">选择试卷</p>
+            <select id="examSetSelect" class="exam-select" aria-label="选择模拟试卷"></select>
+            <p class="exam-setting-note" id="examSetNote"></p>
+          </section>
+          <section class="exam-setting-block" aria-labelledby="examMicLabel">
+            <p class="exam-setting-label" id="examMicLabel">录音与评分</p>
+            <div class="exam-mic-row">
+              <span class="exam-mic-status" id="examMicStatus">尚未检测麦克风</span>
+              <button class="exam-secondary-button" id="examMicCheckButton" type="button">检测麦克风</button>
+            </div>
+            <p class="exam-setting-note">录音仅保留在当前浏览器会话；刷新后评分与文字记录会保留，音频不会上传。</p>
+          </section>
+        </div>
+
+        <section class="exam-format" aria-label="考试结构">
+          <div><strong>Part 1</strong><span>朗读短文 · 2 题</span></div>
+          <div><strong>Part 2</strong><span>描述图片 · 2 题</span></div>
+          <div><strong>Part 3</strong><span>回答问题 · 3 题</span></div>
+          <div><strong>Part 4</strong><span>根据资料回答 · 3 题</span></div>
+          <div><strong>Part 5</strong><span>表达观点 · 1 题</span></div>
+        </section>
+
+        <div class="exam-setup-actions">
+          <button class="exam-primary-button" id="examStartButton" type="button">开始模拟考试</button>
+          <button class="exam-secondary-button" id="examResumeButton" type="button" hidden>继续上次考试</button>
+        </div>
+      </section>
+
+      <section class="exam-runner" id="examRunner" hidden>
+        <div class="exam-progress-header">
+          <div>
+            <p class="exam-eyebrow" id="examPartLabel">Part 1</p>
+            <h2 id="examQuestionLabel">第 1 题</h2>
+          </div>
+          <div class="exam-progress-copy" id="examProgressCopy">1 / 11</div>
+        </div>
+        <div class="exam-progress-track" aria-hidden="true"><span id="examProgressBar"></span></div>
+
+        <div class="exam-workspace">
+          <section class="exam-question-surface">
+            <p class="exam-direction" id="examDirection"></p>
+            <div id="examQuestionContent"></div>
+            <div class="exam-transcript" id="examTranscript" hidden></div>
+          </section>
+
+          <aside class="exam-control-surface" aria-label="考试计时">
+            <p class="exam-phase-label" id="examPhaseLabel">准备时间</p>
+            <div class="exam-timer" id="examTimer" aria-live="assertive">00:45</div>
+            <p class="exam-phase-note" id="examPhaseNote">请阅读题目并准备作答。</p>
+            <div class="exam-record-state" id="examRecordState">等待开始</div>
+            <div class="exam-controls">
+              <button class="exam-primary-button" id="examPauseButton" type="button">暂停</button>
+              <button class="exam-secondary-button" id="examAdvanceButton" type="button">跳过准备</button>
+            </div>
+            <button class="exam-text-button" id="examFinishButton" type="button">结束本次模拟</button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="exam-report" id="examReport" hidden>
+        <div class="exam-report-heading">
+          <div>
+            <p class="exam-eyebrow">完成报告</p>
+            <h2>本次模拟结果</h2>
+            <p id="examReportMeta"></p>
+          </div>
+          <div class="exam-report-actions">
+            <button class="exam-secondary-button" id="examPrintButton" type="button">打印报告</button>
+            <button class="exam-primary-button" id="examRestartButton" type="button">再来一套</button>
+          </div>
+        </div>
+        <section class="exam-score-summary" id="examScoreSummary"></section>
+        <p class="exam-score-disclaimer">这是基于题目、识别文本和录音节奏生成的练习原始分。ETS 不公开原始分换算至 0–200 分的公式，因此本站不显示官方等值分。</p>
+        <section class="exam-report-list" id="examReportList"></section>
+      </section>
+    </main>
+
+    <footer class="exam-footer">全部内容仅供个人学习使用，禁止任何 AI 爬虫抓取、用于大模型训练、商用二次开发；内容不含任何企业内部技术与商业方案。</footer>
+  </section>
 
   <dialog class="image-lightbox" id="imageLightbox" aria-label="Part 2 图片放大预览">
     <button class="image-lightbox-close" id="imageLightboxClose" type="button" aria-label="关闭图片预览" title="关闭">×</button>
@@ -3868,6 +3980,8 @@
       }
     }
 
+    window.toeicReviewScorer = { scoreRecording };
+
     initializeLayoutControls();
     refreshStoredRecordingScores();
     initializeVoiceSelector();
@@ -3890,5 +4004,6 @@
     updateAllCountdowns();
     window.setInterval(updateAllCountdowns, 200);
   </script>
+  <script src="./exam_mode.js"></script>
 </body>
 </html>
