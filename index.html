@@ -631,6 +631,81 @@
       font-size: 14px;
     }
 
+    .answer-variants {
+      display: grid;
+      gap: 8px;
+      padding: 10px 12px 12px;
+      border-top: 1px solid #cde6e1;
+      background: #fbfcfd;
+    }
+
+    .answer-variant {
+      border: 1px solid #c9dfdb;
+      border-radius: 6px;
+      background: #ffffff;
+    }
+
+    .answer-variant summary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 9px 10px;
+      cursor: pointer;
+      color: #1d4c48;
+      font-size: 13px;
+      font-weight: 850;
+      list-style: none;
+    }
+
+    .answer-variant summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .answer-variant summary::after {
+      content: "+";
+      color: var(--teal-dark);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .answer-variant[open] summary::after {
+      content: "−";
+    }
+
+    .answer-variant-label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .answer-variant-tag {
+      padding: 2px 6px;
+      border-radius: 999px;
+      background: #e4f3ef;
+      color: #24635b;
+      font-size: 11px;
+      font-weight: 750;
+    }
+
+    .answer-variant-body {
+      padding: 0 10px 10px;
+      border-top: 1px solid #e2eeec;
+    }
+
+    .answer-variant-note {
+      margin: 8px 0 5px;
+      color: #51636b;
+      font-size: 12px;
+    }
+
+    .answer-variant-text {
+      margin: 0;
+      color: #18343a;
+      font-size: 14px;
+    }
+
     .part2-answer-panel {
       padding: 0;
       overflow: hidden;
@@ -3075,10 +3150,11 @@
       if (record.part !== 1) {
         return '<div class="answer-panel">' +
           '<div class="answer-heading">' +
-            '<p class="answer-title">英文参考答案</p>' +
+            '<p class="answer-title">快速复述版 · 英文</p>' +
             renderCompactSpeechControl(record) +
           '</div>' +
           '<p class="answer-text">' + escapeHtml(answerText) + '</p>' +
+          renderAnswerVariants(record) +
         '</div>';
       }
       return '<div class="answer-panel part1-answer-panel">' +
@@ -3094,6 +3170,41 @@
           '<button class="tool-button speech-pause-button" type="button" data-pause-speech="' + escapeAttr(record.uid) + '">暂停/继续</button>' +
           '<button class="tool-button speech-stop-button" type="button" data-stop-speech="' + escapeAttr(record.uid) + '">停止</button>' +
         '</div>' +
+        renderAnswerVariants(record) +
+      '</div>';
+    }
+
+    function fullScoreCriterion(part) {
+      const criteria = {
+        1: "目标：发音清晰；意群停顿、重读与升降调自然。",
+        2: "目标：覆盖场景、主要人物或物品、两个以上动作，并连贯总结。",
+        3: "目标：直接且完整回答；第 3 题用理由或例子展开。",
+        4: "目标：答案仅基于资料表，准确覆盖人名、日期、时间、地点与细节。",
+        5: "目标：观点明确，以理由和具体例子展开，再自然总结。"
+      };
+      return "按官方评分维度设计，非 ETS 官方逐字范文。" + (criteria[part] || "目标：内容完整、语言清晰、表达连贯。");
+    }
+
+    function renderAnswerVariants(record, sourcePart) {
+      const bankAnswer = record.questionBankAnswer;
+      const fullScoreAnswer = record.fullScoreAnswer;
+      if (!bankAnswer && !fullScoreAnswer) return "";
+      const part = sourcePart || record.part;
+      const bankNote = part === 1
+        ? "朗读题的题库原答案与题干一致，可用作逐意群跟读文本。"
+        : "保留题库中原有的完整参考表达。";
+      const renderVariant = (title, tag, note, text) => text
+        ? '<details class="answer-variant">' +
+            '<summary><span class="answer-variant-label">' + escapeHtml(title) + '<span class="answer-variant-tag">' + escapeHtml(tag) + '</span></span></summary>' +
+            '<div class="answer-variant-body">' +
+              '<p class="answer-variant-note">' + escapeHtml(note) + '</p>' +
+              '<p class="answer-variant-text">' + escapeHtml(text) + '</p>' +
+            '</div>' +
+          '</details>'
+        : '';
+      return '<div class="answer-variants">' +
+        renderVariant("题库原答案", "原版", bankNote, bankAnswer) +
+        renderVariant("满分目标示范", "官方维度", fullScoreCriterion(part), fullScoreAnswer) +
       '</div>';
     }
 
@@ -3106,7 +3217,7 @@
       ).join("");
       return '<div class="answer-panel part2-answer-panel">' +
         '<div class="part2-answer-heading">' +
-          '<p class="answer-title">英文参考答案 · 总—分—总</p>' +
+          '<p class="answer-title">快速复述版 · 总—分—总</p>' +
           renderCompactSpeechControl(record) +
         '</div>' +
         '<div class="part2-answer-row">' +
@@ -3118,6 +3229,7 @@
           '<span class="part2-step-label">总 · 总结</span>' +
           '<p class="part2-step-text">' + escapeHtml(record.part2Answer.conclusion) + '</p>' +
         '</div>' +
+        renderAnswerVariants(record) +
       '</div>';
     }
 
@@ -3144,7 +3256,7 @@
       ).join("");
       return '<div class="answer-panel part5-answer-panel">' +
         '<div class="part5-answer-heading">' +
-          '<p class="answer-title">Part 5 双语参考答案</p>' +
+          '<p class="answer-title">Part 5 快速复述版</p>' +
           '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
         '</div>' +
         '<section class="part5-language" aria-label="中文参考答案">' +
@@ -3163,6 +3275,7 @@
               renderRows(record.answerSectionsEn) +
             '</section>'
           : '') +
+        renderAnswerVariants(record) +
       '</div>';
     }
 
@@ -3604,7 +3717,7 @@
       ).join("");
       return '<div class="group-answer part3-q3-answer">' +
         '<div class="part5-answer-heading">' +
-          '<p class="answer-title">第 3 题双语参考答案 · 30 秒</p>' +
+          '<p class="answer-title">第 3 题快速复述版 · 30 秒</p>' +
           '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
         '</div>' +
         '<section class="part5-language" aria-label="中文参考答案">' +
@@ -3623,6 +3736,7 @@
               renderRows(question.answerSectionsEn) +
             '</section>'
           : '') +
+        renderAnswerVariants(question, 3) +
       '</div>';
     }
 
@@ -3640,10 +3754,11 @@
             ? renderPart3Q3Answer(question)
             : '<div class="group-answer">' +
               '<div class="answer-heading">' +
-                '<p class="answer-title">英文参考答案 · ' + escapeHtml(question.answerTime || "--") + ' 秒</p>' +
+                '<p class="answer-title">快速复述版 · ' + escapeHtml(question.answerTime || "--") + ' 秒</p>' +
                 renderCompactSpeechControl(question) +
               '</div>' +
               '<p class="answer-text">' + escapeHtml(question.answer || "题库未提供参考答案。") + '</p>' +
+              renderAnswerVariants(question, record.part) +
             '</div>'
           : '';
         return '<section class="group-question">' +
