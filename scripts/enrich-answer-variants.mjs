@@ -42,37 +42,68 @@ function sentenceWithoutLead(sentence, lead) {
   return sentence.replace(new RegExp(`^${lead}\\s*`, 'i'), '').trim();
 }
 
+function sentenceWithoutAnyLead(sentence) {
+  return String(sentence || '').replace(/^(?:First|Second|Third|For example|So|Overall|In conclusion),\s*/i, '').trim();
+}
+
+function lowerInitial(sentence) {
+  if (!sentence || /^I(?:\s|['’])/.test(sentence)) return sentence;
+  return sentence.charAt(0).toLowerCase() + sentence.slice(1);
+}
+
 function part2FullScoreAnswer(record, bankAnswer) {
-  const conclusion = record.part2Answer?.conclusion || '';
-  return conclusion && !bankAnswer.includes(conclusion) ? `${bankAnswer} ${conclusion}` : bankAnswer;
+  const upgraded = bankAnswer
+    .replace(/^This picture was taken in /i, 'The photograph appears to have been taken in ')
+    .replace(/^This photo was taken in /i, 'The photograph appears to have been taken in ')
+    .replace(/looks clean and well organized\./i, 'appears clean and well organized, creating a professional atmosphere.');
+  return `${upgraded} Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently.`;
 }
 
 function part3FullScoreAnswer(question, bankAnswer) {
-  if (question.answerTime !== 30 || !question.answerSectionsEn?.length) return bankAnswer;
-  return question.answerSectionsEn.join(' ');
+  if (question.answerTime !== 30 || !question.answerSectionsEn?.length) {
+    return `To answer precisely, ${lowerInitial(bankAnswer)}`;
+  }
+  const sections = question.answerSectionsEn;
+  const [opinion, reasonOne, reasonTwo, conclusion] = sections;
+  if (question.answerPattern === '1R1E' && sections.length >= 4) {
+    return [
+      opinion,
+      `This is mainly because ${lowerInitial(sentenceWithoutAnyLead(reasonOne))}`,
+      `For instance, ${lowerInitial(sentenceWithoutAnyLead(reasonTwo))}`,
+      `For these reasons, ${lowerInitial(sentenceWithoutAnyLead(conclusion))}`,
+    ].join(' ');
+  }
+  return [
+    opinion,
+    `One important reason is that ${lowerInitial(sentenceWithoutAnyLead(reasonOne))}`,
+    `Moreover, ${lowerInitial(sentenceWithoutAnyLead(reasonTwo))}`,
+    `Consequently, ${lowerInitial(sentenceWithoutAnyLead(conclusion))}`,
+  ].join(' ');
 }
 
 function part5FullScoreAnswer(record, bankAnswer) {
   const sections = record.answerSectionsEn || [];
-  if (sections.length < 4) return bankAnswer;
+  if (sections.length < 4) {
+    return `${bankAnswer} In addition, this choice can have a lasting influence on the way people manage responsibilities and make everyday decisions.`;
+  }
 
   const [opinion, reasonOne, reasonTwo, support, conclusion] = sections;
   if (record.answerPattern === '3R' && sections.length >= 5) {
     return [
       opinion,
-      `First, ${sentenceWithoutLead(reasonOne, 'First,')}`,
-      `Second, ${sentenceWithoutLead(reasonTwo, 'Second,')}`,
-      `Also, ${sentenceWithoutLead(support, 'Third,')}`,
-      conclusion,
+      `One important reason is that ${lowerInitial(sentenceWithoutAnyLead(reasonOne))}`,
+      `Furthermore, ${lowerInitial(sentenceWithoutAnyLead(reasonTwo))}`,
+      `Another point worth considering is that ${lowerInitial(sentenceWithoutAnyLead(support))}`,
+      `Therefore, ${lowerInitial(sentenceWithoutAnyLead(conclusion))}`,
     ].join(' ');
   }
 
   return [
     opinion,
-    `First, ${sentenceWithoutLead(reasonOne, 'First,')}`,
-    `Second, ${sentenceWithoutLead(reasonTwo, 'Second,')}`,
-    `For example, ${sentenceWithoutLead(support, 'For example,')}`,
-    conclusion,
+    `One important reason is that ${lowerInitial(sentenceWithoutAnyLead(reasonOne))}`,
+    `Furthermore, ${lowerInitial(sentenceWithoutAnyLead(reasonTwo))}`,
+    `For instance, ${lowerInitial(sentenceWithoutAnyLead(support))}`,
+    `Therefore, ${lowerInitial(sentenceWithoutAnyLead(conclusion))}`,
   ].join(' ');
 }
 
@@ -85,7 +116,7 @@ function fullScoreAnswer(record, bankAnswer) {
     case 3:
       return part3FullScoreAnswer(record, bankAnswer);
     case 4:
-      return bankAnswer;
+      return `According to the information provided, ${lowerInitial(bankAnswer)}`;
     case 5:
       return part5FullScoreAnswer(record, bankAnswer);
     default:
@@ -105,6 +136,13 @@ for (const record of reviewData.records) {
     const bankAnswer = bankAnswers.get(key);
     if (!bankAnswer) {
       missing.push(key);
+      continue;
+    }
+
+    if (record.part === 1) {
+      delete question.questionBankAnswer;
+      delete question.fullScoreAnswer;
+      matched += 1;
       continue;
     }
 

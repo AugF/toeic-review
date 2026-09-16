@@ -70,9 +70,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "grandview hotel pleased stay us",
-      "questionBankAnswer": "Welcome to the Grandview Hotel. We are pleased to have you stay with us today. Our hotel provides many convenient services to make your visit comfortable and enjoyable. Every morning, guests can enjoy a free breakfast served in the dining area on the first floor. We also offer a fully equipped fitness center that is open all day. If you need help with transportation, dining, or local attractions, our front desk staff are always happy to assist you. We hope you have a relaxing stay and a pleasant experience with us.",
-      "fullScoreAnswer": "Welcome to the Grandview Hotel. We are pleased to have you stay with us today. Our hotel provides many convenient services to make your visit comfortable and enjoyable. Every morning, guests can enjoy a free breakfast served in the dining area on the first floor. We also offer a fully equipped fitness center that is open all day. If you need help with transportation, dining, or local attractions, our front desk staff are always happy to assist you. We hope you have a relaxing stay and a pleasant experience with us."
+      "keywords": "grandview hotel pleased stay us"
     },
     {
       "uid": "1-模拟题2.json-1",
@@ -91,9 +89,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "riverside restaurant happy dining us",
-      "questionBankAnswer": "Welcome to the Riverside Restaurant. We are very happy to have you dining with us today. Our restaurant serves a wide range of dishes, including both traditional local food and popular international cuisine. The dining area is clean, spacious, and designed to provide a relaxing atmosphere for all guests. Whether you are dining alone or with a group, our tables are arranged to make you feel comfortable. Our staff members are always ready to help you choose meals, explain menu items, and handle special requests. We hope you enjoy your meal and have a pleasant dining experience with us.",
-      "fullScoreAnswer": "Welcome to the Riverside Restaurant. We are very happy to have you dining with us today. Our restaurant serves a wide range of dishes, including both traditional local food and popular international cuisine. The dining area is clean, spacious, and designed to provide a relaxing atmosphere for all guests. Whether you are dining alone or with a group, our tables are arranged to make you feel comfortable. Our staff members are always ready to help you choose meals, explain menu items, and handle special requests. We hope you enjoy your meal and have a pleasant dining experience with us."
+      "keywords": "riverside restaurant happy dining us"
     },
     {
       "uid": "1-模拟题3.json-1",
@@ -112,9 +108,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "national library pleased visitors over",
-      "questionBankAnswer": "Welcome to the National Library. We are pleased to welcome visitors from all over the country. This library provides access to thousands of books, newspapers, magazines, and digital resources for study and research. The reading rooms are quiet, clean, and well-lit, creating a comfortable environment for learning. Our staff members are always available to help you find materials and use the online catalog system. There are also special areas designed for children and teenagers, where educational programs and reading activities are held regularly. Please follow library rules and enjoy your time here.",
-      "fullScoreAnswer": "Welcome to the National Library. We are pleased to welcome visitors from all over the country. This library provides access to thousands of books, newspapers, magazines, and digital resources for study and research. The reading rooms are quiet, clean, and well-lit, creating a comfortable environment for learning. Our staff members are always available to help you find materials and use the online catalog system. There are also special areas designed for children and teenagers, where educational programs and reading activities are held regularly. Please follow library rules and enjoy your time here."
+      "keywords": "national library pleased visitors over"
     },
     {
       "uid": "1-模拟题3.json-2",
@@ -133,9 +127,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "visit busy city street notice",
-      "questionBankAnswer": "During a visit to a busy city street, you will notice a mix of shops, restaurants, and small parks. People are walking in different directions, some chatting with friends while others are carrying shopping bags. In the foreground, a man is asking a woman for directions. On the right side, another woman is pushing a stroller past a small store. The street is clean and lively, with colorful signs above the shops. Cars move slowly and pedestrians follow traffic rules, making the area safe and enjoyable.",
-      "fullScoreAnswer": "During a visit to a busy city street, you will notice a mix of shops, restaurants, and small parks. People are walking in different directions, some chatting with friends while others are carrying shopping bags. In the foreground, a man is asking a woman for directions. On the right side, another woman is pushing a stroller past a small store. The street is clean and lively, with colorful signs above the shops. Cars move slowly and pedestrians follow traffic rules, making the area safe and enjoyable."
+      "keywords": "visit busy city street notice"
     },
     {
       "uid": "1-真题01沟通组织解决问题哪个重要.json-1",
@@ -154,9 +146,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "hotel Wi-Fi fitness center breakfast front desk",
-      "questionBankAnswer": "Welcome to our hotel, and thank you for choosing to stay with us. During your visit, we hope you will enjoy our comfortable rooms and high-quality services. Our hotel offers free Wi-Fi in all public areas and guest rooms, as well as a fitness center that is open twenty-four hours a day. Breakfast is served on the first floor from six thirty to ten in the morning. If you need any assistance, please contact the front desk at any time. We wish you a pleasant and relaxing stay with us.",
-      "fullScoreAnswer": "Welcome to our hotel, and thank you for choosing to stay with us. During your visit, we hope you will enjoy our comfortable rooms and high-quality services. Our hotel offers free Wi-Fi in all public areas and guest rooms, as well as a fitness center that is open twenty-four hours a day. Breakfast is served on the first floor from six thirty to ten in the morning. If you need any assistance, please contact the front desk at any time. We wish you a pleasant and relaxing stay with us."
+      "keywords": "hotel Wi-Fi fitness center breakfast front desk"
     },
     {
       "uid": "1-真题02新工作哪个能力最重要.json-1",
@@ -175,9 +165,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "new office joining company today",
-      "questionBankAnswer": "Welcome to our new office, and thank you for joining our company. Today, we would like to introduce our latest projects and explain how different teams work together. Our company encourages open communication, creative thinking, and mutual support among colleagues. Employees are expected to share ideas, ask questions, and cooperate with team members to achieve common goals. We believe that a positive working environment helps everyone grow professionally and contribute more effectively to the organization.",
-      "fullScoreAnswer": "Welcome to our new office, and thank you for joining our company. Today, we would like to introduce our latest projects and explain how different teams work together. Our company encourages open communication, creative thinking, and mutual support among colleagues. Employees are expected to share ideas, ask questions, and cooperate with team members to achieve common goals. We believe that a positive working environment helps everyone grow professionally and contribute more effectively to the organization."
+      "keywords": "new office joining company today"
     },
     {
       "uid": "1-真题03改变国家图书馆.json-1",
@@ -196,9 +184,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "city library pleased introduce several",
-      "questionBankAnswer": "Welcome to the City Library. We are pleased to introduce several new resources that are now available to all members. In addition to our printed books and magazines, the library has expanded its digital collection, which includes e-books, online journals, and audio materials. Visitors can access these resources through the digital catalog using computers inside the library or their personal devices. Our staff members are always ready to assist you in searching for information and learning how to use these services effectively.",
-      "fullScoreAnswer": "Welcome to the City Library. We are pleased to introduce several new resources that are now available to all members. In addition to our printed books and magazines, the library has expanded its digital collection, which includes e-books, online journals, and audio materials. Visitors can access these resources through the digital catalog using computers inside the library or their personal devices. Our staff members are always ready to assist you in searching for information and learning how to use these services effectively."
+      "keywords": "city library pleased introduce several"
     },
     {
       "uid": "1-真题03改变国家图书馆.json-2",
@@ -217,9 +203,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "ensure safe pleasant environment visitors",
-      "questionBankAnswer": "To ensure a safe and pleasant environment, all visitors and staff are asked to follow the updated library guidelines. These include proper book borrowing procedures, maintaining quiet in reading areas, and taking care of shared facilities. Clear communication between staff and visitors is encouraged to avoid misunderstandings. By following these rules and respecting others, everyone can enjoy a comfortable and productive experience in the library.",
-      "fullScoreAnswer": "To ensure a safe and pleasant environment, all visitors and staff are asked to follow the updated library guidelines. These include proper book borrowing procedures, maintaining quiet in reading areas, and taking care of shared facilities. Clear communication between staff and visitors is encouraged to avoid misunderstandings. By following these rules and respecting others, everyone can enjoy a comfortable and productive experience in the library."
+      "keywords": "ensure safe pleasant environment visitors"
     },
     {
       "uid": "1-真题04offer是否要跟家里人交流.json-1",
@@ -238,9 +222,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "ladies gentlemen annual company meeting",
-      "questionBankAnswer": "Ladies and gentlemen, welcome to our annual company meeting. Today, we will review the achievements of the past year and discuss the challenges we faced as a team. We will also introduce our goals and action plans for the upcoming year. During this meeting, department managers will share performance updates, and we will recognize employees who have made outstanding contributions. Please feel free to take notes and prepare questions for the discussion session at the end. We appreciate your hard work and hope this meeting will help us move forward together.",
-      "fullScoreAnswer": "Ladies and gentlemen, welcome to our annual company meeting. Today, we will review the achievements of the past year and discuss the challenges we faced as a team. We will also introduce our goals and action plans for the upcoming year. During this meeting, department managers will share performance updates, and we will recognize employees who have made outstanding contributions. Please feel free to take notes and prepare questions for the discussion session at the end. We appreciate your hard work and hope this meeting will help us move forward together."
+      "keywords": "ladies gentlemen annual company meeting"
     },
     {
       "uid": "1-真题06未来一代为什么比现在一代更健康.json-2",
@@ -259,9 +241,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "greenvale mountain resorts popular destination",
-      "questionBankAnswer": "Greenvale Mountain Resorts is a popular destination for people who want to relax and enjoy nature. The resort offers comfortable rooms, well-maintained hiking trails, and a restaurant that serves local food. Visitors can choose to spend time outdoors or simply rest in a quiet environment. By combining relaxation with healthy activities, the resort encourages a balanced lifestyle and helps guests reduce stress and improve their overall well-being.",
-      "fullScoreAnswer": "Greenvale Mountain Resorts is a popular destination for people who want to relax and enjoy nature. The resort offers comfortable rooms, well-maintained hiking trails, and a restaurant that serves local food. Visitors can choose to spend time outdoors or simply rest in a quiet environment. By combining relaxation with healthy activities, the resort encourages a balanced lifestyle and helps guests reduce stress and improve their overall well-being."
+      "keywords": "greenvale mountain resorts popular destination"
     },
     {
       "uid": "1-真题07老师能否让学生带电子设备.json-1",
@@ -280,9 +260,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "attending year chamber commerce banquet",
-      "questionBankAnswer": "Thank you all for attending this year’s Chamber of Commerce banquet. We are very pleased to welcome business leaders, community members, and honored guests from across the region. Tonight’s event is designed to recognize outstanding achievements in local business and to strengthen cooperation within our community. After everyone has finished dinner, we will begin the awards ceremony. Awards will be presented in several categories, including best small business, excellence in community leadership, and innovation in sales. We sincerely appreciate your continued support and hope you enjoy the rest of the evening.",
-      "fullScoreAnswer": "Thank you all for attending this year’s Chamber of Commerce banquet. We are very pleased to welcome business leaders, community members, and honored guests from across the region. Tonight’s event is designed to recognize outstanding achievements in local business and to strengthen cooperation within our community. After everyone has finished dinner, we will begin the awards ceremony. Awards will be presented in several categories, including best small business, excellence in community leadership, and innovation in sales. We sincerely appreciate your continued support and hope you enjoy the rest of the evening."
+      "keywords": "attending year chamber commerce banquet"
     },
     {
       "uid": "1-真题08作为老板高效沟通是不是最重要.json-1",
@@ -301,9 +279,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "hello company vehicle showroom today",
-      "questionBankAnswer": "Hello and welcome to our company's vehicle showroom. Today, you will have the opportunity to explore our latest car models, learn about their unique features, and understand the safety precautions associated with each vehicle. Our staff members are available to answer any questions you may have, and there will be demonstrations of key technologies, including electric engines and advanced navigation systems. Please feel free to take your time to explore and enjoy the visit, as we aim to provide both an informative and enjoyable experience for all guests.",
-      "fullScoreAnswer": "Hello and welcome to our company's vehicle showroom. Today, you will have the opportunity to explore our latest car models, learn about their unique features, and understand the safety precautions associated with each vehicle. Our staff members are available to answer any questions you may have, and there will be demonstrations of key technologies, including electric engines and advanced navigation systems. Please feel free to take your time to explore and enjoy the visit, as we aim to provide both an informative and enjoyable experience for all guests."
+      "keywords": "hello company vehicle showroom today"
     },
     {
       "uid": "1-真题08作为老板高效沟通是不是最重要.json-2",
@@ -322,9 +298,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning everyone today meeting",
-      "questionBankAnswer": "Good morning everyone. In today’s meeting, we will discuss the company’s new operational procedures, focusing on ways to improve efficiency and reduce errors. Please pay close attention to the details, ask questions when clarification is needed, and follow the guidelines to ensure that tasks are completed correctly and on time. Effective communication among team members is essential for smooth operations, and I encourage everyone to share suggestions that can help enhance workflow and collaboration.",
-      "fullScoreAnswer": "Good morning everyone. In today’s meeting, we will discuss the company’s new operational procedures, focusing on ways to improve efficiency and reduce errors. Please pay close attention to the details, ask questions when clarification is needed, and follow the guidelines to ensure that tasks are completed correctly and on time. Effective communication among team members is essential for smooth operations, and I encourage everyone to share suggestions that can help enhance workflow and collaboration."
+      "keywords": "good morning everyone today meeting"
     },
     {
       "uid": "1-真题09学术专业成功最重要因素.json-1",
@@ -343,9 +317,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "hello everyone art exhibition today",
-      "questionBankAnswer": "Hello everyone, welcome to our art exhibition. Today, you will see a wide variety of sculptures and paintings from both local and international artists. Each piece tells a unique story and reflects different artistic styles. Our curators are available to provide background information and answer any questions. Please take your time to walk around, observe the artworks closely, and enjoy the atmosphere. Remember to follow the gallery rules to maintain a pleasant experience for all visitors.",
-      "fullScoreAnswer": "Hello everyone, welcome to our art exhibition. Today, you will see a wide variety of sculptures and paintings from both local and international artists. Each piece tells a unique story and reflects different artistic styles. Our curators are available to provide background information and answer any questions. Please take your time to walk around, observe the artworks closely, and enjoy the atmosphere. Remember to follow the gallery rules to maintain a pleasant experience for all visitors."
+      "keywords": "hello everyone art exhibition today"
     },
     {
       "uid": "1-真题10买房比租房的缺点.json-1",
@@ -364,9 +336,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "new community library here find",
-      "questionBankAnswer": "Welcome to our new community library. Here you can find a wide variety of books, comfortable seating, and free Wi-Fi for all visitors. We also have a dedicated area for children with interactive learning materials. Our staff can help you locate books or suggest popular titles. Please respect the library rules, keep quiet in the reading areas, and enjoy your reading experience. Feel free to join our upcoming workshops and book discussion events to make the most of your visit.",
-      "fullScoreAnswer": "Welcome to our new community library. Here you can find a wide variety of books, comfortable seating, and free Wi-Fi for all visitors. We also have a dedicated area for children with interactive learning materials. Our staff can help you locate books or suggest popular titles. Please respect the library rules, keep quiet in the reading areas, and enjoy your reading experience. Feel free to join our upcoming workshops and book discussion events to make the most of your visit."
+      "keywords": "new community library here find"
     },
     {
       "uid": "1-真题11政府提供免费大学课程的好处有哪些.json-1",
@@ -385,9 +355,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "downtown city street people walking",
-      "questionBankAnswer": "Welcome to the downtown city street. Many people are walking along the sidewalks and enjoying the sunny day. You can see street performers entertaining the crowd, and some shops offering special discounts. There are several cafes and restaurants along the street, where visitors can have a break or enjoy a meal. Please follow traffic rules, watch out for bicycles, and stay safe while exploring this busy area. Remember to enjoy the scenery and take photos if you like.",
-      "fullScoreAnswer": "Welcome to the downtown city street. Many people are walking along the sidewalks and enjoying the sunny day. You can see street performers entertaining the crowd, and some shops offering special discounts. There are several cafes and restaurants along the street, where visitors can have a break or enjoy a meal. Please follow traffic rules, watch out for bicycles, and stay safe while exploring this busy area. Remember to enjoy the scenery and take photos if you like."
+      "keywords": "downtown city street people walking"
     },
     {
       "uid": "1-真题11政府提供免费大学课程的好处有哪些.json-2",
@@ -406,9 +374,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning today office review",
-      "questionBankAnswer": "Good morning. Today in the office we will review the weekly progress and assign new tasks. Everyone should check their documents and prepare to discuss updates. Additionally, we will share new project plans and safety guidelines for the upcoming week. Please pay attention to deadlines and make sure to note any questions you might have. By the end of the meeting, each person will know their responsibilities and expected results. Thank you for being attentive and participating actively.",
-      "fullScoreAnswer": "Good morning. Today in the office we will review the weekly progress and assign new tasks. Everyone should check their documents and prepare to discuss updates. Additionally, we will share new project plans and safety guidelines for the upcoming week. Please pay attention to deadlines and make sure to note any questions you might have. By the end of the meeting, each person will know their responsibilities and expected results. Thank you for being attentive and participating actively."
+      "keywords": "good morning today office review"
     },
     {
       "uid": "1-真题12毕业后第一份工作必要吗.json-1",
@@ -427,9 +393,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning aboard cruise ship",
-      "questionBankAnswer": "Good morning and welcome aboard our cruise ship. We hope you enjoy the scenic views and relax during the journey. On the deck, you can see the waves, the distant islands, and passengers taking photos or enjoying refreshments. There are safety instructions displayed at several points, and the crew is ready to assist you if needed. Please follow all safety guidelines while on the deck and feel free to explore the ship's amenities during your voyage.",
-      "fullScoreAnswer": "Good morning and welcome aboard our cruise ship. We hope you enjoy the scenic views and relax during the journey. On the deck, you can see the waves, the distant islands, and passengers taking photos or enjoying refreshments. There are safety instructions displayed at several points, and the crew is ready to assist you if needed. Please follow all safety guidelines while on the deck and feel free to explore the ship's amenities during your voyage."
+      "keywords": "good morning aboard cruise ship"
     },
     {
       "uid": "1-真题12毕业后第一份工作必要吗.json-2",
@@ -448,9 +412,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "hello everyone today office discuss",
-      "questionBankAnswer": "Hello everyone. Today in the office we will discuss the new project, review the weekly progress, and assign new tasks. Please check your documents and take notes as needed. Make sure to ask questions if something is unclear. At the end of the meeting, each team member will understand their responsibilities, deadlines, and expected results. Thank you for your attention and active participation.",
-      "fullScoreAnswer": "Hello everyone. Today in the office we will discuss the new project, review the weekly progress, and assign new tasks. Please check your documents and take notes as needed. Make sure to ask questions if something is unclear. At the end of the meeting, each team member will understand their responsibilities, deadlines, and expected results. Thank you for your attention and active participation."
+      "keywords": "hello everyone today office discuss"
     },
     {
       "uid": "1-真题13offer是否需要考虑公司的名誉.json-1",
@@ -469,9 +431,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "countryside retreat here enjoy peaceful",
-      "questionBankAnswer": "Welcome to our countryside retreat. Here you can enjoy a peaceful environment with fresh air, green fields, and gentle rivers flowing nearby. Guests can participate in guided nature walks, enjoy local foods, or relax in comfortable cottages. The retreat also provides safety instructions for hiking, swimming, and other outdoor activities. The staff is ready to assist you and ensure you have a pleasant and safe stay. Please take care of the environment and follow the guidelines while exploring the area.",
-      "fullScoreAnswer": "Welcome to our countryside retreat. Here you can enjoy a peaceful environment with fresh air, green fields, and gentle rivers flowing nearby. Guests can participate in guided nature walks, enjoy local foods, or relax in comfortable cottages. The retreat also provides safety instructions for hiking, swimming, and other outdoor activities. The staff is ready to assist you and ensure you have a pleasant and safe stay. Please take care of the environment and follow the guidelines while exploring the area."
+      "keywords": "countryside retreat here enjoy peaceful"
     },
     {
       "uid": "1-真题14去当实习生吗.json-1",
@@ -490,9 +450,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "corporate office today arranged several",
-      "questionBankAnswer": "Welcome to our corporate office. Today we have arranged several presentations and interactive discussions for all interns and visitors. You will learn about company culture, workplace etiquette, and team collaboration. Please take notes carefully, ask questions if needed, and participate actively in every session. Following safety and office guidelines is important to ensure a smooth and productive experience. We hope that this visit provides a meaningful insight into professional work life and helps you prepare for future careers.",
-      "fullScoreAnswer": "Welcome to our corporate office. Today we have arranged several presentations and interactive discussions for all interns and visitors. You will learn about company culture, workplace etiquette, and team collaboration. Please take notes carefully, ask questions if needed, and participate actively in every session. Following safety and office guidelines is important to ensure a smooth and productive experience. We hope that this visit provides a meaningful insight into professional work life and helps you prepare for future careers."
+      "keywords": "corporate office today arranged several"
     },
     {
       "uid": "1-真题15获得professional success是否需要take risk.json-1",
@@ -511,9 +469,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "remus family restaurant today celebrating",
-      "questionBankAnswer": "Welcome to Remus Family Restaurant. Today we are celebrating our outstanding dinner service and introducing special promotions for our valued guests. You will have a chance to explore our seasonal menus, learn about our cooking methods, and interact with chefs to understand professional food preparation. Please enjoy our signature dishes carefully prepared to meet high standards. Remember to follow the restaurant guidelines and respect safety procedures. We hope this visit provides an enjoyable experience and insights into how professional service and teamwork contribute to business success.",
-      "fullScoreAnswer": "Welcome to Remus Family Restaurant. Today we are celebrating our outstanding dinner service and introducing special promotions for our valued guests. You will have a chance to explore our seasonal menus, learn about our cooking methods, and interact with chefs to understand professional food preparation. Please enjoy our signature dishes carefully prepared to meet high standards. Remember to follow the restaurant guidelines and respect safety procedures. We hope this visit provides an enjoyable experience and insights into how professional service and teamwork contribute to business success."
+      "keywords": "remus family restaurant today celebrating"
     },
     {
       "uid": "1-真题16有钱就快乐吗.json-1",
@@ -532,9 +488,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "riverside restaurant offer wide variety",
-      "questionBankAnswer": "Welcome to the Riverside Restaurant. We offer a wide variety of dishes, including local specialties, seasonal fruits, and desserts. Our chefs prepare each dish carefully to ensure freshness and high quality. You can observe the cooking process, interact with staff, and learn about culinary techniques used in professional kitchens. Please feel free to ask for recommendations and enjoy our signature dishes. Remember to follow the restaurant rules and safety instructions. We hope you have a delightful experience and understand how teamwork and attention to detail create a successful dining environment.",
-      "fullScoreAnswer": "Welcome to the Riverside Restaurant. We offer a wide variety of dishes, including local specialties, seasonal fruits, and desserts. Our chefs prepare each dish carefully to ensure freshness and high quality. You can observe the cooking process, interact with staff, and learn about culinary techniques used in professional kitchens. Please feel free to ask for recommendations and enjoy our signature dishes. Remember to follow the restaurant rules and safety instructions. We hope you have a delightful experience and understand how teamwork and attention to detail create a successful dining environment."
+      "keywords": "riverside restaurant offer wide variety"
     },
     {
       "uid": "1-真题16有钱就快乐吗.json-2",
@@ -553,9 +507,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning innovation lab provide",
-      "questionBankAnswer": "Good morning and welcome to the Innovation Lab. We provide state-of-the-art equipment for research and development. Today, you will have the opportunity to participate in hands-on experiments, observe demonstrations, and engage with professionals. Follow all safety guidelines and instructions carefully. By taking part actively, you can gain knowledge about modern technology applications and innovation processes. We hope this visit enhances your understanding of professional practices and inspires creativity in your future work or studies.",
-      "fullScoreAnswer": "Good morning and welcome to the Innovation Lab. We provide state-of-the-art equipment for research and development. Today, you will have the opportunity to participate in hands-on experiments, observe demonstrations, and engage with professionals. Follow all safety guidelines and instructions carefully. By taking part actively, you can gain knowledge about modern technology applications and innovation processes. We hope this visit enhances your understanding of professional practices and inspires creativity in your future work or studies."
+      "keywords": "good morning innovation lab provide"
     },
     {
       "uid": "1-真题17幽默humor还是严肃serious.json-1",
@@ -574,9 +526,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "downtown conference hall provide modern",
-      "questionBankAnswer": "Welcome to the Downtown Conference Hall. We provide modern meeting rooms, refreshments, and a comfortable environment for all attendees. Today, you will attend several sessions, including presentations and discussions with industry professionals. Our staff is ready to assist you with directions, materials, or any questions. Please take notes and participate actively. Remember to respect others, maintain proper etiquette, and enjoy your time learning and networking. We hope you gain useful knowledge and inspiration from this conference, and experience how well-prepared venues and professional staff can make your visit pleasant and productive.",
-      "fullScoreAnswer": "Welcome to the Downtown Conference Hall. We provide modern meeting rooms, refreshments, and a comfortable environment for all attendees. Today, you will attend several sessions, including presentations and discussions with industry professionals. Our staff is ready to assist you with directions, materials, or any questions. Please take notes and participate actively. Remember to respect others, maintain proper etiquette, and enjoy your time learning and networking. We hope you gain useful knowledge and inspiration from this conference, and experience how well-prepared venues and professional staff can make your visit pleasant and productive."
+      "keywords": "downtown conference hall provide modern"
     },
     {
       "uid": "1-真题17幽默humor还是严肃serious.json-2",
@@ -595,9 +545,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning city library wide",
-      "questionBankAnswer": "Good morning and welcome to the City Library. We have a wide selection of books, reading spaces, and computer facilities. Today, you will have opportunities to attend guided tours, observe reading sessions, and interact with staff who can explain our digital resources. Please follow library rules, handle books carefully, and enjoy exploring the different sections. We encourage asking questions and participating in activities that enhance your learning experience. By visiting, you will discover how libraries provide a structured yet creative environment for both research and leisure reading.",
-      "fullScoreAnswer": "Good morning and welcome to the City Library. We have a wide selection of books, reading spaces, and computer facilities. Today, you will have opportunities to attend guided tours, observe reading sessions, and interact with staff who can explain our digital resources. Please follow library rules, handle books carefully, and enjoy exploring the different sections. We encourage asking questions and participating in activities that enhance your learning experience. By visiting, you will discover how libraries provide a structured yet creative environment for both research and leisure reading."
+      "keywords": "good morning city library wide"
     },
     {
       "uid": "1-真题18项目中分歧需要解决还是忽略.json-1",
@@ -616,9 +564,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "central plaza office company provides",
-      "questionBankAnswer": "Welcome to the Central Plaza Office. Our company provides flexible workspaces, meeting rooms, and modern facilities for employees. Today, you will attend several team sessions and project briefings, where collaboration and problem-solving are emphasized. Our staff is available to guide you through the office layout, help with any technical equipment, and provide refreshments. Please follow office etiquette, respect colleagues’ time, and participate actively in discussions. Taking notes, asking questions, and sharing ideas are encouraged. We hope you experience how a professional environment with proper support can enhance productivity, learning, and teamwork.",
-      "fullScoreAnswer": "Welcome to the Central Plaza Office. Our company provides flexible workspaces, meeting rooms, and modern facilities for employees. Today, you will attend several team sessions and project briefings, where collaboration and problem-solving are emphasized. Our staff is available to guide you through the office layout, help with any technical equipment, and provide refreshments. Please follow office etiquette, respect colleagues’ time, and participate actively in discussions. Taking notes, asking questions, and sharing ideas are encouraged. We hope you experience how a professional environment with proper support can enhance productivity, learning, and teamwork."
+      "keywords": "central plaza office company provides"
     },
     {
       "uid": "1-真题18项目中分歧需要解决还是忽略.json-2",
@@ -637,9 +583,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning riverside business center",
-      "questionBankAnswer": "Good morning and welcome to the Riverside Business Center. We offer professional services, training rooms, and a supportive environment for all employees. During your visit, you can attend orientation sessions, observe project demonstrations, and interact with staff who can answer your questions. Please adhere to workplace rules, maintain proper behavior, and take advantage of opportunities to learn and network. By exploring the center, you will see how well-organized facilities and a collaborative atmosphere contribute to efficiency, skill development, and successful project execution.",
-      "fullScoreAnswer": "Good morning and welcome to the Riverside Business Center. We offer professional services, training rooms, and a supportive environment for all employees. During your visit, you can attend orientation sessions, observe project demonstrations, and interact with staff who can answer your questions. Please adhere to workplace rules, maintain proper behavior, and take advantage of opportunities to learn and network. By exploring the center, you will see how well-organized facilities and a collaborative atmosphere contribute to efficiency, skill development, and successful project execution."
+      "keywords": "good morning riverside business center"
     },
     {
       "uid": "1-真题19个公司的多处不同城市工作的好处.json-1",
@@ -658,9 +602,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "downtown business center offices provide",
-      "questionBankAnswer": "Welcome to the Downtown Business Center. Our offices provide modern working environments, meeting rooms, and coworking spaces. During your visit, you will attend team presentations, collaborate on projects, and experience how the office supports both individual and group work. Our staff is available to assist with any technical equipment, guide you through the office, and provide refreshments when needed. We encourage employees to share ideas, ask questions, and actively participate in discussions. By exploring our facilities, you will understand how a professional and supportive environment helps increase productivity, improve learning, and foster teamwork.",
-      "fullScoreAnswer": "Welcome to the Downtown Business Center. Our offices provide modern working environments, meeting rooms, and coworking spaces. During your visit, you will attend team presentations, collaborate on projects, and experience how the office supports both individual and group work. Our staff is available to assist with any technical equipment, guide you through the office, and provide refreshments when needed. We encourage employees to share ideas, ask questions, and actively participate in discussions. By exploring our facilities, you will understand how a professional and supportive environment helps increase productivity, improve learning, and foster teamwork."
+      "keywords": "downtown business center offices provide"
     },
     {
       "uid": "1-真题19个公司的多处不同城市工作的好处.json-2",
@@ -679,9 +621,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning city corporate hub",
-      "questionBankAnswer": "Good morning and welcome to the City Corporate Hub. We provide flexible working hours, professional development programs, and access to global resources. Visitors can attend orientation sessions, observe project demonstrations, and interact with staff who are ready to answer questions. Please follow workplace etiquette, respect colleagues’ time, and take the opportunity to learn and network with others. Experiencing how different departments coordinate and how projects are managed across locations will help you understand the benefits of a multi-city corporate structure, efficient workflow, and effective teamwork.",
-      "fullScoreAnswer": "Good morning and welcome to the City Corporate Hub. We provide flexible working hours, professional development programs, and access to global resources. Visitors can attend orientation sessions, observe project demonstrations, and interact with staff who are ready to answer questions. Please follow workplace etiquette, respect colleagues’ time, and take the opportunity to learn and network with others. Experiencing how different departments coordinate and how projects are managed across locations will help you understand the benefits of a multi-city corporate structure, efficient workflow, and effective teamwork."
+      "keywords": "good morning city corporate hub"
     },
     {
       "uid": "1-真题20独自运动还是.json-1",
@@ -700,9 +640,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "maplewood sports campus provides variety",
-      "questionBankAnswer": "Welcome to the Maplewood Sports Campus. This campus provides a variety of sports facilities, including basketball courts, tennis courts, and a swimming pool. Visitors can join group classes or practice individually. Throughout the day, there are fitness sessions led by professional trainers, workshops on healthy living, and opportunities for friendly competitions. Staff members are available to assist with equipment, guide you to the right courts or rooms, and ensure safety protocols are followed. We encourage participants to interact, share tips, and enjoy the active environment. By experiencing our campus, you will see how sports can improve health, foster teamwork, and build confidence.",
-      "fullScoreAnswer": "Welcome to the Maplewood Sports Campus. This campus provides a variety of sports facilities, including basketball courts, tennis courts, and a swimming pool. Visitors can join group classes or practice individually. Throughout the day, there are fitness sessions led by professional trainers, workshops on healthy living, and opportunities for friendly competitions. Staff members are available to assist with equipment, guide you to the right courts or rooms, and ensure safety protocols are followed. We encourage participants to interact, share tips, and enjoy the active environment. By experiencing our campus, you will see how sports can improve health, foster teamwork, and build confidence."
+      "keywords": "maplewood sports campus provides variety"
     },
     {
       "uid": "1-真题20独自运动还是.json-2",
@@ -721,9 +659,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning central city fitness",
-      "questionBankAnswer": "Good morning and welcome to the Central City Fitness Center. Our facilities include modern exercise machines, training studios, and personalized fitness programs. Visitors can take part in scheduled classes, request one-on-one sessions with trainers, or practice independently. Our staff are always ready to provide guidance, monitor safety, and help you set realistic goals. The center also organizes challenges, health seminars, and group events to keep workouts engaging. By using our resources and participating actively, you can improve your physical fitness, learn new skills, and enjoy a supportive community atmosphere.",
-      "fullScoreAnswer": "Good morning and welcome to the Central City Fitness Center. Our facilities include modern exercise machines, training studios, and personalized fitness programs. Visitors can take part in scheduled classes, request one-on-one sessions with trainers, or practice independently. Our staff are always ready to provide guidance, monitor safety, and help you set realistic goals. The center also organizes challenges, health seminars, and group events to keep workouts engaging. By using our resources and participating actively, you can improve your physical fitness, learn new skills, and enjoy a supportive community atmosphere."
+      "keywords": "good morning central city fitness"
     },
     {
       "uid": "1-真题21进入大学前实习gap year有哪些好处.json-1",
@@ -742,9 +678,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "riverside innovation street famous tech",
-      "questionBankAnswer": "Welcome to the Riverside Innovation Street. This street is famous for its tech startups, creative workshops, and interactive exhibitions. Visitors can participate in various seminars on technology, entrepreneurship, and design thinking. Throughout the day, professional mentors offer guidance on business planning and project development. Students and young professionals are encouraged to network, attend talks, and engage in hands-on activities. In addition, some workshops focus on developing communication and leadership skills, while others provide opportunities to experiment with new technologies. By visiting Riverside Innovation Street, you can experience an inspiring environment that fosters creativity, practical learning, and collaboration, which helps to prepare for future academic and career success.",
-      "fullScoreAnswer": "Welcome to the Riverside Innovation Street. This street is famous for its tech startups, creative workshops, and interactive exhibitions. Visitors can participate in various seminars on technology, entrepreneurship, and design thinking. Throughout the day, professional mentors offer guidance on business planning and project development. Students and young professionals are encouraged to network, attend talks, and engage in hands-on activities. In addition, some workshops focus on developing communication and leadership skills, while others provide opportunities to experiment with new technologies. By visiting Riverside Innovation Street, you can experience an inspiring environment that fosters creativity, practical learning, and collaboration, which helps to prepare for future academic and career success."
+      "keywords": "riverside innovation street famous tech"
     },
     {
       "uid": "1-真题21进入大学前实习gap year有哪些好处.json-2",
@@ -763,9 +697,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning downtown cultural center",
-      "questionBankAnswer": "Good morning and welcome to the Downtown Cultural Center. We host a wide range of workshops, art exhibitions, and cultural events. Visitors can join interactive sessions on painting, music, and performance arts. Our staff are available to guide participants, provide materials, and answer questions. Special lectures are held daily to discuss art history, cultural trends, and creative entrepreneurship. The center also encourages group projects and collaborations to help attendees build teamwork and problem-solving skills. By exploring the Downtown Cultural Center, you can gain new perspectives, develop artistic abilities, and enjoy a vibrant community that combines culture, education, and personal growth.",
-      "fullScoreAnswer": "Good morning and welcome to the Downtown Cultural Center. We host a wide range of workshops, art exhibitions, and cultural events. Visitors can join interactive sessions on painting, music, and performance arts. Our staff are available to guide participants, provide materials, and answer questions. Special lectures are held daily to discuss art history, cultural trends, and creative entrepreneurship. The center also encourages group projects and collaborations to help attendees build teamwork and problem-solving skills. By exploring the Downtown Cultural Center, you can gain new perspectives, develop artistic abilities, and enjoy a vibrant community that combines culture, education, and personal growth."
+      "keywords": "good morning downtown cultural center"
     },
     {
       "uid": "1-真题22工作经验还是教育背景重要.json-1",
@@ -784,9 +716,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "city sports center provide wide",
-      "questionBankAnswer": "Welcome to the City Sports Center. We provide a wide range of sports facilities including a swimming pool, fully equipped gym, yoga and pilates studios, and indoor courts for basketball and badminton. Visitors can join group classes or practice individually, and our professional instructors are available to offer guidance and support. The center also organizes seasonal competitions, workshops on health and nutrition, and community events to encourage teamwork and social interaction. Throughout the day, staff are on hand to assist with equipment and ensure safety. Whether you are a beginner or an experienced athlete, the City Sports Center provides a comfortable and motivating environment to improve your fitness, learn new skills, and enjoy a healthy lifestyle.",
-      "fullScoreAnswer": "Welcome to the City Sports Center. We provide a wide range of sports facilities including a swimming pool, fully equipped gym, yoga and pilates studios, and indoor courts for basketball and badminton. Visitors can join group classes or practice individually, and our professional instructors are available to offer guidance and support. The center also organizes seasonal competitions, workshops on health and nutrition, and community events to encourage teamwork and social interaction. Throughout the day, staff are on hand to assist with equipment and ensure safety. Whether you are a beginner or an experienced athlete, the City Sports Center provides a comfortable and motivating environment to improve your fitness, learn new skills, and enjoy a healthy lifestyle."
+      "keywords": "city sports center provide wide"
     },
     {
       "uid": "1-真题22工作经验还是教育背景重要.json-2",
@@ -805,9 +735,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning downtown library offers",
-      "questionBankAnswer": "Good morning and welcome to the Downtown Library. Our library offers access to thousands of books, e-books, and online resources covering various subjects such as science, history, literature, and technology. Visitors can study in quiet reading rooms, participate in group study sessions, or attend special lectures and workshops on research methods, academic writing, and creative projects. Library staff are available to help with inquiries, guide readers in using databases, and provide recommendations. In addition, the library hosts cultural events and community programs to encourage learning and collaboration among students and residents. We hope you enjoy a productive and inspiring visit.",
-      "fullScoreAnswer": "Good morning and welcome to the Downtown Library. Our library offers access to thousands of books, e-books, and online resources covering various subjects such as science, history, literature, and technology. Visitors can study in quiet reading rooms, participate in group study sessions, or attend special lectures and workshops on research methods, academic writing, and creative projects. Library staff are available to help with inquiries, guide readers in using databases, and provide recommendations. In addition, the library hosts cultural events and community programs to encourage learning and collaboration among students and residents. We hope you enjoy a productive and inspiring visit."
+      "keywords": "good morning downtown library offers"
     },
     {
       "uid": "1-真题23大学毕业继续和父母住还是单独住.json-1",
@@ -826,9 +754,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "city community center offers wide",
-      "questionBankAnswer": "Welcome to the City Community Center. Our center offers a wide range of facilities including a library with thousands of books, a fully equipped fitness area with cardio and strength equipment, yoga and pilates studios, and multiple meeting and conference rooms. Visitors can join group classes, participate in workshops, or practice individually. The center organizes community events, seasonal activities, and health workshops to encourage learning, social interaction, and a healthy lifestyle. Staff are available throughout the day to assist with inquiries and ensure safety. Whether you are coming for study, exercise, or social activities, the City Community Center provides a comfortable and motivating environment to achieve your goals and enjoy your time.",
-      "fullScoreAnswer": "Welcome to the City Community Center. Our center offers a wide range of facilities including a library with thousands of books, a fully equipped fitness area with cardio and strength equipment, yoga and pilates studios, and multiple meeting and conference rooms. Visitors can join group classes, participate in workshops, or practice individually. The center organizes community events, seasonal activities, and health workshops to encourage learning, social interaction, and a healthy lifestyle. Staff are available throughout the day to assist with inquiries and ensure safety. Whether you are coming for study, exercise, or social activities, the City Community Center provides a comfortable and motivating environment to achieve your goals and enjoy your time."
+      "keywords": "city community center offers wide"
     },
     {
       "uid": "1-真题23大学毕业继续和父母住还是单独住.json-2",
@@ -847,9 +773,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning downtown bus station",
-      "questionBankAnswer": "Good morning and welcome to the Downtown Bus Station. Our station offers ticketing services, comfortable waiting lounges, luggage assistance, and information desks to help passengers. Travelers can check schedules, purchase tickets online, or join guided tours departing from the station. The station also hosts community events and seasonal promotions. Staff are available to provide guidance, answer questions, and ensure safety throughout the day. Whether you are traveling locally or long distance, the Downtown Bus Station aims to make your journey smooth, comfortable, and enjoyable.",
-      "fullScoreAnswer": "Good morning and welcome to the Downtown Bus Station. Our station offers ticketing services, comfortable waiting lounges, luggage assistance, and information desks to help passengers. Travelers can check schedules, purchase tickets online, or join guided tours departing from the station. The station also hosts community events and seasonal promotions. Staff are available to provide guidance, answer questions, and ensure safety throughout the day. Whether you are traveling locally or long distance, the Downtown Bus Station aims to make your journey smooth, comfortable, and enjoyable."
+      "keywords": "good morning downtown bus station"
     },
     {
       "uid": "1-真题24为一家已经经营了很多年的公司工作有哪些优点.json-1",
@@ -868,9 +792,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "today historical tour old town",
-      "questionBankAnswer": "Welcome to today's historical tour of the old town center. As we enter the old city center, you will notice a change in the architecture. The buildings and structures in this part of the city were constructed centuries before those in other areas. To appreciate the architecture of this era, we will visit the courthouse, the theater and the post office. Please follow the guide and do not wander off during the tour.",
-      "fullScoreAnswer": "Welcome to today's historical tour of the old town center. As we enter the old city center, you will notice a change in the architecture. The buildings and structures in this part of the city were constructed centuries before those in other areas. To appreciate the architecture of this era, we will visit the courthouse, the theater and the post office. Please follow the guide and do not wander off during the tour."
+      "keywords": "today historical tour old town"
     },
     {
       "uid": "1-真题24为一家已经经营了很多年的公司工作有哪些优点.json-2",
@@ -889,9 +811,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning channel eight viewers",
-      "questionBankAnswer": "Good morning, channel eight viewers. Although it is still raining, our weather report for the rest of the week looks promising. Scattered showers will continue this afternoon, but they should move out of the area by early evening. Tomorrow, we are expecting sunny skies, warm temperatures and light winds. This pleasant weather should continue through the weekend.",
-      "fullScoreAnswer": "Good morning, channel eight viewers. Although it is still raining, our weather report for the rest of the week looks promising. Scattered showers will continue this afternoon, but they should move out of the area by early evening. Tomorrow, we are expecting sunny skies, warm temperatures and light winds. This pleasant weather should continue through the weekend."
+      "keywords": "good morning channel eight viewers"
     },
     {
       "uid": "1-真题25在公司上班前有过创业经验的好处.json-1",
@@ -910,9 +830,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good afternoon everyone company annual",
-      "questionBankAnswer": "Good afternoon, everyone. Welcome to our company's annual team building event. Today, we have prepared a series of fun activities, including a treasure hunt in the park and a group dinner at the lakeside restaurant. Please remember to wear comfortable shoes and bring a bottle of water. We hope everyone can relax and enjoy the time with your colleagues.",
-      "fullScoreAnswer": "Good afternoon, everyone. Welcome to our company's annual team building event. Today, we have prepared a series of fun activities, including a treasure hunt in the park and a group dinner at the lakeside restaurant. Please remember to wear comfortable shoes and bring a bottle of water. We hope everyone can relax and enjoy the time with your colleagues."
+      "keywords": "good afternoon everyone company annual"
     },
     {
       "uid": "1-真题25在公司上班前有过创业经验的好处.json-2",
@@ -931,9 +849,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "attention passengers boarding announcement flight",
-      "questionBankAnswer": "Attention all passengers, this is a boarding announcement for Flight FZ890 to Dubai. The flight will begin boarding at Gate 15 in ten minutes. Please have your boarding pass and passport ready for inspection. Passengers with special needs are welcome to board first. We apologize for any inconvenience caused by the slight delay of the flight.",
-      "fullScoreAnswer": "Attention all passengers, this is a boarding announcement for Flight FZ890 to Dubai. The flight will begin boarding at Gate 15 in ten minutes. Please have your boarding pass and passport ready for inspection. Passengers with special needs are welcome to board first. We apologize for any inconvenience caused by the slight delay of the flight."
+      "keywords": "attention passengers boarding announcement flight"
     },
     {
       "uid": "1-真题26是现有的工作更让你开心.json-1",
@@ -952,9 +868,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning everyone company new",
-      "questionBankAnswer": "Good morning, everyone. Welcome to our company's new employee orientation. Today, we will introduce the company's rules and regulations, as well as the benefits package for all staff. Please take notes carefully and feel free to ask questions at the end of the session. We hope you will have a rewarding career with us.",
-      "fullScoreAnswer": "Good morning, everyone. Welcome to our company's new employee orientation. Today, we will introduce the company's rules and regulations, as well as the benefits package for all staff. Please take notes carefully and feel free to ask questions at the end of the session. We hope you will have a rewarding career with us."
+      "keywords": "good morning everyone company new"
     },
     {
       "uid": "1-真题26是现有的工作更让你开心.json-2",
@@ -973,9 +887,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "attention please city library closed",
-      "questionBankAnswer": "Attention, please. The city library will be closed next Monday for maintenance work. All books borrowed before this date can be returned one week later without any late fees. We apologize for any inconvenience this may cause and thank you for your understanding and cooperation.",
-      "fullScoreAnswer": "Attention, please. The city library will be closed next Monday for maintenance work. All books borrowed before this date can be returned one week later without any late fees. We apologize for any inconvenience this may cause and thank you for your understanding and cooperation."
+      "keywords": "attention please city library closed"
     },
     {
       "uid": "1-真题27你认为一家公司有环境友好政策有什么好处.json-1",
@@ -994,9 +906,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning everyone annual environmental",
-      "questionBankAnswer": "Good morning, everyone. Welcome to the annual environmental protection forum held by our city. Today, we will invite experts from various fields to share their views on green development and sustainable living. Please turn off your mobile phones or set them to silent mode to ensure the smooth progress of the forum. Thank you for your cooperation.",
-      "fullScoreAnswer": "Good morning, everyone. Welcome to the annual environmental protection forum held by our city. Today, we will invite experts from various fields to share their views on green development and sustainable living. Please turn off your mobile phones or set them to silent mode to ensure the smooth progress of the forum. Thank you for your cooperation."
+      "keywords": "good morning everyone annual environmental"
     },
     {
       "uid": "1-真题27你认为一家公司有环境友好政策有什么好处.json-2",
@@ -1015,9 +925,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "attention shoppers special announcement customer",
-      "questionBankAnswer": "Attention all shoppers, this is a special announcement from the customer service desk. Our store will offer a 20% discount on all organic products this weekend. The discount applies to fruits, vegetables, and daily necessities marked with the green label. Please take this opportunity to buy your favorite goods and support environmentally friendly consumption.",
-      "fullScoreAnswer": "Attention all shoppers, this is a special announcement from the customer service desk. Our store will offer a 20% discount on all organic products this weekend. The discount applies to fruits, vegetables, and daily necessities marked with the green label. Please take this opportunity to buy your favorite goods and support environmentally friendly consumption."
+      "keywords": "attention shoppers special announcement customer"
     },
     {
       "uid": "1-真题28你认为elementary school的学生是否需要开始学英语.json-1",
@@ -1036,9 +944,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "riverside library offers wide selection",
-      "questionBankAnswer": "Welcome to the Riverside Library. Our library offers a wide selection of books, journals, and digital resources across various subjects including science, history, literature, and technology. There are reading areas for children, teenagers, and adults, as well as quiet study rooms and group discussion spaces. The library also organizes weekly workshops, storytelling sessions for young learners, and educational events for the community. Our staff are available to assist with research, book recommendations, and digital resource guidance. We hope you enjoy exploring our collections and participating in the activities designed to make learning enjoyable and engaging.",
-      "fullScoreAnswer": "Welcome to the Riverside Library. Our library offers a wide selection of books, journals, and digital resources across various subjects including science, history, literature, and technology. There are reading areas for children, teenagers, and adults, as well as quiet study rooms and group discussion spaces. The library also organizes weekly workshops, storytelling sessions for young learners, and educational events for the community. Our staff are available to assist with research, book recommendations, and digital resource guidance. We hope you enjoy exploring our collections and participating in the activities designed to make learning enjoyable and engaging."
+      "keywords": "riverside library offers wide selection"
     },
     {
       "uid": "1-真题28你认为elementary school的学生是否需要开始学英语.json-2",
@@ -1057,9 +963,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning central train station",
-      "questionBankAnswer": "Good morning and welcome to the Central Train Station. Our station offers ticketing services, waiting lounges, luggage assistance, and information desks to help passengers. You can purchase tickets online or at the counter, and join guided tours departing from the station. The station organizes community events and seasonal promotions to improve passenger experience. Staff are available to provide guidance, answer questions, and ensure safety throughout the day. Whether you are traveling locally or long distance, the Central Train Station aims to make your journey comfortable, efficient, and enjoyable.",
-      "fullScoreAnswer": "Good morning and welcome to the Central Train Station. Our station offers ticketing services, waiting lounges, luggage assistance, and information desks to help passengers. You can purchase tickets online or at the counter, and join guided tours departing from the station. The station organizes community events and seasonal promotions to improve passenger experience. Staff are available to provide guidance, answer questions, and ensure safety throughout the day. Whether you are traveling locally or long distance, the Central Train Station aims to make your journey comfortable, efficient, and enjoyable."
+      "keywords": "good morning central train station"
     },
     {
       "uid": "1-真题29网络和电子设备会取代报纸吗.json-1",
@@ -1078,9 +982,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning ladies gentlemen technology",
-      "questionBankAnswer": "Good morning, ladies and gentlemen. Welcome to our technology conference. Today, we will discuss the latest developments in digital media and how they are changing people's daily lives. Please feel free to share your opinions during the Q&A session. We hope this conference will bring you new insights and inspiration.",
-      "fullScoreAnswer": "Good morning, ladies and gentlemen. Welcome to our technology conference. Today, we will discuss the latest developments in digital media and how they are changing people's daily lives. Please feel free to share your opinions during the Q&A session. We hope this conference will bring you new insights and inspiration."
+      "keywords": "good morning ladies gentlemen technology"
     },
     {
       "uid": "1-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-1",
@@ -1099,9 +1001,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "lakeside community center provides wide",
-      "questionBankAnswer": "Welcome to the Lakeside Community Center. Our center provides a wide range of facilities and activities, including fitness classes, art workshops, music lessons, and family events. We also have reading areas, computer rooms, and outdoor spaces for children to play. Every week, we organize special events, including cultural celebrations, guest lectures, and community volunteering activities. Our staff are always ready to help you with registration, provide guidance for workshops, and answer any questions. We hope you enjoy your time here, participate actively, and make the most of our programs to improve your skills and have fun.",
-      "fullScoreAnswer": "Welcome to the Lakeside Community Center. Our center provides a wide range of facilities and activities, including fitness classes, art workshops, music lessons, and family events. We also have reading areas, computer rooms, and outdoor spaces for children to play. Every week, we organize special events, including cultural celebrations, guest lectures, and community volunteering activities. Our staff are always ready to help you with registration, provide guidance for workshops, and answer any questions. We hope you enjoy your time here, participate actively, and make the most of our programs to improve your skills and have fun."
+      "keywords": "lakeside community center provides wide"
     },
     {
       "uid": "1-真题31发生分歧是直接解决还是找领导帮忙.json-1",
@@ -1120,9 +1020,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "company orientation today introduce main",
-      "questionBankAnswer": "Welcome to our company orientation. Today, we will introduce the main departments, explain safety procedures, and provide detailed information on employee benefits, including healthcare, vacation days, and training opportunities. You will also learn about our internal communication channels, teamwork expectations, and performance evaluation process. During the orientation, our HR staff will guide you through important documents, answer questions, and provide tips on how to make the most of your first months. We hope you enjoy your orientation and feel ready to start working with your team confidently.",
-      "fullScoreAnswer": "Welcome to our company orientation. Today, we will introduce the main departments, explain safety procedures, and provide detailed information on employee benefits, including healthcare, vacation days, and training opportunities. You will also learn about our internal communication channels, teamwork expectations, and performance evaluation process. During the orientation, our HR staff will guide you through important documents, answer questions, and provide tips on how to make the most of your first months. We hope you enjoy your orientation and feel ready to start working with your team confidently."
+      "keywords": "company orientation today introduce main"
     },
     {
       "uid": "1-真题31发生分歧是直接解决还是找领导帮忙.json-2",
@@ -1141,9 +1039,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "choosing sunrise travel agency offer",
-      "questionBankAnswer": "Thank you for choosing Sunrise Travel Agency. We offer customized travel packages, hotel reservations, airport pickups, and guided tours. Our services include special interest trips, family packages, and seasonal promotions. Each client receives personalized advice and itinerary planning to ensure a comfortable and enjoyable experience. You can visit our service desk for detailed information, get help with bookings, and consult about local attractions. Our staff are ready to answer all your questions and provide recommendations for dining, sightseeing, and entertainment. We wish you a pleasant journey and hope you enjoy all the services provided.",
-      "fullScoreAnswer": "Thank you for choosing Sunrise Travel Agency. We offer customized travel packages, hotel reservations, airport pickups, and guided tours. Our services include special interest trips, family packages, and seasonal promotions. Each client receives personalized advice and itinerary planning to ensure a comfortable and enjoyable experience. You can visit our service desk for detailed information, get help with bookings, and consult about local attractions. Our staff are ready to answer all your questions and provide recommendations for dining, sightseeing, and entertainment. We wish you a pleasant journey and hope you enjoy all the services provided."
+      "keywords": "choosing sunrise travel agency offer"
     },
     {
       "uid": "1-真题32主管评价员工，周边同事反馈是否很重要.json-1",
@@ -1162,9 +1058,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "riverside community center month offering",
-      "questionBankAnswer": "Welcome to the Riverside Community Center. This month, we are offering a variety of classes and workshops, including yoga, painting, beginner-level computer lessons, and cooking courses. Our staff will assist you with registration, explain the schedule in detail, and provide safety instructions for each activity. You can also participate in community events, meet other members, and enjoy a variety of recreational programs. We hope you will take full advantage of these opportunities and have a rewarding experience at our center.",
-      "fullScoreAnswer": "Welcome to the Riverside Community Center. This month, we are offering a variety of classes and workshops, including yoga, painting, beginner-level computer lessons, and cooking courses. Our staff will assist you with registration, explain the schedule in detail, and provide safety instructions for each activity. You can also participate in community events, meet other members, and enjoy a variety of recreational programs. We hope you will take full advantage of these opportunities and have a rewarding experience at our center."
+      "keywords": "riverside community center month offering"
     },
     {
       "uid": "1-真题32主管评价员工，周边同事反馈是否很重要.json-2",
@@ -1183,9 +1077,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "choosing midtown travel agency provide",
-      "questionBankAnswer": "Thank you for choosing Midtown Travel Agency. We provide affordable and customized tour packages to many destinations worldwide. Our services include hotel reservations, guided tours, airport pickups, and special interest travel plans. Our consultants are available Monday through Friday to provide advice, help with bookings, and answer questions about local attractions and events. Each traveler receives personalized suggestions to ensure a comfortable, safe, and enjoyable trip. Please visit our service desk if you need further assistance. We hope you have a memorable journey with us.",
-      "fullScoreAnswer": "Thank you for choosing Midtown Travel Agency. We provide affordable and customized tour packages to many destinations worldwide. Our services include hotel reservations, guided tours, airport pickups, and special interest travel plans. Our consultants are available Monday through Friday to provide advice, help with bookings, and answer questions about local attractions and events. Each traveler receives personalized suggestions to ensure a comfortable, safe, and enjoyable trip. Please visit our service desk if you need further assistance. We hope you have a memorable journey with us."
+      "keywords": "choosing midtown travel agency provide"
     },
     {
       "uid": "1-真题33在21岁以下开车的坏处.json-1",
@@ -1204,9 +1096,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "downtown training center today arranged",
-      "questionBankAnswer": "Welcome to the Downtown Training Center. Today, we have arranged several business workshops designed to help you improve communication, leadership, and teamwork skills. Our experienced instructors will guide you through practical exercises, role-playing activities, and case studies. If you need any assistance or want to register for a specific workshop, please visit the help desk near the entrance. We hope you enjoy the program and find it both informative and engaging.",
-      "fullScoreAnswer": "Welcome to the Downtown Training Center. Today, we have arranged several business workshops designed to help you improve communication, leadership, and teamwork skills. Our experienced instructors will guide you through practical exercises, role-playing activities, and case studies. If you need any assistance or want to register for a specific workshop, please visit the help desk near the entrance. We hope you enjoy the program and find it both informative and engaging."
+      "keywords": "downtown training center today arranged"
     },
     {
       "uid": "1-真题33在21岁以下开车的坏处.json-2",
@@ -1225,9 +1115,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "choosing sunrise travel agency offer",
-      "questionBankAnswer": "Thank you for choosing Sunrise Travel Agency. We offer various travel packages, including beach vacations, mountain tours, city trips, and cultural experiences. Our consultants can help you plan a personalized itinerary, book hotels, arrange transportation, and provide local tips. Please visit our website or contact our customer service for more information. We hope you have a safe and enjoyable journey.",
-      "fullScoreAnswer": "Thank you for choosing Sunrise Travel Agency. We offer various travel packages, including beach vacations, mountain tours, city trips, and cultural experiences. Our consultants can help you plan a personalized itinerary, book hotels, arrange transportation, and provide local tips. Please visit our website or contact our customer service for more information. We hope you have a safe and enjoyable journey."
+      "keywords": "choosing sunrise travel agency offer"
     },
     {
       "uid": "1-真题34职业生涯中频繁更换公司的好处.json-1",
@@ -1246,9 +1134,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "lakeside cultural center month hosting",
-      "questionBankAnswer": "Welcome to the Lakeside Cultural Center. This month, we are hosting a variety of events to engage the community. There will be music performances featuring local artists, art workshops for beginners and experienced painters, and interactive storytelling sessions for children. If you wish to register or get more details about each event, please visit our information desk near the entrance. We hope you enjoy the activities and take advantage of the learning opportunities provided.",
-      "fullScoreAnswer": "Welcome to the Lakeside Cultural Center. This month, we are hosting a variety of events to engage the community. There will be music performances featuring local artists, art workshops for beginners and experienced painters, and interactive storytelling sessions for children. If you wish to register or get more details about each event, please visit our information desk near the entrance. We hope you enjoy the activities and take advantage of the learning opportunities provided."
+      "keywords": "lakeside cultural center month hosting"
     },
     {
       "uid": "1-真题34职业生涯中频繁更换公司的好处.json-2",
@@ -1267,9 +1153,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "choosing brightline travel agency provide",
-      "questionBankAnswer": "Thank you for choosing Brightline Travel Agency. We provide vacation packages to numerous destinations, including beaches, mountains, and historic cities. Our travel consultants can help you plan personalized trips, book hotels, arrange transportation, and offer local tips for each location. Please visit our website or contact our customer service for more information. We hope your travel experience will be memorable and enjoyable.",
-      "fullScoreAnswer": "Thank you for choosing Brightline Travel Agency. We provide vacation packages to numerous destinations, including beaches, mountains, and historic cities. Our travel consultants can help you plan personalized trips, book hotels, arrange transportation, and offer local tips for each location. Please visit our website or contact our customer service for more information. We hope your travel experience will be memorable and enjoyable."
+      "keywords": "choosing brightline travel agency provide"
     },
     {
       "uid": "1-真题35父母让孩子做家务的好处.json-1",
@@ -1288,9 +1172,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "weekend lakeside community center host",
-      "questionBankAnswer": "This weekend, the Lakeside Community Center will host a Latin dance party. The event will feature live music, professional dancers, and interactive dance lessons for beginners. Participants can learn salsa and bachata, join group competitions, and enjoy refreshments provided throughout the evening. Tickets are available on our official website, and early booking is recommended as space is limited. We hope everyone will join the fun and experience an exciting cultural evening.",
-      "fullScoreAnswer": "This weekend, the Lakeside Community Center will host a Latin dance party. The event will feature live music, professional dancers, and interactive dance lessons for beginners. Participants can learn salsa and bachata, join group competitions, and enjoy refreshments provided throughout the evening. Tickets are available on our official website, and early booking is recommended as space is limited. We hope everyone will join the fun and experience an exciting cultural evening."
+      "keywords": "weekend lakeside community center host"
     },
     {
       "uid": "1-真题36公司提供工作日锻炼的机会是否是一个好主意.json-1",
@@ -1309,9 +1191,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "new restaurant month expanded menu",
-      "questionBankAnswer": "Welcome to our new restaurant. This month, we have expanded our menu to include fresh salads, homemade soups, low-calorie main dishes, and several vegetarian and gluten-free options. Our chefs have prepared a series of special seasonal dishes, highlighting local ingredients and flavors. The dining space has been redesigned for a more comfortable and relaxing atmosphere, with background music and cozy seating arrangements. We hope you enjoy both the delicious food and the warm service provided by our friendly staff. Please feel free to ask for any recommendations or assistance during your visit.",
-      "fullScoreAnswer": "Welcome to our new restaurant. This month, we have expanded our menu to include fresh salads, homemade soups, low-calorie main dishes, and several vegetarian and gluten-free options. Our chefs have prepared a series of special seasonal dishes, highlighting local ingredients and flavors. The dining space has been redesigned for a more comfortable and relaxing atmosphere, with background music and cozy seating arrangements. We hope you enjoy both the delicious food and the warm service provided by our friendly staff. Please feel free to ask for any recommendations or assistance during your visit."
+      "keywords": "new restaurant month expanded menu"
     },
     {
       "uid": "1-真题37对于一个求职者哪个最重要.json-1",
@@ -1330,9 +1210,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "today weather mostly cloudy occasional",
-      "questionBankAnswer": "Today’s weather will be mostly cloudy with occasional light rain in the afternoon. In the northern area, temperatures are expected to drop significantly, and there may be snowfall in some regions. Travelers should prepare warm clothing and drive carefully on icy roads. Local authorities advise monitoring weather updates regularly, as conditions may change quickly. People planning outdoor activities should consider rescheduling or taking safety precautions. Overall, it will be a cool and somewhat wet day, but it is manageable with proper preparation.",
-      "fullScoreAnswer": "Today’s weather will be mostly cloudy with occasional light rain in the afternoon. In the northern area, temperatures are expected to drop significantly, and there may be snowfall in some regions. Travelers should prepare warm clothing and drive carefully on icy roads. Local authorities advise monitoring weather updates regularly, as conditions may change quickly. People planning outdoor activities should consider rescheduling or taking safety precautions. Overall, it will be a cool and somewhat wet day, but it is manageable with proper preparation."
+      "keywords": "today weather mostly cloudy occasional"
     },
     {
       "uid": "1-真题37对于一个求职者哪个最重要.json-2",
@@ -1351,9 +1229,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "joining us book release event",
-      "questionBankAnswer": "Thank you for joining us at the book release event today. The author will introduce her new novel and share her experiences in writing, including the inspiration behind the story and the challenges she faced. After the speech, there will be a short question-and-answer session, allowing attendees to ask about the writing process, characters, or future projects. Refreshments will be provided, and attendees are encouraged to interact with the author and each other. We hope everyone enjoys the event and finds it inspiring.",
-      "fullScoreAnswer": "Thank you for joining us at the book release event today. The author will introduce her new novel and share her experiences in writing, including the inspiration behind the story and the challenges she faced. After the speech, there will be a short question-and-answer session, allowing attendees to ask about the writing process, characters, or future projects. Refreshments will be provided, and attendees are encouraged to interact with the author and each other. We hope everyone enjoys the event and finds it inspiring."
+      "keywords": "joining us book release event"
     },
     {
       "uid": "1-真题38当医生有什么好处.json-1",
@@ -1372,9 +1248,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "here local weather forecast tomorrow",
-      "questionBankAnswer": "Here is the local weather forecast. Tomorrow will be snowy with strong winds in the afternoon, and temperatures are expected to drop significantly in the northern areas. Drivers are advised to check for traffic updates, prepare for slippery roads, and allow extra travel time. Local authorities recommend wearing warm clothing and keeping an emergency kit in the car. Schools may have delayed openings or closures, so parents should stay informed. Overall, it will be a cold and windy day, so take proper precautions and stay safe throughout the day.",
-      "fullScoreAnswer": "Here is the local weather forecast. Tomorrow will be snowy with strong winds in the afternoon, and temperatures are expected to drop significantly in the northern areas. Drivers are advised to check for traffic updates, prepare for slippery roads, and allow extra travel time. Local authorities recommend wearing warm clothing and keeping an emergency kit in the car. Schools may have delayed openings or closures, so parents should stay informed. Overall, it will be a cold and windy day, so take proper precautions and stay safe throughout the day."
+      "keywords": "here local weather forecast tomorrow"
     },
     {
       "uid": "1-真题38当医生有什么好处.json-2",
@@ -1393,9 +1267,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "joining us today excited announce",
-      "questionBankAnswer": "Thank you for joining us today. We are excited to announce the release of a new book written by Mr. Jackson Lee. He will give a short talk on his writing process, including how he develops characters and plots, and the inspiration behind his novel. After the presentation, there will be a question-and-answer session where attendees can ask about writing techniques and his future projects. Copies of the book will be available for signing. Please feel free to participate and enjoy the event, which promises to be both informative and inspiring.",
-      "fullScoreAnswer": "Thank you for joining us today. We are excited to announce the release of a new book written by Mr. Jackson Lee. He will give a short talk on his writing process, including how he develops characters and plots, and the inspiration behind his novel. After the presentation, there will be a question-and-answer session where attendees can ask about writing techniques and his future projects. Copies of the book will be available for signing. Please feel free to participate and enjoy the event, which promises to be both informative and inspiring."
+      "keywords": "joining us today excited announce"
     },
     {
       "uid": "1-真题39技术是否很难平衡工作和生活.json-1",
@@ -1414,9 +1286,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "riverside hotel provide free breakfast",
-      "questionBankAnswer": "Welcome to the Riverside Hotel. We provide free breakfast, Wi-Fi, and a fitness center for all guests. Our front desk staff are available 24 hours to assist you with any requests or questions. The hotel offers guided city tours in the morning and evening, and our restaurant serves a variety of dishes, including local specialties and international cuisine. If you plan to stay for a few days, please check out our weekend packages, which include spa treatments and sightseeing opportunities. We hope your stay will be comfortable, enjoyable, and memorable.",
-      "fullScoreAnswer": "Welcome to the Riverside Hotel. We provide free breakfast, Wi-Fi, and a fitness center for all guests. Our front desk staff are available 24 hours to assist you with any requests or questions. The hotel offers guided city tours in the morning and evening, and our restaurant serves a variety of dishes, including local specialties and international cuisine. If you plan to stay for a few days, please check out our weekend packages, which include spa treatments and sightseeing opportunities. We hope your stay will be comfortable, enjoyable, and memorable."
+      "keywords": "riverside hotel provide free breakfast"
     },
     {
       "uid": "1-真题39技术是否很难平衡工作和生活.json-2",
@@ -1435,9 +1305,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning visiting city science",
-      "questionBankAnswer": "Good morning. Thank you for visiting the City Science Museum. Our special exhibit this month features interactive robotics displays, where visitors can see how machines are programmed to move and respond. Guided tours are available at 11 a.m. and 2 p.m., led by experienced staff who explain the concepts behind each display. There is also a workshop area where children and adults can try building their own small robots. Please visit the information desk if you have any questions or need assistance, and enjoy the experience that combines fun with learning.",
-      "fullScoreAnswer": "Good morning. Thank you for visiting the City Science Museum. Our special exhibit this month features interactive robotics displays, where visitors can see how machines are programmed to move and respond. Guided tours are available at 11 a.m. and 2 p.m., led by experienced staff who explain the concepts behind each display. There is also a workshop area where children and adults can try building their own small robots. Please visit the information desk if you have any questions or need assistance, and enjoy the experience that combines fun with learning."
+      "keywords": "good morning visiting city science"
     },
     {
       "uid": "1-真题40大学生是否应该花时间去参加社区活动.json-1",
@@ -1456,9 +1324,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good afternoon lakeside community center",
-      "questionBankAnswer": "Good afternoon and welcome to the Lakeside Community Center. We offer a variety of recreational programs, including fitness classes, art workshops, and weekend events suitable for residents of all ages. Our staff are available to assist you with registration, information, and guidance throughout your visit. Additionally, the center organizes special community projects, such as tree planting and charity events, to encourage participation and help residents contribute to the local area. We hope that your time here will be enjoyable, informative, and memorable, and that you take full advantage of the services we provide.",
-      "fullScoreAnswer": "Good afternoon and welcome to the Lakeside Community Center. We offer a variety of recreational programs, including fitness classes, art workshops, and weekend events suitable for residents of all ages. Our staff are available to assist you with registration, information, and guidance throughout your visit. Additionally, the center organizes special community projects, such as tree planting and charity events, to encourage participation and help residents contribute to the local area. We hope that your time here will be enjoyable, informative, and memorable, and that you take full advantage of the services we provide."
+      "keywords": "good afternoon lakeside community center"
     },
     {
       "uid": "1-真题40大学生是否应该花时间去参加社区活动.json-2",
@@ -1477,9 +1343,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "calling city travel information line",
-      "questionBankAnswer": "Thank you for calling the City Travel Information Line. We provide updates on public transportation schedules, local attractions, and guided tours. If you are planning a visit, our agents can recommend sightseeing routes, cultural events, and nearby dining options. For those interested in outdoor activities, we also provide information about hiking trails, parks, and seasonal events. If you would like to speak with an agent, please stay on the line and someone will assist you shortly. We hope your trip will be enjoyable and well planned.",
-      "fullScoreAnswer": "Thank you for calling the City Travel Information Line. We provide updates on public transportation schedules, local attractions, and guided tours. If you are planning a visit, our agents can recommend sightseeing routes, cultural events, and nearby dining options. For those interested in outdoor activities, we also provide information about hiking trails, parks, and seasonal events. If you would like to speak with an agent, please stay on the line and someone will assist you shortly. We hope your trip will be enjoyable and well planned."
+      "keywords": "calling city travel information line"
     },
     {
       "uid": "1-真题41作为主管你认为是经验重要还是沟通能力重要.json-1",
@@ -1498,9 +1362,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning greenview hotel provide",
-      "questionBankAnswer": "Good morning and welcome to the Greenview Hotel. We provide a variety of services for our guests, including a free breakfast buffet, a fully equipped fitness center, and 24-hour customer support. Our staff are here to assist you with check-in, room service, and any questions you may have during your stay. Additionally, the hotel offers special weekend events such as guided city tours, cultural activities, and entertainment programs to make your visit more enjoyable. We hope that your stay with us will be comfortable, convenient, and memorable, and that you take advantage of all the facilities and services we provide.",
-      "fullScoreAnswer": "Good morning and welcome to the Greenview Hotel. We provide a variety of services for our guests, including a free breakfast buffet, a fully equipped fitness center, and 24-hour customer support. Our staff are here to assist you with check-in, room service, and any questions you may have during your stay. Additionally, the hotel offers special weekend events such as guided city tours, cultural activities, and entertainment programs to make your visit more enjoyable. We hope that your stay with us will be comfortable, convenient, and memorable, and that you take advantage of all the facilities and services we provide."
+      "keywords": "good morning greenview hotel provide"
     },
     {
       "uid": "1-真题41作为主管你认为是经验重要还是沟通能力重要.json-2",
@@ -1519,9 +1381,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "visiting city art museum month",
-      "questionBankAnswer": "Thank you for visiting the City Art Museum. This month’s special exhibition features contemporary paintings and sculptures from local artists. The museum also offers interactive workshops, guided tours, and educational programs for students and visitors of all ages. Our staff are available at the information desk to answer any questions or provide assistance. Please make sure to check the schedule for upcoming art events and seasonal exhibitions. We hope your visit will be inspiring, educational, and enjoyable, and that you will take the time to explore all the exhibits and activities available during your stay.",
-      "fullScoreAnswer": "Thank you for visiting the City Art Museum. This month’s special exhibition features contemporary paintings and sculptures from local artists. The museum also offers interactive workshops, guided tours, and educational programs for students and visitors of all ages. Our staff are available at the information desk to answer any questions or provide assistance. Please make sure to check the schedule for upcoming art events and seasonal exhibitions. We hope your visit will be inspiring, educational, and enjoyable, and that you will take the time to explore all the exhibits and activities available during your stay."
+      "keywords": "visiting city art museum month"
     },
     {
       "uid": "1-真题42员工自己设置工作时间有什么好处.json-1",
@@ -1540,9 +1400,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "attention please due mechanical issue",
-      "questionBankAnswer": "Attention please. Due to a mechanical issue, the bus service will be delayed for one hour. Passengers have the option to wait for the next bus, transfer to an alternative route, or request a refund at the service counter. Our staff are available to assist you with any questions and to ensure that your travel needs are met. We apologize for the inconvenience caused and appreciate your patience and understanding. Please make sure to check the updated schedule before boarding, and we hope you continue to have a safe and comfortable journey.",
-      "fullScoreAnswer": "Attention please. Due to a mechanical issue, the bus service will be delayed for one hour. Passengers have the option to wait for the next bus, transfer to an alternative route, or request a refund at the service counter. Our staff are available to assist you with any questions and to ensure that your travel needs are met. We apologize for the inconvenience caused and appreciate your patience and understanding. Please make sure to check the updated schedule before boarding, and we hope you continue to have a safe and comfortable journey."
+      "keywords": "attention please due mechanical issue"
     },
     {
       "uid": "1-真题42员工自己设置工作时间有什么好处.json-2",
@@ -1561,9 +1419,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "sweet ice cream shop today",
-      "questionBankAnswer": "Welcome to Sweet Ice Cream Shop. Today is our second anniversary, and to celebrate, we are offering a free topping on all purchases. Our shop features a wide variety of flavors and seasonal specials that customers enjoy. Our staff are here to ensure that your experience is pleasant and that you find your favorite treats. Thank you for your continuous support over the past two years, and we look forward to serving you and making your visit enjoyable and memorable. Please take your time to explore all the delicious options available.",
-      "fullScoreAnswer": "Welcome to Sweet Ice Cream Shop. Today is our second anniversary, and to celebrate, we are offering a free topping on all purchases. Our shop features a wide variety of flavors and seasonal specials that customers enjoy. Our staff are here to ensure that your experience is pleasant and that you find your favorite treats. Thank you for your continuous support over the past two years, and we look forward to serving you and making your visit enjoyable and memorable. Please take your time to explore all the delicious options available."
+      "keywords": "sweet ice cream shop today"
     },
     {
       "uid": "1-模拟题1.json-2",
@@ -1582,9 +1438,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good communication important part successful",
-      "questionBankAnswer": "Good communication is an important part of a successful workplace. When employees share information clearly, tasks can be completed more efficiently and mistakes can be avoided. Teamwork also plays a key role, as people with different skills can support each other and solve problems together. In addition, managing time well helps employees stay organized and reduce stress. By working together and communicating effectively, everyone can contribute to a positive work environment and achieve better results.",
-      "fullScoreAnswer": "Good communication is an important part of a successful workplace. When employees share information clearly, tasks can be completed more efficiently and mistakes can be avoided. Teamwork also plays a key role, as people with different skills can support each other and solve problems together. In addition, managing time well helps employees stay organized and reduce stress. By working together and communicating effectively, everyone can contribute to a positive work environment and achieve better results."
+      "keywords": "good communication important part successful"
     },
     {
       "uid": "1-模拟题2.json-2",
@@ -1603,9 +1457,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "busy warehouse organization teamwork extremely",
-      "questionBankAnswer": "In a busy warehouse, organization and teamwork are extremely important. Employees are responsible for checking inventory, arranging products on shelves, and making sure items are stored in the correct locations. Supervisors guide workers and help coordinate daily tasks to keep operations running smoothly. Keeping the warehouse clean and orderly is also essential for safety and efficiency. When everyone communicates clearly and works together, tasks can be completed accurately and on time. A well-managed warehouse improves productivity and ensures customers receive their orders without delay.",
-      "fullScoreAnswer": "In a busy warehouse, organization and teamwork are extremely important. Employees are responsible for checking inventory, arranging products on shelves, and making sure items are stored in the correct locations. Supervisors guide workers and help coordinate daily tasks to keep operations running smoothly. Keeping the warehouse clean and orderly is also essential for safety and efficiency. When everyone communicates clearly and works together, tasks can be completed accurately and on time. A well-managed warehouse improves productivity and ensures customers receive their orders without delay."
+      "keywords": "busy warehouse organization teamwork extremely"
     },
     {
       "uid": "1-真题01沟通组织解决问题哪个重要.json-2",
@@ -1624,9 +1476,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "safety communication teamwork rules procedures",
-      "questionBankAnswer": "For safety and efficiency, all staff members are required to follow company rules and procedures at all times. Clear communication is especially important when working as a team, because misunderstandings may lead to mistakes or delays. Employees should report problems immediately and share useful information with their coworkers. By working together and respecting one another, we can create a positive working environment and ensure that daily operations run smoothly and successfully.",
-      "fullScoreAnswer": "For safety and efficiency, all staff members are required to follow company rules and procedures at all times. Clear communication is especially important when working as a team, because misunderstandings may lead to mistakes or delays. Employees should report problems immediately and share useful information with their coworkers. By working together and respecting one another, we can create a positive working environment and ensure that daily operations run smoothly and successfully."
+      "keywords": "safety communication teamwork rules procedures"
     },
     {
       "uid": "1-真题02新工作哪个能力最重要.json-2",
@@ -1645,9 +1495,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "safe efficient workplace employees follow",
-      "questionBankAnswer": "For a safe and efficient workplace, all employees should follow company rules and safety guidelines. Proper communication is especially important in daily work, as it helps prevent mistakes and improves teamwork. If any problems occur, staff members should report them to their supervisors immediately. By respecting rules and working closely with others, we can ensure smooth operations and create a productive and supportive working environment.",
-      "fullScoreAnswer": "For a safe and efficient workplace, all employees should follow company rules and safety guidelines. Proper communication is especially important in daily work, as it helps prevent mistakes and improves teamwork. If any problems occur, staff members should report them to their supervisors immediately. By respecting rules and working closely with others, we can ensure smooth operations and create a productive and supportive working environment."
+      "keywords": "safe efficient workplace employees follow"
     },
     {
       "uid": "1-真题04offer是否要跟家里人交流.json-2",
@@ -1666,9 +1514,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "fellow colleagues today am honored",
-      "questionBankAnswer": "My fellow colleagues, today I am honored to announce that Kate Stanton has been promoted to partner at Holmes Law Group. Over the years, Kate has demonstrated exceptional professionalism, strong leadership, and a deep commitment to our clients. She has successfully handled complex cases and has always been willing to support her teammates. Many people agree that her promotion is well deserved. Please join me in congratulating Kate on this important milestone in her career.",
-      "fullScoreAnswer": "My fellow colleagues, today I am honored to announce that Kate Stanton has been promoted to partner at Holmes Law Group. Over the years, Kate has demonstrated exceptional professionalism, strong leadership, and a deep commitment to our clients. She has successfully handled complex cases and has always been willing to support her teammates. Many people agree that her promotion is well deserved. Please join me in congratulating Kate on this important milestone in her career."
+      "keywords": "fellow colleagues today am honored"
     },
     {
       "uid": "1-真题05网上读新闻的坏处.json-1",
@@ -1687,9 +1533,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning everyone today talk",
-      "questionBankAnswer": "Good morning everyone. Today, I would like to talk about the importance of effective communication in the workplace. Clear communication helps employees understand their responsibilities and reduces misunderstandings. It also improves teamwork, increases productivity, and builds trust among colleagues. When people share ideas openly and listen carefully, problems can be solved more efficiently. In addition, good communication creates a positive working environment and helps companies achieve their goals more successfully.",
-      "fullScoreAnswer": "Good morning everyone. Today, I would like to talk about the importance of effective communication in the workplace. Clear communication helps employees understand their responsibilities and reduces misunderstandings. It also improves teamwork, increases productivity, and builds trust among colleagues. When people share ideas openly and listen carefully, problems can be solved more efficiently. In addition, good communication creates a positive working environment and helps companies achieve their goals more successfully."
+      "keywords": "good morning everyone today talk"
     },
     {
       "uid": "1-真题07老师能否让学生带电子设备.json-2",
@@ -1708,9 +1552,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "hanover sporting store pleased announce",
-      "questionBankAnswer": "The Hanover Sporting Store is pleased to announce its annual clearance event, which will take place this weekend. Customers can enjoy significant discounts on a wide selection of winter sports equipment, clothing, and footwear. This is a great opportunity for families and sports enthusiasts to prepare for the upcoming season while saving money. Some selected items will be marked down by as much as seventy-five percent. Staff members will be available to assist customers throughout the store.",
-      "fullScoreAnswer": "The Hanover Sporting Store is pleased to announce its annual clearance event, which will take place this weekend. Customers can enjoy significant discounts on a wide selection of winter sports equipment, clothing, and footwear. This is a great opportunity for families and sports enthusiasts to prepare for the upcoming season while saving money. Some selected items will be marked down by as much as seventy-five percent. Staff members will be available to assist customers throughout the store."
+      "keywords": "hanover sporting store pleased announce"
     },
     {
       "uid": "1-真题09学术专业成功最重要因素.json-2",
@@ -1729,9 +1571,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning today briefing workplace",
-      "questionBankAnswer": "Good morning. Today we will have a briefing on workplace safety procedures. Everyone should pay attention and understand the guidelines for maintaining a safe environment. We will cover emergency exits, first aid protocols, and general safety rules. It is important to ask questions if anything is unclear. Following these procedures helps prevent accidents and ensures a secure and productive workspace for all employees.",
-      "fullScoreAnswer": "Good morning. Today we will have a briefing on workplace safety procedures. Everyone should pay attention and understand the guidelines for maintaining a safe environment. We will cover emergency exits, first aid protocols, and general safety rules. It is important to ask questions if anything is unclear. Following these procedures helps prevent accidents and ensures a secure and productive workspace for all employees."
+      "keywords": "good morning today briefing workplace"
     },
     {
       "uid": "1-真题10买房比租房的缺点.json-2",
@@ -1750,9 +1590,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning today review safety",
-      "questionBankAnswer": "Good morning. Today we will review the safety procedures in our office building. Everyone should pay attention and follow the guidelines to ensure a safe working environment. We will explain emergency exits, fire alarm systems, and first aid protocols. It is important to report hazards immediately and follow instructions from safety officers. By adhering to these procedures, we can prevent accidents and create a secure workplace for everyone. Please ask questions if any information is unclear.",
-      "fullScoreAnswer": "Good morning. Today we will review the safety procedures in our office building. Everyone should pay attention and follow the guidelines to ensure a safe working environment. We will explain emergency exits, fire alarm systems, and first aid protocols. It is important to report hazards immediately and follow instructions from safety officers. By adhering to these procedures, we can prevent accidents and create a secure workplace for everyone. Please ask questions if any information is unclear."
+      "keywords": "good morning today review safety"
     },
     {
       "uid": "1-真题13offer是否需要考虑公司的名誉.json-2",
@@ -1771,9 +1609,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning students today visit",
-      "questionBankAnswer": "Good morning students. Today we will visit the chemistry lab to learn about safety procedures and experimental techniques. You will be guided on how to handle chemicals, operate equipment safely, and record your observations accurately. Pay close attention to the instructor, ask questions if anything is unclear, and make sure to follow all rules. At the end of the session, each of you should understand the steps of the experiment and the safety measures required for future lab work.",
-      "fullScoreAnswer": "Good morning students. Today we will visit the chemistry lab to learn about safety procedures and experimental techniques. You will be guided on how to handle chemicals, operate equipment safely, and record your observations accurately. Pay close attention to the instructor, ask questions if anything is unclear, and make sure to follow all rules. At the end of the session, each of you should understand the steps of the experiment and the safety measures required for future lab work."
+      "keywords": "good morning students today visit"
     },
     {
       "uid": "1-真题14去当实习生吗.json-2",
@@ -1792,9 +1628,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning interns students please",
-      "questionBankAnswer": "Good morning. Interns and students, please be ready to attend workshops and learn from professional staff throughout the day. You will observe different departments, understand their roles, and participate in practical exercises to gain hands-on experience. Make sure to follow the guidelines, be attentive, and engage with mentors to maximize your learning. At the end of the day, reflect on what you learned and think about how it applies to your future career goals.",
-      "fullScoreAnswer": "Good morning. Interns and students, please be ready to attend workshops and learn from professional staff throughout the day. You will observe different departments, understand their roles, and participate in practical exercises to gain hands-on experience. Make sure to follow the guidelines, be attentive, and engage with mentors to maximize your learning. At the end of the day, reflect on what you learned and think about how it applies to your future career goals."
+      "keywords": "good morning interns students please"
     },
     {
       "uid": "1-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-2",
@@ -1813,9 +1647,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "visiting sunrise bookstore offer wide",
-      "questionBankAnswer": "Thank you for visiting Sunrise Bookstore. We offer a wide variety of books including novels, magazines, educational resources, and digital subscriptions. This month, we are offering discounts on selected bestselling titles and organize author talks, book signing events, and reading clubs for children and adults. Our staff are available to help you find books, recommend reading lists, and assist with online orders. We also provide comfortable seating areas and quiet spaces for reading and studying. Enjoy browsing our collection and take advantage of our events to deepen your reading experience.",
-      "fullScoreAnswer": "Thank you for visiting Sunrise Bookstore. We offer a wide variety of books including novels, magazines, educational resources, and digital subscriptions. This month, we are offering discounts on selected bestselling titles and organize author talks, book signing events, and reading clubs for children and adults. Our staff are available to help you find books, recommend reading lists, and assist with online orders. We also provide comfortable seating areas and quiet spaces for reading and studying. Enjoy browsing our collection and take advantage of our events to deepen your reading experience."
+      "keywords": "visiting sunrise bookstore offer wide"
     },
     {
       "uid": "1-真题35父母让孩子做家务的好处.json-2",
@@ -1834,9 +1666,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "traffic accident occurred highway yesterday",
-      "questionBankAnswer": "A traffic accident occurred on the highway yesterday afternoon. Authorities have closed the affected lanes while repairs are underway. Drivers are advised to use alternate routes and drive with caution. Updates on traffic conditions will be provided every fifteen minutes through our official channels. We thank everyone for their patience and cooperation while ensuring safety on the road.",
-      "fullScoreAnswer": "A traffic accident occurred on the highway yesterday afternoon. Authorities have closed the affected lanes while repairs are underway. Drivers are advised to use alternate routes and drive with caution. Updates on traffic conditions will be provided every fifteen minutes through our official channels. We thank everyone for their patience and cooperation while ensuring safety on the road."
+      "keywords": "traffic accident occurred highway yesterday"
     },
     {
       "uid": "1-真题36公司提供工作日锻炼的机会是否是一个好主意.json-2",
@@ -1855,9 +1685,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "choosing sunrise travel agency provide",
-      "questionBankAnswer": "Thank you for choosing Sunrise Travel Agency. We provide a variety of customized travel packages, including city tours, beach vacations, mountain adventures, and cultural exploration trips. Our experienced travel consultants are available to help you design the perfect holiday itinerary based on your preferences and budget. We also offer seasonal discounts and special promotions. For more information or assistance, please contact us directly through our website or customer service hotline. We hope your next trip with us will be enjoyable and memorable.",
-      "fullScoreAnswer": "Thank you for choosing Sunrise Travel Agency. We provide a variety of customized travel packages, including city tours, beach vacations, mountain adventures, and cultural exploration trips. Our experienced travel consultants are available to help you design the perfect holiday itinerary based on your preferences and budget. We also offer seasonal discounts and special promotions. For more information or assistance, please contact us directly through our website or customer service hotline. We hope your next trip with us will be enjoyable and memorable."
+      "keywords": "choosing sunrise travel agency provide"
     },
     {
       "uid": "1-真题05网上读新闻的坏处.json-2",
@@ -1876,9 +1704,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "internet greatly changed way people",
-      "questionBankAnswer": "The internet has greatly changed the way people read and share news. Online news allows readers to get information quickly and conveniently at any time. However, not all online news is reliable. Some articles may contain incorrect or misleading information, while others are written only to attract attention. Therefore, readers should develop critical thinking skills and carefully choose trustworthy news sources to make sure they receive accurate and balanced information.",
-      "fullScoreAnswer": "The internet has greatly changed the way people read and share news. Online news allows readers to get information quickly and conveniently at any time. However, not all online news is reliable. Some articles may contain incorrect or misleading information, while others are written only to attract attention. Therefore, readers should develop critical thinking skills and carefully choose trustworthy news sources to make sure they receive accurate and balanced information."
+      "keywords": "internet greatly changed way people"
     },
     {
       "uid": "1-真题06未来一代为什么比现在一代更健康.json-1",
@@ -1897,9 +1723,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "hodge farmer worked agriculture thirty",
-      "questionBankAnswer": "Hodge is a farmer who has worked in agriculture for more than thirty years. During his career, he has seen many changes in farming methods and technology. In the past, most work was done by hand, which required a great deal of physical strength. Today, modern machines and scientific methods have made farming more efficient and safer. As a result, farmers can focus more on quality, sustainability, and environmental protection.",
-      "fullScoreAnswer": "Hodge is a farmer who has worked in agriculture for more than thirty years. During his career, he has seen many changes in farming methods and technology. In the past, most work was done by hand, which required a great deal of physical strength. Today, modern machines and scientific methods have made farming more efficient and safer. As a result, farmers can focus more on quality, sustainability, and environmental protection."
+      "keywords": "hodge farmer worked agriculture thirty"
     },
     {
       "uid": "1-真题15获得professional success是否需要take risk.json-2",
@@ -1918,9 +1742,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "good morning professionals please make",
-      "questionBankAnswer": "Good morning. Professionals, please make your appointments for consultations carefully and check your schedules in advance. Today, you will participate in workshops, observe demonstrations, and engage in interactive discussions to improve your skills and knowledge. Ensure that all tasks are prepared ahead of time and be attentive throughout each session. By participating actively and following guidelines, you can gain insights into effective professional practices and career development strategies.",
-      "fullScoreAnswer": "Good morning. Professionals, please make your appointments for consultations carefully and check your schedules in advance. Today, you will participate in workshops, observe demonstrations, and engage in interactive discussions to improve your skills and knowledge. Ensure that all tasks are prepared ahead of time and be attentive throughout each session. By participating actively and following guidelines, you can gain insights into effective professional practices and career development strategies."
+      "keywords": "good morning professionals please make"
     },
     {
       "uid": "1-真题29网络和电子设备会取代报纸吗.json-2",
@@ -1939,9 +1761,7 @@ window.TOEIC_REVIEW_DATA = {
       "preparationTime": 45,
       "answerTime": 45,
       "difficulty": "easy",
-      "keywords": "attention passengers train central station",
-      "questionBankAnswer": "Attention all passengers, the train to Central Station will arrive at Platform 3 in five minutes. Please make sure you have all your belongings with you and board the train as soon as possible. We apologize for the 10-minute delay due to signal maintenance. Thank you for your patience.",
-      "fullScoreAnswer": "Attention all passengers, the train to Central Station will arrive at Platform 3 in five minutes. Please make sure you have all your belongings with you and board the train as soon as possible. We apologize for the 10-minute delay due to signal maintenance. Thank you for your patience."
+      "keywords": "attention passengers train central station"
     },
     {
       "uid": "2-模拟题1.json-1",
@@ -1971,7 +1791,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in a hotel. In the center, a clerk is helping a male customer who is checking out. On the right, another customer is carrying a bag and pulling a suitcase while looking at some items. The hotel lobby looks clean and well organized.",
-      "fullScoreAnswer": "This picture was taken in a hotel. In the center, a clerk is helping a male customer who is checking out. On the right, another customer is carrying a bag and pulling a suitcase while looking at some items. The hotel lobby looks clean and well organized. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in a hotel. In the center, a clerk is helping a male customer who is checking out. On the right, another customer is carrying a bag and pulling a suitcase while looking at some items. The hotel lobby appears clean and well organized, creating a professional atmosphere. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-模拟题2.json-3",
@@ -2001,7 +1821,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture shows a busy restaurant with many people eating and talking. In the foreground, three people are sitting at a table. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water.",
-      "fullScoreAnswer": "This picture shows a busy restaurant with many people eating and talking. In the foreground, three people are sitting at a table. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture shows a busy restaurant with many people eating and talking. In the foreground, three people are sitting at a table. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-模拟题2.json-4",
@@ -2031,7 +1851,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture was taken in a warehouse. On the right side, two women are standing near a wardrobe and preparing to change clothes. On the left, a man wearing a blue shirt is walking away. In the background, there are shelves filled with goods.",
-      "fullScoreAnswer": "The picture was taken in a warehouse. On the right side, two women are standing near a wardrobe and preparing to change clothes. On the left, a man wearing a blue shirt is walking away. In the background, there are shelves filled with goods. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture was taken in a warehouse. On the right side, two women are standing near a wardrobe and preparing to change clothes. On the left, a man wearing a blue shirt is walking away. In the background, there are shelves filled with goods. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-模拟题3.json-3",
@@ -2061,7 +1881,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, a woman is carrying several shopping bags. On the right, another woman is pushing a stroller past a shop.",
-      "fullScoreAnswer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, a woman is carrying several shopping bags. On the right, another woman is pushing a stroller past a shop. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, a woman is carrying several shopping bags. On the right, another woman is pushing a stroller past a shop. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-模拟题3.json-4",
@@ -2090,7 +1910,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a meeting room with five people. On the right, a woman is holding documents and has a laptop in front of her. On the left, four people are listening carefully and taking notes.",
-      "fullScoreAnswer": "The picture shows a meeting room with five people. On the right, a woman is holding documents and has a laptop in front of her. On the left, four people are listening carefully and taking notes. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a meeting room with five people. On the right, a woman is holding documents and has a laptop in front of her. On the left, four people are listening carefully and taking notes. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题01沟通组织解决问题哪个重要.json-1",
@@ -2120,7 +1940,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a hotel. There are two male customers and a clerk. On the left, one customer is checking out and the clerk is serving him. On the right, the other customer is carrying a bag and pulling a suitcase while looking at the goods.",
-      "fullScoreAnswer": "This is a picture taken in a hotel. There are two male customers and a clerk. On the left, one customer is checking out and the clerk is serving him. On the right, the other customer is carrying a bag and pulling a suitcase while looking at the goods. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a hotel. There are two male customers and a clerk. On the left, one customer is checking out and the clerk is serving him. On the right, the other customer is carrying a bag and pulling a suitcase while looking at the goods. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题02新工作哪个能力最重要.json-1",
@@ -2150,7 +1970,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in a restaurant. There are many people dining and talking. In the foreground, three people are sitting together. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water. The restaurant looks busy and lively.",
-      "fullScoreAnswer": "This picture was taken in a restaurant. There are many people dining and talking. In the foreground, three people are sitting together. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water. The restaurant looks busy and lively. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in a restaurant. There are many people dining and talking. In the foreground, three people are sitting together. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water. The restaurant looks busy and lively. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题02新工作哪个能力最重要.json-2",
@@ -2180,7 +2000,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture shows a warehouse. On the right side, two women are standing near a wardrobe and seem to be preparing to change clothes. One woman has long hair and is wearing a brown dress, while the other is wearing a white sweater. On the left, a man in a blue shirt is walking away. There are many shelves filled with goods in the background.",
-      "fullScoreAnswer": "This picture shows a warehouse. On the right side, two women are standing near a wardrobe and seem to be preparing to change clothes. One woman has long hair and is wearing a brown dress, while the other is wearing a white sweater. On the left, a man in a blue shirt is walking away. There are many shelves filled with goods in the background. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture shows a warehouse. On the right side, two women are standing near a wardrobe and seem to be preparing to change clothes. One woman has long hair and is wearing a brown dress, while the other is wearing a white sweater. On the left, a man in a blue shirt is walking away. There are many shelves filled with goods in the background. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题03改变国家图书馆.json-1",
@@ -2210,7 +2030,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, another woman is carrying a bag full of items. On the right, a woman is pushing a baby stroller past some shops. The street looks busy and lively.",
-      "fullScoreAnswer": "The picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, another woman is carrying a bag full of items. On the right, a woman is pushing a baby stroller past some shops. The street looks busy and lively. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, another woman is carrying a bag full of items. On the right, a woman is pushing a baby stroller past some shops. The street looks busy and lively. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题03改变国家图书馆.json-2",
@@ -2240,7 +2060,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture shows a meeting room with five people. On the right, a woman is holding some documents and has a notebook in front of her. On the left, four people are listening carefully and taking notes. The room looks well-organized and professional.",
-      "fullScoreAnswer": "This picture shows a meeting room with five people. On the right, a woman is holding some documents and has a notebook in front of her. On the left, four people are listening carefully and taking notes. The room looks well-organized and professional. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture shows a meeting room with five people. On the right, a woman is holding some documents and has a notebook in front of her. On the left, four people are listening carefully and taking notes. The room looks well-organized and professional. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题05网上读新闻的坏处.json-1",
@@ -2270,7 +2090,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in an office. There are four people in total. On the left, two men are standing and shaking hands, which may mean they are greeting each other or making an agreement. On the right, two women are sitting at a table and checking some documents. In the background, there is a green plant, which makes the office look comfortable.",
-      "fullScoreAnswer": "This picture was taken in an office. There are four people in total. On the left, two men are standing and shaking hands, which may mean they are greeting each other or making an agreement. On the right, two women are sitting at a table and checking some documents. In the background, there is a green plant, which makes the office look comfortable. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in an office. There are four people in total. On the left, two men are standing and shaking hands, which may mean they are greeting each other or making an agreement. On the right, two women are sitting at a table and checking some documents. In the background, there is a green plant, which makes the office look comfortable. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题05网上读新闻的坏处.json-2",
@@ -2300,7 +2120,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a meeting in a conference room. A woman is standing in the front and giving a presentation. There is a screen and a whiteboard behind her. Four other people are sitting at a table, listening carefully and taking notes. It seems like a formal business meeting.",
-      "fullScoreAnswer": "The picture shows a meeting in a conference room. A woman is standing in the front and giving a presentation. There is a screen and a whiteboard behind her. Four other people are sitting at a table, listening carefully and taking notes. It seems like a formal business meeting. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a meeting in a conference room. A woman is standing in the front and giving a presentation. There is a screen and a whiteboard behind her. Four other people are sitting at a table, listening carefully and taking notes. It seems like a formal business meeting. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题07老师能否让学生带电子设备.json-1",
@@ -2330,7 +2150,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in an office. There are two people in the room. On the left, a woman is sitting at a desk and talking on the phone. On the right, a man is crouching down and taking a book from a shelf. In the background, there are many books and some notes posted on the wall. They seem to be busy at work.",
-      "fullScoreAnswer": "This picture was taken in an office. There are two people in the room. On the left, a woman is sitting at a desk and talking on the phone. On the right, a man is crouching down and taking a book from a shelf. In the background, there are many books and some notes posted on the wall. They seem to be busy at work. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in an office. There are two people in the room. On the left, a woman is sitting at a desk and talking on the phone. On the right, a man is crouching down and taking a book from a shelf. In the background, there are many books and some notes posted on the wall. They seem to be busy at work. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题07老师能否让学生带电子设备.json-2",
@@ -2360,7 +2180,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in a bakery. There are two people in the shop. On the left, a male clerk is working on a computer behind the counter. In front of him, a female customer is looking into her wallet, probably preparing to pay. On the right, there is a display case filled with various desserts.",
-      "fullScoreAnswer": "This picture was taken in a bakery. There are two people in the shop. On the left, a male clerk is working on a computer behind the counter. In front of him, a female customer is looking into her wallet, probably preparing to pay. On the right, there is a display case filled with various desserts. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in a bakery. There are two people in the shop. On the left, a male clerk is working on a computer behind the counter. In front of him, a female customer is looking into her wallet, probably preparing to pay. On the right, there is a display case filled with various desserts. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题08作为老板高效沟通是不是最重要.json-2",
@@ -2390,7 +2210,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture of a warehouse. On the left, a woman is pushing a cart loaded with boxes. On the right, a man is operating a forklift. In the background, shelves are filled with goods. The scene is busy and organized.",
-      "fullScoreAnswer": "This is a picture of a warehouse. On the left, a woman is pushing a cart loaded with boxes. On the right, a man is operating a forklift. In the background, shelves are filled with goods. The scene is busy and organized. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture of a warehouse. On the left, a woman is pushing a cart loaded with boxes. On the right, a man is operating a forklift. In the background, shelves are filled with goods. The scene is busy and organized. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题09学术专业成功最重要因素.json-2",
@@ -2420,7 +2240,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a conference room. Four people are in the room. A woman is standing and presenting while the other three are sitting and listening. There are laptops on the tables, and in the background, a monitor and a whiteboard can be seen.",
-      "fullScoreAnswer": "This is a picture taken in a conference room. Four people are in the room. A woman is standing and presenting while the other three are sitting and listening. There are laptops on the tables, and in the background, a monitor and a whiteboard can be seen. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a conference room. Four people are in the room. A woman is standing and presenting while the other three are sitting and listening. There are laptops on the tables, and in the background, a monitor and a whiteboard can be seen. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题12毕业后第一份工作必要吗.json-2",
@@ -2449,7 +2269,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture is taken in an office where three people are working. A lady is handing documents to a male supervisor who has a computer on the table. Next to the lady, a man is taking notes on paper.",
-      "fullScoreAnswer": "This picture is taken in an office where three people are working. A lady is handing documents to a male supervisor who has a computer on the table. Next to the lady, a man is taking notes on paper. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture is taken in an office where three people are working. A lady is handing documents to a male supervisor who has a computer on the table. Next to the lady, a man is taking notes on paper. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题14去当实习生吗.json-1",
@@ -2479,7 +2299,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture of people having a meeting in a meeting room. There are four people: three women and one man. On the left, two women are looking at a laptop, talking, and one is smiling. On the right, one man and one woman are looking at a notebook, discussing something. There is a television and a computer in the room.",
-      "fullScoreAnswer": "This is a picture of people having a meeting in a meeting room. There are four people: three women and one man. On the left, two women are looking at a laptop, talking, and one is smiling. On the right, one man and one woman are looking at a notebook, discussing something. There is a television and a computer in the room. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture of people having a meeting in a meeting room. There are four people: three women and one man. On the left, two women are looking at a laptop, talking, and one is smiling. On the right, one man and one woman are looking at a notebook, discussing something. There is a television and a computer in the room. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题15获得professional success是否需要take risk.json-2",
@@ -2509,7 +2329,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture of an office. Two people are having a conversation. The man is wearing a suit, looking professional. The woman with long hair is asking something. Beside them, there is a printer and some printed papers.",
-      "fullScoreAnswer": "This is a picture of an office. Two people are having a conversation. The man is wearing a suit, looking professional. The woman with long hair is asking something. Beside them, there is a printer and some printed papers. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture of an office. Two people are having a conversation. The man is wearing a suit, looking professional. The woman with long hair is asking something. Beside them, there is a printer and some printed papers. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题16有钱就快乐吗.json-1",
@@ -2539,7 +2359,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in a restaurant. In the middle, there are two women, one in green and the other in black, standing and talking. Behind them is the front desk with self-service food and cashier equipment. In the background, the kitchen can be seen with some cookers cooking.",
-      "fullScoreAnswer": "This picture may be taken in a restaurant. In the middle, there are two women, one in green and the other in black, standing and talking. Behind them is the front desk with self-service food and cashier equipment. In the background, the kitchen can be seen with some cookers cooking. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in a restaurant. In the middle, there are two women, one in green and the other in black, standing and talking. Behind them is the front desk with self-service food and cashier equipment. In the background, the kitchen can be seen with some cookers cooking. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题19个公司的多处不同城市工作的好处.json-2",
@@ -2569,7 +2389,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in front of a small store. Many people are walking past the store. In front of the door, a man is sitting, probably the shopkeeper. Beside him, two people are shaking hands. Many goods are hanging in front of the shop.",
-      "fullScoreAnswer": "This picture may be taken in front of a small store. Many people are walking past the store. In front of the door, a man is sitting, probably the shopkeeper. Beside him, two people are shaking hands. Many goods are hanging in front of the shop. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in front of a small store. Many people are walking past the store. In front of the door, a man is sitting, probably the shopkeeper. Beside him, two people are shaking hands. Many goods are hanging in front of the shop. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题21进入大学前实习gap year有哪些好处.json-1",
@@ -2599,7 +2419,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This photograph may be taken in a room. On the left, a man is wearing earphones and sitting in front of a small desk with a laptop. On the right, a woman is looking for something in her black bag. Beside her, there is a desk with some papers on it.",
-      "fullScoreAnswer": "This photograph may be taken in a room. On the left, a man is wearing earphones and sitting in front of a small desk with a laptop. On the right, a woman is looking for something in her black bag. Beside her, there is a desk with some papers on it. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This photograph may be taken in a room. On the left, a man is wearing earphones and sitting in front of a small desk with a laptop. On the right, a woman is looking for something in her black bag. Beside her, there is a desk with some papers on it. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题24为一家已经经营了很多年的公司工作有哪些优点.json-3",
@@ -2629,7 +2449,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "At the shelf of a supermarket, there are two people. A woman in a black dress squats down to choose a plate, holding one in her hand. Next to her, there is another woman in black with long hair who is choosing a glass. There are many goods on the shelves. The supermarket appears clean and well-stocked.",
-      "fullScoreAnswer": "At the shelf of a supermarket, there are two people. A woman in a black dress squats down to choose a plate, holding one in her hand. Next to her, there is another woman in black with long hair who is choosing a glass. There are many goods on the shelves. The supermarket appears clean and well-stocked. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "At the shelf of a supermarket, there are two people. A woman in a black dress squats down to choose a plate, holding one in her hand. Next to her, there is another woman in black with long hair who is choosing a glass. There are many goods on the shelves. The supermarket appears clean and well-stocked. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题24为一家已经经营了很多年的公司工作有哪些优点.json-4",
@@ -2659,7 +2479,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture of a jewelry store with four people, two clerks and two customers. On the left, a female salesperson wearing green clothes is introducing products to a female customer. On the right, a cashier with short hair is checking out a male customer. There are many jewelry items inside the counter. The store looks bright and well-organized.",
-      "fullScoreAnswer": "This is a picture of a jewelry store with four people, two clerks and two customers. On the left, a female salesperson wearing green clothes is introducing products to a female customer. On the right, a cashier with short hair is checking out a male customer. There are many jewelry items inside the counter. The store looks bright and well-organized. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture of a jewelry store with four people, two clerks and two customers. On the left, a female salesperson wearing green clothes is introducing products to a female customer. On the right, a cashier with short hair is checking out a male customer. There are many jewelry items inside the counter. The store looks bright and well-organized. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题25在公司上班前有过创业经验的好处.json-3",
@@ -2689,7 +2509,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This photo is taken in an office or a conference room. There are three people sitting around a table. A man is speaking, and a woman next to him is typing on a laptop, seemingly recording the content. Another woman beside the typist is listening carefully to the man. There are many white papers and laptops scattered on the table, making the table look a bit messy.",
-      "fullScoreAnswer": "This photo is taken in an office or a conference room. There are three people sitting around a table. A man is speaking, and a woman next to him is typing on a laptop, seemingly recording the content. Another woman beside the typist is listening carefully to the man. There are many white papers and laptops scattered on the table, making the table look a bit messy. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This photo is taken in an office or a conference room. There are three people sitting around a table. A man is speaking, and a woman next to him is typing on a laptop, seemingly recording the content. Another woman beside the typist is listening carefully to the man. There are many white papers and laptops scattered on the table, making the table look a bit messy. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题25在公司上班前有过创业经验的好处.json-4",
@@ -2719,7 +2539,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a busy restaurant scene. Many people are eating in the background. In the foreground, a man and a woman are sitting face to face at a table with nothing on it, so they should be waiting for their meal. Behind this couple, there is a woman and a little boy sitting together. Further back is the bar counter, in front of which stands a man dressed in white who looks like a cook.",
-      "fullScoreAnswer": "The picture shows a busy restaurant scene. Many people are eating in the background. In the foreground, a man and a woman are sitting face to face at a table with nothing on it, so they should be waiting for their meal. Behind this couple, there is a woman and a little boy sitting together. Further back is the bar counter, in front of which stands a man dressed in white who looks like a cook. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a busy restaurant scene. Many people are eating in the background. In the foreground, a man and a woman are sitting face to face at a table with nothing on it, so they should be waiting for their meal. Behind this couple, there is a woman and a little boy sitting together. Further back is the bar counter, in front of which stands a man dressed in white who looks like a cook. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题26是现有的工作更让你开心.json-3",
@@ -2749,7 +2569,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This photo is taken at an office front desk. A female staff member is talking to a man, and they are looking at a document together. Behind them, a heavy woman is waiting in line. She is looking at her mobile phone and dragging a black box with her hand. The front desk area looks tidy and professional.",
-      "fullScoreAnswer": "This photo is taken at an office front desk. A female staff member is talking to a man, and they are looking at a document together. Behind them, a heavy woman is waiting in line. She is looking at her mobile phone and dragging a black box with her hand. The front desk area looks tidy and professional. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This photo is taken at an office front desk. A female staff member is talking to a man, and they are looking at a document together. Behind them, a heavy woman is waiting in line. She is looking at her mobile phone and dragging a black box with her hand. The front desk area looks tidy and professional. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题26是现有的工作更让你开心.json-4",
@@ -2779,7 +2599,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a busy barber shop. On the right side, a woman is sitting at the cashier counter making a phone call. Another woman is standing in front of the counter reading some documents. Next to them, a barber is cutting a customer's hair carefully. The shop is well-lit and looks very lively.",
-      "fullScoreAnswer": "The picture shows a busy barber shop. On the right side, a woman is sitting at the cashier counter making a phone call. Another woman is standing in front of the counter reading some documents. Next to them, a barber is cutting a customer's hair carefully. The shop is well-lit and looks very lively. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a busy barber shop. On the right side, a woman is sitting at the cashier counter making a phone call. Another woman is standing in front of the counter reading some documents. Next to them, a barber is cutting a customer's hair carefully. The shop is well-lit and looks very lively. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题27你认为一家公司有环境友好政策有什么好处.json-3",
@@ -2809,7 +2629,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This photo is taken in a convenience store similar to 7-Eleven. A middle-aged male cashier is checking out an overweight middle-aged and elderly woman at the counter. Behind the woman, a middle-aged and elderly man is waiting in line. Between them, there are two black handbags, one of which has a pull rod. On the left side of the picture, a middle-aged man wearing a white shirt is choosing goods. The store looks well-stocked and busy.",
-      "fullScoreAnswer": "This photo is taken in a convenience store similar to 7-Eleven. A middle-aged male cashier is checking out an overweight middle-aged and elderly woman at the counter. Behind the woman, a middle-aged and elderly man is waiting in line. Between them, there are two black handbags, one of which has a pull rod. On the left side of the picture, a middle-aged man wearing a white shirt is choosing goods. The store looks well-stocked and busy. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This photo is taken in a convenience store similar to 7-Eleven. A middle-aged male cashier is checking out an overweight middle-aged and elderly woman at the counter. Behind the woman, a middle-aged and elderly man is waiting in line. Between them, there are two black handbags, one of which has a pull rod. On the left side of the picture, a middle-aged man wearing a white shirt is choosing goods. The store looks well-stocked and busy. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题27你认为一家公司有环境友好政策有什么好处.json-4",
@@ -2839,7 +2659,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a street-side fruit store. Many fruits are displayed on stacked boxes. There are two middle-aged male clerks and two middle-aged male customers in the store. The clerks seem to be busy arranging the fruits or serving the customers, and the customers are looking at the fruits carefully. The store has a lively and casual atmosphere.",
-      "fullScoreAnswer": "The picture shows a street-side fruit store. Many fruits are displayed on stacked boxes. There are two middle-aged male clerks and two middle-aged male customers in the store. The clerks seem to be busy arranging the fruits or serving the customers, and the customers are looking at the fruits carefully. The store has a lively and casual atmosphere. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a street-side fruit store. Many fruits are displayed on stacked boxes. There are two middle-aged male clerks and two middle-aged male customers in the store. The clerks seem to be busy arranging the fruits or serving the customers, and the customers are looking at the fruits carefully. The store has a lively and casual atmosphere. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题28你认为elementary school的学生是否需要开始学英语.json-1",
@@ -2869,7 +2689,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There is a train arriving at the station. It is slowing down before stopping. People are waiting on the platform. Some are looking at the train, and others are holding their bags. The train doors are opening now, and passengers are getting on and off.",
-      "fullScoreAnswer": "There is a train arriving at the station. It is slowing down before stopping. People are waiting on the platform. Some are looking at the train, and others are holding their bags. The train doors are opening now, and passengers are getting on and off. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There is a train arriving at the station. It is slowing down before stopping. People are waiting on the platform. Some are looking at the train, and others are holding their bags. The train doors are opening now, and passengers are getting on and off. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题29网络和电子设备会取代报纸吗.json-3",
@@ -2899,7 +2719,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This photo is taken in a clothing store. There are two women shopping for clothes. One woman is rummaging through her bag, probably looking for her wallet or phone. The other woman is holding a red coat and carefully checking it, seemingly deciding whether to buy it. The store is well-decorated with various clothes displayed on the racks.",
-      "fullScoreAnswer": "This photo is taken in a clothing store. There are two women shopping for clothes. One woman is rummaging through her bag, probably looking for her wallet or phone. The other woman is holding a red coat and carefully checking it, seemingly deciding whether to buy it. The store is well-decorated with various clothes displayed on the racks. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This photo is taken in a clothing store. There are two women shopping for clothes. One woman is rummaging through her bag, probably looking for her wallet or phone. The other woman is holding a red coat and carefully checking it, seemingly deciding whether to buy it. The store is well-decorated with various clothes displayed on the racks. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-1",
@@ -2928,7 +2748,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in a meeting room. There are two men and two women sitting around a table, discussing something. The room looks clean, bright, and organized.",
-      "fullScoreAnswer": "This picture was taken in a meeting room. There are two men and two women sitting around a table, discussing something. The room looks clean, bright, and organized. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in a meeting room. There are two men and two women sitting around a table, discussing something. The room looks clean, bright, and organized. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题31发生分歧是直接解决还是找领导帮忙.json-1",
@@ -2958,7 +2778,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This photo shows the entrance of a supermarket. We can see four people. In the middle, a man in a black suit is talking on the phone. Next to him, another man wearing a white shirt and a striped tie is pushing a shopping cart. In the background, two women are taking shopping carts. The entrance area looks bright, clean, and well-organized.",
-      "fullScoreAnswer": "This photo shows the entrance of a supermarket. We can see four people. In the middle, a man in a black suit is talking on the phone. Next to him, another man wearing a white shirt and a striped tie is pushing a shopping cart. In the background, two women are taking shopping carts. The entrance area looks bright, clean, and well-organized. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This photo shows the entrance of a supermarket. We can see four people. In the middle, a man in a black suit is talking on the phone. Next to him, another man wearing a white shirt and a striped tie is pushing a shopping cart. In the background, two women are taking shopping carts. The entrance area looks bright, clean, and well-organized. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题32主管评价员工，周边同事反馈是否很重要.json-1",
@@ -2988,7 +2808,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There are two people near a store. One man is holding a bicycle, and another man is pumping air into a flat tire. Meanwhile, a woman is entering the store, and there is another woman standing nearby wearing a green top.",
-      "fullScoreAnswer": "There are two people near a store. One man is holding a bicycle, and another man is pumping air into a flat tire. Meanwhile, a woman is entering the store, and there is another woman standing nearby wearing a green top. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There are two people near a store. One man is holding a bicycle, and another man is pumping air into a flat tire. Meanwhile, a woman is entering the store, and there is another woman standing nearby wearing a green top. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题32主管评价员工，周边同事反馈是否很重要.json-2",
@@ -3018,7 +2838,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There is a large office with many people. On the left, two people are standing and talking. In the middle, one person is bending down to take something out of a cabinet. On the right, there are many people—some standing and some sitting.",
-      "fullScoreAnswer": "There is a large office with many people. On the left, two people are standing and talking. In the middle, one person is bending down to take something out of a cabinet. On the right, there are many people—some standing and some sitting. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There is a large office with many people. On the left, two people are standing and talking. In the middle, one person is bending down to take something out of a cabinet. On the right, there are many people—some standing and some sitting. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题34职业生涯中频繁更换公司的好处.json-1",
@@ -3048,7 +2868,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There are six people in a meeting room. In the middle, there is a table with a conference screen, a remote control, and some phones. On the left side, two men are listening to a speaker, and one of them is raising his hand. On the right side, two women are looking down and discussing something. It seems like a team meeting.",
-      "fullScoreAnswer": "There are six people in a meeting room. In the middle, there is a table with a conference screen, a remote control, and some phones. On the left side, two men are listening to a speaker, and one of them is raising his hand. On the right side, two women are looking down and discussing something. It seems like a team meeting. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There are six people in a meeting room. In the middle, there is a table with a conference screen, a remote control, and some phones. On the left side, two men are listening to a speaker, and one of them is raising his hand. On the right side, two women are looking down and discussing something. It seems like a team meeting. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题35父母让孩子做家务的好处.json-1",
@@ -3078,7 +2898,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There are four people standing in front of the counter. On the left side, two men are talking to each other. On the right side, a man is asking the female staff member at the counter for assistance. It appears they are at a hotel reception, probably checking in or getting information.",
-      "fullScoreAnswer": "There are four people standing in front of the counter. On the left side, two men are talking to each other. On the right side, a man is asking the female staff member at the counter for assistance. It appears they are at a hotel reception, probably checking in or getting information. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There are four people standing in front of the counter. On the left side, two men are talking to each other. On the right side, a man is asking the female staff member at the counter for assistance. It appears they are at a hotel reception, probably checking in or getting information. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题37对于一个求职者哪个最重要.json-1",
@@ -3108,7 +2928,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a drink shop inside an underground mall. Two women are walking up the step in the front, one wearing a white top and the other in black. Behind them, several people are sitting and enjoying their drinks. The shop has bright lighting and the area looks lively with people chatting and moving around.",
-      "fullScoreAnswer": "The picture shows a drink shop inside an underground mall. Two women are walking up the step in the front, one wearing a white top and the other in black. Behind them, several people are sitting and enjoying their drinks. The shop has bright lighting and the area looks lively with people chatting and moving around. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a drink shop inside an underground mall. Two women are walking up the step in the front, one wearing a white top and the other in black. Behind them, several people are sitting and enjoying their drinks. The shop has bright lighting and the area looks lively with people chatting and moving around. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题38当医生有什么好处.json-1",
@@ -3138,7 +2958,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There are three people in the meeting room. The woman on the left is wearing black and standing. She is giving a cup of coffee to the person in the middle. The woman in the middle has long hair and is wearing a red dress. She is sitting at a table. The third woman is wearing white and standing in front of a whiteboard. There is also a bottle of water on the table.",
-      "fullScoreAnswer": "There are three people in the meeting room. The woman on the left is wearing black and standing. She is giving a cup of coffee to the person in the middle. The woman in the middle has long hair and is wearing a red dress. She is sitting at a table. The third woman is wearing white and standing in front of a whiteboard. There is also a bottle of water on the table. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There are three people in the meeting room. The woman on the left is wearing black and standing. She is giving a cup of coffee to the person in the middle. The woman in the middle has long hair and is wearing a red dress. She is sitting at a table. The third woman is wearing white and standing in front of a whiteboard. There is also a bottle of water on the table. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题38当医生有什么好处.json-2",
@@ -3168,7 +2988,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There are five people in a shoe store. In front of the store, a female salesperson is helping a female customer try on shoes. Behind her, another woman is standing in front of a mirror trying on shoes, while a man next to her is watching. Another man in the background seems to be looking at other items. The store is busy with customers and staff moving around.",
-      "fullScoreAnswer": "There are five people in a shoe store. In front of the store, a female salesperson is helping a female customer try on shoes. Behind her, another woman is standing in front of a mirror trying on shoes, while a man next to her is watching. Another man in the background seems to be looking at other items. The store is busy with customers and staff moving around. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There are five people in a shoe store. In front of the store, a female salesperson is helping a female customer try on shoes. Behind her, another woman is standing in front of a mirror trying on shoes, while a man next to her is watching. Another man in the background seems to be looking at other items. The store is busy with customers and staff moving around. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题39技术是否很难平衡工作和生活.json-2",
@@ -3198,7 +3018,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a store. A man is standing near the cashier holding a red box. Next to him, a store clerk is processing a payment by scanning a card. Behind them, there are many pieces of jewelry displayed on the wall. The store looks organized and clean, creating a pleasant shopping environment.",
-      "fullScoreAnswer": "This is a picture taken in a store. A man is standing near the cashier holding a red box. Next to him, a store clerk is processing a payment by scanning a card. Behind them, there are many pieces of jewelry displayed on the wall. The store looks organized and clean, creating a pleasant shopping environment. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a store. A man is standing near the cashier holding a red box. Next to him, a store clerk is processing a payment by scanning a card. Behind them, there are many pieces of jewelry displayed on the wall. The store looks organized and clean, creating a pleasant shopping environment. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题40大学生是否应该花时间去参加社区活动.json-2",
@@ -3228,7 +3048,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "In the picture, there are three people in a kitchen. On the left, a man is holding kitchen paper. The woman in the middle is looking at him and speaking. On the right, another woman is taking something from a cabinet. The kitchen appears organized and bright, and everyone seems focused on their tasks.",
-      "fullScoreAnswer": "In the picture, there are three people in a kitchen. On the left, a man is holding kitchen paper. The woman in the middle is looking at him and speaking. On the right, another woman is taking something from a cabinet. The kitchen appears organized and bright, and everyone seems focused on their tasks. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "In the picture, there are three people in a kitchen. On the left, a man is holding kitchen paper. The woman in the middle is looking at him and speaking. On the right, another woman is taking something from a cabinet. The kitchen appears organized and bright, and everyone seems focused on their tasks. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题41作为主管你认为是经验重要还是沟通能力重要.json-1",
@@ -3258,7 +3078,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a supermarket which shows two women. One woman is choosing plates, and the other woman is holding a cup. The supermarket looks clean and well-organized, and both women appear to be shopping carefully, paying attention to the items on the shelves.",
-      "fullScoreAnswer": "This is a picture taken in a supermarket which shows two women. One woman is choosing plates, and the other woman is holding a cup. The supermarket looks clean and well-organized, and both women appear to be shopping carefully, paying attention to the items on the shelves. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a supermarket which shows two women. One woman is choosing plates, and the other woman is holding a cup. The supermarket looks clean and well-organized, and both women appear to be shopping carefully, paying attention to the items on the shelves. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题42员工自己设置工作时间有什么好处.json-2",
@@ -3288,7 +3108,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in an office building with a spiral staircase. In the foreground, a woman is sitting on a bench, focused on her mobile phone. In the background, a man in business attire is leaning on the railing while talking on his phone. The building is clean and bright, suggesting a professional work environment. Both individuals appear busy and engaged in their tasks.",
-      "fullScoreAnswer": "This is a picture taken in an office building with a spiral staircase. In the foreground, a woman is sitting on a bench, focused on her mobile phone. In the background, a man in business attire is leaning on the railing while talking on his phone. The building is clean and bright, suggesting a professional work environment. Both individuals appear busy and engaged in their tasks. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in an office building with a spiral staircase. In the foreground, a woman is sitting on a bench, focused on her mobile phone. In the background, a man in business attire is leaning on the railing while talking on his phone. The building is clean and bright, suggesting a professional work environment. Both individuals appear busy and engaged in their tasks. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题04offer是否要跟家里人交流.json-1",
@@ -3318,7 +3138,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture is taken in a park. There are many people. In the middle, a girl in a black skirt is walking. Nearby, several people are sitting on benches and talking. In the background, there are trees and green grass, creating a relaxing and pleasant atmosphere.",
-      "fullScoreAnswer": "This picture is taken in a park. There are many people. In the middle, a girl in a black skirt is walking. Nearby, several people are sitting on benches and talking. In the background, there are trees and green grass, creating a relaxing and pleasant atmosphere. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture is taken in a park. There are many people. In the middle, a girl in a black skirt is walking. Nearby, several people are sitting on benches and talking. In the background, there are trees and green grass, creating a relaxing and pleasant atmosphere. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题06未来一代为什么比现在一代更健康.json-2",
@@ -3348,7 +3168,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a street scene. There is a man and a woman. The woman is squatting near a bicycle and seems to be locking it. The man is standing beside a car and opening the door. In the background, there are two more cars and many trees, which suggests this area is green and quiet.",
-      "fullScoreAnswer": "The picture shows a street scene. There is a man and a woman. The woman is squatting near a bicycle and seems to be locking it. The man is standing beside a car and opening the door. In the background, there are two more cars and many trees, which suggests this area is green and quiet. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a street scene. There is a man and a woman. The woman is squatting near a bicycle and seems to be locking it. The man is standing beside a car and opening the door. In the background, there are two more cars and many trees, which suggests this area is green and quiet. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题11政府提供免费大学课程的好处有哪些.json-1",
@@ -3378,7 +3198,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture is taken outside on a street with six people. An elderly man is walking in the middle. On the left, a short-haired lady is talking to a man in black. On the right, a gentleman and a lady are sitting around a small round table and chatting. In the background, there is a building with a white sculpture, maybe a museum.",
-      "fullScoreAnswer": "This picture is taken outside on a street with six people. An elderly man is walking in the middle. On the left, a short-haired lady is talking to a man in black. On the right, a gentleman and a lady are sitting around a small round table and chatting. In the background, there is a building with a white sculpture, maybe a museum. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture is taken outside on a street with six people. An elderly man is walking in the middle. On the left, a short-haired lady is talking to a man in black. On the right, a gentleman and a lady are sitting around a small round table and chatting. In the background, there is a building with a white sculpture, maybe a museum. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题14去当实习生吗.json-2",
@@ -3408,7 +3228,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken on a street. On the left, a woman and a man are talking, the man is with a dog and wearing a green hat. In the middle, a young boy is leaning against a wall. On the right, two people are waiting for the traffic light.",
-      "fullScoreAnswer": "This picture may be taken on a street. On the left, a woman and a man are talking, the man is with a dog and wearing a green hat. In the middle, a young boy is leaning against a wall. On the right, two people are waiting for the traffic light. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken on a street. On the left, a woman and a man are talking, the man is with a dog and wearing a green hat. In the middle, a young boy is leaning against a wall. On the right, two people are waiting for the traffic light. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题15获得professional success是否需要take risk.json-1",
@@ -3438,7 +3258,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken on a street. In the middle, three people are standing beside bicycles, wearing professional cycling equipment, seeming to enjoy cycling. On the left, a person is walking, and on the right, a man is sitting in a chair.",
-      "fullScoreAnswer": "This picture may be taken on a street. In the middle, three people are standing beside bicycles, wearing professional cycling equipment, seeming to enjoy cycling. On the left, a person is walking, and on the right, a man is sitting in a chair. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken on a street. In the middle, three people are standing beside bicycles, wearing professional cycling equipment, seeming to enjoy cycling. On the left, a person is walking, and on the right, a man is sitting in a chair. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题19个公司的多处不同城市工作的好处.json-1",
@@ -3468,7 +3288,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken on a street. On the left, a man dressed in black is sitting on a bench making a phone call. Next to him, a woman in a green dress is sitting and looking at her mobile phone. On the right, a woman is walking on the road carrying a bun. There are several people around.",
-      "fullScoreAnswer": "This picture may be taken on a street. On the left, a man dressed in black is sitting on a bench making a phone call. Next to him, a woman in a green dress is sitting and looking at her mobile phone. On the right, a woman is walking on the road carrying a bun. There are several people around. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken on a street. On the left, a man dressed in black is sitting on a bench making a phone call. Next to him, a woman in a green dress is sitting and looking at her mobile phone. On the right, a woman is walking on the road carrying a bun. There are several people around. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题29网络和电子设备会取代报纸吗.json-4",
@@ -3498,7 +3318,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a busy street scene in a small town. There are many people on the street. In the middle, two women are walking forward with their backs to the camera. Opposite them, a couple is pushing a baby stroller, probably taking a walk with their child. In the background, there are green mountains, houses and lush plants, making the scene very beautiful and peaceful.",
-      "fullScoreAnswer": "The picture shows a busy street scene in a small town. There are many people on the street. In the middle, two women are walking forward with their backs to the camera. Opposite them, a couple is pushing a baby stroller, probably taking a walk with their child. In the background, there are green mountains, houses and lush plants, making the scene very beautiful and peaceful. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a busy street scene in a small town. There are many people on the street. In the middle, two women are walking forward with their backs to the camera. Opposite them, a couple is pushing a baby stroller, probably taking a walk with their child. In the background, there are green mountains, houses and lush plants, making the scene very beautiful and peaceful. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题35父母让孩子做家务的好处.json-2",
@@ -3528,7 +3348,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "There are four people standing at the front desk. A female staff member is pointing in a direction to assist a visitor. A man is talking on the phone while carrying a bag. In the background, there are paintings on the wall, indicating it might be an art gallery or library.",
-      "fullScoreAnswer": "There are four people standing at the front desk. A female staff member is pointing in a direction to assist a visitor. A man is talking on the phone while carrying a bag. In the background, there are paintings on the wall, indicating it might be an art gallery or library. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "There are four people standing at the front desk. A female staff member is pointing in a direction to assist a visitor. A man is talking on the phone while carrying a bag. In the background, there are paintings on the wall, indicating it might be an art gallery or library. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题37对于一个求职者哪个最重要.json-2",
@@ -3558,7 +3378,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows a museum with several sculptures. A man wearing black clothes is crouching to take a photo of a sculpture, while a woman is observing another sculpture nearby. Other visitors are also looking around. The museum has a quiet and calm atmosphere suitable for enjoying art.",
-      "fullScoreAnswer": "The picture shows a museum with several sculptures. A man wearing black clothes is crouching to take a photo of a sculpture, while a woman is observing another sculpture nearby. Other visitors are also looking around. The museum has a quiet and calm atmosphere suitable for enjoying art. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows a museum with several sculptures. A man wearing black clothes is crouching to take a photo of a sculpture, while a woman is observing another sculpture nearby. Other visitors are also looking around. The museum has a quiet and calm atmosphere suitable for enjoying art. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题39技术是否很难平衡工作和生活.json-1",
@@ -3588,7 +3408,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a library. In the front, a woman in black is sitting on a chair reading a book. Next to her, another woman in black is looking for a book on the bookshelf. A man in white is walking in the background. Several people are sitting on sofas further back. The library looks quiet and peaceful, providing a relaxing environment for reading and studying.",
-      "fullScoreAnswer": "This is a picture taken in a library. In the front, a woman in black is sitting on a chair reading a book. Next to her, another woman in black is looking for a book on the bookshelf. A man in white is walking in the background. Several people are sitting on sofas further back. The library looks quiet and peaceful, providing a relaxing environment for reading and studying. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a library. In the front, a woman in black is sitting on a chair reading a book. Next to her, another woman in black is looking for a book on the bookshelf. A man in white is walking in the background. Several people are sitting on sofas further back. The library looks quiet and peaceful, providing a relaxing environment for reading and studying. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题40大学生是否应该花时间去参加社区活动.json-1",
@@ -3618,7 +3438,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This image shows a busy scene at a T-junction. In the foreground, a group of people is gathered near a flower bed, which has colorful plants and flowers. Some people are walking, while others are standing and talking. In the background, several cars are visible on the road, indicating traffic movement. The combination of greenery and urban activity makes the scene lively and vibrant.",
-      "fullScoreAnswer": "This image shows a busy scene at a T-junction. In the foreground, a group of people is gathered near a flower bed, which has colorful plants and flowers. Some people are walking, while others are standing and talking. In the background, several cars are visible on the road, indicating traffic movement. The combination of greenery and urban activity makes the scene lively and vibrant. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This image shows a busy scene at a T-junction. In the foreground, a group of people is gathered near a flower bed, which has colorful plants and flowers. Some people are walking, while others are standing and talking. In the background, several cars are visible on the road, indicating traffic movement. The combination of greenery and urban activity makes the scene lively and vibrant. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题41作为主管你认为是经验重要还是沟通能力重要.json-2",
@@ -3648,7 +3468,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows four people on a street. On the left, a man is talking with two women. They seem engaged in a conversation and smiling. On the right, another man is walking by carrying two shopping bags. The street appears clean and orderly, and the scene is lively.",
-      "fullScoreAnswer": "The picture shows four people on a street. On the left, a man is talking with two women. They seem engaged in a conversation and smiling. On the right, another man is walking by carrying two shopping bags. The street appears clean and orderly, and the scene is lively. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows four people on a street. On the left, a man is talking with two women. They seem engaged in a conversation and smiling. On the right, another man is walking by carrying two shopping bags. The street appears clean and orderly, and the scene is lively. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题42员工自己设置工作时间有什么好处.json-1",
@@ -3678,7 +3498,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a classroom. There are three people in it. In the front, a girl is sitting at a table while drinking from a cup. There is also a laptop in front of her. Behind her, two girls are at another table. One is typing on a laptop, while the other is writing in a notebook. They all look focused and attentive. A clock is hanging on the wall in the background, and the room is well-lit and organized.",
-      "fullScoreAnswer": "This is a picture taken in a classroom. There are three people in it. In the front, a girl is sitting at a table while drinking from a cup. There is also a laptop in front of her. Behind her, two girls are at another table. One is typing on a laptop, while the other is writing in a notebook. They all look focused and attentive. A clock is hanging on the wall in the background, and the room is well-lit and organized. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a classroom. There are three people in it. In the front, a girl is sitting at a table while drinking from a cup. There is also a laptop in front of her. Behind her, two girls are at another table. One is typing on a laptop, while the other is writing in a notebook. They all look focused and attentive. A clock is hanging on the wall in the background, and the room is well-lit and organized. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-模拟题1.json-2",
@@ -3708,7 +3528,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture of a bright room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. Some furniture and green plants can be seen in the background.",
-      "fullScoreAnswer": "This is a picture of a bright room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. Some furniture and green plants can be seen in the background. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture of a bright room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. Some furniture and green plants can be seen in the background. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题01沟通组织解决问题哪个重要.json-2",
@@ -3738,7 +3558,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture shows a room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. In the background, we can see furniture and green plants.",
-      "fullScoreAnswer": "This picture shows a room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. In the background, we can see furniture and green plants. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture shows a room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. In the background, we can see furniture and green plants. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题04offer是否要跟家里人交流.json-2",
@@ -3768,7 +3588,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows two girls and one boy on a farm. The boy on the right is feeding chickens. One girl is standing and watching, while the other girl is taking photos. In the background, there are more chickens and farm buildings.",
-      "fullScoreAnswer": "The picture shows two girls and one boy on a farm. The boy on the right is feeding chickens. One girl is standing and watching, while the other girl is taking photos. In the background, there are more chickens and farm buildings. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows two girls and one boy on a farm. The boy on the right is feeding chickens. One girl is standing and watching, while the other girl is taking photos. In the background, there are more chickens and farm buildings. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题06未来一代为什么比现在一代更健康.json-1",
@@ -3798,7 +3618,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in a clothing store. There are two women and one man. On the left, a young woman is trying on some clothes, while an older woman is standing next to her and watching carefully. Behind them, a man is standing quietly. On the right side, there are metal artworks used as decoration. The store looks modern and well-designed.",
-      "fullScoreAnswer": "This picture was taken in a clothing store. There are two women and one man. On the left, a young woman is trying on some clothes, while an older woman is standing next to her and watching carefully. Behind them, a man is standing quietly. On the right side, there are metal artworks used as decoration. The store looks modern and well-designed. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in a clothing store. There are two women and one man. On the left, a young woman is trying on some clothes, while an older woman is standing next to her and watching carefully. Behind them, a man is standing quietly. On the right side, there are metal artworks used as decoration. The store looks modern and well-designed. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题08作为老板高效沟通是不是最重要.json-1",
@@ -3828,7 +3648,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken at an outdoor music concert. In the foreground, many audience members are seated and enjoying the performance. On the stage, a guitarist and a drummer are playing. The sky is clear and sunny, creating a lively atmosphere.",
-      "fullScoreAnswer": "This is a picture taken at an outdoor music concert. In the foreground, many audience members are seated and enjoying the performance. On the stage, a guitarist and a drummer are playing. The sky is clear and sunny, creating a lively atmosphere. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken at an outdoor music concert. In the foreground, many audience members are seated and enjoying the performance. On the stage, a guitarist and a drummer are playing. The sky is clear and sunny, creating a lively atmosphere. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题09学术专业成功最重要因素.json-1",
@@ -3858,7 +3678,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken outdoors. In the foreground, a young woman is using a tablet to take photos of her friends. The others are smiling and enjoying the moment. In the background, there are large houses, trees, and a mountain. The weather is sunny and clear.",
-      "fullScoreAnswer": "This is a picture taken outdoors. In the foreground, a young woman is using a tablet to take photos of her friends. The others are smiling and enjoying the moment. In the background, there are large houses, trees, and a mountain. The weather is sunny and clear. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken outdoors. In the foreground, a young woman is using a tablet to take photos of her friends. The others are smiling and enjoying the moment. In the background, there are large houses, trees, and a mountain. The weather is sunny and clear. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题10买房比租房的缺点.json-1",
@@ -3888,7 +3708,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture is taken in a hospital building with seven people. On the left, a man is walking and making a phone call. In the middle, four people are climbing the stairs, with a lady picking up some documents and a man helping her. On the right, a man and a woman are talking to each other. All of them are very busy.",
-      "fullScoreAnswer": "This picture is taken in a hospital building with seven people. On the left, a man is walking and making a phone call. In the middle, four people are climbing the stairs, with a lady picking up some documents and a man helping her. On the right, a man and a woman are talking to each other. All of them are very busy. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture is taken in a hospital building with seven people. On the left, a man is walking and making a phone call. In the middle, four people are climbing the stairs, with a lady picking up some documents and a man helping her. On the right, a man and a woman are talking to each other. All of them are very busy. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题10买房比租房的缺点.json-2",
@@ -3918,7 +3738,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture may be taken in a laboratory with many people inside. On the left, a man and a woman are sitting at a table and reading books. In the middle, a lady is opening the refrigerator door. On the right, a lady is observing something through a microscope on the platform.",
-      "fullScoreAnswer": "The picture may be taken in a laboratory with many people inside. On the left, a man and a woman are sitting at a table and reading books. In the middle, a lady is opening the refrigerator door. On the right, a lady is observing something through a microscope on the platform. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture may be taken in a laboratory with many people inside. On the left, a man and a woman are sitting at a table and reading books. In the middle, a lady is opening the refrigerator door. On the right, a lady is observing something through a microscope on the platform. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题11政府提供免费大学课程的好处有哪些.json-2",
@@ -3948,7 +3768,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture is taken on a beach with many people. In the foreground, there is a wooden path with stone chairs. An old man is sitting, and two women are walking. A green flag is fluttering on the beach. In the background, there is a building, some coconut trees, blue sky, white clouds, and some seabirds over the sea. It is a nice weather.",
-      "fullScoreAnswer": "The picture is taken on a beach with many people. In the foreground, there is a wooden path with stone chairs. An old man is sitting, and two women are walking. A green flag is fluttering on the beach. In the background, there is a building, some coconut trees, blue sky, white clouds, and some seabirds over the sea. It is a nice weather. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture is taken on a beach with many people. In the foreground, there is a wooden path with stone chairs. An old man is sitting, and two women are walking. A green flag is fluttering on the beach. In the background, there is a building, some coconut trees, blue sky, white clouds, and some seabirds over the sea. It is a nice weather. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题12毕业后第一份工作必要吗.json-1",
@@ -3978,7 +3798,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture shows a ship on the sea with four people on deck. Two men are sitting on chairs, one in a white shirt is adjusting his collar, the other is looking at his cellphone. Behind them, two people are standing and chatting. Mountains and trees can be seen on the shore in the background.",
-      "fullScoreAnswer": "This picture shows a ship on the sea with four people on deck. Two men are sitting on chairs, one in a white shirt is adjusting his collar, the other is looking at his cellphone. Behind them, two people are standing and chatting. Mountains and trees can be seen on the shore in the background. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture shows a ship on the sea with four people on deck. Two men are sitting on chairs, one in a white shirt is adjusting his collar, the other is looking at his cellphone. Behind them, two people are standing and chatting. Mountains and trees can be seen on the shore in the background. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题13offer是否需要考虑公司的名誉.json-1",
@@ -4008,7 +3828,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in a home. A girl in a black dress was lying on a chair reading a book. Next to her was a man in a red T-shirt lying on a chair with a bottle of water in his hand. A man can be seen behind him, standing in the middle of the door. A motorbike is visible on the left.",
-      "fullScoreAnswer": "This picture may be taken in a home. A girl in a black dress was lying on a chair reading a book. Next to her was a man in a red T-shirt lying on a chair with a bottle of water in his hand. A man can be seen behind him, standing in the middle of the door. A motorbike is visible on the left. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in a home. A girl in a black dress was lying on a chair reading a book. Next to her was a man in a red T-shirt lying on a chair with a bottle of water in his hand. A man can be seen behind him, standing in the middle of the door. A motorbike is visible on the left. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题13offer是否需要考虑公司的名誉.json-2",
@@ -4038,7 +3858,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture of a chemistry lab. Three people are wearing white overalls. In front, a boy is standing next to a table preparing experimental materials. A girl in the back is opening the fridge to store chemicals. Another girl is entering from outside.",
-      "fullScoreAnswer": "This is a picture of a chemistry lab. Three people are wearing white overalls. In front, a boy is standing next to a table preparing experimental materials. A girl in the back is opening the fridge to store chemicals. Another girl is entering from outside. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture of a chemistry lab. Three people are wearing white overalls. In front, a boy is standing next to a table preparing experimental materials. A girl in the back is opening the fridge to store chemicals. Another girl is entering from outside. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题16有钱就快乐吗.json-2",
@@ -4068,7 +3888,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture of a lab. In the middle, two women are working closely and talking, and behind them a girl is reading a book. On the right, a woman seems a teacher talking to another girl. In the background, there is a test bed with equipment. A woman dressed in black is working there.",
-      "fullScoreAnswer": "This is a picture of a lab. In the middle, two women are working closely and talking, and behind them a girl is reading a book. On the right, a woman seems a teacher talking to another girl. In the background, there is a test bed with equipment. A woman dressed in black is working there. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture of a lab. In the middle, two women are working closely and talking, and behind them a girl is reading a book. On the right, a woman seems a teacher talking to another girl. In the background, there is a test bed with equipment. A woman dressed in black is working there. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题17幽默humor还是严肃serious.json-1",
@@ -4098,7 +3918,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in a waiting room. On the left, four women are sitting on a black bench and watching a TV display. In front of them, two boys are on a bench, one sitting and one lying down. To the right of the TV, there is an animal statue. In the background, three female attendants are standing and talking together.",
-      "fullScoreAnswer": "This picture may be taken in a waiting room. On the left, four women are sitting on a black bench and watching a TV display. In front of them, two boys are on a bench, one sitting and one lying down. To the right of the TV, there is an animal statue. In the background, three female attendants are standing and talking together. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in a waiting room. On the left, four women are sitting on a black bench and watching a TV display. In front of them, two boys are on a bench, one sitting and one lying down. To the right of the TV, there is an animal statue. In the background, three female attendants are standing and talking together. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题17幽默humor还是严肃serious.json-2",
@@ -4128,7 +3948,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in front of a shop. On the right, two women are sitting under a sunshade and eating snacks. Another older woman is walking with a glass in her hand. In the background, there is a white house which seems like a coffee shop, with some green grass in front. It is a sunny day and people seem to enjoy themselves.",
-      "fullScoreAnswer": "This picture may be taken in front of a shop. On the right, two women are sitting under a sunshade and eating snacks. Another older woman is walking with a glass in her hand. In the background, there is a white house which seems like a coffee shop, with some green grass in front. It is a sunny day and people seem to enjoy themselves. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in front of a shop. On the right, two women are sitting under a sunshade and eating snacks. Another older woman is walking with a glass in her hand. In the background, there is a white house which seems like a coffee shop, with some green grass in front. It is a sunny day and people seem to enjoy themselves. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题18项目中分歧需要解决还是忽略.json-1",
@@ -4158,7 +3978,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in a public square. There are many people. In the middle, a man is riding a bicycle. On the right, a man is holding a hat. In the background, there are some trees and a tower. The square looks crowded, and people seem to enjoy being there.",
-      "fullScoreAnswer": "This picture may be taken in a public square. There are many people. In the middle, a man is riding a bicycle. On the right, a man is holding a hat. In the background, there are some trees and a tower. The square looks crowded, and people seem to enjoy being there. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in a public square. There are many people. In the middle, a man is riding a bicycle. On the right, a man is holding a hat. In the background, there are some trees and a tower. The square looks crowded, and people seem to enjoy being there. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题18项目中分歧需要解决还是忽略.json-2",
@@ -4188,7 +4008,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in a park with a lake. On the shore, five people are looking at the lake. In the middle of the lake, two people are rowing a boat. In the background, there are several sculptures and many trees. It looks like a relaxing place for visitors.",
-      "fullScoreAnswer": "This picture may be taken in a park with a lake. On the shore, five people are looking at the lake. In the middle of the lake, two people are rowing a boat. In the background, there are several sculptures and many trees. It looks like a relaxing place for visitors. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in a park with a lake. On the shore, five people are looking at the lake. In the middle of the lake, two people are rowing a boat. In the background, there are several sculptures and many trees. It looks like a relaxing place for visitors. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题20独自运动还是.json-1",
@@ -4218,7 +4038,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken in a school campus. On the right, two boys are carrying bags and standing beside the roadmap. They seem to be looking for directions. In the middle, one girl is looking at the school building, and another girl is carrying a bag and holding an umbrella. In the background, there are many students and buildings, and grasses on the ground.",
-      "fullScoreAnswer": "This picture may be taken in a school campus. On the right, two boys are carrying bags and standing beside the roadmap. They seem to be looking for directions. In the middle, one girl is looking at the school building, and another girl is carrying a bag and holding an umbrella. In the background, there are many students and buildings, and grasses on the ground. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken in a school campus. On the right, two boys are carrying bags and standing beside the roadmap. They seem to be looking for directions. In the middle, one girl is looking at the school building, and another girl is carrying a bag and holding an umbrella. In the background, there are many students and buildings, and grasses on the ground. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题20独自运动还是.json-2",
@@ -4248,7 +4068,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture may be taken on the beach. Many people are having fun there. On the beach, I can see lots of people and umbrellas. Some people are standing, while others are sitting. In the sea, there are many people swimming. In the background, the sky is blue with white clouds. It is a sunny day and everyone seems happy.",
-      "fullScoreAnswer": "This picture may be taken on the beach. Many people are having fun there. On the beach, I can see lots of people and umbrellas. Some people are standing, while others are sitting. In the sea, there are many people swimming. In the background, the sky is blue with white clouds. It is a sunny day and everyone seems happy. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture may be taken on the beach. Many people are having fun there. On the beach, I can see lots of people and umbrellas. Some people are standing, while others are sitting. In the sea, there are many people swimming. In the background, the sky is blue with white clouds. It is a sunny day and everyone seems happy. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题21进入大学前实习gap year有哪些好处.json-2",
@@ -4278,7 +4098,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This may be a picture of an awarding ceremony. On the stage, there are two women. The woman on the left seems to be the host, giving an award to the other woman who is the winner and looks very happy. Under the stage, many people are sitting and applauding.",
-      "fullScoreAnswer": "This may be a picture of an awarding ceremony. On the stage, there are two women. The woman on the left seems to be the host, giving an award to the other woman who is the winner and looks very happy. Under the stage, many people are sitting and applauding. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This may be a picture of an awarding ceremony. On the stage, there are two women. The woman on the left seems to be the host, giving an award to the other woman who is the winner and looks very happy. Under the stage, many people are sitting and applauding. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题22工作经验还是教育背景重要.json-1",
@@ -4308,7 +4128,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a park with a lake. On the shore, five people are preparing to go boating. In the middle of the lake, two people are on a boat. In the background, there are some sculptures and many trees. This place seems perfect for sightseeing and relaxing.",
-      "fullScoreAnswer": "This is a picture taken in a park with a lake. On the shore, five people are preparing to go boating. In the middle of the lake, two people are on a boat. In the background, there are some sculptures and many trees. This place seems perfect for sightseeing and relaxing. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a park with a lake. On the shore, five people are preparing to go boating. In the middle of the lake, two people are on a boat. In the background, there are some sculptures and many trees. This place seems perfect for sightseeing and relaxing. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题22工作经验还是教育背景重要.json-2",
@@ -4338,7 +4158,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture is taken in a laboratory. On the left, a man and a woman are sitting at a table reading books. In the middle, a lady is opening the right door of a fridge and taking something out. On the right, a lady is observing something through a microscope on the platform.",
-      "fullScoreAnswer": "This picture is taken in a laboratory. On the left, a man and a woman are sitting at a table reading books. In the middle, a lady is opening the right door of a fridge and taking something out. On the right, a lady is observing something through a microscope on the platform. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture is taken in a laboratory. On the left, a man and a woman are sitting at a table reading books. In the middle, a lady is opening the right door of a fridge and taking something out. On the right, a lady is observing something through a microscope on the platform. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题23大学毕业继续和父母住还是单独住.json-1",
@@ -4368,7 +4188,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken outdoors. In the foreground, two people are standing behind a large truck. On the side of the truck, I can see many potted flowers. In the background, a car is loading and unloading flowerpots for a flower shop. On the right, a man is standing and dragging a trailer with some small boxes.",
-      "fullScoreAnswer": "This is a picture taken outdoors. In the foreground, two people are standing behind a large truck. On the side of the truck, I can see many potted flowers. In the background, a car is loading and unloading flowerpots for a flower shop. On the right, a man is standing and dragging a trailer with some small boxes. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken outdoors. In the foreground, two people are standing behind a large truck. On the side of the truck, I can see many potted flowers. In the background, a car is loading and unloading flowerpots for a flower shop. On the right, a man is standing and dragging a trailer with some small boxes. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题23大学毕业继续和父母住还是单独住.json-2",
@@ -4398,7 +4218,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This is a picture taken in a coffee shop. There are a lot of people here. In the foreground, a girl is sitting at a table and looking at a white computer on the table. In the background, three old people are sitting at a table and discussing something.",
-      "fullScoreAnswer": "This is a picture taken in a coffee shop. There are a lot of people here. In the foreground, a girl is sitting at a table and looking at a white computer on the table. In the background, three old people are sitting at a table and discussing something. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This is a picture taken in a coffee shop. There are a lot of people here. In the foreground, a girl is sitting at a table and looking at a white computer on the table. In the background, three old people are sitting at a table and discussing something. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题28你认为elementary school的学生是否需要开始学英语.json-2",
@@ -4428,7 +4248,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "In the picture, there is a bakery. A server is helping a man at the counter. Behind him, three women are looking at the food on the shelves. They seem to be choosing something to buy.",
-      "fullScoreAnswer": "In the picture, there is a bakery. A server is helping a man at the counter. Behind him, three women are looking at the food on the shelves. They seem to be choosing something to buy. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "In the picture, there is a bakery. A server is helping a man at the counter. Behind him, three women are looking at the food on the shelves. They seem to be choosing something to buy. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-2",
@@ -4458,7 +4278,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture was taken in a chemistry laboratory. Three people in the front are sitting and discussing something at a table with two microscopes. Behind them, one man is standing and looking toward them. There are cabinets in the background, and the lab looks clean and quiet.",
-      "fullScoreAnswer": "This picture was taken in a chemistry laboratory. Three people in the front are sitting and discussing something at a table with two microscopes. Behind them, one man is standing and looking toward them. There are cabinets in the background, and the lab looks clean and quiet. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in a chemistry laboratory. Three people in the front are sitting and discussing something at a table with two microscopes. Behind them, one man is standing and looking toward them. There are cabinets in the background, and the lab looks clean and quiet. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题31发生分歧是直接解决还是找领导帮忙.json-2",
@@ -4488,7 +4308,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This photo was taken in a chemistry laboratory. There are four people: two people are looking through a microscope, another man is preparing reagents, and at the back, a woman is searching for something in the cabinet. All of them are wearing white lab coats. The lab looks very clean, bright, and quiet.",
-      "fullScoreAnswer": "This photo was taken in a chemistry laboratory. There are four people: two people are looking through a microscope, another man is preparing reagents, and at the back, a woman is searching for something in the cabinet. All of them are wearing white lab coats. The lab looks very clean, bright, and quiet. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The photograph appears to have been taken in a chemistry laboratory. There are four people: two people are looking through a microscope, another man is preparing reagents, and at the back, a woman is searching for something in the cabinet. All of them are wearing white lab coats. The lab looks very clean, bright, and quiet. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题33在21岁以下开车的坏处.json-1",
@@ -4518,7 +4338,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "Let me describe this scene. There's a big mountain and a small forest in the background. Up front, there's a large lake, and beyond that, a road. On a chair by the road, two men are sitting, and on the other side, a man is crouching to fix a bike.",
-      "fullScoreAnswer": "Let me describe this scene. There's a big mountain and a small forest in the background. Up front, there's a large lake, and beyond that, a road. On a chair by the road, two men are sitting, and on the other side, a man is crouching to fix a bike. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "Let me describe this scene. There's a big mountain and a small forest in the background. Up front, there's a large lake, and beyond that, a road. On a chair by the road, two men are sitting, and on the other side, a man is crouching to fix a bike. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题33在21岁以下开车的坏处.json-2",
@@ -4548,7 +4368,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "This picture shows a barbershop with five people. On the right, a man and a woman are sitting in chairs. Two women are cutting their hair, one working on the man and the other on the woman. The environment looks bright and professional.",
-      "fullScoreAnswer": "This picture shows a barbershop with five people. On the right, a man and a woman are sitting in chairs. Two women are cutting their hair, one working on the man and the other on the woman. The environment looks bright and professional. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "This picture shows a barbershop with five people. On the right, a man and a woman are sitting in chairs. Two women are cutting their hair, one working on the man and the other on the woman. The environment looks bright and professional. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题34职业生涯中频繁更换公司的好处.json-2",
@@ -4578,7 +4398,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "The picture shows four people in a chemistry laboratory. A teacher wearing a white lab coat is talking to a woman. Next to them, a man is listening carefully, and there is a microscope beside him. In the back, another man is standing. There are many cabinets in the background.",
-      "fullScoreAnswer": "The picture shows four people in a chemistry laboratory. A teacher wearing a white lab coat is talking to a woman. Next to them, a man is listening carefully, and there is a microscope beside him. In the back, another man is standing. There are many cabinets in the background. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "The picture shows four people in a chemistry laboratory. A teacher wearing a white lab coat is talking to a woman. Next to them, a man is listening carefully, and there is a microscope beside him. In the back, another man is standing. There are many cabinets in the background. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题36公司提供工作日锻炼的机会是否是一个好主意.json-1",
@@ -4608,7 +4428,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "In the picture, there are four people in an underground walkway. On the left, a woman is talking on the phone while walking. On the right, a man in a blue shirt is going down the stairs. In the middle, two people are walking up the stairs. Everyone seems busy and focused on their paths. The area is well-lit and clean, with handrails on both sides.",
-      "fullScoreAnswer": "In the picture, there are four people in an underground walkway. On the left, a woman is talking on the phone while walking. On the right, a man in a blue shirt is going down the stairs. In the middle, two people are walking up the stairs. Everyone seems busy and focused on their paths. The area is well-lit and clean, with handrails on both sides. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "In the picture, there are four people in an underground walkway. On the left, a woman is talking on the phone while walking. On the right, a man in a blue shirt is going down the stairs. In the middle, two people are walking up the stairs. Everyone seems busy and focused on their paths. The area is well-lit and clean, with handrails on both sides. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "2-真题36公司提供工作日锻炼的机会是否是一个好主意.json-2",
@@ -4638,7 +4458,7 @@ window.TOEIC_REVIEW_DATA = {
         "conclusion": "Overall, this looks like a normal everyday scene."
       },
       "questionBankAnswer": "In the picture, a man in a suit stands at a podium on the right, giving a speech. Several microphones are set up in front of him. On the left, a group of people are sitting or standing and listening attentively. Multiple cameras are recording the event. It appears to be a formal press conference with a serious atmosphere.",
-      "fullScoreAnswer": "In the picture, a man in a suit stands at a podium on the right, giving a speech. Several microphones are set up in front of him. On the left, a group of people are sitting or standing and listening attentively. Multiple cameras are recording the event. It appears to be a formal press conference with a serious atmosphere. Overall, this looks like a normal everyday scene."
+      "fullScoreAnswer": "In the picture, a man in a suit stands at a podium on the right, giving a speech. Several microphones are set up in front of him. On the left, a group of people are sitting or standing and listening attentively. Multiple cameras are recording the event. It appears to be a formal press conference with a serious atmosphere. Overall, the scene conveys a practical, well-organized atmosphere in which the people appear to be carrying out their responsibilities efficiently."
     },
     {
       "uid": "3-模拟题1.json-group",
@@ -4672,7 +4492,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "last time went gym days",
           "questionBankAnswer": "The last time I went to the gym was two days ago after work.",
-          "fullScoreAnswer": "The last time I went to the gym was two days ago after work."
+          "fullScoreAnswer": "To answer precisely, the last time I went to the gym was two days ago after work."
         },
         {
           "uid": "3-模拟题1.json-group-q2",
@@ -4686,7 +4506,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually go gym evening helps",
           "questionBankAnswer": "I usually go to the gym in the evening because it helps me relax after a long day.",
-          "fullScoreAnswer": "I usually go to the gym in the evening because it helps me relax after a long day."
+          "fullScoreAnswer": "To answer precisely, I usually go to the gym in the evening because it helps me relax after a long day."
         },
         {
           "uid": "3-模拟题1.json-group-q3",
@@ -4714,7 +4534,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，设备多的健身房对我更方便。"
           ],
           "questionBankAnswer": "I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
-          "fullScoreAnswer": "I prefer a gym with more equipment. First, I can choose different machines for my workout goals. Second, I do not have to wait too long. So, a well-equipped gym is more convenient for me."
+          "fullScoreAnswer": "I prefer a gym with more equipment. One important reason is that I can choose different machines for my workout goals. Moreover, I do not have to wait too long. Consequently, a well-equipped gym is more convenient for me."
         }
       ]
     },
@@ -4750,7 +4570,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "gym fitness center last time when",
           "questionBankAnswer": "The last time I went to the fitness center was yesterday evening after dinner.",
-          "fullScoreAnswer": "The last time I went to the fitness center was yesterday evening after dinner."
+          "fullScoreAnswer": "To answer precisely, the last time I went to the fitness center was yesterday evening after dinner."
         },
         {
           "uid": "3-真题01沟通组织解决问题哪个重要.json-group-q2",
@@ -4764,7 +4584,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "gym fitness center when why equipment",
           "questionBankAnswer": "I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily.",
-          "fullScoreAnswer": "I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily."
+          "fullScoreAnswer": "To answer precisely, I usually go to the fitness center after dinner because it is less crowded and I can use the equipment more easily."
         },
         {
           "uid": "3-真题01沟通组织解决问题哪个重要.json-group-q3",
@@ -4792,7 +4612,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，设备数量对我最重要。"
           ],
           "questionBankAnswer": "I prefer a gym with more equipment because I like to exercise by myself and use different machines for different muscle groups.",
-          "fullScoreAnswer": "I prefer a gym with more equipment. First, I like working out alone and choosing my own machines. Second, different machines train different parts of the body. So, the amount of equipment matters most to me."
+          "fullScoreAnswer": "I prefer a gym with more equipment. One important reason is that I like working out alone and choosing my own machines. Moreover, different machines train different parts of the body. Consequently, the amount of equipment matters most to me."
         }
       ]
     },
@@ -4828,7 +4648,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "bought computer needed studying entertainment",
           "questionBankAnswer": "I bought my computer in 2021 because I needed it for studying and entertainment.",
-          "fullScoreAnswer": "I bought my computer in 2021 because I needed it for studying and entertainment."
+          "fullScoreAnswer": "To answer precisely, I bought my computer in 2021 because I needed it for studying and entertainment."
         },
         {
           "uid": "3-真题04offer是否要跟家里人交流.json-group-q2",
@@ -4842,7 +4662,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "think computers sold online easier",
           "questionBankAnswer": "I think computers are sold more online because it is easier to compare prices and specifications.",
-          "fullScoreAnswer": "I think computers are sold more online because it is easier to compare prices and specifications."
+          "fullScoreAnswer": "To answer precisely, I think computers are sold more online because it is easier to compare prices and specifications."
         },
         {
           "uid": "3-真题04offer是否要跟家里人交流.json-group-q3",
@@ -4870,7 +4690,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会选择网上购买。"
           ],
           "questionBankAnswer": "I prefer buying computers online because it is more convenient and usually cheaper. I can also read customer reviews before making a decision.",
-          "fullScoreAnswer": "I prefer buying computers online. First, I can compare different models at home. Second, online prices are often lower, and I can read customer reviews. So, I would choose online shopping."
+          "fullScoreAnswer": "I prefer buying computers online. One important reason is that I can compare different models at home. Moreover, online prices are often lower, and I can read customer reviews. Consequently, I would choose online shopping."
         }
       ]
     },
@@ -4906,7 +4726,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "take train twice month usually",
           "questionBankAnswer": "I take the train about twice a month, usually to nearby cities for work or visiting friends.",
-          "fullScoreAnswer": "I take the train about twice a month, usually to nearby cities for work or visiting friends."
+          "fullScoreAnswer": "To answer precisely, I take the train about twice a month, usually to nearby cities for work or visiting friends."
         },
         {
           "uid": "3-真题05网上读新闻的坏处.json-group-q2",
@@ -4920,7 +4740,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "hope new station built near",
           "questionBankAnswer": "I hope the new station can be built near the city center because it will be convenient for most passengers.",
-          "fullScoreAnswer": "I hope the new station can be built near the city center because it will be convenient for most passengers."
+          "fullScoreAnswer": "To answer precisely, I hope the new station can be built near the city center because it will be convenient for most passengers."
         },
         {
           "uid": "3-真题05网上读新闻的坏处.json-group-q3",
@@ -4948,7 +4768,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，车站应该优先保持清洁。"
           ],
           "questionBankAnswer": "I think cleanliness is the most important factor in a train station. A clean environment makes passengers feel comfortable and leaves a good impression of the city.",
-          "fullScoreAnswer": "I think cleanliness is most important at a train station. First, a clean place makes passengers feel comfortable. Second, it gives visitors a good impression of the city. So, the station should focus on cleanliness."
+          "fullScoreAnswer": "I think cleanliness is most important at a train station. One important reason is that a clean place makes passengers feel comfortable. Moreover, it gives visitors a good impression of the city. Consequently, the station should focus on cleanliness."
         }
       ]
     },
@@ -4984,7 +4804,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually go gym twice week",
           "questionBankAnswer": "Usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together.",
-          "fullScoreAnswer": "Usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together."
+          "fullScoreAnswer": "To answer precisely, usually I go to the gym twice a week, mostly with my friends or family, and we enjoy working out together."
         },
         {
           "uid": "3-真题08作为老板高效沟通是不是最重要.json-group-q2",
@@ -4998,7 +4818,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "prefer going gym evening am",
           "questionBankAnswer": "I prefer going to the gym in the evening because I am busy during the day and there are fewer people around.",
-          "fullScoreAnswer": "I prefer going to the gym in the evening because I am busy during the day and there are fewer people around."
+          "fullScoreAnswer": "To answer precisely, I prefer going to the gym in the evening because I am busy during the day and there are fewer people around."
         },
         {
           "uid": "3-真题08作为老板高效沟通是不是最重要.json-group-q3",
@@ -5026,7 +4846,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会先选择离家近的健身房。"
           ],
           "questionBankAnswer": "The most important factor is the distance from my home because I am busy. Also, I like having many machines so I can train different body parts effectively.",
-          "fullScoreAnswer": "Distance is most important when I choose a gym. First, a nearby gym saves travel time. Second, it is easier for me to exercise regularly. So, I would choose a gym close to home."
+          "fullScoreAnswer": "Distance is most important when I choose a gym. One important reason is that a nearby gym saves travel time. Moreover, it is easier for me to exercise regularly. Consequently, I would choose a gym close to home."
         }
       ]
     },
@@ -5062,7 +4882,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "oldest furniture house bed bought",
           "questionBankAnswer": "The oldest furniture in my house is my bed. I bought it ten years ago.",
-          "fullScoreAnswer": "The oldest furniture in my house is my bed. I bought it ten years ago."
+          "fullScoreAnswer": "To answer precisely, the oldest furniture in my house is my bed. I bought it ten years ago."
         },
         {
           "uid": "3-真题09学术专业成功最重要因素.json-group-q2",
@@ -5076,7 +4896,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "plan buy comfortable bed next",
           "questionBankAnswer": "I plan to buy a comfortable bed next week because the current one is old and squeaky.",
-          "fullScoreAnswer": "I plan to buy a comfortable bed next week because the current one is old and squeaky."
+          "fullScoreAnswer": "To answer precisely, I plan to buy a comfortable bed next week because the current one is old and squeaky."
         },
         {
           "uid": "3-真题09学术专业成功最重要因素.json-group-q3",
@@ -5104,7 +4924,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会先考虑舒适度。"
           ],
           "questionBankAnswer": "I think comfort is the most important factor. If furniture is not comfortable, it won't serve its purpose, even if it looks stylish or is made of high-quality materials.",
-          "fullScoreAnswer": "I think comfort is most important when choosing furniture. First, comfortable furniture helps me relax every day. Second, it can reduce physical tiredness. So, I would consider comfort first."
+          "fullScoreAnswer": "I think comfort is most important when choosing furniture. One important reason is that comfortable furniture helps me relax every day. Moreover, it can reduce physical tiredness. Consequently, I would consider comfort first."
         }
       ]
     },
@@ -5140,7 +4960,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "took bus last week alone",
           "questionBankAnswer": "I took the bus last week, and I took it alone to go to my office.",
-          "fullScoreAnswer": "I took the bus last week, and I took it alone to go to my office."
+          "fullScoreAnswer": "To answer precisely, I took the bus last week, and I took it alone to go to my office."
         },
         {
           "uid": "3-真题10买房比租房的缺点.json-group-q2",
@@ -5154,7 +4974,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "case wife uses car take",
           "questionBankAnswer": "In case my wife uses the car, I will take the bus because we have only one car and my office is far away from my house.",
-          "fullScoreAnswer": "In case my wife uses the car, I will take the bus because we have only one car and my office is far away from my house."
+          "fullScoreAnswer": "To answer precisely, in case my wife uses the car, I will take the bus because we have only one car and my office is far away from my house."
         },
         {
           "uid": "3-真题10买房比租房的缺点.json-group-q3",
@@ -5182,7 +5002,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，公交车对我来说很方便。"
           ],
           "questionBankAnswer": "Of course, I will. It is very convenient to take the bus and I can go anywhere I want. Besides, traffic in my city is not good, and the bus is cheaper than other transportation. If the destination is not far, I prefer the bus.",
-          "fullScoreAnswer": "Yes, I would travel by bus. First, taking the bus costs less than driving. Second, I do not need to find parking, and I can rest. So, the bus is convenient for me."
+          "fullScoreAnswer": "Yes, I would travel by bus. One important reason is that taking the bus costs less than driving. Moreover, I do not need to find parking, and I can rest. Consequently, the bus is convenient for me."
         }
       ]
     },
@@ -5218,7 +5038,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "contacted classmates several weeks ago",
           "questionBankAnswer": "I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation.",
-          "fullScoreAnswer": "I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation."
+          "fullScoreAnswer": "To answer precisely, I contacted my classmates several weeks ago to attend the 20th Anniversary Celebration of Graduation."
         },
         {
           "uid": "3-真题13offer是否需要考虑公司的名誉.json-group-q2",
@@ -5232,7 +5052,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "use email day contact colleagues",
           "questionBankAnswer": "I use email every day to contact my colleagues and customers.",
-          "fullScoreAnswer": "I use email every day to contact my colleagues and customers."
+          "fullScoreAnswer": "To answer precisely, I use email every day to contact my colleagues and customers."
         },
         {
           "uid": "3-真题13offer是否需要考虑公司的名誉.json-group-q3",
@@ -5260,7 +5080,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会根据事情是否紧急来选择。"
           ],
           "questionBankAnswer": "I usually use email first; however, if it is urgent, I will call directly.",
-          "fullScoreAnswer": "I usually email first, but I call when something is urgent. First, email leaves a clear written record. Second, a phone call solves urgent problems faster. So, I choose based on how urgent it is."
+          "fullScoreAnswer": "I usually email first, but I call when something is urgent. One important reason is that email leaves a clear written record. Moreover, a phone call solves urgent problems faster. Consequently, I choose based on how urgent it is."
         }
       ]
     },
@@ -5296,7 +5116,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "kms usually drive work",
           "questionBankAnswer": "It is about 10 kms. I usually drive to work.",
-          "fullScoreAnswer": "It is about 10 kms. I usually drive to work."
+          "fullScoreAnswer": "To answer precisely, it is about 10 kms. I usually drive to work."
         },
         {
           "uid": "3-真题15获得professional success是否需要take risk.json-group-q2",
@@ -5310,7 +5130,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "go work earlier less traffic",
           "questionBankAnswer": "I like to go to work earlier because there is less traffic and it saves time.",
-          "fullScoreAnswer": "I like to go to work earlier because there is less traffic and it saves time."
+          "fullScoreAnswer": "To answer precisely, I like to go to work earlier because there is less traffic and it saves time."
         },
         {
           "uid": "3-真题15获得professional success是否需要take risk.json-group-q3",
@@ -5338,7 +5158,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，好的主管能让工作更顺利。"
           ],
           "questionBankAnswer": "Good supervisor is my first choice. A good supervisor can create a positive work atmosphere. You feel happy during work and can get help when problems arise.",
-          "fullScoreAnswer": "I think a good supervisor is most important at work. First, a good supervisor gives clear guidance. Second, the supervisor can help when problems come up. So, a good supervisor makes work easier."
+          "fullScoreAnswer": "I think a good supervisor is most important at work. One important reason is that a good supervisor gives clear guidance. Moreover, the supervisor can help when problems come up. Consequently, a good supervisor makes work easier."
         }
       ]
     },
@@ -5374,7 +5194,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "think quality standard based material",
           "questionBankAnswer": "I think the quality standard should be based on material, weight, and style.",
-          "fullScoreAnswer": "I think the quality standard should be based on material, weight, and style."
+          "fullScoreAnswer": "To answer precisely, I think the quality standard should be based on material, weight, and style."
         },
         {
           "uid": "3-真题16有钱就快乐吗.json-group-q2",
@@ -5388,7 +5208,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "live beijing popular memento roast",
           "questionBankAnswer": "I live in Beijing. The most popular memento is Beijing Roast Duck because it is very famous and delicious. You must taste it when you go to Beijing.",
-          "fullScoreAnswer": "I live in Beijing. The most popular memento is Beijing Roast Duck because it is very famous and delicious. You must taste it when you go to Beijing."
+          "fullScoreAnswer": "To answer precisely, I live in Beijing. The most popular memento is Beijing Roast Duck because it is very famous and delicious. You must taste it when you go to Beijing."
         },
         {
           "uid": "3-真题16有钱就快乐吗.json-group-q3",
@@ -5416,7 +5236,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我更愿意在旅行时购买。"
           ],
           "questionBankAnswer": "No, I will not. A memento represents a memory of being somewhere. Although it is convenient to buy online, you can’t know the quality.",
-          "fullScoreAnswer": "I would not buy souvenirs online. First, I can check the quality when I buy them locally. Second, a local purchase feels more connected to the trip. So, I prefer buying souvenirs while traveling."
+          "fullScoreAnswer": "I would not buy souvenirs online. One important reason is that I can check the quality when I buy them locally. Moreover, a local purchase feels more connected to the trip. Consequently, I prefer buying souvenirs while traveling."
         }
       ]
     },
@@ -5452,7 +5272,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "latest birthday party held th",
           "questionBankAnswer": "The latest birthday party was held on 11th May. It was my daughter’s first birthday.",
-          "fullScoreAnswer": "The latest birthday party was held on 11th May. It was my daughter’s first birthday."
+          "fullScoreAnswer": "To answer precisely, the latest birthday party was held on 11th May. It was my daughter’s first birthday."
         },
         {
           "uid": "3-真题17幽默humor还是严肃serious.json-group-q2",
@@ -5466,7 +5286,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually buy gifts online convenient",
           "questionBankAnswer": "I usually buy gifts online. It is very convenient. For example, I buy a cake in the afternoon and it is delivered in the evening.",
-          "fullScoreAnswer": "I usually buy gifts online. It is very convenient. For example, I buy a cake in the afternoon and it is delivered in the evening."
+          "fullScoreAnswer": "To answer precisely, I usually buy gifts online. It is very convenient. For example, I buy a cake in the afternoon and it is delivered in the evening."
         },
         {
           "uid": "3-真题17幽默humor还是严肃serious.json-group-q3",
@@ -5494,7 +5314,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，多种食物能让每位客人都有选择。"
           ],
           "questionBankAnswer": "Yes. Birthday cake is a must, but not everyone has a sweet tooth. It is necessary to prepare different kinds of food. For example, for my daughter’s birthday, I prepared many foods and it cost about 1000 Yuan.",
-          "fullScoreAnswer": "I think a birthday party should offer different kinds of food. Guests have different tastes, and not everyone likes sweets. For example, at my daughter's party, I prepared cake, fruit, and some savory food. So, everyone had something to enjoy."
+          "fullScoreAnswer": "I think a birthday party should offer different kinds of food. This is mainly because guests have different tastes, and not everyone likes sweets. For instance, at my daughter's party, I prepared cake, fruit, and some savory food. For these reasons, everyone had something to enjoy."
         }
       ]
     },
@@ -5530,7 +5350,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "use computer day finish work",
           "questionBankAnswer": "I use a computer every day. I use it to finish my work tasks and play games in my spare time.",
-          "fullScoreAnswer": "I use a computer every day. I use it to finish my work tasks and play games in my spare time."
+          "fullScoreAnswer": "To answer precisely, I use a computer every day. I use it to finish my work tasks and play games in my spare time."
         },
         {
           "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q2",
@@ -5544,7 +5364,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "yes enjoy shopping computers new",
           "questionBankAnswer": "Yes, I enjoy shopping for computers. Because new computers have higher performance, and I can play more games smoothly with them.",
-          "fullScoreAnswer": "Yes, I enjoy shopping for computers. Because new computers have higher performance, and I can play more games smoothly with them."
+          "fullScoreAnswer": "To answer precisely, yes, I enjoy shopping for computers. Because new computers have higher performance, and I can play more games smoothly with them."
         },
         {
           "uid": "3-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q3",
@@ -5572,7 +5392,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会优先改进散热系统。"
           ],
           "questionBankAnswer": "I think the cooling system of the computer needs to be improved. After using it for a period of time, it becomes very hot, which affects my normal use of the computer.",
-          "fullScoreAnswer": "I think the computer's cooling system needs the most improvement. First, better cooling keeps the computer stable. Second, a lower temperature can make the computer last longer. So, I would improve the cooling system first."
+          "fullScoreAnswer": "I think the computer's cooling system needs the most improvement. One important reason is that better cooling keeps the computer stable. Moreover, a lower temperature can make the computer last longer. Consequently, I would improve the cooling system first."
         }
       ]
     },
@@ -5608,7 +5428,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question yes am quite familiar",
           "questionBankAnswer": "Question 1: Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets, restaurants and parks very well.",
-          "fullScoreAnswer": "Question 1: Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets, restaurants and parks very well."
+          "fullScoreAnswer": "To answer precisely, question 1: Yes, I am quite familiar with this area. I have lived here for five years, so I know all the nearby supermarkets, restaurants and parks very well."
         },
         {
           "uid": "3-真题25在公司上班前有过创业经验的好处.json-group-q2",
@@ -5622,7 +5442,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question yes transportation here convenient",
           "questionBankAnswer": "Question 2: Yes, the transportation here is very convenient. There are several bus stops within a five-minute walk, and the subway station is also not far away, which makes it easy for me to go to work every day.",
-          "fullScoreAnswer": "Question 2: Yes, the transportation here is very convenient. There are several bus stops within a five-minute walk, and the subway station is also not far away, which makes it easy for me to go to work every day."
+          "fullScoreAnswer": "To answer precisely, question 2: Yes, the transportation here is very convenient. There are several bus stops within a five-minute walk, and the subway station is also not far away, which makes it easy for me to go to work every day."
         },
         {
           "uid": "3-真题25在公司上班前有过创业经验的好处.json-group-q3",
@@ -5650,7 +5470,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，社区公园是我最喜欢的地方。"
           ],
           "questionBankAnswer": "Question 3: My favorite place is the community park. It has beautiful flowers and green trees, and it's very quiet. I often go there for a walk after dinner, which helps me relax after a busy day.",
-          "fullScoreAnswer": "My favorite place near my home is the community park. It is quiet and green, so it helps me relax. For example, I often walk there after dinner. So, the community park is my favorite place."
+          "fullScoreAnswer": "My favorite place near my home is the community park. This is mainly because it is quiet and green, so it helps me relax. For instance, I often walk there after dinner. For these reasons, the community park is my favorite place."
         }
       ]
     },
@@ -5686,7 +5506,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question lived current apartment three",
           "questionBankAnswer": "Question 1: I have lived in my current apartment for three years. It is a small but cozy two-bedroom apartment located near the city center.",
-          "fullScoreAnswer": "Question 1: I have lived in my current apartment for three years. It is a small but cozy two-bedroom apartment located near the city center."
+          "fullScoreAnswer": "To answer precisely, question 1: I have lived in my current apartment for three years. It is a small but cozy two-bedroom apartment located near the city center."
         },
         {
           "uid": "3-真题29网络和电子设备会取代报纸吗.json-group-q2",
@@ -5700,7 +5520,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question yes buy furniture online",
           "questionBankAnswer": "Question 2: Yes, I would like to buy furniture online. It is very convenient and I can choose from a wide range of products without going out of my home.",
-          "fullScoreAnswer": "Question 2: Yes, I would like to buy furniture online. It is very convenient and I can choose from a wide range of products without going out of my home."
+          "fullScoreAnswer": "To answer precisely, question 2: Yes, I would like to buy furniture online. It is very convenient and I can choose from a wide range of products without going out of my home."
         },
         {
           "uid": "3-真题29网络和电子设备会取代报纸吗.json-group-q3",
@@ -5728,7 +5548,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，网上买家具既方便又省钱。"
           ],
           "questionBankAnswer": "Question 3: There are several advantages of buying furniture online. First, online stores usually offer more styles and designs than physical stores. Second, the prices are often more affordable due to lower operating costs. Third, the furniture can be delivered directly to my home, saving me a lot of time and effort.",
-          "fullScoreAnswer": "Buying furniture online has two main advantages. First, online stores usually offer more styles. Second, online prices are often lower. So, buying furniture online is convenient and saves money."
+          "fullScoreAnswer": "Buying furniture online has two main advantages. One important reason is that online stores usually offer more styles. Moreover, online prices are often lower. Consequently, buying furniture online is convenient and saves money."
         }
       ]
     },
@@ -5764,7 +5584,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "take photos almost week go",
           "questionBankAnswer": "I take photos almost every week when I go for a walk in the park.",
-          "fullScoreAnswer": "I take photos almost every week when I go for a walk in the park."
+          "fullScoreAnswer": "To answer precisely, I take photos almost every week when I go for a walk in the park."
         },
         {
           "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-group-q2",
@@ -5778,7 +5598,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "don know use photo editing",
           "questionBankAnswer": "I don’t know how to use photo-editing software because I am busy with my work and I don’t have much time to learn it.",
-          "fullScoreAnswer": "I don’t know how to use photo-editing software because I am busy with my work and I don’t have much time to learn it."
+          "fullScoreAnswer": "To answer precisely, I don’t know how to use photo-editing software because I am busy with my work and I don’t have much time to learn it."
         },
         {
           "uid": "3-真题31发生分歧是直接解决还是找领导帮忙.json-group-q3",
@@ -5806,7 +5626,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，这是一项很实用的技能。"
           ],
           "questionBankAnswer": "Yes, of course. I am interested in learning photo-editing software. It can help me enhance my photos, express creativity, and improve digital skills. It is also convenient to edit photos myself instead of paying others.",
-          "fullScoreAnswer": "Yes, I am interested in learning photo-editing software. First, it can help me improve my photos. Second, I can edit them myself instead of paying someone. So, it is a useful skill for me."
+          "fullScoreAnswer": "Yes, I am interested in learning photo-editing software. One important reason is that it can help me improve my photos. Moreover, I can edit them myself instead of paying someone. Consequently, it is a useful skill for me."
         }
       ]
     },
@@ -5842,7 +5662,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually take minutes get work",
           "questionBankAnswer": "Usually, I take 10 minutes to get to work by bike; I like it very much, because I don’t need to worry about traffic jams",
-          "fullScoreAnswer": "Usually, I take 10 minutes to get to work by bike; I like it very much, because I don’t need to worry about traffic jams"
+          "fullScoreAnswer": "To answer precisely, usually, I take 10 minutes to get to work by bike; I like it very much, because I don’t need to worry about traffic jams"
         },
         {
           "uid": "3-真题33在21岁以下开车的坏处.json-group-q2",
@@ -5856,7 +5676,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually gather friends dinner twice",
           "questionBankAnswer": "Usually, I gather with my friends for dinner twice a month. What’s more, we all like to have some beer every time.",
-          "fullScoreAnswer": "Usually, I gather with my friends for dinner twice a month. What’s more, we all like to have some beer every time."
+          "fullScoreAnswer": "To answer precisely, usually, I gather with my friends for dinner twice a month. What’s more, we all like to have some beer every time."
         },
         {
           "uid": "3-真题33在21岁以下开车的坏处.json-group-q3",
@@ -5884,7 +5704,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，它很适合朋友带亲戚一起用餐。"
           ],
           "questionBankAnswer": "I would recommend a family-friendly restaurant that has a good variety of dishes and a comfortable environment. It’s important that the food is delicious and the service is friendly. A place with a nice view or local specialties would be even better.",
-          "fullScoreAnswer": "I would recommend a family-friendly restaurant. First, it usually offers many kinds of food. Second, a comfortable place is good for both older people and children. So, it is a good choice for a family meal."
+          "fullScoreAnswer": "I would recommend a family-friendly restaurant. One important reason is that it usually offers many kinds of food. Moreover, a comfortable place is good for both older people and children. Consequently, it is a good choice for a family meal."
         }
       ]
     },
@@ -5920,7 +5740,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "listen music almost day usually",
           "questionBankAnswer": "I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax. I use my phone and headphones, so I can enjoy music anywhere.",
-          "fullScoreAnswer": "I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax. I use my phone and headphones, so I can enjoy music anywhere."
+          "fullScoreAnswer": "To answer precisely, I listen to music almost every day, usually when working, studying, or walking outside. Sometimes I also listen before sleeping to relax. I use my phone and headphones, so I can enjoy music anywhere."
         },
         {
           "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q2",
@@ -5934,7 +5754,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually buy individual songs instead",
           "questionBankAnswer": "I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album, so buying songs is cheaper and more convenient.",
-          "fullScoreAnswer": "I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album, so buying songs is cheaper and more convenient."
+          "fullScoreAnswer": "To answer precisely, I usually buy individual songs instead of full albums. Sometimes I only like one or two songs from an album, so buying songs is cheaper and more convenient."
         },
         {
           "uid": "3-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q3",
@@ -5962,7 +5782,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，流行音乐最适合我。"
           ],
           "questionBankAnswer": "I like pop music the most. Pop music makes me feel happy and relaxed. I also enjoy attending local pop music events and competitions, which is fun to share with family and friends.",
-          "fullScoreAnswer": "I like pop music the most. First, it makes me feel happy and relaxed. Second, it is easy to enjoy with friends and family. So, pop music is the best choice for me."
+          "fullScoreAnswer": "I like pop music the most. One important reason is that it makes me feel happy and relaxed. Moreover, it is easy to enjoy with friends and family. Consequently, pop music is the best choice for me."
         }
       ]
     },
@@ -5998,7 +5818,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "computers laptop ve used three",
           "questionBankAnswer": "I have two computers. One is a laptop that I’ve used for about three years. The other is a desktop at home for about five years. I use the laptop for work and study, and the desktop mostly for gaming.",
-          "fullScoreAnswer": "I have two computers. One is a laptop that I’ve used for about three years. The other is a desktop at home for about five years. I use the laptop for work and study, and the desktop mostly for gaming."
+          "fullScoreAnswer": "To answer precisely, I have two computers. One is a laptop that I’ve used for about three years. The other is a desktop at home for about five years. I use the laptop for work and study, and the desktop mostly for gaming."
         },
         {
           "uid": "3-真题37对于一个求职者哪个最重要.json-group-q2",
@@ -6012,7 +5832,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "prefer laptops portable easy carry",
           "questionBankAnswer": "I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school. Desktops are more powerful but less convenient for everyday use.",
-          "fullScoreAnswer": "I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school. Desktops are more powerful but less convenient for everyday use."
+          "fullScoreAnswer": "To answer precisely, I prefer laptops because they are portable and easy to carry anywhere, like at home, cafes, or school. Desktops are more powerful but less convenient for everyday use."
         },
         {
           "uid": "3-真题37对于一个求职者哪个最重要.json-group-q3",
@@ -6040,7 +5860,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，家用电脑非常实用。"
           ],
           "questionBankAnswer": "Yes, having a computer at home is important. It helps with work, study, and staying connected with friends and family. It’s also useful for entertainment, like watching movies or playing games.",
-          "fullScoreAnswer": "I think having a computer at home is important. First, I can use it for work and study. Second, I can handle online tasks and contact family or friends. So, a home computer is very useful."
+          "fullScoreAnswer": "I think having a computer at home is important. One important reason is that I can use it for work and study. Moreover, I can handle online tasks and contact family or friends. Consequently, a home computer is very useful."
         }
       ]
     },
@@ -6076,7 +5896,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "last time bought clothes weeks",
           "questionBankAnswer": "The last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt. I needed some new clothes for work, and they fit perfectly.",
-          "fullScoreAnswer": "The last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt. I needed some new clothes for work, and they fit perfectly."
+          "fullScoreAnswer": "To answer precisely, the last time I bought clothes was two weeks ago. I bought a pair of jeans and a white T-shirt. I needed some new clothes for work, and they fit perfectly."
         },
         {
           "uid": "3-真题38当医生有什么好处.json-group-q2",
@@ -6090,7 +5910,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "closest clothing store small boutique",
           "questionBankAnswer": "The closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish, reasonably priced, and the staff is friendly.",
-          "fullScoreAnswer": "The closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish, reasonably priced, and the staff is friendly."
+          "fullScoreAnswer": "To answer precisely, the closest clothing store is a small boutique called Style Corner. I like shopping there because the clothes are stylish, reasonably priced, and the staff is friendly."
         },
         {
           "uid": "3-真题38当医生有什么好处.json-group-q3",
@@ -6118,7 +5938,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我通常会约朋友一起去。"
           ],
           "questionBankAnswer": "I prefer to go shopping with friends because we have similar tastes and can give each other helpful advice. It’s more fun and relaxed than going with family.",
-          "fullScoreAnswer": "I prefer shopping for clothes with friends. First, they know my style and give useful advice. Second, shopping with friends is more relaxed and fun. So, I usually ask a friend to join me."
+          "fullScoreAnswer": "I prefer shopping for clothes with friends. One important reason is that they know my style and give useful advice. Moreover, shopping with friends is more relaxed and fun. Consequently, I usually ask a friend to join me."
         }
       ]
     },
@@ -6154,7 +5974,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "last time bought music months",
           "questionBankAnswer": "The last time I bought music was about two months ago from an online platform like Spotify.",
-          "fullScoreAnswer": "The last time I bought music was about two months ago from an online platform like Spotify."
+          "fullScoreAnswer": "To answer precisely, the last time I bought music was about two months ago from an online platform like Spotify."
         },
         {
           "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-group-q2",
@@ -6168,7 +5988,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually download pop songs directly",
           "questionBankAnswer": "I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs.",
-          "fullScoreAnswer": "I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs."
+          "fullScoreAnswer": "To answer precisely, I usually download pop songs directly from online platforms. It's faster and more convenient than buying CDs."
         },
         {
           "uid": "3-真题40大学生是否应该花时间去参加社区活动.json-group-q3",
@@ -6196,7 +6016,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我认为多付一点钱值得。"
           ],
           "questionBankAnswer": "Yes, I would pay more to get a new album early because I am excited to listen to it and want to support my favorite band.",
-          "fullScoreAnswer": "I would pay more to get my favorite band's new album early. First, I can listen to the new songs sooner. Second, it is a way to support the band. So, paying a little more is worth it."
+          "fullScoreAnswer": "I would pay more to get my favorite band's new album early. One important reason is that I can listen to the new songs sooner. Moreover, it is a way to support the band. Consequently, paying a little more is worth it."
         }
       ]
     },
@@ -6232,7 +6052,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "best arrive early interview allows",
           "questionBankAnswer": "It is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally.",
-          "fullScoreAnswer": "It is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally."
+          "fullScoreAnswer": "To answer precisely, it is best to arrive early for the interview. This allows you to get familiar with the environment and prepare mentally."
         },
         {
           "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q2",
@@ -6246,7 +6066,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually not send emails hr",
           "questionBankAnswer": "Usually, I do not send emails because the HR department contacts candidates after the interview if necessary.",
-          "fullScoreAnswer": "Usually, I do not send emails because the HR department contacts candidates after the interview if necessary."
+          "fullScoreAnswer": "To answer precisely, usually, I do not send emails because the HR department contacts candidates after the interview if necessary."
         },
         {
           "uid": "3-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q3",
@@ -6274,7 +6094,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会选择多位面试官。"
           ],
           "questionBankAnswer": "I prefer having multiple interviewers. They can evaluate different aspects of my skills and make the process fairer.",
-          "fullScoreAnswer": "I prefer having several interviewers. First, they can evaluate different parts of my skills. Second, several opinions can make the decision fairer. So, I would choose a panel interview."
+          "fullScoreAnswer": "I prefer having several interviewers. One important reason is that they can evaluate different parts of my skills. Moreover, several opinions can make the decision fairer. Consequently, I would choose a panel interview."
         }
       ]
     },
@@ -6310,7 +6130,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "last rode bicycle few weeks",
           "questionBankAnswer": "I last rode a bicycle a few weeks ago with my friend. We went to a nearby park and enjoyed the ride together.",
-          "fullScoreAnswer": "I last rode a bicycle a few weeks ago with my friend. We went to a nearby park and enjoyed the ride together."
+          "fullScoreAnswer": "To answer precisely, I last rode a bicycle a few weeks ago with my friend. We went to a nearby park and enjoyed the ride together."
         },
         {
           "uid": "3-真题42员工自己设置工作时间有什么好处.json-group-q2",
@@ -6324,7 +6144,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "yes quite convenient bike lanes",
           "questionBankAnswer": "Yes, it is quite convenient. There are bike lanes and several shops close to my home, so I can easily ride a bicycle to go shopping.",
-          "fullScoreAnswer": "Yes, it is quite convenient. There are bike lanes and several shops close to my home, so I can easily ride a bicycle to go shopping."
+          "fullScoreAnswer": "To answer precisely, yes, it is quite convenient. There are bike lanes and several shops close to my home, so I can easily ride a bicycle to go shopping."
         },
         {
           "uid": "3-真题42员工自己设置工作时间有什么好处.json-group-q3",
@@ -6352,7 +6172,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我愿意选择可信的品牌。"
           ],
           "questionBankAnswer": "I prefer the brand. Famous brands usually provide better quality control and reliable customer service. Their bicycles last longer and their designs are also more popular.",
-          "fullScoreAnswer": "Brand is most important when I choose a bicycle. First, well-known brands usually offer better quality. Second, their customer service is often more reliable. So, I would choose a trusted brand."
+          "fullScoreAnswer": "Brand is most important when I choose a bicycle. One important reason is that well-known brands usually offer better quality. Moreover, their customer service is often more reliable. Consequently, I would choose a trusted brand."
         }
       ]
     },
@@ -6388,7 +6208,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "lived hometown eighteen years left",
           "questionBankAnswer": "I lived in my hometown for about eighteen years and left when I went to university.",
-          "fullScoreAnswer": "I lived in my hometown for about eighteen years and left when I went to university."
+          "fullScoreAnswer": "To answer precisely, I lived in my hometown for about eighteen years and left when I went to university."
         },
         {
           "uid": "3-模拟题2.json-group-q2",
@@ -6402,7 +6222,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "people leave hometown better job",
           "questionBankAnswer": "Many people leave their hometown for better job opportunities or higher education.",
-          "fullScoreAnswer": "Many people leave their hometown for better job opportunities or higher education."
+          "fullScoreAnswer": "To answer precisely, many people leave their hometown for better job opportunities or higher education."
         },
         {
           "uid": "3-模拟题2.json-group-q3",
@@ -6430,7 +6250,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，在家乡生活会更稳定。"
           ],
           "questionBankAnswer": "The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
-          "fullScoreAnswer": "Growing up in your hometown has many advantages. First, you can stay close to family and friends. Second, you know the local area and lifestyle well. So, life in your hometown can be stable."
+          "fullScoreAnswer": "Growing up in your hometown has many advantages. One important reason is that you can stay close to family and friends. Moreover, you know the local area and lifestyle well. Consequently, life in your hometown can be stable."
         }
       ]
     },
@@ -6466,7 +6286,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "prefer traveling family want relax",
           "questionBankAnswer": "I prefer traveling with my family because I want to relax and spend quality time with them.",
-          "fullScoreAnswer": "I prefer traveling with my family because I want to relax and spend quality time with them."
+          "fullScoreAnswer": "To answer precisely, I prefer traveling with my family because I want to relax and spend quality time with them."
         },
         {
           "uid": "3-模拟题3.json-group-q2",
@@ -6480,7 +6300,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "enjoy outdoor activities hiking help",
           "questionBankAnswer": "I enjoy outdoor activities such as hiking because they help me relax and stay healthy.",
-          "fullScoreAnswer": "I enjoy outdoor activities such as hiking because they help me relax and stay healthy."
+          "fullScoreAnswer": "To answer precisely, I enjoy outdoor activities such as hiking because they help me relax and stay healthy."
         },
         {
           "uid": "3-模拟题3.json-group-q3",
@@ -6508,7 +6328,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，旅行社会让旅程更轻松。"
           ],
           "questionBankAnswer": "Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
-          "fullScoreAnswer": "Traveling with an agency is convenient. First, the agency arranges the schedule, transportation, and hotel. Second, its staff can help when a problem happens. So, a travel agency makes the trip easier."
+          "fullScoreAnswer": "Traveling with an agency is convenient. One important reason is that the agency arranges the schedule, transportation, and hotel. Moreover, its staff can help when a problem happens. Consequently, a travel agency makes the trip easier."
         }
       ]
     },
@@ -6544,7 +6364,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "lived hometown eighteen years left",
           "questionBankAnswer": "I lived in my hometown for about eighteen years and left when I went to university.",
-          "fullScoreAnswer": "I lived in my hometown for about eighteen years and left when I went to university."
+          "fullScoreAnswer": "To answer precisely, I lived in my hometown for about eighteen years and left when I went to university."
         },
         {
           "uid": "3-真题02新工作哪个能力最重要.json-group-q2",
@@ -6558,7 +6378,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "people leave hometown mainly better",
           "questionBankAnswer": "Many people leave their hometown mainly for better job opportunities or higher education.",
-          "fullScoreAnswer": "Many people leave their hometown mainly for better job opportunities or higher education."
+          "fullScoreAnswer": "To answer precisely, many people leave their hometown mainly for better job opportunities or higher education."
         },
         {
           "uid": "3-真题02新工作哪个能力最重要.json-group-q3",
@@ -6586,7 +6406,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，在家乡成长有很多好处。"
           ],
           "questionBankAnswer": "People who grow up in their hometown often enjoy a stable life and strong relationships with family and friends. They feel a strong sense of belonging, although they may have fewer chances to experience new environments.",
-          "fullScoreAnswer": "Growing up in your hometown can provide a stable life. First, you can keep close relationships with family and friends. Second, a familiar place gives you a strong sense of belonging. So, hometown life has many benefits."
+          "fullScoreAnswer": "Growing up in your hometown can provide a stable life. One important reason is that you can keep close relationships with family and friends. Moreover, a familiar place gives you a strong sense of belonging. Consequently, hometown life has many benefits."
         }
       ]
     },
@@ -6622,7 +6442,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "prefer traveling family relax spend",
           "questionBankAnswer": "I prefer traveling with my family because I can relax and spend quality time with them during vacations.",
-          "fullScoreAnswer": "I prefer traveling with my family because I can relax and spend quality time with them during vacations."
+          "fullScoreAnswer": "To answer precisely, I prefer traveling with my family because I can relax and spend quality time with them during vacations."
         },
         {
           "uid": "3-真题03改变国家图书馆.json-group-q2",
@@ -6636,7 +6456,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "enjoy outdoor activities hiking help",
           "questionBankAnswer": "I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress.",
-          "fullScoreAnswer": "I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress."
+          "fullScoreAnswer": "To answer precisely, I enjoy outdoor activities such as hiking because they help me stay healthy and reduce stress."
         },
         {
           "uid": "3-真题03改变国家图书馆.json-group-q3",
@@ -6664,7 +6484,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，旅行社能让旅行更省心。"
           ],
           "questionBankAnswer": "Traveling with a travel agency has many benefits. It saves time because the agency plans everything, and it can also reduce costs by offering package deals.",
-          "fullScoreAnswer": "Using a travel agency has two main benefits. First, the agency plans the trip and saves time. Second, package deals can cost less than separate bookings. So, a travel agency makes travel easier."
+          "fullScoreAnswer": "Using a travel agency has two main benefits. One important reason is that the agency plans the trip and saves time. Moreover, package deals can cost less than separate bookings. Consequently, a travel agency makes travel easier."
         }
       ]
     },
@@ -6700,7 +6520,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "lived hometown eighteen years small",
           "questionBankAnswer": "I lived in my hometown for about eighteen years. It is a small town located in the western part of China.",
-          "fullScoreAnswer": "I lived in my hometown for about eighteen years. It is a small town located in the western part of China."
+          "fullScoreAnswer": "To answer precisely, I lived in my hometown for about eighteen years. It is a small town located in the western part of China."
         },
         {
           "uid": "3-真题06未来一代为什么比现在一代更健康.json-group-q2",
@@ -6714,7 +6534,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "current city convenient good public",
           "questionBankAnswer": "I like my current city because it is convenient and has good public transportation and many restaurants.",
-          "fullScoreAnswer": "I like my current city because it is convenient and has good public transportation and many restaurants."
+          "fullScoreAnswer": "To answer precisely, I like my current city because it is convenient and has good public transportation and many restaurants."
         },
         {
           "uid": "3-真题06未来一代为什么比现在一代更健康.json-group-q3",
@@ -6742,7 +6562,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，这两个因素会让生活更方便、更安全。"
           ],
           "questionBankAnswer": "If I move to another place, I will consider transportation and medical services most important. These factors make daily life more convenient and safer.",
-          "fullScoreAnswer": "When I move, transportation and medical services matter most. First, good transportation saves time every day. Second, a nearby hospital makes me feel safer. So, these two factors make life convenient and safe."
+          "fullScoreAnswer": "When I move, transportation and medical services matter most. One important reason is that good transportation saves time every day. Moreover, a nearby hospital makes me feel safer. Consequently, these two factors make life convenient and safe."
         }
       ]
     },
@@ -6778,7 +6598,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "chinese singer wangfei pop star",
           "questionBankAnswer": "I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable.",
-          "fullScoreAnswer": "I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable."
+          "fullScoreAnswer": "To answer precisely, I like the Chinese singer Wangfei. She is a pop star and her songs are gentle and make me feel comfortable."
         },
         {
           "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-group-q2",
@@ -6792,7 +6612,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "listen music phone home am",
           "questionBankAnswer": "I like to listen to music on my phone at home because I am very busy at work and do not have much time to go to a music center. It is very convenient at home.",
-          "fullScoreAnswer": "I like to listen to music on my phone at home because I am very busy at work and do not have much time to go to a music center. It is very convenient at home."
+          "fullScoreAnswer": "To answer precisely, I like to listen to music on my phone at home because I am very busy at work and do not have much time to go to a music center. It is very convenient at home."
         },
         {
           "uid": "3-真题11政府提供免费大学课程的好处有哪些.json-group-q3",
@@ -6820,7 +6640,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，独自听音乐最适合我。"
           ],
           "questionBankAnswer": "I like to listen to music when I am alone. I can enjoy the music without any interruption, which helps me relax and reduce stress. Besides, it is convenient to choose songs on the Internet and select some good songs.",
-          "fullScoreAnswer": "I prefer listening to music alone. First, I can relax better without distractions. Second, I can choose any song I like at any time. So, listening alone is best for me."
+          "fullScoreAnswer": "I prefer listening to music alone. One important reason is that I can relax better without distractions. Moreover, I can choose any song I like at any time. Consequently, listening alone is best for me."
         }
       ]
     },
@@ -6856,7 +6676,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "want travel thailand times",
           "questionBankAnswer": "I want to travel to Thailand. I have been there many times.",
-          "fullScoreAnswer": "I want to travel to Thailand. I have been there many times."
+          "fullScoreAnswer": "To answer precisely, I want to travel to Thailand. I have been there many times."
         },
         {
           "uid": "3-真题14去当实习生吗.json-group-q2",
@@ -6870,7 +6690,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "travel friends fun take care",
           "questionBankAnswer": "I like to travel with my friends. It will be fun, and we can take care of each other.",
-          "fullScoreAnswer": "I like to travel with my friends. It will be fun, and we can take care of each other."
+          "fullScoreAnswer": "To answer precisely, I like to travel with my friends. It will be fun, and we can take care of each other."
         },
         {
           "uid": "3-真题14去当实习生吗.json-group-q3",
@@ -6898,7 +6718,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会先了解当地能使用什么语言。"
           ],
           "questionBankAnswer": "Language will be my first choice. If the people in that country can speak Chinese, I can go anywhere without limitation. English is also fine, although my English is not very good, but I can use it for communication.",
-          "fullScoreAnswer": "Language is most important when I travel to another country. First, communication makes it easier to ask for help. Second, speaking a common language prevents misunderstandings. So, I check the local language first."
+          "fullScoreAnswer": "Language is most important when I travel to another country. One important reason is that communication makes it easier to ask for help. Moreover, speaking a common language prevents misunderstandings. Consequently, I check the local language first."
         }
       ]
     },
@@ -6934,7 +6754,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "latest tourism last month beijing",
           "questionBankAnswer": "My latest tourism was last month when I was in Beijing.",
-          "fullScoreAnswer": "My latest tourism was last month when I was in Beijing."
+          "fullScoreAnswer": "To answer precisely, my latest tourism was last month when I was in Beijing."
         },
         {
           "uid": "3-真题21进入大学前实习gap year有哪些好处.json-group-q2",
@@ -6948,7 +6768,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "traveling family am busy work",
           "questionBankAnswer": "I like traveling with my family because I am very busy at work. Traveling together helps to build a good relationship with my family.",
-          "fullScoreAnswer": "I like traveling with my family because I am very busy at work. Traveling together helps to build a good relationship with my family."
+          "fullScoreAnswer": "To answer precisely, I like traveling with my family because I am very busy at work. Traveling together helps to build a good relationship with my family."
         },
         {
           "uid": "3-真题21进入大学前实习gap year有哪些好处.json-group-q3",
@@ -6976,7 +6796,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会先选择合适的地点。"
           ],
           "questionBankAnswer": "I think the place is most important. It should not be too far away since I don’t have much time to spend on the road. Additionally, I prefer places with good scenery and few people. It is a good way to release work pressure.",
-          "fullScoreAnswer": "I think the place is most important for sightseeing. First, a nearby place reduces travel time. Second, good views and fewer people make the trip relaxing. So, I would choose the place first."
+          "fullScoreAnswer": "I think the place is most important for sightseeing. One important reason is that a nearby place reduces travel time. Moreover, good views and fewer people make the trip relaxing. Consequently, I would choose the place first."
         }
       ]
     },
@@ -7012,7 +6832,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "listen music almost day am",
           "questionBankAnswer": "I listen to music almost every day when I am free.",
-          "fullScoreAnswer": "I listen to music almost every day when I am free."
+          "fullScoreAnswer": "To answer precisely, I listen to music almost every day when I am free."
         },
         {
           "uid": "3-真题23大学毕业继续和父母住还是单独住.json-group-q2",
@@ -7026,7 +6846,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "pop music favorite musician wang",
           "questionBankAnswer": "I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable.",
-          "fullScoreAnswer": "I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable."
+          "fullScoreAnswer": "To answer precisely, I like pop music and my favorite musician is Wang Fei. Her songs are gentle and make me feel comfortable."
         },
         {
           "uid": "3-真题23大学毕业继续和父母住还是单独住.json-group-q3",
@@ -7054,7 +6874,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，在家听音乐对我最方便。"
           ],
           "questionBankAnswer": "I like to listen to music at home. I can enjoy the music without any interruption. As a result, I can relax myself and reduce my stress from work. Besides, it is convenient to choose songs on the Internet and I can select my favorite songs.",
-          "fullScoreAnswer": "I prefer listening to music at home. First, my home is quiet, so I can relax without distractions. Second, I can freely choose the songs and volume. So, listening at home is best for me."
+          "fullScoreAnswer": "I prefer listening to music at home. One important reason is that my home is quiet, so I can relax without distractions. Moreover, I can freely choose the songs and volume. Consequently, listening at home is best for me."
         }
       ]
     },
@@ -7090,7 +6910,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "prefer playing video games exciting",
           "questionBankAnswer": "I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends.",
-          "fullScoreAnswer": "I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends."
+          "fullScoreAnswer": "To answer precisely, I prefer playing video games because they are more exciting. I usually play once or twice a week, especially on weekends."
         },
         {
           "uid": "3-真题35父母让孩子做家务的好处.json-group-q2",
@@ -7104,7 +6924,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "use iphone convenient games large",
           "questionBankAnswer": "I use an iPhone, which is convenient for games because of its large screen and smooth touch. I often play games during my free time.",
-          "fullScoreAnswer": "I use an iPhone, which is convenient for games because of its large screen and smooth touch. I often play games during my free time."
+          "fullScoreAnswer": "To answer precisely, I use an iPhone, which is convenient for games because of its large screen and smooth touch. I often play games during my free time."
         },
         {
           "uid": "3-真题35父母让孩子做家务的好处.json-group-q3",
@@ -7132,7 +6952,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我通常会在家玩游戏。"
           ],
           "questionBankAnswer": "I prefer playing games at home because it’s easier to focus and relax. Traveling often has too many distractions.",
-          "fullScoreAnswer": "I prefer playing games at home. First, it is quiet, so I can focus better. Second, playing at home is comfortable, and I do not carry any equipment. So, I usually play at home."
+          "fullScoreAnswer": "I prefer playing games at home. One important reason is that it is quiet, so I can focus better. Moreover, playing at home is comfortable, and I do not carry any equipment. Consequently, I usually play at home."
         }
       ]
     },
@@ -7168,7 +6988,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "attended friend birthday party last",
           "questionBankAnswer": "I attended a friend’s birthday party last month at a city restaurant.",
-          "fullScoreAnswer": "I attended a friend’s birthday party last month at a city restaurant."
+          "fullScoreAnswer": "To answer precisely, I attended a friend’s birthday party last month at a city restaurant."
         },
         {
           "uid": "3-真题39技术是否很难平衡工作和生活.json-group-q2",
@@ -7182,7 +7002,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "often join company dinners small",
           "questionBankAnswer": "I often join company dinners or small gatherings with friends, usually lasting two to three hours.",
-          "fullScoreAnswer": "I often join company dinners or small gatherings with friends, usually lasting two to three hours."
+          "fullScoreAnswer": "To answer precisely, I often join company dinners or small gatherings with friends, usually lasting two to three hours."
         },
         {
           "uid": "3-真题39技术是否很难平衡工作和生活.json-group-q3",
@@ -7210,7 +7030,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我经常担任组织者。"
           ],
           "questionBankAnswer": "I usually help organize events and talk with different people to keep the atmosphere lively.",
-          "fullScoreAnswer": "I usually organize and communicate at social events. I enjoy planning things and talking with different people. For example, I confirm the time, contact guests, and keep the event lively. So, I often take the organizer role."
+          "fullScoreAnswer": "I usually organize and communicate at social events. This is mainly because I enjoy planning things and talking with different people. For instance, I confirm the time, contact guests, and keep the event lively. For these reasons, I often take the organizer role."
         }
       ]
     },
@@ -7246,7 +7066,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "stayed hotel shenzhen last month",
           "questionBankAnswer": "I stayed in a hotel in Shenzhen last month during a business trip.",
-          "fullScoreAnswer": "I stayed in a hotel in Shenzhen last month during a business trip."
+          "fullScoreAnswer": "To answer precisely, I stayed in a hotel in Shenzhen last month during a business trip."
         },
         {
           "uid": "3-真题07老师能否让学生带电子设备.json-group-q2",
@@ -7260,7 +7080,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "think new hotel provide excellent",
           "questionBankAnswer": "I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied.",
-          "fullScoreAnswer": "I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied."
+          "fullScoreAnswer": "To answer precisely, I think a new hotel should provide excellent service because it helps guests feel comfortable and satisfied."
         },
         {
           "uid": "3-真题07老师能否让学生带电子设备.json-group-q3",
@@ -7288,7 +7108,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，现有酒店数量已经足够。"
           ],
           "questionBankAnswer": "I don’t think so. There are already many hotels with good service, and the city is not a major tourist destination, so the current number is enough.",
-          "fullScoreAnswer": "I do not think my area needs more new hotels. First, there are already many hotels with good service. Second, this is not a major tourist city, so demand is low. So, the current number is enough."
+          "fullScoreAnswer": "I do not think my area needs more new hotels. One important reason is that there are already many hotels with good service. Moreover, this is not a major tourist city, so demand is low. Consequently, the current number is enough."
         }
       ]
     },
@@ -7324,7 +7144,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "used phone years use day",
           "questionBankAnswer": "I have used this phone for two years, and I use it every day.",
-          "fullScoreAnswer": "I have used this phone for two years, and I use it every day."
+          "fullScoreAnswer": "To answer precisely, I have used this phone for two years, and I use it every day."
         },
         {
           "uid": "3-真题12毕业后第一份工作必要吗.json-group-q2",
@@ -7338,7 +7158,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "yes buy new phone current",
           "questionBankAnswer": "Yes, I will buy a new phone, because my current phone has been used for a long time, and its performance is too low to play some video games. It makes me unhappy.",
-          "fullScoreAnswer": "Yes, I will buy a new phone, because my current phone has been used for a long time, and its performance is too low to play some video games. It makes me unhappy."
+          "fullScoreAnswer": "To answer precisely, yes, I will buy a new phone, because my current phone has been used for a long time, and its performance is too low to play some video games. It makes me unhappy."
         }
       ]
     },
@@ -7374,7 +7194,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "lived apartment years ordinary house",
           "questionBankAnswer": "I have lived in my apartment for about 8 years. It is an ordinary apartment.",
-          "fullScoreAnswer": "I have lived in my apartment for about 8 years. It is an ordinary apartment."
+          "fullScoreAnswer": "To answer precisely, I have lived in my apartment for about 8 years. It is an ordinary apartment."
         },
         {
           "uid": "3-真题18项目中分歧需要解决还是忽略.json-group-q2",
@@ -7388,7 +7208,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "always want change apartment big",
           "questionBankAnswer": "I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room.",
-          "fullScoreAnswer": "I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room."
+          "fullScoreAnswer": "To answer precisely, I always want to change my apartment to a big house. It is too narrow, and I want a more spacious room."
         },
         {
           "uid": "3-真题18项目中分歧需要解决还是忽略.json-group-q3",
@@ -7416,7 +7236,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我不会自己维修房子。"
           ],
           "questionBankAnswer": "I'll hire professionals to repair the house because I know nothing about house repair. Doing it myself would take too much time and may not be done well. Also, I am very busy at work, so hiring professionals is more efficient.",
-          "fullScoreAnswer": "I would hire professionals to repair my house. First, they have experience and can do the job well. Second, hiring them saves me time. So, I would not repair the house myself."
+          "fullScoreAnswer": "I would hire professionals to repair my house. One important reason is that they have experience and can do the job well. Moreover, hiring them saves me time. Consequently, I would not repair the house myself."
         }
       ]
     },
@@ -7452,7 +7272,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "playing basketball years",
           "questionBankAnswer": "I like playing basketball. I have been playing it for about 15 years.",
-          "fullScoreAnswer": "I like playing basketball. I have been playing it for about 15 years."
+          "fullScoreAnswer": "To answer precisely, I like playing basketball. I have been playing it for about 15 years."
         },
         {
           "uid": "3-真题19个公司的多处不同城市工作的好处.json-group-q2",
@@ -7466,7 +7286,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "don enough time work busy",
           "questionBankAnswer": "I don’t have enough time to do what I like because my work is busy and I need to take care of my children during the weekend.",
-          "fullScoreAnswer": "I don’t have enough time to do what I like because my work is busy and I need to take care of my children during the weekend."
+          "fullScoreAnswer": "To answer precisely, I don’t have enough time to do what I like because my work is busy and I need to take care of my children during the weekend."
         },
         {
           "uid": "3-真题19个公司的多处不同城市工作的好处.json-group-q3",
@@ -7494,7 +7314,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，篮球一直是我生活的重要部分。"
           ],
           "questionBankAnswer": "Basketball is one of the most popular sports in the world. I started playing it in high school. When I am free, I usually watch NBA games and sometimes play with friends. My idol is Kobe Bryant. He passed away in an accident, and I miss him very much.",
-          "fullScoreAnswer": "Basketball is my favorite hobby. It keeps me active and helps me relax. For example, I play with friends, watch NBA games, and Kobe Bryant is my idol. So, basketball is an important part of my life."
+          "fullScoreAnswer": "Basketball is my favorite hobby. This is mainly because it keeps me active and helps me relax. For instance, I play with friends, watch NBA games, and Kobe Bryant is my idol. For these reasons, basketball is an important part of my life."
         }
       ]
     },
@@ -7530,7 +7350,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually dinner outside office far",
           "questionBankAnswer": "I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office.",
-          "fullScoreAnswer": "I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office."
+          "fullScoreAnswer": "To answer precisely, I usually have dinner outside because my office is far from my home. I just eat in the restaurant near my office."
         },
         {
           "uid": "3-真题20独自运动还是.json-group-q2",
@@ -7544,7 +7364,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "lots people lunch time weekends",
           "questionBankAnswer": "There are lots of people during lunch time or on weekends. Most of the restaurants don’t require reservation in advance.",
-          "fullScoreAnswer": "There are lots of people during lunch time or on weekends. Most of the restaurants don’t require reservation in advance."
+          "fullScoreAnswer": "To answer precisely, there are lots of people during lunch time or on weekends. Most of the restaurants don’t require reservation in advance."
         },
         {
           "uid": "3-真题20独自运动还是.json-group-q3",
@@ -7572,7 +7392,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，它很适合外带或外卖。"
           ],
           "questionBankAnswer": "I recommend the restaurant named Qinshaoye in Xian. You can order online, and the delivery speed is very fast. You can get food within 30 minutes, and the food is delicious.",
-          "fullScoreAnswer": "I recommend Qinshaoye Restaurant in Xian. First, you can order online, and delivery is fast. Second, the food tastes very good. So, it is a good choice for takeout or delivery."
+          "fullScoreAnswer": "I recommend Qinshaoye Restaurant in Xian. One important reason is that you can order online, and delivery is fast. Moreover, the food tastes very good. Consequently, it is a good choice for takeout or delivery."
         }
       ]
     },
@@ -7608,7 +7428,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "sports news especially regarding basketball",
           "questionBankAnswer": "I like the sports news, especially regarding basketball, such as NBA and CBA.",
-          "fullScoreAnswer": "I like the sports news, especially regarding basketball, such as NBA and CBA."
+          "fullScoreAnswer": "To answer precisely, I like the sports news, especially regarding basketball, such as NBA and CBA."
         },
         {
           "uid": "3-真题22工作经验还是教育背景重要.json-group-q2",
@@ -7622,7 +7442,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "yes subscribed channels wechat push",
           "questionBankAnswer": "Yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day.",
-          "fullScoreAnswer": "Yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day."
+          "fullScoreAnswer": "To answer precisely, yes, I will do it. I subscribed to some channels on WeChat that push NBA related news every day."
         },
         {
           "uid": "3-真题22工作经验还是教育背景重要.json-group-q3",
@@ -7650,7 +7470,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我更喜欢在手机或网上看新闻。"
           ],
           "questionBankAnswer": "It is not convenient for me to watch news on TV. TV is not so popular in China now, and I don’t have time to watch TV. I usually watch news via smartphone and internet. TV news includes many topics that I am not interested in and I can’t choose what to watch.",
-          "fullScoreAnswer": "Watching news on TV is not convenient for me. First, TV programs have fixed times, so I may miss them. Second, news on my phone is faster and available anytime. So, I prefer getting news online."
+          "fullScoreAnswer": "Watching news on TV is not convenient for me. One important reason is that tV programs have fixed times, so I may miss them. Moreover, news on my phone is faster and available anytime. Consequently, I prefer getting news online."
         }
       ]
     },
@@ -7686,7 +7506,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question public swimming pools near",
           "questionBankAnswer": "Question 1: There are two public swimming pools near my home. One is a small community pool, and the other is a large municipal swimming center.",
-          "fullScoreAnswer": "Question 1: There are two public swimming pools near my home. One is a small community pool, and the other is a large municipal swimming center."
+          "fullScoreAnswer": "To answer precisely, question 1: There are two public swimming pools near my home. One is a small community pool, and the other is a large municipal swimming center."
         },
         {
           "uid": "3-真题26是现有的工作更让你开心.json-group-q2",
@@ -7700,7 +7520,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question yes go swimming public",
           "questionBankAnswer": "Question 2: Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise and relax after a busy week.",
-          "fullScoreAnswer": "Question 2: Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise and relax after a busy week."
+          "fullScoreAnswer": "To answer precisely, question 2: Yes, I go swimming in the public swimming pool every weekend. It's a great way to exercise and relax after a busy week."
         },
         {
           "uid": "3-真题26是现有的工作更让你开心.json-group-q3",
@@ -7728,7 +7548,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，我会综合比较后再选择。"
           ],
           "questionBankAnswer": "Question 3: I prefer to consider both distance and other factors. Distance is important because it saves time, but I also care about the cleanliness of the pool and the quality of the facilities.",
-          "fullScoreAnswer": "I consider both distance and other factors when choosing a public pool. First, a nearby pool saves travel time. Second, clean water and good facilities make swimming safe and comfortable. So, I compare both before choosing."
+          "fullScoreAnswer": "I consider both distance and other factors when choosing a public pool. One important reason is that a nearby pool saves travel time. Moreover, clean water and good facilities make swimming safe and comfortable. Consequently, I compare both before choosing."
         }
       ]
     },
@@ -7764,7 +7584,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question hobby hiking enjoy walking",
           "questionBankAnswer": "Question 1: My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature and relax my mind.",
-          "fullScoreAnswer": "Question 1: My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature and relax my mind."
+          "fullScoreAnswer": "To answer precisely, question 1: My hobby is hiking. I enjoy walking in the mountains and forests on weekends, which allows me to get close to nature and relax my mind."
         },
         {
           "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-group-q2",
@@ -7778,7 +7598,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "question yes often use internet",
           "questionBankAnswer": "Question 2: Yes, I often use the internet to find information about hiking. I can search for the best routes, necessary equipment, and weather conditions before each trip.",
-          "fullScoreAnswer": "Question 2: Yes, I often use the internet to find information about hiking. I can search for the best routes, necessary equipment, and weather conditions before each trip."
+          "fullScoreAnswer": "To answer precisely, question 2: Yes, I often use the internet to find information about hiking. I can search for the best routes, necessary equipment, and weather conditions before each trip."
         },
         {
           "uid": "3-真题27你认为一家公司有环境友好政策有什么好处.json-group-q3",
@@ -7806,7 +7626,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，爱好网站对我很有帮助。"
           ],
           "questionBankAnswer": "Question 3: Yes, I will. There are many hiking forums and websites where I can share my travel experiences with other hiking lovers and discuss interesting routes and skills with them.",
-          "fullScoreAnswer": "Yes, I would discuss my hiking hobby on websites. First, I can share routes and travel experiences. Second, I can learn about equipment and safety from others. So, hobby websites are useful for me."
+          "fullScoreAnswer": "Yes, I would discuss my hiking hobby on websites. One important reason is that I can share routes and travel experiences. Moreover, I can learn about equipment and safety from others. Consequently, hobby websites are useful for me."
         }
       ]
     },
@@ -7842,7 +7662,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "last time cooked weekend wife",
           "questionBankAnswer": "The last time I cooked was last weekend. My wife cooked with me.",
-          "fullScoreAnswer": "The last time I cooked was last weekend. My wife cooked with me."
+          "fullScoreAnswer": "To answer precisely, the last time I cooked was last weekend. My wife cooked with me."
         },
         {
           "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-group-q2",
@@ -7856,7 +7676,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "love cooking chinese food delicious",
           "questionBankAnswer": "I love cooking Chinese food because it is delicious and full of rich nutrition.",
-          "fullScoreAnswer": "I love cooking Chinese food because it is delicious and full of rich nutrition."
+          "fullScoreAnswer": "To answer precisely, I love cooking Chinese food because it is delicious and full of rich nutrition."
         },
         {
           "uid": "3-真题28你认为elementary school的学生是否需要开始学英语.json-group-q3",
@@ -7884,7 +7704,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，成为好厨师对我并不容易。"
           ],
           "questionBankAnswer": "I don't think I can become a good cook. On one hand, I often work late and have no time to learn how to cook well. On the other hand, after a tiring day, I have no energy to buy ingredients and prepare meals.",
-          "fullScoreAnswer": "I do not think I can become a good cook. First, I often work late and have little time to learn. Second, I am usually too tired to prepare food after work. So, becoming a good cook would be difficult for me."
+          "fullScoreAnswer": "I do not think I can become a good cook. One important reason is that I often work late and have little time to learn. Moreover, I am usually too tired to prepare food after work. Consequently, becoming a good cook would be difficult for me."
         }
       ]
     },
@@ -7920,7 +7740,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "buy books month often online",
           "questionBankAnswer": "I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want.",
-          "fullScoreAnswer": "I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want."
+          "fullScoreAnswer": "To answer precisely, I buy books every month, and I often buy them from online bookstores because I can quickly find the books I want."
         },
         {
           "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q2",
@@ -7934,7 +7754,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "books easy carry store save",
           "questionBankAnswer": "I like e-books because they are easy to carry and store, and they can save my reading progress automatically.",
-          "fullScoreAnswer": "I like e-books because they are easy to carry and store, and they can save my reading progress automatically."
+          "fullScoreAnswer": "To answer precisely, I like e-books because they are easy to carry and store, and they can save my reading progress automatically."
         },
         {
           "uid": "3-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q3",
@@ -7962,7 +7782,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，买书是很有价值的投入。"
           ],
           "questionBankAnswer": "Buying books allows me to gain a lot of knowledge and learn excellent experiences and problem-solving skills. I also prefer buying e-books because online searching and downloading are convenient, and they are usually cheaper.",
-          "fullScoreAnswer": "Buying books has two main benefits. First, books help me learn new knowledge. Second, they teach me useful ways to solve problems. So, buying books is a valuable investment."
+          "fullScoreAnswer": "Buying books has two main benefits. One important reason is that books help me learn new knowledge. Moreover, they teach me useful ways to solve problems. Consequently, buying books is a valuable investment."
         }
       ]
     },
@@ -7998,7 +7818,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "watch movies once month time",
           "questionBankAnswer": "I watch movies once a month. Most of the time, I watch action movies.",
-          "fullScoreAnswer": "I watch movies once a month. Most of the time, I watch action movies."
+          "fullScoreAnswer": "To answer precisely, I watch movies once a month. Most of the time, I watch action movies."
         },
         {
           "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-group-q2",
@@ -8012,7 +7832,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "prefer watching movies home am",
           "questionBankAnswer": "I prefer watching movies at home. I am busy with work, so I don’t have much time to go to the cinema. It's also more convenient to choose movies online without interruptions.",
-          "fullScoreAnswer": "I prefer watching movies at home. I am busy with work, so I don’t have much time to go to the cinema. It's also more convenient to choose movies online without interruptions."
+          "fullScoreAnswer": "To answer precisely, I prefer watching movies at home. I am busy with work, so I don’t have much time to go to the cinema. It's also more convenient to choose movies online without interruptions."
         },
         {
           "uid": "3-真题32主管评价员工，周边同事反馈是否很重要.json-group-q3",
@@ -8040,7 +7860,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，这是一部我愿意再看的电影。"
           ],
           "questionBankAnswer": "I like a movie called Ne Zha 2. It is very famous and I am satisfied with its special effects and touching story. Many people have watched it more than once.",
-          "fullScoreAnswer": "My favorite movie is Ne Zha 2. First, its story is touching and interesting. Second, the special effects are excellent. So, it is a movie I would happily watch again."
+          "fullScoreAnswer": "My favorite movie is Ne Zha 2. One important reason is that its story is touching and interesting. Moreover, the special effects are excellent. Consequently, it is a movie I would happily watch again."
         }
       ]
     },
@@ -8076,7 +7896,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "usually watch movies once week",
           "questionBankAnswer": "I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family. It’s a good way to relax and spend time together.",
-          "fullScoreAnswer": "I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family. It’s a good way to relax and spend time together."
+          "fullScoreAnswer": "To answer precisely, I usually watch movies once a week. I often go to the cinema with my friends or sometimes with my family. It’s a good way to relax and spend time together."
         },
         {
           "uid": "3-真题34职业生涯中频繁更换公司的好处.json-group-q2",
@@ -8090,7 +7910,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "medium",
           "keywords": "prefer watching movies home comfortable",
           "questionBankAnswer": "I prefer watching movies at home because it’s more comfortable. I can choose what to watch and when to watch it, and I don’t have to deal with crowds or noise.",
-          "fullScoreAnswer": "I prefer watching movies at home because it’s more comfortable. I can choose what to watch and when to watch it, and I don’t have to deal with crowds or noise."
+          "fullScoreAnswer": "To answer precisely, I prefer watching movies at home because it’s more comfortable. I can choose what to watch and when to watch it, and I don’t have to deal with crowds or noise."
         },
         {
           "uid": "3-真题34职业生涯中频繁更换公司的好处.json-group-q3",
@@ -8118,7 +7938,7 @@ window.TOEIC_REVIEW_DATA = {
             "所以，这部电影一直让我印象深刻。"
           ],
           "questionBankAnswer": "My favorite movie is Inception. The story is complex and exciting, and the special effects are amazing. I like how it makes me think about reality and dreams.",
-          "fullScoreAnswer": "My favorite movie is Inception. First, the story is complex and exciting. Second, it makes me think about reality and dreams. So, this movie has always impressed me."
+          "fullScoreAnswer": "My favorite movie is Inception. One important reason is that the story is complex and exciting. Moreover, it makes me think about reality and dreams. Consequently, this movie has always impressed me."
         }
       ]
     },
@@ -8154,7 +7974,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "activities take place richards history",
           "questionBankAnswer": "All the activities take place at the Richards History Museum.",
-          "fullScoreAnswer": "All the activities take place at the Richards History Museum."
+          "fullScoreAnswer": "According to the information provided, all the activities take place at the Richards History Museum."
         },
         {
           "uid": "4-模拟题1.json-group-q2",
@@ -8168,7 +7988,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no not miss anything activity",
           "questionBankAnswer": "No, he will not miss anything because the activity starts at 10 o’clock.",
-          "fullScoreAnswer": "No, he will not miss anything because the activity starts at 10 o’clock."
+          "fullScoreAnswer": "According to the information provided, no, he will not miss anything because the activity starts at 10 o’clock."
         },
         {
           "uid": "4-模拟题1.json-group-q3",
@@ -8182,7 +8002,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "building related activities exhibition called",
           "questionBankAnswer": "There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum.",
-          "fullScoreAnswer": "There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum."
+          "fullScoreAnswer": "According to the information provided, there are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum."
         }
       ],
       "reviewTime": 45,
@@ -8282,7 +8102,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "database conference held monday crown",
           "questionBankAnswer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel.",
-          "fullScoreAnswer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel."
+          "fullScoreAnswer": "According to the information provided, the database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel."
         },
         {
           "uid": "4-模拟题2.json-group-q2",
@@ -8296,7 +8116,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no database security sessions held",
           "questionBankAnswer": "No, the database security sessions are held on Tuesday.",
-          "fullScoreAnswer": "No, the database security sessions are held on Tuesday."
+          "fullScoreAnswer": "According to the information provided, no, the database security sessions are held on Tuesday."
         },
         {
           "uid": "4-模拟题2.json-group-q3",
@@ -8310,7 +8130,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "unfortunately no activities available sessions",
           "questionBankAnswer": "Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m.",
-          "fullScoreAnswer": "Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m."
+          "fullScoreAnswer": "According to the information provided, unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m."
         }
       ],
       "reviewTime": 45,
@@ -8390,7 +8210,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "database security meeting held th",
           "questionBankAnswer": "The database security meeting will be held on May 20th, and the morning session starts at 10:00 a.m.",
-          "fullScoreAnswer": "The database security meeting will be held on May 20th, and the morning session starts at 10:00 a.m."
+          "fullScoreAnswer": "According to the information provided, the database security meeting will be held on May 20th, and the morning session starts at 10:00 a.m."
         },
         {
           "uid": "4-真题02新工作哪个能力最重要.json-group-q2",
@@ -8404,7 +8224,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes meeting take place crown",
           "questionBankAnswer": "Yes, the meeting will take place at The Crown Hotel.",
-          "fullScoreAnswer": "Yes, the meeting will take place at The Crown Hotel."
+          "fullScoreAnswer": "According to the information provided, yes, the meeting will take place at The Crown Hotel."
         },
         {
           "uid": "4-真题02新工作哪个能力最重要.json-group-q3",
@@ -8418,7 +8238,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "database security sessions morning session",
           "questionBankAnswer": "There are two database security sessions. One is the morning session from 10:00 to 11:00, and the other is the afternoon session from 3:00 to 4:00.",
-          "fullScoreAnswer": "There are two database security sessions. One is the morning session from 10:00 to 11:00, and the other is the afternoon session from 3:00 to 4:00."
+          "fullScoreAnswer": "According to the information provided, there are two database security sessions. One is the morning session from 10:00 to 11:00, and the other is the afternoon session from 3:00 to 4:00."
         }
       ],
       "reviewTime": 45,
@@ -8488,7 +8308,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting held january th auditorium",
           "questionBankAnswer": "The meeting will be held on January 17th in the auditorium hall.",
-          "fullScoreAnswer": "The meeting will be held on January 17th in the auditorium hall."
+          "fullScoreAnswer": "According to the information provided, the meeting will be held on January 17th in the auditorium hall."
         },
         {
           "uid": "4-真题04offer是否要跟家里人交流.json-group-q2",
@@ -8502,7 +8322,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no xxx meeting start am",
           "questionBankAnswer": "No, the XXX meeting will start at 5:30am and last until 6:30am.",
-          "fullScoreAnswer": "No, the XXX meeting will start at 5:30am and last until 6:30am."
+          "fullScoreAnswer": "According to the information provided, no, the XXX meeting will start at 5:30am and last until 6:30am."
         },
         {
           "uid": "4-真题04offer是否要跟家里人交流.json-group-q3",
@@ -8516,7 +8336,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "sessions related george bryant report",
           "questionBankAnswer": "There are two sessions related to George Bryant: Report Session 1 at 6:15am and Report Session 2 at 7:00am.",
-          "fullScoreAnswer": "There are two sessions related to George Bryant: Report Session 1 at 6:15am and Report Session 2 at 7:00am."
+          "fullScoreAnswer": "According to the information provided, there are two sessions related to George Bryant: Report Session 1 at 6:15am and Report Session 2 at 7:00am."
         }
       ],
       "reviewTime": 45,
@@ -8606,7 +8426,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "product launch held august",
           "questionBankAnswer": "The product launch will be held on August 10.",
-          "fullScoreAnswer": "The product launch will be held on August 10."
+          "fullScoreAnswer": "According to the information provided, the product launch will be held on August 10."
         },
         {
           "uid": "4-真题05网上读新闻的坏处.json-group-q2",
@@ -8620,7 +8440,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no approved samples arrive october",
           "questionBankAnswer": "No, the approved samples will arrive in October.",
-          "fullScoreAnswer": "No, the approved samples will arrive in October."
+          "fullScoreAnswer": "According to the information provided, no, the approved samples will arrive in October."
         },
         {
           "uid": "4-真题05网上读新闻的坏处.json-group-q3",
@@ -8634,7 +8454,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "mr sandy responsible sessions session",
           "questionBankAnswer": "Mr. Sandy is responsible for two sessions: Sandy Session 1 on August 15 and Sandy Session 2 on August 20.",
-          "fullScoreAnswer": "Mr. Sandy is responsible for two sessions: Sandy Session 1 on August 15 and Sandy Session 2 on August 20."
+          "fullScoreAnswer": "According to the information provided, mr. Sandy is responsible for two sessions: Sandy Session 1 on August 15 and Sandy Session 2 on August 20."
         }
       ],
       "reviewTime": 45,
@@ -8728,7 +8548,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "children literature conference held morning",
           "questionBankAnswer": "The children's literature conference will be held from 8:30 to 9:30 in the morning.",
-          "fullScoreAnswer": "The children's literature conference will be held from 8:30 to 9:30 in the morning."
+          "fullScoreAnswer": "According to the information provided, the children's literature conference will be held from 8:30 to 9:30 in the morning."
         },
         {
           "uid": "4-真题06未来一代为什么比现在一代更健康.json-group-q2",
@@ -8742,7 +8562,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "attend book signing xx clark",
           "questionBankAnswer": "You can attend the book signing by XX Clark from 10:00 to 11:00.",
-          "fullScoreAnswer": "You can attend the book signing by XX Clark from 10:00 to 11:00."
+          "fullScoreAnswer": "According to the information provided, you can attend the book signing by XX Clark from 10:00 to 11:00."
         },
         {
           "uid": "4-真题06未来一代为什么比现在一代更健康.json-group-q3",
@@ -8756,7 +8576,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "reading technology sessions room",
           "questionBankAnswer": "There are two reading technology sessions. One is from 14:00 to 15:00 in Room 101, and the other is from 16:00 to 17:00 in Room 102.",
-          "fullScoreAnswer": "There are two reading technology sessions. One is from 14:00 to 15:00 in Room 101, and the other is from 16:00 to 17:00 in Room 102."
+          "fullScoreAnswer": "According to the information provided, there are two reading technology sessions. One is from 14:00 to 15:00 in Room 101, and the other is from 16:00 to 17:00 in Room 102."
         }
       ],
       "reviewTime": 45,
@@ -8841,7 +8661,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "event held nelson conference center",
           "questionBankAnswer": "The event will be held at the Nelson Conference Center, starting at 9:30 in Nelson Auditorium B.",
-          "fullScoreAnswer": "The event will be held at the Nelson Conference Center, starting at 9:30 in Nelson Auditorium B."
+          "fullScoreAnswer": "According to the information provided, the event will be held at the Nelson Conference Center, starting at 9:30 in Nelson Auditorium B."
         },
         {
           "uid": "4-真题07老师能否让学生带电子设备.json-group-q2",
@@ -8855,7 +8675,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no lunch provided nelson conference",
           "questionBankAnswer": "No, lunch will be provided at 12:30 at the Nelson Conference Center.",
-          "fullScoreAnswer": "No, lunch will be provided at 12:30 at the Nelson Conference Center."
+          "fullScoreAnswer": "According to the information provided, no, lunch will be provided at 12:30 at the Nelson Conference Center."
         },
         {
           "uid": "4-真题07老师能否让学生带电子设备.json-group-q3",
@@ -8869,7 +8689,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "manufacturing related sessions innovative technology",
           "questionBankAnswer": "There are two manufacturing-related sessions. One is Innovative Manufacturing Technology from 9:30 to 10:30 in Nelson Auditorium B. The other is Better Budgeting for Manufacturing from 4:00 to 5:00 in Nelson Auditorium A.",
-          "fullScoreAnswer": "There are two manufacturing-related sessions. One is Innovative Manufacturing Technology from 9:30 to 10:30 in Nelson Auditorium B. The other is Better Budgeting for Manufacturing from 4:00 to 5:00 in Nelson Auditorium A."
+          "fullScoreAnswer": "According to the information provided, there are two manufacturing-related sessions. One is Innovative Manufacturing Technology from 9:30 to 10:30 in Nelson Auditorium B. The other is Better Budgeting for Manufacturing from 4:00 to 5:00 in Nelson Auditorium A."
         }
       ],
       "reviewTime": 45,
@@ -8945,7 +8765,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "interview held xx venue am",
           "questionBankAnswer": "The interview will be held at XX Venue from 7:00 am to 2:00 pm on Tuesday, June 18th. The first interview will start at 7:00 am.",
-          "fullScoreAnswer": "The interview will be held at XX Venue from 7:00 am to 2:00 pm on Tuesday, June 18th. The first interview will start at 7:00 am."
+          "fullScoreAnswer": "According to the information provided, the interview will be held at XX Venue from 7:00 am to 2:00 pm on Tuesday, June 18th. The first interview will start at 7:00 am."
         },
         {
           "uid": "4-真题10买房比租房的缺点.json-group-q2",
@@ -8959,7 +8779,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes interview sales position held",
           "questionBankAnswer": "Yes, the interview for the Sales position will be held at 2:00 pm at XX Venue, and the interviewee is XX applying for the assistant store manager position.",
-          "fullScoreAnswer": "Yes, the interview for the Sales position will be held at 2:00 pm at XX Venue, and the interviewee is XX applying for the assistant store manager position."
+          "fullScoreAnswer": "According to the information provided, yes, the interview for the Sales position will be held at 2:00 pm at XX Venue, and the interviewee is XX applying for the assistant store manager position."
         },
         {
           "uid": "4-真题10买房比租房的缺点.json-group-q3",
@@ -8973,7 +8793,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "online interviews am applicant applying",
           "questionBankAnswer": "There are two online interviews. One is at 9:30 am for Applicant A applying for XX position. Another is at 11:30 am for Applicant B applying for XX position.",
-          "fullScoreAnswer": "There are two online interviews. One is at 9:30 am for Applicant A applying for XX position. Another is at 11:30 am for Applicant B applying for XX position."
+          "fullScoreAnswer": "According to the information provided, there are two online interviews. One is at 9:30 am for Applicant A applying for XX position. Another is at 11:30 am for Applicant B applying for XX position."
         }
       ],
       "reviewTime": 45,
@@ -9058,7 +8878,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "departure time singapore pm june",
           "questionBankAnswer": "The departure time from Singapore is 2:30 PM on June 17th. The flight number is Oceanic Air 7777. You will land in Sydney at 11 PM on the same day.",
-          "fullScoreAnswer": "The departure time from Singapore is 2:30 PM on June 17th. The flight number is Oceanic Air 7777. You will land in Sydney at 11 PM on the same day."
+          "fullScoreAnswer": "According to the information provided, the departure time from Singapore is 2:30 PM on June 17th. The flight number is Oceanic Air 7777. You will land in Sydney at 11 PM on the same day."
         },
         {
           "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-group-q2",
@@ -9072,7 +8892,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes reserved room xx hotel",
           "questionBankAnswer": "Yes, we have reserved a room for you at XX Hotel from June 17th to June 19th.",
-          "fullScoreAnswer": "Yes, we have reserved a room for you at XX Hotel from June 17th to June 19th."
+          "fullScoreAnswer": "According to the information provided, yes, we have reserved a room for you at XX Hotel from June 17th to June 19th."
         },
         {
           "uid": "4-真题11政府提供免费大学课程的好处有哪些.json-group-q3",
@@ -9086,7 +8906,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "return flight departs sydney pm",
           "questionBankAnswer": "The return flight departs from Sydney at 3 PM on June 19th. The flight number is Oceanic Air 8888. You will land in Singapore at 11 PM on the same day.",
-          "fullScoreAnswer": "The return flight departs from Sydney at 3 PM on June 19th. The flight number is Oceanic Air 8888. You will land in Singapore at 11 PM on the same day."
+          "fullScoreAnswer": "According to the information provided, the return flight departs from Sydney at 3 PM on June 19th. The flight number is Oceanic Air 8888. You will land in Singapore at 11 PM on the same day."
         }
       ],
       "reviewTime": 45,
@@ -9158,7 +8978,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting starts topic introduction daily",
           "questionBankAnswer": "The meeting starts at 9:00, and the first topic is the introduction and daily plan discussion.",
-          "fullScoreAnswer": "The meeting starts at 9:00, and the first topic is the introduction and daily plan discussion."
+          "fullScoreAnswer": "According to the information provided, the meeting starts at 9:00, and the first topic is the introduction and daily plan discussion."
         },
         {
           "uid": "4-真题12毕业后第一份工作必要吗.json-group-q2",
@@ -9172,7 +8992,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "not miss main project briefing",
           "questionBankAnswer": "They will not miss the main project briefing, which starts at 10:00.",
-          "fullScoreAnswer": "They will not miss the main project briefing, which starts at 10:00."
+          "fullScoreAnswer": "According to the information provided, they will not miss the main project briefing, which starts at 10:00."
         },
         {
           "uid": "4-真题12毕业后第一份工作必要吗.json-group-q3",
@@ -9186,7 +9006,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "project briefing room supervisor presents",
           "questionBankAnswer": "The Project Briefing is from 10:00 to 11:00 in Room 202. The supervisor presents the new project details to all employees.",
-          "fullScoreAnswer": "The Project Briefing is from 10:00 to 11:00 in Room 202. The supervisor presents the new project details to all employees."
+          "fullScoreAnswer": "According to the information provided, the Project Briefing is from 10:00 to 11:00 in Room 202. The supervisor presents the new project details to all employees."
         }
       ],
       "reviewTime": 45,
@@ -9258,7 +9078,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "start topic freshmen introduction",
           "questionBankAnswer": "It will start at 8:00, and the first topic is freshmen introduction.",
-          "fullScoreAnswer": "It will start at 8:00, and the first topic is freshmen introduction."
+          "fullScoreAnswer": "According to the information provided, it will start at 8:00, and the first topic is freshmen introduction."
         },
         {
           "uid": "4-真题14去当实习生吗.json-group-q2",
@@ -9272,7 +9092,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no actually meeting end won",
           "questionBankAnswer": "No, actually the meeting will end at 10:00, so they won't miss anything.",
-          "fullScoreAnswer": "No, actually the meeting will end at 10:00, so they won't miss anything."
+          "fullScoreAnswer": "According to the information provided, no, actually the meeting will end at 10:00, so they won't miss anything."
         },
         {
           "uid": "4-真题14去当实习生吗.json-group-q3",
@@ -9286,7 +9106,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "topic presented grim discuss specific",
           "questionBankAnswer": "There is a topic presented by Grim from 11:00 to 12:00. Grim will discuss specific details of the project, including start and end times and discussion points.",
-          "fullScoreAnswer": "There is a topic presented by Grim from 11:00 to 12:00. Grim will discuss specific details of the project, including start and end times and discussion points."
+          "fullScoreAnswer": "According to the information provided, there is a topic presented by Grim from 11:00 to 12:00. Grim will discuss specific details of the project, including start and end times and discussion points."
         }
       ],
       "reviewTime": 45,
@@ -9366,7 +9186,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes held april third",
           "questionBankAnswer": "Yes, it will be held on April the third.",
-          "fullScoreAnswer": "Yes, it will be held on April the third."
+          "fullScoreAnswer": "According to the information provided, yes, it will be held on April the third."
         },
         {
           "uid": "4-真题15获得professional success是否需要take risk.json-group-q2",
@@ -9380,7 +9200,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no actually canceled",
           "questionBankAnswer": "No, actually it had been canceled.",
-          "fullScoreAnswer": "No, actually it had been canceled."
+          "fullScoreAnswer": "According to the information provided, no, actually it had been canceled."
         },
         {
           "uid": "4-真题15获得professional success是否需要take risk.json-group-q3",
@@ -9394,7 +9214,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "events food cooking demonstration am",
           "questionBankAnswer": "There are two events about food. The first one is a cooking demonstration, and the second one is at 11 am.",
-          "fullScoreAnswer": "There are two events about food. The first one is a cooking demonstration, and the second one is at 11 am."
+          "fullScoreAnswer": "According to the information provided, there are two events about food. The first one is a cooking demonstration, and the second one is at 11 am."
         }
       ],
       "reviewTime": 45,
@@ -9474,7 +9294,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "interviews start",
           "questionBankAnswer": "The interviews start on 2022/03/13 at 08:00.",
-          "fullScoreAnswer": "The interviews start on 2022/03/13 at 08:00."
+          "fullScoreAnswer": "According to the information provided, the interviews start on 2022/03/13 at 08:00."
         },
         {
           "uid": "4-真题16有钱就快乐吗.json-group-q2",
@@ -9488,7 +9308,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "interview cancelled",
           "questionBankAnswer": "The 08:30 interview was cancelled.",
-          "fullScoreAnswer": "The 08:30 interview was cancelled."
+          "fullScoreAnswer": "According to the information provided, the 08:30 interview was cancelled."
         },
         {
           "uid": "4-真题16有钱就快乐吗.json-group-q3",
@@ -9502,7 +9322,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "nutritionist interviews starts",
           "questionBankAnswer": "There are two nutritionist interviews. The first starts at 09:00 and the second at 09:30.",
-          "fullScoreAnswer": "There are two nutritionist interviews. The first starts at 09:00 and the second at 09:30."
+          "fullScoreAnswer": "According to the information provided, there are two nutritionist interviews. The first starts at 09:00 and the second at 09:30."
         }
       ],
       "reviewTime": 45,
@@ -9592,7 +9412,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "new employee training scheduled october",
           "questionBankAnswer": "The new employee training is scheduled for October 22nd, and the first training session starts at 8:00 in the morning.",
-          "fullScoreAnswer": "The new employee training is scheduled for October 22nd, and the first training session starts at 8:00 in the morning."
+          "fullScoreAnswer": "According to the information provided, the new employee training is scheduled for October 22nd, and the first training session starts at 8:00 in the morning."
         },
         {
           "uid": "4-真题17幽默humor还是严肃serious.json-group-q2",
@@ -9606,7 +9426,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "crossed out training originally planned",
           "questionBankAnswer": "The crossed-out training was originally planned to be held on October 15th at 9:00 AM, but it has been postponed and the new date is not confirmed yet.",
-          "fullScoreAnswer": "The crossed-out training was originally planned to be held on October 15th at 9:00 AM, but it has been postponed and the new date is not confirmed yet."
+          "fullScoreAnswer": "According to the information provided, the crossed-out training was originally planned to be held on October 15th at 9:00 AM, but it has been postponed and the new date is not confirmed yet."
         },
         {
           "uid": "4-真题17幽默humor还是严肃serious.json-group-q3",
@@ -9620,7 +9440,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "interviews nutritionist positions clinical nutrition",
           "questionBankAnswer": "There are two one-on-one interviews for nutritionist positions. The first one is for clinical nutrition expertise, held from 9:00 to 9:45 AM on October 12th in Meeting Room 2. The second one focuses on product development experience, held from 10:00 to 10:45 AM on the same day in Meeting Room 2.",
-          "fullScoreAnswer": "There are two one-on-one interviews for nutritionist positions. The first one is for clinical nutrition expertise, held from 9:00 to 9:45 AM on October 12th in Meeting Room 2. The second one focuses on product development experience, held from 10:00 to 10:45 AM on the same day in Meeting Room 2."
+          "fullScoreAnswer": "According to the information provided, there are two one-on-one interviews for nutritionist positions. The first one is for clinical nutrition expertise, held from 9:00 to 9:45 AM on October 12th in Meeting Room 2. The second one focuses on product development experience, held from 10:00 to 10:45 AM on the same day in Meeting Room 2."
         }
       ],
       "reviewTime": 45,
@@ -9720,7 +9540,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "team briefing",
           "questionBankAnswer": "The team briefing is from 09:00 to 09:30.",
-          "fullScoreAnswer": "The team briefing is from 09:00 to 09:30."
+          "fullScoreAnswer": "According to the information provided, the team briefing is from 09:00 to 09:30."
         },
         {
           "uid": "4-真题18项目中分歧需要解决还是忽略.json-group-q2",
@@ -9734,7 +9554,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes project discussion morning",
           "questionBankAnswer": "Yes, the project discussion is in the morning from 10:00 to 10:45.",
-          "fullScoreAnswer": "Yes, the project discussion is in the morning from 10:00 to 10:45."
+          "fullScoreAnswer": "According to the information provided, yes, the project discussion is in the morning from 10:00 to 10:45."
         },
         {
           "uid": "4-真题18项目中分歧需要解决还是忽略.json-group-q3",
@@ -9748,7 +9568,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "project discussion focuses resolving gaps",
           "questionBankAnswer": "The project discussion from 10:00 to 10:45 focuses on resolving project gaps.",
-          "fullScoreAnswer": "The project discussion from 10:00 to 10:45 focuses on resolving project gaps."
+          "fullScoreAnswer": "According to the information provided, the project discussion from 10:00 to 10:45 focuses on resolving project gaps."
         }
       ],
       "reviewTime": 45,
@@ -9824,7 +9644,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "morning briefing",
           "questionBankAnswer": "The morning briefing is from 09:00 to 09:30.",
-          "fullScoreAnswer": "The morning briefing is from 09:00 to 09:30."
+          "fullScoreAnswer": "According to the information provided, the morning briefing is from 09:00 to 09:30."
         },
         {
           "uid": "4-真题19个公司的多处不同城市工作的好处.json-group-q2",
@@ -9838,7 +9658,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no team meeting morning",
           "questionBankAnswer": "No, the team meeting is in the morning from 10:00 to 10:45.",
-          "fullScoreAnswer": "No, the team meeting is in the morning from 10:00 to 10:45."
+          "fullScoreAnswer": "According to the information provided, no, the team meeting is in the morning from 10:00 to 10:45."
         },
         {
           "uid": "4-真题19个公司的多处不同城市工作的好处.json-group-q3",
@@ -9852,7 +9672,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "team meeting discusses projects different",
           "questionBankAnswer": "The team meeting from 10:00 to 10:45 discusses projects in different cities.",
-          "fullScoreAnswer": "The team meeting from 10:00 to 10:45 discusses projects in different cities."
+          "fullScoreAnswer": "According to the information provided, the team meeting from 10:00 to 10:45 discusses projects in different cities."
         }
       ],
       "reviewTime": 45,
@@ -9928,7 +9748,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "team meeting held conference room",
           "questionBankAnswer": "The team meeting will be held at 08:30 in Conference Room A.",
-          "fullScoreAnswer": "The team meeting will be held at 08:30 in Conference Room A."
+          "fullScoreAnswer": "According to the information provided, the team meeting will be held at 08:30 in Conference Room A."
         },
         {
           "uid": "4-真题22工作经验还是教育背景重要.json-group-q2",
@@ -9942,7 +9762,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "actually no manager position cancelled",
           "questionBankAnswer": "Actually no, the second manager position was cancelled. Please keep that in mind.",
-          "fullScoreAnswer": "Actually no, the second manager position was cancelled. Please keep that in mind."
+          "fullScoreAnswer": "According to the information provided, actually no, the second manager position was cancelled. Please keep that in mind."
         },
         {
           "uid": "4-真题22工作经验还是教育背景重要.json-group-q3",
@@ -9956,7 +9776,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "scheduled positions related manager room",
           "questionBankAnswer": "There are two scheduled positions related to Manager A at Room 101 at 9:30 am and Manager C at Room 103 at 2 pm. The second manager position at Room 102 was cancelled.",
-          "fullScoreAnswer": "There are two scheduled positions related to Manager A at Room 101 at 9:30 am and Manager C at Room 103 at 2 pm. The second manager position at Room 102 was cancelled."
+          "fullScoreAnswer": "According to the information provided, there are two scheduled positions related to Manager A at Room 101 at 9:30 am and Manager C at Room 103 at 2 pm. The second manager position at Room 102 was cancelled."
         }
       ],
       "reviewTime": 45,
@@ -10041,7 +9861,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting held designated rooms listed",
           "questionBankAnswer": "This meeting will be held at the designated rooms as listed in the schedule. The first interview is at 9:00 am.",
-          "fullScoreAnswer": "This meeting will be held at the designated rooms as listed in the schedule. The first interview is at 9:00 am."
+          "fullScoreAnswer": "According to the information provided, this meeting will be held at the designated rooms as listed in the schedule. The first interview is at 9:00 am."
         },
         {
           "uid": "4-真题23大学毕业继续和父母住还是单独住.json-group-q2",
@@ -10055,7 +9875,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "actually no am afraid wrong",
           "questionBankAnswer": "Actually no, I am afraid you have the wrong information. The second manager position was cancelled. Please keep that in mind.",
-          "fullScoreAnswer": "Actually no, I am afraid you have the wrong information. The second manager position was cancelled. Please keep that in mind."
+          "fullScoreAnswer": "According to the information provided, actually no, I am afraid you have the wrong information. The second manager position was cancelled. Please keep that in mind."
         },
         {
           "uid": "4-真题23大学毕业继续和父母住还是单独住.json-group-q3",
@@ -10069,7 +9889,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "course scheduled positions related company",
           "questionBankAnswer": "Of course. There are two scheduled positions related to Company X. One is named Manager A at Room 101 at 9 am. Another is named Manager C at Room 103 at 2 pm. Please keep that in mind.",
-          "fullScoreAnswer": "Of course. There are two scheduled positions related to Company X. One is named Manager A at Room 101 at 9 am. Another is named Manager C at Room 103 at 2 pm. Please keep that in mind."
+          "fullScoreAnswer": "According to the information provided, of course. There are two scheduled positions related to Company X. One is named Manager A at Room 101 at 9 am. Another is named Manager C at Room 103 at 2 pm. Please keep that in mind."
         }
       ],
       "reviewTime": 45,
@@ -10149,7 +9969,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "interviews held room interview starts",
           "questionBankAnswer": "The interviews will be held in Room 302, and the first interview starts at 9:00 in the morning.",
-          "fullScoreAnswer": "The interviews will be held in Room 302, and the first interview starts at 9:00 in the morning."
+          "fullScoreAnswer": "According to the information provided, the interviews will be held in Room 302, and the first interview starts at 9:00 in the morning."
         },
         {
           "uid": "4-真题25在公司上班前有过创业经验的好处.json-group-q2",
@@ -10163,7 +9983,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no isn interview scheduled cancelled",
           "questionBankAnswer": "No, it isn't. The interview scheduled for 4:00 p.m. has been cancelled, so the last interview starts at 3:00 p.m.",
-          "fullScoreAnswer": "No, it isn't. The interview scheduled for 4:00 p.m. has been cancelled, so the last interview starts at 3:00 p.m."
+          "fullScoreAnswer": "According to the information provided, no, it isn't. The interview scheduled for 4:00 p.m. has been cancelled, so the last interview starts at 3:00 p.m."
         },
         {
           "uid": "4-真题25在公司上班前有过创业经验的好处.json-group-q3",
@@ -10177,7 +9997,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "interviews require teaching experience round",
           "questionBankAnswer": "There are two interviews that require teaching experience. They are the second round - piano demo from 10:30 to 11:30 a.m. and the third round - teaching plan presentation from 2:00 to 3:00 p.m.",
-          "fullScoreAnswer": "There are two interviews that require teaching experience. They are the second round - piano demo from 10:30 to 11:30 a.m. and the third round - teaching plan presentation from 2:00 to 3:00 p.m."
+          "fullScoreAnswer": "According to the information provided, there are two interviews that require teaching experience. They are the second round - piano demo from 10:30 to 11:30 a.m. and the third round - teaching plan presentation from 2:00 to 3:00 p.m."
         }
       ],
       "reviewTime": 45,
@@ -10262,7 +10082,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question ticket purchase methods country",
           "questionBankAnswer": "Question 1: The ticket purchase methods for the country concerts are online, by phone, and in person.",
-          "fullScoreAnswer": "Question 1: The ticket purchase methods for the country concerts are online, by phone, and in person."
+          "fullScoreAnswer": "According to the information provided, question 1: The ticket purchase methods for the country concerts are online, by phone, and in person."
         },
         {
           "uid": "4-真题26是现有的工作更让你开心.json-group-q2",
@@ -10276,7 +10096,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question country concerts schedule october",
           "questionBankAnswer": "Question 2: There are two country concerts in the schedule, one on October 12 and the other on November 18.",
-          "fullScoreAnswer": "Question 2: There are two country concerts in the schedule, one on October 12 and the other on November 18."
+          "fullScoreAnswer": "According to the information provided, question 2: There are two country concerts in the schedule, one on October 12 and the other on November 18."
         },
         {
           "uid": "4-真题26是现有的工作更让你开心.json-group-q3",
@@ -10290,7 +10110,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question no classic concert tickets",
           "questionBankAnswer": "Question 3: No, the classic concert tickets are only available for purchase online.",
-          "fullScoreAnswer": "Question 3: No, the classic concert tickets are only available for purchase online."
+          "fullScoreAnswer": "According to the information provided, question 3: No, the classic concert tickets are only available for purchase online."
         }
       ],
       "reviewTime": 45,
@@ -10366,7 +10186,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question training starts november th",
           "questionBankAnswer": "Question 1: The training starts on November 5th and is held in Conference Room 101.",
-          "fullScoreAnswer": "Question 1: The training starts on November 5th and is held in Conference Room 101."
+          "fullScoreAnswer": "According to the information provided, question 1: The training starts on November 5th and is held in Conference Room 101."
         },
         {
           "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-group-q2",
@@ -10380,7 +10200,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question no doesn course opening",
           "questionBankAnswer": "Question 2: No, it doesn't. The first course is the opening ceremony, which starts at 9:00 AM.",
-          "fullScoreAnswer": "Question 2: No, it doesn't. The first course is the opening ceremony, which starts at 9:00 AM."
+          "fullScoreAnswer": "According to the information provided, question 2: No, it doesn't. The first course is the opening ceremony, which starts at 9:00 AM."
         },
         {
           "uid": "4-真题27你认为一家公司有环境友好政策有什么好处.json-group-q3",
@@ -10394,7 +10214,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question workshops training team management",
           "questionBankAnswer": "Question 3: There are two workshops in this training. The first one is Team Management from 10:00 AM to 12:00 PM with interactive discussions, and the second one is Decision Making from 2:00 PM to 4:00 PM with case study analysis.",
-          "fullScoreAnswer": "Question 3: There are two workshops in this training. The first one is Team Management from 10:00 AM to 12:00 PM with interactive discussions, and the second one is Decision Making from 2:00 PM to 4:00 PM with case study analysis."
+          "fullScoreAnswer": "According to the information provided, question 3: There are two workshops in this training. The first one is Team Management from 10:00 AM to 12:00 PM with interactive discussions, and the second one is Decision Making from 2:00 PM to 4:00 PM with case study analysis."
         }
       ],
       "reviewTime": 45,
@@ -10484,7 +10304,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "depart am june arrive pm",
           "questionBankAnswer": "It will depart at 7:00 AM on June 10 and arrive at 1:09 PM on the same day.",
-          "fullScoreAnswer": "It will depart at 7:00 AM on June 10 and arrive at 1:09 PM on the same day."
+          "fullScoreAnswer": "According to the information provided, it will depart at 7:00 AM on June 10 and arrive at 1:09 PM on the same day."
         },
         {
           "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-group-q2",
@@ -10498,7 +10318,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "morning flight departs am",
           "questionBankAnswer": "It is in the morning. The flight departs at 7:00 AM.",
-          "fullScoreAnswer": "It is in the morning. The flight departs at 7:00 AM."
+          "fullScoreAnswer": "According to the information provided, it is in the morning. The flight departs at 7:00 AM."
         },
         {
           "uid": "4-真题31发生分歧是直接解决还是找领导帮忙.json-group-q3",
@@ -10512,7 +10332,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "depart sydney rapid airline flight",
           "questionBankAnswer": "You will depart from Sydney on Rapid Airline flight B17 at 9:10 AM on June 17, and you will arrive in Singapore at 4:12 PM on the same day.",
-          "fullScoreAnswer": "You will depart from Sydney on Rapid Airline flight B17 at 9:10 AM on June 17, and you will arrive in Singapore at 4:12 PM on the same day."
+          "fullScoreAnswer": "According to the information provided, you will depart from Sydney on Rapid Airline flight B17 at 9:10 AM on June 17, and you will arrive in Singapore at 4:12 PM on the same day."
         }
       ],
       "reviewTime": 45,
@@ -10588,7 +10408,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting held pm conference room",
           "questionBankAnswer": "The meeting will be held at 2:00 PM in the conference room. The first session starts at 2:15 PM and it is about project updates.",
-          "fullScoreAnswer": "The meeting will be held at 2:00 PM in the conference room. The first session starts at 2:15 PM and it is about project updates."
+          "fullScoreAnswer": "According to the information provided, the meeting will be held at 2:00 PM in the conference room. The first session starts at 2:15 PM and it is about project updates."
         },
         {
           "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-group-q2",
@@ -10602,7 +10422,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no not morning actually pm",
           "questionBankAnswer": "No, it’s not in the morning. It’s actually at 2:00 PM in the afternoon.",
-          "fullScoreAnswer": "No, it’s not in the morning. It’s actually at 2:00 PM in the afternoon."
+          "fullScoreAnswer": "According to the information provided, no, it’s not in the morning. It’s actually at 2:00 PM in the afternoon."
         },
         {
           "uid": "4-真题32主管评价员工，周边同事反馈是否很重要.json-group-q3",
@@ -10616,7 +10436,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "activities related fruit trees demonstration",
           "questionBankAnswer": "There are two activities related to fruit trees. The first one is a demonstration called 'How to Prune Fruit Trees,' which starts at 3:00 PM. The second one is a workshop named 'Growing Fruit Trees in Your Garden,' scheduled for 4:00 PM.",
-          "fullScoreAnswer": "There are two activities related to fruit trees. The first one is a demonstration called 'How to Prune Fruit Trees,' which starts at 3:00 PM. The second one is a workshop named 'Growing Fruit Trees in Your Garden,' scheduled for 4:00 PM."
+          "fullScoreAnswer": "According to the information provided, there are two activities related to fruit trees. The first one is a demonstration called 'How to Prune Fruit Trees,' which starts at 3:00 PM. The second one is a workshop named 'Growing Fruit Trees in Your Garden,' scheduled for 4:00 PM."
         }
       ],
       "reviewTime": 45,
@@ -10701,7 +10521,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "activity held healthy living center",
           "questionBankAnswer": "The activity will be held in the Healthy Living Center,\nAnd it costs $5 for each person/ it costs $5 per person\n",
-          "fullScoreAnswer": "The activity will be held in the Healthy Living Center,\nAnd it costs $5 for each person/ it costs $5 per person\n"
+          "fullScoreAnswer": "According to the information provided, the activity will be held in the Healthy Living Center,\nAnd it costs $5 for each person/ it costs $5 per person\n"
         },
         {
           "uid": "4-真题33在21岁以下开车的坏处.json-group-q2",
@@ -10715,7 +10535,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no april",
           "questionBankAnswer": "No, it should be from April 7 to May 29.",
-          "fullScoreAnswer": "No, it should be from April 7 to May 29."
+          "fullScoreAnswer": "According to the information provided, no, it should be from April 7 to May 29."
         },
         {
           "uid": "4-真题33在21岁以下开车的坏处.json-group-q3",
@@ -10729,7 +10549,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "ok let check topics making",
           "questionBankAnswer": "OK, let me check. There are 2 topics after 6:00 p.m.;\nThe first one is Making money at 6:30 p.m.\nThe second one is How to Sleep at 8:00 p.m.\n",
-          "fullScoreAnswer": "OK, let me check. There are 2 topics after 6:00 p.m.;\nThe first one is Making money at 6:30 p.m.\nThe second one is How to Sleep at 8:00 p.m.\n"
+          "fullScoreAnswer": "According to the information provided, oK, let me check. There are 2 topics after 6:00 p.m.;\nThe first one is Making money at 6:30 p.m.\nThe second one is How to Sleep at 8:00 p.m.\n"
         }
       ],
       "reviewTime": 45,
@@ -10818,7 +10638,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting called photo theme conference",
           "questionBankAnswer": "The meeting is called the Photo Theme Conference. It will be held on October 17th at the City Convention Center. The ticket price is $45.",
-          "fullScoreAnswer": "The meeting is called the Photo Theme Conference. It will be held on October 17th at the City Convention Center. The ticket price is $45."
+          "fullScoreAnswer": "According to the information provided, the meeting is called the Photo Theme Conference. It will be held on October 17th at the City Convention Center. The ticket price is $45."
         },
         {
           "uid": "4-真题34职业生涯中频繁更换公司的好处.json-group-q2",
@@ -10832,7 +10652,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes meeting still take place",
           "questionBankAnswer": "Yes, the meeting will still take place even if it rains. According to the note, the event will continue as scheduled.",
-          "fullScoreAnswer": "Yes, the meeting will still take place even if it rains. According to the note, the event will continue as scheduled."
+          "fullScoreAnswer": "According to the information provided, yes, the meeting will still take place even if it rains. According to the note, the event will continue as scheduled."
         },
         {
           "uid": "4-真题34职业生涯中频繁更换公司的好处.json-group-q3",
@@ -10846,7 +10666,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "year lecture topics digital photography",
           "questionBankAnswer": "This year, there are two lecture topics. One is Digital Photography Techniques, and the other is Storytelling Through Images.",
-          "fullScoreAnswer": "This year, there are two lecture topics. One is Digital Photography Techniques, and the other is Storytelling Through Images."
+          "fullScoreAnswer": "According to the information provided, this year, there are two lecture topics. One is Digital Photography Techniques, and the other is Storytelling Through Images."
         }
       ],
       "reviewTime": 45,
@@ -10940,7 +10760,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting scheduled october th start",
           "questionBankAnswer": "The meeting is scheduled for October 15th, and it will start at 9:30 a.m.",
-          "fullScoreAnswer": "The meeting is scheduled for October 15th, and it will start at 9:30 a.m."
+          "fullScoreAnswer": "According to the information provided, the meeting is scheduled for October 15th, and it will start at 9:30 a.m."
         },
         {
           "uid": "4-真题35父母让孩子做家务的好处.json-group-q2",
@@ -10954,7 +10774,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no workshop not morning held",
           "questionBankAnswer": "No, the workshop is not in the morning. It is held in the afternoon from 1:00 to 2:00 p.m.",
-          "fullScoreAnswer": "No, the workshop is not in the morning. It is held in the afternoon from 1:00 to 2:00 p.m."
+          "fullScoreAnswer": "According to the information provided, no, the workshop is not in the morning. It is held in the afternoon from 1:00 to 2:00 p.m."
         },
         {
           "uid": "4-真题35父母让孩子做家务的好处.json-group-q3",
@@ -10968,7 +10788,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "panel sessions international business strategies",
           "questionBankAnswer": "There are two panel sessions. The first one is about international business strategies, and the second one focuses on technology trends in the industry. Both sessions include expert discussions and Q&A.",
-          "fullScoreAnswer": "There are two panel sessions. The first one is about international business strategies, and the second one focuses on technology trends in the industry. Both sessions include expert discussions and Q&A."
+          "fullScoreAnswer": "According to the information provided, there are two panel sessions. The first one is about international business strategies, and the second one focuses on technology trends in the industry. Both sessions include expert discussions and Q&A."
         }
       ],
       "reviewTime": 45,
@@ -11053,7 +10873,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "seminar start main conference hall",
           "questionBankAnswer": "The seminar will start at 10:00 a.m., in the main conference hall, right after registration.",
-          "fullScoreAnswer": "The seminar will start at 10:00 a.m., in the main conference hall, right after registration."
+          "fullScoreAnswer": "According to the information provided, the seminar will start at 10:00 a.m., in the main conference hall, right after registration."
         },
         {
           "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q2",
@@ -11067,7 +10887,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes early registration offers cheaper",
           "questionBankAnswer": "Yes, early registration offers a cheaper ticket at 40 dollars instead of the regular price.",
-          "fullScoreAnswer": "Yes, early registration offers a cheaper ticket at 40 dollars instead of the regular price."
+          "fullScoreAnswer": "According to the information provided, yes, early registration offers a cheaper ticket at 40 dollars instead of the regular price."
         },
         {
           "uid": "4-真题36公司提供工作日锻炼的机会是否是一个好主意.json-group-q3",
@@ -11081,7 +10901,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "workshops workshop improving workplace productivity",
           "questionBankAnswer": "There are two workshops. Workshop A is about improving workplace productivity, and Workshop B focuses on promoting a healthy lifestyle for office workers.",
-          "fullScoreAnswer": "There are two workshops. Workshop A is about improving workplace productivity, and Workshop B focuses on promoting a healthy lifestyle for office workers."
+          "fullScoreAnswer": "According to the information provided, there are two workshops. Workshop A is about improving workplace productivity, and Workshop B focuses on promoting a healthy lifestyle for office workers."
         }
       ],
       "reviewTime": 45,
@@ -11169,7 +10989,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting scheduled thursday august th",
           "questionBankAnswer": "The meeting is scheduled for Thursday, August 15th at the downtown conference center near the main train station.",
-          "fullScoreAnswer": "The meeting is scheduled for Thursday, August 15th at the downtown conference center near the main train station."
+          "fullScoreAnswer": "According to the information provided, the meeting is scheduled for Thursday, August 15th at the downtown conference center near the main train station."
         },
         {
           "uid": "4-真题37对于一个求职者哪个最重要.json-group-q2",
@@ -11183,7 +11003,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no ticket price members non",
           "questionBankAnswer": "No, the ticket price for members is $45. The $60 ticket is for non-members.",
-          "fullScoreAnswer": "No, the ticket price for members is $45. The $60 ticket is for non-members."
+          "fullScoreAnswer": "According to the information provided, no, the ticket price for members is $45. The $60 ticket is for non-members."
         },
         {
           "uid": "4-真题37对于一个求职者哪个最重要.json-group-q3",
@@ -11197,7 +11017,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "john berg present topics new",
           "questionBankAnswer": "John Berg will present two topics: new marketing strategies for small businesses, and customer engagement techniques.",
-          "fullScoreAnswer": "John Berg will present two topics: new marketing strategies for small businesses, and customer engagement techniques."
+          "fullScoreAnswer": "According to the information provided, john Berg will present two topics: new marketing strategies for small businesses, and customer engagement techniques."
         }
       ],
       "reviewTime": 45,
@@ -11287,7 +11107,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "training next week class begins",
           "questionBankAnswer": "The training is next week, and the first class begins on Monday at 9 a.m.",
-          "fullScoreAnswer": "The training is next week, and the first class begins on Monday at 9 a.m."
+          "fullScoreAnswer": "According to the information provided, the training is next week, and the first class begins on Monday at 9 a.m."
         },
         {
           "uid": "4-真题38当医生有什么好处.json-group-q2",
@@ -11301,7 +11121,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no lunch not free costs",
           "questionBankAnswer": "No, lunch is not free. It costs five dollars per person.",
-          "fullScoreAnswer": "No, lunch is not free. It costs five dollars per person."
+          "fullScoreAnswer": "According to the information provided, no, lunch is not free. It costs five dollars per person."
         },
         {
           "uid": "4-真题38当医生有什么好处.json-group-q3",
@@ -11315,7 +11135,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "teach courses italian cooking french",
           "questionBankAnswer": "He will teach two courses: Italian cooking and French cuisine.",
-          "fullScoreAnswer": "He will teach two courses: Italian cooking and French cuisine."
+          "fullScoreAnswer": "According to the information provided, he will teach two courses: Italian cooking and French cuisine."
         }
       ],
       "reviewTime": 45,
@@ -11391,7 +11211,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "meeting starts time start",
           "questionBankAnswer": "The meeting starts at 9 a.m.",
-          "fullScoreAnswer": "The meeting starts at 9 a.m."
+          "fullScoreAnswer": "According to the information provided, the meeting starts at 9 a.m."
         },
         {
           "uid": "4-真题39技术是否很难平衡工作和生活.json-group-q2",
@@ -11405,7 +11225,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no lunch free registered participants",
           "questionBankAnswer": "No, lunch is only free for registered participants.",
-          "fullScoreAnswer": "No, lunch is only free for registered participants."
+          "fullScoreAnswer": "According to the information provided, no, lunch is only free for registered participants."
         },
         {
           "uid": "4-真题39技术是否很难平衡工作和生活.json-group-q3",
@@ -11419,7 +11239,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "sessions time management workplace communication",
           "questionBankAnswer": "The two sessions are about time management and workplace communication.",
-          "fullScoreAnswer": "The two sessions are about time management and workplace communication."
+          "fullScoreAnswer": "According to the information provided, the two sessions are about time management and workplace communication."
         }
       ],
       "reviewTime": 45,
@@ -11504,7 +11324,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "event held downtown convention center",
           "questionBankAnswer": "The event is held at the Downtown Convention Center.",
-          "fullScoreAnswer": "The event is held at the Downtown Convention Center."
+          "fullScoreAnswer": "According to the information provided, the event is held at the Downtown Convention Center."
         },
         {
           "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-group-q2",
@@ -11518,7 +11338,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "won miss anything activity starts",
           "questionBankAnswer": "He won’t miss anything because the first activity starts at 10 a.m.",
-          "fullScoreAnswer": "He won’t miss anything because the first activity starts at 10 a.m."
+          "fullScoreAnswer": "According to the information provided, he won’t miss anything because the first activity starts at 10 a.m."
         },
         {
           "uid": "4-真题40大学生是否应该花时间去参加社区活动.json-group-q3",
@@ -11532,7 +11352,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "activities workshop digital marketing networking",
           "questionBankAnswer": "The two activities are a workshop on digital marketing and a networking session.",
-          "fullScoreAnswer": "The two activities are a workshop on digital marketing and a networking session."
+          "fullScoreAnswer": "According to the information provided, the two activities are a workshop on digital marketing and a networking session."
         }
       ],
       "reviewTime": 45,
@@ -11608,7 +11428,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "fee dollars local citizens non",
           "questionBankAnswer": "The fee is 40 dollars for local citizens and 60 dollars for non-local participants.",
-          "fullScoreAnswer": "The fee is 40 dollars for local citizens and 60 dollars for non-local participants."
+          "fullScoreAnswer": "According to the information provided, the fee is 40 dollars for local citizens and 60 dollars for non-local participants."
         },
         {
           "uid": "4-真题42员工自己设置工作时间有什么好处.json-group-q2",
@@ -11622,7 +11442,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no starts runs until thursday",
           "questionBankAnswer": "No, it starts at 6 p.m. and runs until 8 p.m.",
-          "fullScoreAnswer": "No, it starts at 6 p.m. and runs until 8 p.m."
+          "fullScoreAnswer": "According to the information provided, no, it starts at 6 p.m. and runs until 8 p.m."
         },
         {
           "uid": "4-真题42员工自己设置工作时间有什么好处.json-group-q3",
@@ -11636,7 +11456,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "sure painting class held four",
           "questionBankAnswer": "Sure. The painting class is held from two to four p.m. in the art studio.\nThere are two levels available, including a beginner class and an advanced class, so participants can choose the level that suits their skill level.",
-          "fullScoreAnswer": "Sure. The painting class is held from two to four p.m. in the art studio.\nThere are two levels available, including a beginner class and an advanced class, so participants can choose the level that suits their skill level."
+          "fullScoreAnswer": "According to the information provided, sure. The painting class is held from two to four p.m. in the art studio.\nThere are two levels available, including a beginner class and an advanced class, so participants can choose the level that suits their skill level."
         }
       ],
       "reviewTime": 45,
@@ -11721,7 +11541,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "registration coffee start monday main",
           "questionBankAnswer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby.",
-          "fullScoreAnswer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby."
+          "fullScoreAnswer": "According to the information provided, registration and welcome coffee start at 9 a.m. on Monday in the main lobby."
         },
         {
           "uid": "4-模拟题3.json-group-q2",
@@ -11735,7 +11555,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no sessions held tuesday thursday",
           "questionBankAnswer": "No, the sessions are held on Tuesday and Thursday.",
-          "fullScoreAnswer": "No, the sessions are held on Tuesday and Thursday."
+          "fullScoreAnswer": "According to the information provided, no, the sessions are held on Tuesday and Thursday."
         },
         {
           "uid": "4-模拟题3.json-group-q3",
@@ -11749,7 +11569,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "unfortunately no activities available sessions",
           "questionBankAnswer": "Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon.",
-          "fullScoreAnswer": "Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon."
+          "fullScoreAnswer": "According to the information provided, unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon."
         }
       ],
       "reviewTime": 45,
@@ -11829,7 +11649,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "Richards History Museum opening hours time location",
           "questionBankAnswer": "The Richards History Museum is open from 9 a.m. to 5 p.m. from Monday to Saturday, and from 12 p.m. to 8 p.m. on Sunday.",
-          "fullScoreAnswer": "The Richards History Museum is open from 9 a.m. to 5 p.m. from Monday to Saturday, and from 12 p.m. to 8 p.m. on Sunday."
+          "fullScoreAnswer": "According to the information provided, the Richards History Museum is open from 9 a.m. to 5 p.m. from Monday to Saturday, and from 12 p.m. to 8 p.m. on Sunday."
         },
         {
           "uid": "4-真题01沟通组织解决问题哪个重要.json-group-q2",
@@ -11843,7 +11663,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "Children Day May 11th museum free admission",
           "questionBankAnswer": "No, Children’s Day is on May 11th, and children under 12 can enter the museum for free on that day.",
-          "fullScoreAnswer": "No, Children’s Day is on May 11th, and children under 12 can enter the museum for free on that day."
+          "fullScoreAnswer": "According to the information provided, no, Children’s Day is on May 11th, and children under 12 can enter the museum for free on that day."
         },
         {
           "uid": "4-真题01沟通组织解决问题哪个重要.json-group-q3",
@@ -11857,7 +11677,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "Houses Around the World How Palaces were Built exhibition",
           "questionBankAnswer": "There are two building-related exhibitions. One is called 'Houses Around the World' on May 4th, and the other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9 a.m. to 5 p.m.",
-          "fullScoreAnswer": "There are two building-related exhibitions. One is called 'Houses Around the World' on May 4th, and the other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9 a.m. to 5 p.m."
+          "fullScoreAnswer": "According to the information provided, there are two building-related exhibitions. One is called 'Houses Around the World' on May 4th, and the other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9 a.m. to 5 p.m."
         }
       ],
       "reviewTime": 45,
@@ -11957,7 +11777,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "course starts monday please complete",
           "questionBankAnswer": "The first course starts on Monday at 9:00 a.m. Please complete registration before the deadline announced by the organizer.",
-          "fullScoreAnswer": "The first course starts on Monday at 9:00 a.m. Please complete registration before the deadline announced by the organizer."
+          "fullScoreAnswer": "According to the information provided, the first course starts on Monday at 9:00 a.m. Please complete registration before the deadline announced by the organizer."
         },
         {
           "uid": "4-真题03改变国家图书馆.json-group-q2",
@@ -11971,7 +11791,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes clean water sanitation session",
           "questionBankAnswer": "Yes, the Clean Water and Sanitation session will be held on Monday.",
-          "fullScoreAnswer": "Yes, the Clean Water and Sanitation session will be held on Monday."
+          "fullScoreAnswer": "According to the information provided, yes, the Clean Water and Sanitation session will be held on Monday."
         },
         {
           "uid": "4-真题03改变国家图书馆.json-group-q3",
@@ -11985,7 +11805,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "unfortunately none listed sessions available",
           "questionBankAnswer": "Unfortunately, none of the listed sessions are available after 6 p.m. All activities are scheduled in the morning or early afternoon.",
-          "fullScoreAnswer": "Unfortunately, none of the listed sessions are available after 6 p.m. All activities are scheduled in the morning or early afternoon."
+          "fullScoreAnswer": "According to the information provided, unfortunately, none of the listed sessions are available after 6 p.m. All activities are scheduled in the morning or early afternoon."
         }
       ],
       "reviewTime": 45,
@@ -12075,7 +11895,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "member day activities start museum",
           "questionBankAnswer": "The member day activities start at 9:00 at the museum's main entrance.",
-          "fullScoreAnswer": "The member day activities start at 9:00 at the museum's main entrance."
+          "fullScoreAnswer": "According to the information provided, the member day activities start at 9:00 at the museum's main entrance."
         },
         {
           "uid": "4-真题08作为老板高效沟通是不是最重要.json-group-q2",
@@ -12089,7 +11909,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "non members pay enter free",
           "questionBankAnswer": "Non-members need to pay $25; members enter for free.",
-          "fullScoreAnswer": "Non-members need to pay $25; members enter for free."
+          "fullScoreAnswer": "According to the information provided, non-members need to pay $25; members enter for free."
         },
         {
           "uid": "4-真题08作为老板高效沟通是不是最重要.json-group-q3",
@@ -12103,7 +11923,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "guided tours art exhibition gallery",
           "questionBankAnswer": "There are two guided tours. One is the Art Exhibition from 10:00 to 11:00 in Gallery A led by the curator. The other is the Historical Collection from 11:30 to 12:30 in Gallery B led by museum staff.",
-          "fullScoreAnswer": "There are two guided tours. One is the Art Exhibition from 10:00 to 11:00 in Gallery A led by the curator. The other is the Historical Collection from 11:30 to 12:30 in Gallery B led by museum staff."
+          "fullScoreAnswer": "According to the information provided, there are two guided tours. One is the Art Exhibition from 10:00 to 11:00 in Gallery A led by the curator. The other is the Historical Collection from 11:30 to 12:30 in Gallery B led by museum staff."
         }
       ],
       "reviewTime": 45,
@@ -12179,7 +11999,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "final option chosen participant attend",
           "questionBankAnswer": "The final option chosen by the participant is what they will attend.",
-          "fullScoreAnswer": "The final option chosen by the participant is what they will attend."
+          "fullScoreAnswer": "According to the information provided, the final option chosen by the participant is what they will attend."
         },
         {
           "uid": "4-真题13offer是否需要考虑公司的名誉.json-group-q2",
@@ -12193,7 +12013,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no tools provided",
           "questionBankAnswer": "No need, the tools have been provided.",
-          "fullScoreAnswer": "No need, the tools have been provided."
+          "fullScoreAnswer": "According to the information provided, no need, the tools have been provided."
         },
         {
           "uid": "4-真题13offer是否需要考虑公司的名誉.json-group-q3",
@@ -12207,7 +12027,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "classes related activity class",
           "questionBankAnswer": "There are two classes related to this activity.",
-          "fullScoreAnswer": "There are two classes related to this activity."
+          "fullScoreAnswer": "According to the information provided, there are two classes related to this activity."
         }
       ],
       "reviewTime": 45,
@@ -12279,7 +12099,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "ticket costs children under free",
           "questionBankAnswer": "A ticket costs $6 and children under 2 are free.",
-          "fullScoreAnswer": "A ticket costs $6 and children under 2 are free."
+          "fullScoreAnswer": "According to the information provided, a ticket costs $6 and children under 2 are free."
         },
         {
           "uid": "4-真题20独自运动还是.json-group-q2",
@@ -12293,7 +12113,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no activities scheduled pm",
           "questionBankAnswer": "No, all the activities are scheduled at 3pm.",
-          "fullScoreAnswer": "No, all the activities are scheduled at 3pm."
+          "fullScoreAnswer": "According to the information provided, no, all the activities are scheduled at 3pm."
         },
         {
           "uid": "4-真题20独自运动还是.json-group-q3",
@@ -12307,7 +12127,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "three activities attend magic show",
           "questionBankAnswer": "There are three activities they can attend: Magic Show, Treasure Hunt, and Mini Sports.",
-          "fullScoreAnswer": "There are three activities they can attend: Magic Show, Treasure Hunt, and Mini Sports."
+          "fullScoreAnswer": "According to the information provided, there are three activities they can attend: Magic Show, Treasure Hunt, and Mini Sports."
         }
       ],
       "reviewTime": 45,
@@ -12392,7 +12212,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "opening lecture held main hall",
           "questionBankAnswer": "The opening lecture will be held from 09:00 to 10:00 in the Main Hall.",
-          "fullScoreAnswer": "The opening lecture will be held from 09:00 to 10:00 in the Main Hall."
+          "fullScoreAnswer": "According to the information provided, the opening lecture will be held from 09:00 to 10:00 in the Main Hall."
         },
         {
           "uid": "4-真题21进入大学前实习gap year有哪些好处.json-group-q2",
@@ -12406,7 +12226,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no merg session scheduled morning",
           "questionBankAnswer": "No, Merg Session 1 is scheduled for the morning but the day is not Wednesday.",
-          "fullScoreAnswer": "No, Merg Session 1 is scheduled for the morning but the day is not Wednesday."
+          "fullScoreAnswer": "According to the information provided, no, Merg Session 1 is scheduled for the morning but the day is not Wednesday."
         },
         {
           "uid": "4-真题21进入大学前实习gap year有哪些好处.json-group-q3",
@@ -12420,7 +12240,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "sessions called merg session room",
           "questionBankAnswer": "There are two sessions called Merg: Merg Session 1 at Room A from 10:15–11:00 and Merg Session 2 at Room B from 11:15–12:00.",
-          "fullScoreAnswer": "There are two sessions called Merg: Merg Session 1 at Room A from 10:15–11:00 and Merg Session 2 at Room B from 11:15–12:00."
+          "fullScoreAnswer": "According to the information provided, there are two sessions called Merg: Merg Session 1 at Room A from 10:15–11:00 and Merg Session 2 at Room B from 11:15–12:00."
         }
       ],
       "reviewTime": 45,
@@ -12514,7 +12334,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "weekly health lecture held tuesday",
           "questionBankAnswer": "The weekly health lecture is held every Tuesday from 6:00 pm to 8:00 pm.",
-          "fullScoreAnswer": "The weekly health lecture is held every Tuesday from 6:00 pm to 8:00 pm."
+          "fullScoreAnswer": "According to the information provided, the weekly health lecture is held every Tuesday from 6:00 pm to 8:00 pm."
         },
         {
           "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q2",
@@ -12528,7 +12348,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no sorry afraid activity held",
           "questionBankAnswer": "No, I'm sorry. I'm afraid that the activity will be held in Meeting Room A. Please keep that in mind.",
-          "fullScoreAnswer": "No, I'm sorry. I'm afraid that the activity will be held in Meeting Room A. Please keep that in mind."
+          "fullScoreAnswer": "According to the information provided, no, I'm sorry. I'm afraid that the activity will be held in Meeting Room A. Please keep that in mind."
         },
         {
           "uid": "4-真题24为一家已经经营了很多年的公司工作有哪些优点.json-group-q3",
@@ -12542,7 +12362,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "events led dr smith january",
           "questionBankAnswer": "There are 2 events led by Dr. Smith. The first is on January 3, and the topic is \"heart healthy food\". The next one is on April 2, and the topic is \"balanced diet for adults\".",
-          "fullScoreAnswer": "There are 2 events led by Dr. Smith. The first is on January 3, and the topic is \"heart healthy food\". The next one is on April 2, and the topic is \"balanced diet for adults\"."
+          "fullScoreAnswer": "According to the information provided, there are 2 events led by Dr. Smith. The first is on January 3, and the topic is \"heart healthy food\". The next one is on April 2, and the topic is \"balanced diet for adults\"."
         }
       ],
       "reviewTime": 45,
@@ -12622,7 +12442,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "ticket prices dollars per movie",
           "questionBankAnswer": "The ticket prices are 12 dollars per movie for the morning and afternoon sessions, and 15 dollars per movie for the evening 3D session.",
-          "fullScoreAnswer": "The ticket prices are 12 dollars per movie for the morning and afternoon sessions, and 15 dollars per movie for the evening 3D session."
+          "fullScoreAnswer": "According to the information provided, the ticket prices are 12 dollars per movie for the morning and afternoon sessions, and 15 dollars per movie for the evening 3D session."
         },
         {
           "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-group-q2",
@@ -12636,7 +12456,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "morning movie cinema",
           "questionBankAnswer": "The morning movie is from 9:00 to 11:00 at Cinema A.",
-          "fullScoreAnswer": "The morning movie is from 9:00 to 11:00 at Cinema A."
+          "fullScoreAnswer": "According to the information provided, the morning movie is from 9:00 to 11:00 at Cinema A."
         },
         {
           "uid": "4-真题28你认为elementary school的学生是否需要开始学英语.json-group-q3",
@@ -12650,7 +12470,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "morning movie cinema afternoon",
           "questionBankAnswer": "There is a morning movie from 9:00 to 11:00 at Cinema A, and an afternoon movie from 13:00 to 15:00 at Cinema B.",
-          "fullScoreAnswer": "There is a morning movie from 9:00 to 11:00 at Cinema A, and an afternoon movie from 13:00 to 15:00 at Cinema B."
+          "fullScoreAnswer": "According to the information provided, there is a morning movie from 9:00 to 11:00 at Cinema A, and an afternoon movie from 13:00 to 15:00 at Cinema B."
         }
       ],
       "reviewTime": 45,
@@ -12730,7 +12550,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question event starts am october",
           "questionBankAnswer": "Question 1: The event starts at 9:00 AM on October 20th after the registration which begins at 8:30 AM.",
-          "fullScoreAnswer": "Question 1: The event starts at 9:00 AM on October 20th after the registration which begins at 8:30 AM."
+          "fullScoreAnswer": "According to the information provided, question 1: The event starts at 9:00 AM on October 20th after the registration which begins at 8:30 AM."
         },
         {
           "uid": "4-真题29网络和电子设备会取代报纸吗.json-group-q2",
@@ -12744,7 +12564,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question no lunch not free",
           "questionBankAnswer": "Question 2: No, the lunch is not free. It costs 10 dollars per person.",
-          "fullScoreAnswer": "Question 2: No, the lunch is not free. It costs 10 dollars per person."
+          "fullScoreAnswer": "According to the information provided, question 2: No, the lunch is not free. It costs 10 dollars per person."
         },
         {
           "uid": "4-真题29网络和电子设备会取代报纸吗.json-group-q3",
@@ -12758,7 +12578,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "question lectures tomorrow digital media",
           "questionBankAnswer": "Question 3: There will be two lectures tomorrow. The first one is Digital Media Trends at 9:00 AM, and the second one is Smart Device Innovation at 11:00 AM.",
-          "fullScoreAnswer": "Question 3: There will be two lectures tomorrow. The first one is Digital Media Trends at 9:00 AM, and the second one is Smart Device Innovation at 11:00 AM."
+          "fullScoreAnswer": "According to the information provided, question 3: There will be two lectures tomorrow. The first one is Digital Media Trends at 9:00 AM, and the second one is Smart Device Innovation at 11:00 AM."
         }
       ],
       "reviewTime": 45,
@@ -12858,7 +12678,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "fees dollars depending class",
           "questionBankAnswer": "The fees are 40 dollars, 55 dollars, and 70 dollars depending on the class.",
-          "fullScoreAnswer": "The fees are 40 dollars, 55 dollars, and 70 dollars depending on the class."
+          "fullScoreAnswer": "According to the information provided, the fees are 40 dollars, 55 dollars, and 70 dollars depending on the class."
         },
         {
           "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q2",
@@ -12872,7 +12692,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "yes swimming classes morning clock",
           "questionBankAnswer": "Yes, two of the swimming classes are in the morning: one at 7:30 and the other at 10 o’clock.",
-          "fullScoreAnswer": "Yes, two of the swimming classes are in the morning: one at 7:30 and the other at 10 o’clock."
+          "fullScoreAnswer": "According to the information provided, yes, two of the swimming classes are in the morning: one at 7:30 and the other at 10 o’clock."
         },
         {
           "uid": "4-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-group-q3",
@@ -12886,7 +12706,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "morning swimming class beginners family",
           "questionBankAnswer": "There is a morning swimming class from 7:30 to 8:30 for beginners, and a family swimming class from 10:00 to 11:00 for parents and children.",
-          "fullScoreAnswer": "There is a morning swimming class from 7:30 to 8:30 for beginners, and a family swimming class from 10:00 to 11:00 for parents and children."
+          "fullScoreAnswer": "According to the information provided, there is a morning swimming class from 7:30 to 8:30 for beginners, and a family swimming class from 10:00 to 11:00 for parents and children."
         }
       ],
       "reviewTime": 45,
@@ -12966,7 +12786,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "tuition fee upcoming semester full",
           "questionBankAnswer": "The tuition fee for the upcoming semester is $1,200 for the full program, and the registration deadline is August 15th.",
-          "fullScoreAnswer": "The tuition fee for the upcoming semester is $1,200 for the full program, and the registration deadline is August 15th."
+          "fullScoreAnswer": "According to the information provided, the tuition fee for the upcoming semester is $1,200 for the full program, and the registration deadline is August 15th."
         },
         {
           "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q2",
@@ -12980,7 +12800,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "no school not changed address",
           "questionBankAnswer": "No, the school has not changed its address. It is still located at 125 Green Street.",
-          "fullScoreAnswer": "No, the school has not changed its address. It is still located at 125 Green Street."
+          "fullScoreAnswer": "According to the information provided, no, the school has not changed its address. It is still located at 125 Green Street."
         },
         {
           "uid": "4-真题41作为主管你认为是经验重要还是沟通能力重要.json-group-q3",
@@ -12994,7 +12814,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "school offers three marketing courses",
           "questionBankAnswer": "The school offers three marketing courses this semester: Introduction to Marketing, Digital Marketing Strategy, and Brand Management.",
-          "fullScoreAnswer": "The school offers three marketing courses this semester: Introduction to Marketing, Digital Marketing Strategy, and Brand Management."
+          "fullScoreAnswer": "According to the information provided, the school offers three marketing courses this semester: Introduction to Marketing, Digital Marketing Strategy, and Brand Management."
         }
       ],
       "reviewTime": 45,
@@ -13037,7 +12857,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "training session communication skills conference",
           "questionBankAnswer": "The first training session is from 10:00 to 11:00 on Communication Skills in Conference Room A.",
-          "fullScoreAnswer": "The first training session is from 10:00 to 11:00 on Communication Skills in Conference Room A."
+          "fullScoreAnswer": "According to the information provided, the first training session is from 10:00 to 11:00 on Communication Skills in Conference Room A."
         },
         {
           "uid": "4-真题09学术专业成功最重要因素.json-group-q2",
@@ -13051,7 +12871,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "training time management held conference",
           "questionBankAnswer": "The second training is Time Management, held in Conference Room B from 11:30 to 12:30.",
-          "fullScoreAnswer": "The second training is Time Management, held in Conference Room B from 11:30 to 12:30."
+          "fullScoreAnswer": "According to the information provided, the second training is Time Management, held in Conference Room B from 11:30 to 12:30."
         },
         {
           "uid": "4-真题09学术专业成功最重要因素.json-group-q3",
@@ -13065,7 +12885,7 @@ window.TOEIC_REVIEW_DATA = {
           "difficulty": "hard",
           "keywords": "third training leadership skills conference",
           "questionBankAnswer": "The third training is Leadership Skills in Conference Room C from 14:00 to 15:00, including role-playing and group discussions.",
-          "fullScoreAnswer": "The third training is Leadership Skills in Conference Room C from 14:00 to 15:00, including role-playing and group discussions."
+          "fullScoreAnswer": "According to the information provided, the third training is Leadership Skills in Conference Room C from 14:00 to 15:00, including role-playing and group discussions."
         }
       ],
       "reviewTime": 45,
@@ -13144,7 +12964,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，沟通能力在几乎所有工作中都很有用。"
       ],
       "questionBankAnswer": "I believe communication skills are the most important. Good communication helps people understand problems clearly and work together efficiently. It also reduces misunderstandings and improves teamwork, which leads to better results.",
-      "fullScoreAnswer": "I think communication skills are the most important. First, good communication helps people share ideas clearly. Second, it helps a team avoid mistakes and save time. For example, my team finished a project faster after a short meeting. So, communication is useful in almost every job."
+      "fullScoreAnswer": "I think communication skills are the most important. One important reason is that good communication helps people share ideas clearly. Furthermore, it helps a team avoid mistakes and save time. For instance, my team finished a project faster after a short meeting. Therefore, communication is useful in almost every job."
     },
     {
       "uid": "5-模拟题2.json-11",
@@ -13181,7 +13001,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，沟通能让新工作轻松很多。"
       ],
       "questionBankAnswer": "I believe communicating well with colleagues is more important. Good communication helps new employees understand tasks quickly, avoid mistakes, and build positive relationships. It also makes teamwork more efficient and creates a better working environment.",
-      "fullScoreAnswer": "I think good communication is more important in a new job. First, it helps new workers understand their tasks quickly. Second, it helps them build good relationships with coworkers. For example, a coworker once explained a new system to me and helped me avoid a mistake. So, communication makes a new job much easier."
+      "fullScoreAnswer": "I think good communication is more important in a new job. One important reason is that it helps new workers understand their tasks quickly. Furthermore, it helps them build good relationships with coworkers. For instance, a coworker once explained a new system to me and helped me avoid a mistake. Therefore, communication makes a new job much easier."
     },
     {
       "uid": "5-真题01沟通组织解决问题哪个重要.json-1",
@@ -13218,7 +13038,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，良好的沟通能同时帮助团队合作和解决问题。"
       ],
       "questionBankAnswer": "In my opinion, communication skills are the most important. Modern work requires teamwork, and good communication helps people understand each other clearly. It also allows problems to be identified and solved more quickly. Therefore, strong communication skills improve efficiency and teamwork.",
-      "fullScoreAnswer": "I think communication is the most important skill. First, people can understand each other and work better together. Second, they can find and solve problems more quickly. For example, my team solved a schedule problem by talking about it together. So, good communication supports both teamwork and problem-solving."
+      "fullScoreAnswer": "I think communication is the most important skill. One important reason is that people can understand each other and work better together. Furthermore, they can find and solve problems more quickly. For instance, my team solved a schedule problem by talking about it together. Therefore, good communication supports both teamwork and problem-solving."
     },
     {
       "uid": "5-真题02新工作哪个能力最重要.json-1",
@@ -13255,7 +13075,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，沟通能让努力带来更好的结果。"
       ],
       "questionBankAnswer": "In my opinion, communication with colleagues is more important in a new job. Good communication helps new employees understand tasks quickly, build trust, and work efficiently with the team. Hard work is important, but without communication, it is difficult to achieve good results.",
-      "fullScoreAnswer": "I think communication is more important than only working hard. First, it helps new workers know what to do. Second, it makes teamwork easier and reduces stress. For example, I asked my manager questions and finished my first task correctly. So, communication helps hard work bring better results."
+      "fullScoreAnswer": "I think communication is more important than only working hard. One important reason is that it helps new workers know what to do. Furthermore, it makes teamwork easier and reduces stress. For instance, I asked my manager questions and finished my first task correctly. Therefore, communication helps hard work bring better results."
     },
     {
       "uid": "5-真题08作为老板高效沟通是不是最重要.json-1",
@@ -13292,7 +13112,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，沟通能让团队工作得更好。"
       ],
       "questionBankAnswer": "In my experience, effective communication is the most important skill for a team leader. First, it prevents misunderstandings and helps maintain a positive work environment. For example, when two team members had a disagreement, clear communication from the leader resolved the conflict efficiently. Second, it increases efficiency because everyone understands their responsibilities. Therefore, I believe communication is crucial for leadership success.",
-      "fullScoreAnswer": "Yes, I think communication is the most important skill for a leader. First, clear words help everyone understand the goal. Second, good communication helps solve problems and reduce stress. For example, my manager solved a team problem by listening to both people. So, communication makes a team work better."
+      "fullScoreAnswer": "Yes, I think communication is the most important skill for a leader. One important reason is that clear words help everyone understand the goal. Furthermore, good communication helps solve problems and reduce stress. For instance, my manager solved a team problem by listening to both people. Therefore, communication makes a team work better."
     },
     {
       "uid": "5-真题13offer是否需要考虑公司的名誉.json-1",
@@ -13329,7 +13149,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，选择工作时，公司声誉很重要。"
       ],
       "questionBankAnswer": "Of course, I will consider the company’s reputation. Firstly, if the reputation is poor, there may be reasons affecting my interests, like delayed salaries. Secondly, a company with good reputation has more business opportunities, customers, and revenue, providing stable income. Finally, a company's reputation reflects employees' reputations. So I will definitely consider the reputation.",
-      "fullScoreAnswer": "Yes, I would check a company's reputation before taking a job. First, a good company is more likely to treat workers well. Second, it may offer a safer job and better future chances. For example, many bad worker reviews would make me think again. So, company reputation is important when choosing a job."
+      "fullScoreAnswer": "Yes, I would check a company's reputation before taking a job. One important reason is that a good company is more likely to treat workers well. Furthermore, it may offer a safer job and better future chances. For instance, many bad worker reviews would make me think again. Therefore, company reputation is important when choosing a job."
     },
     {
       "uid": "5-真题14去当实习生吗.json-1",
@@ -13366,7 +13186,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，实习能为未来工作做好准备。"
       ],
       "questionBankAnswer": "Sure, college students should do an internship. Firstly, it provides job experience, helping to find related jobs after graduation. Secondly, internships improve work skills, allowing you to handle tasks efficiently. Finally, internships give income, which builds confidence. So I think an internship is a better way.",
-      "fullScoreAnswer": "I think college students should do an internship. First, they can learn real work skills outside the classroom. Second, they can learn what kind of job is right for them. For example, a marketing student could help with a real sales project. So, an internship is good preparation for a future job."
+      "fullScoreAnswer": "I think college students should do an internship. One important reason is that they can learn real work skills outside the classroom. Furthermore, they can learn what kind of job is right for them. For instance, a marketing student could help with a real sales project. Therefore, an internship is good preparation for a future job."
     },
     {
       "uid": "5-真题17幽默humor还是严肃serious.json-1",
@@ -13403,7 +13223,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，幽默能让团队更快乐、更团结。"
       ],
       "questionBankAnswer": "Humorous people are my first choice. There are several reasons: First, during work, communication with others is easier with humorous people. Secondly, they often tell jokes and make us happy. Finally, a humorous colleague helps create a relaxed team atmosphere, which relieves working pressure. I think most people prefer to work with humorous people.",
-      "fullScoreAnswer": "I prefer to work with a person who has a good sense of humor. First, humor can reduce stress at work. Second, it can make communication easier and more friendly. For example, a funny coworker helped my team stay positive during a hard project. So, humor can make a team happier and stronger."
+      "fullScoreAnswer": "I prefer to work with a person who has a good sense of humor. One important reason is that humor can reduce stress at work. Furthermore, it can make communication easier and more friendly. For instance, a funny coworker helped my team stay positive during a hard project. Therefore, humor can make a team happier and stronger."
     },
     {
       "uid": "5-真题18项目中分歧需要解决还是忽略.json-1",
@@ -13440,7 +13260,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，尽早解决问题对每个人都更好。"
       ],
       "questionBankAnswer": "According to my personal experience, you cannot ignore the gap and should try to solve it. Firstly, ignoring it leads to an unfriendly working environment, which is harmful to the project. Secondly, it affects work efficiency. If team members have different understandings, they can't work efficiently to achieve project goals.",
-      "fullScoreAnswer": "I think people should solve a disagreement, not ignore it. First, an unsolved problem can slow down the work. Second, talking about it can build trust in the team. For example, two coworkers discussed a schedule problem and found a plan together. So, solving problems early is better for everyone."
+      "fullScoreAnswer": "I think people should solve a disagreement, not ignore it. One important reason is that an unsolved problem can slow down the work. Furthermore, talking about it can build trust in the team. For instance, two coworkers discussed a schedule problem and found a plan together. Therefore, solving problems early is better for everyone."
     },
     {
       "uid": "5-真题22工作经验还是教育背景重要.json-1",
@@ -13477,7 +13297,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，教育很有用，但经验更能体现实际工作能力。"
       ],
       "questionBankAnswer": "In my opinion, education background is more important. There are several reasons. Firstly, many large companies have educational requirements for recruitment. For example, in China, some top companies only recruit students who graduated from 985 schools. Secondly, although education may not represent everything, it reflects a person's learning ability and concentration, which are important for work. Lastly, higher education generally comes with higher salaries and better career promotion potential. For example, in our company, the initial salary of master's graduates is higher than that of undergraduate graduates.",
-      "fullScoreAnswer": "I think related work experience is more important for most jobs. First, experienced workers can solve real problems more quickly. Second, they need less training and can start work sooner. For example, an intern at my company learned the job faster than a new worker without experience. So, education is useful, but experience shows real work ability."
+      "fullScoreAnswer": "I think related work experience is more important for most jobs. One important reason is that experienced workers can solve real problems more quickly. Furthermore, they need less training and can start work sooner. For instance, an intern at my company learned the job faster than a new worker without experience. Therefore, education is useful, but experience shows real work ability."
     },
     {
       "uid": "5-真题27你认为一家公司有环境友好政策有什么好处.json-11",
@@ -13514,7 +13334,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，环保政策对企业和环境都有好处。"
       ],
       "questionBankAnswer": "I think a company with environmentally friendly policies can gain many benefits for the following reasons. First of all, it can improve the company's public image. Consumers are more willing to buy products from environmentally responsible companies, which can help increase sales and market share. Secondly, these policies can reduce the company's operating costs in the long run. For example, saving energy and reducing waste can lower the expenses of raw materials and energy consumption. Thirdly, it can attract more talents. Many employees, especially young people, prefer to work for companies that care about the environment. Finally, implementing environmental policies can help the company comply with relevant laws and regulations, avoiding potential fines and legal risks. Therefore, environmentally friendly policies are beneficial to the company's sustainable development.",
-      "fullScoreAnswer": "I think green policies can help a company in many ways. First, saving energy can lower the company's costs. Second, a green image can bring more customers. Also, many young workers want to join a company that cares about nature. So, green policies are good for both business and the environment."
+      "fullScoreAnswer": "I think green policies can help a company in many ways. One important reason is that saving energy can lower the company's costs. Furthermore, a green image can bring more customers. Another point worth considering is that many young workers want to join a company that cares about nature. Therefore, green policies are good for both business and the environment."
     },
     {
       "uid": "5-真题31发生分歧是直接解决还是找领导帮忙.json-1",
@@ -13551,7 +13371,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，只有无法解决时，他们才应该请经理帮助。"
       ],
       "questionBankAnswer": "According to my experience, it depends on the situation. If it is a general disagreement, I will communicate directly with my colleague and discuss possible solutions together. However, if it involves cross-department work or unclear responsibilities, it is more efficient to report the issue to the supervisor, who can look at the problem from a higher-level perspective.",
-      "fullScoreAnswer": "I think coworkers should first solve a disagreement by themselves. First, direct communication is usually faster. Second, solving small problems together can build trust. For example, two coworkers can discuss their work time and make a new plan. So, they should ask a manager only when they cannot solve it."
+      "fullScoreAnswer": "I think coworkers should first solve a disagreement by themselves. One important reason is that direct communication is usually faster. Furthermore, solving small problems together can build trust. For instance, two coworkers can discuss their work time and make a new plan. Therefore, they should ask a manager only when they cannot solve it."
     },
     {
       "uid": "5-真题32主管评价员工，周边同事反馈是否很重要.json-1",
@@ -13588,7 +13408,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，他们的反馈能帮助经理做出更好的评价。"
       ],
       "questionBankAnswer": "Yes, I definitely agree that coworker feedback is important when a manager evaluates an employee. First, colleagues can help fill in the blind spots of a manager’s perspective. Managers usually focus on work results, while coworkers see daily collaboration, such as communication skills and teamwork. Second, coworker feedback helps verify the manager’s judgment. When opinions differ, additional feedback can reduce personal bias. So I believe colleague feedback makes the evaluation more fair and complete.",
-      "fullScoreAnswer": "Yes, I think coworker feedback is important. First, coworkers see a person's daily work and teamwork. Second, more opinions can make the review fairer. For example, coworkers may know that a quiet worker often helps the team. So, their feedback can help a manager make a better review."
+      "fullScoreAnswer": "Yes, I think coworker feedback is important. One important reason is that coworkers see a person's daily work and teamwork. Furthermore, more opinions can make the review fairer. For instance, coworkers may know that a quiet worker often helps the team. Therefore, their feedback can help a manager make a better review."
     },
     {
       "uid": "5-真题36公司提供工作日锻炼的机会是否是一个好主意.json-1",
@@ -13625,7 +13445,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，运动能同时帮助员工和公司。"
       ],
       "questionBankAnswer": "Yes, I think it’s a great idea. Regular exercise helps employees stay healthy and reduce stress. It can increase energy, focus, and teamwork if done together. Overall, it shows the company cares about employee well-being.",
-      "fullScoreAnswer": "Yes, I think exercise during the workday is a good idea. First, exercise helps workers stay healthy and focused. Second, it can reduce stress and improve their mood. For example, a short walk after lunch can give workers more energy. So, exercise can help both workers and the company."
+      "fullScoreAnswer": "Yes, I think exercise during the workday is a good idea. One important reason is that exercise helps workers stay healthy and focused. Furthermore, it can reduce stress and improve their mood. For instance, a short walk after lunch can give workers more energy. Therefore, exercise can help both workers and the company."
     },
     {
       "uid": "5-真题37对于一个求职者哪个最重要.json-1",
@@ -13662,7 +13482,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，自信能帮助人们展示真实能力。"
       ],
       "questionBankAnswer": "I think for a job seeker, self-confidence is the most important. Believing in yourself helps handle interviews well and showcase your strengths. Knowledge of the industry and clear goals are also helpful, but without confidence, it’s hard to impress employers. Confidence helps take the first step and keep moving forward.",
-      "fullScoreAnswer": "I think self-confidence is the most important thing for a job seeker. First, confidence helps a person speak clearly in an interview. Second, it helps the person keep trying after a rejection. For example, my friend practiced speaking and later got a good job offer. So, confidence helps people show their real ability."
+      "fullScoreAnswer": "I think self-confidence is the most important thing for a job seeker. One important reason is that confidence helps a person speak clearly in an interview. Furthermore, it helps the person keep trying after a rejection. For instance, my friend practiced speaking and later got a good job offer. Therefore, confidence helps people show their real ability."
     },
     {
       "uid": "5-真题41作为主管你认为是经验重要还是沟通能力重要.json-1",
@@ -13699,7 +13519,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，沟通能帮助主管更好地运用经验。"
       ],
       "questionBankAnswer": "I think communication skills are more important than experience for a supervisor. Good communication allows you to convey ideas clearly, build strong relationships with the team, and resolve conflicts efficiently. Even an experienced person may face challenges if they cannot communicate well. A supervisor with excellent communication skills can motivate employees, understand their concerns, and lead the team to success.",
-      "fullScoreAnswer": "I think communication is more important than experience for a supervisor. First, clear communication helps workers understand their tasks. Second, it helps the supervisor understand problems and support the team. For example, even an experienced manager can cause mistakes with unclear words. So, communication helps a supervisor use experience well."
+      "fullScoreAnswer": "I think communication is more important than experience for a supervisor. One important reason is that clear communication helps workers understand their tasks. Furthermore, it helps the supervisor understand problems and support the team. For instance, even an experienced manager can cause mistakes with unclear words. Therefore, communication helps a supervisor use experience well."
     },
     {
       "uid": "5-真题42员工自己设置工作时间有什么好处.json-1",
@@ -13736,7 +13556,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，灵活时间能同时改善工作和生活。"
       ],
       "questionBankAnswer": "Allowing employees to set their own working hours brings great benefits for both individuals and companies. First, it lets people work according to their natural rhythms, increasing productivity. Early risers can focus on important tasks in the morning, while night owls can be more productive later in the day. Second, flexible schedules reduce stress from balancing work, family duties, or personal matters, leading to happier and more motivated employees. Finally, this policy builds trust between employers and employees, enhancing loyalty and reducing turnover. For these reasons, allowing employees to set their own working hours is highly beneficial.",
-      "fullScoreAnswer": "I think flexible work hours have many benefits. First, people can work when they have the most energy. Second, they can take care of family and personal needs more easily. Also, this choice can make workers happier and more loyal. So, flexible hours can improve both work and life."
+      "fullScoreAnswer": "I think flexible work hours have many benefits. One important reason is that people can work when they have the most energy. Furthermore, they can take care of family and personal needs more easily. Another point worth considering is that this choice can make workers happier and more loyal. Therefore, flexible hours can improve both work and life."
     },
     {
       "uid": "5-真题04offer是否要跟家里人交流.json-1",
@@ -13773,7 +13593,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，家人的建议能帮助我做出更好的选择。"
       ],
       "questionBankAnswer": "I believe it is a good idea to discuss a job offer with my family. First, they can provide valuable advice based on their experience. Second, they can help me consider long-term factors such as location and work-life balance. Finally, discussing with my family helps me make a more confident and well-informed decision.",
-      "fullScoreAnswer": "Yes, I would talk with my family about a job offer. First, they know me well and can give simple advice. Second, a new job may change our family time or living place. For example, my family could help me compare the pay and moving cost. So, family advice can help me make a better choice."
+      "fullScoreAnswer": "Yes, I would talk with my family about a job offer. One important reason is that they know me well and can give simple advice. Furthermore, a new job may change our family time or living place. For instance, my family could help me compare the pay and moving cost. Therefore, family advice can help me make a better choice."
     },
     {
       "uid": "5-真题09学术专业成功最重要因素.json-1",
@@ -13810,7 +13630,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，努力可以把小机会变成成功。"
       ],
       "questionBankAnswer": "I believe the most important factor for academic or professional success is honesty. Honest people are easier to communicate with, which reduces misunderstandings and builds trust. They learn from failures, gain support from others, and work diligently towards their goals. Along with honesty, perseverance, hard work, and self-confidence also play key roles in achieving success.",
-      "fullScoreAnswer": "I think hard work is the most important part of success. First, most goals need time and regular practice. Second, hard-working people learn from mistakes and keep trying. For example, my friend studied every day and passed a difficult test. So, hard work can turn a small chance into success."
+      "fullScoreAnswer": "I think hard work is the most important part of success. One important reason is that most goals need time and regular practice. Furthermore, hard-working people learn from mistakes and keep trying. For instance, my friend studied every day and passed a difficult test. Therefore, hard work can turn a small chance into success."
     },
     {
       "uid": "5-真题12毕业后第一份工作必要吗.json-1",
@@ -13847,7 +13667,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，第一份工作能提供有用的经验和方向。"
       ],
       "questionBankAnswer": "Yes, I think the first job is the most important. Firstly, it is an important part of the resume and often evaluated by others. Secondly, the first job can shape your career path. A good first job leads to a smoother career. Lastly, if you stay too long in the first job, the opportunity cost of changing is high and you have less time to explore other options.",
-      "fullScoreAnswer": "I think the first job after college is very important. First, it helps young people learn basic work skills. Second, it helps them learn what kind of job they like. For example, my first job showed me that I enjoy working with people. So, the first job gives useful experience and direction."
+      "fullScoreAnswer": "I think the first job after college is very important. One important reason is that it helps young people learn basic work skills. Furthermore, it helps them learn what kind of job they like. For instance, my first job showed me that I enjoy working with people. Therefore, the first job gives useful experience and direction."
     },
     {
       "uid": "5-真题15获得professional success是否需要take risk.json-1",
@@ -13884,7 +13704,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，经过考虑的冒险能带来更好的职业发展。"
       ],
       "questionBankAnswer": "My answer is yes. There are many reasons: Firstly, risks and opportunities are always together. Only those who dare to take risks can seize the opportunities. Secondly, the higher the risk, the greater the return. Many people get their first success through taking risks. For example, my boss borrowed money to start Huawei in a small house, which was risky, and then achieved great success.",
-      "fullScoreAnswer": "I think people sometimes need to take risks to succeed. First, a new chance often comes with some risk. Second, trying something new helps people learn and grow. For example, my friend took a difficult new job and later got a promotion. So, a careful risk can lead to a better career."
+      "fullScoreAnswer": "I think people sometimes need to take risks to succeed. One important reason is that a new chance often comes with some risk. Furthermore, trying something new helps people learn and grow. For instance, my friend took a difficult new job and later got a promotion. Therefore, a careful risk can lead to a better career."
     },
     {
       "uid": "5-真题19个公司的多处不同城市工作的好处.json-1",
@@ -13921,7 +13741,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，不同城市的办公室能给公司更多选择。"
       ],
       "questionBankAnswer": "My company has many subsidiaries in different cities. There are several advantages. First, employees can work near their home, which is convenient. Second, each city has unique advantages; for example, Xian can be an HR center and train employees. Finally, having subsidiaries close to customers allows us to provide better service locally.",
-      "fullScoreAnswer": "I think having offices in many cities has several benefits. First, workers may find an office near their family. Second, local teams can help customers more quickly. Also, the company can find more kinds of skilled workers. So, offices in different cities give a company more choices."
+      "fullScoreAnswer": "I think having offices in many cities has several benefits. One important reason is that workers may find an office near their family. Furthermore, local teams can help customers more quickly. Another point worth considering is that the company can find more kinds of skilled workers. Therefore, offices in different cities give a company more choices."
     },
     {
       "uid": "5-真题21进入大学前实习gap year有哪些好处.json-1",
@@ -13958,7 +13778,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，这段时间能帮助学生为大学和工作做准备。"
       ],
       "questionBankAnswer": "In my opinion, participating in an internship or taking a gap year before entering university has several benefits. Firstly, students can gain practical work experience and understand the professional environment. Secondly, it helps them to develop important life skills, such as time management, communication, and responsibility. Lastly, a gap year or internship allows students to explore their interests and plan their future studies and career more effectively.",
-      "fullScoreAnswer": "I think an internship or gap year can help students. First, they can get real work and life experience. Second, they can learn useful skills and become more independent. Also, they can think more clearly about their future. So, this time can help students prepare for college and work."
+      "fullScoreAnswer": "I think an internship or gap year can help students. One important reason is that they can get real work and life experience. Furthermore, they can learn useful skills and become more independent. Another point worth considering is that they can think more clearly about their future. Therefore, this time can help students prepare for college and work."
     },
     {
       "uid": "5-真题24为一家已经经营了很多年的公司工作有哪些优点.json-11",
@@ -13995,7 +13815,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，老牌公司能提供安全的学习和成长环境。"
       ],
       "questionBankAnswer": "There are several advantages of working for a long-established company. First of all, such companies usually have a stable operation and sound management system, which can provide employees with job security and a clear career development path. Secondly, long-established companies often have a good reputation in the industry, which can add more weight to employees' resumes. Thirdly, these companies usually have accumulated rich resources and experience, so employees can learn more professional skills and gain valuable work experience. Finally, employees of such companies can enjoy more complete welfare benefits, such as perfect insurance and paid vacation systems. Therefore, working for a company with a long history is a very good choice for many job seekers.",
-      "fullScoreAnswer": "I think working for an old company has several advantages. First, the company is usually stable and has clear rules. Second, workers can get good training from experienced people. Also, a well-known company can make a resume stronger. So, an old company can offer a safe place to learn and grow."
+      "fullScoreAnswer": "I think working for an old company has several advantages. One important reason is that the company is usually stable and has clear rules. Furthermore, workers can get good training from experienced people. Another point worth considering is that a well-known company can make a resume stronger. Therefore, an old company can offer a safe place to learn and grow."
     },
     {
       "uid": "5-真题25在公司上班前有过创业经验的好处.json-11",
@@ -14032,7 +13852,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，创业经验能让员工更有价值。"
       ],
       "questionBankAnswer": "There are several obvious advantages of having own business experience before becoming a company employee. First of all, people who have created businesses have a strong spirit of hard work. They are used to facing challenges and solving problems independently, so they will work harder in the company. Secondly, they have a higher sense of responsibility. When running their own business, they need to take full responsibility for every decision, which makes them have clear objectives and try their best to achieve the company's goals at work. Finally, they have a better global awareness. They understand how a business operates from product development to market promotion, which can help them consider problems comprehensively and do their work better. Therefore, own business experience is a valuable asset for employees.",
-      "fullScoreAnswer": "I think business experience can help a future employee. First, business owners learn to take responsibility. Second, they learn to solve problems by themselves. Also, they understand customers, money, and company goals better. So, business experience can make an employee more useful."
+      "fullScoreAnswer": "I think business experience can help a future employee. One important reason is that business owners learn to take responsibility. Furthermore, they learn to solve problems by themselves. Another point worth considering is that they understand customers, money, and company goals better. Therefore, business experience can make an employee more useful."
     },
     {
       "uid": "5-真题26是现有的工作更让你开心.json-11",
@@ -14069,7 +13889,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，一份好工作对我的幸福感影响很大。"
       ],
       "questionBankAnswer": "In my opinion, current job makes me much happier, there are several reasons. Firstly, my current job makes me earn enough money to buy a house and raise children, and I am very grateful. Secondly, my current job is very interesting. I can go to many places to work and travel, and I am very happy. Thirdly, I have a group of very good colleagues, and I have a great time getting along with them. So compared with the living location, my current job brings me more happiness.",
-      "fullScoreAnswer": "My current job makes me happier than where I live. First, my work gives me money and a sense of success. Second, my good coworkers make each day more enjoyable. For example, we recently finished a hard project and celebrated together. So, a good job has a strong effect on my happiness."
+      "fullScoreAnswer": "My current job makes me happier than where I live. One important reason is that my work gives me money and a sense of success. Furthermore, my good coworkers make each day more enjoyable. For instance, we recently finished a hard project and celebrated together. Therefore, a good job has a strong effect on my happiness."
     },
     {
       "uid": "5-真题34职业生涯中频繁更换公司的好处.json-1",
@@ -14106,7 +13926,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，经过考虑的换工作能帮助一个人成长。"
       ],
       "questionBankAnswer": "I think there are several advantages to changing companies often in your career. First, it helps you gain more experience in different industries or fields. Each company has its own way of working, so you can learn new skills and improve your adaptability. Second, changing jobs can help you find a better fit for your personal goals and values. Lastly, frequent job changes can increase your network and make you more competitive in the job market.",
-      "fullScoreAnswer": "I think changing companies can have some benefits. First, workers can learn new skills in different places. Second, they can find a job that fits them better. Also, they can meet more people and build a larger work network. So, careful job changes can help a person grow."
+      "fullScoreAnswer": "I think changing companies can have some benefits. One important reason is that workers can learn new skills in different places. Furthermore, they can find a job that fits them better. Another point worth considering is that they can meet more people and build a larger work network. Therefore, careful job changes can help a person grow."
     },
     {
       "uid": "5-真题35父母让孩子做家务的好处.json-1",
@@ -14143,7 +13963,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，家务能帮助孩子变得更独立。"
       ],
       "questionBankAnswer": "I think there are several benefits. First, doing housework helps children learn responsibility and develop good habits. Second, it teaches them teamwork and cooperation, especially when they work with family members. Also, it can improve their life skills and make them more independent.",
-      "fullScoreAnswer": "I think housework is very useful for children. First, it teaches them to be responsible. Second, they learn simple life skills such as cooking and cleaning. Also, doing housework together teaches teamwork. So, housework helps children become more independent."
+      "fullScoreAnswer": "I think housework is very useful for children. One important reason is that it teaches them to be responsible. Furthermore, they learn simple life skills such as cooking and cleaning. Another point worth considering is that doing housework together teaches teamwork. Therefore, housework helps children become more independent."
     },
     {
       "uid": "5-真题39技术是否很难平衡工作和生活.json-1",
@@ -14180,7 +14000,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，公司应该为下班后的消息设定明确规则。"
       ],
       "questionBankAnswer": "In my experience, technology makes it harder to balance work and personal life. Work messages and emails can arrive at any time, even after office hours. People are often expected to respond quickly, which reduces relaxation time. Being constantly connected makes it difficult to disconnect fully. Therefore, technology can interfere with maintaining a healthy work-life balance.",
-      "fullScoreAnswer": "Yes, I think technology can make work-life balance harder. First, work messages can arrive at any time. Second, people may feel they must answer quickly and cannot rest. For example, my friend often checks work messages during dinner. So, companies should set clear rules for messages after work."
+      "fullScoreAnswer": "Yes, I think technology can make work-life balance harder. One important reason is that work messages can arrive at any time. Furthermore, people may feel they must answer quickly and cannot rest. For instance, my friend often checks work messages during dinner. Therefore, companies should set clear rules for messages after work."
     },
     {
       "uid": "5-模拟题3.json-11",
@@ -14217,7 +14037,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，更好的在线服务会让图书馆更实用。"
       ],
       "questionBankAnswer": "I would improve the digital library system by adding more online books and study resources. This would allow people to access information anytime and make learning more convenient.",
-      "fullScoreAnswer": "I would add more online services to public libraries. First, people could read books anytime at home. Second, they would not need to spend time traveling to a library. For example, busy workers could read an online book after work. So, better online services would make libraries more useful."
+      "fullScoreAnswer": "I would add more online services to public libraries. One important reason is that people could read books anytime at home. Furthermore, they would not need to spend time traveling to a library. For instance, busy workers could read an online book after work. Therefore, better online services would make libraries more useful."
     },
     {
       "uid": "5-真题03改变国家图书馆.json-1",
@@ -14254,7 +14074,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，电子书会让图书馆更方便使用。"
       ],
       "questionBankAnswer": "If I could change one thing about our national library, I would improve its digital services. By providing more online books and resources, people could access information anytime and anywhere. This would be especially helpful for students and working adults, and it would encourage more people to read and learn.",
-      "fullScoreAnswer": "I would give the national library more online books. First, people could use them at any time. Second, people in small cities could get the same information. For example, a student could study online without taking a long trip. So, online books would make the library easier to use."
+      "fullScoreAnswer": "I would give the national library more online books. One important reason is that people could use them at any time. Furthermore, people in small cities could get the same information. For instance, a student could study online without taking a long trip. Therefore, online books would make the library easier to use."
     },
     {
       "uid": "5-真题05网上读新闻的坏处.json-1",
@@ -14291,7 +14111,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，我们应该核实来源，并阅读不同的新闻网站。"
       ],
       "questionBankAnswer": "In my opinion, reading news online has several disadvantages. First, some online news is inaccurate or even fake, which may mislead readers. Second, there is too much repeated information, which wastes time. Finally, recommendation systems may limit what we see and reduce our understanding of different viewpoints. Therefore, people should be careful when reading news online.",
-      "fullScoreAnswer": "I think reading news online has some problems. First, some online news is not true. Second, too much news can waste our time. Also, websites may show us only one kind of opinion. So, we should check the source and read different news sites."
+      "fullScoreAnswer": "I think reading news online has some problems. One important reason is that some online news is not true. Furthermore, too much news can waste our time. Another point worth considering is that websites may show us only one kind of opinion. Therefore, we should check the source and read different news sites."
     },
     {
       "uid": "5-真题06未来一代为什么比现在一代更健康.json-1",
@@ -14328,7 +14148,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，更好的医疗和习惯能改善人们的健康。"
       ],
       "questionBankAnswer": "I believe future generations will be healthier than the current generation for several reasons. First, medical technology will continue to improve, allowing people to prevent and treat diseases more effectively. Second, people are becoming more aware of the importance of exercise and healthy diets. Finally, schools and governments are paying more attention to health education, which helps children develop good habits from a young age.",
-      "fullScoreAnswer": "I think future generations may be healthier than us. First, doctors and medicine will become better. Second, people can easily learn about healthy food online. Also, more people now understand the importance of exercise. So, better care and better habits can improve people's health."
+      "fullScoreAnswer": "I think future generations may be healthier than us. One important reason is that doctors and medicine will become better. Furthermore, people can easily learn about healthy food online. Another point worth considering is that more people now understand the importance of exercise. Therefore, better care and better habits can improve people's health."
     },
     {
       "uid": "5-真题07老师能否让学生带电子设备.json-1",
@@ -14365,7 +14185,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，合理使用比完全禁止更好。"
       ],
       "questionBankAnswer": "In my opinion, teachers should limit but not completely ban electronic devices in classrooms. On one hand, devices can distract students if they are used for games or social media. On the other hand, electronic devices can be helpful learning tools when used properly, such as for research or educational apps. Therefore, teachers should set clear rules instead of totally banning them.",
-      "fullScoreAnswer": "I think teachers should limit devices, but not ban them. First, students can use them to find useful information. Second, clear rules can stop students from playing games in class. For example, students could use phones only during a research task. So, careful use is better than a full ban."
+      "fullScoreAnswer": "I think teachers should limit devices, but not ban them. One important reason is that students can use them to find useful information. Furthermore, clear rules can stop students from playing games in class. For instance, students could use phones only during a research task. Therefore, careful use is better than a full ban."
     },
     {
       "uid": "5-真题10买房比租房的缺点.json-1",
@@ -14402,7 +14222,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，对需要更多自由的人来说，租房可能更容易。"
       ],
       "questionBankAnswer": "According to my personal experience, I think having a house or an apartment has the following disadvantages compared to renting. Firstly, housing is fixed in one place and cannot be changed at any time, while rental locations can be adjusted according to our work, making life more convenient. Secondly, the economic pressure of housing is high. In China, houses are expensive. If you buy a house, you must pay the mortgage every month and it may affect your quality of life. Finally, maintenance and repair responsibilities fall on the owner, which may be costly. Therefore, I prefer renting a house, which offers more flexibility and less financial stress.",
-      "fullScoreAnswer": "I think owning a home has some disadvantages. First, buying a home costs a lot of money. Second, it is harder to move for a new job. Also, the owner must pay for repairs and other costs. So, renting may be easier for people who need more freedom."
+      "fullScoreAnswer": "I think owning a home has some disadvantages. One important reason is that buying a home costs a lot of money. Furthermore, it is harder to move for a new job. Another point worth considering is that the owner must pay for repairs and other costs. Therefore, renting may be easier for people who need more freedom."
     },
     {
       "uid": "5-真题11政府提供免费大学课程的好处有哪些.json-1",
@@ -14439,7 +14259,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，免费课程能给每个人更好的机会。"
       ],
       "questionBankAnswer": "According to my personal experience, I think there are several advantages of providing free university courses for all students. Firstly, it can give every student the opportunity to go to college, no matter how much money the student's parents have. Many families in the countryside cannot afford college tuition. Secondly, with more educated people, the country's education level will rise and the country will become stronger. Thirdly, it may reduce social inequality and allow students to focus on learning rather than worrying about tuition. All of the above are my opinions.",
-      "fullScoreAnswer": "I think free university classes would help students and the country. First, students from poor families could also go to college. Second, more skilled workers could help the country grow. For example, a good student could study engineering without worrying about money. So, free classes can give everyone a better chance."
+      "fullScoreAnswer": "I think free university classes would help students and the country. One important reason is that students from poor families could also go to college. Furthermore, more skilled workers could help the country grow. For instance, a good student could study engineering without worrying about money. Therefore, free classes can give everyone a better chance."
     },
     {
       "uid": "5-真题16有钱就快乐吗.json-1",
@@ -14476,7 +14296,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，金钱有帮助，但并不是一切。"
       ],
       "questionBankAnswer": "This is a funny topic. I don’t have much money, so to be honest, I don’t know whether rich people are happy. But according to my experience, if you don’t have money, you will not be happy. For example, houses are very expensive in China. Without enough money, you cannot buy a house, get married, or provide city education for your children. Medical care is costly and poor people may not be treated in time. In a word, money doesn’t mean everything, but no money means nothing.",
-      "fullScoreAnswer": "I do not think money always brings happiness. First, enough money can reduce stress about daily needs. Second, health, family, and free time are also very important. For example, a person with high pay may still feel lonely and tired. So, money helps, but it is not everything."
+      "fullScoreAnswer": "I do not think money always brings happiness. One important reason is that enough money can reduce stress about daily needs. Furthermore, health, family, and free time are also very important. For instance, a person with high pay may still feel lonely and tired. Therefore, money helps, but it is not everything."
     },
     {
       "uid": "5-真题20独自运动还是.json-1",
@@ -14513,7 +14333,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，集体运动能帮助我保持好习惯。"
       ],
       "questionBankAnswer": "I prefer group sports because they are more motivating and fun. Exercising with friends or in a team encourages me to push harder and helps me build social connections. However, sometimes I also enjoy solo exercise for concentration and relaxation.",
-      "fullScoreAnswer": "I prefer group exercise to exercising alone. First, other people give me more energy and motivation. Second, group exercise is more fun and helps me make friends. For example, I exercised every week after joining a running group. So, group exercise helps me keep a good habit."
+      "fullScoreAnswer": "I prefer group exercise to exercising alone. One important reason is that other people give me more energy and motivation. Furthermore, group exercise is more fun and helps me make friends. For instance, I exercised every week after joining a running group. Therefore, group exercise helps me keep a good habit."
     },
     {
       "uid": "5-真题23大学毕业继续和父母住还是单独住.json-1",
@@ -14550,7 +14370,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，一起生活能给我经济和家庭支持。"
       ],
       "questionBankAnswer": "According to my personal experience, I think I will continue to live with my parents after graduating from university. There are several reasons. Firstly, in China, young people often work late and have no time to take care of themselves. Parents can help with daily life. Secondly, we are under pressure from work and life; parents have much experience to give advice, helping us solve problems correctly. Finally, parents can cook delicious food, which allows us to focus on work.",
-      "fullScoreAnswer": "I would live with my parents for a few years after college. First, I could save money at the start of my career. Second, my family and I could help each other every day. For example, I could save for a future home while helping my parents with shopping. So, living together would give me money and family support."
+      "fullScoreAnswer": "I would live with my parents for a few years after college. One important reason is that I could save money at the start of my career. Furthermore, my family and I could help each other every day. For instance, I could save for a future home while helping my parents with shopping. Therefore, living together would give me money and family support."
     },
     {
       "uid": "5-真题28你认为elementary school的学生是否需要开始学英语.json-1",
@@ -14587,7 +14407,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，早点学习英语能给孩子更多时间和信心。"
       ],
       "questionBankAnswer": "According to my personal experience, I think the students of elementary school should learn English. There are several reasons to support my opinion. Firstly, they can learn global communication because English is an international language for business and travel. Learning it early can help children prepare for future opportunities and connect with people worldwide. Secondly, learning English early can improve memory and problem-solving skills which is helpful for higher education. Finally, they can gain different cultural understanding, which helps develop an open-minded and global perspective. All of the above are my opinions.",
-      "fullScoreAnswer": "Yes, I think children should start learning English in elementary school. First, young children can learn new sounds easily. Second, English will help them in future study, travel, and work. For example, children can learn simple words from songs and short videos. So, early English study gives children more time and confidence."
+      "fullScoreAnswer": "Yes, I think children should start learning English in elementary school. One important reason is that young children can learn new sounds easily. Furthermore, english will help them in future study, travel, and work. For instance, children can learn simple words from songs and short videos. Therefore, early English study gives children more time and confidence."
     },
     {
       "uid": "5-真题29网络和电子设备会取代报纸吗.json-11",
@@ -14624,7 +14444,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，未来大多数人会选择数字新闻。"
       ],
       "questionBankAnswer": "In my opinion, the internet and electronic devices will eventually replace newspapers, and there are several reasons for this. First of all, electronic media can provide information in a more timely way. We can get the latest news from the internet within minutes, while newspapers can only be published once or twice a day. Secondly, digital content is more diverse. It includes not only text but also videos, audios and interactive graphics, which can make the news more interesting and vivid. Thirdly, reading news online is more environmentally friendly, as it can save a large amount of paper and reduce deforestation. However, I also admit that some people still prefer reading newspapers, especially the elderly. But overall, with the development of technology, electronic media will become the main way for people to get information.",
-      "fullScoreAnswer": "I think digital news will mostly replace printed newspapers. First, online news is faster and can change at any time. Second, people can read it anywhere on a phone. Also, digital news costs less and uses less paper. So, most people will choose digital news in the future."
+      "fullScoreAnswer": "I think digital news will mostly replace printed newspapers. One important reason is that online news is faster and can change at any time. Furthermore, people can read it anywhere on a phone. Another point worth considering is that digital news costs less and uses less paper. Therefore, most people will choose digital news in the future."
     },
     {
       "uid": "5-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-1",
@@ -14661,7 +14481,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，同时参观著名景点和当地社区是最好的选择。"
       ],
       "questionBankAnswer": "According to my personal experience, visiting popular tourist attractions is a way to become familiar with a city, but not the best way. Tourist attractions often reflect the city's culture and history, helping us build a general impression. However, standardized tourism experiences may create a filter effect that hides real local life. I recommend combining 30% tourist attractions with 70% community exploration to understand a city better.",
-      "fullScoreAnswer": "I do not think famous tourist places are the best way to know a city. First, they show history but not normal local life. Second, local streets and markets show how people really live. For example, I learned more about local food at a small market. So, visiting both famous and local places is the best choice."
+      "fullScoreAnswer": "I do not think famous tourist places are the best way to know a city. One important reason is that they show history but not normal local life. Furthermore, local streets and markets show how people really live. For instance, I learned more about local food at a small market. Therefore, visiting both famous and local places is the best choice."
     },
     {
       "uid": "5-真题33在21岁以下开车的坏处.json-1",
@@ -14698,7 +14518,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，年轻人开车前需要良好训练和明确规则。"
       ],
       "questionBankAnswer": "One disadvantage is the high risk of accidents because young drivers often lack experience and may make poor decisions. Another disadvantage is the high cost of insurance because drivers under 21 are considered high-risk. These are the main problems of driving before the age of 21.",
-      "fullScoreAnswer": "I think driving under the age of twenty-one has some problems. First, young drivers have less experience. Second, phones or friends may easily take their attention away. Also, car insurance often costs more for young drivers. So, young people need good training and clear rules before driving."
+      "fullScoreAnswer": "I think driving under the age of twenty-one has some problems. One important reason is that young drivers have less experience. Furthermore, phones or friends may easily take their attention away. Another point worth considering is that car insurance often costs more for young drivers. Therefore, young people need good training and clear rules before driving."
     },
     {
       "uid": "5-真题38当医生有什么好处.json-1",
@@ -14735,7 +14555,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，当医生既有用，也很有意义。"
       ],
       "questionBankAnswer": "There are many advantages to being a doctor. First, doctors help people by saving lives, treating sickness, and making patients healthy. Second, they earn respect because doctors are trusted and admired in society. Third, the salary is good, providing a comfortable life. Doctors also have job security since medical professionals are needed everywhere. Additionally, they learn new things every day through new diseases, treatments, and technology. Finally, doctors can work in hospitals, clinics, or even abroad, making a real difference in families and communities.",
-      "fullScoreAnswer": "I think being a doctor has many good points. First, doctors can help sick people and save lives. Second, doctors are needed everywhere, so the job is stable. Also, they can keep learning new things at work. So, being a doctor can be useful and meaningful."
+      "fullScoreAnswer": "I think being a doctor has many good points. One important reason is that doctors can help sick people and save lives. Furthermore, doctors are needed everywhere, so the job is stable. Another point worth considering is that they can keep learning new things at work. Therefore, being a doctor can be useful and meaningful."
     },
     {
       "uid": "5-真题40大学生是否应该花时间去参加社区活动.json-1",
@@ -14772,7 +14592,7 @@ window.TOEIC_REVIEW_DATA = {
         "所以，社区活动能同时帮助学生和其他人。"
       ],
       "questionBankAnswer": "Yes, I think college students should participate in community activities. It helps them develop social skills, meet new people, and gain practical experience. Such involvement can improve teamwork, communication, and time management skills. It also looks good on resumes and prepares students for real-life challenges, making it a valuable part of their personal and professional growth.",
-      "fullScoreAnswer": "I think college students should join community activities. First, they can practice communication and teamwork. Second, they can meet new people and understand local needs. Also, this experience can make their resume stronger. So, community activities help both students and other people."
+      "fullScoreAnswer": "I think college students should join community activities. One important reason is that they can practice communication and teamwork. Furthermore, they can meet new people and understand local needs. Another point worth considering is that this experience can make their resume stronger. Therefore, community activities help both students and other people."
     }
   ]
 };
