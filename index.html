@@ -3148,7 +3148,7 @@
         return renderPart5Answer(record);
       }
       if (record.part !== 1) {
-        return '<div class="answer-panel">' +
+        return '<div class="answer-panel answer-variant quick-answer-variant">' +
           '<div class="answer-heading">' +
             '<p class="answer-title">快速复述版 · 英文</p>' +
             renderCompactSpeechControl(record) +
@@ -3214,7 +3214,7 @@
           '<p class="part2-step-text">' + escapeHtml(sentence) + '</p>' +
         '</div>'
       ).join("");
-      return '<div class="answer-panel part2-answer-panel">' +
+      return '<div class="answer-panel part2-answer-panel answer-variant quick-answer-variant">' +
         '<div class="part2-answer-heading">' +
           '<p class="answer-title">快速复述版 · 总—分—总</p>' +
           renderCompactSpeechControl(record) +
@@ -3253,7 +3253,7 @@
           '<p class="part5-step-text">' + escapeHtml(section) + '</p>' +
         '</div>'
       ).join("");
-      return '<div class="answer-panel part5-answer-panel">' +
+      return '<div class="answer-panel part5-answer-panel answer-variant quick-answer-variant">' +
         '<div class="part5-answer-heading">' +
           '<p class="answer-title">Part 5 快速复述版</p>' +
           '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
@@ -3714,7 +3714,7 @@
           '<p class="part5-step-text">' + escapeHtml(section) + '</p>' +
         '</div>'
       ).join("");
-      return '<div class="group-answer part3-q3-answer">' +
+      return '<div class="group-answer part3-q3-answer answer-variant quick-answer-variant">' +
         '<div class="part5-answer-heading">' +
           '<p class="answer-title">第 3 题快速复述版 · 30 秒</p>' +
           '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
@@ -3751,7 +3751,7 @@
         const answer = answerVisible
           ? question.answerSectionsEn && question.answerSectionsZh
             ? renderPart3Q3Answer(question)
-            : '<div class="group-answer">' +
+            : '<div class="group-answer answer-variant quick-answer-variant">' +
               '<div class="answer-heading">' +
                 '<p class="answer-title">快速复述版 · ' + escapeHtml(question.answerTime || "--") + ' 秒</p>' +
                 renderCompactSpeechControl(question) +
