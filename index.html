@@ -725,21 +725,11 @@
     }
 
     .answer-variant-line {
-      display: grid;
-      grid-template-columns: 24px minmax(0, 1fr);
-      gap: 8px;
       padding: 8px 0;
     }
 
     .answer-variant-line + .answer-variant-line {
       border-top: 1px solid #edf3f1;
-    }
-
-    .answer-variant-line-number {
-      color: #4b766f;
-      font-size: 12px;
-      font-weight: 850;
-      line-height: 1.55;
     }
 
     .answer-variant-line-text {
@@ -3223,9 +3213,8 @@
     }
 
     function renderAnswerLines(text) {
-      return '<div class="answer-variant-lines">' + splitAnswerSentences(text).map((sentence, index) =>
+      return '<div class="answer-variant-lines">' + splitAnswerSentences(text).map((sentence) =>
         '<div class="answer-variant-line">' +
-          '<span class="answer-variant-line-number">' + (index + 1) + '</span>' +
           '<p class="answer-variant-line-text">' + escapeHtml(sentence) + '</p>' +
         '</div>'
       ).join("") + '</div>';
@@ -3253,8 +3242,8 @@
         : "保留题库中原有的完整参考表达。";
       return '<div class="answer-variants answer-variant-set">' +
         renderAnswerVariant("满分目标示范", "官方维度", fullScoreCriterion(part), record.fullScoreAnswer) +
-        renderAnswerVariant("快速复述版", "易复述", "适合在规定作答时间内快速、自然地复述。", record.answer, record) +
         renderAnswerVariant("题库原答案", "原版", bankNote, record.questionBankAnswer) +
+        renderAnswerVariant("快速复述版", "易复述", "适合在规定作答时间内快速、自然地复述。", record.answer, record) +
       '</div>';
     }
 
