@@ -639,6 +639,12 @@
       background: #fbfcfd;
     }
 
+    .answer-variant-set {
+      padding: 0;
+      border-top: 0;
+      background: transparent;
+    }
+
     .answer-variant {
       border: 1px solid #c9dfdb;
       border-radius: 6px;
@@ -694,6 +700,12 @@
       border-top: 1px solid #e2eeec;
     }
 
+    .answer-variant-speech {
+      display: flex;
+      justify-content: flex-end;
+      margin: 8px 0 4px;
+    }
+
     .answer-variant-note {
       margin: 8px 0 5px;
       color: #51636b;
@@ -704,6 +716,37 @@
       margin: 0;
       color: #18343a;
       font-size: 14px;
+    }
+
+    .answer-variant-lines {
+      display: grid;
+      margin-top: 8px;
+      border-top: 1px solid #e2eeec;
+    }
+
+    .answer-variant-line {
+      display: grid;
+      grid-template-columns: 24px minmax(0, 1fr);
+      gap: 8px;
+      padding: 8px 0;
+    }
+
+    .answer-variant-line + .answer-variant-line {
+      border-top: 1px solid #edf3f1;
+    }
+
+    .answer-variant-line-number {
+      color: #4b766f;
+      font-size: 12px;
+      font-weight: 850;
+      line-height: 1.55;
+    }
+
+    .answer-variant-line-text {
+      margin: 0;
+      color: #18343a;
+      font-size: 14px;
+      line-height: 1.55;
     }
 
     .part2-answer-panel {
@@ -3141,21 +3184,8 @@
 
     function renderAnswer(record) {
       const answerText = record.answer || "题库未提供参考答案。";
-      if (record.part === 2 && record.part2Answer) {
-        return renderPart2Answer(record);
-      }
-      if (record.part === 5 && record.answerSectionsEn && record.answerSectionsZh) {
-        return renderPart5Answer(record);
-      }
       if (record.part !== 1) {
-        return '<div class="answer-panel answer-variant quick-answer-variant">' +
-          '<div class="answer-heading">' +
-            '<p class="answer-title">快速复述版 · 英文</p>' +
-            renderCompactSpeechControl(record) +
-          '</div>' +
-          '<p class="answer-text">' + escapeHtml(answerText) + '</p>' +
-          renderAnswerVariants(record) +
-        '</div>';
+        return '<div class="answer-panel">' + renderAnswerSet(record) + '</div>';
       }
       return '<div class="answer-panel part1-answer-panel">' +
         '<div class="answer-heading">' +
@@ -3184,51 +3214,47 @@
       return "按官方评分维度设计，非 ETS 官方逐字范文。" + (criteria[part] || "目标：内容完整、语言清晰、表达连贯。");
     }
 
-    function renderAnswerVariants(record, sourcePart) {
-      const bankAnswer = record.questionBankAnswer;
-      const fullScoreAnswer = record.fullScoreAnswer;
-      if (!bankAnswer && !fullScoreAnswer) return "";
+    function splitAnswerSentences(value) {
+      const protectedText = protectAbbreviations(String(value || "").trim());
+      const sentences = protectedText.match(/[^.!?]+(?:[.!?]+|$)/g) || [protectedText];
+      return sentences
+        .map((sentence) => sentence.replaceAll("@@DOT@@", ".").trim())
+        .filter(Boolean);
+    }
+
+    function renderAnswerLines(text) {
+      return '<div class="answer-variant-lines">' + splitAnswerSentences(text).map((sentence, index) =>
+        '<div class="answer-variant-line">' +
+          '<span class="answer-variant-line-number">' + (index + 1) + '</span>' +
+          '<p class="answer-variant-line-text">' + escapeHtml(sentence) + '</p>' +
+        '</div>'
+      ).join("") + '</div>';
+    }
+
+    function renderAnswerVariant(title, tag, note, text, record) {
+      if (!text) return "";
+      const speech = record
+        ? '<div class="answer-variant-speech">' + renderCompactSpeechControl(record) + '</div>'
+        : '';
+      return '<details class="answer-variant" open>' +
+        '<summary><span class="answer-variant-label">' + escapeHtml(title) + '<span class="answer-variant-tag">' + escapeHtml(tag) + '</span></span></summary>' +
+        '<div class="answer-variant-body">' +
+          '<p class="answer-variant-note">' + escapeHtml(note) + '</p>' +
+          speech +
+          renderAnswerLines(text) +
+        '</div>' +
+      '</details>';
+    }
+
+    function renderAnswerSet(record, sourcePart) {
       const part = sourcePart || record.part;
       const bankNote = part === 1
         ? "朗读题的题库原答案与题干一致，可用作逐意群跟读文本。"
         : "保留题库中原有的完整参考表达。";
-      const renderVariant = (title, tag, note, text) => text
-        ? '<details class="answer-variant">' +
-            '<summary><span class="answer-variant-label">' + escapeHtml(title) + '<span class="answer-variant-tag">' + escapeHtml(tag) + '</span></span></summary>' +
-            '<div class="answer-variant-body">' +
-              '<p class="answer-variant-note">' + escapeHtml(note) + '</p>' +
-              '<p class="answer-variant-text">' + escapeHtml(text) + '</p>' +
-            '</div>' +
-          '</details>'
-        : '';
-      return '<div class="answer-variants">' +
-        renderVariant("题库原答案", "原版", bankNote, bankAnswer) +
-        renderVariant("满分目标示范", "官方维度", fullScoreCriterion(part), fullScoreAnswer) +
-      '</div>';
-    }
-
-    function renderPart2Answer(record) {
-      const detailRows = record.part2Answer.details.map((sentence, index) =>
-        '<div class="part2-answer-row detail">' +
-          '<span class="part2-step-label">分 · 细节 ' + (index + 1) + '</span>' +
-          '<p class="part2-step-text">' + escapeHtml(sentence) + '</p>' +
-        '</div>'
-      ).join("");
-      return '<div class="answer-panel part2-answer-panel answer-variant quick-answer-variant">' +
-        '<div class="part2-answer-heading">' +
-          '<p class="answer-title">快速复述版 · 总—分—总</p>' +
-          renderCompactSpeechControl(record) +
-        '</div>' +
-        '<div class="part2-answer-row">' +
-          '<span class="part2-step-label">总 · 概述</span>' +
-          '<p class="part2-step-text">' + escapeHtml(record.part2Answer.opening) + '</p>' +
-        '</div>' +
-        detailRows +
-        '<div class="part2-answer-row">' +
-          '<span class="part2-step-label">总 · 总结</span>' +
-          '<p class="part2-step-text">' + escapeHtml(record.part2Answer.conclusion) + '</p>' +
-        '</div>' +
-        renderAnswerVariants(record) +
+      return '<div class="answer-variants answer-variant-set">' +
+        renderAnswerVariant("满分目标示范", "官方维度", fullScoreCriterion(part), record.fullScoreAnswer) +
+        renderAnswerVariant("快速复述版", "易复述", "适合在规定作答时间内快速、自然地复述。", record.answer, record) +
+        renderAnswerVariant("题库原答案", "原版", bankNote, record.questionBankAnswer) +
       '</div>';
     }
 
@@ -3236,45 +3262,6 @@
       return '<div class="compact-speech-controls">' +
         '<span class="speech-status" data-speech-status="' + escapeAttr(record.uid) + '">检测中</span>' +
         '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '" title="播放英文参考答案" aria-label="播放英文参考答案">播放答案</button>' +
-      '</div>';
-    }
-
-    function renderPart5Answer(record) {
-      const englishVisible = state.part5EnglishOpen.has(record.uid);
-      const labels = record.answerPattern === "2R1E"
-        ? ["观点", "理由 1", "理由 2", "例子", "总结"]
-        : ["观点", "理由 1", "理由 2", "理由 3", "总结"];
-      const patternText = record.answerPattern === "2R1E"
-        ? "观点 + 2 个理由 + 1 个例子 + 总结"
-        : "观点 + 3 个理由 + 总结";
-      const renderRows = (sections) => sections.map((section, index) =>
-        '<div class="part5-answer-row">' +
-          '<span class="part5-step-label">' + escapeHtml(labels[index] || "要点") + '</span>' +
-          '<p class="part5-step-text">' + escapeHtml(section) + '</p>' +
-        '</div>'
-      ).join("");
-      return '<div class="answer-panel part5-answer-panel answer-variant quick-answer-variant">' +
-        '<div class="part5-answer-heading">' +
-          '<p class="answer-title">Part 5 快速复述版</p>' +
-          '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
-        '</div>' +
-        '<section class="part5-language" aria-label="中文参考答案">' +
-          '<p class="part5-language-title">中文参考答案</p>' +
-          renderRows(record.answerSectionsZh) +
-        '</section>' +
-        '<div class="part5-english-toggle-row">' +
-          '<button class="tool-button part5-english-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (englishVisible ? "隐藏英文答案" : "显示英文答案") + '</button>' +
-        '</div>' +
-        (englishVisible
-          ? '<section class="part5-language" aria-label="英文参考答案">' +
-              '<div class="part5-language-heading">' +
-                '<p class="part5-language-title">英文参考答案</p>' +
-                renderCompactSpeechControl(record) +
-              '</div>' +
-              renderRows(record.answerSectionsEn) +
-            '</section>'
-          : '') +
-        renderAnswerVariants(record) +
       '</div>';
     }
 
@@ -3700,45 +3687,6 @@
       ).join("");
     }
 
-    function renderPart3Q3Answer(question) {
-      const englishVisible = state.part3EnglishOpen.has(question.uid);
-      const labels = question.answerPattern === "1R1E"
-        ? ["总 · 观点", "分 · 理由", "分 · 例子", "总 · 总结"]
-        : ["总 · 观点", "分 · 理由 1", "分 · 理由 2", "总 · 总结"];
-      const patternText = question.answerPattern === "1R1E"
-        ? "总 + 1 个理由 + 1 个例子 + 总"
-        : "总 + 2 个理由 + 总";
-      const renderRows = (sections) => sections.map((section, index) =>
-        '<div class="part5-answer-row">' +
-          '<span class="part5-step-label">' + escapeHtml(labels[index] || "要点") + '</span>' +
-          '<p class="part5-step-text">' + escapeHtml(section) + '</p>' +
-        '</div>'
-      ).join("");
-      return '<div class="group-answer part3-q3-answer answer-variant quick-answer-variant">' +
-        '<div class="part5-answer-heading">' +
-          '<p class="answer-title">第 3 题快速复述版 · 30 秒</p>' +
-          '<span class="answer-pattern">' + escapeHtml(patternText) + '</span>' +
-        '</div>' +
-        '<section class="part5-language" aria-label="中文参考答案">' +
-          '<p class="part5-language-title">中文参考答案</p>' +
-          renderRows(question.answerSectionsZh) +
-        '</section>' +
-        '<div class="part5-english-toggle-row">' +
-          '<button class="tool-button part3-english-toggle" type="button" data-uid="' + escapeAttr(question.uid) + '">' + (englishVisible ? "隐藏英文答案" : "显示英文答案") + '</button>' +
-        '</div>' +
-        (englishVisible
-          ? '<section class="part5-language" aria-label="英文参考答案">' +
-              '<div class="part5-language-heading">' +
-                '<p class="part5-language-title">英文参考答案</p>' +
-                renderCompactSpeechControl(question) +
-              '</div>' +
-              renderRows(question.answerSectionsEn) +
-            '</section>'
-          : '') +
-        renderAnswerVariants(question, 3) +
-      '</div>';
-    }
-
     function renderGroupedQuestions(record, answerVisible) {
       return '<div class="question-group" aria-label="整组三题">' + record.questions.map((question) => {
         const timerKey = question.uid || record.uid + "::question-" + question.questionId;
@@ -3749,16 +3697,7 @@
           ? renderCountdown(question.answerTime, timerKey + "::answer", "作答", "answer")
           : '';
         const answer = answerVisible
-          ? question.answerSectionsEn && question.answerSectionsZh
-            ? renderPart3Q3Answer(question)
-            : '<div class="group-answer answer-variant quick-answer-variant">' +
-              '<div class="answer-heading">' +
-                '<p class="answer-title">快速复述版 · ' + escapeHtml(question.answerTime || "--") + ' 秒</p>' +
-                renderCompactSpeechControl(question) +
-              '</div>' +
-              '<p class="answer-text">' + escapeHtml(question.answer || "题库未提供参考答案。") + '</p>' +
-              renderAnswerVariants(question, record.part) +
-            '</div>'
+          ? '<div class="group-answer">' + renderAnswerSet(question, record.part) + '</div>'
           : '';
         return '<section class="group-question">' +
           '<div class="group-question-head">' +
