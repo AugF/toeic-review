@@ -58,6 +58,7 @@
   let analyser = null;
   let analyserSource = null;
   let activeRecording = null;
+  const preloadedExamImages = new Set();
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -566,7 +567,7 @@
     const record = step.record;
     if (step.part === 2) {
       return record.imagePath
-        ? '<img class="exam-picture" src="' + escapeHtml(record.imagePath) + '" alt="Part 2 描述图片" />'
+        ? '<img class="exam-picture" src="' + escapeHtml(record.imagePath) + '" alt="Part 2 描述图片" decoding="async" fetchpriority="high" />'
         : '<p class="exam-reading-prompt">图片资源不可用，请返回刷题模式确认题目。</p>';
     }
     if (step.part === 4) {
@@ -577,6 +578,22 @@
       return material + '<div class="exam-material-question">' + prompt + "</div>";
     }
     return '<p class="exam-prompt">' + escapeHtml(record.prompt) + "</p>";
+  }
+
+  function preloadUpcomingExamImages() {
+    if (!exam?.steps?.length) return;
+    const upcomingPictureSteps = exam.steps
+      .slice(exam.index)
+      .filter((step) => step.part === 2 && step.record?.imagePath)
+      .slice(0, 2);
+    upcomingPictureSteps.forEach((step) => {
+      const imagePath = step.record.imagePath;
+      if (preloadedExamImages.has(imagePath)) return;
+      preloadedExamImages.add(imagePath);
+      const image = new Image();
+      image.decoding = "async";
+      image.src = imagePath;
+    });
   }
 
   function directionFor(step) {
@@ -609,6 +626,7 @@
     els.progressBar.style.width = ((step.number - 1) / TOTAL_QUESTIONS * 100) + "%";
     els.direction.textContent = directionFor(step);
     els.questionContent.innerHTML = questionHtml(step);
+    preloadUpcomingExamImages();
     els.phaseLabel.textContent = phaseLabel;
     els.phaseNote.textContent = phaseNote;
     updateTimerView();

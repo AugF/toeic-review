@@ -275,6 +275,7 @@
 .exam-picture {
   display: block;
   width: min(100%, 720px);
+  aspect-ratio: 16 / 9;
   max-height: 520px;
   margin: 0 auto;
   object-fit: contain;

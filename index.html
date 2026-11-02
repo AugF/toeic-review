@@ -3220,10 +3220,10 @@
       ).join("") + '</div>';
     }
 
-    function renderAnswerVariant(title, tag, note, text, record) {
+    function renderAnswerVariant(title, tag, note, text, record, answerField) {
       if (!text) return "";
       const speech = record
-        ? '<div class="answer-variant-speech">' + renderCompactSpeechControl(record) + '</div>'
+        ? '<div class="answer-variant-speech">' + renderCompactSpeechControl(record, answerField, title) + '</div>'
         : '';
       return '<details class="answer-variant" open>' +
         '<summary><span class="answer-variant-label">' + escapeHtml(title) + '<span class="answer-variant-tag">' + escapeHtml(tag) + '</span></span></summary>' +
@@ -3241,16 +3241,21 @@
         ? "朗读题的题库原答案与题干一致，可用作逐意群跟读文本。"
         : "保留题库中原有的完整参考表达。";
       return '<div class="answer-variants answer-variant-set">' +
-        renderAnswerVariant("满分目标示范", "官方维度", fullScoreCriterion(part), record.fullScoreAnswer) +
-        renderAnswerVariant("题库原答案", "原版", bankNote, record.questionBankAnswer) +
-        renderAnswerVariant("快速复述版", "易复述", "适合在规定作答时间内快速、自然地复述。", record.answer, record) +
+        renderAnswerVariant("满分目标示范", "官方维度", fullScoreCriterion(part), record.fullScoreAnswer, record, "fullScoreAnswer") +
+        renderAnswerVariant("题库原答案", "原版", bankNote, record.questionBankAnswer, record, "questionBankAnswer") +
+        renderAnswerVariant("快速复述版", "易复述", "适合在规定作答时间内快速、自然地复述。", record.answer, record, "answer") +
       '</div>';
     }
 
-    function renderCompactSpeechControl(record) {
+    function speechStatusKey(uid, answerField = "answer") {
+      return answerField === "answer" ? uid : uid + "::" + answerField;
+    }
+
+    function renderCompactSpeechControl(record, answerField = "answer", label = "参考答案") {
+      const statusKey = speechStatusKey(record.uid, answerField);
       return '<div class="compact-speech-controls">' +
-        '<span class="speech-status" data-speech-status="' + escapeAttr(record.uid) + '">检测中</span>' +
-        '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '" title="播放英文参考答案" aria-label="播放英文参考答案">播放答案</button>' +
+        '<span class="speech-status" data-speech-status="' + escapeAttr(statusKey) + '">检测中</span>' +
+        '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '" data-speak-variant="' + escapeAttr(answerField) + '" title="播放' + escapeAttr(label) + '" aria-label="播放' + escapeAttr(label) + '">播放答案</button>' +
       '</div>';
     }
 
@@ -3380,20 +3385,21 @@
       }).join("");
     }
 
-    async function speakRecord(uid) {
+    async function speakRecord(uid, answerField = "answer") {
       const record = data.records.find((item) => item.uid === uid) ||
         data.records.flatMap((item) => item.questions || []).find((item) => item.uid === uid);
       if (!record) return;
-      const text = String(record.answer || record.prompt || "").replace(/\s+/g, " ").trim();
+      const statusKey = speechStatusKey(uid, answerField);
+      const text = String(record[answerField] || record.answer || record.prompt || "").replace(/\s+/g, " ").trim();
       if (!text) {
-        setSpeechStatus(uid, "没有可朗读文本", "error");
+        setSpeechStatus(statusKey, "没有可朗读文本", "error");
         return;
       }
       if (!supportsSpeechSynthesis()) {
-        setSpeechStatus(uid, "当前浏览器不支持朗读", "error");
+        setSpeechStatus(statusKey, "当前浏览器不支持朗读", "error");
         return;
       }
-      setSpeechStatus(uid, "正在加载英文声音", "");
+      setSpeechStatus(statusKey, "正在加载英文声音", "");
       const voices = await loadVoices();
       const englishVoices = voices.filter((voice) => /^en/i.test(voice.lang || ""));
       const voice = getSelectedEnglishVoice(voices);
@@ -3407,16 +3413,16 @@
       let started = false;
       speechUtterance.onstart = () => {
         started = true;
-        setSpeechStatus(uid, "正在朗读" + (voice ? " · " + voice.name : ""), "");
+        setSpeechStatus(statusKey, "正在朗读" + (voice ? " · " + voice.name : ""), "");
       };
       speechUtterance.onend = () => {
         clearSpeechKeepAlive();
-        setSpeechStatus(uid, "朗读完成", "");
+        setSpeechStatus(statusKey, "朗读完成", "");
         speechUtterance = null;
       };
       speechUtterance.onerror = (event) => {
         clearSpeechKeepAlive();
-        setSpeechStatus(uid, "朗读失败：" + (event.error || "unknown"), "error");
+        setSpeechStatus(statusKey, "朗读失败：" + (event.error || "unknown"), "error");
         speechUtterance = null;
       };
       window.speechSynthesis.cancel();
@@ -3427,10 +3433,10 @@
         startSpeechKeepAlive();
         window.setTimeout(() => {
           if (!started && window.speechSynthesis.speaking) {
-            setSpeechStatus(uid, "已请求播放" + (voice ? " · " + voice.name : ""), "warning");
+            setSpeechStatus(statusKey, "已请求播放" + (voice ? " · " + voice.name : ""), "warning");
           } else if (!started && !window.speechSynthesis.speaking) {
             const suffix = englishVoices.length ? "英文声音 " + englishVoices.length + " 个" : "未检测到英文声音";
-            setSpeechStatus(uid, "浏览器未开始朗读 · " + suffix, "error");
+            setSpeechStatus(statusKey, "浏览器未开始朗读 · " + suffix, "error");
           }
         }, 1400);
       }, 80);
@@ -3915,7 +3921,7 @@
       }
       const speakButton = event.target.closest("[data-speak]");
       if (speakButton) {
-        speakRecord(speakButton.dataset.speak);
+        speakRecord(speakButton.dataset.speak, speakButton.dataset.speakVariant || "answer");
         return;
       }
       const pauseSpeechButton = event.target.closest("[data-pause-speech]");
