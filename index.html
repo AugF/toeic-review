@@ -2581,17 +2581,18 @@
       const active = activeRecordings.get(uid);
       const result = recordingResults.get(uid);
       const audioUrl = recordingAudioUrls.get(uid);
+      const timeLimitSeconds = recordingTimeLimitSeconds(meta);
       const canRecord = supportsAudioRecording();
       const canTranscribe = supportsSpeechRecognition();
       const status = active
-        ? "录音中 · " + scoreScaleLabel(meta.part)
+        ? "录音中 · 剩余 " + recordingRemainingSeconds(active) + "s"
         : !canRecord
           ? "当前浏览器不支持麦克风录音"
           : !canTranscribe
             ? "可录音回放；当前浏览器不支持自动转写和评分"
             : result
               ? "已保存本机练习分 · 可重新录音"
-              : scoreScaleLabel(meta.part);
+              : scoreScaleLabel(meta.part) + (timeLimitSeconds ? " · 限时 " + timeLimitSeconds + "s" : "");
       const transcript = active
         ? [active.finalTranscript, active.interimTranscript].filter(Boolean).join(" ").trim()
         : result?.transcript || "";
@@ -2600,7 +2601,7 @@
           '<p class="recording-title">我的录音与评分</p>' +
           '<span class="record-status ' + (!canRecord ? "error" : !canTranscribe ? "warning" : "") + '" data-record-status="' + escapeAttr(uid) + '">' + escapeHtml(status) + '</span>' +
           '<div class="recording-actions">' +
-            '<button class="tool-button record-button ' + (active ? "recording" : "") + '" type="button" data-record-toggle="' + escapeAttr(uid) + '"' + (canRecord ? "" : " disabled") + '>' + (active ? "停止并评分" : "开始录音") + '</button>' +
+            '<button class="tool-button record-button ' + (active ? "recording" : "") + '" type="button" data-record-toggle="' + escapeAttr(uid) + '"' + (canRecord ? "" : " disabled") + '>' + (active ? "停止并评分" : timeLimitSeconds ? "开始录音（限时 " + timeLimitSeconds + "s）" : "开始录音") + '</button>' +
             ((result || audioUrl) ? '<button class="tool-button" type="button" data-record-delete="' + escapeAttr(uid) + '">删除记录</button>' : '') +
           '</div>' +
         '</div>' +
@@ -2645,6 +2646,74 @@
         node.hidden = !transcript;
         node.textContent = transcript ? "转写：" + transcript : "";
       });
+    }
+
+    function practiceAnswerTime(record, part) {
+      const normalizedPart = Number(part);
+      if (normalizedPart === 1) return 45;
+      if (normalizedPart === 2) return 30;
+      return Math.max(0, Math.round(Number(record?.answerTime) || 0));
+    }
+
+    function recordingTimeLimitSeconds(meta) {
+      if (![1, 2, 3, 4].includes(Number(meta?.part))) return 0;
+      return practiceAnswerTime(meta.record, meta.part);
+    }
+
+    function recordingRemainingSeconds(session) {
+      if (!session?.limitEndsAt) return session?.timeLimitSeconds || 0;
+      return Math.max(0, Math.ceil((session.limitEndsAt - performance.now()) / 1000));
+    }
+
+    function startRecordingCountdown(session) {
+      if (!session.timeLimitSeconds) return;
+      const key = session.uid + "::answer";
+      const timer = ensureCountdownTimer(key, session.timeLimitSeconds, "answer");
+      prepareCountdownAudio();
+      timer.running = true;
+      timer.endAt = Date.now() + session.timeLimitSeconds * 1000;
+      timer.remainingMs = session.timeLimitSeconds * 1000;
+      timer.alerted = false;
+      timer.lastTickSecond = session.timeLimitSeconds;
+      updateCountdownDisplay(key);
+    }
+
+    function stopRecordingCountdown(session) {
+      if (!session?.timeLimitSeconds) return;
+      const key = session.uid + "::answer";
+      const timer = countdownTimers.get(key);
+      if (!timer) return;
+      syncCountdownTimer(timer);
+      timer.running = false;
+      timer.endAt = 0;
+      updateCountdownDisplay(key);
+    }
+
+    function updateRecordingLimitStatus(session) {
+      if (!session || session.stopping || !activeRecordings.has(session.uid)) return;
+      setRecordingStatus(session.uid, "录音中 · 剩余 " + recordingRemainingSeconds(session) + "s");
+    }
+
+    function startRecordingTimeLimit(session) {
+      if (!session.timeLimitSeconds) return;
+      session.limitEndsAt = performance.now() + session.timeLimitSeconds * 1000;
+      session.limitStatusTimer = window.setInterval(() => updateRecordingLimitStatus(session), 200);
+      session.limitStopTimer = window.setTimeout(() => {
+        if (activeRecordings.get(session.uid) !== session || session.stopping) return;
+        session.timedOut = true;
+        stopRecording(session.uid, { timedOut: true });
+      }, session.timeLimitSeconds * 1000);
+      startRecordingCountdown(session);
+      updateRecordingLimitStatus(session);
+    }
+
+    function clearRecordingTimeLimit(session) {
+      if (!session) return;
+      if (session.limitStatusTimer) window.clearInterval(session.limitStatusTimer);
+      if (session.limitStopTimer) window.clearTimeout(session.limitStopTimer);
+      session.limitStatusTimer = 0;
+      session.limitStopTimer = 0;
+      stopRecordingCountdown(session);
     }
 
     function startAudioMeter(session) {
@@ -2735,6 +2804,11 @@
         audioContext: null,
         analyser: null,
         audioSource: null,
+        timeLimitSeconds: recordingTimeLimitSeconds(meta),
+        limitEndsAt: 0,
+        limitStatusTimer: 0,
+        limitStopTimer: 0,
+        timedOut: false,
       };
       mediaRecorder.addEventListener("dataavailable", (event) => {
         if (event.data?.size) session.chunks.push(event.data);
@@ -2787,13 +2861,15 @@
       startAudioMeter(session);
       if (recognition) startRecognition(session);
       refreshRecordingWidget(uid);
+      startRecordingTimeLimit(session);
     }
 
-    async function stopRecording(uid) {
+    async function stopRecording(uid, options = {}) {
       const session = activeRecordings.get(uid);
       if (!session || session.stopping) return;
       session.stopping = true;
-      setRecordingStatus(uid, "正在整理录音并评分");
+      clearRecordingTimeLimit(session);
+      setRecordingStatus(uid, options.timedOut ? "作答时间结束，正在保存录音并评分" : "正在整理录音并评分");
       if (session.meterTimer) window.clearInterval(session.meterTimer);
       if (session.recognition) {
         try {
@@ -2857,8 +2933,10 @@
       }
       saveRecordingScores();
       activeRecordings.delete(uid);
-      prepareCountdownAudio();
-      playCountdownAlert("answer");
+      if (!options.timedOut) {
+        prepareCountdownAudio();
+        playCountdownAlert("answer");
+      }
       refreshRecordingWidget(uid);
     }
 
@@ -3091,9 +3169,24 @@
       });
     }
 
+    function recordingUidForAnswerCountdown(key) {
+      const suffix = "::answer";
+      if (!String(key).endsWith(suffix)) return "";
+      return String(key).slice(0, -suffix.length);
+    }
+
+    function isRecordingAnswerCountdown(key) {
+      const uid = recordingUidForAnswerCountdown(key);
+      return Boolean(uid && activeRecordings.has(uid));
+    }
+
     function toggleCountdown(key) {
       const timer = countdownTimers.get(key);
       if (!timer) return;
+      if (isRecordingAnswerCountdown(key)) {
+        setRecordingStatus(recordingUidForAnswerCountdown(key), "录音计时进行中，请先停止录音", "warning");
+        return;
+      }
       syncCountdownTimer(timer);
       if (timer.running) {
         timer.running = false;
@@ -3112,6 +3205,10 @@
     function resetCountdown(key) {
       const timer = countdownTimers.get(key);
       if (!timer) return;
+      if (isRecordingAnswerCountdown(key)) {
+        setRecordingStatus(recordingUidForAnswerCountdown(key), "录音计时进行中，请先停止录音", "warning");
+        return;
+      }
       timer.running = false;
       timer.endAt = 0;
       timer.remainingMs = timer.durationSeconds * 1000;
@@ -3688,8 +3785,9 @@
         const prepBadge = question.preparationTime
           ? renderCountdown(question.preparationTime, timerKey + "::prep", "准备", "prep")
           : '';
-        const answerBadge = question.answerTime
-          ? renderCountdown(question.answerTime, timerKey + "::answer", "作答", "answer")
+        const answerTime = practiceAnswerTime(question, record.part);
+        const answerBadge = answerTime
+          ? renderCountdown(answerTime, timerKey + "::answer", "作答", "answer")
           : '';
         const answer = answerVisible
           ? '<div class="group-answer">' + renderAnswerSet(question, record.part) + '</div>'
@@ -3756,7 +3854,8 @@
           : '<span class="badge meta">题' + escapeHtml(record.questionId) + '</span>';
         const reviewBadge = record.reviewTime ? '<span class="badge meta">看表 ' + escapeHtml(record.reviewTime) + 's</span>' : "";
         const prepBadge = record.preparationTime ? renderCountdown(record.preparationTime, record.uid + "::prep", "准备", "prep") : "";
-        const answerBadge = record.answerTime ? renderCountdown(record.answerTime, record.uid + "::answer", "作答", "answer") : "";
+        const answerTime = practiceAnswerTime(record, record.part);
+        const answerBadge = answerTime ? renderCountdown(answerTime, record.uid + "::answer", "作答", "answer") : "";
         const imageOnLeft = record.part === 2 && Boolean(image);
         const cardContent = '<div>' +
           '<div class="card-head">' +
