@@ -1463,6 +1463,17 @@
         <div class="voice-status" id="voiceStatus" aria-live="polite">正在读取当前设备音色</div>
       </section>
 
+      <section class="control-block">
+        <label class="label" for="transcriptionMode">录音转写</label>
+        <select id="transcriptionMode" class="voice-select">
+          <option value="browser">浏览器即时转写</option>
+          <option value="siliconflow">高精度云端转写</option>
+        </select>
+        <input id="transcriptionApiKey" class="search-box" type="password" autocomplete="off" placeholder="硅基流动 API Key（仅本机保存）" />
+        <button id="clearTranscriptionApiKey" class="tool-button" type="button">清除本机密钥</button>
+        <div class="voice-status" id="transcriptionStatus" aria-live="polite"></div>
+      </section>
+
       <div class="sidebar-stats">
         <button class="stat active" type="button" data-study-filter="all"><span class="stat-value" id="totalCount">0</span><span class="stat-label">当前题数</span></button>
         <button class="stat" type="button" data-study-filter="done"><span class="stat-value" id="doneCount">0</span><span class="stat-label">已练</span></button>
@@ -1534,7 +1545,7 @@
               <span class="exam-mic-status" id="examMicStatus">尚未检测麦克风</span>
               <button class="exam-secondary-button" id="examMicCheckButton" type="button">检测麦克风</button>
             </div>
-            <p class="exam-setting-note">录音仅保留在当前浏览器会话；刷新后评分与文字记录会保留，音频不会上传。</p>
+            <p class="exam-setting-note" id="examRecordingPrivacyNote">录音仅保留在当前浏览器会话；刷新后评分与文字记录会保留，音频不会上传。</p>
           </section>
         </div>
 
@@ -1662,6 +1673,11 @@
     const searchInput = $("searchInput");
     const voiceSelect = $("voiceSelect");
     const voiceStatus = $("voiceStatus");
+    const transcriptionMode = $("transcriptionMode");
+    const transcriptionApiKey = $("transcriptionApiKey");
+    const transcriptionStatus = $("transcriptionStatus");
+    const clearTranscriptionApiKey = $("clearTranscriptionApiKey");
+    const examRecordingPrivacyNote = $("examRecordingPrivacyNote");
     const cardList = $("cardList");
     const summaryStrip = $("summaryStrip");
     const appShell = $("appShell");
@@ -1676,6 +1692,10 @@
     const SIDEBAR_MIN_WIDTH = 240;
     const SIDEBAR_MAX_WIDTH = 520;
     const SIDEBAR_DEFAULT_WIDTH = 300;
+    const TRANSCRIPTION_MODE_KEY = "toeic-review-transcription-mode";
+    const TRANSCRIPTION_API_KEY = "toeic-review-siliconflow-api-key";
+    const SILICONFLOW_TRANSCRIPTION_URL = "https://api.siliconflow.cn/v1/audio/transcriptions";
+    const SILICONFLOW_TRANSCRIPTION_MODEL = "TeleAI/TeleSpeechASR";
     const countdownTimers = new Map();
     const readingFunctionWords = new Set([
       "a", "an", "the", "and", "but", "or", "nor", "so", "yet",
@@ -1954,6 +1974,71 @@
         typeof navigator.mediaDevices.getUserMedia === "function" &&
         typeof window.MediaRecorder !== "undefined"
       );
+    }
+
+    function cloudTranscriptionEnabled() {
+      return transcriptionMode.value === "siliconflow" && Boolean(transcriptionApiKey.value.trim());
+    }
+
+    function renderTranscriptionStatus() {
+      const cloudEnabled = cloudTranscriptionEnabled();
+      transcriptionApiKey.hidden = transcriptionMode.value !== "siliconflow";
+      clearTranscriptionApiKey.hidden = transcriptionMode.value !== "siliconflow" || !transcriptionApiKey.value;
+      examRecordingPrivacyNote.textContent = cloudEnabled
+        ? "录音仅保留在当前浏览器会话；结束作答后会发送至硅基流动进行高精度转写，音频不会保存到本站。"
+        : "录音仅保留在当前浏览器会话；刷新后评分与文字记录会保留，音频不会上传。";
+      transcriptionStatus.textContent = cloudEnabled
+        ? "高精度云端转写已启用：结束录音后会将音频发送至硅基流动复核。"
+        : transcriptionMode.value === "siliconflow"
+          ? "请输入新的硅基流动 API Key。密钥仅保存在当前浏览器，不会上传到本网站。"
+          : "使用浏览器即时转写；可切换到高精度云端转写提升识别准确度。";
+    }
+
+    function saveTranscriptionSettings() {
+      localStorage.setItem(TRANSCRIPTION_MODE_KEY, transcriptionMode.value);
+      if (transcriptionApiKey.value.trim()) localStorage.setItem(TRANSCRIPTION_API_KEY, transcriptionApiKey.value.trim());
+      else localStorage.removeItem(TRANSCRIPTION_API_KEY);
+      renderTranscriptionStatus();
+    }
+
+    function initializeTranscriptionSettings() {
+      const savedMode = localStorage.getItem(TRANSCRIPTION_MODE_KEY);
+      if (["browser", "siliconflow"].includes(savedMode)) transcriptionMode.value = savedMode;
+      transcriptionApiKey.value = localStorage.getItem(TRANSCRIPTION_API_KEY) || "";
+      renderTranscriptionStatus();
+    }
+
+    async function transcribeAudioWithPreferredEngine(audioBlob, fallbackText = "") {
+      if (!audioBlob || !cloudTranscriptionEnabled()) {
+        return { text: fallbackText, source: "browser" };
+      }
+      const controller = new AbortController();
+      const timeout = window.setTimeout(() => controller.abort(), 25000);
+      const formData = new FormData();
+      formData.append("file", audioBlob, "toeic-speaking-answer.webm");
+      formData.append("model", SILICONFLOW_TRANSCRIPTION_MODEL);
+      try {
+        const response = await fetch(SILICONFLOW_TRANSCRIPTION_URL, {
+          method: "POST",
+          headers: { Authorization: "Bearer " + transcriptionApiKey.value.trim() },
+          body: formData,
+          signal: controller.signal,
+        });
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        const result = await response.json();
+        const text = String(result?.text || "").replace(/\s+/g, " ").trim();
+        return text
+          ? { text, source: "siliconflow" }
+          : { text: fallbackText, source: "browser", error: "empty-transcript" };
+      } catch (error) {
+        return {
+          text: fallbackText,
+          source: "browser",
+          error: error?.name === "AbortError" ? "timeout" : "cloud-unavailable",
+        };
+      } finally {
+        window.clearTimeout(timeout);
+      }
     }
 
     function recordingReferenceText(meta) {
@@ -2550,6 +2635,7 @@
         "词数 " + (result.wordCount ?? 0),
         "语速 " + (result.wordsPerMinute ?? 0) + " 词/分",
       ];
+      if (result.transcriptionSource === "siliconflow") metrics.push("转写 高精度云端");
       const addPercentMetric = (label, value) => {
         if (!Number.isFinite(value)) return;
         metrics.push(label + " " + Math.round(value * 100) + "%");
@@ -2583,7 +2669,7 @@
       const audioUrl = recordingAudioUrls.get(uid);
       const timeLimitSeconds = recordingTimeLimitSeconds(meta);
       const canRecord = supportsAudioRecording();
-      const canTranscribe = supportsSpeechRecognition();
+      const canTranscribe = supportsSpeechRecognition() || cloudTranscriptionEnabled();
       const status = active
         ? "录音中 · 剩余 " + recordingRemainingSeconds(active) + "s"
         : !canRecord
@@ -2608,7 +2694,9 @@
         '<p class="record-transcript" data-record-transcript="' + escapeAttr(uid) + '"' + (transcript ? "" : " hidden") + '>' + escapeHtml(transcript ? "转写：" + transcript : "") + '</p>' +
         (audioUrl ? '<audio class="record-audio" controls preload="metadata" src="' + escapeAttr(audioUrl) + '">当前浏览器无法播放录音。</audio>' : '') +
         (!active ? renderRecordingScore(result, meta.part) : '') +
-        '<p class="recording-privacy-note">录音不上传到本站；自动转写由浏览器语音服务处理。音频刷新后清除，转写和练习分保存在本机。</p>' +
+        '<p class="recording-privacy-note">' + (cloudTranscriptionEnabled()
+          ? "高精度云端转写已启用：结束录音后会将音频发送至硅基流动转写；音频不会保存到本站。"
+          : "录音不上传到本站；自动转写由浏览器语音服务处理。音频刷新后清除，转写和练习分保存在本机。") + "</p>" +
       '</section>';
     }
 
@@ -2894,22 +2982,32 @@
 
       const oldAudioUrl = recordingAudioUrls.get(uid);
       if (oldAudioUrl) URL.revokeObjectURL(oldAudioUrl);
+      let audioBlob = null;
       if (session.chunks.length) {
-        const blob = new Blob(session.chunks, {
+        audioBlob = new Blob(session.chunks, {
           type: session.mediaRecorder.mimeType || "audio/webm",
         });
-        recordingAudioUrls.set(uid, URL.createObjectURL(blob));
+        recordingAudioUrls.set(uid, URL.createObjectURL(audioBlob));
       }
-      const transcript = [session.finalTranscript, session.interimTranscript]
+      let transcript = [session.finalTranscript, session.interimTranscript]
         .filter(Boolean)
         .join(" ")
         .replace(/\s+/g, " ")
         .trim();
+      let transcriptionSource = "browser";
+      if (audioBlob && cloudTranscriptionEnabled()) {
+        setRecordingStatus(uid, "正在使用高精度云端转写");
+        const transcription = await transcribeAudioWithPreferredEngine(audioBlob, transcript);
+        transcript = transcription.text;
+        transcriptionSource = transcription.source;
+        if (transcription.error) {
+          setRecordingStatus(uid, "云端转写暂不可用，已使用浏览器转写", "warning");
+        }
+      }
       if (transcript) {
-        recordingResults.set(
-          uid,
-          scoreRecording(session.meta, transcript, durationSeconds, session.rmsSamples)
-        );
+        const result = scoreRecording(session.meta, transcript, durationSeconds, session.rmsSamples);
+        result.transcriptionSource = transcriptionSource;
+        recordingResults.set(uid, result);
       } else {
         recordingResults.set(uid, {
           unscored: !session.recognition,
@@ -2928,6 +3026,7 @@
               ? "没有获得有效英文转写，请靠近麦克风并重新录音。"
               : "录音已完成，但当前浏览器不支持自动转写，因此无法自动评分。",
           ],
+          transcriptionSource,
           createdAt: new Date().toISOString(),
         });
       }
@@ -3972,6 +4071,19 @@
       refreshSpeechStatuses();
     });
 
+    transcriptionMode.addEventListener("change", () => {
+      saveTranscriptionSettings();
+      render();
+    });
+
+    transcriptionApiKey.addEventListener("change", saveTranscriptionSettings);
+    transcriptionApiKey.addEventListener("blur", saveTranscriptionSettings);
+    clearTranscriptionApiKey.addEventListener("click", () => {
+      transcriptionApiKey.value = "";
+      saveTranscriptionSettings();
+      render();
+    });
+
     document.querySelector(".sidebar-stats").addEventListener("click", (event) => {
       const button = event.target.closest("[data-study-filter]");
       if (!button) return;
@@ -4128,10 +4240,15 @@
     }
 
     window.toeicReviewScorer = { scoreRecording };
+    window.toeicReviewTranscriber = {
+      isCloudEnabled: cloudTranscriptionEnabled,
+      transcribeAudio: transcribeAudioWithPreferredEngine,
+    };
 
     initializeLayoutControls();
     refreshStoredRecordingScores();
     initializeVoiceSelector();
+    initializeTranscriptionSettings();
     render();
     initializeAccountState();
     window.addEventListener("pagehide", saveCloudState);

@@ -10,6 +10,7 @@
   const MODE_PRACTICE = "practice";
   const MODE_EXAM = "exam";
   const TOTAL_QUESTIONS = 11;
+  const PART_BREAK_SECONDS = 3;
   const audioUrls = new Map();
 
   const els = {
@@ -58,6 +59,8 @@
   let analyser = null;
   let analyserSource = null;
   let activeRecording = null;
+  let phaseTransitioning = false;
+  let finalizingExam = false;
   const preloadedExamImages = new Set();
 
   function escapeHtml(value) {
@@ -199,6 +202,7 @@
   }
 
   function phaseDuration(step, phase) {
+    if (phase === "part-break") return PART_BREAK_SECONDS;
     if (phase === "reading") return step.reviewTime || 45;
     if (phase === "preparing") return step.preparationTime || 3;
     return step.answerTime || 15;
@@ -209,6 +213,7 @@
   }
 
   function phaseInfo(phase) {
+    if (phase === "part-break") return ["Part 间隔", "上一部分已完成。请稍作停顿，下一部分即将开始。"];
     if (phase === "reading") return ["阅读资料", "请阅读资料。稍后将依次显示三个问题。"];
     if (phase === "preparing") return ["准备时间", "请阅读题目并准备作答。"];
     return ["正式作答", "录音已自动开始，请直接用英语作答。"];
@@ -423,9 +428,26 @@
     session.acceptRecognition = false;
     if (session.meter) window.clearInterval(session.meter);
     try { session.recognition?.stop(); } catch {}
-    const finalize = () => {
+    const finalize = async () => {
       const durationSeconds = Math.max(0.1, (Date.now() - session.startedAt) / 1000);
-      const transcript = (session.finalTranscript + session.interimTranscript).replace(/\s+/g, " ").trim();
+      let transcript = (session.finalTranscript + session.interimTranscript).replace(/\s+/g, " ").trim();
+      let transcriptionSource = "browser";
+      let audioBlob = null;
+      if (session.chunks.length) {
+        audioBlob = new Blob(session.chunks, { type: session.recorder?.mimeType || "audio/webm" });
+        const previous = audioUrls.get(session.step.uid);
+        if (previous) URL.revokeObjectURL(previous);
+        audioUrls.set(session.step.uid, URL.createObjectURL(audioBlob));
+      }
+      if (audioBlob && typeof window.toeicReviewTranscriber?.isCloudEnabled === "function" && window.toeicReviewTranscriber.isCloudEnabled()) {
+        els.recordState.textContent = "正在使用高精度云端转写";
+        const transcription = await window.toeicReviewTranscriber.transcribeAudio(audioBlob, transcript);
+        transcript = transcription.text || transcript;
+        transcriptionSource = transcription.source || "browser";
+        if (transcription.error) {
+          els.recordState.textContent = "云端转写暂不可用，已使用浏览器转写";
+        }
+      }
       let result;
       try {
         result = typeof window.toeicReviewScorer?.scoreRecording === "function"
@@ -434,24 +456,25 @@
       } catch {
         result = { unscored: true, transcript, durationSeconds, feedback: ["本题录音已保存，但评分暂不可用。"] };
       }
-      if (session.chunks.length) {
-        const blob = new Blob(session.chunks, { type: session.recorder?.mimeType || "audio/webm" });
-        const previous = audioUrls.get(session.step.uid);
-        if (previous) URL.revokeObjectURL(previous);
-        audioUrls.set(session.step.uid, URL.createObjectURL(blob));
-      }
+      result.transcriptionSource = transcriptionSource;
       exam.answers[session.step.uid] = result;
       els.recordState.textContent = transcript ? "录音已保存，已生成练习评分" : "录音已保存，未识别到英文文本";
       els.recordState.className = "exam-record-state success";
       return result;
     };
     return new Promise((resolve) => {
+      let finalized = false;
+      const complete = () => {
+        if (finalized) return;
+        finalized = true;
+        void finalize().then(resolve);
+      };
       if (!session.recorder || session.recorder.state === "inactive") {
-        resolve(finalize());
+        complete();
         return;
       }
-      session.recorder.addEventListener("stop", () => resolve(finalize()), { once: true });
-      try { session.recorder.stop(); } catch { resolve(finalize()); }
+      session.recorder.addEventListener("stop", complete, { once: true });
+      try { session.recorder.stop(); } catch { complete(); }
     });
   }
 
@@ -498,17 +521,24 @@
   }
 
   async function advancePhase() {
-    if (!exam) return;
-    const step = currentStep();
-    if (!step) return finishExam();
-    if (exam.phase === "reading") return setPhase("preparing");
-    if (exam.phase === "preparing") return setPhase("answering");
-    els.recordState.textContent = "正在保存本题录音…";
-    await stopRecording();
-    exam.index += 1;
-    if (exam.index >= exam.steps.length) return finishExam();
-    const next = currentStep();
-    setPhase(firstPhase(next));
+    if (!exam || phaseTransitioning) return;
+    phaseTransitioning = true;
+    try {
+      const step = currentStep();
+      if (!step) return await finishExam();
+      if (exam.phase === "part-break") return setPhase(firstPhase(step));
+      if (exam.phase === "reading") return setPhase("preparing");
+      if (exam.phase === "preparing") return setPhase("answering");
+      els.recordState.textContent = "正在保存本题录音…";
+      await stopRecording();
+      const completedPart = step.part;
+      exam.index += 1;
+      if (exam.index >= exam.steps.length) return await finishExam();
+      const next = currentStep();
+      setPhase(next.part !== completedPart ? "part-break" : firstPhase(next));
+    } finally {
+      phaseTransitioning = false;
+    }
   }
 
   function pauseExam() {
@@ -544,15 +574,21 @@
   }
 
   async function finishExam() {
-    if (!exam) return;
-    stopTimer();
-    if (activeRecording) await stopRecording();
-    exam.status = "complete";
-    exam.view = "report";
-    exam.remainingMs = 0;
-    exam.phaseEndsAt = null;
-    saveExam();
-    renderExam();
+    if (!exam || finalizingExam) return;
+    finalizingExam = true;
+    try {
+      stopTimer();
+      if (activeRecording) await stopRecording();
+      exam.status = "complete";
+      exam.view = "report";
+      exam.remainingMs = 0;
+      exam.phaseEndsAt = null;
+      exam.completedAt = new Date().toISOString();
+      saveExam();
+      renderExam();
+    } finally {
+      finalizingExam = false;
+    }
   }
 
   function buildMaterial(material) {
@@ -564,6 +600,9 @@
   }
 
   function questionHtml(step) {
+    if (exam.phase === "part-break") {
+      return '<div class="exam-part-break"><p>Part ' + escapeHtml(step.part) + ' 即将开始</p><strong>请整理呼吸，准备进入下一部分。</strong></div>';
+    }
     const record = step.record;
     if (step.part === 2) {
       return record.imagePath
@@ -620,21 +659,22 @@
     const step = currentStep();
     if (!step) return;
     const [phaseLabel, phaseNote] = phaseInfo(exam.phase);
-    els.partLabel.textContent = "Part " + step.part;
-    els.questionLabel.textContent = "第 " + step.number + " 题";
+    const isPartBreak = exam.phase === "part-break";
+    els.partLabel.textContent = "Part " + step.part + (isPartBreak ? " 切换" : "");
+    els.questionLabel.textContent = isPartBreak ? "短暂停顿" : "第 " + step.number + " 题";
     els.progressCopy.textContent = step.number + " / " + TOTAL_QUESTIONS;
     els.progressBar.style.width = ((step.number - 1) / TOTAL_QUESTIONS * 100) + "%";
-    els.direction.textContent = directionFor(step);
+    els.direction.textContent = isPartBreak ? "上一部分已完成，下一部分即将开始。" : directionFor(step);
     els.questionContent.innerHTML = questionHtml(step);
     preloadUpcomingExamImages();
     els.phaseLabel.textContent = phaseLabel;
     els.phaseNote.textContent = phaseNote;
     updateTimerView();
     els.pause.textContent = exam.status === "running" ? "暂停" : "继续";
-    els.advance.textContent = exam.phase === "answering" ? "提前结束作答" : exam.phase === "reading" ? "结束阅读" : "跳过准备";
+    els.advance.textContent = isPartBreak ? "立即开始下一 Part" : exam.phase === "answering" ? "提前结束作答" : exam.phase === "reading" ? "结束阅读" : "跳过准备";
     els.transcript.hidden = true;
     els.transcript.textContent = "";
-    els.recordState.textContent = exam.phase === "answering" ? (activeRecording ? "正在录音与识别" : "等待录音") : "等待作答";
+    els.recordState.textContent = isPartBreak ? "短暂停顿中" : exam.phase === "answering" ? (activeRecording ? "正在录音与识别" : "等待录音") : "等待作答";
     els.recordState.className = "exam-record-state" + (exam.phase === "answering" && activeRecording ? " recording" : "");
     els.sessionStatus.textContent = exam.status === "paused" ? "已暂停" : "考试进行中";
     els.exit.hidden = false;
@@ -662,8 +702,9 @@
       const result = exam.answers?.[step.uid];
       const audio = audioUrls.get(step.uid);
       const feedback = result?.feedback?.length ? result.feedback.map((line) => "<p class=\"exam-report-feedback\">" + escapeHtml(line) + "</p>").join("") : "<p class=\"exam-report-feedback\">本题没有可用评分；可结合参考答案复盘。</p>";
+      const transcriptTitle = result?.transcriptionSource === "siliconflow" ? "识别文本（高精度云端）" : "识别文本";
       const reference = step.part === 4 && step.parent ? step.record.answer : step.record.answer;
-      return '<details class="exam-report-item"' + (index === 0 ? " open" : "") + "><summary><span class=\"exam-report-item-title\">Part " + step.part + " · 第 " + step.number + " 题</span><span class=\"exam-report-item-score\">" + escapeHtml(scoreText(step, result)) + "</span></summary><div class=\"exam-report-detail\"><h3>题目</h3><p>" + escapeHtml(step.record.prompt || directionFor(step)) + "</p><h3>识别文本</h3><p>" + escapeHtml(result?.transcript || "未识别到文本") + "</p>" + feedback + (audio ? '<audio class="exam-report-audio" controls src="' + escapeHtml(audio) + '"></audio>' : "") + '<details class="exam-reference"><summary>查看参考答案</summary><div class="exam-reference-text">' + escapeHtml(reference || "暂无参考答案") + "</div></details></div></details>";
+      return '<details class="exam-report-item"' + (index === 0 ? " open" : "") + "><summary><span class=\"exam-report-item-title\">Part " + step.part + " · 第 " + step.number + " 题</span><span class=\"exam-report-item-score\">" + escapeHtml(scoreText(step, result)) + "</span></summary><div class=\"exam-report-detail\"><h3>题目</h3><p>" + escapeHtml(step.record.prompt || directionFor(step)) + "</p><h3>" + transcriptTitle + "</h3><p>" + escapeHtml(result?.transcript || "未识别到文本") + "</p>" + feedback + (audio ? '<audio class="exam-report-audio" controls src="' + escapeHtml(audio) + '"></audio>' : "") + '<details class="exam-reference"><summary>查看参考答案</summary><div class="exam-reference-text">' + escapeHtml(reference || "暂无参考答案") + "</div></details></div></details>";
     }).join("");
     els.sessionStatus.textContent = "本次模拟已完成";
     els.exit.hidden = true;

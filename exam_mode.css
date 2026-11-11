@@ -272,6 +272,23 @@
   color: #43525d;
   font-size: 18px;
 }
+.exam-part-break {
+  display: grid;
+  min-height: 280px;
+  place-content: center;
+  gap: 10px;
+  text-align: center;
+}
+.exam-part-break p {
+  margin: 0;
+  color: var(--teal-dark);
+  font-size: 28px;
+  font-weight: 850;
+}
+.exam-part-break strong {
+  color: var(--muted);
+  font-size: 15px;
+}
 .exam-picture {
   display: block;
   width: min(100%, 720px);
