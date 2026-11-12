@@ -2744,7 +2744,7 @@
     }
 
     function recordingTimeLimitSeconds(meta) {
-      if (![1, 2, 3, 4].includes(Number(meta?.part))) return 0;
+      if (![1, 2, 3, 4, 5].includes(Number(meta?.part))) return 0;
       return practiceAnswerTime(meta.record, meta.part);
     }
 

@@ -687,7 +687,13 @@
   }
 
   function renderReport() {
-    const summary = new Map([1, { earned: 0, max: 0 }, 2, { earned: 0, max: 0 }, 3, { earned: 0, max: 0 }, 4, { earned: 0, max: 0 }, 5, { earned: 0, max: 0 }]);
+    const summary = new Map([
+      [1, { earned: 0, max: 0 }],
+      [2, { earned: 0, max: 0 }],
+      [3, { earned: 0, max: 0 }],
+      [4, { earned: 0, max: 0 }],
+      [5, { earned: 0, max: 0 }],
+    ]);
     exam.steps.forEach((step) => {
       const score = getRawScore(step, exam.answers?.[step.uid]);
       const part = summary.get(step.part);
@@ -696,7 +702,7 @@
     });
     const total = [...summary.values()].reduce((sum, item) => ({ earned: sum.earned + item.earned, max: sum.max + item.max }), { earned: 0, max: 0 });
     els.reportMeta.textContent = exam.setName + " · " + new Date(exam.startedAt).toLocaleString("zh-CN", { dateStyle: "medium", timeStyle: "short" });
-    els.scoreSummary.innerHTML = '<div class="exam-total-score"><span class="exam-score-number">' + total.earned + " / " + total.max + '</span><span class="exam-score-label">练习原始总分</span></div>' +
+    els.scoreSummary.innerHTML = '<div class="exam-total-score"><span class="exam-score-number">' + total.earned + " / " + total.max + '</span><span class="exam-score-label">模拟考试总分</span></div>' +
       [...summary.entries()].map(([part, score]) => '<div class="exam-part-score"><strong>Part ' + part + '</strong><span class="exam-score-number">' + score.earned + " / " + score.max + '</span><span class="exam-score-label">' + (part === 1 ? "发音与语调重音" : part === 5 ? "观点表达" : "综合作答") + "</span></div>").join("");
     els.reportList.innerHTML = exam.steps.map((step, index) => {
       const result = exam.answers?.[step.uid];
