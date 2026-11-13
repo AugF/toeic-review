@@ -1128,7 +1128,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
-      margin-top: 14px;
+      padding: 12px 16px 0;
     }
 
     .card-actions .tool-button {
@@ -1632,6 +1632,7 @@
       shuffled: false,
       shuffleSeed: "",
       answerOpen: new Set(),
+      answerClosed: new Set(),
       part3EnglishOpen: new Set(),
       part5EnglishOpen: new Set(),
       done: new Set(JSON.parse(localStorage.getItem("toeic-review-done") || "[]")),
@@ -3927,13 +3928,17 @@
       '</details>';
     }
 
+    function isAnswerVisible(uid) {
+      return state.showAllAnswers ? !state.answerClosed.has(uid) : state.answerOpen.has(uid);
+    }
+
     function renderCards(records) {
       if (!records.length) {
         cardList.innerHTML = '<div class="empty">没有匹配的题目。</div>';
         return;
       }
       cardList.innerHTML = records.map((record, index) => {
-        const answerVisible = state.showAllAnswers || state.answerOpen.has(record.uid);
+        const answerVisible = isAnswerVisible(record.uid);
         const isGrouped = Array.isArray(record.questions) && record.questions.length > 0;
         const isDone = state.done.has(record.uid);
         const isPersonalized = state.personalized.has(record.uid);
@@ -3971,13 +3976,13 @@
           questionContent +
           (!isGrouped ? renderRecordingWidget(record.uid) : '') +
           answer +
-          '<div class="card-actions">' +
-            '<button class="tool-button answer-toggle" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? (isGrouped ? "隐藏整组答案" : "隐藏答案") : (isGrouped ? "显示整组答案" : "显示答案")) + '</button>' +
-            '<button class="tool-button done-toggle ' + (isDone ? "done" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isDone ? "已练" : "标记已练") + '</button>' +
-            '<button class="tool-button personalize-toggle ' + (isPersonalized ? "personalized" : "") + '" type="button" data-uid="' + escapeAttr(record.uid) + '">' + (isPersonalized ? "已个性化" : "标记个性化") + '</button>' +
-          '</div>' +
         '</div>';
         return '<article class="question-card" data-uid="' + escapeAttr(record.uid) + '">' +
+          '<div class="card-actions">' +
+            '<button class="tool-button answer-toggle" type="button" aria-expanded="' + answerVisible + '" data-uid="' + escapeAttr(record.uid) + '">' + (answerVisible ? (isGrouped ? "隐藏整组答案" : "隐藏答案") : (isGrouped ? "显示整组答案" : "显示答案")) + '</button>' +
+            '<button class="tool-button done-toggle ' + (isDone ? "done" : "") + '" type="button" aria-pressed="' + isDone + '" data-uid="' + escapeAttr(record.uid) + '">' + (isDone ? "已练" : "标记已练") + '</button>' +
+            '<button class="tool-button personalize-toggle ' + (isPersonalized ? "personalized" : "") + '" type="button" aria-pressed="' + isPersonalized + '" data-uid="' + escapeAttr(record.uid) + '">' + (isPersonalized ? "已个性化" : "标记个性化") + '</button>' +
+          '</div>' +
           '<div class="card-main ' + (image ? "" : "no-image") + (imageOnLeft ? " part2-image-left" : "") + '">' +
             (imageOnLeft ? image : "") +
             cardContent +
@@ -4039,6 +4044,7 @@
       stopSpeech();
       state.part = Number(button.dataset.part);
       state.answerOpen.clear();
+      state.answerClosed.clear();
       state.part3EnglishOpen.clear();
       state.part5EnglishOpen.clear();
       scheduleCloudStateSave();
@@ -4165,12 +4171,19 @@
       if (answerButton) {
         const uid = answerButton.dataset.uid;
         stopSpeech(uid);
-        if (state.answerOpen.has(uid)) {
-          state.answerOpen.delete(uid);
+        if (isAnswerVisible(uid)) {
+          if (state.showAllAnswers) state.answerClosed.add(uid);
+          else state.answerOpen.delete(uid);
           state.part3EnglishOpen.clear();
           state.part5EnglishOpen.delete(uid);
-        } else state.answerOpen.add(uid);
+        } else if (state.showAllAnswers) {
+          state.answerClosed.delete(uid);
+        } else {
+          state.answerOpen.add(uid);
+        }
         render();
+        [...cardList.querySelectorAll(".answer-toggle")]
+          .find((button) => button.dataset.uid === uid)?.focus({ preventScroll: true });
         return;
       }
       const doneButton = event.target.closest(".done-toggle");
@@ -4197,6 +4210,7 @@
     $("toggleAnswers").addEventListener("click", () => {
       stopSpeech();
       state.showAllAnswers = !state.showAllAnswers;
+      state.answerClosed.clear();
       state.part3EnglishOpen.clear();
       state.part5EnglishOpen.clear();
       render();
