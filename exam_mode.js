@@ -7,6 +7,7 @@
   const $ = (id) => document.getElementById(id);
   const STORAGE_KEY = "toeic-review-mock-exam-v1";
   const MODE_KEY = "toeic-review-active-mode";
+  const SET_SELECTION_KEY = "toeic-review-exam-set-selection";
   const MODE_PRACTICE = "practice";
   const MODE_EXAM = "exam";
   const TOTAL_QUESTIONS = 11;
@@ -95,7 +96,7 @@
       const part3 = findPart(3)[0];
       const part4 = findPart(4)[0];
       const part5 = findPart(5)[0];
-      if (part1.length !== 2 || part2.length !== 2 || part3?.questions?.length < 3 || part4?.questions?.length < 3 || !part5) return null;
+      if (part1.length !== 2 || part2.length !== 2 || (part3?.questions?.length || 0) < 3 || (part4?.questions?.length || 0) < 3 || !part5) return null;
       const included = [...part1, ...part2, part3, part4, part5];
       return {
         sourceFile,
@@ -232,14 +233,31 @@
     if (!isExam && exam?.status === "running") pauseExam();
   }
 
-  function populateSetSelect() {
-    const options = [
-      '<option value="focus">重点优先随机套题</option>',
-      '<option value="any">全题库随机套题</option>',
-      ...sets.map((set) => '<option value="' + escapeHtml(set.sourceFile) + '">' + escapeHtml(set.name) + "</option>"),
+  function populateSetSelect(preferredValue = "") {
+    const random = document.querySelector('input[name="examSetMode"]:checked')?.value === "random";
+    const sortedSets = [...sets].sort((a, b) => a.name.localeCompare(b.name, "zh-CN", { numeric: true }));
+    const groups = [
+      ["模拟题", sortedSets.filter((set) => /模拟/.test(set.name))],
+      ["真题", sortedSets.filter((set) => !/模拟/.test(set.name))],
     ];
-    els.setSelect.innerHTML = options.join("");
+    els.setSelect.innerHTML = random
+      ? '<option value="focus">重点优先随机套题</option><option value="any">全题库随机套题</option>'
+      : groups.filter(([, items]) => items.length).map(([name, items]) =>
+        '<optgroup label="' + name + '">' + items.map((set) =>
+          '<option value="' + escapeHtml(set.sourceFile) + '">' + escapeHtml(set.name) + "</option>"
+        ).join("") + "</optgroup>"
+      ).join("");
+    if ([...els.setSelect.options].some((option) => option.value === preferredValue)) {
+      els.setSelect.value = preferredValue;
+    }
+    els.start.disabled = !sets.length;
     updateSetNote();
+  }
+
+  function saveSetSelection() {
+    try {
+      localStorage.setItem(SET_SELECTION_KEY, els.setSelect.value);
+    } catch {}
   }
 
   function updateSetNote() {
@@ -250,7 +268,9 @@
       els.setNote.textContent = "从所有可组成完整 11 题的原始套题中随机抽取。";
     } else {
       const set = sets.find((item) => item.sourceFile === value);
-      els.setNote.textContent = set ? "固定使用「" + set.name + "」的完整题组。" : "";
+      els.setNote.textContent = set
+        ? "已选：" + set.name + " · 完整 11 题 · Part 1–5"
+        : "暂无完整套题。";
     }
   }
 
@@ -662,7 +682,7 @@
     const isPartBreak = exam.phase === "part-break";
     els.partLabel.textContent = "Part " + step.part + (isPartBreak ? " 切换" : "");
     els.questionLabel.textContent = isPartBreak ? "短暂停顿" : "第 " + step.number + " 题";
-    els.progressCopy.textContent = step.number + " / " + TOTAL_QUESTIONS;
+    els.progressCopy.textContent = exam.setName + " · " + step.number + " / " + TOTAL_QUESTIONS;
     els.progressBar.style.width = ((step.number - 1) / TOTAL_QUESTIONS * 100) + "%";
     els.direction.textContent = isPartBreak ? "上一部分已完成，下一部分即将开始。" : directionFor(step);
     els.questionContent.innerHTML = questionHtml(step);
@@ -764,10 +784,23 @@
 
   function initialize() {
     sets = buildCompleteSets();
-    populateSetSelect();
+    let savedSelection = "";
+    try { savedSelection = localStorage.getItem(SET_SELECTION_KEY) || ""; } catch {}
+    const selectionMode = ["focus", "any"].includes(savedSelection) ? "random" : "fixed";
+    document.querySelector('input[name="examSetMode"][value="' + selectionMode + '"]').checked = true;
+    populateSetSelect(savedSelection);
     exam = loadSavedExam();
     if (exam?.view === "report") exam.status = "complete";
-    els.setSelect.addEventListener("change", updateSetNote);
+    els.setSelect.addEventListener("change", () => {
+      updateSetNote();
+      saveSetSelection();
+    });
+    document.querySelectorAll('input[name="examSetMode"]').forEach((input) => {
+      input.addEventListener("change", () => {
+        populateSetSelect();
+        saveSetSelection();
+      });
+    });
     els.practiceButton.addEventListener("click", () => syncMode(MODE_PRACTICE));
     els.examButton.addEventListener("click", () => syncMode(MODE_EXAM));
     els.micCheck.addEventListener("click", ensureMicrophone);

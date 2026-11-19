@@ -1535,7 +1535,12 @@
 
         <div class="exam-setup-grid">
           <section class="exam-setting-block" aria-labelledby="examSetLabel">
-            <p class="exam-setting-label" id="examSetLabel">选择试卷</p>
+            <p class="exam-setting-label" id="examSetLabel">选择套题</p>
+            <fieldset class="exam-set-mode">
+              <legend class="visually-hidden">选卷方式</legend>
+              <label><input type="radio" name="examSetMode" value="fixed" checked />指定套题</label>
+              <label><input type="radio" name="examSetMode" value="random" />随机抽卷</label>
+            </fieldset>
             <select id="examSetSelect" class="exam-select" aria-label="选择模拟试卷"></select>
             <p class="exam-setting-note" id="examSetNote"></p>
           </section>
