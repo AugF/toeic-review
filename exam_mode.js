@@ -8,6 +8,7 @@
   const STORAGE_KEY = "toeic-review-mock-exam-v1";
   const MODE_KEY = "toeic-review-active-mode";
   const SET_SELECTION_KEY = "toeic-review-exam-set-selection";
+  const SET_HISTORY_KEY = "toeic-review-exam-set-history-v1";
   const MODE_PRACTICE = "practice";
   const MODE_EXAM = "exam";
   const TOTAL_QUESTIONS = 11;
@@ -24,6 +25,8 @@
     report: $("examReport"),
     setSelect: $("examSetSelect"),
     setNote: $("examSetNote"),
+    unpracticedOnly: $("examUnpracticedOnly"),
+    historySummary: $("examSetHistorySummary"),
     micStatus: $("examMicStatus"),
     micCheck: $("examMicCheckButton"),
     start: $("examStartButton"),
@@ -52,6 +55,7 @@
   };
 
   let sets = [];
+  let setHistory = {};
   let exam = null;
   let timerHandle = null;
   let lastTickSecond = null;
@@ -235,7 +239,8 @@
 
   function populateSetSelect(preferredValue = "") {
     const random = document.querySelector('input[name="examSetMode"]:checked')?.value === "random";
-    const sortedSets = [...sets].sort((a, b) => a.name.localeCompare(b.name, "zh-CN", { numeric: true }));
+    const availableSets = eligibleSets();
+    const sortedSets = [...availableSets].sort((a, b) => a.name.localeCompare(b.name, "zh-CN", { numeric: true }));
     const groups = [
       ["模拟题", sortedSets.filter((set) => /模拟/.test(set.name))],
       ["真题", sortedSets.filter((set) => !/模拟/.test(set.name))],
@@ -244,14 +249,66 @@
       ? '<option value="focus">重点优先随机套题</option><option value="any">全题库随机套题</option>'
       : groups.filter(([, items]) => items.length).map(([name, items]) =>
         '<optgroup label="' + name + '">' + items.map((set) =>
-          '<option value="' + escapeHtml(set.sourceFile) + '">' + escapeHtml(set.name) + "</option>"
+          '<option value="' + escapeHtml(set.sourceFile) + '">' + escapeHtml(set.name + " · " + setHistoryLabel(set.sourceFile)) + "</option>"
         ).join("") + "</optgroup>"
       ).join("");
     if ([...els.setSelect.options].some((option) => option.value === preferredValue)) {
       els.setSelect.value = preferredValue;
     }
-    els.start.disabled = !sets.length;
+    els.start.disabled = !availableSets.length;
+    els.setSelect.disabled = !availableSets.length;
+    const completedCount = sets.filter((set) => setHistory[set.sourceFile]?.completed).length;
+    els.historySummary.textContent = "已考过 " + completedCount + " 套 · 未考过 " + (sets.length - completedCount) + " 套 · 记录仅保存在当前浏览器";
     updateSetNote();
+  }
+
+  function eligibleSets() {
+    return els.unpracticedOnly.checked
+      ? sets.filter((set) => !setHistory[set.sourceFile]?.completed)
+      : sets;
+  }
+
+  function loadSetHistory() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(SET_HISTORY_KEY) || "{}");
+      if (!saved || Array.isArray(saved) || typeof saved !== "object") return {};
+      return Object.fromEntries(Object.entries(saved).filter(([, item]) =>
+        item && typeof item === "object" && typeof item.completed === "boolean" &&
+        Number.isFinite(item.earned) && Number.isFinite(item.max) &&
+        item.earned >= 0 && item.max > 0 && item.earned <= item.max
+      ));
+    } catch {
+      return {};
+    }
+  }
+
+  function setHistoryLabel(sourceFile) {
+    const last = setHistory[sourceFile];
+    if (!last) return "未考过";
+    return (last.completed ? "已考过" : "未考完") + " · 上次 " + last.earned + "/" + last.max +
+      (last.lastCompleted ? "" : "（提前交卷）");
+  }
+
+  function recordExamHistory() {
+    if (!exam || exam.status !== "complete") return;
+    const previous = setHistory[exam.sourceFile];
+    if (previous?.startedAt === exam.startedAt) return;
+    // Do not let a restored older report replace a more recent attempt.
+    if (previous && Date.parse(previous.startedAt) >= Date.parse(exam.startedAt)) return;
+    const scores = exam.steps.map((step) => getRawScore(step, exam.answers?.[step.uid]));
+    const earned = scores.reduce((sum, item) => sum + item.earned, 0);
+    const max = scores.reduce((sum, item) => sum + item.max, 0);
+    const lastCompleted = exam.index >= exam.steps.length ||
+      (exam.index === exam.steps.length - 1 && exam.steps.every((step) => exam.answers?.[step.uid]));
+    setHistory[exam.sourceFile] = {
+      completed: Boolean(previous?.completed || lastCompleted),
+      lastCompleted,
+      earned,
+      max,
+      startedAt: exam.startedAt,
+      completedAt: exam.completedAt || exam.savedAt || exam.startedAt,
+    };
+    try { localStorage.setItem(SET_HISTORY_KEY, JSON.stringify(setHistory)); } catch {}
   }
 
   function saveSetSelection() {
@@ -261,6 +318,10 @@
   }
 
   function updateSetNote() {
+    if (!eligibleSets().length) {
+      els.setNote.textContent = els.unpracticedOnly.checked ? "所有套题都已考过，取消筛选可再次练习。" : "暂无完整套题。";
+      return;
+    }
     const value = els.setSelect.value;
     if (value === "focus") {
       els.setNote.textContent = "会优先抽取包含更多 P1 重点题的完整原始套题。";
@@ -269,17 +330,19 @@
     } else {
       const set = sets.find((item) => item.sourceFile === value);
       els.setNote.textContent = set
-        ? "已选：" + set.name + " · 完整 11 题 · Part 1–5"
+        ? "已选：" + set.name + " · 完整 11 题 · Part 1–5 · " + setHistoryLabel(set.sourceFile) +
+          (setHistory[set.sourceFile] ? " · 上次交卷：" + new Date(setHistory[set.sourceFile].completedAt).toLocaleString("zh-CN") : "")
         : "暂无完整套题。";
     }
   }
 
   function chooseSet(value) {
-    if (value !== "focus" && value !== "any") return sets.find((set) => set.sourceFile === value) || sets[0];
+    const availableSets = eligibleSets();
+    if (value !== "focus" && value !== "any") return availableSets.find((set) => set.sourceFile === value) || null;
     const candidates = value === "focus"
-      ? sets.flatMap((set) => Array.from({ length: Math.max(1, set.priority) }, () => set))
-      : sets;
-    return candidates[Math.floor(Math.random() * candidates.length)] || sets[0];
+      ? availableSets.flatMap((set) => Array.from({ length: Math.max(1, set.priority) }, () => set))
+      : availableSets;
+    return candidates[Math.floor(Math.random() * candidates.length)] || null;
   }
 
   function createExam(set) {
@@ -604,6 +667,8 @@
       exam.remainingMs = 0;
       exam.phaseEndsAt = null;
       exam.completedAt = new Date().toISOString();
+      recordExamHistory();
+      populateSetSelect(els.setSelect.value);
       saveExam();
       renderExam();
     } finally {
@@ -749,10 +814,10 @@
 
   async function startNewExam() {
     if (exam?.view === "runner" && !window.confirm("开始新模拟会替换当前未完成的进度，是否继续？")) return;
-    const connected = await ensureMicrophone();
-    if (!connected) return;
     const set = chooseSet(els.setSelect.value);
     if (!set) return;
+    const connected = await ensureMicrophone();
+    if (!connected) return;
     exam = createExam(set);
     exam.status = "running";
     exam.phaseEndsAt = Date.now() + exam.remainingMs;
@@ -784,15 +849,21 @@
 
   function initialize() {
     sets = buildCompleteSets();
+    setHistory = loadSetHistory();
+    exam = loadSavedExam();
+    recordExamHistory();
     let savedSelection = "";
     try { savedSelection = localStorage.getItem(SET_SELECTION_KEY) || ""; } catch {}
     const selectionMode = ["focus", "any"].includes(savedSelection) ? "random" : "fixed";
     document.querySelector('input[name="examSetMode"][value="' + selectionMode + '"]').checked = true;
     populateSetSelect(savedSelection);
-    exam = loadSavedExam();
     if (exam?.view === "report") exam.status = "complete";
     els.setSelect.addEventListener("change", () => {
       updateSetNote();
+      saveSetSelection();
+    });
+    els.unpracticedOnly.addEventListener("change", () => {
+      populateSetSelect(els.setSelect.value);
       saveSetSelection();
     });
     document.querySelectorAll('input[name="examSetMode"]').forEach((input) => {

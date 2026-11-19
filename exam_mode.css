@@ -77,6 +77,14 @@
   cursor: pointer;
 }
 
+.exam-unpracticed-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
 .exam-set-mode legend {
   position: absolute;
   width: 1px;
