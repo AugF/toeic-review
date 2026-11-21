@@ -81,10 +81,9 @@ test("Part 2–5 render only the original bank answer and its playback",()=>{
   const html=fs.readFileSync(path.join(root,"index.html"),"utf8");
   const ctx=vm.createContext({
     escapeHtml:s=>String(s),escapeAttr:s=>String(s),
-    splitAnswerSentences:s=>[s],
     renderCompactSpeechControl:(_,field)=>'<button data-speak-variant="'+field+'">播放答案</button>',
   });
-  vm.runInContext(html.slice(html.indexOf("    function renderAnswerLines"),html.indexOf("    function speechStatusKey")),ctx);
+  vm.runInContext(html.slice(html.indexOf("    function renderAnswerParagraph"),html.indexOf("    function speechStatusKey")),ctx);
   for(const record of data.records.filter(r=>r.part!==1).flatMap(r=>r.questions?.length?r.questions:[r])) {
     ctx.record=record;
     const out=vm.runInContext("renderAnswerSet(record)",ctx);
@@ -93,6 +92,11 @@ test("Part 2–5 render only the original bank answer and its playback",()=>{
     if(record.questionBankAnswer) {
       assert.ok(out.includes(record.questionBankAnswer));
       assert.ok(out.includes('data-speak-variant="questionBankAnswer"'));
+      assert.equal((out.match(/<p /g)||[]).length,1);
+      assert.ok(out.includes('class="answer-variant-heading"'));
+      assert.ok(out.indexOf('data-speak-variant=') < out.indexOf('class="answer-variant-text"'));
+      assert.ok(!out.includes("<details"));
+      assert.ok(!out.includes("<br"));
     } else assert.ok(out.includes("题库未提供原答案"));
   }
 });

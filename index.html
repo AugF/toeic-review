@@ -657,38 +657,18 @@
     }
 
     .answer-variant {
-      border: 1px solid #c9dfdb;
-      border-radius: 6px;
-      background: #ffffff;
+      padding: 0;
     }
 
-    .answer-variant summary {
+    .answer-variant-heading {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      padding: 9px 10px;
-      cursor: pointer;
+      gap: 6px 12px;
+      margin-bottom: 6px;
       color: #1d4c48;
       font-size: 13px;
       font-weight: 850;
-      list-style: none;
-    }
-
-    .answer-variant summary::-webkit-details-marker {
-      display: none;
-    }
-
-    .answer-variant summary::after {
-      content: "+";
-      color: var(--teal-dark);
-      font-size: 18px;
-      font-weight: 500;
-      line-height: 1;
-    }
-
-    .answer-variant[open] summary::after {
-      content: "−";
     }
 
     .answer-variant-label {
@@ -697,56 +677,24 @@
       gap: 7px;
     }
 
-    .answer-variant-tag {
-      padding: 2px 6px;
-      border-radius: 999px;
-      background: #e4f3ef;
-      color: #24635b;
-      font-size: 11px;
-      font-weight: 750;
+    .answer-variant-heading .compact-speech-controls {
+      min-width: 0;
+      max-width: 100%;
+      justify-content: flex-start;
     }
 
-    .answer-variant-body {
-      padding: 0 10px 10px;
-      border-top: 1px solid #e2eeec;
-    }
-
-    .answer-variant-speech {
-      display: flex;
-      justify-content: flex-end;
-      margin: 8px 0 4px;
-    }
-
-    .answer-variant-note {
-      margin: 8px 0 5px;
-      color: #51636b;
-      font-size: 12px;
+    .answer-variant-heading .speech-status {
+      white-space: normal;
+      overflow-wrap: anywhere;
+      font-weight: 400;
     }
 
     .answer-variant-text {
       margin: 0;
       color: #18343a;
       font-size: 14px;
-    }
-
-    .answer-variant-lines {
-      display: grid;
-      margin-top: 8px;
-      border-top: 1px solid #e2eeec;
-    }
-
-    .answer-variant-line {
-      padding: 8px 0;
-    }
-
-    .answer-variant-line + .answer-variant-line {
-      border-top: 1px solid #edf3f1;
-    }
-
-    .answer-variant-line-text {
-      margin: 0;
-      color: #18343a;
-      font-size: 14px;
+      white-space: normal;
+      overflow-wrap: anywhere;
       line-height: 1.55;
     }
 
@@ -3556,41 +3504,25 @@
       '</div>';
     }
 
-    function splitAnswerSentences(value) {
-      const protectedText = protectAbbreviations(String(value || "").trim());
-      const sentences = protectedText.match(/[^.!?]+(?:[.!?]+|$)/g) || [protectedText];
-      return sentences
-        .map((sentence) => sentence.replaceAll("@@DOT@@", ".").trim())
-        .filter(Boolean);
+    function renderAnswerParagraph(text) {
+      return '<p class="answer-variant-text">' + escapeHtml(text) + '</p>';
     }
 
-    function renderAnswerLines(text) {
-      return '<div class="answer-variant-lines">' + splitAnswerSentences(text).map((sentence) =>
-        '<div class="answer-variant-line">' +
-          '<p class="answer-variant-line-text">' + escapeHtml(sentence) + '</p>' +
-        '</div>'
-      ).join("") + '</div>';
-    }
-
-    function renderAnswerVariant(title, tag, note, text, record, answerField) {
+    function renderAnswerVariant(title, text, record, answerField) {
       if (!text) return "";
       const speech = record
-        ? '<div class="answer-variant-speech">' + renderCompactSpeechControl(record, answerField, title) + '</div>'
+        ? renderCompactSpeechControl(record, answerField, title)
         : '';
-      return '<details class="answer-variant" open>' +
-        '<summary><span class="answer-variant-label">' + escapeHtml(title) + '<span class="answer-variant-tag">' + escapeHtml(tag) + '</span></span></summary>' +
-        '<div class="answer-variant-body">' +
-          '<p class="answer-variant-note">' + escapeHtml(note) + '</p>' +
-          speech +
-          renderAnswerLines(text) +
-        '</div>' +
-      '</details>';
+      return '<section class="answer-variant" aria-label="' + escapeAttr(title) + '">' +
+        '<div class="answer-variant-heading"><span class="answer-variant-label">' + escapeHtml(title) + '</span>' + speech + '</div>' +
+        renderAnswerParagraph(text) +
+      '</section>';
     }
 
     function renderAnswerSet(record, sourcePart) {
       if (!record.questionBankAnswer) return '<p class="answer-text">题库未提供原答案。</p>';
       return '<div class="answer-variants answer-variant-set">' +
-        renderAnswerVariant("题库原答案", "原版", "保留题库中原有的完整参考表达。", record.questionBankAnswer, record, "questionBankAnswer") +
+        renderAnswerVariant("题库原答案", record.questionBankAnswer, record, "questionBankAnswer") +
       '</div>';
     }
 
@@ -3601,8 +3533,8 @@
     function renderCompactSpeechControl(record, answerField = "answer", label = "参考答案") {
       const statusKey = speechStatusKey(record.uid, answerField);
       return '<div class="compact-speech-controls">' +
-        '<span class="speech-status" data-speech-status="' + escapeAttr(statusKey) + '">检测中</span>' +
         '<button class="tool-button speech-button" type="button" data-speak="' + escapeAttr(record.uid) + '" data-speak-variant="' + escapeAttr(answerField) + '" title="播放' + escapeAttr(label) + '" aria-label="播放' + escapeAttr(label) + '">播放答案</button>' +
+        '<span class="speech-status" data-speech-status="' + escapeAttr(statusKey) + '">检测中</span>' +
       '</div>';
     }
 
