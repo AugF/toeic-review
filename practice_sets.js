@@ -49,7 +49,21 @@
     return {source:"random",name:"随机组合套题",records:selected};
   }
   function questionCount(records) { return records.reduce((sum,r)=>sum+(r.questions?.length||1),0); }
-  const api = {completeSets, randomSet, valid, signature, questionCount};
+  function toExamSet(pack) {
+    if (!pack || !valid(pack.records)) return null;
+    const r = pack.records;
+    return {
+      sourceFile: pack.source === "random" ? "mixed:" + signature(r) : pack.source,
+      name: pack.name,
+      part1: r.slice(0,2), part2: r.slice(2,4), part3:r[4], part4:r[5], part5:r[6],
+    };
+  }
+  function restoreExamSet(saved, records) {
+    if (!Array.isArray(saved?.recordIds)) return null;
+    const lookup = new Map(records.map(r=>[r.uid,r]));
+    return toExamSet({source:saved.sourceFile, name:saved.setName, records:saved.recordIds.map(id=>lookup.get(id))});
+  }
+  const api = {completeSets, randomSet, valid, signature, questionCount, toExamSet, restoreExamSet};
   if(typeof module === "object" && module.exports) module.exports = api;
   else root.ToeicPracticeSets = api;
 })(typeof window === "undefined" ? globalThis : window);

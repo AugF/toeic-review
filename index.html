@@ -1447,6 +1447,7 @@
           <select id="practiceSetSelect" class="voice-select"></select>
         </div>
         <button id="newPracticeSet" type="button" class="tool-button" hidden style="margin-top:10px">重新随机组卷</button>
+        <button id="practiceExamButton" type="button" class="tool-button" hidden style="margin-top:10px">用当前套题模拟考试</button>
         <p id="practiceSetNote" class="voice-status" aria-live="polite"></p>
       </section>
 
@@ -1737,6 +1738,7 @@
       const pack = practiceMode !== "part";
       $("practiceSetControls").hidden = practiceMode !== "fixed";
       $("newPracticeSet").hidden = practiceMode !== "random";
+      $("practiceExamButton").hidden = !pack;
       $("shuffleButton").hidden = pack;
       if (practiceMode === "fixed" && practiceSet) $("practiceSetSelect").value = practiceSet.source;
       const missing = practiceSet?.records.some(r =>
@@ -3497,17 +3499,6 @@
       '</div>';
     }
 
-    function fullScoreCriterion(part) {
-      const criteria = {
-        1: "目标：发音清晰；意群停顿、重读与升降调自然。",
-        2: "目标：覆盖场景、主要人物或物品、两个以上动作，并连贯总结。",
-        3: "目标：直接且完整回答；第 3 题用理由或例子展开。",
-        4: "目标：答案仅基于资料表，准确覆盖人名、日期、时间、地点与细节。",
-        5: "目标：观点明确，以理由和具体例子展开，再自然总结。"
-      };
-      return "按官方评分维度设计，非 ETS 官方逐字范文。" + (criteria[part] || "目标：内容完整、语言清晰、表达连贯。");
-    }
-
     function splitAnswerSentences(value) {
       const protectedText = protectAbbreviations(String(value || "").trim());
       const sentences = protectedText.match(/[^.!?]+(?:[.!?]+|$)/g) || [protectedText];
@@ -3540,14 +3531,9 @@
     }
 
     function renderAnswerSet(record, sourcePart) {
-      const part = sourcePart || record.part;
-      const bankNote = part === 1
-        ? "朗读题的题库原答案与题干一致，可用作逐意群跟读文本。"
-        : "保留题库中原有的完整参考表达。";
+      if (!record.questionBankAnswer) return '<p class="answer-text">题库未提供原答案。</p>';
       return '<div class="answer-variants answer-variant-set">' +
-        renderAnswerVariant("满分目标示范", "官方维度", fullScoreCriterion(part), record.fullScoreAnswer, record, "fullScoreAnswer") +
-        renderAnswerVariant("题库原答案", "原版", bankNote, record.questionBankAnswer, record, "questionBankAnswer") +
-        renderAnswerVariant("快速复述版", "易复述", "适合在规定作答时间内快速、自然地复述。", record.answer, record, "answer") +
+        renderAnswerVariant("题库原答案", "原版", "保留题库中原有的完整参考表达。", record.questionBankAnswer, record, "questionBankAnswer") +
       '</div>';
     }
 
@@ -4369,6 +4355,13 @@
     }
 
     window.toeicReviewScorer = { scoreRecording };
+    window.toeicReviewPractice = {
+      getExamSet: () => practiceMode === "part" ? null : window.ToeicPracticeSets.toExamSet(practiceSet),
+      prepareForExam: async () => {
+        stopSpeech();
+        await Promise.all([...activeRecordings.keys()].map(uid => stopRecording(uid)));
+      },
+    };
     window.toeicReviewTranscriber = {
       isCloudEnabled: cloudTranscriptionEnabled,
       transcribeAudio: transcribeAudioWithPreferredEngine,

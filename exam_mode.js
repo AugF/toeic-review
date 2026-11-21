@@ -19,6 +19,7 @@
     practice: $("appShell"),
     exam: $("examApp"),
     practiceButton: $("practiceModeButton"),
+    practiceExamButton: $("practiceExamButton"),
     examButton: $("examModeButton"),
     setup: $("examSetup"),
     runner: $("examRunner"),
@@ -57,6 +58,8 @@
   let sets = [];
   let setHistory = {};
   let exam = null;
+  let pendingPracticeSet = null;
+  let choosingPracticeSet = false;
   let timerHandle = null;
   let lastTickSecond = null;
   let micStream = null;
@@ -179,7 +182,9 @@
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
       if (!saved?.sourceFile || !saved?.view) return null;
-      const set = sets.find((item) => item.sourceFile === saved.sourceFile);
+      const set = saved.recordIds
+        ? window.ToeicPracticeSets.restoreExamSet(saved, data.records)
+        : sets.find((item) => item.sourceFile === saved.sourceFile);
       if (!set) return null;
       return { ...saved, steps: createSteps(set), status: saved.status === "complete" ? "complete" : "paused" };
     } catch {
@@ -252,11 +257,15 @@
           '<option value="' + escapeHtml(set.sourceFile) + '">' + escapeHtml(set.name + " · " + setHistoryLabel(set.sourceFile)) + "</option>"
         ).join("") + "</optgroup>"
       ).join("");
+    if (pendingPracticeSet) {
+      els.setSelect.innerHTML = '<option value="practice-current">当前刷题套题：' +
+        escapeHtml(pendingPracticeSet.name) + '（题目保持不变）</option>' + els.setSelect.innerHTML;
+    }
     if ([...els.setSelect.options].some((option) => option.value === preferredValue)) {
       els.setSelect.value = preferredValue;
     }
-    els.start.disabled = !availableSets.length;
-    els.setSelect.disabled = !availableSets.length;
+    els.start.disabled = !availableSets.length && !pendingPracticeSet;
+    els.setSelect.disabled = !availableSets.length && !pendingPracticeSet;
     const completedCount = sets.filter((set) => setHistory[set.sourceFile]?.completed).length;
     els.historySummary.textContent = "已考过 " + completedCount + " 套 · 未考过 " + (sets.length - completedCount) + " 套 · 记录仅保存在当前浏览器";
     updateSetNote();
@@ -318,6 +327,10 @@
   }
 
   function updateSetNote() {
+    if (els.setSelect.value === "practice-current" && pendingPracticeSet) {
+      els.setNote.textContent = "已从刷题模式带入「" + pendingPracticeSet.name + "」 · 原题原顺序 · 完整 11 题";
+      return;
+    }
     if (!eligibleSets().length) {
       els.setNote.textContent = els.unpracticedOnly.checked ? "所有套题都已考过，取消筛选可再次练习。" : "暂无完整套题。";
       return;
@@ -337,6 +350,7 @@
   }
 
   function chooseSet(value) {
+    if (value === "practice-current") return pendingPracticeSet;
     const availableSets = eligibleSets();
     if (value !== "focus" && value !== "any") return availableSets.find((set) => set.sourceFile === value) || null;
     const candidates = value === "focus"
@@ -351,6 +365,7 @@
       view: "runner",
       sourceFile: set.sourceFile,
       setName: set.name,
+      recordIds: [...set.part1, ...set.part2, set.part3, set.part4, set.part5].map(r => r.uid),
       steps: createSteps(set),
       index: 0,
       phase: firstPhase(createSteps(set)[0]),
@@ -794,7 +809,7 @@
       const audio = audioUrls.get(step.uid);
       const feedback = result?.feedback?.length ? result.feedback.map((line) => "<p class=\"exam-report-feedback\">" + escapeHtml(line) + "</p>").join("") : "<p class=\"exam-report-feedback\">本题没有可用评分；可结合参考答案复盘。</p>";
       const transcriptTitle = result?.transcriptionSource === "siliconflow" ? "识别文本（高精度云端）" : "识别文本";
-      const reference = step.part === 4 && step.parent ? step.record.answer : step.record.answer;
+      const reference = step.part === 1 ? step.record.prompt || step.record.answer : step.record.questionBankAnswer;
       return '<details class="exam-report-item"' + (index === 0 ? " open" : "") + "><summary><span class=\"exam-report-item-title\">Part " + step.part + " · 第 " + step.number + " 题</span><span class=\"exam-report-item-score\">" + escapeHtml(scoreText(step, result)) + "</span></summary><div class=\"exam-report-detail\"><h3>题目</h3><p>" + escapeHtml(step.record.prompt || directionFor(step)) + "</p><h3>" + transcriptTitle + "</h3><p>" + escapeHtml(result?.transcript || "未识别到文本") + "</p>" + feedback + (audio ? '<audio class="exam-report-audio" controls src="' + escapeHtml(audio) + '"></audio>' : "") + '<details class="exam-reference"><summary>查看参考答案</summary><div class="exam-reference-text">' + escapeHtml(reference || "暂无参考答案") + "</div></details></div></details>";
     }).join("");
     els.sessionStatus.textContent = "本次模拟已完成";
@@ -802,12 +817,12 @@
   }
 
   function renderExam() {
-    const view = exam?.view || "setup";
+    const view = choosingPracticeSet ? "setup" : exam?.view || "setup";
     els.setup.hidden = view !== "setup";
     els.runner.hidden = view !== "runner";
     els.report.hidden = view !== "report";
     els.resume.hidden = !exam || exam.view !== "runner" || exam.status === "complete";
-    els.start.hidden = Boolean(exam && exam.view === "runner");
+    els.start.hidden = view === "runner";
     if (view === "runner") renderRunner();
     if (view === "report") renderReport();
   }
@@ -819,6 +834,7 @@
     const connected = await ensureMicrophone();
     if (!connected) return;
     exam = createExam(set);
+    choosingPracticeSet = false;
     exam.status = "running";
     exam.phaseEndsAt = Date.now() + exam.remainingMs;
     saveExam();
@@ -831,7 +847,30 @@
     if (!exam || exam.view !== "runner") return;
     const connected = await ensureMicrophone();
     if (!connected) return;
+    choosingPracticeSet = false;
     resumeExam();
+  }
+
+  async function openPracticeExam() {
+    const set = window.toeicReviewPractice?.getExamSet();
+    if (!set) {
+      choosingPracticeSet = false;
+      syncMode(MODE_EXAM);
+      return;
+    }
+    await window.toeicReviewPractice.prepareForExam();
+    if (exam?.status === "running") pauseExam();
+    const sameRunningPaper = exam?.view === "runner" && exam.status !== "complete" &&
+      JSON.stringify(exam.steps.map(step => step.uid)) === JSON.stringify(createSteps(set).map(step => step.uid));
+    if (!sameRunningPaper) {
+      pendingPracticeSet = set;
+      choosingPracticeSet = true;
+      els.unpracticedOnly.checked = false;
+      populateSetSelect("practice-current");
+    } else {
+      choosingPracticeSet = false;
+    }
+    syncMode(MODE_EXAM);
   }
 
   function exitExam() {
@@ -873,7 +912,8 @@
       });
     });
     els.practiceButton.addEventListener("click", () => syncMode(MODE_PRACTICE));
-    els.examButton.addEventListener("click", () => syncMode(MODE_EXAM));
+    els.examButton.addEventListener("click", openPracticeExam);
+    els.practiceExamButton.addEventListener("click", openPracticeExam);
     els.micCheck.addEventListener("click", ensureMicrophone);
     els.start.addEventListener("click", startNewExam);
     els.resume.addEventListener("click", resumeSavedExam);
@@ -884,6 +924,7 @@
     els.restart.addEventListener("click", () => {
       clearSavedExam();
       exam = null;
+      choosingPracticeSet = false;
       renderExam();
     });
     els.print.addEventListener("click", () => window.print());
@@ -893,7 +934,11 @@
     });
     window.addEventListener("beforeunload", () => audioUrls.forEach((url) => URL.revokeObjectURL(url)));
     const requestedMode = localStorage.getItem(MODE_KEY);
-    syncMode(requestedMode === MODE_EXAM ? MODE_EXAM : MODE_PRACTICE);
+    if (requestedMode === MODE_EXAM && (!exam || exam.view === "setup") && window.toeicReviewPractice?.getExamSet()) {
+      void openPracticeExam();
+    } else {
+      syncMode(requestedMode === MODE_EXAM ? MODE_EXAM : MODE_PRACTICE);
+    }
   }
 
   initialize();

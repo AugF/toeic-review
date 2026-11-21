@@ -26,7 +26,7 @@ function harness() {
   context.document = { querySelector: () => ({ value: context.mode }) };
   vm.runInContext(fs.readFileSync(path.join(root, "toeic_review_data.js"), "utf8"), context);
   vm.runInContext(
-    "const data = window.TOEIC_REVIEW_DATA; let setHistory = {}; let exam = null;" +
+    "const data = window.TOEIC_REVIEW_DATA; let setHistory = {}; let exam = null; let pendingPracticeSet = null;" +
     source.slice(source.indexOf("  function escapeHtml"), source.indexOf("  function saveExam")) +
     source.slice(source.indexOf("  function populateSetSelect"), source.indexOf("  function createExam")) +
     source.slice(source.indexOf("  function getRawScore"), source.indexOf("  function renderReport")) +
