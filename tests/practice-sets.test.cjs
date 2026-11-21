@@ -93,6 +93,40 @@ test("practice UI supports fixed selection, scoped filters, reshuffle and reload
   assert.equal(restoredFixed.run("currentRecords().length"),7);
 });
 
+test("fresh or invalid browser settings default to the first complete fixed paper",()=>{
+  for(const saved of [undefined,[["toeic-review-practice-set-v1","{"]],[["toeic-review-practice-set-v1",JSON.stringify({mode:"random",ids:["missing"]})]]]) {
+    const h=ui(saved);
+    assert.equal(h.run("practiceMode"),"fixed");
+    assert.equal(h.run("practiceSet.source"),sets[0].source);
+    assert.equal(h.run("currentRecords().length"),7);
+    h.run("renderPracticeSetControls()");
+    assert.equal(h.el("previousPracticeSet").disabled,true);
+    assert.equal(h.el("nextPracticeSet").disabled,false);
+  }
+});
+
+test("previous and next papers follow the selector order, save selection and respect boundaries",()=>{
+  const h=ui();
+  h.run("movePracticeSet(-1)");
+  assert.equal(h.run("practiceSet.source"),sets[0].source);
+  for(let i=1;i<sets.length;i++) {
+    h.run("state.showAllAnswers=true;state.priority='P3';state.studyFilter='done';movePracticeSet(1);renderPracticeSetControls()");
+    assert.equal(h.run("practiceSet.source"),sets[i].source);
+    assert.equal(h.run("currentRecords().length"),7);
+    assert.equal(h.run("state.showAllAnswers"),false);
+    assert.equal(h.el("practiceSetSelect").value,sets[i].source);
+    assert.equal(h.el("practiceSetPosition").textContent,(i+1)+" / "+sets.length+" 套");
+  }
+  assert.equal(h.el("nextPracticeSet").disabled,true);
+  h.run("movePracticeSet(1)");
+  assert.equal(h.run("practiceSet.source"),sets.at(-1).source);
+  h.run("movePracticeSet(-1)");
+  assert.equal(h.run("practiceSet.source"),sets.at(-2).source);
+  assert.equal(ui(h.storage).run("practiceSet.source"),sets.at(-2).source);
+  h.run('switchPracticeSet("random");renderPracticeSetControls()');
+  assert.equal(h.el("practiceSetNavigation").hidden,true);
+});
+
 test("show/hide all overrides single-answer exceptions in fixed and mixed papers",()=>{
   for(const mode of ["fixed","random","part"]) {
     const h=ui();

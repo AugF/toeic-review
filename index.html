@@ -408,6 +408,17 @@
       gap: 12px;
     }
 
+    .practice-set-nav {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .practice-set-nav[hidden] { display: none; }
+    .practice-set-nav .tool-button:disabled { opacity: 0.45; cursor: not-allowed; }
+    .practice-set-position { font-size: 13px; color: var(--muted); white-space: nowrap; }
+
     .question-card {
       background: var(--panel);
       border: 1px solid var(--line);
@@ -1515,6 +1526,11 @@
           <div class="current-meta" id="currentMeta"></div>
         </div>
         <div class="tools">
+          <div id="practiceSetNavigation" class="practice-set-nav" hidden aria-label="套题切换">
+            <button class="tool-button" type="button" id="previousPracticeSet">上一套</button>
+            <span id="practiceSetPosition" class="practice-set-position" aria-live="polite"></span>
+            <button class="tool-button" type="button" id="nextPracticeSet">下一套</button>
+          </div>
           <button class="tool-button" type="button" id="toggleAnswers">显示全部答案</button>
           <button class="tool-button" type="button" id="shuffleButton">随机排序</button>
           <button class="tool-button" type="button" id="resetDone">清除已练</button>
@@ -1664,8 +1680,8 @@
       personalized: new Set(JSON.parse(localStorage.getItem("toeic-review-personalized") || "[]")),
     };
     const practiceSets = window.ToeicPracticeSets.completeSets(data.records);
-    let practiceMode = "part";
-    let practiceSet = null;
+    let practiceMode = practiceSets.length ? "fixed" : "part";
+    let practiceSet = practiceSets[0] || null;
     const PRACTICE_SET_KEY = "toeic-review-practice-set-v1";
 
     function practicePool() {
@@ -1687,21 +1703,37 @@
       ).join("");
       try {
         const saved = JSON.parse(localStorage.getItem(PRACTICE_SET_KEY) || "null");
-        if (saved?.mode === "fixed") practiceSet = practiceSets.find(set => set.source === saved.source) || null;
+        let restoredSet = null;
+        if (saved?.mode === "fixed") restoredSet = practiceSets.find(set => set.source === saved.source) || null;
         if (saved?.mode === "random") {
           const lookup = new Map(data.records.map(r => [r.uid,r]));
           const records = saved.ids?.map(id => lookup.get(id));
-          if (window.ToeicPracticeSets.valid(records)) practiceSet = {source:"random",name:"随机组合套题",records};
+          if (window.ToeicPracticeSets.valid(records)) restoredSet = {source:"random",name:"随机组合套题",records};
         }
-        if (practiceSet && ["fixed","random"].includes(saved?.mode)) {
+        if (restoredSet) {
+          practiceSet = restoredSet;
           practiceMode = saved.mode;
-          state.part = 0;
+        } else if (saved?.mode === "part") {
+          practiceMode = "part";
         }
       } catch {}
+      if (practiceMode !== "part") state.part = 0;
       $("practiceMode").value = practiceMode;
+      if (practiceMode === "fixed") $("practiceSetSelect").value = practiceSet.source;
       $("practiceMode").addEventListener("change", () => switchPracticeSet($("practiceMode").value));
       $("practiceSetSelect").addEventListener("change", () => switchPracticeSet("fixed"));
       $("newPracticeSet").addEventListener("click", () => switchPracticeSet("random", true));
+      $("previousPracticeSet").addEventListener("click", () => movePracticeSet(-1));
+      $("nextPracticeSet").addEventListener("click", () => movePracticeSet(1));
+    }
+
+    function movePracticeSet(direction) {
+      if (practiceMode !== "fixed") return;
+      const index = practiceSets.findIndex(set => set.source === practiceSet?.source);
+      const next = practiceSets[index + direction];
+      if (index < 0 || !next) return;
+      $("practiceSetSelect").value = next.source;
+      switchPracticeSet("fixed");
     }
 
     function switchPracticeSet(mode, regenerate = false) {
@@ -1768,6 +1800,11 @@
       $("newPracticeSet").hidden = practiceMode !== "random";
       $("practiceExamButton").hidden = !pack;
       $("shuffleButton").hidden = pack;
+      const index = practiceSets.findIndex(set => set.source === practiceSet?.source);
+      $("practiceSetNavigation").hidden = practiceMode !== "fixed";
+      $("previousPracticeSet").disabled = index <= 0;
+      $("nextPracticeSet").disabled = index < 0 || index >= practiceSets.length - 1;
+      $("practiceSetPosition").textContent = index >= 0 ? (index + 1) + " / " + practiceSets.length + " 套" : "";
       if (practiceMode === "fixed" && practiceSet) $("practiceSetSelect").value = practiceSet.source;
       const missing = practiceSet?.records.some(r =>
         (r.part === 2 && !r.imagePath) || (r.part === 4 && (!r.material || r.material.missing)));
