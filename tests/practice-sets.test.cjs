@@ -58,7 +58,7 @@ function ui(saved) {
   const c=vm.createContext({
     window:{TOEIC_REVIEW_DATA:data,ToeicPracticeSets:api},$:el,searchInput:el("searchInput"),
     localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},
-    stopAllActiveRecordings(){},stopSpeech(){},render(){},
+    stopAllActiveRecordings(){},stopSpeech(){},render(){},activeRecordings:new Map(),setMobileSidebarOpen(){},
   });
   vm.runInContext(html.slice(html.indexOf("    const data = window.TOEIC_REVIEW_DATA;"),html.indexOf("    const RECORDING_STORAGE_KEY"))+
     html.slice(html.indexOf("    function normalize(value)"),html.indexOf("    function hash(text)"))+
@@ -90,4 +90,26 @@ test("practice UI supports fixed selection, scoped filters, reshuffle and reload
   assert.equal(h.run("currentRecords().length"),90);
   const restoredFixed=ui([["toeic-review-practice-set-v1",JSON.stringify({mode:"fixed",source:fixed})]]);
   assert.equal(restoredFixed.run("currentRecords().length"),7);
+});
+
+test("exam review imports fixed or mixed papers unchanged, opens answers and clears stale filters",async()=>{
+  for(const pack of [sets[8],api.randomSet(data.records)]) {
+    const h=ui();
+    h.run('state.priority="P3";state.studyFilter="done";state.search="no match";state.part=5;state.shuffled=true;state.answerClosed.add("old")');
+    const imported=await h.run("openExamReview("+JSON.stringify(api.toExamSet(pack))+")");
+    assert.equal(imported,true);
+    assert.equal(h.run("window.ToeicPracticeSets.signature(currentRecords())"),api.signature(pack.records));
+    assert.equal(h.run("state.showAllAnswers"),true);
+    assert.equal(h.run("state.answerClosed.size"),0);
+    assert.equal(h.run("state.priority"),"all");
+    assert.equal(h.run("state.studyFilter"),"all");
+    assert.equal(h.run("state.search"),"");
+    assert.equal(h.run("state.part"),0);
+    assert.equal(h.run("state.shuffled"),false);
+    assert.equal(h.el("practiceMode").value,pack.source==="random"?"random":"fixed");
+    const restored=ui(h.storage);
+    assert.equal(restored.run("window.ToeicPracticeSets.signature(currentRecords())"),api.signature(pack.records));
+    assert.equal(await h.run("openExamReview(null)"),false);
+    assert.equal(h.run("window.ToeicPracticeSets.signature(currentRecords())"),api.signature(pack.records));
+  }
 });

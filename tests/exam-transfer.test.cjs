@@ -11,6 +11,7 @@ const data=c.window.TOEIC_REVIEW_DATA;
 const source=fs.readFileSync(path.join(root,"exam_mode.js"),"utf8");
 function harness(pack) {
   const storage=new Map(),elements=new Map();
+  const reviewed=[];
   const el=id=>{
     if(!elements.has(id))elements.set(id,{
       value:"",style:{},hidden:false,textContent:"",classList:{toggle(){}},checked:false,
@@ -23,12 +24,12 @@ function harness(pack) {
     document:{getElementById:el,querySelector:()=>({value:"fixed"})},
     localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},
     window:{TOEIC_REVIEW_DATA:data,ToeicPracticeSets:api,
-      toeicReviewPractice:{getExamSet:()=>api.toExamSet(pack),prepareForExam:async()=>{}}
+      toeicReviewPractice:{getExamSet:()=>api.toExamSet(pack),prepareForExam:async()=>{},reviewExam:async set=>{reviewed.push(set);return true;}}
     },
   });
-  const exports='window.testing={createSteps,createExam,loadSavedExam,openPracticeExam,chooseSet,inspect:()=>({exam,pendingPracticeSet,choosingPracticeSet}),setExam:value=>{exam=value;}};';
+  const exports='window.testing={createSteps,createExam,loadSavedExam,openPracticeExam,reviewCompletedExam,chooseSet,inspect:()=>({exam,pendingPracticeSet,choosingPracticeSet}),setExam:value=>{exam=value;}};';
   vm.runInContext(source.replace("  initialize();",exports),ctx);
-  return {api:ctx.window.testing,el,storage};
+  return {api:ctx.window.testing,el,storage,reviewed};
 }
 
 test("fixed and mixed papers transfer all 11 questions in the original order",async()=>{
@@ -94,4 +95,67 @@ test("Part 2–5 render only the original bank answer and its playback",()=>{
       assert.ok(out.includes('data-speak-variant="questionBankAnswer"'));
     } else assert.ok(out.includes("题库未提供原答案"));
   }
+});
+
+test("Part 2–5 payloads contain no alternative answers and all spoken answers use originals",()=>{
+  let count=0;
+  const fields=["fullScoreAnswer","part2Answer","answerZh","answerPattern","answerSectionsEn","answerSectionsZh"];
+  for(const r of data.records.filter(r=>r.part!==1)) {
+    for(const record of [r,...(r.questions||[])]) {
+      fields.forEach(field=>assert.equal(field in record,false,record.uid+" "+field));
+    }
+    for(const record of r.questions?.length?r.questions:[r]) {
+      assert.ok(record.questionBankAnswer);
+      assert.equal(record.answer,record.questionBankAnswer);
+      count++;
+    }
+  }
+  assert.equal(count,404);
+});
+
+test("completed reports return their own paper even when practice has a different selection",async()=>{
+  const sets=api.completeSets(data.records);
+  for(const tested of [sets[5],api.randomSet(data.records)]) {
+    const h=harness(sets[0]);
+    const completed=h.api.createExam(api.toExamSet(tested));
+    completed.status="complete";completed.view="report";
+    completed.answers={[completed.steps[0].uid]:{pronunciation:2,prosody:2}};
+    h.api.setExam(completed);
+    await h.api.reviewCompletedExam();
+    assert.equal(h.reviewed.length,1);
+    const set=h.reviewed[0];
+    const records=[...set.part1,...set.part2,set.part3,set.part4,set.part5];
+    assert.equal(api.signature(records),api.signature(tested.records));
+    assert.equal(h.api.inspect().exam,completed);
+    assert.equal(h.api.inspect().exam.view,"report");
+    assert.equal(h.storage.get("toeic-review-active-mode"),"practice");
+    // Pre-transfer reports without recordIds still retain their whole groups.
+    delete completed.recordIds;
+    await h.api.reviewCompletedExam();
+    assert.equal(h.reviewed.length,2);
+  }
+});
+
+test("unfinished or malformed exams cannot replace the current practice paper",async()=>{
+  const pack=api.completeSets(data.records)[0],h=harness(pack);
+  const exam=h.api.createExam(api.toExamSet(pack));
+  h.api.setExam(exam);
+  await h.api.reviewCompletedExam();
+  assert.equal(h.reviewed.length,0);
+  exam.status="complete";exam.recordIds=["missing"];
+  await h.api.reviewCompletedExam();
+  assert.equal(h.reviewed.length,0);
+  assert.match(h.el("examSessionStatus").textContent,/不完整/);
+});
+
+test("same-paper report remains available; the explicit launch button can start again",async()=>{
+  const pack=api.randomSet(data.records),h=harness(pack);
+  const report=h.api.createExam(api.toExamSet(pack));
+  report.status="complete";report.view="report";
+  h.api.setExam(report);
+  await h.api.openPracticeExam();
+  assert.equal(h.api.inspect().choosingPracticeSet,false);
+  await h.api.openPracticeExam(true);
+  assert.equal(h.api.inspect().choosingPracticeSet,true);
+  assert.equal(h.api.inspect().exam,report);
 });

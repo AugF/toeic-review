@@ -1625,6 +1625,7 @@
             <p id="examReportMeta"></p>
           </div>
           <div class="exam-report-actions">
+            <button class="exam-primary-button" id="examReviewButton" type="button">回到本套刷题复习</button>
             <button class="exam-secondary-button" id="examPrintButton" type="button">打印报告</button>
             <button class="exam-primary-button" id="examRestartButton" type="button">再来一套</button>
           </div>
@@ -1643,8 +1644,8 @@
     <img id="imageLightboxImage" alt="" />
   </dialog>
 
-  <script src="./toeic_review_data.js"></script>
-  <script src="./practice_sets.js?v=20261122-1"></script>
+  <script src="./toeic_review_data.js?v=20261122-original"></script>
+  <script src="./practice_sets.js?v=20261122-2"></script>
   <script>
     const data = window.TOEIC_REVIEW_DATA;
     const state = {
@@ -1732,6 +1733,33 @@
         $("practiceSetNote").textContent = error.message;
         $("practiceMode").value = practiceMode;
       }
+    }
+
+    async function openExamReview(set) {
+      const records = [...(set?.part1 || []), ...(set?.part2 || []), set?.part3, set?.part4, set?.part5];
+      if (!window.ToeicPracticeSets.valid(records)) return false;
+      stopSpeech();
+      await Promise.all([...activeRecordings.keys()].map(uid => stopRecording(uid)));
+      const fixed = practiceSets.find(paper => paper.source === set.sourceFile &&
+        window.ToeicPracticeSets.signature(paper.records) === window.ToeicPracticeSets.signature(records));
+      practiceMode = fixed ? "fixed" : "random";
+      practiceSet = {source: fixed ? fixed.source : "random", name: set.name, records};
+      $("practiceMode").value = practiceMode;
+      state.part = 0;
+      state.priority = "all";
+      state.studyFilter = "all";
+      state.search = "";
+      searchInput.value = "";
+      state.shuffled = false;
+      state.showAllAnswers = true;
+      state.answerOpen.clear();
+      state.answerClosed.clear();
+      state.part3EnglishOpen.clear();
+      state.part5EnglishOpen.clear();
+      savePracticeSet();
+      render();
+      setMobileSidebarOpen(false);
+      return true;
     }
 
     function renderPracticeSetControls() {
@@ -2155,15 +2183,7 @@
       if (!meta) return "";
       const record = meta.record || {};
       if (meta.part === 1) return record.prompt || record.answer || "";
-      if (Array.isArray(record.answerSectionsEn)) return record.answerSectionsEn.join(" ");
-      if (record.part2Answer) {
-        return [
-          record.part2Answer.opening,
-          ...(record.part2Answer.details || []),
-          record.part2Answer.conclusion,
-        ].filter(Boolean).join(" ");
-      }
-      return record.answer || "";
+      return record.questionBankAnswer || record.answer || "";
     }
 
     function tokenizeEnglish(value) {
@@ -4357,6 +4377,7 @@
     window.toeicReviewScorer = { scoreRecording };
     window.toeicReviewPractice = {
       getExamSet: () => practiceMode === "part" ? null : window.ToeicPracticeSets.toExamSet(practiceSet),
+      reviewExam: openExamReview,
       prepareForExam: async () => {
         stopSpeech();
         await Promise.all([...activeRecordings.keys()].map(uid => stopRecording(uid)));
@@ -4391,6 +4412,6 @@
     updateAllCountdowns();
     window.setInterval(updateAllCountdowns, 200);
   </script>
-  <script src="./exam_mode.js?v=20261122-1"></script>
+  <script src="./exam_mode.js?v=20261122-2"></script>
 </body>
 </html>

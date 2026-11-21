@@ -53,6 +53,7 @@
     reportList: $("examReportList"),
     print: $("examPrintButton"),
     restart: $("examRestartButton"),
+    review: $("examReviewButton"),
   };
 
   let sets = [];
@@ -851,7 +852,7 @@
     resumeExam();
   }
 
-  async function openPracticeExam() {
+  async function openPracticeExam(startAgain = false) {
     const set = window.toeicReviewPractice?.getExamSet();
     if (!set) {
       choosingPracticeSet = false;
@@ -860,9 +861,11 @@
     }
     await window.toeicReviewPractice.prepareForExam();
     if (exam?.status === "running") pauseExam();
-    const sameRunningPaper = exam?.view === "runner" && exam.status !== "complete" &&
-      JSON.stringify(exam.steps.map(step => step.uid)) === JSON.stringify(createSteps(set).map(step => step.uid));
-    if (!sameRunningPaper) {
+    const samePaper = exam && JSON.stringify(exam.steps.map(step => step.uid)) ===
+      JSON.stringify(createSteps(set).map(step => step.uid));
+    const reuseExam = samePaper && ((exam.view === "runner" && exam.status !== "complete") ||
+      (exam.view === "report" && !startAgain));
+    if (!reuseExam) {
       pendingPracticeSet = set;
       choosingPracticeSet = true;
       els.unpracticedOnly.checked = false;
@@ -871,6 +874,20 @@
       choosingPracticeSet = false;
     }
     syncMode(MODE_EXAM);
+  }
+
+  async function reviewCompletedExam() {
+    if (!exam || exam.status !== "complete") return;
+    const recordIds = exam.recordIds || [...new Set(exam.steps.map(step => (step.parent || step.record).uid))];
+    const set = window.ToeicPracticeSets.restoreExamSet({
+      sourceFile: exam.sourceFile, setName: exam.setName, recordIds,
+    }, data.records);
+    if (!set || !await window.toeicReviewPractice?.reviewExam(set)) {
+      els.sessionStatus.textContent = "本套题数据不完整，暂时无法返回刷题复习。";
+      return;
+    }
+    choosingPracticeSet = false;
+    syncMode(MODE_PRACTICE);
   }
 
   function exitExam() {
@@ -912,8 +929,9 @@
       });
     });
     els.practiceButton.addEventListener("click", () => syncMode(MODE_PRACTICE));
-    els.examButton.addEventListener("click", openPracticeExam);
-    els.practiceExamButton.addEventListener("click", openPracticeExam);
+    els.examButton.addEventListener("click", () => openPracticeExam());
+    els.practiceExamButton.addEventListener("click", () => openPracticeExam(true));
+    els.review.addEventListener("click", reviewCompletedExam);
     els.micCheck.addEventListener("click", ensureMicrophone);
     els.start.addEventListener("click", startNewExam);
     els.resume.addEventListener("click", resumeSavedExam);
