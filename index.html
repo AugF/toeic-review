@@ -4047,6 +4047,22 @@
       return state.showAllAnswers ? !state.answerClosed.has(uid) : state.answerOpen.has(uid);
     }
 
+    function allVisibleAnswersOpen(records) {
+      return records.length > 0 && records.every(record => isAnswerVisible(record.uid));
+    }
+
+    function toggleAllAnswers() {
+      const records = currentRecords();
+      if (!records.length) return;
+      stopSpeech();
+      state.showAllAnswers = !allVisibleAnswersOpen(records);
+      state.answerOpen.clear();
+      state.answerClosed.clear();
+      state.part3EnglishOpen.clear();
+      state.part5EnglishOpen.clear();
+      render();
+    }
+
     function renderCards(records) {
       if (!records.length) {
         cardList.innerHTML = '<div class="empty">没有匹配的题目。</div>';
@@ -4131,7 +4147,10 @@
         button.classList.toggle("active", active);
         button.setAttribute("aria-pressed", String(active));
       });
-      $("toggleAnswers").textContent = state.showAllAnswers ? "隐藏全部答案" : "显示全部答案";
+      const allAnswersOpen = allVisibleAnswersOpen(records);
+      $("toggleAnswers").textContent = allAnswersOpen ? "隐藏全部答案" : "显示全部答案";
+      $("toggleAnswers").setAttribute("aria-expanded", String(allAnswersOpen));
+      $("toggleAnswers").disabled = !records.length;
       $("shuffleButton").textContent = state.shuffled ? "恢复排序" : "随机排序";
       renderParts();
       renderPriorityButtons();
@@ -4328,14 +4347,7 @@
       }
     });
 
-    $("toggleAnswers").addEventListener("click", () => {
-      stopSpeech();
-      state.showAllAnswers = !state.showAllAnswers;
-      state.answerClosed.clear();
-      state.part3EnglishOpen.clear();
-      state.part5EnglishOpen.clear();
-      render();
-    });
+    $("toggleAnswers").addEventListener("click", toggleAllAnswers);
 
     $("shuffleButton").addEventListener("click", () => {
       if (state.shuffled) {

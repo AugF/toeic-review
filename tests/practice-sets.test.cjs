@@ -62,6 +62,7 @@ function ui(saved) {
   });
   vm.runInContext(html.slice(html.indexOf("    const data = window.TOEIC_REVIEW_DATA;"),html.indexOf("    const RECORDING_STORAGE_KEY"))+
     html.slice(html.indexOf("    function normalize(value)"),html.indexOf("    function hash(text)"))+
+    html.slice(html.indexOf("    function isAnswerVisible(uid)"),html.indexOf("    function renderCards(records)"))+
     html.slice(html.indexOf("    function escapeHtml(value)"),html.indexOf("    partList.addEventListener")),c);
   const run=s=>vm.runInContext(s,c);
   run("initializePracticeSets()");
@@ -90,6 +91,48 @@ test("practice UI supports fixed selection, scoped filters, reshuffle and reload
   assert.equal(h.run("currentRecords().length"),90);
   const restoredFixed=ui([["toeic-review-practice-set-v1",JSON.stringify({mode:"fixed",source:fixed})]]);
   assert.equal(restoredFixed.run("currentRecords().length"),7);
+});
+
+test("show/hide all overrides single-answer exceptions in fixed and mixed papers",()=>{
+  for(const mode of ["fixed","random","part"]) {
+    const h=ui();
+    h.run('switchPracticeSet("'+mode+'")');
+    h.run("state.answerOpen.add(currentRecords()[0].uid)");
+    h.run("toggleAllAnswers()");
+    assert.ok(h.run("currentRecords().every(r=>isAnswerVisible(r.uid))"));
+    h.run("toggleAllAnswers()");
+    assert.ok(h.run("currentRecords().every(r=>!isAnswerVisible(r.uid))"));
+    assert.equal(h.run("state.answerOpen.size"),0);
+    assert.equal(h.run("state.answerClosed.size"),0);
+    h.run("toggleAllAnswers();state.answerClosed.add(currentRecords()[0].uid)");
+    assert.equal(h.run("allVisibleAnswersOpen(currentRecords())"),false);
+    h.run("toggleAllAnswers()");
+    assert.equal(h.run("allVisibleAnswersOpen(currentRecords())"),true);
+    h.run("toggleAllAnswers()");
+    assert.ok(h.run("currentRecords().every(r=>!isAnswerVisible(r.uid))"));
+    h.run("currentRecords().forEach(r=>state.answerOpen.add(r.uid))");
+    assert.equal(h.run("allVisibleAnswersOpen(currentRecords())"),true);
+    h.run("toggleAllAnswers()");
+    assert.ok(h.run("currentRecords().every(r=>!isAnswerVisible(r.uid))"));
+  }
+});
+
+test("batch answers recover after report review, Part filters and empty search results",async()=>{
+  const h=ui();
+  await h.run("openExamReview("+JSON.stringify(api.toExamSet(sets[0]))+")");
+  assert.equal(h.run("allVisibleAnswersOpen(currentRecords())"),true);
+  h.run("toggleAllAnswers()");
+  assert.ok(h.run("currentRecords().every(r=>!isAnswerVisible(r.uid))"));
+  h.run("state.part=3;state.answerOpen.add(currentRecords()[0].uid);toggleAllAnswers()");
+  assert.ok(h.run("currentRecords().every(r=>!isAnswerVisible(r.uid))"));
+  h.run("state.part=0;toggleAllAnswers()");
+  assert.equal(h.run("allVisibleAnswersOpen(currentRecords())"),true);
+  h.run('state.search="__no_result__"');
+  assert.equal(h.run("currentRecords().length"),0);
+  h.run("toggleAllAnswers()");
+  assert.equal(h.run("state.showAllAnswers"),true);
+  h.run('state.search="";toggleAllAnswers()');
+  assert.ok(h.run("currentRecords().every(r=>!isAnswerVisible(r.uid))"));
 });
 
 test("exam review imports fixed or mixed papers unchanged, opens answers and clears stale filters",async()=>{
