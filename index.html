@@ -1436,6 +1436,21 @@
       </div>
 
       <section class="control-block">
+        <label class="label" for="practiceMode">刷题方式</label>
+        <select id="practiceMode" class="voice-select">
+          <option value="part">按 Part 刷题</option>
+          <option value="fixed">按套题刷题</option>
+          <option value="random">随机组卷刷题</option>
+        </select>
+        <div id="practiceSetControls" hidden>
+          <label class="label" for="practiceSetSelect">选择套题</label>
+          <select id="practiceSetSelect" class="voice-select"></select>
+        </div>
+        <button id="newPracticeSet" type="button" class="tool-button" hidden style="margin-top:10px">重新随机组卷</button>
+        <p id="practiceSetNote" class="voice-status" aria-live="polite"></p>
+      </section>
+
+      <section class="control-block">
         <div class="label">Part</div>
         <div class="part-list" id="partList"></div>
       </section>
@@ -1628,6 +1643,7 @@
   </dialog>
 
   <script src="./toeic_review_data.js"></script>
+  <script src="./practice_sets.js"></script>
   <script>
     const data = window.TOEIC_REVIEW_DATA;
     const state = {
@@ -1645,6 +1661,90 @@
       done: new Set(JSON.parse(localStorage.getItem("toeic-review-done") || "[]")),
       personalized: new Set(JSON.parse(localStorage.getItem("toeic-review-personalized") || "[]")),
     };
+    const practiceSets = window.ToeicPracticeSets.completeSets(data.records);
+    let practiceMode = "part";
+    let practiceSet = null;
+    const PRACTICE_SET_KEY = "toeic-review-practice-set-v1";
+
+    function practicePool() {
+      return practiceMode === "part" ? data.records : (practiceSet?.records || []);
+    }
+
+    function savePracticeSet() {
+      try {
+        localStorage.setItem(PRACTICE_SET_KEY, JSON.stringify({
+          mode: practiceMode, source: practiceSet?.source,
+          ids: practiceSet?.records.map(r => r.uid),
+        }));
+      } catch {}
+    }
+
+    function initializePracticeSets() {
+      $("practiceSetSelect").innerHTML = practiceSets.map(set =>
+        '<option value="' + escapeAttr(set.source) + '">' + escapeHtml(set.name) + '</option>'
+      ).join("");
+      try {
+        const saved = JSON.parse(localStorage.getItem(PRACTICE_SET_KEY) || "null");
+        if (saved?.mode === "fixed") practiceSet = practiceSets.find(set => set.source === saved.source) || null;
+        if (saved?.mode === "random") {
+          const lookup = new Map(data.records.map(r => [r.uid,r]));
+          const records = saved.ids?.map(id => lookup.get(id));
+          if (window.ToeicPracticeSets.valid(records)) practiceSet = {source:"random",name:"随机组合套题",records};
+        }
+        if (practiceSet && ["fixed","random"].includes(saved?.mode)) {
+          practiceMode = saved.mode;
+          state.part = 0;
+        }
+      } catch {}
+      $("practiceMode").value = practiceMode;
+      $("practiceMode").addEventListener("change", () => switchPracticeSet($("practiceMode").value));
+      $("practiceSetSelect").addEventListener("change", () => switchPracticeSet("fixed"));
+      $("newPracticeSet").addEventListener("click", () => switchPracticeSet("random", true));
+    }
+
+    function switchPracticeSet(mode, regenerate = false) {
+      stopAllActiveRecordings();
+      stopSpeech();
+      try {
+        if (mode === "fixed") {
+          practiceSet = practiceSets.find(set => set.source === $("practiceSetSelect").value) || practiceSets[0] || null;
+          if (!practiceSet) throw new Error("暂无完整套题。");
+        }
+        if (mode === "random" && (regenerate || practiceMode !== "random" || !practiceSet)) {
+          practiceSet = window.ToeicPracticeSets.randomSet(data.records, practiceSet?.records || []);
+        }
+        practiceMode = mode;
+        state.part = mode === "part" ? 1 : 0;
+        state.priority = "all";
+        state.studyFilter = "all";
+        state.search = "";
+        searchInput.value = "";
+        state.shuffled = false;
+        state.showAllAnswers = false;
+        state.answerOpen.clear();
+        state.answerClosed.clear();
+        state.part3EnglishOpen.clear();
+        state.part5EnglishOpen.clear();
+        savePracticeSet();
+        render();
+      } catch (error) {
+        $("practiceSetNote").textContent = error.message;
+        $("practiceMode").value = practiceMode;
+      }
+    }
+
+    function renderPracticeSetControls() {
+      const pack = practiceMode !== "part";
+      $("practiceSetControls").hidden = practiceMode !== "fixed";
+      $("newPracticeSet").hidden = practiceMode !== "random";
+      $("shuffleButton").hidden = pack;
+      if (practiceMode === "fixed" && practiceSet) $("practiceSetSelect").value = practiceSet.source;
+      const missing = practiceSet?.records.some(r =>
+        (r.part === 2 && !r.imagePath) || (r.part === 4 && (!r.material || r.material.missing)));
+      $("practiceSetNote").textContent = pack
+        ? practiceSet.name + " · 11 题 / 7 张题卡" + (missing ? " · 原题库存在图片或资料表缺项" : "")
+        : "";
+    }
     const RECORDING_STORAGE_KEY = "toeic-review-recording-scores";
     const recordLookup = new Map();
     const activeRecordings = new Map();
@@ -3330,8 +3430,8 @@
 
     function currentRecords() {
       const term = normalize(state.search).trim();
-      let records = data.records.filter((record) => {
-        if (record.part !== state.part) return false;
+      let records = practicePool().filter((record) => {
+        if (state.part && record.part !== state.part) return false;
         if (state.priority !== "all" && record.priority !== state.priority) return false;
         if (state.studyFilter === "done" && !state.done.has(record.uid)) return false;
         if (state.studyFilter === "undone" && state.done.has(record.uid)) return false;
@@ -3347,7 +3447,7 @@
           record.instructions,
         ].some((field) => normalize(field).includes(term));
       });
-      if (state.shuffled) {
+      if (state.shuffled && practiceMode === "part") {
         records = [...records].sort((a, b) => {
           const ah = hash(a.uid + "-" + state.part + "-" + state.priority + "-" + state.shuffleSeed);
           const bh = hash(b.uid + "-" + state.part + "-" + state.priority + "-" + state.shuffleSeed);
@@ -3852,10 +3952,12 @@
     }
 
     function renderParts() {
-      partList.innerHTML = data.parts.map((part) =>
+      partList.innerHTML = (practiceMode !== "part"
+        ? '<button class="part-button ' + (state.part === 0 ? "active" : "") + '" type="button" data-part="0"><span class="part-title">整套 Part 1–5</span><span class="part-count">11 题</span></button>'
+        : "") + data.parts.map((part) =>
         '<button class="part-button ' + (part.part === state.part ? "active" : "") + '" type="button" data-part="' + part.part + '">' +
           '<span class="part-title">' + escapeHtml(part.name) + '</span>' +
-          '<span class="part-count">' + part.counts.total + '</span>' +
+          '<span class="part-count">' + (practiceMode === "part" ? part.counts.total : practicePool().filter(r=>r.part===part.part).length) + '</span>' +
         '</button>'
       ).join("");
     }
@@ -3874,7 +3976,7 @@
         return acc;
       }, { P1: 0, P2: 0, P3: 0 });
       summaryStrip.innerHTML = [
-        ["全部", part.counts.total, "本 Part 总" + unit + "数"],
+        ["全部", practicePool().filter(r => !state.part || r.part === state.part).length, practiceMode === "part" ? "本 Part 总" + unit + "数" : "当前套题题卡数"],
         ["P1", visibleCounts.P1, "当前筛选"],
         ["P2", visibleCounts.P2, "当前筛选"],
         ["P3", visibleCounts.P3, "当前筛选"],
@@ -3970,6 +4072,7 @@
         const imageOnLeft = record.part === 2 && Boolean(image);
         const cardContent = '<div>' +
           '<div class="card-head">' +
+            (practiceMode !== "part" ? '<span class="badge meta">Part ' + record.part + ' · ' + escapeHtml(record.partName) + '</span>' : '') +
             '<span class="badge ' + record.priority.toLowerCase() + '">' + record.priority + '</span>' +
             '<span class="badge meta">#' + (index + 1) + '</span>' +
             '<span class="badge meta">' + escapeHtml(record.sourceFile) + '</span>' +
@@ -4004,10 +4107,14 @@
       const records = currentRecords();
       const part = data.parts.find((item) => item.part === state.part);
       const unit = [3, 4].includes(state.part) ? "套" : "道";
-      $("currentTitle").textContent = part.name;
-      $("currentMeta").textContent = records.length + " " + unit + "显示中；P1 " + part.counts.P1 + "，P2 " + part.counts.P2 + "，P3 " + part.counts.P3;
-      $("totalCount").textContent = part.counts.total;
-      const partRecords = data.records.filter((record) => record.part === state.part);
+      const pack = practiceMode !== "part";
+      $("currentTitle").textContent = pack ? practiceSet.name + (part ? " · " + part.name : "") : part.name;
+      $("currentMeta").textContent = pack
+        ? "整套 11 题 · 当前显示 " + window.ToeicPracticeSets.questionCount(records) + " 题 / " + records.length + " 张题卡"
+        : records.length + " " + unit + "显示中；P1 " + part.counts.P1 + "，P2 " + part.counts.P2 + "，P3 " + part.counts.P3;
+      const partRecords = practicePool().filter((record) => !state.part || record.part === state.part);
+      $("totalCount").textContent = partRecords.length;
+      $("totalCount").parentElement.querySelector(".stat-label").textContent = pack ? "当前题卡数" : "当前题数";
       const doneCount = partRecords.filter((record) => state.done.has(record.uid)).length;
       $("doneCount").textContent = doneCount;
       $("undoneCount").textContent = partRecords.length - doneCount;
@@ -4024,6 +4131,7 @@
       renderPriorityButtons();
       renderSummary(records);
       renderCards(records);
+      renderPracticeSetControls();
       refreshSpeechStatuses();
     }
 
@@ -4270,6 +4378,7 @@
     refreshStoredRecordingScores();
     initializeVoiceSelector();
     initializeTranscriptionSettings();
+    initializePracticeSets();
     render();
     initializeAccountState();
     window.addEventListener("pagehide", saveCloudState);
