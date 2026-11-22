@@ -1608,7 +1608,7 @@
     <img id="imageLightboxImage" alt="" />
   </dialog>
 
-  <script src="./toeic_review_data.js?v=20261122-real-banks"></script>
+  <script src="./toeic_review_data.js?v=20261122-part5-document"></script>
   <script src="./practice_sets.js?v=20261122-2"></script>
   <script>
     const data = window.TOEIC_REVIEW_DATA;
@@ -3522,7 +3522,7 @@
     function renderAnswerSet(record, sourcePart) {
       if (!record.questionBankAnswer) return '<p class="answer-text">题库未提供原答案。</p>';
       return '<div class="answer-variants answer-variant-set">' +
-        renderAnswerVariant("题库原答案", record.questionBankAnswer, record, "questionBankAnswer") +
+        renderAnswerVariant(record.answerSource?.type === "user-document" ? "参考答案 · 你的版本" : "题库原答案", record.questionBankAnswer, record, "questionBankAnswer") +
       '</div>';
     }
 

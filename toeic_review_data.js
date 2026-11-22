@@ -10321,7 +10321,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "能力优先选择",
       "prompt": "你认为解决问题的能力、沟通能力和组织能力三个中哪个最重要？为什么？",
-      "answer": "In my opinion, communication skills are the most important. Modern work requires teamwork, and good communication helps people understand each other clearly. It also allows problems to be identified and solved more quickly. Therefore, strong communication skills improve efficiency and teamwork.",
+      "answer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps individuals make a strong impression on work, as they can use specific examples to clarify the problem and then discuss possible solutions together.\nSecond, trust can be built between employees through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, other abilities is also necessary. However, without communication skills,  people may not show their real abilities.\nFor these reasons, communication skills play a key role in good management.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10329,7 +10329,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "problem solving communication organization skills",
-      "questionBankAnswer": "In my opinion, communication skills are the most important. Modern work requires teamwork, and good communication helps people understand each other clearly. It also allows problems to be identified and solved more quickly. Therefore, strong communication skills improve efficiency and teamwork."
+      "questionBankAnswer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps individuals make a strong impression on work, as they can use specific examples to clarify the problem and then discuss possible solutions together.\nSecond, trust can be built between employees through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, other abilities is also necessary. However, without communication skills,  people may not show their real abilities.\nFor these reasons, communication skills play a key role in good management.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 1,
+        "sha256": "92e3ac93c94ac363d4599c938112b4e4590e19c36078d771c0fb3aae6f2ac267"
+      }
     },
     {
       "uid": "5-真题02新工作哪个能力最重要.json-1",
@@ -10341,7 +10347,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "工作能力优先",
       "prompt": "在新工作中，你认为努力工作和与同事良好沟通哪个更重要？",
-      "answer": "In my opinion, communication with colleagues is more important in a new job. Good communication helps new employees understand tasks quickly, build trust, and work efficiently with the team. Hard work is important, but without communication, it is difficult to achieve good results.",
+      "answer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps individuals make a strong impression on work, as they can use specific examples to clarify the problem and then discuss possible solutions together.\nSecond, trust can be built between employees through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, other abilities is also necessary. However, without communication skills,  people may not show their real abilities.\nFor these reasons, communication skills play a key role in good management.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10349,7 +10355,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion communication colleagues important new",
-      "questionBankAnswer": "In my opinion, communication with colleagues is more important in a new job. Good communication helps new employees understand tasks quickly, build trust, and work efficiently with the team. Hard work is important, but without communication, it is difficult to achieve good results."
+      "questionBankAnswer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps individuals make a strong impression on work, as they can use specific examples to clarify the problem and then discuss possible solutions together.\nSecond, trust can be built between employees through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, other abilities is also necessary. However, without communication skills,  people may not show their real abilities.\nFor these reasons, communication skills play a key role in good management.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 2,
+        "sha256": "92e3ac93c94ac363d4599c938112b4e4590e19c36078d771c0fb3aae6f2ac267"
+      }
     },
     {
       "uid": "5-真题08作为老板高效沟通是不是最重要.json-1",
@@ -10361,7 +10373,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "领导力与沟通",
       "prompt": "作为一个团队的leader，高效沟通是不是最重要？为什么？",
-      "answer": "In my experience, effective communication is the most important skill for a team leader. First, it prevents misunderstandings and helps maintain a positive work environment. For example, when two team members had a disagreement, clear communication from the leader resolved the conflict efficiently. Second, it increases efficiency because everyone understands their responsibilities. Therefore, I believe communication is crucial for leadership success.",
+      "answer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps supervisors make a strong impression on work, as they can express their ideas clearly and respond to questions calmly.\nSecond, trust can be built between supervisors and team members through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, other abilities is also necessary. However, without good communication, people may not show their real abilities.\nFor these reasons, I think good communication is most important.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10369,7 +10381,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "experience effective communication important skill",
-      "questionBankAnswer": "In my experience, effective communication is the most important skill for a team leader. First, it prevents misunderstandings and helps maintain a positive work environment. For example, when two team members had a disagreement, clear communication from the leader resolved the conflict efficiently. Second, it increases efficiency because everyone understands their responsibilities. Therefore, I believe communication is crucial for leadership success."
+      "questionBankAnswer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps supervisors make a strong impression on work, as they can express their ideas clearly and respond to questions calmly.\nSecond, trust can be built between supervisors and team members through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, other abilities is also necessary. However, without good communication, people may not show their real abilities.\nFor these reasons, I think good communication is most important.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 8,
+        "sha256": "6820efc96fc64a09dd8d5a0f033af5336f4c4d67215ffe3519f3cc0ab995719f"
+      }
     },
     {
       "uid": "5-真题13offer是否需要考虑公司的名誉.json-1",
@@ -10381,7 +10399,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "公司声誉",
       "prompt": "当你获得一个公司的offer时，你是否同意需要考虑公司的reputation？",
-      "answer": "Of course, I will consider the company’s reputation. Firstly, if the reputation is poor, there may be reasons affecting my interests, like delayed salaries. Secondly, a company with good reputation has more business opportunities, customers, and revenue, providing stable income. Finally, a company's reputation reflects employees' reputations. So I will definitely consider the reputation.",
+      "answer": "In my opinion, good reputation company is really important.\nFirst, good company with reputation helps individuals acquire practical knowledge and improve abilities, which can give them a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people in good reputation company\nIn addition, joining good company provides a comprehensive perspective of society, which makes us more reliable and responsible.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10389,7 +10407,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "course consider company reputation firstly",
-      "questionBankAnswer": "Of course, I will consider the company’s reputation. Firstly, if the reputation is poor, there may be reasons affecting my interests, like delayed salaries. Secondly, a company with good reputation has more business opportunities, customers, and revenue, providing stable income. Finally, a company's reputation reflects employees' reputations. So I will definitely consider the reputation."
+      "questionBankAnswer": "In my opinion, good reputation company is really important.\nFirst, good company with reputation helps individuals acquire practical knowledge and improve abilities, which can give them a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people in good reputation company\nIn addition, joining good company provides a comprehensive perspective of society, which makes us more reliable and responsible.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 13,
+        "sha256": "45cee7c3c380bb79353057fdd57637e4758118d05635771ca58fa2b038a035a2"
+      }
     },
     {
       "uid": "5-真题14去当实习生吗.json-1",
@@ -10401,7 +10425,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "实习的重要性",
       "prompt": "大学生是否要利用空闲时间去公司当实习生？为什么？",
-      "answer": "Sure, college students should do an internship. Firstly, it provides job experience, helping to find related jobs after graduation. Secondly, internships improve work skills, allowing you to handle tasks efficiently. Finally, internships give income, which builds confidence. So I think an internship is a better way.",
+      "answer": "In my opinion, intern before going to college has many advantages\nFirst, intern before going to college helps us acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during gap year community activities.\nIn addition, working as an intern provides a comprehensive perspective of society, which makes us more reliable and responsible.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10409,7 +10433,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "sure college students internship firstly",
-      "questionBankAnswer": "Sure, college students should do an internship. Firstly, it provides job experience, helping to find related jobs after graduation. Secondly, internships improve work skills, allowing you to handle tasks efficiently. Finally, internships give income, which builds confidence. So I think an internship is a better way."
+      "questionBankAnswer": "In my opinion, intern before going to college has many advantages\nFirst, intern before going to college helps us acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during gap year community activities.\nIn addition, working as an intern provides a comprehensive perspective of society, which makes us more reliable and responsible.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 14,
+        "sha256": "d3b0dfbc961662f2ae3a6388e81a41725b9798aa8ad564e301fc6e288398faf8"
+      }
     },
     {
       "uid": "5-真题17幽默humor还是严肃serious.json-1",
@@ -10421,7 +10451,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "工作性格偏好",
       "prompt": "你更愿意跟哪种人工作：比较幽默humor的人，还是比较严肃serious的人？",
-      "answer": "Humorous people are my first choice. There are several reasons: First, during work, communication with others is easier with humorous people. Secondly, they often tell jokes and make us happy. Finally, a humorous colleague helps create a relaxed team atmosphere, which relieves working pressure. I think most people prefer to work with humorous people.",
+      "answer": "Humorous people is my first choice. There are several reasons:\nFirst, during the work, we need to communicate with others. Humorous people are very smart. It is easy to communicate with them. I am afraid to communicate with serious guy.\nSecondly,  humorous people usually like to tell jokes, it will make us happy.\nFinally, if there is a humorous colleague in the team, the team will have very relaxed atmosphere, it can help to relieve working pressure.\nI think most people want to work or live with humorous people.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10429,7 +10459,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "humorous people choice several reasons",
-      "questionBankAnswer": "Humorous people are my first choice. There are several reasons: First, during work, communication with others is easier with humorous people. Secondly, they often tell jokes and make us happy. Finally, a humorous colleague helps create a relaxed team atmosphere, which relieves working pressure. I think most people prefer to work with humorous people."
+      "questionBankAnswer": "Humorous people is my first choice. There are several reasons:\nFirst, during the work, we need to communicate with others. Humorous people are very smart. It is easy to communicate with them. I am afraid to communicate with serious guy.\nSecondly,  humorous people usually like to tell jokes, it will make us happy.\nFinally, if there is a humorous colleague in the team, the team will have very relaxed atmosphere, it can help to relieve working pressure.\nI think most people want to work or live with humorous people.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 17,
+        "sha256": "38562e71332597178bc7850c7869cb6b7d37517bfb94b10d42ee41a44f0de974"
+      }
     },
     {
       "uid": "5-真题18项目中分歧需要解决还是忽略.json-1",
@@ -10441,7 +10477,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "项目管理与团队合作",
       "prompt": "如果两个人在项目中出现分歧是要解决还是忽略？",
-      "answer": "According to my personal experience, you cannot ignore the gap and should try to solve it. Firstly, ignoring it leads to an unfriendly working environment, which is harmful to the project. Secondly, it affects work efficiency. If team members have different understandings, they can't work efficiently to achieve project goals.",
+      "answer": "In my opinion, if I have a disagreement with a colleague, I will handle the problem on a case-by-case basis.\nFirst, if it is a general issue, I will communicate directly with them, using specific examples to clarify the problem and then discussing possible solutions together.\nSecond, if the disagreement involves cross-department collaboration, it is more efficient to report to the supervisor in a timely manner.\nIn addition, addressing an issue through a supervisor provides a comprehensive perspective, which makes the solution more reliable and credible.\nFor these reasons, I believe this flexible approach is the best way to resolve conflicts effectively.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10449,7 +10485,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience cannot ignore",
-      "questionBankAnswer": "According to my personal experience, you cannot ignore the gap and should try to solve it. Firstly, ignoring it leads to an unfriendly working environment, which is harmful to the project. Secondly, it affects work efficiency. If team members have different understandings, they can't work efficiently to achieve project goals."
+      "questionBankAnswer": "In my opinion, if I have a disagreement with a colleague, I will handle the problem on a case-by-case basis.\nFirst, if it is a general issue, I will communicate directly with them, using specific examples to clarify the problem and then discussing possible solutions together.\nSecond, if the disagreement involves cross-department collaboration, it is more efficient to report to the supervisor in a timely manner.\nIn addition, addressing an issue through a supervisor provides a comprehensive perspective, which makes the solution more reliable and credible.\nFor these reasons, I believe this flexible approach is the best way to resolve conflicts effectively.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 18,
+        "sha256": "9fa117896907baf4b3964d7a1f492967cbb5650d35f473fb45d88bbcbd0e1319"
+      }
     },
     {
       "uid": "5-真题22工作经验还是教育背景重要.json-1",
@@ -10461,7 +10503,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "教育与工作经验",
       "prompt": "教育背景和相关工作经验，哪个更重要，为什么？",
-      "answer": "In my opinion, education background is more important. There are several reasons. Firstly, many large companies have educational requirements for recruitment. For example, in China, some top companies only recruit students who graduated from 985 schools. Secondly, although education may not represent everything, it reflects a person's learning ability and concentration, which are important for work. Lastly, higher education generally comes with higher salaries and better career promotion potential. For example, in our company, the initial salary of master's graduates is higher than that of undergraduate graduates.",
+      "answer": "First, related work helps people face difficulties bravely. Instead of giving up, they try their best to solve problems and improve their abilities.\nSecond, trust can be built among team members through rich work experience, experienced staff always take their work seriously and finish tasks on time.\nOf course, other abilities are also necessary. However, without experienced staff, people may not show their real abilities.\nIn short, responsibility is the key to professional success. It helps people gain respect and make progress in their work.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10469,7 +10511,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion education background important several",
-      "questionBankAnswer": "In my opinion, education background is more important. There are several reasons. Firstly, many large companies have educational requirements for recruitment. For example, in China, some top companies only recruit students who graduated from 985 schools. Secondly, although education may not represent everything, it reflects a person's learning ability and concentration, which are important for work. Lastly, higher education generally comes with higher salaries and better career promotion potential. For example, in our company, the initial salary of master's graduates is higher than that of undergraduate graduates."
+      "questionBankAnswer": "First, related work helps people face difficulties bravely. Instead of giving up, they try their best to solve problems and improve their abilities.\nSecond, trust can be built among team members through rich work experience, experienced staff always take their work seriously and finish tasks on time.\nOf course, other abilities are also necessary. However, without experienced staff, people may not show their real abilities.\nIn short, responsibility is the key to professional success. It helps people gain respect and make progress in their work.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 22,
+        "sha256": "142f65b37c89be0cbe714e2e1c3eaae17514455fe9476643c3de8ba563e2aab6"
+      }
     },
     {
       "uid": "5-真题27你认为一家公司有环境友好政策有什么好处.json-11",
@@ -10481,7 +10529,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "公司环境友好政策的好处",
       "prompt": "Question: What do you think are the benefits of a company having environmentally friendly policies, and why?",
-      "answer": "I think a company with environmentally friendly policies can gain many benefits for the following reasons. First of all, it can improve the company's public image. Consumers are more willing to buy products from environmentally responsible companies, which can help increase sales and market share. Secondly, these policies can reduce the company's operating costs in the long run. For example, saving energy and reducing waste can lower the expenses of raw materials and energy consumption. Thirdly, it can attract more talents. Many employees, especially young people, prefer to work for companies that care about the environment. Finally, implementing environmental policies can help the company comply with relevant laws and regulations, avoiding potential fines and legal risks. Therefore, environmentally friendly policies are beneficial to the company's sustainable development.",
+      "answer": "I think there are several clear benefits for a company to have environmental friendly policies.\nFirst, it can improve the company’s public image and attract more customers who care about the environment.\nSecond, it may help reduce costs by saving energy and resources.\nIn addition such policies can make employees feel proud to work there and improve their motivation.\nFor these reasons, it is good for both the company’s reputation and long-term development.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10489,7 +10537,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think company environmentally friendly policies",
-      "questionBankAnswer": "I think a company with environmentally friendly policies can gain many benefits for the following reasons. First of all, it can improve the company's public image. Consumers are more willing to buy products from environmentally responsible companies, which can help increase sales and market share. Secondly, these policies can reduce the company's operating costs in the long run. For example, saving energy and reducing waste can lower the expenses of raw materials and energy consumption. Thirdly, it can attract more talents. Many employees, especially young people, prefer to work for companies that care about the environment. Finally, implementing environmental policies can help the company comply with relevant laws and regulations, avoiding potential fines and legal risks. Therefore, environmentally friendly policies are beneficial to the company's sustainable development."
+      "questionBankAnswer": "I think there are several clear benefits for a company to have environmental friendly policies.\nFirst, it can improve the company’s public image and attract more customers who care about the environment.\nSecond, it may help reduce costs by saving energy and resources.\nIn addition such policies can make employees feel proud to work there and improve their motivation.\nFor these reasons, it is good for both the company’s reputation and long-term development.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 27,
+        "sha256": "98f4d4ff6fe474366f1fbde29d314f1b9962d7e16660cdbe0fe0b2a0ee608d04"
+      }
     },
     {
       "uid": "5-真题31发生分歧是直接解决还是找领导帮忙.json-1",
@@ -10501,7 +10555,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "冲突处理方式",
       "prompt": "发生分歧时，应该直接解决还是找领导帮忙？",
-      "answer": "According to my experience, it depends on the situation. If it is a general disagreement, I will communicate directly with my colleague and discuss possible solutions together. However, if it involves cross-department work or unclear responsibilities, it is more efficient to report the issue to the supervisor, who can look at the problem from a higher-level perspective.",
+      "answer": "In my opinion, if I have a disagreement with a colleague, I will handle the problem on a case-by-case basis.\nFirst, if it is a general issue, I will communicate directly with them, using specific examples to clarify the problem and then discussing possible solutions together.\nSecond, if the disagreement involves cross-department collaboration, it is more efficient to report to the supervisor in a timely manner.\nIn addition, addressing an issue through a supervisor provides a comprehensive perspective, which makes the solution more reliable and credible.\nFor these reasons, I believe this flexible approach is the best way to resolve conflicts effectively.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10509,7 +10563,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according experience depends situation general",
-      "questionBankAnswer": "According to my experience, it depends on the situation. If it is a general disagreement, I will communicate directly with my colleague and discuss possible solutions together. However, if it involves cross-department work or unclear responsibilities, it is more efficient to report the issue to the supervisor, who can look at the problem from a higher-level perspective."
+      "questionBankAnswer": "In my opinion, if I have a disagreement with a colleague, I will handle the problem on a case-by-case basis.\nFirst, if it is a general issue, I will communicate directly with them, using specific examples to clarify the problem and then discussing possible solutions together.\nSecond, if the disagreement involves cross-department collaboration, it is more efficient to report to the supervisor in a timely manner.\nIn addition, addressing an issue through a supervisor provides a comprehensive perspective, which makes the solution more reliable and credible.\nFor these reasons, I believe this flexible approach is the best way to resolve conflicts effectively.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 31,
+        "sha256": "9fa117896907baf4b3964d7a1f492967cbb5650d35f473fb45d88bbcbd0e1319"
+      }
     },
     {
       "uid": "5-真题32主管评价员工，周边同事反馈是否很重要.json-1",
@@ -10521,7 +10581,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "主管评价员工",
       "prompt": "主管评价员工时，周边同事的反馈是否很重要？请说明原因。",
-      "answer": "Yes, I definitely agree that coworker feedback is important when a manager evaluates an employee. First, colleagues can help fill in the blind spots of a manager’s perspective. Managers usually focus on work results, while coworkers see daily collaboration, such as communication skills and teamwork. Second, coworker feedback helps verify the manager’s judgment. When opinions differ, additional feedback can reduce personal bias. So I believe colleague feedback makes the evaluation more fair and complete.",
+      "answer": "In my opinion, feedback from colleagues is very important when a supervisor evaluates team members.\nFirst, colleagues who work closely together every day know each other’s performance better.\nSecond, more objective and complete information about employees can be obtained with colleagues’ help.\nIn addition, using colleagues’ feedback provides a more comprehensive perspective, which makes the evaluation more reliable and credible.\nIn conclusion, it is a good way to improve the quality of performance evaluation.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10529,7 +10589,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes definitely agree coworker feedback",
-      "questionBankAnswer": "Yes, I definitely agree that coworker feedback is important when a manager evaluates an employee. First, colleagues can help fill in the blind spots of a manager’s perspective. Managers usually focus on work results, while coworkers see daily collaboration, such as communication skills and teamwork. Second, coworker feedback helps verify the manager’s judgment. When opinions differ, additional feedback can reduce personal bias. So I believe colleague feedback makes the evaluation more fair and complete."
+      "questionBankAnswer": "In my opinion, feedback from colleagues is very important when a supervisor evaluates team members.\nFirst, colleagues who work closely together every day know each other’s performance better.\nSecond, more objective and complete information about employees can be obtained with colleagues’ help.\nIn addition, using colleagues’ feedback provides a more comprehensive perspective, which makes the evaluation more reliable and credible.\nIn conclusion, it is a good way to improve the quality of performance evaluation.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 32,
+        "sha256": "2c877a3547853cea5300156651030e4ca47886661d6d4a7d2adca1d537371768"
+      }
     },
     {
       "uid": "5-真题36公司提供工作日锻炼的机会是否是一个好主意.json-1",
@@ -10541,7 +10607,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "员工福利与健康",
       "prompt": "公司提供工作日锻炼的机会是否是一个好主意？",
-      "answer": "Yes, I think it’s a great idea. Regular exercise helps employees stay healthy and reduce stress. It can increase energy, focus, and teamwork if done together. Overall, it shows the company cares about employee well-being.",
+      "answer": "In my opinion, exercise opportunities on workdays from companies is a great idea.\nFirst, exercise opportunities during workdays help people relieve stress and stay relaxed, especially when they feel tired from heavy workloads.\nSecond, trust and respect can be built between companies  and employees, which enhances staff motivation and helps companies retain valuable talent.\nIn addition, staying healthy and energetic can improve work efficiency. By being more focused and productive in good condition by doing regular exercise, employees can not only work more efficiently but also spend more quality time with their\tfamilies.\nFor these reasons, it is a good way to provide xxx for both employees and companies.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况提出你的看法或解决方案：",
       "imagePath": "",
@@ -10549,7 +10615,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes think great idea regular",
-      "questionBankAnswer": "Yes, I think it’s a great idea. Regular exercise helps employees stay healthy and reduce stress. It can increase energy, focus, and teamwork if done together. Overall, it shows the company cares about employee well-being."
+      "questionBankAnswer": "In my opinion, exercise opportunities on workdays from companies is a great idea.\nFirst, exercise opportunities during workdays help people relieve stress and stay relaxed, especially when they feel tired from heavy workloads.\nSecond, trust and respect can be built between companies  and employees, which enhances staff motivation and helps companies retain valuable talent.\nIn addition, staying healthy and energetic can improve work efficiency. By being more focused and productive in good condition by doing regular exercise, employees can not only work more efficiently but also spend more quality time with their\tfamilies.\nFor these reasons, it is a good way to provide xxx for both employees and companies.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 36,
+        "sha256": "ec1aa195e42ef298cf00b3cf9f4c7a9d1cf2e6694557692c6328084b459411dd"
+      }
     },
     {
       "uid": "5-真题37对于一个求职者哪个最重要.json-1",
@@ -10561,7 +10633,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "求职技巧",
       "prompt": "对于一个求职者，什么最重要：self-confidence, knowledge of the industry, or clear goals?",
-      "answer": "I think for a job seeker, self-confidence is the most important. Believing in yourself helps handle interviews well and showcase your strengths. Knowledge of the industry and clear goals are also helpful, but without confidence, it’s hard to impress employers. Confidence helps take the first step and keep moving forward.",
+      "answer": "In my opinion, self-confidence is the most important quality for a job seeker.\nFirst, confidence can help individuals make a strong impression during interviews, as those who believe themselves can express their ideas clearly and respond to questions calmly.\nSecond, trust can be built between interviewer and job seeker through self-confidence. Confidant applicants are most likely to challenge themselves and seize opportunities.\nOf course, acquiring industry knowledge and setting clear goals are also necessary. However, without xxx, people may not show their\t real abilities.\nFor these reasons, self-confidence plays a key role in job hunting.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10569,7 +10641,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think job seeker self confidence",
-      "questionBankAnswer": "I think for a job seeker, self-confidence is the most important. Believing in yourself helps handle interviews well and showcase your strengths. Knowledge of the industry and clear goals are also helpful, but without confidence, it’s hard to impress employers. Confidence helps take the first step and keep moving forward."
+      "questionBankAnswer": "In my opinion, self-confidence is the most important quality for a job seeker.\nFirst, confidence can help individuals make a strong impression during interviews, as those who believe themselves can express their ideas clearly and respond to questions calmly.\nSecond, trust can be built between interviewer and job seeker through self-confidence. Confidant applicants are most likely to challenge themselves and seize opportunities.\nOf course, acquiring industry knowledge and setting clear goals are also necessary. However, without xxx, people may not show their\t real abilities.\nFor these reasons, self-confidence plays a key role in job hunting.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 37,
+        "sha256": "1eb165403bfd1149cae46e56d6b90fb2b79c2ac5b81f7f1c38cf2b5a0b82f68d"
+      }
     },
     {
       "uid": "5-真题41作为主管你认为是经验重要还是沟通能力重要.json-1",
@@ -10581,7 +10659,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "领导力与沟通",
       "prompt": "作为主管，你认为是经验重要还是沟通能力重要",
-      "answer": "I think communication skills are more important than experience for a supervisor. Good communication allows you to convey ideas clearly, build strong relationships with the team, and resolve conflicts efficiently. Even an experienced person may face challenges if they cannot communicate well. A supervisor with excellent communication skills can motivate employees, understand their concerns, and lead the team to success.",
+      "answer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps supervisors make a strong impression on work, as they can express their ideas clearly and respond to questions calmly.\nSecond, trust and respect can be built between supervisors and team members through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, acquiring knowledge is also necessary. However, without good communication, people may not show their real abilities.\nFor these reasons, I think good communication is most important.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10589,7 +10667,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think communication skills important experience",
-      "questionBankAnswer": "I think communication skills are more important than experience for a supervisor. Good communication allows you to convey ideas clearly, build strong relationships with the team, and resolve conflicts efficiently. Even an experienced person may face challenges if they cannot communicate well. A supervisor with excellent communication skills can motivate employees, understand their concerns, and lead the team to success."
+      "questionBankAnswer": "In my opinion, communication skills are more important than experience for a supervisor.\nFirst, good communication helps supervisors make a strong impression on work, as they can express their ideas clearly and respond to questions calmly.\nSecond, trust and respect can be built between supervisors and team members through good communication. By listening and speaking clearly,  they can not only understand employees’ needs but also solve problems easily.\nOf course, acquiring knowledge is also necessary. However, without good communication, people may not show their real abilities.\nFor these reasons, I think good communication is most important.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 41,
+        "sha256": "8b6b4b50cf396e5c2a551c489b939dd7b6bd3695e0f20b59737509633775ac2f"
+      }
     },
     {
       "uid": "5-真题42员工自己设置工作时间有什么好处.json-1",
@@ -10601,7 +10685,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "工作制度与福利",
       "prompt": "员工自己设置工作时间有什么好处？",
-      "answer": "Allowing employees to set their own working hours brings great benefits for both individuals and companies. First, it lets people work according to their natural rhythms, increasing productivity. Early risers can focus on important tasks in the morning, while night owls can be more productive later in the day. Second, flexible schedules reduce stress from balancing work, family duties, or personal matters, leading to happier and more motivated employees. Finally, this policy builds trust between employers and employees, enhancing loyalty and reducing turnover. For these reasons, allowing employees to set their own working hours is highly beneficial.",
+      "answer": "In my opinion, it’s very important for people to set their own working hours. There are several reasons.\nFirst,  flexible working hours help people relieve stress and stay relaxed,  as they don’t need to worry about being late or rushing to work.\nSecond, trust and respect can be built between companies and employees, which enhances staff motivation and helps companies retain valuable talent.\nIn addiction, advising a better work life balance can improve work efficiency. By being more focused and productive, employees can not only work more efficiently but also spend more quality time with their family.\nIn conclusion, it can be very helpful both companies and employees.",
       "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10609,7 +10693,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "allowing employees set own working",
-      "questionBankAnswer": "Allowing employees to set their own working hours brings great benefits for both individuals and companies. First, it lets people work according to their natural rhythms, increasing productivity. Early risers can focus on important tasks in the morning, while night owls can be more productive later in the day. Second, flexible schedules reduce stress from balancing work, family duties, or personal matters, leading to happier and more motivated employees. Finally, this policy builds trust between employers and employees, enhancing loyalty and reducing turnover. For these reasons, allowing employees to set their own working hours is highly beneficial."
+      "questionBankAnswer": "In my opinion, it’s very important for people to set their own working hours. There are several reasons.\nFirst,  flexible working hours help people relieve stress and stay relaxed,  as they don’t need to worry about being late or rushing to work.\nSecond, trust and respect can be built between companies and employees, which enhances staff motivation and helps companies retain valuable talent.\nIn addiction, advising a better work life balance can improve work efficiency. By being more focused and productive, employees can not only work more efficiently but also spend more quality time with their family.\nIn conclusion, it can be very helpful both companies and employees.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 42,
+        "sha256": "876314b25cdb3dae16dc2c612ab8b144ac60fa306a98663ccf9f1d97bd7b463b"
+      }
     },
     {
       "uid": "5-真题04offer是否要跟家里人交流.json-1",
@@ -10621,7 +10711,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业选择与家庭讨论",
       "prompt": "如果你接到一个工作 offer，你会和家里人讨论吗？优点是什么？",
-      "answer": "I believe it is a good idea to discuss a job offer with my family. First, they can provide valuable advice based on their experience. Second, they can help me consider long-term factors such as location and work-life balance. Finally, discussing with my family helps me make a more confident and well-informed decision.",
+      "answer": "In my opinion, if I received a job offer, I would definitely discuss it with my family members.\nFirst, discussion with family can relieve stress and stay relaxed. When I express worries or expectations, I will feel more relaxed and confident.\nSecond, trust and respect can be built between my family and me, which helps them understand my future plans and support me better.\nIn addition, discussing the job can help me make a wiser decision. As they can give me practical and honest advice.\nIn conclusion, communicating with family is really helpful. It improves our relationship and helps me choose a more suitable job.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10629,7 +10719,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe good idea discuss job",
-      "questionBankAnswer": "I believe it is a good idea to discuss a job offer with my family. First, they can provide valuable advice based on their experience. Second, they can help me consider long-term factors such as location and work-life balance. Finally, discussing with my family helps me make a more confident and well-informed decision."
+      "questionBankAnswer": "In my opinion, if I received a job offer, I would definitely discuss it with my family members.\nFirst, discussion with family can relieve stress and stay relaxed. When I express worries or expectations, I will feel more relaxed and confident.\nSecond, trust and respect can be built between my family and me, which helps them understand my future plans and support me better.\nIn addition, discussing the job can help me make a wiser decision. As they can give me practical and honest advice.\nIn conclusion, communicating with family is really helpful. It improves our relationship and helps me choose a more suitable job.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 4,
+        "sha256": "5928c378558634514b47f91fda733c74b02dd35c130d0ae968e80e1f80b02f70"
+      }
     },
     {
       "uid": "5-真题09学术专业成功最重要因素.json-1",
@@ -10641,7 +10737,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业成功因素",
       "prompt": "学术或职业成功最重要的因素是什么？",
-      "answer": "I believe the most important factor for academic or professional success is honesty. Honest people are easier to communicate with, which reduces misunderstandings and builds trust. They learn from failures, gain support from others, and work diligently towards their goals. Along with honesty, perseverance, hard work, and self-confidence also play key roles in achieving success.",
+      "answer": "In my opinion, a strong sense of responsibility is the most important thing for professional success.\nFirst, responsibility helps people face difficulties bravely. Instead of giving up, they try their best to solve problems and improve their abilities.\nSecond, trust can be built among team members through responsibility, responsible people always take their work seriously and finish tasks on time.\nOf course, other abilities are also necessary. However, without a strong sense of responsibility, people may not show their real abilities.\nIn short, responsibility is the key to professional success. It helps people gain respect and make progress in their work.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10649,7 +10745,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe important factor academic professional",
-      "questionBankAnswer": "I believe the most important factor for academic or professional success is honesty. Honest people are easier to communicate with, which reduces misunderstandings and builds trust. They learn from failures, gain support from others, and work diligently towards their goals. Along with honesty, perseverance, hard work, and self-confidence also play key roles in achieving success."
+      "questionBankAnswer": "In my opinion, a strong sense of responsibility is the most important thing for professional success.\nFirst, responsibility helps people face difficulties bravely. Instead of giving up, they try their best to solve problems and improve their abilities.\nSecond, trust can be built among team members through responsibility, responsible people always take their work seriously and finish tasks on time.\nOf course, other abilities are also necessary. However, without a strong sense of responsibility, people may not show their real abilities.\nIn short, responsibility is the key to professional success. It helps people gain respect and make progress in their work.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 9,
+        "sha256": "96b76ff38c6093b2ef223d4c116c35b3ef2372e835494d6bf7e15339a29619ab"
+      }
     },
     {
       "uid": "5-真题12毕业后第一份工作必要吗.json-1",
@@ -10661,7 +10763,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "毕业后职业规划",
       "prompt": "你是否认为毕业后的第一份工作是必要的？为什么？",
-      "answer": "Yes, I think the first job is the most important. Firstly, it is an important part of the resume and often evaluated by others. Secondly, the first job can shape your career path. A good first job leads to a smoother career. Lastly, if you stay too long in the first job, the opportunity cost of changing is high and you have less time to explore other options.",
+      "answer": "In my opinion, the first job is really important for future career.\nFirst, the first job helps individuals acquire practical knowledge and improve abilities, which can give them a lot of confidence.\nSecond, a wider professional network for careers can be built  by meeting more people in first company\nIn addition, the job offers a comprehensive first look at society, which makes people more reliable and responsible.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10669,7 +10771,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes think job important firstly",
-      "questionBankAnswer": "Yes, I think the first job is the most important. Firstly, it is an important part of the resume and often evaluated by others. Secondly, the first job can shape your career path. A good first job leads to a smoother career. Lastly, if you stay too long in the first job, the opportunity cost of changing is high and you have less time to explore other options."
+      "questionBankAnswer": "In my opinion, the first job is really important for future career.\nFirst, the first job helps individuals acquire practical knowledge and improve abilities, which can give them a lot of confidence.\nSecond, a wider professional network for careers can be built  by meeting more people in first company\nIn addition, the job offers a comprehensive first look at society, which makes people more reliable and responsible.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 12,
+        "sha256": "7cdeb96a0f296c5818bd1616cb0b986e336cf31f7617a2a5b161bc3be82badea"
+      }
     },
     {
       "uid": "5-真题15获得professional success是否需要take risk.json-1",
@@ -10681,7 +10789,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业成功与冒险",
       "prompt": "成功是否需要冒险？请给出理由。",
-      "answer": "My answer is yes. There are many reasons: Firstly, risks and opportunities are always together. Only those who dare to take risks can seize the opportunities. Secondly, the higher the risk, the greater the return. Many people get their first success through taking risks. For example, my boss borrowed money to start Huawei in a small house, which was risky, and then achieved great success.",
+      "answer": "In my opinion, success often requires tasking risks. Few significant achievements come from staying completely safe and avoiding all challenges. \nTo reach new goals, whether in our careers or personal lives, we sometimes have to step outside our comfort zones and take calculated risks.\nOf course, this does not mean being careless or reckless. Wise risk-taking involves planing, considering possible results, and being prepared for both success and failure. Without taking any risks at all, we may miss valuable opportunities to grow and improve.\nIn the workspace, for example, people who are willing to take on difficult projects or propose new ideas are more likely to gain recognition and advance their careers.\nTherefore, taking appropriate risks is necessary and helpful for achieving long-term success.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10689,7 +10797,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "answer yes reasons firstly risks",
-      "questionBankAnswer": "My answer is yes. There are many reasons: Firstly, risks and opportunities are always together. Only those who dare to take risks can seize the opportunities. Secondly, the higher the risk, the greater the return. Many people get their first success through taking risks. For example, my boss borrowed money to start Huawei in a small house, which was risky, and then achieved great success."
+      "questionBankAnswer": "In my opinion, success often requires tasking risks. Few significant achievements come from staying completely safe and avoiding all challenges. \nTo reach new goals, whether in our careers or personal lives, we sometimes have to step outside our comfort zones and take calculated risks.\nOf course, this does not mean being careless or reckless. Wise risk-taking involves planing, considering possible results, and being prepared for both success and failure. Without taking any risks at all, we may miss valuable opportunities to grow and improve.\nIn the workspace, for example, people who are willing to take on difficult projects or propose new ideas are more likely to gain recognition and advance their careers.\nTherefore, taking appropriate risks is necessary and helpful for achieving long-term success.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 15,
+        "sha256": "7c880cdd002384c9f00c7fa48636685b6a9c690d5b6aa04d87c9930c012fa727"
+      }
     },
     {
       "uid": "5-真题19个公司的多处不同城市工作的好处.json-1",
@@ -10701,7 +10815,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "跨城市工作优势",
       "prompt": "请说明在一个公司的多处不同城市工作的好处。",
-      "answer": "My company has many subsidiaries in different cities. There are several advantages. First, employees can work near their home, which is convenient. Second, each city has unique advantages; for example, Xian can be an HR center and train employees. Finally, having subsidiaries close to customers allows us to provide better service locally.",
+      "answer": "working in different city branches of the same company brings many clear benefits.\nFirst, employees can work in the city which is near their home. For example, we can work in subsidiary and I can go home every day, it is very convenient for me.\nSecond, it allows me to meet and work with more colleagues from various backgrounds, expanding my professional network.\nThird, experiencing different cities enriches my personal life. I can learn about local cultures and lifestyles, which makes my work and life more interesting",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10709,7 +10823,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "company subsidiaries different cities several",
-      "questionBankAnswer": "My company has many subsidiaries in different cities. There are several advantages. First, employees can work near their home, which is convenient. Second, each city has unique advantages; for example, Xian can be an HR center and train employees. Finally, having subsidiaries close to customers allows us to provide better service locally."
+      "questionBankAnswer": "working in different city branches of the same company brings many clear benefits.\nFirst, employees can work in the city which is near their home. For example, we can work in subsidiary and I can go home every day, it is very convenient for me.\nSecond, it allows me to meet and work with more colleagues from various backgrounds, expanding my professional network.\nThird, experiencing different cities enriches my personal life. I can learn about local cultures and lifestyles, which makes my work and life more interesting",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 19,
+        "sha256": "9c5743ac4a4f7d6a2220dd1fbcc654ca37183b1a5a930c2a41392022fbed264e"
+      }
     },
     {
       "uid": "5-真题21进入大学前实习gap year有哪些好处.json-1",
@@ -10721,7 +10841,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "大学前实习与gap year",
       "prompt": "你认为高中生毕业后，在进入大学前参加实习或gap year有哪些好处？",
-      "answer": "In my opinion, participating in an internship or taking a gap year before entering university has several benefits. Firstly, students can gain practical work experience and understand the professional environment. Secondly, it helps them to develop important life skills, such as time management, communication, and responsibility. Lastly, a gap year or internship allows students to explore their interests and plan their future studies and career more effectively.",
+      "answer": "In my opinion, gap years help many advantages.\nFirst, intern before going to college helps us acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during gap year community activities \nIn addition, working as an intern provides a comprehensive perspective of society, which makes us more reliable and responsible.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10729,7 +10849,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion participating internship taking gap",
-      "questionBankAnswer": "In my opinion, participating in an internship or taking a gap year before entering university has several benefits. Firstly, students can gain practical work experience and understand the professional environment. Secondly, it helps them to develop important life skills, such as time management, communication, and responsibility. Lastly, a gap year or internship allows students to explore their interests and plan their future studies and career more effectively."
+      "questionBankAnswer": "In my opinion, gap years help many advantages.\nFirst, intern before going to college helps us acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during gap year community activities \nIn addition, working as an intern provides a comprehensive perspective of society, which makes us more reliable and responsible.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 21,
+        "sha256": "9bf7b75a942439351da3d5f20fccca9b5942c6a6d5e5fe46dd0c9174b0204170"
+      }
     },
     {
       "uid": "5-真题24为一家已经经营了很多年的公司工作有哪些优点.json-11",
@@ -10741,7 +10867,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "为老牌公司工作的优点",
       "prompt": "Question: What are the advantages of working for a company that has been in business for many years?",
-      "answer": "There are several advantages of working for a long-established company. First of all, such companies usually have a stable operation and sound management system, which can provide employees with job security and a clear career development path. Secondly, long-established companies often have a good reputation in the industry, which can add more weight to employees' resumes. Thirdly, these companies usually have accumulated rich resources and experience, so employees can learn more professional skills and gain valuable work experience. Finally, employees of such companies can enjoy more complete welfare benefits, such as perfect insurance and paid vacation systems. Therefore, working for a company with a long history is a very good choice for many job seekers.",
+      "answer": "In my opinion, owing business before go to work have many advantages.\nFirst , own business help me acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during the start-up period.\nIn addition, starting a business provides a comprehensive perspective of society, which makes us more reliable and responsible.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10749,7 +10875,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "several advantages working long established",
-      "questionBankAnswer": "There are several advantages of working for a long-established company. First of all, such companies usually have a stable operation and sound management system, which can provide employees with job security and a clear career development path. Secondly, long-established companies often have a good reputation in the industry, which can add more weight to employees' resumes. Thirdly, these companies usually have accumulated rich resources and experience, so employees can learn more professional skills and gain valuable work experience. Finally, employees of such companies can enjoy more complete welfare benefits, such as perfect insurance and paid vacation systems. Therefore, working for a company with a long history is a very good choice for many job seekers."
+      "questionBankAnswer": "In my opinion, owing business before go to work have many advantages.\nFirst , own business help me acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during the start-up period.\nIn addition, starting a business provides a comprehensive perspective of society, which makes us more reliable and responsible.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 24,
+        "sha256": "0425720ffd401409cc276b155770a91c9fd0c6342baeade9bf1af3625de6b933"
+      }
     },
     {
       "uid": "5-真题25在公司上班前有过创业经验的好处.json-11",
@@ -10761,7 +10893,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "创业经验对职场工作的好处",
       "prompt": "What are the advantages of having own business experience before working as an employee in a company?",
-      "answer": "There are several obvious advantages of having own business experience before becoming a company employee. First of all, people who have created businesses have a strong spirit of hard work. They are used to facing challenges and solving problems independently, so they will work harder in the company. Secondly, they have a higher sense of responsibility. When running their own business, they need to take full responsibility for every decision, which makes them have clear objectives and try their best to achieve the company's goals at work. Finally, they have a better global awareness. They understand how a business operates from product development to market promotion, which can help them consider problems comprehensively and do their work better. Therefore, own business experience is a valuable asset for employees.",
+      "answer": "In my opinion, owing business before go to work have many advantages.\nFirst , own business help me acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during the start-up period.\nIn addition, starting a business provides a comprehensive perspective of society, which makes us more reliable and responsible.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10769,7 +10901,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "several obvious advantages having own",
-      "questionBankAnswer": "There are several obvious advantages of having own business experience before becoming a company employee. First of all, people who have created businesses have a strong spirit of hard work. They are used to facing challenges and solving problems independently, so they will work harder in the company. Secondly, they have a higher sense of responsibility. When running their own business, they need to take full responsibility for every decision, which makes them have clear objectives and try their best to achieve the company's goals at work. Finally, they have a better global awareness. They understand how a business operates from product development to market promotion, which can help them consider problems comprehensively and do their work better. Therefore, own business experience is a valuable asset for employees."
+      "questionBankAnswer": "In my opinion, owing business before go to work have many advantages.\nFirst , own business help me acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people during the start-up period.\nIn addition, starting a business provides a comprehensive perspective of society, which makes us more reliable and responsible.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 25,
+        "sha256": "0425720ffd401409cc276b155770a91c9fd0c6342baeade9bf1af3625de6b933"
+      }
     },
     {
       "uid": "5-真题26是现有的工作更让你开心.json-11",
@@ -10781,7 +10919,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "现有工作与居住地点哪个更让人开心",
       "prompt": "Question: Which makes you happier, your current job or the location where you live?",
-      "answer": "In my opinion, current job makes me much happier, there are several reasons. Firstly, my current job makes me earn enough money to buy a house and raise children, and I am very grateful. Secondly, my current job is very interesting. I can go to many places to work and travel, and I am very happy. Thirdly, I have a group of very good colleagues, and I have a great time getting along with them. So compared with the living location, my current job brings me more happiness.",
+      "answer": "In my opinion, I am satisfied with the current job.\nFirst, my current job helps me acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people in my company.\nIn addition, joining my company job provides a comprehensive perspective of society, which makes us more reliable and responsible.",
       "reason": "泛职场话题但不属于最高频核心模板，放在第二轮练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10789,7 +10927,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion current job makes happier",
-      "questionBankAnswer": "In my opinion, current job makes me much happier, there are several reasons. Firstly, my current job makes me earn enough money to buy a house and raise children, and I am very grateful. Secondly, my current job is very interesting. I can go to many places to work and travel, and I am very happy. Thirdly, I have a group of very good colleagues, and I have a great time getting along with them. So compared with the living location, my current job brings me more happiness."
+      "questionBankAnswer": "In my opinion, I am satisfied with the current job.\nFirst, my current job helps me acquire practical knowledge and improve abilities, which can give me a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more people in my company.\nIn addition, joining my company job provides a comprehensive perspective of society, which makes us more reliable and responsible.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 26,
+        "sha256": "c203d8e83ab638926845e2c629338ef73cc9b6f659ff98d51c28a55c60fd42e5"
+      }
     },
     {
       "uid": "5-真题34职业生涯中频繁更换公司的好处.json-1",
@@ -10801,7 +10945,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业发展",
       "prompt": "职业生涯中，频繁更换公司的优点？",
-      "answer": "I think there are several advantages to changing companies often in your career. First, it helps you gain more experience in different industries or fields. Each company has its own way of working, so you can learn new skills and improve your adaptability. Second, changing jobs can help you find a better fit for your personal goals and values. Lastly, frequent job changes can increase your network and make you more competitive in the job market.",
+      "answer": "In my opinion, there are several advantages to changing jobs frequently in career.\nFirst, different companies and industries help individuals acquire practical knowledge and improve abilities.\nSecond, a wider professional network for careers can be built by meeting more people in different companies.\nIn addition, changing jobs may help us find a better position with a higher salary.\nFor these reasons, it often can be helpful for career development.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10809,7 +10953,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think several advantages changing companies",
-      "questionBankAnswer": "I think there are several advantages to changing companies often in your career. First, it helps you gain more experience in different industries or fields. Each company has its own way of working, so you can learn new skills and improve your adaptability. Second, changing jobs can help you find a better fit for your personal goals and values. Lastly, frequent job changes can increase your network and make you more competitive in the job market."
+      "questionBankAnswer": "In my opinion, there are several advantages to changing jobs frequently in career.\nFirst, different companies and industries help individuals acquire practical knowledge and improve abilities.\nSecond, a wider professional network for careers can be built by meeting more people in different companies.\nIn addition, changing jobs may help us find a better position with a higher salary.\nFor these reasons, it often can be helpful for career development.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 34,
+        "sha256": "c02ba7a2eeb28f2a88abbb48b5088a49e01e88c968618dc671a10af2d236b7e0"
+      }
     },
     {
       "uid": "5-真题35父母让孩子做家务的好处.json-1",
@@ -10821,7 +10971,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "孩子做家务的好处",
       "prompt": "What are the benefits of children doing housework?",
-      "answer": "I think there are several benefits. First, doing housework helps children learn responsibility and develop good habits. Second, it teaches them teamwork and cooperation, especially when they work with family members. Also, it can improve their life skills and make them more independent.",
+      "answer": "In my opinion, there are several advantages for children to do housework.\nFirst, housework helps children acquire practical knowledge and improve abilities. They can know how to organize and take care of their living environment.\nSecond, a good relationship can be built between children and parents, making the family more harmonious.\nIn addition, doing housework helps children gain a more comprehensive perspective of society, and become more responsible and independent.\nFor these reasons, it often can be helpful for children’s growth.",
       "reason": "泛职场话题但不属于最高频核心模板，放在第二轮练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10829,7 +10979,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "think several benefits doing housework",
-      "questionBankAnswer": "I think there are several benefits. First, doing housework helps children learn responsibility and develop good habits. Second, it teaches them teamwork and cooperation, especially when they work with family members. Also, it can improve their life skills and make them more independent."
+      "questionBankAnswer": "In my opinion, there are several advantages for children to do housework.\nFirst, housework helps children acquire practical knowledge and improve abilities. They can know how to organize and take care of their living environment.\nSecond, a good relationship can be built between children and parents, making the family more harmonious.\nIn addition, doing housework helps children gain a more comprehensive perspective of society, and become more responsible and independent.\nFor these reasons, it often can be helpful for children’s growth.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 35,
+        "sha256": "b757fd28049a0dc384744ab7729189ddf1ab2a128ef73a98fce5106e8b32a7f3"
+      }
     },
     {
       "uid": "5-真题39技术是否很难平衡工作和生活.json-1",
@@ -10841,7 +10997,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "技术与工作生活平衡",
       "prompt": "Does technology make it difficult to balance work and personal life? Explain your opinion.",
-      "answer": "In my experience, technology makes it harder to balance work and personal life. Work messages and emails can arrive at any time, even after office hours. People are often expected to respond quickly, which reduces relaxation time. Being constantly connected makes it difficult to disconnect fully. Therefore, technology can interfere with maintaining a healthy work-life balance.",
+      "answer": "In my opinion,  technology actually helps people achieve  a better work-life balance.\nFirst, various tools and software help individuals improve work efficiency, as those who are skilled at using technology, especially AI, can finish tasks more quickly.\nSecond, flexible working is made possible by technology, which allows people to work from home and avoid long commutes, so they have more time to stay with their families.\nOf course, smartphones left employers contact employees at any time, even on weekends and holidays. However, without technology people would face huge work pressure and even have no time for leisure activities.\nFor these reasons,  technology brings great convenience and helps us balance work and life in a smart way.",
       "reason": "职业发展、教育背景或工作选择类观点题，第二轮重点练。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10849,7 +11005,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "experience technology makes harder balance",
-      "questionBankAnswer": "In my experience, technology makes it harder to balance work and personal life. Work messages and emails can arrive at any time, even after office hours. People are often expected to respond quickly, which reduces relaxation time. Being constantly connected makes it difficult to disconnect fully. Therefore, technology can interfere with maintaining a healthy work-life balance."
+      "questionBankAnswer": "In my opinion,  technology actually helps people achieve  a better work-life balance.\nFirst, various tools and software help individuals improve work efficiency, as those who are skilled at using technology, especially AI, can finish tasks more quickly.\nSecond, flexible working is made possible by technology, which allows people to work from home and avoid long commutes, so they have more time to stay with their families.\nOf course, smartphones left employers contact employees at any time, even on weekends and holidays. However, without technology people would face huge work pressure and even have no time for leisure activities.\nFor these reasons,  technology brings great convenience and helps us balance work and life in a smart way.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 39,
+        "sha256": "92947f761db7568fcf615d96d5a1ae64e111729b0c8e686993a330558b267b52"
+      }
     },
     {
       "uid": "5-真题03改变国家图书馆.json-1",
@@ -10861,7 +11023,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "图书馆改进",
       "prompt": "如果你可以改变你们国家的图书馆，你想改变哪一件事，为什么？",
-      "answer": "If I could change one thing about our national library, I would improve its digital services. By providing more online books and resources, people could access information anytime and anywhere. This would be especially helpful for students and working adults, and it would encourage more people to read and learn.",
+      "answer": "In my opinion, if I could change one thing about libraries in my country, I would add more quite study rooms and modern digital facilities.\nFirst , private study rooms help people study more efficiently, as they can focus better on reading and studying\nSecond, more computers, free WIFI and charging stations should be provided, with digital resources, people can read e-books, search for information easily, and study online\nIn addition, improving the study environment can attract more young people to visit libraries and develop good reading habits.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10869,7 +11031,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "change thing national library improve",
-      "questionBankAnswer": "If I could change one thing about our national library, I would improve its digital services. By providing more online books and resources, people could access information anytime and anywhere. This would be especially helpful for students and working adults, and it would encourage more people to read and learn."
+      "questionBankAnswer": "In my opinion, if I could change one thing about libraries in my country, I would add more quite study rooms and modern digital facilities.\nFirst , private study rooms help people study more efficiently, as they can focus better on reading and studying\nSecond, more computers, free WIFI and charging stations should be provided, with digital resources, people can read e-books, search for information easily, and study online\nIn addition, improving the study environment can attract more young people to visit libraries and develop good reading habits.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 3,
+        "sha256": "4198bcf157bcbc3d06932f0cf0ddf2ad0eeb7f1959b3bc0a33fe344c26841c04"
+      }
     },
     {
       "uid": "5-真题05网上读新闻的坏处.json-1",
@@ -10881,7 +11049,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "网络新闻缺点",
       "prompt": "网上阅读新闻有哪些坏处？",
-      "answer": "In my opinion, reading news online has several disadvantages. First, some online news is inaccurate or even fake, which may mislead readers. Second, there is too much repeated information, which wastes time. Finally, recommendation systems may limit what we see and reduce our understanding of different viewpoints. Therefore, people should be careful when reading news online.",
+      "answer": "In my opinion, there are some disadvantages of getting news from the internet.\nFirst, much online information is not true or reliable. Since anyone can post content, there is a lot of fake news and inaccurate reports.\nSecond, objective and complete information about society cannot be obtained since online news is usually summarized, making it hard for readers to grasp the full context\nIn addition, reading news online can be harmful to our health. Staring at screens for a long time may cause eye strain and affect our sleep quality",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10889,7 +11057,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion reading news online several",
-      "questionBankAnswer": "In my opinion, reading news online has several disadvantages. First, some online news is inaccurate or even fake, which may mislead readers. Second, there is too much repeated information, which wastes time. Finally, recommendation systems may limit what we see and reduce our understanding of different viewpoints. Therefore, people should be careful when reading news online."
+      "questionBankAnswer": "In my opinion, there are some disadvantages of getting news from the internet.\nFirst, much online information is not true or reliable. Since anyone can post content, there is a lot of fake news and inaccurate reports.\nSecond, objective and complete information about society cannot be obtained since online news is usually summarized, making it hard for readers to grasp the full context\nIn addition, reading news online can be harmful to our health. Staring at screens for a long time may cause eye strain and affect our sleep quality",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 5,
+        "sha256": "4b7eb52e4d2847c481df10e7a9b967fb4e784c68e2a6ef9dae9ce050e674c375"
+      }
     },
     {
       "uid": "5-真题06未来一代为什么比现在一代更健康.json-1",
@@ -10901,7 +11075,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "健康趋势",
       "prompt": "为什么未来一代会比现在一代更健康？",
-      "answer": "I believe future generations will be healthier than the current generation for several reasons. First, medical technology will continue to improve, allowing people to prevent and treat diseases more effectively. Second, people are becoming more aware of the importance of exercise and healthy diets. Finally, schools and governments are paying more attention to health education, which helps children develop good habits from a young age.",
+      "answer": "I believe people now and in the future will be healthier than before.\nFirst, medical technology is developing rapidly. New treatments, medicine\ts and health devices help people prevent and cure diseases more efficiently.\nSecond, people pay more attention to healthy lifestyles. They choose better food, exercise regularly and get enough rest.\nThird, the public environment is improving. Cleaner water, better air and safer food help people stay healthy.\nIn addition, people can easily get health information online and take good care of themselves.\nFor these reasons, people will become healthier and live longer.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10909,7 +11083,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "believe future generations healthier current",
-      "questionBankAnswer": "I believe future generations will be healthier than the current generation for several reasons. First, medical technology will continue to improve, allowing people to prevent and treat diseases more effectively. Second, people are becoming more aware of the importance of exercise and healthy diets. Finally, schools and governments are paying more attention to health education, which helps children develop good habits from a young age."
+      "questionBankAnswer": "I believe people now and in the future will be healthier than before.\nFirst, medical technology is developing rapidly. New treatments, medicine\ts and health devices help people prevent and cure diseases more efficiently.\nSecond, people pay more attention to healthy lifestyles. They choose better food, exercise regularly and get enough rest.\nThird, the public environment is improving. Cleaner water, better air and safer food help people stay healthy.\nIn addition, people can easily get health information online and take good care of themselves.\nFor these reasons, people will become healthier and live longer.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 6,
+        "sha256": "23ccc516b99b57cf63a3d48e67dbddec1084d3163b7b410e0146530cc7a4cb88"
+      }
     },
     {
       "uid": "5-真题07老师能否让学生带电子设备.json-1",
@@ -10921,7 +11101,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "教育管理与课堂纪律",
       "prompt": "老师是否应该禁止学生带电子设备（手机、电脑）到教室？为什么？",
-      "answer": "In my opinion, teachers should limit but not completely ban electronic devices in classrooms. On one hand, devices can distract students if they are used for games or social media. On the other hand, electronic devices can be helpful learning tools when used properly, such as for research or educational apps. Therefore, teachers should set clear rules instead of totally banning them.",
+      "answer": "In my opinion, I think teachers should ban electronic devices in the classroom.\nFirst , they might lack the ability to control themselves and be easily distracted by phones or computers.\nSecond, driving too early could influence their studies if they spend too much time on electronic devices.\nIn addition, using them too much could have a negative influence on their studies if they spend too much time on electronic devices.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10929,7 +11109,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion teachers limit not completely",
-      "questionBankAnswer": "In my opinion, teachers should limit but not completely ban electronic devices in classrooms. On one hand, devices can distract students if they are used for games or social media. On the other hand, electronic devices can be helpful learning tools when used properly, such as for research or educational apps. Therefore, teachers should set clear rules instead of totally banning them."
+      "questionBankAnswer": "In my opinion, I think teachers should ban electronic devices in the classroom.\nFirst , they might lack the ability to control themselves and be easily distracted by phones or computers.\nSecond, driving too early could influence their studies if they spend too much time on electronic devices.\nIn addition, using them too much could have a negative influence on their studies if they spend too much time on electronic devices.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 7,
+        "sha256": "d97acdd9d47efa43f3ab14c79fd7d23e99674b86c69b5a3d0abdf72fce34c012"
+      }
     },
     {
       "uid": "5-真题10买房比租房的缺点.json-1",
@@ -10941,7 +11127,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "住房比较",
       "prompt": "有一套房子或公寓与租房相比有哪些缺点？",
-      "answer": "According to my personal experience, I think having a house or an apartment has the following disadvantages compared to renting. Firstly, housing is fixed in one place and cannot be changed at any time, while rental locations can be adjusted according to our work, making life more convenient. Secondly, the economic pressure of housing is high. In China, houses are expensive. If you buy a house, you must pay the mortgage every month and it may affect your quality of life. Finally, maintenance and repair responsibilities fall on the owner, which may be costly. Therefore, I prefer renting a house, which offers more flexibility and less financial stress.",
+      "answer": "In my opinion, there are several disadvantages of owning a house compared with renting an apartment.\nFirst, buying a house costs a huge amount of money. People need to pay a large down payment and monthly mortgage for many years, which brings heavy financial pressure.\nSecond, owning a house reduces flexibility. It is not easy to move to another city for a better job or a new lifestyle.\nThird, homeowners have to spend extra money and time on maintenance, repairs and property taxes.\nIn contrast, renting is cheaper, more flexible and more convenient for modern people.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10949,7 +11135,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think having",
-      "questionBankAnswer": "According to my personal experience, I think having a house or an apartment has the following disadvantages compared to renting. Firstly, housing is fixed in one place and cannot be changed at any time, while rental locations can be adjusted according to our work, making life more convenient. Secondly, the economic pressure of housing is high. In China, houses are expensive. If you buy a house, you must pay the mortgage every month and it may affect your quality of life. Finally, maintenance and repair responsibilities fall on the owner, which may be costly. Therefore, I prefer renting a house, which offers more flexibility and less financial stress."
+      "questionBankAnswer": "In my opinion, there are several disadvantages of owning a house compared with renting an apartment.\nFirst, buying a house costs a huge amount of money. People need to pay a large down payment and monthly mortgage for many years, which brings heavy financial pressure.\nSecond, owning a house reduces flexibility. It is not easy to move to another city for a better job or a new lifestyle.\nThird, homeowners have to spend extra money and time on maintenance, repairs and property taxes.\nIn contrast, renting is cheaper, more flexible and more convenient for modern people.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 10,
+        "sha256": "e4af3eadfd36359a7183b30aa63df6eccfc88a128b88b174d2ff0c645881fd77"
+      }
     },
     {
       "uid": "5-真题11政府提供免费大学课程的好处有哪些.json-1",
@@ -10961,7 +11153,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "教育政策",
       "prompt": "政府为所有学生承担大学课程费用有哪些好处？请举例支撑你的观点。",
-      "answer": "According to my personal experience, I think there are several advantages of providing free university courses for all students. Firstly, it can give every student the opportunity to go to college, no matter how much money the student's parents have. Many families in the countryside cannot afford college tuition. Secondly, with more educated people, the country's education level will rise and the country will become stronger. Thirdly, it may reduce social inequality and allow students to focus on learning rather than worrying about tuition. All of the above are my opinions.",
+      "answer": "There are many benefits if the government pays for all college courses.\nFirst, free higher education gives equal opportunities to every student. Poor students can also go to university without worrying about tuition fees.\nSecond, it helps improve the whole education level of society. More people can receive professional training and become skilled workers.\nThird, students can study more relaxedly. They do not need to take part-time jobs frequently, so they can focus on their studies.\nIn addition, educated people can make greater contributions to the country’s development.\nFor these reasons, free college education is really good for both individuals and society.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10969,7 +11161,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think several",
-      "questionBankAnswer": "According to my personal experience, I think there are several advantages of providing free university courses for all students. Firstly, it can give every student the opportunity to go to college, no matter how much money the student's parents have. Many families in the countryside cannot afford college tuition. Secondly, with more educated people, the country's education level will rise and the country will become stronger. Thirdly, it may reduce social inequality and allow students to focus on learning rather than worrying about tuition. All of the above are my opinions."
+      "questionBankAnswer": "There are many benefits if the government pays for all college courses.\nFirst, free higher education gives equal opportunities to every student. Poor students can also go to university without worrying about tuition fees.\nSecond, it helps improve the whole education level of society. More people can receive professional training and become skilled workers.\nThird, students can study more relaxedly. They do not need to take part-time jobs frequently, so they can focus on their studies.\nIn addition, educated people can make greater contributions to the country’s development.\nFor these reasons, free college education is really good for both individuals and society.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 11,
+        "sha256": "dc8d92e437ca3583b0e550c94343717559539cdae63bccf6ba74e6904e3a1f29"
+      }
     },
     {
       "uid": "5-真题16有钱就快乐吗.json-1",
@@ -10981,7 +11179,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "财富与幸福",
       "prompt": "有钱就快乐吗？请给出理由。",
-      "answer": "This is a funny topic. I don’t have much money, so to be honest, I don’t know whether rich people are happy. But according to my experience, if you don’t have money, you will not be happy. For example, houses are very expensive in China. Without enough money, you cannot buy a house, get married, or provide city education for your children. Medical care is costly and poor people may not be treated in time. In a word, money doesn’t mean everything, but no money means nothing.",
+      "answer": "This is a funny topic. I don’t have much money. \nSo, to be honest,  I don’t know whether rich people are happy or not. But, according to my experience, if you don’t have money, you will not be happy, I just want to give an example of mine.\nThe house is very expensive in china, if I don’t have enough money, I can’t buy a house, and I even can’t get married, and my children can’t enter the school in the city, and can’t have the basic education. The medical care is also costly. Poor people will not be treated in time.\nIn a word, money doesn’t mean everything, but no money means nothing.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -10989,7 +11187,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "funny topic don money honest",
-      "questionBankAnswer": "This is a funny topic. I don’t have much money, so to be honest, I don’t know whether rich people are happy. But according to my experience, if you don’t have money, you will not be happy. For example, houses are very expensive in China. Without enough money, you cannot buy a house, get married, or provide city education for your children. Medical care is costly and poor people may not be treated in time. In a word, money doesn’t mean everything, but no money means nothing."
+      "questionBankAnswer": "This is a funny topic. I don’t have much money. \nSo, to be honest,  I don’t know whether rich people are happy or not. But, according to my experience, if you don’t have money, you will not be happy, I just want to give an example of mine.\nThe house is very expensive in china, if I don’t have enough money, I can’t buy a house, and I even can’t get married, and my children can’t enter the school in the city, and can’t have the basic education. The medical care is also costly. Poor people will not be treated in time.\nIn a word, money doesn’t mean everything, but no money means nothing.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 16,
+        "sha256": "7d38b68eb06ef24de86d37c7afa4e8a39179d80dcecc4b2dae983ed8b0738c7a"
+      }
     },
     {
       "uid": "5-真题20独自运动还是.json-1",
@@ -11001,7 +11205,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "运动偏好",
       "prompt": "运动时你喜欢独自运动还是群体运动？为什么？",
-      "answer": "I prefer group sports because they are more motivating and fun. Exercising with friends or in a team encourages me to push harder and helps me build social connections. However, sometimes I also enjoy solo exercise for concentration and relaxation.",
+      "answer": "I want to exercise along, there are many advantages:\nFirst but most important, not everyone can keep working out. If I work out with others, slacker will affect me.\nSecondly, I can use different equipment to exercise every part of my body by myself without any help. I can concentrate on working out alone.\nFinally, I am busy at my work, I can go to exercise when I have time, I don’t need to wait for others. It is very free. So, I’d rather work out alone.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11009,7 +11213,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "prefer group sports motivating fun",
-      "questionBankAnswer": "I prefer group sports because they are more motivating and fun. Exercising with friends or in a team encourages me to push harder and helps me build social connections. However, sometimes I also enjoy solo exercise for concentration and relaxation."
+      "questionBankAnswer": "I want to exercise along, there are many advantages:\nFirst but most important, not everyone can keep working out. If I work out with others, slacker will affect me.\nSecondly, I can use different equipment to exercise every part of my body by myself without any help. I can concentrate on working out alone.\nFinally, I am busy at my work, I can go to exercise when I have time, I don’t need to wait for others. It is very free. So, I’d rather work out alone.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 20,
+        "sha256": "c6c5389341d1828bf5a8b03bca540cc4c0fcfaab1a1aa6db0cc40c8265e36684"
+      }
     },
     {
       "uid": "5-真题23大学毕业继续和父母住还是单独住.json-1",
@@ -11021,7 +11231,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "毕业后居住选择",
       "prompt": "大学毕业后，继续和父母一起住合适还是单独住合适，为什么？",
-      "answer": "According to my personal experience, I think I will continue to live with my parents after graduating from university. There are several reasons. Firstly, in China, young people often work late and have no time to take care of themselves. Parents can help with daily life. Secondly, we are under pressure from work and life; parents have much experience to give advice, helping us solve problems correctly. Finally, parents can cook delicious food, which allows us to focus on work.",
+      "answer": "In my opinion, there are several advantages for students to live alone.\nFirst, living alone children have to deal with housework by themselves, help children acquire practical knowledge and improve abilities. They can learn how to organize and take care of their living environment.\nSecond, a good relationship can be built between xx and xx without controlling, making the family atmosphere more harmonious.\nIn addition, doing housework helps children gain a comprehensive perspective of society, and become more responsible and independent.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11029,7 +11239,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think continue",
-      "questionBankAnswer": "According to my personal experience, I think I will continue to live with my parents after graduating from university. There are several reasons. Firstly, in China, young people often work late and have no time to take care of themselves. Parents can help with daily life. Secondly, we are under pressure from work and life; parents have much experience to give advice, helping us solve problems correctly. Finally, parents can cook delicious food, which allows us to focus on work."
+      "questionBankAnswer": "In my opinion, there are several advantages for students to live alone.\nFirst, living alone children have to deal with housework by themselves, help children acquire practical knowledge and improve abilities. They can learn how to organize and take care of their living environment.\nSecond, a good relationship can be built between xx and xx without controlling, making the family atmosphere more harmonious.\nIn addition, doing housework helps children gain a comprehensive perspective of society, and become more responsible and independent.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 23,
+        "sha256": "bc41702ee431f3ed6049776b88757f12460106da2f7ec1a141d15f81cc8a9faf"
+      }
     },
     {
       "uid": "5-真题28你认为elementary school的学生是否需要开始学英语.json-1",
@@ -11041,7 +11257,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "小学英语学习",
       "prompt": "你认为小学学生是否需要开始学习英语？",
-      "answer": "According to my personal experience, I think the students of elementary school should learn English. There are several reasons to support my opinion. Firstly, they can learn global communication because English is an international language for business and travel. Learning it early can help children prepare for future opportunities and connect with people worldwide. Secondly, learning English early can improve memory and problem-solving skills which is helpful for higher education. Finally, they can gain different cultural understanding, which helps develop an open-minded and global perspective. All of the above are my opinions.",
+      "answer": "In my opinion, studying English from elementary school is very necessary.\nFirst , English helps students acquire practical knowledge and improve abilities from world, which can give us a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more foreign people.\nIn addition, studying English at an early age makes it much easier to learn, as children are ore receptive to new languages.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11049,7 +11265,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience think students",
-      "questionBankAnswer": "According to my personal experience, I think the students of elementary school should learn English. There are several reasons to support my opinion. Firstly, they can learn global communication because English is an international language for business and travel. Learning it early can help children prepare for future opportunities and connect with people worldwide. Secondly, learning English early can improve memory and problem-solving skills which is helpful for higher education. Finally, they can gain different cultural understanding, which helps develop an open-minded and global perspective. All of the above are my opinions."
+      "questionBankAnswer": "In my opinion, studying English from elementary school is very necessary.\nFirst , English helps students acquire practical knowledge and improve abilities from world, which can give us a lot of confidence.\nSecond, a wider professional network for careers can be built by meeting more foreign people.\nIn addition, studying English at an early age makes it much easier to learn, as children are ore receptive to new languages.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 28,
+        "sha256": "a95257b22bc0e0e52473b8d9d1e097d49022cb8f541616a2d6005d9c437385ac"
+      }
     },
     {
       "uid": "5-真题29网络和电子设备会取代报纸吗.json-11",
@@ -11061,7 +11283,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 11,
       "topic": "网络电子设备是否会取代报纸",
       "prompt": "Question: Will the internet and electronic devices replace newspapers?",
-      "answer": "In my opinion, the internet and electronic devices will eventually replace newspapers, and there are several reasons for this. First of all, electronic media can provide information in a more timely way. We can get the latest news from the internet within minutes, while newspapers can only be published once or twice a day. Secondly, digital content is more diverse. It includes not only text but also videos, audios and interactive graphics, which can make the news more interesting and vivid. Thirdly, reading news online is more environmentally friendly, as it can save a large amount of paper and reduce deforestation. However, I also admit that some people still prefer reading newspapers, especially the elderly. But overall, with the development of technology, electronic media will become the main way for people to get information.",
+      "answer": "In my opinion, the internet and electronic devices will gradually replace newspapers.\nFirst, online news is much faster and more convenient, as people can get the latest information quickly.\nSecond, digital media provides more forms of information such as videos, pictures and updates, which makes news more attractive and easier to understand.\nIn addition, using the internet and electron devices is more environmentally friendly, as it reduces the needs for paper and printing.\nFor these reasons,  traditional newspapers will be largely replaced by online media in the future.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11069,7 +11291,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "opinion internet electronic devices eventually",
-      "questionBankAnswer": "In my opinion, the internet and electronic devices will eventually replace newspapers, and there are several reasons for this. First of all, electronic media can provide information in a more timely way. We can get the latest news from the internet within minutes, while newspapers can only be published once or twice a day. Secondly, digital content is more diverse. It includes not only text but also videos, audios and interactive graphics, which can make the news more interesting and vivid. Thirdly, reading news online is more environmentally friendly, as it can save a large amount of paper and reduce deforestation. However, I also admit that some people still prefer reading newspapers, especially the elderly. But overall, with the development of technology, electronic media will become the main way for people to get information."
+      "questionBankAnswer": "In my opinion, the internet and electronic devices will gradually replace newspapers.\nFirst, online news is much faster and more convenient, as people can get the latest information quickly.\nSecond, digital media provides more forms of information such as videos, pictures and updates, which makes news more attractive and easier to understand.\nIn addition, using the internet and electron devices is more environmentally friendly, as it reduces the needs for paper and printing.\nFor these reasons,  traditional newspapers will be largely replaced by online media in the future.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 29,
+        "sha256": "4d30af2b37ba3564f4a76072e13ed3d49d6dbd9d756daf2960b6fbdc88de2848"
+      }
     },
     {
       "uid": "5-真题30参观热门旅游景点是熟悉这座城市的最佳方式.json-1",
@@ -11081,7 +11309,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "旅游方式选择",
       "prompt": "参观热门旅游景点是否是熟悉一座城市的最佳方式？",
-      "answer": "According to my personal experience, visiting popular tourist attractions is a way to become familiar with a city, but not the best way. Tourist attractions often reflect the city's culture and history, helping us build a general impression. However, standardized tourism experiences may create a filter effect that hides real local life. I recommend combining 30% tourist attractions with 70% community exploration to understand a city better.",
+      "answer": "In my opinion, I agree with that visiting popular attractions is the best way to get familiar with a city.\nFirst, popular tourist attractions help tourist know the history and culture of the city. As they can learn many interesting stories and understand local tranditions clearly.\nSecond, these spots are usually easy to find and visit. We can get useful information and maps which help us avoid getting lost.\nIn addition, being close to restaurants, shops and public transport, these spots let us quickly learn about the city’s lifestyle and daily life.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11089,7 +11317,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "according personal experience visiting popular",
-      "questionBankAnswer": "According to my personal experience, visiting popular tourist attractions is a way to become familiar with a city, but not the best way. Tourist attractions often reflect the city's culture and history, helping us build a general impression. However, standardized tourism experiences may create a filter effect that hides real local life. I recommend combining 30% tourist attractions with 70% community exploration to understand a city better."
+      "questionBankAnswer": "In my opinion, I agree with that visiting popular attractions is the best way to get familiar with a city.\nFirst, popular tourist attractions help tourist know the history and culture of the city. As they can learn many interesting stories and understand local tranditions clearly.\nSecond, these spots are usually easy to find and visit. We can get useful information and maps which help us avoid getting lost.\nIn addition, being close to restaurants, shops and public transport, these spots let us quickly learn about the city’s lifestyle and daily life.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 30,
+        "sha256": "11dbad3f3190612d066b3fc53d97967775fbf1dc5707aa626120a1ef38efa077"
+      }
     },
     {
       "uid": "5-真题33在21岁以下开车的坏处.json-1",
@@ -11101,7 +11335,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "交通安全",
       "prompt": "21岁以下开车有哪些坏处？",
-      "answer": "One disadvantage is the high risk of accidents because young drivers often lack experience and may make poor decisions. Another disadvantage is the high cost of insurance because drivers under 21 are considered high-risk. These are the main problems of driving before the age of 21.",
+      "answer": "In my opinion, there are several disadvantages to driving under the age of 21.\nFirst, young drivers who lacking driving experience are more likely to cause traffic accidents, they should drive car under adult’s guidance.\nSecond, they might be less responsible and easily distracted by phones or friends.\nIn addition, driving too early could influence their studies if they spend too much time on the road.\nFor these reasons, if is not safe or suitable for people under 21 to drive.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11109,7 +11343,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "disadvantage high risk accidents young",
-      "questionBankAnswer": "One disadvantage is the high risk of accidents because young drivers often lack experience and may make poor decisions. Another disadvantage is the high cost of insurance because drivers under 21 are considered high-risk. These are the main problems of driving before the age of 21."
+      "questionBankAnswer": "In my opinion, there are several disadvantages to driving under the age of 21.\nFirst, young drivers who lacking driving experience are more likely to cause traffic accidents, they should drive car under adult’s guidance.\nSecond, they might be less responsible and easily distracted by phones or friends.\nIn addition, driving too early could influence their studies if they spend too much time on the road.\nFor these reasons, if is not safe or suitable for people under 21 to drive.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 33,
+        "sha256": "a23eff27a9fad550768fd7cd73f9f24979236af31c42319ca845386daee30b3d"
+      }
     },
     {
       "uid": "5-真题38当医生有什么好处.json-1",
@@ -11121,7 +11361,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "职业优势",
       "prompt": "作为一名医生有什么好处？",
-      "answer": "There are many advantages to being a doctor. First, doctors help people by saving lives, treating sickness, and making patients healthy. Second, they earn respect because doctors are trusted and admired in society. Third, the salary is good, providing a comfortable life. Doctors also have job security since medical professionals are needed everywhere. Additionally, they learn new things every day through new diseases, treatments, and technology. Finally, doctors can work in hospitals, clinics, or even abroad, making a real difference in families and communities.",
+      "answer": "In my opinion, there are several advantages to being a doctor.\nFirst, doctors can save lives and bring hope to patients and their families, which makes a great contribution to society.\nSecond, trust can be built between doctors and patients, giving doctors a strong sense of achievement.\nIn addition, working as a doctor often provides a good position with a higher salary.\nFor these reasons, working as a doctor is valuable and rewarding.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11129,7 +11369,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "advantages doctor doctors help people",
-      "questionBankAnswer": "There are many advantages to being a doctor. First, doctors help people by saving lives, treating sickness, and making patients healthy. Second, they earn respect because doctors are trusted and admired in society. Third, the salary is good, providing a comfortable life. Doctors also have job security since medical professionals are needed everywhere. Additionally, they learn new things every day through new diseases, treatments, and technology. Finally, doctors can work in hospitals, clinics, or even abroad, making a real difference in families and communities."
+      "questionBankAnswer": "In my opinion, there are several advantages to being a doctor.\nFirst, doctors can save lives and bring hope to patients and their families, which makes a great contribution to society.\nSecond, trust can be built between doctors and patients, giving doctors a strong sense of achievement.\nIn addition, working as a doctor often provides a good position with a higher salary.\nFor these reasons, working as a doctor is valuable and rewarding.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 38,
+        "sha256": "7a24147ad155cc27e375fa4232d7496a5618481f074c61899c1f86c4d55b3ba3"
+      }
     },
     {
       "uid": "5-真题40大学生是否应该花时间去参加社区活动.json-1",
@@ -11141,7 +11387,7 @@ window.TOEIC_REVIEW_DATA = {
       "questionId": 1,
       "topic": "社区活动",
       "prompt": "大学生是否应该花时间去参加社区活动？",
-      "answer": "Yes, I think college students should participate in community activities. It helps them develop social skills, meet new people, and gain practical experience. Such involvement can improve teamwork, communication, and time management skills. It also looks good on resumes and prepares students for real-life challenges, making it a valuable part of their personal and professional growth.",
+      "answer": "In my opinion, people should spend more time on community activities.\nFirst, community activities help individuals acquire knowledge and improve abilities. They can learn how to organize and take care of their living environment \nSecond, a wider professional network for careers can be built by meeting more people through various activities.\nIn addition, joining community activities provides a comprehensive perspective of society, which makes them more reliable and credible.\nFor these reasons, it’s a great way to grow and learn more about the world.",
       "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
       "instructions": "请针对以下情况表达一个观点：",
       "imagePath": "",
@@ -11149,7 +11395,13 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 60,
       "difficulty": "hard",
       "keywords": "yes think college students participate",
-      "questionBankAnswer": "Yes, I think college students should participate in community activities. It helps them develop social skills, meet new people, and gain practical experience. Such involvement can improve teamwork, communication, and time management skills. It also looks good on resumes and prepares students for real-life challenges, making it a valuable part of their personal and professional growth."
+      "questionBankAnswer": "In my opinion, people should spend more time on community activities.\nFirst, community activities help individuals acquire knowledge and improve abilities. They can learn how to organize and take care of their living environment \nSecond, a wider professional network for careers can be built by meeting more people through various activities.\nIn addition, joining community activities provides a comprehensive perspective of society, which makes them more reliable and credible.\nFor these reasons, it’s a great way to grow and learn more about the world.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "toeic_part5.md",
+        "section": 40,
+        "sha256": "9631f257777861201ed384ecbe4444192efc8ff9ffa383a9e12e15b8115631b4"
+      }
     }
   ]
 };
