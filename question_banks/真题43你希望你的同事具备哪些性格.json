@@ -1,0 +1,220 @@
+{
+  "name": "真题43 你希望你的同事具备哪些性格",
+  "number": 43,
+  "source_document": "43_45.docx",
+  "total_questions": 11,
+  "parts": [
+    {
+      "part": 1,
+      "part_name": "朗读短文",
+      "instructions": "请朗读以下短文：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Dear customers, thank you for choosing Fresh Market. Starting next Monday, our opening hours will change. We will now be open from 9 a.m. to 9 p.m. every day, including Sundays. In addition, our free parking garage on the ground floor will be open around the clock for your convenience.",
+          "reference_answer": "Dear customers, thank you for choosing Fresh Market. Starting next Monday, our opening hours will change. We will now be open from 9 a.m. to 9 p.m. every day, including Sundays. In addition, our free parking garage on the ground floor will be open around the clock for your convenience.",
+          "preparation_time": 45,
+          "answer_time": 45,
+          "topic": "超市营业时间公告",
+          "difficulty": "easy",
+          "keywords": "dear customers thank you for choosing fresh market starting next monday our"
+        },
+        {
+          "id": 2,
+          "question": "Attention please. Because cold weather is expected later this week, several bridges along the river will be closed to vehicles starting at 6 p.m. on Thursday. In addition, some shops and cafés near the waterfront will close early at 5 p.m. that day. Please plan your trips accordingly and allow extra time for your commute.",
+          "reference_answer": "Attention please. Because cold weather is expected later this week, several bridges along the river will be closed to vehicles starting at 6 p.m. on Thursday. In addition, some shops and cafés near the waterfront will close early at 5 p.m. that day. Please plan your trips accordingly and allow extra time for your commute.",
+          "preparation_time": 45,
+          "answer_time": 45,
+          "topic": "寒冷天气交通通知",
+          "difficulty": "easy",
+          "keywords": "attention please because cold weather is expected later this week several bridges"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "part_name": "描述图片",
+      "instructions": "请描述以下图片：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Describe the photo in detail.",
+          "reference_answer": "This is a picture taken inside a café. In the middle of the room, two women are sitting at a table, having a conversation, and there are cups in front of them. On the right side, a man is standing while holding a cup of coffee. The café is cozy, with warm lighting and a counter in the background, which suggests a relaxed atmosphere where people enjoy their drinks and chat with each other.",
+          "preparation_time": 45,
+          "answer_time": 30,
+          "topic": "咖啡馆交谈",
+          "difficulty": "medium",
+          "keywords": "describe the photo in detail",
+          "image_description": "A café; two women sit at a table talking, a man stands holding a cup of coffee",
+          "picture_path": "images/web/真题43-1.webp",
+          "docx_image": "word/media/image1.png"
+        },
+        {
+          "id": 2,
+          "question": "Describe the photo in detail.",
+          "reference_answer": "This is a picture taken in an eyeglasses store. In the foreground, a man and a woman are sitting at a counter and talking with each other. Near them, another woman is standing and looking at a pair of eyeglasses, perhaps trying one on. In the background, shelves are filled with many different styles of eyeglasses, and the store is bright and well organized.",
+          "preparation_time": 45,
+          "answer_time": 30,
+          "topic": "眼镜店服务",
+          "difficulty": "medium",
+          "keywords": "describe the photo in detail",
+          "image_description": "An eyeglasses store; a man and a woman sit talking, another woman stands trying on eyeglasses",
+          "picture_path": "images/web/真题43-2.webp",
+          "docx_image": "word/media/image2.png"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "part_name": "回答问题",
+      "instructions": "请回答以下问题：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Question 1: Do you usually watch TV shows, and how often do you watch them?",
+          "reference_answer": "Yes, I usually watch TV shows a few times a week. I mostly watch them on weekends, after dinner.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "电视观看习惯",
+          "difficulty": "medium",
+          "keywords": "question do you usually watch tv shows and how often do you"
+        },
+        {
+          "id": 2,
+          "question": "Question 2: Where do you usually watch TV shows?",
+          "reference_answer": "I usually watch them at home on the television in my living room, but sometimes I also watch them on my phone.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "观看地点",
+          "difficulty": "medium",
+          "keywords": "question where do you usually watch tv shows"
+        },
+        {
+          "id": 3,
+          "question": "Question 3: Under what circumstances would you change your TV service provider?",
+          "reference_answer": "I would change my TV service provider if the price rises too much, or if the shows and channels I like are no longer available. I might also change if the signal is poor or the customer service is slow and unhelpful.",
+          "preparation_time": 3,
+          "answer_time": 30,
+          "topic": "电视服务选择",
+          "difficulty": "medium",
+          "keywords": "question under what circumstances would you change your tv service provider"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "part_name": "信息回答",
+      "instructions": "请根据提供的信息回答问题：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Where is the meeting held, and when does the first session begin?",
+          "reference_answer": "The meeting is held at the Riverside Community Center. The first session begins at 9:30 a.m. on Monday in the Main Hall.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "会议地点和时间",
+          "difficulty": "hard",
+          "keywords": "where is the meeting held and when does the first session begin"
+        },
+        {
+          "id": 2,
+          "question": "Does one of the sessions take place on Saturday?",
+          "reference_answer": "Yes. The Kids’ Art Workshop takes place on Saturday from 9:00 to 10:00 a.m. in Room 3.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "周六活动确认",
+          "difficulty": "hard",
+          "keywords": "does one of the sessions take place on saturday"
+        },
+        {
+          "id": 3,
+          "question": "How many of the sessions are about children? Could you give me more details about them?",
+          "reference_answer": "Two of the sessions are about children. The first one is the Children’s Summer Reading Program, which is for children aged 6 to 12 and is held on Monday from 10:30 to 11:30 a.m. in Room 2. The second one is the Kids’ Art Workshop, which takes place on Saturday from 9:00 to 10:00 a.m. in Room 3, and art supplies are provided.",
+          "preparation_time": 3,
+          "answer_time": 30,
+          "topic": "儿童活动汇总",
+          "difficulty": "hard",
+          "keywords": "how many of the sessions are about children could you give me"
+        }
+      ],
+      "review_time": 45,
+      "docx_image": "word/media/image3.png",
+      "material": {
+        "title": "Riverside Community Center - Monthly Meeting Schedule",
+        "headers": [
+          "Date/Time",
+          "Activity",
+          "Location",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Monday 9:30-10:30",
+              "Opening Remarks & Budget Review",
+              "Main Hall",
+              "Free admission"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Monday 10:30-11:30",
+              "Children's Summer Reading Program",
+              "Room 2",
+              "Ages 6-12"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Saturday 9:00-10:00",
+              "Kids' Art Workshop",
+              "Room 3",
+              "Art supplies provided"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Monday 1:00-2:00",
+              "Teen Coding Club",
+              "Lab 2",
+              "Ages 13-17"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Monday 2:30-3:30",
+              "Senior Wellness Workshop",
+              "Room 1",
+              "Doctor on site"
+            ],
+            "status": ""
+          }
+        ],
+        "notes": [],
+        "missing": false,
+        "sourceImage": "./images/materials/真题43.png"
+      }
+    },
+    {
+      "part": 5,
+      "part_name": "表达观点",
+      "instructions": "请针对以下情况表达一个观点：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which personality traits do you want your colleagues to have? For example, trustworthiness, efficient communication, or friendliness.",
+          "reference_answer": "I would like my colleagues to have three main traits. The first one is trustworthiness. In a team, people rely on each other to finish shared goals, and trust is the foundation of that cooperation. When my colleagues keep their promises and handle sensitive information responsibly, I can focus on my own work without worrying. The second trait is efficient communication. Work moves faster when people state their ideas clearly, listen carefully, and give feedback in a timely way. For example, when a deadline is approaching, a brief update can save the whole team from misunderstandings and rework. The last trait is friendliness. A friendly attitude makes the workplace comfortable, and it encourages people to ask for help and share ideas openly. When colleagues are kind and supportive, small problems are solved quickly before they become big ones. In short, trustworthiness builds the foundation, efficient communication speeds up the work, and friendliness makes the team a pleasant place to be.",
+          "preparation_time": 45,
+          "answer_time": 60,
+          "topic": "同事性格与团队合作",
+          "difficulty": "hard",
+          "keywords": "which personality traits do you want your colleagues to have for example"
+        }
+      ]
+    }
+  ]
+}

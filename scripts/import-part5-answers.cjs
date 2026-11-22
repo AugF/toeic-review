@@ -28,7 +28,8 @@ function parseAnswers(markdown) {
 }
 
 function applyAnswers(data, sections) {
-  const records = data.records.filter(record => record.part === 5);
+  const records = data.records.filter(record => record.part === 5 &&
+    (!record.answerSource?.file || record.answerSource.file === "toeic_part5.md"));
   const updates = records.map(record => {
     const match = record.sourceFile.match(/^真题0*(\d+)/u);
     const section = match && sections.get(Number(match[1]));

@@ -1,0 +1,216 @@
+{
+  "name": "真题45 去一个新的城市担任新职位的优点",
+  "number": 45,
+  "source_document": "43_45.docx",
+  "total_questions": 11,
+  "parts": [
+    {
+      "part": 1,
+      "part_name": "朗读短文",
+      "instructions": "请朗读以下短文：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Welcome to Greenfield Community Clinic. Our new wellness program begins next month. Patients can enroll at the front desk or through our online portal. The program includes monthly health screenings, nutrition workshops, and a guided walking group. All services are free for registered members.",
+          "reference_answer": "Welcome to Greenfield Community Clinic. Our new wellness program begins next month. Patients can enroll at the front desk or through our online portal. The program includes monthly health screenings, nutrition workshops, and a guided walking group. All services are free for registered members.",
+          "preparation_time": 45,
+          "answer_time": 45,
+          "topic": "社区诊所健康计划",
+          "difficulty": "easy",
+          "keywords": "welcome to greenfield community clinic our new wellness program begins next month"
+        },
+        {
+          "id": 2,
+          "question": "Please be informed that the city library will be closed for maintenance this coming Friday and Saturday. All branch locations will resume normal hours on Monday. If you need to return borrowed materials during the closure, you may drop them in the collection box outside the main entrance.",
+          "reference_answer": "Please be informed that the city library will be closed for maintenance this coming Friday and Saturday. All branch locations will resume normal hours on Monday. If you need to return borrowed materials during the closure, you may drop them in the collection box outside the main entrance.",
+          "preparation_time": 45,
+          "answer_time": 45,
+          "topic": "图书馆闭馆维护通知",
+          "difficulty": "easy",
+          "keywords": "please be informed that the city library will be closed for maintenance"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "part_name": "描述图片",
+      "instructions": "请描述以下图片：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Describe the photo in detail.",
+          "reference_answer": "This is a picture taken in a modern office. In the foreground, a man is sitting at a desk, working on his laptop. To the right, a woman is standing in front of a whiteboard, pointing at a bar chart while explaining something. There are potted plants in the background and large windows letting in natural light, which gives the office a bright and professional atmosphere.",
+          "preparation_time": 45,
+          "answer_time": 30,
+          "topic": "办公室协作",
+          "difficulty": "medium",
+          "keywords": "describe the photo in detail",
+          "image_description": "A modern office; a man sits at a desk working on a laptop, a woman stands by a whiteboard pointing at a chart",
+          "picture_path": "images/web/真题45-1.webp",
+          "docx_image": "word/media/image7.png"
+        },
+        {
+          "id": 2,
+          "question": "Describe the photo in detail.",
+          "reference_answer": "This is a picture of a busy city street near a train station. In the center, a person is walking while pulling a suitcase, possibly just arriving in the city. In the background, there are several shops with colorful signs and other pedestrians going about their day. A large clock is visible on the station building, and the sky appears clear, suggesting it is a fine day.",
+          "preparation_time": 45,
+          "answer_time": 30,
+          "topic": "火车站街景",
+          "difficulty": "medium",
+          "keywords": "describe the photo in detail",
+          "image_description": "A city street; a person walks with a suitcase past a train station, people and shops visible in the background",
+          "picture_path": "images/web/真题45-2.webp",
+          "docx_image": "word/media/image8.png"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "part_name": "回答问题",
+      "instructions": "请回答以下问题：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Question 1: What is your hobby, and how long have you had it?",
+          "reference_answer": "My hobby is reading novels. I have been reading for about ten years, ever since I was in high school. I especially enjoy mystery and science fiction genres.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "个人爱好",
+          "difficulty": "medium",
+          "keywords": "question what is your hobby and how long have you had it"
+        },
+        {
+          "id": 2,
+          "question": "Question 2: Do you think you have enough time to spend on your hobby? Why or why not?",
+          "reference_answer": "Not really. During the workweek I am quite busy with projects and meetings, so I usually only get to read on weekends or late at night. I would like to set aside at least thirty minutes every day for reading.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "爱好时间安排",
+          "difficulty": "medium",
+          "keywords": "question do you think you have enough time to spend on your"
+        },
+        {
+          "id": 3,
+          "question": "Question 3: If you could start a new hobby, what would it be and why?",
+          "reference_answer": "If I could start a new hobby, it would be playing the guitar. I have always been drawn to music, and I think learning an instrument would be a great way to relax after a long workday. Also, I could meet people who share the same interest, and maybe even join a small band in the future. It would be both creative and social, which is something I am missing in my daily routine.",
+          "preparation_time": 3,
+          "answer_time": 30,
+          "topic": "新爱好选择",
+          "difficulty": "medium",
+          "keywords": "question if you could start a new hobby what would it be"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "part_name": "信息回答",
+      "instructions": "请根据提供的信息回答问题：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the first agenda item, and when does it begin?",
+          "reference_answer": "The first agenda item is the Team Performance Review. It begins at 9:00 a.m. on April 1st in Meeting Room A.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "首个议程",
+          "difficulty": "hard",
+          "keywords": "what is the first agenda item and when does it begin"
+        },
+        {
+          "id": 2,
+          "question": "Is the second agenda item at 11 a.m. on April 2nd?",
+          "reference_answer": "No, it is not. The Client Proposal Discussion was rescheduled and now takes place at 11 a.m. on April 5th.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "议程改期确认",
+          "difficulty": "hard",
+          "keywords": "is the second agenda item at a m on april nd"
+        },
+        {
+          "id": 3,
+          "question": "Could you describe all the information about the training sessions?",
+          "reference_answer": "Sure. There are two training sessions. The first one is the Leadership Development training, which takes place on April 3rd from 2:00 to 4:00 p.m. in Training Room 1, and lunch is provided. The second one is the New Software Onboarding training, which is held on April 7th from 3:00 to 5:00 p.m. in Training Room 2, and participants are asked to bring their own laptops.",
+          "preparation_time": 3,
+          "answer_time": 30,
+          "topic": "培训场次汇总",
+          "difficulty": "hard",
+          "keywords": "could you describe all the information about the training sessions"
+        }
+      ],
+      "review_time": 45,
+      "docx_image": "word/media/image9.png",
+      "material": {
+        "title": "Manager's Weekly Meeting Schedule - April",
+        "headers": [
+          "Date",
+          "Time",
+          "Agenda Item",
+          "Location",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Apr 1",
+              "9:00-10:00",
+              "Team Performance Review",
+              "Meeting Room A",
+              "Q1 goals summary"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Apr 5",
+              "11:00-12:00",
+              "Client Proposal Discussion",
+              "Conference Room 2",
+              "Rescheduled from Apr 2"
+            ],
+            "status": "changed"
+          },
+          {
+            "cells": [
+              "Apr 3",
+              "2:00-4:00 PM",
+              "Training: Leadership Development",
+              "Training Room 1",
+              "Lunch provided"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Apr 7",
+              "3:00-5:00 PM",
+              "Training: New Software Onboarding",
+              "Training Room 2",
+              "Bring your laptop"
+            ],
+            "status": ""
+          }
+        ],
+        "notes": [],
+        "missing": false,
+        "sourceImage": "./images/materials/真题45.png"
+      }
+    },
+    {
+      "part": 5,
+      "part_name": "表达观点",
+      "instructions": "请针对以下情况表达一个观点：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What are the advantages of moving to a new city to take up a new position?",
+          "reference_answer": "There are several advantages to moving to a new city for a new position. First, it offers a fresh start both professionally and personally. In a new environment, you are not tied to old habits or limited by previous experiences. You get to build new skills, learn how different teams work, and grow in ways that might not be possible in a familiar setting. Second, living in a new city broadens your perspective. You are exposed to different cultures, ways of thinking, and local communities. This helps you become more adaptable and open-minded, which are valuable qualities in any career. Third, it can lead to better career opportunities. A new city often means a new network of professionals, and building these connections early can open doors to promotions, collaborations, and even future job offers. Finally, the challenge of settling somewhere new pushes you out of your comfort zone, which builds resilience and confidence. Overall, while it can be difficult at first, the long-term benefits for both your career and personal growth are well worth the effort.",
+          "preparation_time": 45,
+          "answer_time": 60,
+          "topic": "异地任职与职业发展",
+          "difficulty": "hard",
+          "keywords": "what are the advantages of moving to a new city to take"
+        }
+      ]
+    }
+  ]
+}

@@ -1608,7 +1608,7 @@
     <img id="imageLightboxImage" alt="" />
   </dialog>
 
-  <script src="./toeic_review_data.js?v=20261122-part5-document"></script>
+  <script src="./toeic_review_data.js?v=20261122-banks-43-45"></script>
   <script src="./practice_sets.js?v=20261122-2"></script>
   <script>
     const data = window.TOEIC_REVIEW_DATA;
@@ -4006,7 +4006,8 @@
       const notes = record.material.notes?.length
         ? '<p class="material-notes">补充信息：' + escapeHtml(record.material.notes.join("；")) + '</p>'
         : "";
-      return '<details class="material" open><summary>资料表</summary>' +
+      const title = record.material.title ? '<p class="material-notes"><strong>' + escapeHtml(record.material.title) + '</strong></p>' : "";
+      return '<details class="material" open><summary>资料表</summary>' + title +
         '<div class="material-scroll"><table class="material-table">' + head + body + '</table></div>' +
         notes +
       '</details>';
@@ -4393,6 +4394,6 @@
     updateAllCountdowns();
     window.setInterval(updateAllCountdowns, 200);
   </script>
-  <script src="./exam_mode.js?v=20261122-2"></script>
+  <script src="./exam_mode.js?v=20261122-banks-43-45"></script>
 </body>
 </html>

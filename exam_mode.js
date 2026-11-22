@@ -697,7 +697,8 @@
     const rows = (material.rows || []).map((row) => "<tr>" + (row.cells || []).map((cell) => "<td>" + escapeHtml(cell) + "</td>").join("") + "</tr>").join("");
     const headers = (material.headers || []).map((header) => "<th>" + escapeHtml(header) + "</th>").join("");
     const notes = (material.notes || []).filter(Boolean).join("\n");
-    return '<div class="exam-material-wrap"><table class="exam-material-table"><thead><tr>' + headers + "</tr></thead><tbody>" + rows + "</tbody></table>" + (notes ? '<div class="exam-material-notes">' + escapeHtml(notes) + "</div>" : "") + "</div>";
+    const title = material.title ? '<div class="exam-material-notes"><strong>' + escapeHtml(material.title) + '</strong></div>' : "";
+    return '<div class="exam-material-wrap">' + title + '<table class="exam-material-table"><thead><tr>' + headers + "</tr></thead><tbody>" + rows + "</tbody></table>" + (notes ? '<div class="exam-material-notes">' + escapeHtml(notes) + "</div>" : "") + "</div>";
   }
 
   function questionHtml(step) {

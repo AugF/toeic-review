@@ -5,8 +5,8 @@ window.TOEIC_REVIEW_DATA = {
       "part": 1,
       "name": "Part 1 朗读短文",
       "counts": {
-        "total": 84,
-        "P1": 68,
+        "total": 90,
+        "P1": 74,
         "P2": 12,
         "P3": 4
       }
@@ -15,9 +15,9 @@ window.TOEIC_REVIEW_DATA = {
       "part": 2,
       "name": "Part 2 描述图片",
       "counts": {
-        "total": 84,
-        "P1": 40,
-        "P2": 13,
+        "total": 90,
+        "P1": 44,
+        "P2": 15,
         "P3": 31
       }
     },
@@ -25,19 +25,19 @@ window.TOEIC_REVIEW_DATA = {
       "part": 3,
       "name": "Part 3 回答问题",
       "counts": {
-        "total": 42,
-        "P1": 21,
-        "P2": 9,
-        "P3": 12
+        "total": 45,
+        "P1": 22,
+        "P2": 10,
+        "P3": 13
       }
     },
     {
       "part": 4,
       "name": "Part 4 信息回答",
       "counts": {
-        "total": 42,
-        "P1": 30,
-        "P2": 11,
+        "total": 45,
+        "P1": 32,
+        "P2": 12,
         "P3": 1
       }
     },
@@ -45,9 +45,9 @@ window.TOEIC_REVIEW_DATA = {
       "part": 5,
       "name": "Part 5 表达观点",
       "counts": {
-        "total": 42,
-        "P1": 15,
-        "P2": 12,
+        "total": 45,
+        "P1": 17,
+        "P2": 13,
         "P3": 15
       }
     }
@@ -11401,6 +11401,989 @@ window.TOEIC_REVIEW_DATA = {
         "file": "toeic_part5.md",
         "section": 40,
         "sha256": "9631f257777861201ed384ecbe4444192efc8ff9ffa383a9e12e15b8115631b4"
+      }
+    },
+    {
+      "uid": "1-真题43你希望你的同事具备哪些性格.json-1",
+      "questionId": 1,
+      "topic": "超市营业时间公告",
+      "prompt": "Dear customers, thank you for choosing Fresh Market. Starting next Monday, our opening hours will change. We will now be open from 9 a.m. to 9 p.m. every day, including Sundays. In addition, our free parking garage on the ground floor will be open around the clock for your convenience.",
+      "answer": "Dear customers, thank you for choosing Fresh Market. Starting next Monday, our opening hours will change. We will now be open from 9 a.m. to 9 p.m. every day, including Sundays. In addition, our free parking garage on the ground floor will be open around the clock for your convenience.",
+      "preparationTime": 45,
+      "answerTime": 45,
+      "difficulty": "easy",
+      "keywords": "dear customers thank you for choosing fresh market starting next monday our",
+      "part": 1,
+      "partName": "Part 1 朗读短文",
+      "sourceFile": "真题43你希望你的同事具备哪些性格.json",
+      "bankName": "真题43 你希望你的同事具备哪些性格",
+      "instructions": "请朗读以下短文：",
+      "priority": "P1",
+      "reason": "公告、欢迎词和公共服务通知，重点练习时间、地点及意群重音。",
+      "imagePath": ""
+    },
+    {
+      "uid": "1-真题43你希望你的同事具备哪些性格.json-2",
+      "questionId": 2,
+      "topic": "寒冷天气交通通知",
+      "prompt": "Attention please. Because cold weather is expected later this week, several bridges along the river will be closed to vehicles starting at 6 p.m. on Thursday. In addition, some shops and cafés near the waterfront will close early at 5 p.m. that day. Please plan your trips accordingly and allow extra time for your commute.",
+      "answer": "Attention please. Because cold weather is expected later this week, several bridges along the river will be closed to vehicles starting at 6 p.m. on Thursday. In addition, some shops and cafés near the waterfront will close early at 5 p.m. that day. Please plan your trips accordingly and allow extra time for your commute.",
+      "preparationTime": 45,
+      "answerTime": 45,
+      "difficulty": "easy",
+      "keywords": "attention please because cold weather is expected later this week several bridges",
+      "part": 1,
+      "partName": "Part 1 朗读短文",
+      "sourceFile": "真题43你希望你的同事具备哪些性格.json",
+      "bankName": "真题43 你希望你的同事具备哪些性格",
+      "instructions": "请朗读以下短文：",
+      "priority": "P1",
+      "reason": "公告、欢迎词和公共服务通知，重点练习时间、地点及意群重音。",
+      "imagePath": ""
+    },
+    {
+      "uid": "2-真题43你希望你的同事具备哪些性格.json-1",
+      "questionId": 1,
+      "topic": "咖啡馆交谈",
+      "prompt": "A café; two women sit at a table talking, a man stands holding a cup of coffee",
+      "answer": "This is a picture taken inside a café. In the middle of the room, two women are sitting at a table, having a conversation, and there are cups in front of them. On the right side, a man is standing while holding a cup of coffee. The café is cozy, with warm lighting and a counter in the background, which suggests a relaxed atmosphere where people enjoy their drinks and chat with each other.",
+      "preparationTime": 45,
+      "answerTime": 30,
+      "difficulty": "medium",
+      "keywords": "describe the photo in detail",
+      "part": 2,
+      "partName": "Part 2 描述图片",
+      "sourceFile": "真题43你希望你的同事具备哪些性格.json",
+      "bankName": "真题43 你希望你的同事具备哪些性格",
+      "instructions": "请描述以下图片：",
+      "priority": "P2",
+      "reason": "人物动作、位置和场景细节的完整描述；商业和职场场景优先，休闲场景用于补充覆盖。",
+      "imagePath": "./images/web/真题43-1.webp",
+      "questionBankAnswer": "This is a picture taken inside a café. In the middle of the room, two women are sitting at a table, having a conversation, and there are cups in front of them. On the right side, a man is standing while holding a cup of coffee. The café is cozy, with warm lighting and a counter in the background, which suggests a relaxed atmosphere where people enjoy their drinks and chat with each other.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 43,
+        "sha256": "b3ee93573463503012c0093d14c3fec4bfcb27c26ca347dffccac77b08791344"
+      }
+    },
+    {
+      "uid": "2-真题43你希望你的同事具备哪些性格.json-2",
+      "questionId": 2,
+      "topic": "眼镜店服务",
+      "prompt": "An eyeglasses store; a man and a woman sit talking, another woman stands trying on eyeglasses",
+      "answer": "This is a picture taken in an eyeglasses store. In the foreground, a man and a woman are sitting at a counter and talking with each other. Near them, another woman is standing and looking at a pair of eyeglasses, perhaps trying one on. In the background, shelves are filled with many different styles of eyeglasses, and the store is bright and well organized.",
+      "preparationTime": 45,
+      "answerTime": 30,
+      "difficulty": "medium",
+      "keywords": "describe the photo in detail",
+      "part": 2,
+      "partName": "Part 2 描述图片",
+      "sourceFile": "真题43你希望你的同事具备哪些性格.json",
+      "bankName": "真题43 你希望你的同事具备哪些性格",
+      "instructions": "请描述以下图片：",
+      "priority": "P1",
+      "reason": "人物动作、位置和场景细节的完整描述；商业和职场场景优先，休闲场景用于补充覆盖。",
+      "imagePath": "./images/web/真题43-2.webp",
+      "questionBankAnswer": "This is a picture taken in an eyeglasses store. In the foreground, a man and a woman are sitting at a counter and talking with each other. Near them, another woman is standing and looking at a pair of eyeglasses, perhaps trying one on. In the background, shelves are filled with many different styles of eyeglasses, and the store is bright and well organized.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 43,
+        "sha256": "b8bfbae9568bcd4eee68d5acf2c79fcc94a0375fae7d850a9814aac44048b49e"
+      }
+    },
+    {
+      "uid": "3-真题43你希望你的同事具备哪些性格.json-group",
+      "part": 3,
+      "partName": "Part 3 回答问题",
+      "priority": "P2",
+      "sourceFile": "真题43你希望你的同事具备哪些性格.json",
+      "bankName": "真题43 你希望你的同事具备哪些性格",
+      "questionId": "1/2/3",
+      "topic": "电视观看习惯 · 观看地点 · 电视服务选择",
+      "prompt": "Question 1: Do you usually watch TV shows, and how often do you watch them?\nQuestion 2: Where do you usually watch TV shows?\nQuestion 3: Under what circumstances would you change your TV service provider?",
+      "answer": "Yes, I usually watch TV shows a few times a week. I mostly watch them on weekends, after dinner. I usually watch them at home on the television in my living room, but sometimes I also watch them on my phone. I would change my TV service provider if the price rises too much, or if the shows and channels I like are no longer available. I might also change if the signal is poor or the customer service is slow and unhelpful.",
+      "reason": "按完整三问评价：兼顾经历、习惯和理由扩展；通勤场景复用度高，娱乐和爱好主题用于补充。",
+      "instructions": "请回答以下问题：",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "medium",
+      "keywords": "question do you usually watch tv shows and how often do you question where do you usually watch tv shows question under what circumstances would you change your tv service provider",
+      "questions": [
+        {
+          "uid": "3-真题43你希望你的同事具备哪些性格.json-group-q1",
+          "questionId": 1,
+          "topic": "电视观看习惯",
+          "prompt": "Question 1: Do you usually watch TV shows, and how often do you watch them?",
+          "answer": "Yes, I usually watch TV shows a few times a week. I mostly watch them on weekends, after dinner.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question do you usually watch tv shows and how often do you",
+          "position": 1,
+          "questionBankAnswer": "Yes, I usually watch TV shows a few times a week. I mostly watch them on weekends, after dinner.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 43,
+            "sha256": "a2118149ac052cddabd41c0b29ee7772a971a06ee71c2cb5d68c3f4fbf14b316"
+          }
+        },
+        {
+          "uid": "3-真题43你希望你的同事具备哪些性格.json-group-q2",
+          "questionId": 2,
+          "topic": "观看地点",
+          "prompt": "Question 2: Where do you usually watch TV shows?",
+          "answer": "I usually watch them at home on the television in my living room, but sometimes I also watch them on my phone.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question where do you usually watch tv shows",
+          "position": 2,
+          "questionBankAnswer": "I usually watch them at home on the television in my living room, but sometimes I also watch them on my phone.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 43,
+            "sha256": "2541e4615ab610bca680dbf9e4e0c58a3fc09f365e7a27c28fd9fa570def1bd4"
+          }
+        },
+        {
+          "uid": "3-真题43你希望你的同事具备哪些性格.json-group-q3",
+          "questionId": 3,
+          "topic": "电视服务选择",
+          "prompt": "Question 3: Under what circumstances would you change your TV service provider?",
+          "answer": "I would change my TV service provider if the price rises too much, or if the shows and channels I like are no longer available. I might also change if the signal is poor or the customer service is slow and unhelpful.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "question under what circumstances would you change your tv service provider",
+          "position": 3,
+          "questionBankAnswer": "I would change my TV service provider if the price rises too much, or if the shows and channels I like are no longer available. I might also change if the signal is poor or the customer service is slow and unhelpful.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 43,
+            "sha256": "21ba133f9225582e09fc7253aea7e366a938f6aeac3a5412203fea95a5fe0e98"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "4-真题43你希望你的同事具备哪些性格.json-group",
+      "part": 4,
+      "partName": "Part 4 信息回答",
+      "priority": "P1",
+      "sourceFile": "真题43你希望你的同事具备哪些性格.json",
+      "bankName": "真题43 你希望你的同事具备哪些性格",
+      "questionId": "1/2/3",
+      "topic": "会议地点和时间 · 周六活动确认 · 儿童活动汇总",
+      "prompt": "Where is the meeting held, and when does the first session begin?\nDoes one of the sessions take place on Saturday?\nHow many of the sessions are about children? Could you give me more details about them?",
+      "answer": "The meeting is held at the Riverside Community Center. The first session begins at 9:30 a.m. on Monday in the Main Hall. Yes. The Kids’ Art Workshop takes place on Saturday from 9:00 to 10:00 a.m. in Room 3. Two of the sessions are about children. The first one is the Children’s Summer Reading Program, which is for children aged 6 to 12 and is held on Monday from 10:30 to 11:30 a.m. in Room 2. The second one is the Kids’ Art Workshop, which takes place on Saturday from 9:00 to 10:00 a.m. in Room 3, and art supplies are provided.",
+      "reason": "按完整三问评价：练习资料定位、确认或纠错、多项信息汇总；会议和改期信息优先。",
+      "instructions": "请根据提供的信息回答问题：",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "hard",
+      "keywords": "where is the meeting held and when does the first session begin does one of the sessions take place on saturday how many of the sessions are about children could you give me",
+      "questions": [
+        {
+          "uid": "4-真题43你希望你的同事具备哪些性格.json-group-q1",
+          "questionId": 1,
+          "topic": "会议地点和时间",
+          "prompt": "Where is the meeting held, and when does the first session begin?",
+          "answer": "The meeting is held at the Riverside Community Center. The first session begins at 9:30 a.m. on Monday in the Main Hall.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "where is the meeting held and when does the first session begin",
+          "position": 1,
+          "questionBankAnswer": "The meeting is held at the Riverside Community Center. The first session begins at 9:30 a.m. on Monday in the Main Hall.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 43,
+            "sha256": "2db0a3a92d8b37d6fd5bd79a89f7d6528969d348f88da28381f1d7bd48a73110"
+          }
+        },
+        {
+          "uid": "4-真题43你希望你的同事具备哪些性格.json-group-q2",
+          "questionId": 2,
+          "topic": "周六活动确认",
+          "prompt": "Does one of the sessions take place on Saturday?",
+          "answer": "Yes. The Kids’ Art Workshop takes place on Saturday from 9:00 to 10:00 a.m. in Room 3.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "does one of the sessions take place on saturday",
+          "position": 2,
+          "questionBankAnswer": "Yes. The Kids’ Art Workshop takes place on Saturday from 9:00 to 10:00 a.m. in Room 3.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 43,
+            "sha256": "de0de5fcf0eaf67639642fc43c3fe1be8555cc2e7f56e16fe4d7b40175916134"
+          }
+        },
+        {
+          "uid": "4-真题43你希望你的同事具备哪些性格.json-group-q3",
+          "questionId": 3,
+          "topic": "儿童活动汇总",
+          "prompt": "How many of the sessions are about children? Could you give me more details about them?",
+          "answer": "Two of the sessions are about children. The first one is the Children’s Summer Reading Program, which is for children aged 6 to 12 and is held on Monday from 10:30 to 11:30 a.m. in Room 2. The second one is the Kids’ Art Workshop, which takes place on Saturday from 9:00 to 10:00 a.m. in Room 3, and art supplies are provided.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "how many of the sessions are about children could you give me",
+          "position": 3,
+          "questionBankAnswer": "Two of the sessions are about children. The first one is the Children’s Summer Reading Program, which is for children aged 6 to 12 and is held on Monday from 10:30 to 11:30 a.m. in Room 2. The second one is the Kids’ Art Workshop, which takes place on Saturday from 9:00 to 10:00 a.m. in Room 3, and art supplies are provided.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 43,
+            "sha256": "1e4a91cd10da7741a1aa0d8fabdbca03901e3100fc111593e4d8468796defa28"
+          }
+        }
+      ],
+      "reviewTime": 45,
+      "material": {
+        "title": "Riverside Community Center - Monthly Meeting Schedule",
+        "headers": [
+          "Date/Time",
+          "Activity",
+          "Location",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Monday 9:30-10:30",
+              "Opening Remarks & Budget Review",
+              "Main Hall",
+              "Free admission"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Monday 10:30-11:30",
+              "Children's Summer Reading Program",
+              "Room 2",
+              "Ages 6-12"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Saturday 9:00-10:00",
+              "Kids' Art Workshop",
+              "Room 3",
+              "Art supplies provided"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Monday 1:00-2:00",
+              "Teen Coding Club",
+              "Lab 2",
+              "Ages 13-17"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Monday 2:30-3:30",
+              "Senior Wellness Workshop",
+              "Room 1",
+              "Doctor on site"
+            ],
+            "status": ""
+          }
+        ],
+        "notes": [],
+        "missing": false,
+        "sourceImage": "./images/materials/真题43.png"
+      }
+    },
+    {
+      "uid": "5-真题43你希望你的同事具备哪些性格.json-1",
+      "questionId": 1,
+      "topic": "同事性格与团队合作",
+      "prompt": "Which personality traits do you want your colleagues to have? For example, trustworthiness, efficient communication, or friendliness.",
+      "answer": "I would like my colleagues to have three main traits. The first one is trustworthiness. In a team, people rely on each other to finish shared goals, and trust is the foundation of that cooperation. When my colleagues keep their promises and handle sensitive information responsibly, I can focus on my own work without worrying. The second trait is efficient communication. Work moves faster when people state their ideas clearly, listen carefully, and give feedback in a timely way. For example, when a deadline is approaching, a brief update can save the whole team from misunderstandings and rework. The last trait is friendliness. A friendly attitude makes the workplace comfortable, and it encourages people to ask for help and share ideas openly. When colleagues are kind and supportive, small problems are solved quickly before they become big ones. In short, trustworthiness builds the foundation, efficient communication speeds up the work, and friendliness makes the team a pleasant place to be.",
+      "preparationTime": 45,
+      "answerTime": 60,
+      "difficulty": "hard",
+      "keywords": "which personality traits do you want your colleagues to have for example",
+      "part": 5,
+      "partName": "Part 5 表达观点",
+      "sourceFile": "真题43你希望你的同事具备哪些性格.json",
+      "bankName": "真题43 你希望你的同事具备哪些性格",
+      "instructions": "请针对以下情况表达一个观点：",
+      "priority": "P1",
+      "reason": "围绕明确观点、理由和例子组织回答；团队合作及职业发展优先，阅读习惯用于扩展话题。",
+      "imagePath": "",
+      "questionBankAnswer": "I would like my colleagues to have three main traits. The first one is trustworthiness. In a team, people rely on each other to finish shared goals, and trust is the foundation of that cooperation. When my colleagues keep their promises and handle sensitive information responsibly, I can focus on my own work without worrying. The second trait is efficient communication. Work moves faster when people state their ideas clearly, listen carefully, and give feedback in a timely way. For example, when a deadline is approaching, a brief update can save the whole team from misunderstandings and rework. The last trait is friendliness. A friendly attitude makes the workplace comfortable, and it encourages people to ask for help and share ideas openly. When colleagues are kind and supportive, small problems are solved quickly before they become big ones. In short, trustworthiness builds the foundation, efficient communication speeds up the work, and friendliness makes the team a pleasant place to be.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 43,
+        "sha256": "d90909f258263404b3c493b8ecbd132210ab51a28ed284bcf59a2a31fa3d4bf2"
+      }
+    },
+    {
+      "uid": "1-真题44过去人比现在花更多时间阅读吗.json-1",
+      "questionId": 1,
+      "topic": "欢迎新项目经理",
+      "prompt": "Everyone’s attention, please. May I take a moment to introduce a new member of our team. This is Sarah Chen, who has joined us as our project manager. With over ten years of experience in product development, she has led several successful teams. On behalf of the whole team, I’d like to say a warm welcome. Please join me in welcoming Sarah.",
+      "answer": "Everyone’s attention, please. May I take a moment to introduce a new member of our team. This is Sarah Chen, who has joined us as our project manager. With over ten years of experience in product development, she has led several successful teams. On behalf of the whole team, I’d like to say a warm welcome. Please join me in welcoming Sarah.",
+      "preparationTime": 45,
+      "answerTime": 45,
+      "difficulty": "easy",
+      "keywords": "everyone s attention please may i take a moment to introduce a",
+      "part": 1,
+      "partName": "Part 1 朗读短文",
+      "sourceFile": "真题44过去人比现在花更多时间阅读吗.json",
+      "bankName": "真题44 过去人比现在花更多时间阅读吗",
+      "instructions": "请朗读以下短文：",
+      "priority": "P1",
+      "reason": "公告、欢迎词和公共服务通知，重点练习时间、地点及意群重音。",
+      "imagePath": ""
+    },
+    {
+      "uid": "1-真题44过去人比现在花更多时间阅读吗.json-2",
+      "questionId": 2,
+      "topic": "员工野餐通知",
+      "prompt": "This is a reminder that the annual staff picnic will be held next Saturday at Riverside Park from eleven in the morning until three in the afternoon. Food and drinks will be provided, but employees are welcome to bring their families. Please RSVP to the human resources office by this Wednesday so we can finalize the headcount.",
+      "answer": "This is a reminder that the annual staff picnic will be held next Saturday at Riverside Park from eleven in the morning until three in the afternoon. Food and drinks will be provided, but employees are welcome to bring their families. Please RSVP to the human resources office by this Wednesday so we can finalize the headcount.",
+      "preparationTime": 45,
+      "answerTime": 45,
+      "difficulty": "easy",
+      "keywords": "this is a reminder that the annual staff picnic will be held",
+      "part": 1,
+      "partName": "Part 1 朗读短文",
+      "sourceFile": "真题44过去人比现在花更多时间阅读吗.json",
+      "bankName": "真题44 过去人比现在花更多时间阅读吗",
+      "instructions": "请朗读以下短文：",
+      "priority": "P1",
+      "reason": "公告、欢迎词和公共服务通知，重点练习时间、地点及意群重音。",
+      "imagePath": ""
+    },
+    {
+      "uid": "2-真题44过去人比现在花更多时间阅读吗.json-1",
+      "questionId": 1,
+      "topic": "面包店排队结账",
+      "prompt": "A bakery; three women stand in a queue waiting to pay at the counter, a female clerk behind the counter is checking out the woman standing closest to her",
+      "answer": "This is a picture taken inside a bakery. On the left side of the picture, three women are standing in a line, waiting their turn to pay. In front of them, a female clerk is standing behind the counter. She is checking out the woman who is standing closest to the counter. Behind the counter, there seem to be shelves with baked goods, which suggests that the customers have just finished choosing their items and are now paying for them. The scene looks quite busy but orderly.",
+      "preparationTime": 45,
+      "answerTime": 30,
+      "difficulty": "medium",
+      "keywords": "describe the photo in detail",
+      "part": 2,
+      "partName": "Part 2 描述图片",
+      "sourceFile": "真题44过去人比现在花更多时间阅读吗.json",
+      "bankName": "真题44 过去人比现在花更多时间阅读吗",
+      "instructions": "请描述以下图片：",
+      "priority": "P1",
+      "reason": "人物动作、位置和场景细节的完整描述；商业和职场场景优先，休闲场景用于补充覆盖。",
+      "imagePath": "./images/web/真题44-1.webp",
+      "questionBankAnswer": "This is a picture taken inside a bakery. On the left side of the picture, three women are standing in a line, waiting their turn to pay. In front of them, a female clerk is standing behind the counter. She is checking out the woman who is standing closest to the counter. Behind the counter, there seem to be shelves with baked goods, which suggests that the customers have just finished choosing their items and are now paying for them. The scene looks quite busy but orderly.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 44,
+        "sha256": "99bfce4a30a26f4bfe6f7271ed7bee21a9f842f5bfc632ee6ebbea5c20394eb2"
+      }
+    },
+    {
+      "uid": "2-真题44过去人比现在花更多时间阅读吗.json-2",
+      "questionId": 2,
+      "topic": "会议演讲场景",
+      "prompt": "A conference room; a man in a white shirt is giving a presentation at the front, many people are seated facing him listening attentively, and two people are standing at the front right",
+      "answer": "This is a picture taken in a conference room during a presentation. At the front of the room, a man wearing a white shirt is standing and giving a speech, and there appears to be a screen or board behind him. Most of the audience is seated in rows of chairs, with their backs to the camera, and they are listening carefully. At the front right side of the room, two people are standing and watching the speaker as well. The atmosphere seems serious and focused, like a formal meeting or a training session.",
+      "preparationTime": 45,
+      "answerTime": 30,
+      "difficulty": "medium",
+      "keywords": "describe the photo in detail",
+      "part": 2,
+      "partName": "Part 2 描述图片",
+      "sourceFile": "真题44过去人比现在花更多时间阅读吗.json",
+      "bankName": "真题44 过去人比现在花更多时间阅读吗",
+      "instructions": "请描述以下图片：",
+      "priority": "P1",
+      "reason": "人物动作、位置和场景细节的完整描述；商业和职场场景优先，休闲场景用于补充覆盖。",
+      "imagePath": "./images/web/真题44-2.webp",
+      "questionBankAnswer": "This is a picture taken in a conference room during a presentation. At the front of the room, a man wearing a white shirt is standing and giving a speech, and there appears to be a screen or board behind him. Most of the audience is seated in rows of chairs, with their backs to the camera, and they are listening carefully. At the front right side of the room, two people are standing and watching the speaker as well. The atmosphere seems serious and focused, like a formal meeting or a training session.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 44,
+        "sha256": "929b6d34e92bd5ad69185b19700b3379802441f90b672dad21600f7de5e913a0"
+      }
+    },
+    {
+      "uid": "3-真题44过去人比现在花更多时间阅读吗.json-group",
+      "part": 3,
+      "partName": "Part 3 回答问题",
+      "priority": "P1",
+      "sourceFile": "真题44过去人比现在花更多时间阅读吗.json",
+      "bankName": "真题44 过去人比现在花更多时间阅读吗",
+      "questionId": "1/2/3",
+      "topic": "公交使用习惯 · 公交选择因素 · 公交服务趋势",
+      "prompt": "Question 1: How often do you ride the bus? Why do you ride it?\nQuestion 2: What are some reasons for choosing to ride the bus, such as punctual arrival, friendly service, or low cost? Which one would you choose, and why?\nQuestion 3: Do you think the bus service in your city will become more popular or less popular in the future? Why?",
+      "answer": "I ride the bus about three or four times a week. I ride it because it is convenient and cheaper than taking a taxi, and it can drop me off close to my office. There are several reasons why people choose to ride the bus. For example, the bus usually arrives on time, the drivers and staff provide friendly service, and the fare is much lower than other transportation. If I had to choose, I would pick punctual arrival. In my daily commute, arriving on time is the most important, because I need to reach the office before the morning meeting. No matter how cheap or comfortable the bus is, being late would cause a lot of stress. I think the bus service in my city will become more popular in the future. First, as traffic congestion gets worse, more people will look for alternatives to driving. Taking the bus allows commuters to avoid the stress of finding parking and dealing with rush-hour traffic. Second, with growing concerns about the environment, many people are trying to reduce their carbon footprint. Buses are a more eco-friendly option compared to private cars, since one bus can carry dozens of passengers at once. Finally, the city government has been investing in new bus lanes and upgrading the fleet to electric buses, which will make the service faster, quieter, and more comfortable. All of these factors will likely attract more riders in the coming years.",
+      "reason": "按完整三问评价：兼顾经历、习惯和理由扩展；通勤场景复用度高，娱乐和爱好主题用于补充。",
+      "instructions": "请回答以下问题：",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "medium",
+      "keywords": "question how often do you ride the bus why do you ride question what are some reasons for choosing to ride the bus such question do you think the bus service in your city will become",
+      "questions": [
+        {
+          "uid": "3-真题44过去人比现在花更多时间阅读吗.json-group-q1",
+          "questionId": 1,
+          "topic": "公交使用习惯",
+          "prompt": "Question 1: How often do you ride the bus? Why do you ride it?",
+          "answer": "I ride the bus about three or four times a week. I ride it because it is convenient and cheaper than taking a taxi, and it can drop me off close to my office.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question how often do you ride the bus why do you ride",
+          "position": 1,
+          "questionBankAnswer": "I ride the bus about three or four times a week. I ride it because it is convenient and cheaper than taking a taxi, and it can drop me off close to my office.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 44,
+            "sha256": "8db89c9fb7bc1a071dee4160005a3dc4684ef3acf88565e4db4c63f17ed62979"
+          }
+        },
+        {
+          "uid": "3-真题44过去人比现在花更多时间阅读吗.json-group-q2",
+          "questionId": 2,
+          "topic": "公交选择因素",
+          "prompt": "Question 2: What are some reasons for choosing to ride the bus, such as punctual arrival, friendly service, or low cost? Which one would you choose, and why?",
+          "answer": "There are several reasons why people choose to ride the bus. For example, the bus usually arrives on time, the drivers and staff provide friendly service, and the fare is much lower than other transportation. If I had to choose, I would pick punctual arrival. In my daily commute, arriving on time is the most important, because I need to reach the office before the morning meeting. No matter how cheap or comfortable the bus is, being late would cause a lot of stress.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question what are some reasons for choosing to ride the bus such",
+          "position": 2,
+          "questionBankAnswer": "There are several reasons why people choose to ride the bus. For example, the bus usually arrives on time, the drivers and staff provide friendly service, and the fare is much lower than other transportation. If I had to choose, I would pick punctual arrival. In my daily commute, arriving on time is the most important, because I need to reach the office before the morning meeting. No matter how cheap or comfortable the bus is, being late would cause a lot of stress.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 44,
+            "sha256": "f3a5c4449bfe922bc8442724620d871723fa6caa3f915b819c1fdb22e8a472ee"
+          }
+        },
+        {
+          "uid": "3-真题44过去人比现在花更多时间阅读吗.json-group-q3",
+          "questionId": 3,
+          "topic": "公交服务趋势",
+          "prompt": "Question 3: Do you think the bus service in your city will become more popular or less popular in the future? Why?",
+          "answer": "I think the bus service in my city will become more popular in the future. First, as traffic congestion gets worse, more people will look for alternatives to driving. Taking the bus allows commuters to avoid the stress of finding parking and dealing with rush-hour traffic. Second, with growing concerns about the environment, many people are trying to reduce their carbon footprint. Buses are a more eco-friendly option compared to private cars, since one bus can carry dozens of passengers at once. Finally, the city government has been investing in new bus lanes and upgrading the fleet to electric buses, which will make the service faster, quieter, and more comfortable. All of these factors will likely attract more riders in the coming years.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "question do you think the bus service in your city will become",
+          "position": 3,
+          "questionBankAnswer": "I think the bus service in my city will become more popular in the future. First, as traffic congestion gets worse, more people will look for alternatives to driving. Taking the bus allows commuters to avoid the stress of finding parking and dealing with rush-hour traffic. Second, with growing concerns about the environment, many people are trying to reduce their carbon footprint. Buses are a more eco-friendly option compared to private cars, since one bus can carry dozens of passengers at once. Finally, the city government has been investing in new bus lanes and upgrading the fleet to electric buses, which will make the service faster, quieter, and more comfortable. All of these factors will likely attract more riders in the coming years.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 44,
+            "sha256": "d155310b7cf3c89dde805cd33aad0f76d3e9ee484d63c57154edd1246757299a"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "4-真题44过去人比现在花更多时间阅读吗.json-group",
+      "part": 4,
+      "partName": "Part 4 信息回答",
+      "priority": "P2",
+      "sourceFile": "真题44过去人比现在花更多时间阅读吗.json",
+      "bankName": "真题44 过去人比现在花更多时间阅读吗",
+      "questionId": "1/2/3",
+      "topic": "音乐会地点 · 票价纠错 · 音乐会汇总",
+      "prompt": "Where is the concert season held?\nIs the ticket 7 yuan?\nHow many concerts are there? Could you give me more details about them?",
+      "answer": "The concert season is held at the City Music Hall, in its different halls, such as Hall A, Hall B, and Hall C. No, the ticket is not 7 yuan. The prices range from 30 yuan to 70 yuan, depending on which concert you choose to attend. There are four concerts in total. The first is the Spring Chamber Music Evening on Friday evening from 7:00 to 8:30 in Hall A, and the ticket is 50 yuan. The second is the Youth Symphony Orchestra Show on Saturday afternoon from 2:00 to 4:00 in Hall B, with a ticket price of 30 yuan. The third is the Piano and Violin Recital on Saturday evening from 7:30 to 9:30 in Hall A, and it costs 70 yuan. The last one is the Folk Music Appreciation Evening on Sunday afternoon from 3:00 to 4:30 in Hall C, with the ticket at 40 yuan.",
+      "reason": "按完整三问评价：练习资料定位、确认或纠错、多项信息汇总；会议和改期信息优先。",
+      "instructions": "请根据提供的信息回答问题：",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "hard",
+      "keywords": "where is the concert season held is the ticket yuan how many concerts are there could you give me more details about",
+      "questions": [
+        {
+          "uid": "4-真题44过去人比现在花更多时间阅读吗.json-group-q1",
+          "questionId": 1,
+          "topic": "音乐会地点",
+          "prompt": "Where is the concert season held?",
+          "answer": "The concert season is held at the City Music Hall, in its different halls, such as Hall A, Hall B, and Hall C.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "where is the concert season held",
+          "position": 1,
+          "questionBankAnswer": "The concert season is held at the City Music Hall, in its different halls, such as Hall A, Hall B, and Hall C.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 44,
+            "sha256": "756946bb98672f9fc29d71939bed0a503aa46db5071380d382a498962ecbc144"
+          }
+        },
+        {
+          "uid": "4-真题44过去人比现在花更多时间阅读吗.json-group-q2",
+          "questionId": 2,
+          "topic": "票价纠错",
+          "prompt": "Is the ticket 7 yuan?",
+          "answer": "No, the ticket is not 7 yuan. The prices range from 30 yuan to 70 yuan, depending on which concert you choose to attend.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "is the ticket yuan",
+          "position": 2,
+          "questionBankAnswer": "No, the ticket is not 7 yuan. The prices range from 30 yuan to 70 yuan, depending on which concert you choose to attend.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 44,
+            "sha256": "53beb8674e84c66a7cfc703baabf12eb7494660a14a59806dd60169fac0aa5e2"
+          }
+        },
+        {
+          "uid": "4-真题44过去人比现在花更多时间阅读吗.json-group-q3",
+          "questionId": 3,
+          "topic": "音乐会汇总",
+          "prompt": "How many concerts are there? Could you give me more details about them?",
+          "answer": "There are four concerts in total. The first is the Spring Chamber Music Evening on Friday evening from 7:00 to 8:30 in Hall A, and the ticket is 50 yuan. The second is the Youth Symphony Orchestra Show on Saturday afternoon from 2:00 to 4:00 in Hall B, with a ticket price of 30 yuan. The third is the Piano and Violin Recital on Saturday evening from 7:30 to 9:30 in Hall A, and it costs 70 yuan. The last one is the Folk Music Appreciation Evening on Sunday afternoon from 3:00 to 4:30 in Hall C, with the ticket at 40 yuan.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "how many concerts are there could you give me more details about",
+          "position": 3,
+          "questionBankAnswer": "There are four concerts in total. The first is the Spring Chamber Music Evening on Friday evening from 7:00 to 8:30 in Hall A, and the ticket is 50 yuan. The second is the Youth Symphony Orchestra Show on Saturday afternoon from 2:00 to 4:00 in Hall B, with a ticket price of 30 yuan. The third is the Piano and Violin Recital on Saturday evening from 7:30 to 9:30 in Hall A, and it costs 70 yuan. The last one is the Folk Music Appreciation Evening on Sunday afternoon from 3:00 to 4:30 in Hall C, with the ticket at 40 yuan.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 44,
+            "sha256": "543759e3cc9845a37905cb98a26bcd6ae1dae2e911bfdf3ad6006b754e806edf"
+          }
+        }
+      ],
+      "reviewTime": 45,
+      "material": {
+        "title": "City Music Hall - Concert Season Schedule",
+        "headers": [
+          "Date / Time",
+          "Concert",
+          "Hall",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Friday 7:00-8:30 PM",
+              "Spring Chamber Music Evening",
+              "Hall A",
+              "Ticket: 50 yuan"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Saturday 2:00-4:00 PM",
+              "Youth Symphony Orchestra Show",
+              "Hall B",
+              "Ticket: 30 yuan"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Saturday 7:30-9:30 PM",
+              "Piano & Violin Recital",
+              "Hall A",
+              "Ticket: 70 yuan"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Sunday 3:00-4:30 PM",
+              "Folk Music Appreciation Evening",
+              "Hall C",
+              "Ticket: 40 yuan"
+            ],
+            "status": ""
+          }
+        ],
+        "notes": [],
+        "missing": false,
+        "sourceImage": "./images/materials/真题44.png"
+      }
+    },
+    {
+      "uid": "5-真题44过去人比现在花更多时间阅读吗.json-1",
+      "questionId": 1,
+      "topic": "过去与现在的阅读习惯",
+      "prompt": "Do you think people in the past spent more time reading than people do now? Why or why not?",
+      "answer": "I believe people in the past did spend more time reading than people do today. The first reason is that there were fewer entertainment options in the past. Before smartphones and streaming services, people had limited ways to kill time, so reading books and newspapers was one of the most common activities. As a result, reading became a daily habit for many people. The second reason is that reading was more closely connected to work and study. In the past, people had to read manuals, letters, and long reports carefully to finish their jobs, which naturally took up a large part of their day. Today, however, information comes in the form of short videos, quick messages, and audio content, so people tend to consume knowledge faster and read fewer long texts. Finally, many young people today feel that scrolling through their phones is more relaxing than reading, which further reduces the time they spend with books. In short, because of richer entertainment and faster ways of getting information, I think people today read less than people in the past.",
+      "preparationTime": 45,
+      "answerTime": 60,
+      "difficulty": "hard",
+      "keywords": "do you think people in the past spent more time reading than",
+      "part": 5,
+      "partName": "Part 5 表达观点",
+      "sourceFile": "真题44过去人比现在花更多时间阅读吗.json",
+      "bankName": "真题44 过去人比现在花更多时间阅读吗",
+      "instructions": "请针对以下情况表达一个观点：",
+      "priority": "P2",
+      "reason": "围绕明确观点、理由和例子组织回答；团队合作及职业发展优先，阅读习惯用于扩展话题。",
+      "imagePath": "",
+      "questionBankAnswer": "I believe people in the past did spend more time reading than people do today. The first reason is that there were fewer entertainment options in the past. Before smartphones and streaming services, people had limited ways to kill time, so reading books and newspapers was one of the most common activities. As a result, reading became a daily habit for many people. The second reason is that reading was more closely connected to work and study. In the past, people had to read manuals, letters, and long reports carefully to finish their jobs, which naturally took up a large part of their day. Today, however, information comes in the form of short videos, quick messages, and audio content, so people tend to consume knowledge faster and read fewer long texts. Finally, many young people today feel that scrolling through their phones is more relaxing than reading, which further reduces the time they spend with books. In short, because of richer entertainment and faster ways of getting information, I think people today read less than people in the past.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 44,
+        "sha256": "cbe126ef989bbbf69f73902380a03875d6f71aab57f2a11a224f8c0c2a043100"
+      }
+    },
+    {
+      "uid": "1-真题45去一个新的城市担任新职位的优点.json-1",
+      "questionId": 1,
+      "topic": "社区诊所健康计划",
+      "prompt": "Welcome to Greenfield Community Clinic. Our new wellness program begins next month. Patients can enroll at the front desk or through our online portal. The program includes monthly health screenings, nutrition workshops, and a guided walking group. All services are free for registered members.",
+      "answer": "Welcome to Greenfield Community Clinic. Our new wellness program begins next month. Patients can enroll at the front desk or through our online portal. The program includes monthly health screenings, nutrition workshops, and a guided walking group. All services are free for registered members.",
+      "preparationTime": 45,
+      "answerTime": 45,
+      "difficulty": "easy",
+      "keywords": "welcome to greenfield community clinic our new wellness program begins next month",
+      "part": 1,
+      "partName": "Part 1 朗读短文",
+      "sourceFile": "真题45去一个新的城市担任新职位的优点.json",
+      "bankName": "真题45 去一个新的城市担任新职位的优点",
+      "instructions": "请朗读以下短文：",
+      "priority": "P1",
+      "reason": "公告、欢迎词和公共服务通知，重点练习时间、地点及意群重音。",
+      "imagePath": ""
+    },
+    {
+      "uid": "1-真题45去一个新的城市担任新职位的优点.json-2",
+      "questionId": 2,
+      "topic": "图书馆闭馆维护通知",
+      "prompt": "Please be informed that the city library will be closed for maintenance this coming Friday and Saturday. All branch locations will resume normal hours on Monday. If you need to return borrowed materials during the closure, you may drop them in the collection box outside the main entrance.",
+      "answer": "Please be informed that the city library will be closed for maintenance this coming Friday and Saturday. All branch locations will resume normal hours on Monday. If you need to return borrowed materials during the closure, you may drop them in the collection box outside the main entrance.",
+      "preparationTime": 45,
+      "answerTime": 45,
+      "difficulty": "easy",
+      "keywords": "please be informed that the city library will be closed for maintenance",
+      "part": 1,
+      "partName": "Part 1 朗读短文",
+      "sourceFile": "真题45去一个新的城市担任新职位的优点.json",
+      "bankName": "真题45 去一个新的城市担任新职位的优点",
+      "instructions": "请朗读以下短文：",
+      "priority": "P1",
+      "reason": "公告、欢迎词和公共服务通知，重点练习时间、地点及意群重音。",
+      "imagePath": ""
+    },
+    {
+      "uid": "2-真题45去一个新的城市担任新职位的优点.json-1",
+      "questionId": 1,
+      "topic": "办公室协作",
+      "prompt": "A modern office; a man sits at a desk working on a laptop, a woman stands by a whiteboard pointing at a chart",
+      "answer": "This is a picture taken in a modern office. In the foreground, a man is sitting at a desk, working on his laptop. To the right, a woman is standing in front of a whiteboard, pointing at a bar chart while explaining something. There are potted plants in the background and large windows letting in natural light, which gives the office a bright and professional atmosphere.",
+      "preparationTime": 45,
+      "answerTime": 30,
+      "difficulty": "medium",
+      "keywords": "describe the photo in detail",
+      "part": 2,
+      "partName": "Part 2 描述图片",
+      "sourceFile": "真题45去一个新的城市担任新职位的优点.json",
+      "bankName": "真题45 去一个新的城市担任新职位的优点",
+      "instructions": "请描述以下图片：",
+      "priority": "P1",
+      "reason": "人物动作、位置和场景细节的完整描述；商业和职场场景优先，休闲场景用于补充覆盖。",
+      "imagePath": "./images/web/真题45-1.webp",
+      "questionBankAnswer": "This is a picture taken in a modern office. In the foreground, a man is sitting at a desk, working on his laptop. To the right, a woman is standing in front of a whiteboard, pointing at a bar chart while explaining something. There are potted plants in the background and large windows letting in natural light, which gives the office a bright and professional atmosphere.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 45,
+        "sha256": "2820054dd9395983e0f004e90aaee4630b87950ec77f1ae962ea71b83fff4add"
+      }
+    },
+    {
+      "uid": "2-真题45去一个新的城市担任新职位的优点.json-2",
+      "questionId": 2,
+      "topic": "火车站街景",
+      "prompt": "A city street; a person walks with a suitcase past a train station, people and shops visible in the background",
+      "answer": "This is a picture of a busy city street near a train station. In the center, a person is walking while pulling a suitcase, possibly just arriving in the city. In the background, there are several shops with colorful signs and other pedestrians going about their day. A large clock is visible on the station building, and the sky appears clear, suggesting it is a fine day.",
+      "preparationTime": 45,
+      "answerTime": 30,
+      "difficulty": "medium",
+      "keywords": "describe the photo in detail",
+      "part": 2,
+      "partName": "Part 2 描述图片",
+      "sourceFile": "真题45去一个新的城市担任新职位的优点.json",
+      "bankName": "真题45 去一个新的城市担任新职位的优点",
+      "instructions": "请描述以下图片：",
+      "priority": "P2",
+      "reason": "人物动作、位置和场景细节的完整描述；商业和职场场景优先，休闲场景用于补充覆盖。",
+      "imagePath": "./images/web/真题45-2.webp",
+      "questionBankAnswer": "This is a picture of a busy city street near a train station. In the center, a person is walking while pulling a suitcase, possibly just arriving in the city. In the background, there are several shops with colorful signs and other pedestrians going about their day. A large clock is visible on the station building, and the sky appears clear, suggesting it is a fine day.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 45,
+        "sha256": "07f1d9f0517a93a16eee657c469d9d656a6267963a7655883618f866878420e9"
+      }
+    },
+    {
+      "uid": "3-真题45去一个新的城市担任新职位的优点.json-group",
+      "part": 3,
+      "partName": "Part 3 回答问题",
+      "priority": "P3",
+      "sourceFile": "真题45去一个新的城市担任新职位的优点.json",
+      "bankName": "真题45 去一个新的城市担任新职位的优点",
+      "questionId": "1/2/3",
+      "topic": "个人爱好 · 爱好时间安排 · 新爱好选择",
+      "prompt": "Question 1: What is your hobby, and how long have you had it?\nQuestion 2: Do you think you have enough time to spend on your hobby? Why or why not?\nQuestion 3: If you could start a new hobby, what would it be and why?",
+      "answer": "My hobby is reading novels. I have been reading for about ten years, ever since I was in high school. I especially enjoy mystery and science fiction genres. Not really. During the workweek I am quite busy with projects and meetings, so I usually only get to read on weekends or late at night. I would like to set aside at least thirty minutes every day for reading. If I could start a new hobby, it would be playing the guitar. I have always been drawn to music, and I think learning an instrument would be a great way to relax after a long workday. Also, I could meet people who share the same interest, and maybe even join a small band in the future. It would be both creative and social, which is something I am missing in my daily routine.",
+      "reason": "按完整三问评价：兼顾经历、习惯和理由扩展；通勤场景复用度高，娱乐和爱好主题用于补充。",
+      "instructions": "请回答以下问题：",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "medium",
+      "keywords": "question what is your hobby and how long have you had it question do you think you have enough time to spend on your question if you could start a new hobby what would it be",
+      "questions": [
+        {
+          "uid": "3-真题45去一个新的城市担任新职位的优点.json-group-q1",
+          "questionId": 1,
+          "topic": "个人爱好",
+          "prompt": "Question 1: What is your hobby, and how long have you had it?",
+          "answer": "My hobby is reading novels. I have been reading for about ten years, ever since I was in high school. I especially enjoy mystery and science fiction genres.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question what is your hobby and how long have you had it",
+          "position": 1,
+          "questionBankAnswer": "My hobby is reading novels. I have been reading for about ten years, ever since I was in high school. I especially enjoy mystery and science fiction genres.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 45,
+            "sha256": "6822cb8f4ee2d628f86db5da16427e23a88a7e247440973fd66fa58ee7355401"
+          }
+        },
+        {
+          "uid": "3-真题45去一个新的城市担任新职位的优点.json-group-q2",
+          "questionId": 2,
+          "topic": "爱好时间安排",
+          "prompt": "Question 2: Do you think you have enough time to spend on your hobby? Why or why not?",
+          "answer": "Not really. During the workweek I am quite busy with projects and meetings, so I usually only get to read on weekends or late at night. I would like to set aside at least thirty minutes every day for reading.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "medium",
+          "keywords": "question do you think you have enough time to spend on your",
+          "position": 2,
+          "questionBankAnswer": "Not really. During the workweek I am quite busy with projects and meetings, so I usually only get to read on weekends or late at night. I would like to set aside at least thirty minutes every day for reading.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 45,
+            "sha256": "f9f895fb2b1f56e13a9bfda68f86a63d22ba29b7558d222b63c771f73935935e"
+          }
+        },
+        {
+          "uid": "3-真题45去一个新的城市担任新职位的优点.json-group-q3",
+          "questionId": 3,
+          "topic": "新爱好选择",
+          "prompt": "Question 3: If you could start a new hobby, what would it be and why?",
+          "answer": "If I could start a new hobby, it would be playing the guitar. I have always been drawn to music, and I think learning an instrument would be a great way to relax after a long workday. Also, I could meet people who share the same interest, and maybe even join a small band in the future. It would be both creative and social, which is something I am missing in my daily routine.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "medium",
+          "keywords": "question if you could start a new hobby what would it be",
+          "position": 3,
+          "questionBankAnswer": "If I could start a new hobby, it would be playing the guitar. I have always been drawn to music, and I think learning an instrument would be a great way to relax after a long workday. Also, I could meet people who share the same interest, and maybe even join a small band in the future. It would be both creative and social, which is something I am missing in my daily routine.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 45,
+            "sha256": "6bf2a719c33bd19ec044d6637b8d5330ef99709c8875ac4fcf7a7b2b22274c42"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "4-真题45去一个新的城市担任新职位的优点.json-group",
+      "part": 4,
+      "partName": "Part 4 信息回答",
+      "priority": "P1",
+      "sourceFile": "真题45去一个新的城市担任新职位的优点.json",
+      "bankName": "真题45 去一个新的城市担任新职位的优点",
+      "questionId": "1/2/3",
+      "topic": "首个议程 · 议程改期确认 · 培训场次汇总",
+      "prompt": "What is the first agenda item, and when does it begin?\nIs the second agenda item at 11 a.m. on April 2nd?\nCould you describe all the information about the training sessions?",
+      "answer": "The first agenda item is the Team Performance Review. It begins at 9:00 a.m. on April 1st in Meeting Room A. No, it is not. The Client Proposal Discussion was rescheduled and now takes place at 11 a.m. on April 5th. Sure. There are two training sessions. The first one is the Leadership Development training, which takes place on April 3rd from 2:00 to 4:00 p.m. in Training Room 1, and lunch is provided. The second one is the New Software Onboarding training, which is held on April 7th from 3:00 to 5:00 p.m. in Training Room 2, and participants are asked to bring their own laptops.",
+      "reason": "按完整三问评价：练习资料定位、确认或纠错、多项信息汇总；会议和改期信息优先。",
+      "instructions": "请根据提供的信息回答问题：",
+      "imagePath": "",
+      "preparationTime": "",
+      "answerTime": "",
+      "difficulty": "hard",
+      "keywords": "what is the first agenda item and when does it begin is the second agenda item at a m on april nd could you describe all the information about the training sessions",
+      "questions": [
+        {
+          "uid": "4-真题45去一个新的城市担任新职位的优点.json-group-q1",
+          "questionId": 1,
+          "topic": "首个议程",
+          "prompt": "What is the first agenda item, and when does it begin?",
+          "answer": "The first agenda item is the Team Performance Review. It begins at 9:00 a.m. on April 1st in Meeting Room A.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "what is the first agenda item and when does it begin",
+          "position": 1,
+          "questionBankAnswer": "The first agenda item is the Team Performance Review. It begins at 9:00 a.m. on April 1st in Meeting Room A.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 45,
+            "sha256": "ad9de750f85c73cd3c8f232999c936cf33a0bcc415a93b55b75cb7c85d285fce"
+          }
+        },
+        {
+          "uid": "4-真题45去一个新的城市担任新职位的优点.json-group-q2",
+          "questionId": 2,
+          "topic": "议程改期确认",
+          "prompt": "Is the second agenda item at 11 a.m. on April 2nd?",
+          "answer": "No, it is not. The Client Proposal Discussion was rescheduled and now takes place at 11 a.m. on April 5th.",
+          "preparationTime": 3,
+          "answerTime": 15,
+          "difficulty": "hard",
+          "keywords": "is the second agenda item at a m on april nd",
+          "position": 2,
+          "questionBankAnswer": "No, it is not. The Client Proposal Discussion was rescheduled and now takes place at 11 a.m. on April 5th.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 45,
+            "sha256": "2ad2826e932bd023ecd5fc117edb052858520ca612005381a8f4d73a1ed6e494"
+          }
+        },
+        {
+          "uid": "4-真题45去一个新的城市担任新职位的优点.json-group-q3",
+          "questionId": 3,
+          "topic": "培训场次汇总",
+          "prompt": "Could you describe all the information about the training sessions?",
+          "answer": "Sure. There are two training sessions. The first one is the Leadership Development training, which takes place on April 3rd from 2:00 to 4:00 p.m. in Training Room 1, and lunch is provided. The second one is the New Software Onboarding training, which is held on April 7th from 3:00 to 5:00 p.m. in Training Room 2, and participants are asked to bring their own laptops.",
+          "preparationTime": 3,
+          "answerTime": 30,
+          "difficulty": "hard",
+          "keywords": "could you describe all the information about the training sessions",
+          "position": 3,
+          "questionBankAnswer": "Sure. There are two training sessions. The first one is the Leadership Development training, which takes place on April 3rd from 2:00 to 4:00 p.m. in Training Room 1, and lunch is provided. The second one is the New Software Onboarding training, which is held on April 7th from 3:00 to 5:00 p.m. in Training Room 2, and participants are asked to bring their own laptops.",
+          "answerSource": {
+            "type": "user-document",
+            "file": "43_45.docx",
+            "section": 45,
+            "sha256": "b358c96623a438972d61ff4fa94d0cac60dc8af21a221d6f1727ed8afb3bf7b0"
+          }
+        }
+      ],
+      "reviewTime": 45,
+      "material": {
+        "title": "Manager's Weekly Meeting Schedule - April",
+        "headers": [
+          "Date",
+          "Time",
+          "Agenda Item",
+          "Location",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Apr 1",
+              "9:00-10:00",
+              "Team Performance Review",
+              "Meeting Room A",
+              "Q1 goals summary"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Apr 5",
+              "11:00-12:00",
+              "Client Proposal Discussion",
+              "Conference Room 2",
+              "Rescheduled from Apr 2"
+            ],
+            "status": "changed"
+          },
+          {
+            "cells": [
+              "Apr 3",
+              "2:00-4:00 PM",
+              "Training: Leadership Development",
+              "Training Room 1",
+              "Lunch provided"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Apr 7",
+              "3:00-5:00 PM",
+              "Training: New Software Onboarding",
+              "Training Room 2",
+              "Bring your laptop"
+            ],
+            "status": ""
+          }
+        ],
+        "notes": [],
+        "missing": false,
+        "sourceImage": "./images/materials/真题45.png"
+      }
+    },
+    {
+      "uid": "5-真题45去一个新的城市担任新职位的优点.json-1",
+      "questionId": 1,
+      "topic": "异地任职与职业发展",
+      "prompt": "What are the advantages of moving to a new city to take up a new position?",
+      "answer": "There are several advantages to moving to a new city for a new position. First, it offers a fresh start both professionally and personally. In a new environment, you are not tied to old habits or limited by previous experiences. You get to build new skills, learn how different teams work, and grow in ways that might not be possible in a familiar setting. Second, living in a new city broadens your perspective. You are exposed to different cultures, ways of thinking, and local communities. This helps you become more adaptable and open-minded, which are valuable qualities in any career. Third, it can lead to better career opportunities. A new city often means a new network of professionals, and building these connections early can open doors to promotions, collaborations, and even future job offers. Finally, the challenge of settling somewhere new pushes you out of your comfort zone, which builds resilience and confidence. Overall, while it can be difficult at first, the long-term benefits for both your career and personal growth are well worth the effort.",
+      "preparationTime": 45,
+      "answerTime": 60,
+      "difficulty": "hard",
+      "keywords": "what are the advantages of moving to a new city to take",
+      "part": 5,
+      "partName": "Part 5 表达观点",
+      "sourceFile": "真题45去一个新的城市担任新职位的优点.json",
+      "bankName": "真题45 去一个新的城市担任新职位的优点",
+      "instructions": "请针对以下情况表达一个观点：",
+      "priority": "P1",
+      "reason": "围绕明确观点、理由和例子组织回答；团队合作及职业发展优先，阅读习惯用于扩展话题。",
+      "imagePath": "",
+      "questionBankAnswer": "There are several advantages to moving to a new city for a new position. First, it offers a fresh start both professionally and personally. In a new environment, you are not tied to old habits or limited by previous experiences. You get to build new skills, learn how different teams work, and grow in ways that might not be possible in a familiar setting. Second, living in a new city broadens your perspective. You are exposed to different cultures, ways of thinking, and local communities. This helps you become more adaptable and open-minded, which are valuable qualities in any career. Third, it can lead to better career opportunities. A new city often means a new network of professionals, and building these connections early can open doors to promotions, collaborations, and even future job offers. Finally, the challenge of settling somewhere new pushes you out of your comfort zone, which builds resilience and confidence. Overall, while it can be difficult at first, the long-term benefits for both your career and personal growth are well worth the effort.",
+      "answerSource": {
+        "type": "user-document",
+        "file": "43_45.docx",
+        "section": 45,
+        "sha256": "26f8b66898d9334b5be413ff3bfe41847ab574b724f6556f767bf08ad36922c7"
       }
     }
   ]

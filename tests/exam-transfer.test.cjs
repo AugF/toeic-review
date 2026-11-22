@@ -114,7 +114,7 @@ test("Part 2–5 payloads contain no alternative answers and all spoken answers 
       count++;
     }
   }
-  assert.equal(count,377);
+  assert.equal(count,404);
 });
 
 test("completed reports return their own paper even when practice has a different selection",async()=>{

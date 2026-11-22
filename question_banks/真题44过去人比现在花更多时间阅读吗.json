@@ -1,0 +1,211 @@
+{
+  "name": "真题44 过去人比现在花更多时间阅读吗",
+  "number": 44,
+  "source_document": "43_45.docx",
+  "total_questions": 11,
+  "parts": [
+    {
+      "part": 1,
+      "part_name": "朗读短文",
+      "instructions": "请朗读以下短文：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Everyone’s attention, please. May I take a moment to introduce a new member of our team. This is Sarah Chen, who has joined us as our project manager. With over ten years of experience in product development, she has led several successful teams. On behalf of the whole team, I’d like to say a warm welcome. Please join me in welcoming Sarah.",
+          "reference_answer": "Everyone’s attention, please. May I take a moment to introduce a new member of our team. This is Sarah Chen, who has joined us as our project manager. With over ten years of experience in product development, she has led several successful teams. On behalf of the whole team, I’d like to say a warm welcome. Please join me in welcoming Sarah.",
+          "preparation_time": 45,
+          "answer_time": 45,
+          "topic": "欢迎新项目经理",
+          "difficulty": "easy",
+          "keywords": "everyone s attention please may i take a moment to introduce a"
+        },
+        {
+          "id": 2,
+          "question": "This is a reminder that the annual staff picnic will be held next Saturday at Riverside Park from eleven in the morning until three in the afternoon. Food and drinks will be provided, but employees are welcome to bring their families. Please RSVP to the human resources office by this Wednesday so we can finalize the headcount.",
+          "reference_answer": "This is a reminder that the annual staff picnic will be held next Saturday at Riverside Park from eleven in the morning until three in the afternoon. Food and drinks will be provided, but employees are welcome to bring their families. Please RSVP to the human resources office by this Wednesday so we can finalize the headcount.",
+          "preparation_time": 45,
+          "answer_time": 45,
+          "topic": "员工野餐通知",
+          "difficulty": "easy",
+          "keywords": "this is a reminder that the annual staff picnic will be held"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "part_name": "描述图片",
+      "instructions": "请描述以下图片：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Describe the photo in detail.",
+          "reference_answer": "This is a picture taken inside a bakery. On the left side of the picture, three women are standing in a line, waiting their turn to pay. In front of them, a female clerk is standing behind the counter. She is checking out the woman who is standing closest to the counter. Behind the counter, there seem to be shelves with baked goods, which suggests that the customers have just finished choosing their items and are now paying for them. The scene looks quite busy but orderly.",
+          "preparation_time": 45,
+          "answer_time": 30,
+          "topic": "面包店排队结账",
+          "difficulty": "medium",
+          "keywords": "describe the photo in detail",
+          "image_description": "A bakery; three women stand in a queue waiting to pay at the counter, a female clerk behind the counter is checking out the woman standing closest to her",
+          "picture_path": "images/web/真题44-1.webp",
+          "docx_image": "word/media/image4.png"
+        },
+        {
+          "id": 2,
+          "question": "Describe the photo in detail.",
+          "reference_answer": "This is a picture taken in a conference room during a presentation. At the front of the room, a man wearing a white shirt is standing and giving a speech, and there appears to be a screen or board behind him. Most of the audience is seated in rows of chairs, with their backs to the camera, and they are listening carefully. At the front right side of the room, two people are standing and watching the speaker as well. The atmosphere seems serious and focused, like a formal meeting or a training session.",
+          "preparation_time": 45,
+          "answer_time": 30,
+          "topic": "会议演讲场景",
+          "difficulty": "medium",
+          "keywords": "describe the photo in detail",
+          "image_description": "A conference room; a man in a white shirt is giving a presentation at the front, many people are seated facing him listening attentively, and two people are standing at the front right",
+          "picture_path": "images/web/真题44-2.webp",
+          "docx_image": "word/media/image5.png"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "part_name": "回答问题",
+      "instructions": "请回答以下问题：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Question 1: How often do you ride the bus? Why do you ride it?",
+          "reference_answer": "I ride the bus about three or four times a week. I ride it because it is convenient and cheaper than taking a taxi, and it can drop me off close to my office.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "公交使用习惯",
+          "difficulty": "medium",
+          "keywords": "question how often do you ride the bus why do you ride"
+        },
+        {
+          "id": 2,
+          "question": "Question 2: What are some reasons for choosing to ride the bus, such as punctual arrival, friendly service, or low cost? Which one would you choose, and why?",
+          "reference_answer": "There are several reasons why people choose to ride the bus. For example, the bus usually arrives on time, the drivers and staff provide friendly service, and the fare is much lower than other transportation. If I had to choose, I would pick punctual arrival. In my daily commute, arriving on time is the most important, because I need to reach the office before the morning meeting. No matter how cheap or comfortable the bus is, being late would cause a lot of stress.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "公交选择因素",
+          "difficulty": "medium",
+          "keywords": "question what are some reasons for choosing to ride the bus such"
+        },
+        {
+          "id": 3,
+          "question": "Question 3: Do you think the bus service in your city will become more popular or less popular in the future? Why?",
+          "reference_answer": "I think the bus service in my city will become more popular in the future. First, as traffic congestion gets worse, more people will look for alternatives to driving. Taking the bus allows commuters to avoid the stress of finding parking and dealing with rush-hour traffic. Second, with growing concerns about the environment, many people are trying to reduce their carbon footprint. Buses are a more eco-friendly option compared to private cars, since one bus can carry dozens of passengers at once. Finally, the city government has been investing in new bus lanes and upgrading the fleet to electric buses, which will make the service faster, quieter, and more comfortable. All of these factors will likely attract more riders in the coming years.",
+          "preparation_time": 3,
+          "answer_time": 30,
+          "topic": "公交服务趋势",
+          "difficulty": "medium",
+          "keywords": "question do you think the bus service in your city will become"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "part_name": "信息回答",
+      "instructions": "请根据提供的信息回答问题：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Where is the concert season held?",
+          "reference_answer": "The concert season is held at the City Music Hall, in its different halls, such as Hall A, Hall B, and Hall C.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "音乐会地点",
+          "difficulty": "hard",
+          "keywords": "where is the concert season held"
+        },
+        {
+          "id": 2,
+          "question": "Is the ticket 7 yuan?",
+          "reference_answer": "No, the ticket is not 7 yuan. The prices range from 30 yuan to 70 yuan, depending on which concert you choose to attend.",
+          "preparation_time": 3,
+          "answer_time": 15,
+          "topic": "票价纠错",
+          "difficulty": "hard",
+          "keywords": "is the ticket yuan"
+        },
+        {
+          "id": 3,
+          "question": "How many concerts are there? Could you give me more details about them?",
+          "reference_answer": "There are four concerts in total. The first is the Spring Chamber Music Evening on Friday evening from 7:00 to 8:30 in Hall A, and the ticket is 50 yuan. The second is the Youth Symphony Orchestra Show on Saturday afternoon from 2:00 to 4:00 in Hall B, with a ticket price of 30 yuan. The third is the Piano and Violin Recital on Saturday evening from 7:30 to 9:30 in Hall A, and it costs 70 yuan. The last one is the Folk Music Appreciation Evening on Sunday afternoon from 3:00 to 4:30 in Hall C, with the ticket at 40 yuan.",
+          "preparation_time": 3,
+          "answer_time": 30,
+          "topic": "音乐会汇总",
+          "difficulty": "hard",
+          "keywords": "how many concerts are there could you give me more details about"
+        }
+      ],
+      "review_time": 45,
+      "docx_image": "word/media/image6.png",
+      "material": {
+        "title": "City Music Hall - Concert Season Schedule",
+        "headers": [
+          "Date / Time",
+          "Concert",
+          "Hall",
+          "Notes"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Friday 7:00-8:30 PM",
+              "Spring Chamber Music Evening",
+              "Hall A",
+              "Ticket: 50 yuan"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Saturday 2:00-4:00 PM",
+              "Youth Symphony Orchestra Show",
+              "Hall B",
+              "Ticket: 30 yuan"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Saturday 7:30-9:30 PM",
+              "Piano & Violin Recital",
+              "Hall A",
+              "Ticket: 70 yuan"
+            ],
+            "status": ""
+          },
+          {
+            "cells": [
+              "Sunday 3:00-4:30 PM",
+              "Folk Music Appreciation Evening",
+              "Hall C",
+              "Ticket: 40 yuan"
+            ],
+            "status": ""
+          }
+        ],
+        "notes": [],
+        "missing": false,
+        "sourceImage": "./images/materials/真题44.png"
+      }
+    },
+    {
+      "part": 5,
+      "part_name": "表达观点",
+      "instructions": "请针对以下情况表达一个观点：",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Do you think people in the past spent more time reading than people do now? Why or why not?",
+          "reference_answer": "I believe people in the past did spend more time reading than people do today. The first reason is that there were fewer entertainment options in the past. Before smartphones and streaming services, people had limited ways to kill time, so reading books and newspapers was one of the most common activities. As a result, reading became a daily habit for many people. The second reason is that reading was more closely connected to work and study. In the past, people had to read manuals, letters, and long reports carefully to finish their jobs, which naturally took up a large part of their day. Today, however, information comes in the form of short videos, quick messages, and audio content, so people tend to consume knowledge faster and read fewer long texts. Finally, many young people today feel that scrolling through their phones is more relaxing than reading, which further reduces the time they spend with books. In short, because of richer entertainment and faster ways of getting information, I think people today read less than people in the past.",
+          "preparation_time": 45,
+          "answer_time": 60,
+          "topic": "过去与现在的阅读习惯",
+          "difficulty": "hard",
+          "keywords": "do you think people in the past spent more time reading than"
+        }
+      ]
+    }
+  ]
+}
