@@ -10,8 +10,8 @@ vm.runInNewContext(fs.readFileSync(path.join(root,"toeic_review_data.js"),"utf8"
 const data = ctx.window.TOEIC_REVIEW_DATA;
 const sets = api.completeSets(data.records);
 
-test("fixed sets match the exam's 44 complete original papers",()=>{
-  assert.equal(sets.length,44);
+test("fixed sets contain 41 complete non-simulated papers",()=>{
+  assert.equal(sets.length,41);
   for(const set of sets) {
     assert.ok(api.valid(set.records));
     assert.equal(api.questionCount(set.records),11);
@@ -88,9 +88,29 @@ test("practice UI supports fixed selection, scoped filters, reshuffle and reload
   h.run('switchPracticeSet("random",true)');
   assert.notEqual(h.run("window.ToeicPracticeSets.signature(currentRecords())"),signature);
   h.run('switchPracticeSet("part")');
-  assert.equal(h.run("currentRecords().length"),90);
+  assert.equal(h.run("currentRecords().length"),84);
   const restoredFixed=ui([["toeic-review-practice-set-v1",JSON.stringify({mode:"fixed",source:fixed})]]);
   assert.equal(restoredFixed.run("currentRecords().length"),7);
+});
+
+test("simulated banks are absent from all pools and statistics match the remaining records",()=>{
+  assert.equal(data.records.length,294);
+  assert.ok(data.records.every(r=>!r.sourceFile.startsWith("模拟题")));
+  assert.ok(sets.every(set=>!set.source.startsWith("模拟题")));
+  for(const part of data.parts) {
+    const records=data.records.filter(r=>r.part===part.part);
+    assert.equal(part.counts.total,records.length);
+    for(const priority of ["P1","P2","P3"]) assert.equal(part.counts[priority],records.filter(r=>r.priority===priority).length);
+  }
+  for(const saved of [
+    {mode:"fixed",source:"模拟题1.json"},
+    {mode:"random",ids:["1-模拟题1.json-1"]},
+  ]) {
+    const h=ui([["toeic-review-practice-set-v1",JSON.stringify(saved)]]);
+    assert.equal(h.run("practiceMode"),"fixed");
+    assert.ok(h.run("currentRecords().every(r=>!r.sourceFile.startsWith('模拟题'))"));
+    assert.equal(h.run("currentRecords().length"),7);
+  }
 });
 
 test("fresh or invalid browser settings default to the first complete fixed paper",()=>{

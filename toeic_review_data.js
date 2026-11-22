@@ -5,9 +5,9 @@ window.TOEIC_REVIEW_DATA = {
       "part": 1,
       "name": "Part 1 朗读短文",
       "counts": {
-        "total": 90,
-        "P1": 72,
-        "P2": 14,
+        "total": 84,
+        "P1": 68,
+        "P2": 12,
         "P3": 4
       }
     },
@@ -15,19 +15,19 @@ window.TOEIC_REVIEW_DATA = {
       "part": 2,
       "name": "Part 2 描述图片",
       "counts": {
-        "total": 90,
-        "P1": 45,
+        "total": 84,
+        "P1": 40,
         "P2": 13,
-        "P3": 32
+        "P3": 31
       }
     },
     {
       "part": 3,
       "name": "Part 3 回答问题",
       "counts": {
-        "total": 45,
-        "P1": 22,
-        "P2": 11,
+        "total": 42,
+        "P1": 21,
+        "P2": 9,
         "P3": 12
       }
     },
@@ -35,9 +35,9 @@ window.TOEIC_REVIEW_DATA = {
       "part": 4,
       "name": "Part 4 信息回答",
       "counts": {
-        "total": 45,
-        "P1": 32,
-        "P2": 12,
+        "total": 42,
+        "P1": 30,
+        "P2": 11,
         "P3": 1
       }
     },
@@ -45,90 +45,14 @@ window.TOEIC_REVIEW_DATA = {
       "part": 5,
       "name": "Part 5 表达观点",
       "counts": {
-        "total": 45,
-        "P1": 17,
+        "total": 42,
+        "P1": 15,
         "P2": 12,
-        "P3": 16
+        "P3": 15
       }
     }
   ],
   "records": [
-    {
-      "uid": "1-模拟题1.json-1",
-      "part": 1,
-      "partName": "Part 1 朗读短文",
-      "priority": "P1",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 1,
-      "topic": "酒店欢迎词",
-      "prompt": "Welcome to the Grandview Hotel. We are pleased to have you stay with us today. Our hotel provides many convenient services to make your visit comfortable and enjoyable. Every morning, guests can enjoy a free breakfast served in the dining area on the first floor. We also offer a fully equipped fitness center that is open all day. If you need help with transportation, dining, or local attractions, our front desk staff are always happy to assist you. We hope you have a relaxing stay and a pleasant experience with us.",
-      "answer": "Welcome to the Grandview Hotel. We are pleased to have you stay with us today. Our hotel provides many convenient services to make your visit comfortable and enjoyable. Every morning, guests can enjoy a free breakfast served in the dining area on the first floor. We also offer a fully equipped fitness center that is open all day. If you need help with transportation, dining, or local attractions, our front desk staff are always happy to assist you. We hope you have a relaxing stay and a pleasant experience with us.",
-      "reason": "公告、欢迎词、会议或公共服务介绍，最贴近 Part1 常见朗读文本。",
-      "instructions": "请朗读以下短文：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 45,
-      "difficulty": "easy",
-      "keywords": "grandview hotel pleased stay us"
-    },
-    {
-      "uid": "1-模拟题2.json-1",
-      "part": 1,
-      "partName": "Part 1 朗读短文",
-      "priority": "P1",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 1,
-      "topic": "餐厅欢迎词",
-      "prompt": "Welcome to the Riverside Restaurant. We are very happy to have you dining with us today. Our restaurant serves a wide range of dishes, including both traditional local food and popular international cuisine. The dining area is clean, spacious, and designed to provide a relaxing atmosphere for all guests. Whether you are dining alone or with a group, our tables are arranged to make you feel comfortable. Our staff members are always ready to help you choose meals, explain menu items, and handle special requests. We hope you enjoy your meal and have a pleasant dining experience with us.",
-      "answer": "Welcome to the Riverside Restaurant. We are very happy to have you dining with us today. Our restaurant serves a wide range of dishes, including both traditional local food and popular international cuisine. The dining area is clean, spacious, and designed to provide a relaxing atmosphere for all guests. Whether you are dining alone or with a group, our tables are arranged to make you feel comfortable. Our staff members are always ready to help you choose meals, explain menu items, and handle special requests. We hope you enjoy your meal and have a pleasant dining experience with us.",
-      "reason": "公告、欢迎词、会议或公共服务介绍，最贴近 Part1 常见朗读文本。",
-      "instructions": "请朗读以下短文：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 45,
-      "difficulty": "easy",
-      "keywords": "riverside restaurant happy dining us"
-    },
-    {
-      "uid": "1-模拟题3.json-1",
-      "part": 1,
-      "partName": "Part 1 朗读短文",
-      "priority": "P1",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 1,
-      "topic": "图书馆服务介绍",
-      "prompt": "Welcome to the National Library. We are pleased to welcome visitors from all over the country. This library provides access to thousands of books, newspapers, magazines, and digital resources for study and research. The reading rooms are quiet, clean, and well-lit, creating a comfortable environment for learning. Our staff members are always available to help you find materials and use the online catalog system. There are also special areas designed for children and teenagers, where educational programs and reading activities are held regularly. Please follow library rules and enjoy your time here.",
-      "answer": "Welcome to the National Library. We are pleased to welcome visitors from all over the country. This library provides access to thousands of books, newspapers, magazines, and digital resources for study and research. The reading rooms are quiet, clean, and well-lit, creating a comfortable environment for learning. Our staff members are always available to help you find materials and use the online catalog system. There are also special areas designed for children and teenagers, where educational programs and reading activities are held regularly. Please follow library rules and enjoy your time here.",
-      "reason": "公告、欢迎词、会议或公共服务介绍，最贴近 Part1 常见朗读文本。",
-      "instructions": "请朗读以下短文：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 45,
-      "difficulty": "easy",
-      "keywords": "national library pleased visitors over"
-    },
-    {
-      "uid": "1-模拟题3.json-2",
-      "part": 1,
-      "partName": "Part 1 朗读短文",
-      "priority": "P1",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 2,
-      "topic": "街头场景描述",
-      "prompt": "During a visit to a busy city street, you will notice a mix of shops, restaurants, and small parks. People are walking in different directions, some chatting with friends while others are carrying shopping bags. In the foreground, a man is asking a woman for directions. On the right side, another woman is pushing a stroller past a small store. The street is clean and lively, with colorful signs above the shops. Cars move slowly and pedestrians follow traffic rules, making the area safe and enjoyable.",
-      "answer": "During a visit to a busy city street, you will notice a mix of shops, restaurants, and small parks. People are walking in different directions, some chatting with friends while others are carrying shopping bags. In the foreground, a man is asking a woman for directions. On the right side, another woman is pushing a stroller past a small store. The street is clean and lively, with colorful signs above the shops. Cars move slowly and pedestrians follow traffic rules, making the area safe and enjoyable.",
-      "reason": "公告、欢迎词、会议或公共服务介绍，最贴近 Part1 常见朗读文本。",
-      "instructions": "请朗读以下短文：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 45,
-      "difficulty": "easy",
-      "keywords": "visit busy city street notice"
-    },
     {
       "uid": "1-真题01沟通组织解决问题哪个重要.json-1",
       "part": 1,
@@ -1422,44 +1346,6 @@ window.TOEIC_REVIEW_DATA = {
       "keywords": "sweet ice cream shop today"
     },
     {
-      "uid": "1-模拟题1.json-2",
-      "part": 1,
-      "partName": "Part 1 朗读短文",
-      "priority": "P2",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 2,
-      "topic": "工作规则",
-      "prompt": "Good communication is an important part of a successful workplace. When employees share information clearly, tasks can be completed more efficiently and mistakes can be avoided. Teamwork also plays a key role, as people with different skills can support each other and solve problems together. In addition, managing time well helps employees stay organized and reduce stress. By working together and communicating effectively, everyone can contribute to a positive work environment and achieve better results.",
-      "answer": "Good communication is an important part of a successful workplace. When employees share information clearly, tasks can be completed more efficiently and mistakes can be avoided. Teamwork also plays a key role, as people with different skills can support each other and solve problems together. In addition, managing time well helps employees stay organized and reduce stress. By working together and communicating effectively, everyone can contribute to a positive work environment and achieve better results.",
-      "reason": "职场通知或公司规则，信息密度较高，适合第二轮重点练。",
-      "instructions": "请朗读以下短文：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 45,
-      "difficulty": "easy",
-      "keywords": "good communication important part successful"
-    },
-    {
-      "uid": "1-模拟题2.json-2",
-      "part": 1,
-      "partName": "Part 1 朗读短文",
-      "priority": "P2",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 2,
-      "topic": "仓库管理",
-      "prompt": "In a busy warehouse, organization and teamwork are extremely important. Employees are responsible for checking inventory, arranging products on shelves, and making sure items are stored in the correct locations. Supervisors guide workers and help coordinate daily tasks to keep operations running smoothly. Keeping the warehouse clean and orderly is also essential for safety and efficiency. When everyone communicates clearly and works together, tasks can be completed accurately and on time. A well-managed warehouse improves productivity and ensures customers receive their orders without delay.",
-      "answer": "In a busy warehouse, organization and teamwork are extremely important. Employees are responsible for checking inventory, arranging products on shelves, and making sure items are stored in the correct locations. Supervisors guide workers and help coordinate daily tasks to keep operations running smoothly. Keeping the warehouse clean and orderly is also essential for safety and efficiency. When everyone communicates clearly and works together, tasks can be completed accurately and on time. A well-managed warehouse improves productivity and ensures customers receive their orders without delay.",
-      "reason": "职场通知或公司规则，信息密度较高，适合第二轮重点练。",
-      "instructions": "请朗读以下短文：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 45,
-      "difficulty": "easy",
-      "keywords": "busy warehouse organization teamwork extremely"
-    },
-    {
       "uid": "1-真题01沟通组织解决问题哪个重要.json-2",
       "part": 1,
       "partName": "Part 1 朗读短文",
@@ -1762,106 +1648,6 @@ window.TOEIC_REVIEW_DATA = {
       "answerTime": 45,
       "difficulty": "easy",
       "keywords": "attention passengers train central station"
-    },
-    {
-      "uid": "2-模拟题1.json-1",
-      "part": 2,
-      "partName": "Part 2 描述图片",
-      "priority": "P1",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 1,
-      "topic": "酒店场景",
-      "prompt": "酒店场景，两男一女，前景客户在结账，职员服务，另一客户提包拉行李，看商品",
-      "answer": "This picture was taken in a hotel. In the center, a clerk is helping a male customer who is checking out. On the right, another customer is carrying a bag and pulling a suitcase while looking at some items. The hotel lobby looks clean and well organized.",
-      "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
-      "instructions": "请描述以下图片：",
-      "imagePath": "./images/web/模拟题1-1.webp",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "hotel center clerk helping male",
-      "questionBankAnswer": "This picture was taken in a hotel. In the center, a clerk is helping a male customer who is checking out. On the right, another customer is carrying a bag and pulling a suitcase while looking at some items. The hotel lobby looks clean and well organized."
-    },
-    {
-      "uid": "2-模拟题2.json-3",
-      "part": 2,
-      "partName": "Part 2 描述图片",
-      "priority": "P1",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 3,
-      "topic": "餐厅场景",
-      "prompt": "餐厅里很多人在吃饭或交谈，近景三个人，一个人在吃薯条，另两人在看菜单点餐，其中一人拿着水",
-      "answer": "This picture shows a busy restaurant with many people eating and talking. In the foreground, three people are sitting at a table. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water.",
-      "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
-      "instructions": "请描述以下图片：",
-      "imagePath": "./images/web/模拟题2-1.webp",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "shows busy restaurant people eating",
-      "questionBankAnswer": "This picture shows a busy restaurant with many people eating and talking. In the foreground, three people are sitting at a table. One person is eating French fries, while the other two are looking at the menu and deciding what to order. One of them is holding a glass of water."
-    },
-    {
-      "uid": "2-模拟题2.json-4",
-      "part": 2,
-      "partName": "Part 2 描述图片",
-      "priority": "P1",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 4,
-      "topic": "仓库场景",
-      "prompt": "仓库里，右边两位女士在衣柜附近换衣服，左边有穿蓝色上衣的胖男子背影走远，背景有货架和商品",
-      "answer": "The picture was taken in a warehouse. On the right side, two women are standing near a wardrobe and preparing to change clothes. On the left, a man wearing a blue shirt is walking away. In the background, there are shelves filled with goods.",
-      "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
-      "instructions": "请描述以下图片：",
-      "imagePath": "./images/web/模拟题2-2.webp",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "warehouse right side women standing",
-      "questionBankAnswer": "The picture was taken in a warehouse. On the right side, two women are standing near a wardrobe and preparing to change clothes. On the left, a man wearing a blue shirt is walking away. In the background, there are shelves filled with goods."
-    },
-    {
-      "uid": "2-模拟题3.json-3",
-      "part": 2,
-      "partName": "Part 2 描述图片",
-      "priority": "P1",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 3,
-      "topic": "街头场景",
-      "prompt": "街道上有三个人，中间一男士在问路，左边一女士拿着满满的购物袋，右边一女士推着婴儿车经过商店",
-      "answer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, a woman is carrying several shopping bags. On the right, another woman is pushing a stroller past a shop.",
-      "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
-      "instructions": "请描述以下图片：",
-      "imagePath": "./images/web/模拟题3-1..webp",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "shows street scene three people",
-      "questionBankAnswer": "This picture shows a street scene with three people. In the middle, a man is asking a woman for directions. On the left, a woman is carrying several shopping bags. On the right, another woman is pushing a stroller past a shop."
-    },
-    {
-      "uid": "2-模拟题3.json-4",
-      "part": 2,
-      "partName": "Part 2 描述图片",
-      "priority": "P1",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 4,
-      "topic": "会议场景",
-      "prompt": "会议室里有五个人，右边一女士拿着文件和笔记本，左边四个人在听讲和做笔记",
-      "answer": "The picture shows a meeting room with five people. On the right, a woman is holding documents and has a laptop in front of her. On the left, four people are listening carefully and taking notes.",
-      "reason": "职场、服务或商业场景，人物动作和物品细节多，最该优先练。",
-      "instructions": "请描述以下图片：",
-      "imagePath": "./images/web/模拟题3-2.webp",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "shows meeting room five people",
-      "questionBankAnswer": "The picture shows a meeting room with five people. On the right, a woman is holding documents and has a laptop in front of her. On the left, four people are listening carefully and taking notes."
     },
     {
       "uid": "2-真题01沟通组织解决问题哪个重要.json-1",
@@ -2924,26 +2710,6 @@ window.TOEIC_REVIEW_DATA = {
       "questionBankAnswer": "This is a picture taken in a classroom. There are three people in it. In the front, a girl is sitting at a table while drinking from a cup. There is also a laptop in front of her. Behind her, two girls are at another table. One is typing on a laptop, while the other is writing in a notebook. They all look focused and attentive. A clock is hanging on the wall in the background, and the room is well-lit and organized."
     },
     {
-      "uid": "2-模拟题1.json-2",
-      "part": 2,
-      "partName": "Part 2 描述图片",
-      "priority": "P3",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 2,
-      "topic": "房间场景",
-      "prompt": "房间场景，大窗户，四人，两人弹钢琴，两人拿纸唱歌，前景黑色行李箱，背景有家具和绿植",
-      "answer": "This is a picture of a bright room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. Some furniture and green plants can be seen in the background.",
-      "reason": "单一生活或休闲场景，适合最后刷熟描述模板。",
-      "instructions": "请描述以下图片：",
-      "imagePath": "./images/web/模拟题1-2.webp",
-      "preparationTime": 45,
-      "answerTime": 30,
-      "difficulty": "medium",
-      "keywords": "bright room large window people",
-      "questionBankAnswer": "This is a picture of a bright room with a large window. Two people are playing the piano, while two others are holding papers and singing. In the front, there is a black suitcase. Some furniture and green plants can be seen in the background."
-    },
-    {
       "uid": "2-真题01沟通组织解决问题哪个重要.json-2",
       "part": 2,
       "partName": "Part 2 描述图片",
@@ -3562,66 +3328,6 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "medium",
       "keywords": "man suit stands podium right",
       "questionBankAnswer": "In the picture, a man in a suit stands at a podium on the right, giving a speech. Several microphones are set up in front of him. On the left, a group of people are sitting or standing and listening attentively. Multiple cameras are recording the event. It appears to be a formal press conference with a serious atmosphere."
-    },
-    {
-      "uid": "3-模拟题1.json-group",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P1",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": "1/2/3",
-      "topic": "健身房经历 · 健身房习惯 · 健身房偏好",
-      "prompt": "Question 1: 你上次去健身房是什么时候？\nQuestion 2: 你一般什么时候去健身房，为什么？\nQuestion 3: 你喜欢健身房设备多更好还是课程多更好，为什么？",
-      "answer": "The last time I went to the gym was two days ago after work. I usually go to the gym in the evening because it helps me relax after a long day. I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
-      "reason": "P1：整套围绕工作、学习、购物、科技、交通或服务等 TOEIC 高频实用场景，并覆盖短答、理由和第三题扩展回答，应优先练习。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": "",
-      "answerTime": "",
-      "difficulty": "medium",
-      "keywords": "last time went gym days usually go gym evening helps prefer gyms equipment choose different",
-      "questions": [
-        {
-          "uid": "3-模拟题1.json-group-q1",
-          "position": 1,
-          "questionId": 1,
-          "topic": "健身房经历",
-          "prompt": "Question 1: 你上次去健身房是什么时候？",
-          "answer": "The last time I went to the gym was two days ago after work.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "medium",
-          "keywords": "last time went gym days",
-          "questionBankAnswer": "The last time I went to the gym was two days ago after work."
-        },
-        {
-          "uid": "3-模拟题1.json-group-q2",
-          "position": 2,
-          "questionId": 2,
-          "topic": "健身房习惯",
-          "prompt": "Question 2: 你一般什么时候去健身房，为什么？",
-          "answer": "I usually go to the gym in the evening because it helps me relax after a long day.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "medium",
-          "keywords": "usually go gym evening helps",
-          "questionBankAnswer": "I usually go to the gym in the evening because it helps me relax after a long day."
-        },
-        {
-          "uid": "3-模拟题1.json-group-q3",
-          "position": 3,
-          "questionId": 3,
-          "topic": "健身房偏好",
-          "prompt": "Question 3: 你喜欢健身房设备多更好还是课程多更好，为什么？",
-          "answer": "I prefer gyms with more equipment because I can choose different machines based on my workout goals.",
-          "preparationTime": 3,
-          "answerTime": 30,
-          "difficulty": "medium",
-          "keywords": "prefer gyms equipment choose different",
-          "questionBankAnswer": "I prefer gyms with more equipment because I can choose different machines based on my workout goals."
-        }
-      ]
     },
     {
       "uid": "3-真题01沟通组织解决问题哪个重要.json-group",
@@ -4884,126 +4590,6 @@ window.TOEIC_REVIEW_DATA = {
       ]
     },
     {
-      "uid": "3-模拟题2.json-group",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": "5/6/7",
-      "topic": "生活经历",
-      "prompt": "Question 1: 你什么时候离开家乡去城市的？在家乡待了多久？\nQuestion 2: 很多人离开家乡的原因是什么？\nQuestion 3: 一生在家乡长大的人的优势是什么？",
-      "answer": "I lived in my hometown for about eighteen years and left when I went to university. Many people leave their hometown for better job opportunities or higher education. The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
-      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": "",
-      "answerTime": "",
-      "difficulty": "medium",
-      "keywords": "lived hometown eighteen years left people leave hometown better job main advantage having stable life",
-      "questions": [
-        {
-          "uid": "3-模拟题2.json-group-q1",
-          "position": 1,
-          "questionId": 5,
-          "topic": "生活经历",
-          "prompt": "Question 1: 你什么时候离开家乡去城市的？在家乡待了多久？",
-          "answer": "I lived in my hometown for about eighteen years and left when I went to university.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "medium",
-          "keywords": "lived hometown eighteen years left",
-          "questionBankAnswer": "I lived in my hometown for about eighteen years and left when I went to university."
-        },
-        {
-          "uid": "3-模拟题2.json-group-q2",
-          "position": 2,
-          "questionId": 6,
-          "topic": "生活经历",
-          "prompt": "Question 2: 很多人离开家乡的原因是什么？",
-          "answer": "Many people leave their hometown for better job opportunities or higher education.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "medium",
-          "keywords": "people leave hometown better job",
-          "questionBankAnswer": "Many people leave their hometown for better job opportunities or higher education."
-        },
-        {
-          "uid": "3-模拟题2.json-group-q3",
-          "position": 3,
-          "questionId": 7,
-          "topic": "生活经历",
-          "prompt": "Question 3: 一生在家乡长大的人的优势是什么？",
-          "answer": "The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture.",
-          "preparationTime": 3,
-          "answerTime": 30,
-          "difficulty": "medium",
-          "keywords": "main advantage having stable life",
-          "questionBankAnswer": "The main advantage is having a stable life with close family and friends. People also feel more familiar with their environment and culture."
-        }
-      ]
-    },
-    {
-      "uid": "3-模拟题3.json-group",
-      "part": 3,
-      "partName": "Part 3 回答问题",
-      "priority": "P2",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": "5/6/7",
-      "topic": "度假偏好 · 度假活动 · 旅行社优势",
-      "prompt": "Question 1: 度假时你喜欢一个人还是和团队一起，为什么？\nQuestion 2: 如果度假，你喜欢什么活动？\nQuestion 3: 如果使用旅行社去旅游，有什么好处？",
-      "answer": "I prefer traveling with my family because I want to relax and spend quality time with them. I enjoy outdoor activities such as hiking because they help me relax and stay healthy. Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
-      "reason": "P2：整套属于旅行、家庭、饮食等常见生活经历与偏好题，考查连贯回答和理由扩展，适合第二轮练习。",
-      "instructions": "请回答以下问题：",
-      "imagePath": "",
-      "preparationTime": "",
-      "answerTime": "",
-      "difficulty": "medium",
-      "keywords": "prefer traveling family want relax enjoy outdoor activities hiking help traveling agency convenient time saving",
-      "questions": [
-        {
-          "uid": "3-模拟题3.json-group-q1",
-          "position": 1,
-          "questionId": 5,
-          "topic": "度假偏好",
-          "prompt": "Question 1: 度假时你喜欢一个人还是和团队一起，为什么？",
-          "answer": "I prefer traveling with my family because I want to relax and spend quality time with them.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "medium",
-          "keywords": "prefer traveling family want relax",
-          "questionBankAnswer": "I prefer traveling with my family because I want to relax and spend quality time with them."
-        },
-        {
-          "uid": "3-模拟题3.json-group-q2",
-          "position": 2,
-          "questionId": 6,
-          "topic": "度假活动",
-          "prompt": "Question 2: 如果度假，你喜欢什么活动？",
-          "answer": "I enjoy outdoor activities such as hiking because they help me relax and stay healthy.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "medium",
-          "keywords": "enjoy outdoor activities hiking help",
-          "questionBankAnswer": "I enjoy outdoor activities such as hiking because they help me relax and stay healthy."
-        },
-        {
-          "uid": "3-模拟题3.json-group-q3",
-          "position": 3,
-          "questionId": 7,
-          "topic": "旅行社优势",
-          "prompt": "Question 3: 如果使用旅行社去旅游，有什么好处？",
-          "answer": "Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you.",
-          "preparationTime": 3,
-          "answerTime": 30,
-          "difficulty": "medium",
-          "keywords": "traveling agency convenient time saving",
-          "questionBankAnswer": "Traveling with an agency is convenient and time-saving because they arrange transportation, accommodation, and schedules for you."
-        }
-      ]
-    },
-    {
       "uid": "3-真题02新工作哪个能力最重要.json-group",
       "part": 3,
       "partName": "Part 3 回答问题",
@@ -6249,234 +5835,6 @@ window.TOEIC_REVIEW_DATA = {
           "questionBankAnswer": "My favorite movie is Inception. The story is complex and exciting, and the special effects are amazing. I like how it makes me think about reality and dreams."
         }
       ]
-    },
-    {
-      "uid": "4-模拟题1.json-group",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": "1/2/3",
-      "topic": "活动地点 · 时间确认 · 活动详情",
-      "prompt": "第8题：问这个活动在哪里举行？\n第9题：他9点才能到，活动10点开始，会不会错过什么？\n第10题：对两个Building类活动做具体说明。",
-      "answer": "All the activities take place at the Richards History Museum. No, he will not miss anything because the activity starts at 10 o’clock. There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum.",
-      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
-      "instructions": "请根据提供的信息回答问题： Day Activity Time Location Notes Monday–Saturday Museum Opening 9am–5pm The Richards History Museum Open to visitors Sunday Museum Opening 12pm–8pm The Richards History Museum Open to visitors May 11th Children’s Day All Day The Richards History Museum Children under 12 free admission May 4th Houses Around the World Exhibition 9am–5pm The Richards History Museum Building exhibition May 25th How Palaces were Built Film 9am–5pm The Richards History Museum Building exhibition",
-      "imagePath": "",
-      "preparationTime": "",
-      "answerTime": "",
-      "difficulty": "hard",
-      "keywords": "activities take place richards history no not miss anything activity building related activities exhibition called",
-      "questions": [
-        {
-          "uid": "4-模拟题1.json-group-q1",
-          "position": 1,
-          "questionId": 1,
-          "topic": "活动地点",
-          "prompt": "第8题：问这个活动在哪里举行？",
-          "answer": "All the activities take place at the Richards History Museum.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "hard",
-          "keywords": "activities take place richards history",
-          "questionBankAnswer": "All the activities take place at the Richards History Museum."
-        },
-        {
-          "uid": "4-模拟题1.json-group-q2",
-          "position": 2,
-          "questionId": 2,
-          "topic": "时间确认",
-          "prompt": "第9题：他9点才能到，活动10点开始，会不会错过什么？",
-          "answer": "No, he will not miss anything because the activity starts at 10 o’clock.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "hard",
-          "keywords": "no not miss anything activity",
-          "questionBankAnswer": "No, he will not miss anything because the activity starts at 10 o’clock."
-        },
-        {
-          "uid": "4-模拟题1.json-group-q3",
-          "position": 3,
-          "questionId": 3,
-          "topic": "活动详情",
-          "prompt": "第10题：对两个Building类活动做具体说明。",
-          "answer": "There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum.",
-          "preparationTime": 3,
-          "answerTime": 30,
-          "difficulty": "hard",
-          "keywords": "building related activities exhibition called",
-          "questionBankAnswer": "There are two building-related activities. One is the exhibition called 'Houses Around the World' on May 4th. The other is a film titled 'How Palaces were Built' on May 25th. Both are held from 9am to 5pm at the museum."
-        }
-      ],
-      "reviewTime": 45,
-      "material": {
-        "headers": [
-          "Day",
-          "Activity",
-          "Time",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday–Saturday",
-              "Museum Opening",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Sunday",
-              "Museum Opening",
-              "12pm–8pm",
-              "The Richards History Museum",
-              "Open to visitors"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 11th",
-              "Children’s Day",
-              "All Day",
-              "The Richards History Museum",
-              "Children under 12 free admission"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 4th",
-              "Houses Around the World Exhibition",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "May 25th",
-              "How Palaces were Built Film",
-              "9am–5pm",
-              "The Richards History Museum",
-              "Building exhibition"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
-      "uid": "4-模拟题2.json-group",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P1",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": "8/9/10",
-      "topic": "会议信息",
-      "prompt": "会议在哪一天什么时间举行？\n一个活动是在周一举行吗？\n如果只有下午6点后有空，有哪些活动可以参加？",
-      "answer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel. No, the database security sessions are held on Tuesday. Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m.",
-      "reason": "P1：整套属于会议、面试、行程等 TOEIC 高频职场资料，或含变更信息和多项汇总；三题连续定位与第三题综合作答难度高，应优先练习。",
-      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–17:00 XXX Database Conference The Crown Hotel Opening speech, panel discussions and workshops Tuesday 10:00–11:00 Database Security Session The Crown Hotel Led by Mr. XXX Tuesday 15:00–16:00 Database Security Session The Crown Hotel Led by Mr. YYY",
-      "imagePath": "",
-      "preparationTime": "",
-      "answerTime": "",
-      "difficulty": "hard",
-      "keywords": "database conference held monday crown no database security sessions held unfortunately no activities available sessions",
-      "questions": [
-        {
-          "uid": "4-模拟题2.json-group-q1",
-          "position": 1,
-          "questionId": 8,
-          "topic": "会议信息",
-          "prompt": "会议在哪一天什么时间举行？",
-          "answer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "hard",
-          "keywords": "database conference held monday crown",
-          "questionBankAnswer": "The database conference is held on Monday from 9 a.m. to 5 p.m. at the Crown Hotel."
-        },
-        {
-          "uid": "4-模拟题2.json-group-q2",
-          "position": 2,
-          "questionId": 9,
-          "topic": "会议信息",
-          "prompt": "一个活动是在周一举行吗？",
-          "answer": "No, the database security sessions are held on Tuesday.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "hard",
-          "keywords": "no database security sessions held",
-          "questionBankAnswer": "No, the database security sessions are held on Tuesday."
-        },
-        {
-          "uid": "4-模拟题2.json-group-q3",
-          "position": 3,
-          "questionId": 10,
-          "topic": "会议信息",
-          "prompt": "如果只有下午6点后有空，有哪些活动可以参加？",
-          "answer": "Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m.",
-          "preparationTime": 3,
-          "answerTime": 30,
-          "difficulty": "hard",
-          "keywords": "unfortunately no activities available sessions",
-          "questionBankAnswer": "Unfortunately, there are no activities available after 6 p.m., as all sessions end by 5 p.m."
-        }
-      ],
-      "reviewTime": 45,
-      "material": {
-        "headers": [
-          "Day",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "9:00–17:00",
-              "XXX Database Conference",
-              "The Crown Hotel",
-              "Opening speech, panel discussions and workshops"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "10:00–11:00",
-              "Database Security Session",
-              "The Crown Hotel",
-              "Led by Mr. XXX"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "15:00–16:00",
-              "Database Security Session",
-              "The Crown Hotel",
-              "Led by Mr. YYY"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
     },
     {
       "uid": "4-真题02新工作哪个能力最重要.json-group",
@@ -9690,110 +9048,6 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "4-模拟题3.json-group",
-      "part": 4,
-      "partName": "Part 4 信息回答",
-      "priority": "P2",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": "8/9/10",
-      "topic": "课程信息",
-      "prompt": "问课程开始时间和注册时间。\n一个活动是在周一举行吗？\n如果只有下午6点后有空，有哪些活动可以参加？",
-      "answer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby. No, the sessions are held on Tuesday and Thursday. Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon.",
-      "reason": "P2：整套属于课程、活动、票务等常见信息表，包含基础定位和第三题综合说明，适合第二轮练习快速查表与组织答案。",
-      "instructions": "请根据提供的信息回答问题： Day Time Activity Location Notes Monday 9:00–9:30 Registration & Welcome Coffee Main Lobby Check-in before sessions Tuesday 10:00–11:00 Clean Water and Sanitation Room A Led by Mr. Sandra Thursday 10:30–11:30 Life Below Water Room B Led by Peter Kemp",
-      "imagePath": "",
-      "preparationTime": "",
-      "answerTime": "",
-      "difficulty": "hard",
-      "keywords": "registration coffee start monday main no sessions held tuesday thursday unfortunately no activities available sessions",
-      "questions": [
-        {
-          "uid": "4-模拟题3.json-group-q1",
-          "position": 1,
-          "questionId": 8,
-          "topic": "课程信息",
-          "prompt": "问课程开始时间和注册时间。",
-          "answer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "hard",
-          "keywords": "registration coffee start monday main",
-          "questionBankAnswer": "Registration and welcome coffee start at 9 a.m. on Monday in the main lobby."
-        },
-        {
-          "uid": "4-模拟题3.json-group-q2",
-          "position": 2,
-          "questionId": 9,
-          "topic": "课程信息",
-          "prompt": "一个活动是在周一举行吗？",
-          "answer": "No, the sessions are held on Tuesday and Thursday.",
-          "preparationTime": 3,
-          "answerTime": 15,
-          "difficulty": "hard",
-          "keywords": "no sessions held tuesday thursday",
-          "questionBankAnswer": "No, the sessions are held on Tuesday and Thursday."
-        },
-        {
-          "uid": "4-模拟题3.json-group-q3",
-          "position": 3,
-          "questionId": 10,
-          "topic": "课程信息",
-          "prompt": "如果只有下午6点后有空，有哪些活动可以参加？",
-          "answer": "Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon.",
-          "preparationTime": 3,
-          "answerTime": 30,
-          "difficulty": "hard",
-          "keywords": "unfortunately no activities available sessions",
-          "questionBankAnswer": "Unfortunately, there are no activities available after 6 p.m. because all sessions finish before noon."
-        }
-      ],
-      "reviewTime": 45,
-      "material": {
-        "headers": [
-          "Day",
-          "Time",
-          "Activity",
-          "Location",
-          "Notes"
-        ],
-        "rows": [
-          {
-            "cells": [
-              "Monday",
-              "9:00–9:30",
-              "Registration & Welcome Coffee",
-              "Main Lobby",
-              "Check-in before sessions"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Tuesday",
-              "10:00–11:00",
-              "Clean Water and Sanitation",
-              "Room A",
-              "Led by Mr. Sandra"
-            ],
-            "status": ""
-          },
-          {
-            "cells": [
-              "Thursday",
-              "10:30–11:30",
-              "Life Below Water",
-              "Room B",
-              "Led by Peter Kemp"
-            ],
-            "status": ""
-          }
-        ],
-        "notes": [],
-        "missing": false
-      }
-    },
-    {
       "uid": "4-真题01沟通组织解决问题哪个重要.json-group",
       "part": 4,
       "partName": "Part 4 信息回答",
@@ -11058,46 +10312,6 @@ window.TOEIC_REVIEW_DATA = {
       }
     },
     {
-      "uid": "5-模拟题1.json-1",
-      "part": 5,
-      "partName": "Part 5 表达观点",
-      "priority": "P1",
-      "sourceFile": "模拟题1.json",
-      "bankName": "模拟题库-第1套",
-      "questionId": 1,
-      "topic": "能力优先选择",
-      "prompt": "你认为解决问题的能力、沟通能力和组织能力三个中哪个最重要？为什么？",
-      "answer": "I believe communication skills are the most important. Good communication helps people understand problems clearly and work together efficiently. It also reduces misunderstandings and improves teamwork, which leads to better results.",
-      "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
-      "instructions": "请针对以下情况表达一个观点：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 60,
-      "difficulty": "hard",
-      "keywords": "believe communication skills important good",
-      "questionBankAnswer": "I believe communication skills are the most important. Good communication helps people understand problems clearly and work together efficiently. It also reduces misunderstandings and improves teamwork, which leads to better results."
-    },
-    {
-      "uid": "5-模拟题2.json-11",
-      "part": 5,
-      "partName": "Part 5 表达观点",
-      "priority": "P1",
-      "sourceFile": "模拟题2.json",
-      "bankName": "模拟题库-第2套",
-      "questionId": 11,
-      "topic": "工作能力优先级",
-      "prompt": "你认为在就职新工作时，努力工作的意识和与同事良好沟通的能力哪个更重要？为什么？",
-      "answer": "I believe communicating well with colleagues is more important. Good communication helps new employees understand tasks quickly, avoid mistakes, and build positive relationships. It also makes teamwork more efficient and creates a better working environment.",
-      "reason": "职场沟通、团队协作、求职或公司制度类观点题，最贴近 TOEIC Speaking 高频主题。",
-      "instructions": "请针对以下情况表达一个观点：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 60,
-      "difficulty": "hard",
-      "keywords": "believe communicating well colleagues important",
-      "questionBankAnswer": "I believe communicating well with colleagues is more important. Good communication helps new employees understand tasks quickly, avoid mistakes, and build positive relationships. It also makes teamwork more efficient and creates a better working environment."
-    },
-    {
       "uid": "5-真题01沟通组织解决问题哪个重要.json-1",
       "part": 5,
       "partName": "Part 5 表达观点",
@@ -11636,26 +10850,6 @@ window.TOEIC_REVIEW_DATA = {
       "difficulty": "hard",
       "keywords": "experience technology makes harder balance",
       "questionBankAnswer": "In my experience, technology makes it harder to balance work and personal life. Work messages and emails can arrive at any time, even after office hours. People are often expected to respond quickly, which reduces relaxation time. Being constantly connected makes it difficult to disconnect fully. Therefore, technology can interfere with maintaining a healthy work-life balance."
-    },
-    {
-      "uid": "5-模拟题3.json-11",
-      "part": 5,
-      "partName": "Part 5 表达观点",
-      "priority": "P3",
-      "sourceFile": "模拟题3.json",
-      "bankName": "模拟题库-第3套",
-      "questionId": 11,
-      "topic": "图书馆改进",
-      "prompt": "如果你可以改变你们国家的图书馆，你想改变哪一件事，为什么？",
-      "answer": "I would improve the digital library system by adding more online books and study resources. This would allow people to access information anytime and make learning more convenient.",
-      "reason": "教育、科技、社会生活或个人偏好类观点题，用于补充覆盖面。",
-      "instructions": "请针对以下情况表达一个观点：",
-      "imagePath": "",
-      "preparationTime": 45,
-      "answerTime": 60,
-      "difficulty": "hard",
-      "keywords": "improve digital library system adding",
-      "questionBankAnswer": "I would improve the digital library system by adding more online books and study resources. This would allow people to access information anytime and make learning more convenient."
     },
     {
       "uid": "5-真题03改变国家图书馆.json-1",
